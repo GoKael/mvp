@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice — Bento Language Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --bg-deep: #020617;
+      --accent: #0EA5E9;
+      --glass: rgba(15, 23, 42, 0.8);
+    }
+    body {
+      background-color: var(--bg-deep);
+      color: #E2E8F0;
+      font-family: 'Inter', sans-serif;
+    }
+    .glass-card {
+      background: var(--glass);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 1.5rem;
+    }
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(4, 120px);
+      gap: 1.5rem;
+    }
+    .heatmap-col { display: grid; grid-template-rows: repeat(7, 10px); gap: 2px; }
+    .heatmap-cell { width: 10px; height: 10px; border-radius: 2px; background: rgba(255,255,255,0.05); }
+    
+    /* Animation for practice entry */
+    .practice-overlay {
+      position: fixed; inset: 0; background: var(--bg-deep); z-index: 100;
+      display: none; align-items: center; justify-content: center;
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .practice-overlay.active { display: flex; animation: practiceInit 0.5s forwards; }
+    
+    @keyframes practiceInit {
+      from { opacity: 0; clip-path: circle(0% at center); }
+      to { opacity: 1; clip-path: circle(150% at center); }
+    }
+    
+    .word-token {
+      cursor: pointer; padding: 0.2rem 0.4rem; border-radius: 0.5rem;
+      transition: all 0.2s;
+    }
+    .word-token:hover { background: rgba(255,255,255,0.1); }
+    .word-token.focal { color: #8B5CF6; font-weight: 800; text-shadow: 0 0 20px rgba(139, 92, 246, 0.3); }
+  </style>
+</head>
+<body class="p-8 h-screen overflow-hidden flex flex-col">
+  <!-- Nav Area -->
+  <nav class="flex items-center justify-between mb-12">
+    <div class="flex items-center gap-10">
+       <div class="text-2xl font-black tracking-tighter text-violet-400">Bento<span class="text-slate-100 italic">Core</span></div>
+       <div class="flex gap-8 text-sm font-bold tracking-wide">
+         <a href="vault.html" class="text-slate-400 hover:text-white transition-colors">VAULT</a>
+         <a href="memory.html" class="text-violet-400 border-b-2 border-violet-400 pb-2">PRACTICE</a>
+       </div>
+    </div>
+    <div id="stats-summary" class="flex gap-6 text-xs font-bold text-slate-500 uppercase tracking-widest">
+      <div>Today: <span id="today-count" class="text-slate-100 italic">0</span></div>
+      <div>Current Goal: <span class="text-violet-400">Active</span></div>
+    </div>
+  </nav>
+
+  <!-- Dashboard Overview -->
+  <div id="dashboard" class="flex-1 dashboard-grid max-w-7xl mx-auto w-full">
+    
+    <!-- Heatmap Card (Wide) -->
+    <div class="col-span-4 row-span-2 glass-card p-8 flex flex-col justify-between border-violet-500/10">
+      <div>
+        <h2 class="text-lg font-bold mb-1">Consistency Key</h2>
+        <p class="text-slate-500 text-sm">90 Days activity breakdown.</p>
+      </div>
+      <div id="heatmap-container" class="flex gap-1 items-end h-32 overflow-x-auto scrollbar-hide py-2">
+         <!-- Generated Columns -->
+      </div>
+    </div>
+
+    <!-- Start Session Card -->
+    <div id="start-session-card" class="col-span-2 row-span-2 glass-card bg-violet-600/10 border-violet-500/20 p-8 flex flex-col justify-center items-center gap-4 group cursor-pointer hover:bg-violet-600/20 transition-all">
+       <div class="w-20 h-20 rounded-full bg-violet-500 flex items-center justify-center shadow-[0_0_40px_rgba(139,92,246,0.3)] group-hover:scale-110 transition-transform">
+         <svg class="w-8 h-8 text-white fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg>
+       </div>
+       <div class="text-center">
+         <div class="text-2xl font-black">PRACTICE</div>
+         <div class="text-sm text-violet-400 font-bold uppercase tracking-wider">Start Session</div>
+       </div>
+    </div>
+
+    <!-- Progress Stats -->
+    <div class="col-span-2 row-span-2 glass-card p-8 flex flex-col justify-between">
+      <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Mastery Status</div>
+      <div class="flex-1 flex items-center justify-center relative">
+         <svg class="w-32 h-32 transform -rotate-90">
+           <circle cx="64" cy="64" r="58" stroke="currentColor" stroke-width="8" fill="transparent" class="text-slate-800" />
+           <circle cx="64" cy="64" r="58" stroke="currentColor" stroke-width="8" fill="transparent" stroke-dasharray="364.4" stroke-dashoffset="364.4" stroke-linecap="round" class="text-violet-500 transition-all duration-1000" id="progress-circle" />
+         </svg>
+         <div class="absolute inset-0 flex flex-col items-center justify-center">
+           <div id="mastery-percent" class="text-2xl font-black">0%</div>
+         </div>
+      </div>
+    </div>
+
+    <!-- Configuration Bento -->
+    <div class="col-span-4 row-span-2 glass-card p-8 grid grid-cols-2 gap-8 divide-x divide-slate-800">
+       <div class="flex flex-col justify-between">
+         <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Vocabulary Filter</div>
+         <div class="flex gap-2 flex-wrap" id="config-range">
+           <button data-val="1000" class="cfg-btn text-[10px] font-bold px-4 py-2 rounded-full border border-slate-700 bg-slate-800/40 hover:border-violet-500 transition-all">0 - 1K</button>
+           <button data-val="2000" class="cfg-btn text-[10px] font-bold px-4 py-2 rounded-full border border-slate-700 bg-slate-800/40 hover:border-violet-500 transition-all">0 - 2K</button>
+           <button data-val="8000" class="cfg-btn active text-[10px] font-bold px-4 py-2 rounded-full border border-violet-500 bg-violet-500/10 text-violet-400 shadow-lg transition-all">ALL 8K</button>
+         </div>
+       </div>
+       <div class="pl-8 flex flex-col justify-between">
+         <div class="flex justify-between items-center mb-4">
+           <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Session Size</div>
+           <div id="cfg-size-val" class="text-sm font-black text-violet-400">10</div>
+         </div>
+         <input type="range" id="session-slider" min="5" max="50" value="10" step="5" class="w-full accent-violet-500 h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer">
+       </div>
+    </div>
+
+  </div>
+
+  <!-- Fullscreen Practice Overlay -->
+  <div id="practice-overlay" class="practice-overlay">
+     <div class="max-w-4xl w-full px-8 flex flex-col gap-12">
+        <!-- Progress Bar -->
+        <div class="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
+           <div id="practice-progress" class="h-full bg-violet-500 transition-all duration-300 w-0"></div>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="text-xs font-bold text-slate-500 uppercase tracking-[0.3em] mb-4">Keyword Context</div>
+          <h3 id="target-word" class="text-4xl font-black tracking-tighter text-violet-400 mb-12">Word</h3>
+          
+          <div id="practice-sentence" class="text-5xl font-bold text-center leading-tight tracking-tight text-slate-100 flex flex-wrap justify-center gap-2 min-h-[160px]">
+             <!-- Populated words -->
+          </div>
+        </div>
+
+        <!-- Session Controls -->
+        <div class="flex justify-center gap-6 mt-12">
+          <button data-status="2" class="practice-action group flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-3xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-all shadow-xl">1</div>
+            <div class="text-[10px] font-bold text-emerald-500 uppercase tracking-widest">Known</div>
+          </button>
+          
+          <button data-status="1" class="practice-action group flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-3xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400 group-hover:bg-orange-500 group-hover:text-white transition-all shadow-xl">2</div>
+            <div class="text-[10px] font-bold text-orange-500 uppercase tracking-widest">Learn</div>
+          </button>
+
+          <button data-status="0" class="practice-action group flex flex-col items-center gap-3">
+            <div class="w-16 h-16 rounded-3xl bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 group-hover:bg-slate-700 group-hover:text-white transition-all">3</div>
+            <div class="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Skip</div>
+          </button>
+        </div>
+
+        <button id="exit-practice" class="self-center mt-20 text-slate-600 hover:text-white text-xs font-bold uppercase tracking-widest transition-colors">Terminate Session</button>
+     </div>
+     
+     <!-- Floating Dictionary Sidebar in Practice? Or just Popover? Let's use Sidebar for premium feel -->
+     <div id="practice-dict" class="fixed right-8 top-1/2 -translate-y-1/2 w-80 glass-card p-6 bg-slate-900/80 border-violet-500/10 hidden">
+        <h4 id="dict-word" class="text-2xl font-black mb-2 italic">Word</h4>
+        <p id="dict-trans" class="text-slate-300 text-sm leading-relaxed mb-4">Meaning...</p>
+        <div class="space-y-2" id="dict-examples"></div>
+     </div>
+  </div>
+
+  <script type="module" src="memory-new.js"></script>
+</body>
+</html>

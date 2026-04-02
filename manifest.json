@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Trilingual Subtitle Capture MVP",
+  "version": "1.0",
+  "description": "Capture YouTube subtitles for the Trilingual Language learning platform.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "tts"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "action": {},
+  "web_accessible_resources": [
+    {
+      "resources": ["dashboard/index.html", "vault.html", "memory.html", "styles.css", "server/data/lr_8k.json", "lib/force-graph.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["extension/content.js"]
+    }
+  ]
+}
