@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lexa - Word Library</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --surface: #141b2d;
+      --accent-gold: #fbbf24;
+      --text-muted: #94a3b8;
+    }
+
+    #dict-sidebar {
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 400px;
+      background: var(--surface);
+      border-left: 1px solid #1e293b;
+      display: none;
+      flex-direction: column;
+      z-index: 1000;
+      padding: 40px;
+      box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+    }
+
+    #dict-status-btns {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .status-btn {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      background: rgba(255,255,255,0.02);
+      transition: all 0.2s;
+    }
+    .status-btn:hover {
+      background: rgba(255,255,255,0.05);
+    }
+    .status-btn.active[data-status="2"] { background: rgba(34, 197, 94, 0.2); border-color: #22c55e; color: #22c55e; }
+    .status-btn.active[data-status="1"] { background: rgba(249, 115, 22, 0.2); border-color: #f97316; color: #f97316; }
+    .status-btn.active[data-status="3"] { background: rgba(107, 114, 128, 0.2); border-color: #6b7280; color: #6b7280; }
+
+    .sidebar-open #main-container {
+      margin-right: 400px;
+    }
+
+    .lexa-tab {
+      padding: 10px 0;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+      color: #6b7280;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    .lexa-tab.active {
+      color: #a78bfa;
+      border-bottom-color: #a78bfa;
+    }
+  </style>
+</head>
+<body class="sidebar-closed">
+  <aside class="sidebar">
+    <div style="margin-bottom:20px; width:100%; display:flex; justify-content:center;">
+       <a href="index.html" style="text-decoration:none; color:var(--accent-gold); font-weight:900; font-size:24px; padding:10px;">L</a>
+    </div>
+    <a href="index.html" class="sidebar-link active" data-tooltip="Vault">
+      <svg viewBox="0 0 24 24"><path d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"/></svg>
+    </a>
+    <a href="memory.html" class="sidebar-link" data-tooltip="Practice">
+      <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+    </a>
+    <a href="grammar.html" class="sidebar-link" data-tooltip="Grammar">
+      <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg>
+    </a>
+    <a href="gravity.html" class="sidebar-link" data-tooltip="Gravity Puzzle">
+      <svg viewBox="0 0 24 24"><path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5c0-1.38-1.12-2.5-2.5-2.5S8 2.12 8 3.5V5H4c-1.1 0-2 .9-2 2v4H.5c-1.38 0-2.5 1.12-2.5 2.5S-.88 16 .5 16H2v4c0 1.1.9 2 2 2h4v1.5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V22h4c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5z"/></svg>
+    </a>
+  </aside>
+
+  <div id="main-container" style="transition: margin-right 0.3s ease;">
+    <header class="vault-header">
+      <div style="display:flex; align-items:flex-end; gap:20px;">
+        <h1 style="margin:0; font-size:48px; font-weight:900; letter-spacing:-2px; background:linear-gradient(to right, #fff, #94a3b8); background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent;">Word Library</h1>
+        <div id="vault-stats" style="color:var(--text-muted); font-size:14px; margin-bottom:5px; font-weight:bold;">
+          <span id="stat-total" style="color:#fff;">0</span> WORDS TOTAL • 
+          <span id="stat-learning" style="color:var(--accent-gold);">0</span> LEARNING
+        </div>
+      </div>
+    </header>
+
+    <div id="vault-blocks-container"></div>
+  </div>
+
+  <div id="dict-sidebar">
+    <div id="dict-header" style="margin-bottom:30px;">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <h2 id="dict-word" style="margin:0; font-size:36px; font-weight:900; color:#fff; cursor:pointer;" title="Click to hear pronunciation">Word</h2>
+        <span id="dict-rank" style="font-size:14px; background:rgba(255,255,255,0.1); padding:4px 8px; border-radius:12px; color:#aaa;">#000</span>
+      </div>
+      <div id="dict-type" style="color:var(--text-muted); font-size:13px; margin-top:5px; font-weight:600; text-transform:uppercase;">Type</div>
+    </div>
+
+    <!-- Status Buttons (Known / Learning / Ignore) -->
+    <div id="dict-status-btns">
+      <button id="dict-btn-known" class="status-btn" data-status="2">Known</button>
+      <button id="dict-btn-learn" class="status-btn" data-status="1">Learning</button>
+      <button id="dict-btn-ignore" class="status-btn" data-status="3">Ignore</button>
+    </div>
+
+    <button id="study-btn" style="width:100%; padding:15px; background:var(--accent-gold); color:#000; border:none; border-radius:12px; font-weight:900; cursor:pointer; margin-bottom:30px; display:flex; align-items:center; justify-content:center; gap:10px;">
+       🚀 Study this
+    </button>
+
+    <div style="margin-bottom:20px;">
+      <div id="dict-hv" style="color:#fcd34d; font-size:14px; margin-bottom:10px; font-weight:700;">Hán-Việt: ...</div>
+      <div id="dict-trans" style="font-size:18px; color:#fff; line-height:1.5;">Meaning goes here.</div>
+    </div>
+
+    <!-- UI Tabs for AI Explanation / Grammar -->
+    <div style="display:flex; gap:20px; border-bottom:1px solid #1e293b; margin-bottom:20px;">
+      <div class="lexa-tab active" data-tab="examples">EXAMPLES</div>
+      <div class="lexa-tab" data-tab="explain">AI NOTE</div>
+      <div class="lexa-tab" data-tab="grammar">GRAMMAR</div>
+    </div>
+
+    <div id="tab-examples" class="tab-pane" style="display:flex; flex-direction:column; gap:12px; overflow-y:auto; max-height:400px; padding-right:10px;">
+        <div id="dict-examples"></div>
+    </div>
+    <div id="tab-explain" class="tab-pane" style="display:none; color:#cbd5e1; line-height:1.6; font-size:14px;"></div>
+    <div id="tab-grammar" class="tab-pane" style="display:none; color:#cbd5e1; line-height:1.6; font-size:14px;"></div>
+  </div>
+
+  <div id="sidebar-level"></div>
+
+  <script src="vault.js"></script>
+</body>
+</html>

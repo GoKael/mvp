@@ -1,0 +1,98 @@
+[
+  {
+    "id": "01",
+    "title": "Động từ (動詞)",
+    "subtitle": "動詞的應用",
+    "examples": [
+      { "v": "Tôi đi làm bằng xe máy.", "e": "I go to work by motorbike.", "c": "我騎摩托車去上班。" },
+      { "v": "Cô ấy hát rất hay.", "e": "She sings very well.", "c": "她唱得很好聽。" },
+      { "v": "Chúng tôi ăn phở sáng nay.", "e": "We ate pho this morning.", "c": "我們今天早上吃了越南粉。" },
+      { "v": "Bạn có muốn uống cà phê không?", "e": "Do you want to drink coffee?", "c": "你想喝咖啡嗎？" },
+      { "v": "Anh ấy đang đọc sách.", "e": "He is reading a book.", "c": "他正在看書。" }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "không + 動詞",
+    "subtitle": "不～、沒～",
+    "examples": [
+      { "v": "Tôi không biết anh ấy.", "e": "I don't know him.", "c": "我不認識他。" },
+      { "v": "Bạn không nên đi ra ngoài lúc này.", "e": "You shouldn't go out now.", "c": "你現在不應該出去。" },
+      { "v": "Cô ấy không ăn thịt bò.", "e": "She doesn't eat beef.", "c": "她不吃牛肉。" },
+      { "v": "Chúng tôi không thấy kết quả.", "e": "We don't see the result.", "c": "我們沒看到結果。" },
+      { "v": "Trời không mưa vào ngày mai.", "e": "It won't rain tomorrow.", "c": "明天不會下雨。" }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Tính từ (形容詞)",
+    "subtitle": "形容詞的應用",
+    "examples": [
+      { "v": "Ngôi nhà này rất lớn.", "e": "This house is very big.", "c": "這間房子很大。" },
+      { "v": "Tiếng Việt rất thú vị.", "e": "Vietnamese is very interesting.", "c": "越南語很有趣。" },
+      { "v": "Cô ấy là một người tốt.", "e": "She is a good person.", "c": "她是一個好人。" },
+      { "v": "Bữa tối hôm nay rất ngon.", "e": "Dinner today is very delicious.", "c": "今天的晚餐很好吃。" },
+      { "v": "Thời tiết hôm nay thật đẹp.", "e": "The weather today is really beautiful.", "c": "今天天氣真好。" }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "không + 形容詞",
+    "subtitle": "不～",
+    "examples": [
+      { "v": "Bài tập này không khó.", "e": "This exercise is not difficult.", "c": "這個練習不難。" },
+      { "v": "Anh ấy không cao lắm.", "e": "He is not very tall.", "c": "他不怎麼高。" },
+      { "v": "Món ăn này không cay.", "e": "This dish is not spicy.", "c": "這道菜不辣。" },
+      { "v": "Tôi không mệt.", "e": "I'm not tired.", "c": "我不累。" },
+      { "v": "Chiếc xe này không đắt.", "e": "This car is not expensive.", "c": "這輛車不貴。" }
+    ]
+  },
+  {
+    "id": "05",
+    "title": "có + 動詞／形容詞 + không?",
+    "subtitle": "有～嗎？",
+    "examples": [
+      { "v": "Bạn có khỏe không?", "e": "Are you well?", "c": "你好嗎？" },
+      { "v": "Anh ấy có đi họp không?", "e": "Does he go to the meeting?", "c": "他有去開會嗎？" },
+      { "v": "Món này có ngon không?", "e": "Is this dish delicious?", "c": "這個好吃嗎？" },
+      { "v": "Bạn có hiểu ý tôi không?", "e": "Do you understand my meaning?", "c": "你明白我的意思嗎？" },
+      { "v": "Cô ấy có đẹp không?", "e": "Is she beautiful?", "c": "她漂亮嗎？" }
+    ]
+  },
+  {
+    "id": "06",
+    "title": "là",
+    "subtitle": "是",
+    "examples": [
+      { "v": "Tôi là học sinh.", "e": "I am a student.", "c": "我是學生。" },
+      { "v": "Đây là món phở.", "e": "This is pho.", "c": "這是越南粉。" },
+      { "v": "Anh ấy là người tốt.", "e": "He is a good person.", "c": "他是個好人。" },
+      { "v": "Việt Nam là một đất nước đẹp.", "e": "Vietnam is a beautiful country.", "c": "越南是一個美麗的國家。" },
+      { "v": "Đó là chìa khóa của tôi.", "e": "That is my key.", "c": "那是我的鑰匙。" }
+    ]
+  },
+  {
+    "id": "07",
+    "title": "không phải là~",
+    "subtitle": "不是～",
+    "examples": [
+      { "v": "Tôi không phải là bác sĩ.", "e": "I am not a doctor.", "c": "我不是醫生。" },
+      { "v": "Đây không phải là lỗi của bạn.", "e": "This is not your fault.", "c": "這不是你的錯。" },
+      { "v": "Anh ấy không phải là người đó.", "e": "He is not that person.", "c": "他不是那個人。" },
+      { "v": "Đó không phải là sự thật.", "e": "That is not the truth.", "c": "那不是事實。" },
+      { "v": "Chúng tôi không phải là bạn thân.", "e": "We are not best friends.", "c": "我們不是好朋友。" }
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Có phải là + 名詞 + không?",
+    "subtitle": "是～嗎？",
+    "examples": [
+      { "v": "Có phải là anh ấy không?", "e": "Is it him?", "c": "是他嗎？" },
+      { "v": "Có phải là ngày mai không?", "e": "Is it tomorrow?", "c": "是明天嗎？" },
+      { "v": "Có phải là món này không?", "e": "Is it this dish?", "c": "是這道菜嗎？" },
+      { "v": "Có phải là sự thật không?", "e": "Is it the truth?", "c": "這是事實嗎？" },
+      { "v": "Có phải là bạn không?", "e": "Is it you?", "c": "是你嗎？" }
+    ]
+  }
+]

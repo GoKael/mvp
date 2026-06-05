@@ -1,0 +1,4250 @@
+{
+  "là": {
+    "word": "là",
+    "trans": "be (是)",
+    "hv": "là",
+    "type": "Verb",
+    "rank": 1,
+    "examples": [
+      {
+        "v": "Anh ấy là bạn thân của tôi.",
+        "e": "He is my best friend.",
+        "c": "他是我的好朋友。"
+      },
+      {
+        "v": "Đây là lần đầu tiên tôi đi du lịch.",
+        "e": "This is the first time I've traveled.",
+        "c": "這是我的第一次旅行。"
+      },
+      {
+        "v": "Đó là một ý kiến hay.",
+        "e": "That is a good idea.",
+        "c": "那是個好主意。"
+      }
+    ]
+  },
+  "và": {
+    "word": "và",
+    "trans": "and (和)",
+    "hv": "và",
+    "type": "Conj.",
+    "rank": 2,
+    "examples": [
+      {
+        "v": "Tôi thích ăn cơm và uống trà.",
+        "e": "I like eating rice and drinking tea.",
+        "c": "我喜歡吃飯跟喝茶。"
+      },
+      {
+        "v": "Lan và Mai là chị em họ.",
+        "e": "Lan and Mai are cousins.",
+        "c": "阿蘭跟阿梅是堂姊妹。"
+      },
+      {
+        "v": "Hãy tập trung và cố gắng hết mình.",
+        "e": "Focus and try your best.",
+        "c": "請專心並拼盡全力。"
+      }
+    ]
+  },
+  "của": {
+    "word": "của",
+    "trans": "of (的)",
+    "hv": "của",
+    "type": "Prep.",
+    "rank": 3,
+    "examples": [
+      {
+        "v": "Đây là chìa khóa của căn nhà.",
+        "e": "This is the key to the house.",
+        "c": "這是房子的鑰匙。"
+      },
+      {
+        "v": "Màu sắc của bầu trời thật đẹp.",
+        "e": "The color of the sky is beautiful.",
+        "c": "天空的顏色真美。"
+      },
+      {
+        "v": "Lỗi này không phải của riêng ai.",
+        "e": "This mistake is not anyone's alone.",
+        "c": "這個錯誤不是任何人的責任。"
+      }
+    ]
+  },
+  "có": {
+    "word": "có",
+    "trans": "have (有)",
+    "hv": "hữu",
+    "type": "Verb",
+    "rank": 4,
+    "examples": [
+      {
+        "v": "Tôi có rất nhiều việc phải làm.",
+        "e": "I have a lot of work to do.",
+        "c": "我有非常多事要做。"
+      },
+      {
+        "v": "Trong tủ lạnh có còn sữa không?",
+        "e": "Is there any milk left in the fridge?",
+        "c": "冰箱裡還有牛奶嗎？"
+      },
+      {
+        "v": "Có người đang chờ bạn ở cửa.",
+        "e": "Someone is waiting for you at the door.",
+        "c": "有人在門口等你。"
+      }
+    ]
+  },
+  "không": {
+    "word": "không",
+    "trans": "no/not (不/沒)",
+    "hv": "không",
+    "type": "Adverb",
+    "rank": 5,
+    "examples": [
+      {
+        "v": "Tôi không biết tiếng Pháp.",
+        "e": "I don't know French.",
+        "c": "我不會法文。"
+      },
+      {
+        "v": "Anh ấy không có ở nhà.",
+        "e": "He is not at home.",
+        "c": "他不在家。"
+      },
+      {
+        "v": "Bạn có khỏe không?",
+        "e": "How are you?",
+        "c": "你好嗎？"
+      }
+    ]
+  },
+  "trong": {
+    "word": "trong",
+    "trans": "in (在...裡面)",
+    "hv": "trung",
+    "type": "Prep.",
+    "rank": 6,
+    "examples": [
+      {
+        "v": "Tôi để ví tiền trong cặp sách.",
+        "e": "In my wallet.",
+        "c": "在錢包裡。"
+      },
+      {
+        "v": "Trong phòng bỗng nhiên im lặng.",
+        "e": "In the room.",
+        "c": "在房間裡。"
+      },
+      {
+        "v": "Cô ấy luôn ở trong tim tôi.",
+        "e": "In my heart.",
+        "c": "在心裡。"
+      }
+    ]
+  },
+  "một": {
+    "word": "một",
+    "trans": "one (一)",
+    "hv": "nhất",
+    "type": "Num.",
+    "rank": 7,
+    "examples": [
+      {
+        "v": "Cho tôi xin một cốc nước lọc.",
+        "e": "A glass of water.",
+        "c": "一杯水。"
+      },
+      {
+        "v": "Mọi chuyện chỉ là sự tình cờ.",
+        "e": "A coincidence.",
+        "c": "一個巧合。"
+      },
+      {
+        "v": "Anh ấy là một giáo viên giỏi.",
+        "e": "A good teacher.",
+        "c": "一位好老師。"
+      }
+    ]
+  },
+  "các": {
+    "word": "các",
+    "trans": "plural (各/諸)",
+    "hv": "các",
+    "type": "Det.",
+    "rank": 8,
+    "examples": [
+      {
+        "v": "Các bạn hãy chú ý nghe tôi nói.",
+        "e": "Everyone, listen.",
+        "c": "大家聽著。"
+      },
+      {
+        "v": "Các em học sinh đang đá bóng.",
+        "e": "The students play.",
+        "c": "學生們在玩。"
+      },
+      {
+        "v": "Các chuyên gia đang thảo luận.",
+        "e": "The experts talk.",
+        "c": "專家們在谈。"
+      }
+    ]
+  },
+  "cho": {
+    "word": "cho",
+    "trans": "give/for (給)",
+    "hv": "cho",
+    "type": "Verb",
+    "rank": 9,
+    "examples": [
+      {
+        "v": "Hãy cho tôi thêm thời gian.",
+        "e": "Give me time.",
+        "c": "給我時間。"
+      },
+      {
+        "v": "Tôi mua quà này cho mẹ.",
+        "e": "For my mother.",
+        "c": "為了我母親。"
+      },
+      {
+        "v": "Bố cho phép tôi đi chơi khuya.",
+        "e": "Allow me.",
+        "c": "准許我。"
+      }
+    ]
+  },
+  "được": {
+    "word": "được",
+    "trans": "get/can (得/能)",
+    "hv": "đắc",
+    "type": "Verb",
+    "rank": 10,
+    "examples": [
+      {
+        "v": "Tôi đã nhận được tin nhắn.",
+        "e": "Received message.",
+        "c": "收到訊息。"
+      },
+      {
+        "v": "Món này ăn được không?",
+        "e": "Edible?",
+        "c": "能吃嗎？"
+      },
+      {
+        "v": "Hôm nay tôi được nghỉ sớm.",
+        "e": "Off work.",
+        "c": "下班了。"
+      }
+    ]
+  },
+  "với": {
+    "word": "với",
+    "trans": "with (與)",
+    "hv": "với",
+    "type": "Prep.",
+    "rank": 11,
+    "examples": [
+      {
+        "v": "Tôi đi dạo cùng với bạn.",
+        "e": "With a friend.",
+        "c": "跟朋友。"
+      },
+      {
+        "v": "Đừng tranh cãi với anh ta.",
+        "e": "With him.",
+        "c": "跟他。"
+      },
+      {
+        "v": "Nói chuyện với cô ấy rất thú vị.",
+        "e": "With her.",
+        "c": "跟她。"
+      }
+    ]
+  },
+  "người": {
+    "word": "người",
+    "trans": "person (人)",
+    "hv": "nhân",
+    "type": "Noun",
+    "rank": 12,
+    "examples": [
+      {
+        "v": "Người Việt Nam rất thân thiện.",
+        "e": "Friendly person.",
+        "c": "友善的人。"
+      },
+      {
+        "v": "Có bao nhiêu người trong phòng?",
+        "e": "How many people?",
+        "c": "多少人？"
+      },
+      {
+        "v": "Tôi gặp một người quen cũ.",
+        "e": "Old friend.",
+        "c": "老朋友。"
+      }
+    ]
+  },
+  "ở": {
+    "word": "ở",
+    "trans": "at (在)",
+    "hv": "ở",
+    "type": "Verb/Prep.",
+    "rank": 13,
+    "examples": [
+      {
+        "v": "Tôi đang ở nhà một mình.",
+        "e": "At home.",
+        "c": "在家。"
+      },
+      {
+        "v": "Bạn sống ở đâu?",
+        "e": "In Hanoi.",
+        "c": "在河內。"
+      },
+      {
+        "v": "Cuốn sách ở trên bàn.",
+        "e": "Where?",
+        "c": "在哪裡？"
+      }
+    ]
+  },
+  "đã": {
+    "word": "đã",
+    "trans": "already (已經)",
+    "hv": "đã",
+    "type": "Adv.",
+    "rank": 14,
+    "examples": [
+      {
+        "v": "Tôi đã hoàn thành công việc.",
+        "e": "Finished eating.",
+        "c": "吃完了。"
+      },
+      {
+        "v": "Chuyện đó đã xảy ra từ lâu.",
+        "e": "Met before.",
+        "c": "見過面。"
+      },
+      {
+        "v": "Chúng tôi đã gặp nhau rồi.",
+        "e": "They finished.",
+        "c": "他們完成了。"
+      }
+    ]
+  },
+  "nhưng": {
+    "word": "nhưng",
+    "trans": "but (但)",
+    "hv": "nhưng",
+    "type": "Conj.",
+    "rank": 15,
+    "examples": [
+      {
+        "v": "Tôi muốn đi nhưng thấy hơi mệt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Món này rẻ nhưng rất ngon.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy giỏi nhưng hơi lười.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "phải": {
+    "word": "phải",
+    "trans": "must (必須)",
+    "hv": "phải",
+    "type": "Verb",
+    "rank": 16,
+    "examples": [
+      {
+        "v": "Bạn phải đi ngay bây giờ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Câu trả lời này đúng phải không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi phải học bài cho kỳ thi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "làm": {
+    "word": "làm",
+    "trans": "do (做)",
+    "hv": "làm",
+    "type": "Verb",
+    "rank": 17,
+    "examples": [
+      {
+        "v": "Bạn đang làm gì đấy?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi làm việc ở công ty này.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng làm mọi chuyện phức tạp lên.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đến": {
+    "word": "đến",
+    "trans": "arrive/to (到)",
+    "hv": "đến",
+    "type": "Verb",
+    "rank": 18,
+    "examples": [
+      {
+        "v": "Khi nào bạn đến nơi?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi đến từ miền Trung.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mùa đông sắp đến thật rồi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "về": {
+    "word": "về",
+    "trans": "return/about (回/關)",
+    "hv": "quy",
+    "type": "Verb/Prep.",
+    "rank": 19,
+    "examples": [
+      {
+        "v": "Tôi vừa mới về đến nhà.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chúng ta đang nói về chuyện gì?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Hãy kể cho tôi về gia đình bạn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "khi": {
+    "word": "khi",
+    "trans": "when (當)",
+    "hv": "khi",
+    "type": "Conj.",
+    "rank": 20,
+    "examples": [
+      {
+        "v": "Khi còn nhỏ, tôi rất nghịch.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Khi nào bạn rảnh thì gọi tôi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Lúc ra về nhớ khóa cửa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "thì": {
+    "word": "thì",
+    "trans": "then (則/就)",
+    "hv": "thời",
+    "type": "Conj.",
+    "rank": 21,
+    "examples": [
+      {
+        "v": "Nếu bạn cố gắng thì sẽ thành công.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi ăn cái này, còn bạn thì sao?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Sáng nay trời nắng, chiều thì mưa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ra": {
+    "word": "ra",
+    "trans": "out (出)",
+    "hv": "ra",
+    "type": "Verb/Adv.",
+    "rank": 22,
+    "examples": [
+      {
+        "v": "Hãy đi ra ngoài hít thở không khí.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mặt trời bắt đầu mọc ra.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bạn đã tìm ra chìa khóa chưa?",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "vào": {
+    "word": "vào",
+    "trans": "in/enter (入)",
+    "hv": "nhập",
+    "type": "Verb/Prep.",
+    "rank": 23,
+    "examples": [
+      {
+        "v": "Mời bạn vào trong nhà chơi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy vừa vào công ty làm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng đi vào lối đó.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "lên": {
+    "word": "lên",
+    "trans": "up (上)",
+    "hv": "lên",
+    "type": "Verb/Adv.",
+    "rank": 24,
+    "examples": [
+      {
+        "v": "Hãy leo lên tầng thượng xem.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Giá cả dạo này tăng lên quá.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cố gắng lên, sắp xong rồi!",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đi": {
+    "word": "đi",
+    "trans": "go (去/走)",
+    "hv": "đi",
+    "type": "Verb",
+    "rank": 25,
+    "examples": [
+      {
+        "v": "Chúng ta cùng đi xem phim nhé.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thường đi bộ buổi sáng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đã đi công tác rồi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "biết": {
+    "word": "biết",
+    "trans": "know (知道)",
+    "hv": "tri",
+    "type": "Verb",
+    "rank": 26,
+    "examples": [
+      {
+        "v": "Tôi biết cách giải bài toán này.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Có ai biết anh ấy ở đâu không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi không biết tiếng Pháp.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "muốn": {
+    "word": "muốn",
+    "trans": "want (想)",
+    "hv": "muốn",
+    "type": "Verb",
+    "rank": 27,
+    "examples": [
+      {
+        "v": "Tôi muốn mua một chiếc máy tính.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bạn có muốn ăn gì không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy muốn trở thành bác sĩ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "thấy": {
+    "word": "thấy",
+    "trans": "see/feel (覺/見)",
+    "hv": "kiến",
+    "type": "Verb",
+    "rank": 28,
+    "examples": [
+      {
+        "v": "Tôi thấy rất vui khi gặp bạn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bạn có thấy cuốn sổ của tôi không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thấy ý tưởng này rất hay.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nói": {
+    "word": "nói",
+    "trans": "say (說)",
+    "hv": "nói",
+    "type": "Verb",
+    "rank": 29,
+    "examples": [
+      {
+        "v": "Hãy nói cho tôi nghe sự thật.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Họ đang nói chuyện gì vậy?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nói to quá ở đây.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "cái": {
+    "word": "cái",
+    "trans": "unit (個)",
+    "hv": "cái",
+    "type": "Cl.",
+    "rank": 30,
+    "examples": [
+      {
+        "v": "Cái này giá bao nhiêu?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mỗi cái đều có vẻ đẹp riêng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thích cái màu xanh kia.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "này": {
+    "word": "này",
+    "trans": "this (這)",
+    "hv": "này",
+    "type": "Det.",
+    "rank": 31,
+    "examples": [
+      {
+        "v": "Người này là ai vậy?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Món ăn này rất đặc biệt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Lần này tôi sẽ thắng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đó": {
+    "word": "đó",
+    "trans": "that (那)",
+    "hv": "đó",
+    "type": "Det.",
+    "rank": 32,
+    "examples": [
+      {
+        "v": "Ngày đó trời mưa rất to.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đó là lỗi của tôi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bạn còn nhớ người đó không?",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nào": {
+    "word": "nào",
+    "trans": "which (哪)",
+    "hv": "nào",
+    "type": "Det.",
+    "rank": 33,
+    "examples": [
+      {
+        "v": "Bạn thích màu sắc nào?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Lúc nào bạn cũng bận rộn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Không có cách nào khác đâu.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đâu": {
+    "word": "đâu",
+    "trans": "where (哪裡)",
+    "hv": "đâu",
+    "type": "Pronoun",
+    "rank": 34,
+    "examples": [
+      {
+        "v": "Bạn đang ở đâu thế?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi có thấy gì đâu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chuyện đó đâu có dễ dàng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ai": {
+    "word": "ai",
+    "trans": "who (誰)",
+    "hv": "ai",
+    "type": "Pronoun",
+    "rank": 35,
+    "examples": [
+      {
+        "v": "Ai là người nấu món này?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Không có ai ở nhà cả.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Ai cũng thích cái đẹp.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "gì": {
+    "word": "gì",
+    "trans": "what (什麼)",
+    "hv": "gì",
+    "type": "Pronoun",
+    "rank": 36,
+    "examples": [
+      {
+        "v": "Bạn đang tìm cái gì vậy?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chẳng có gì đáng lo cả.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Làm gì có chuyện vô lý thế.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mỗi": {
+    "word": "mỗi",
+    "trans": "each (每)",
+    "hv": "mỗi",
+    "type": "Det.",
+    "rank": 37,
+    "examples": [
+      {
+        "v": "Mỗi người có một sở thích.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mỗi ngày tôi đều chạy bộ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chỉ có mỗi mình tôi ở đây.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mới": {
+    "word": "mới",
+    "trans": "new/just (新/才)",
+    "hv": "mới",
+    "type": "Adj/Adv",
+    "rank": 38,
+    "examples": [
+      {
+        "v": "Tôi vừa mua một đôi giày mới.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đến bây giờ tôi mới hiểu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái này trông vẫn còn mới lắm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nhà": {
+    "word": "nhà",
+    "trans": "house (家)",
+    "hv": "gia",
+    "type": "Noun",
+    "rank": 39,
+    "examples": [
+      {
+        "v": "Nhà tôi ở gần công viên.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bạn có ở nhà không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Gia đình là tổ ấm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đời": {
+    "word": "đời",
+    "trans": "life (世/代)",
+    "hv": "đời",
+    "type": "Noun",
+    "rank": 40,
+    "examples": [
+      {
+        "v": "Cuộc đời thật lắm bất ngờ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đời người ngắn ngủi lắm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đây là mốt của đời mới.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ông": {
+    "word": "ông",
+    "trans": "grandfather/mr (翁)",
+    "hv": "ông",
+    "type": "Noun",
+    "rank": 41,
+    "examples": [
+      {
+        "v": "Ông tôi năm nay đã 80 tuổi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chào ông, ông cần giúp gì?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Ông ấy là một doanh nhân.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bà": {
+    "word": "bà",
+    "trans": "grandmother/ms (婆)",
+    "hv": "bà",
+    "type": "Noun",
+    "rank": 42,
+    "examples": [
+      {
+        "v": "Bà nội tôi nấu ăn rất ngon.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chào bà, bà khỏe không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bà ấy là một bác sĩ tận tâm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "anh": {
+    "word": "anh",
+    "trans": "brother/you (兄)",
+    "hv": "anh",
+    "type": "Noun",
+    "rank": 43,
+    "examples": [
+      {
+        "v": "Anh trai tôi đang đi làm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh có thể giúp tôi không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy rất tốt bụng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "chị": {
+    "word": "chị",
+    "trans": "sister/you (姊)",
+    "hv": "tỷ",
+    "type": "Noun",
+    "rank": 44,
+    "examples": [
+      {
+        "v": "Chị gái tôi thích vẽ tranh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chị đang làm gì đó?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chị ấy rất thông minh.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "em": {
+    "word": "em",
+    "trans": "junior (弟/妹)",
+    "hv": "em",
+    "type": "Noun",
+    "rank": 45,
+    "examples": [
+      {
+        "v": "Em út của tôi rất nghịch.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Em có đói không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Em ấy là một học sinh giỏi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "con": {
+    "word": "con",
+    "trans": "child/animal (子)",
+    "hv": "tử",
+    "type": "Noun",
+    "rank": 46,
+    "examples": [
+      {
+        "v": "Con tôi đang học bài.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Con mèo này rất đáng yêu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đường này có nhiều con dốc.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ngày": {
+    "word": "ngày",
+    "trans": "day (日)",
+    "hv": "nhật",
+    "type": "Noun",
+    "rank": 47,
+    "examples": [
+      {
+        "v": "Hôm nay là một ngày đẹp trời.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi làm việc 8 tiếng một ngày.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Ngày mai chúng ta đi chơi nhé.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "năm": {
+    "word": "năm",
+    "trans": "year (年)",
+    "hv": "niên",
+    "type": "Noun",
+    "rank": 48,
+    "examples": [
+      {
+        "v": "Năm nay tôi 20 tuổi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chúc mừng năm mới!",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Năm ngoái tôi đi du lịch Đà Lạt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tháng": {
+    "word": "tháng",
+    "trans": "month (月)",
+    "hv": "nguyệt",
+    "type": "Noun",
+    "rank": 49,
+    "examples": [
+      {
+        "v": "Tháng này có 31 ngày.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi sẽ đi dự tiệc vào tháng sau.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Trăng tháng mười rất sáng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "giờ": {
+    "word": "giờ",
+    "trans": "hour/now (時)",
+    "hv": "giờ",
+    "type": "Noun",
+    "rank": 50,
+    "examples": [
+      {
+        "v": "Bây giờ là mấy giờ rồi?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi đợi bạn suốt hai giờ đồng hồ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đến giờ đi ngủ rồi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đầu": {
+    "word": "đầu",
+    "trans": "head (頭)",
+    "hv": "đầu",
+    "type": "Noun",
+    "rank": 51,
+    "examples": [
+      {
+        "v": "Tôi bị đau đầu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Hãy ngẩng cao đầu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đầu óc anh ấy rất nhanh nhạy.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tóc": {
+    "word": "tóc",
+    "trans": "hair (髮)",
+    "hv": "phát",
+    "type": "Noun",
+    "rank": 52,
+    "examples": [
+      {
+        "v": "Cô ấy có mái tóc dài.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi vừa đi cắt tóc về.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tóc ông ấy đã bạc trắng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mặt": {
+    "word": "mặt",
+    "trans": "face (面)",
+    "hv": "diện",
+    "type": "Noun",
+    "rank": 53,
+    "examples": [
+      {
+        "v": "Rửa mặt cho tỉnh táo.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Khuôn mặt cô ấy rất tươi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng làm mất mặt tôi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mắt": {
+    "word": "mắt",
+    "trans": "eye (目)",
+    "hv": "mục",
+    "type": "Noun",
+    "rank": 54,
+    "examples": [
+      {
+        "v": "Đôi mắt là cửa sổ tâm hồn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mắt tôi hơi mỏi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cô ấy có đôi mắt rất đẹp.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tai": {
+    "word": "tai",
+    "trans": "ear (耳)",
+    "hv": "nhĩ",
+    "type": "Noun",
+    "rank": 55,
+    "examples": [
+      {
+        "v": "Tai tôi hơi bị ù.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nghe tai này lọt tai kia.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy có đôi tai rất thính.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mũi": {
+    "word": "mũi",
+    "trans": "nose (鼻)",
+    "hv": "tỵ",
+    "type": "Noun",
+    "rank": 56,
+    "examples": [
+      {
+        "v": "Mũi bạn bị đỏ kìa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi bị ngạt mũi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy có sống mũi cao.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "miệng": {
+    "word": "miệng",
+    "trans": "mouth (口)",
+    "hv": "khẩu",
+    "type": "Noun",
+    "rank": 57,
+    "examples": [
+      {
+        "v": "Hãy ngậm miệng lại.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Khuôn miệng cô ấy rất xinh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nói miệng không, hãy làm đi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "răng": {
+    "word": "răng",
+    "trans": "tooth (牙)",
+    "hv": "nha",
+    "type": "Noun",
+    "rank": 58,
+    "examples": [
+      {
+        "v": "Tôi cần đi khám răng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đau răng thật là khó chịu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bé mới mọc hai cái răng cửa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tay": {
+    "word": "tay",
+    "trans": "hand (手)",
+    "hv": "thủ",
+    "type": "Noun",
+    "rank": 59,
+    "examples": [
+      {
+        "v": "Rửa tay trước khi ăn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nắm lấy tay tôi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bàn tay anh ấy rất ấm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "chân": {
+    "word": "chân",
+    "trans": "foot (足)",
+    "hv": "túc",
+    "type": "Noun",
+    "rank": 60,
+    "examples": [
+      {
+        "v": "Tôi đi bộ nên mỏi chân.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đứng vững trên đôi chân mình.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy bị đau chân.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "lưng": {
+    "word": "lưng",
+    "trans": "back (背)",
+    "hv": "bối",
+    "type": "Noun",
+    "rank": 61,
+    "examples": [
+      {
+        "v": "Tôi bị đau lưng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Hãy đứng thẳng lưng lên.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy vác bao gạo trên lưng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bụng": {
+    "word": "bụng",
+    "trans": "stomach (腹)",
+    "hv": "phúc",
+    "type": "Noun",
+    "rank": 62,
+    "examples": [
+      {
+        "v": "Tôi bị đau bụng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng để bụng đói.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cố gắng đừng suy nghĩ trong bụng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "thuốc": {
+    "word": "thuốc",
+    "trans": "medicine (藥)",
+    "hv": "dược",
+    "type": "Noun",
+    "rank": 63,
+    "examples": [
+      {
+        "v": "Bạn đã uống thuốc chưa?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đây là thuốc giảm đau.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mua thuốc ở hiệu thuốc tây.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "khám": {
+    "word": "khám",
+    "trans": "examine (檢)",
+    "hv": "khám",
+    "type": "Verb",
+    "rank": 64,
+    "examples": [
+      {
+        "v": "Tôi đi khám sức khỏe.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bác sĩ đang khám bệnh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Hãy đi khám ngay nếu thấy mệt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bệnh": {
+    "word": "bệnh",
+    "trans": "illness (病)",
+    "hv": "bệnh",
+    "type": "Noun",
+    "rank": 65,
+    "examples": [
+      {
+        "v": "Anh ấy đang mắc bệnh nặng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Căn bệnh này rất lây lan.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Phòng bệnh hơn chữa bệnh.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đau": {
+    "word": "đau",
+    "trans": "pain (痛)",
+    "hv": "thống",
+    "type": "Noun/Adj",
+    "rank": 66,
+    "examples": [
+      {
+        "v": "Tôi bị đau ở vai.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nỗi đau này thật khó quên.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bạn có thấy đau không?",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mệt": {
+    "word": "mệt",
+    "trans": "tired (勞)",
+    "hv": "mệt",
+    "type": "Adj",
+    "rank": 67,
+    "examples": [
+      {
+        "v": "Tôi cảm thấy hơi mệt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Công việc này rất mệt mỏi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nghỉ ngơi một chút cho đỡ mệt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "chợ": {
+    "word": "chợ",
+    "trans": "market (市)",
+    "hv": "thị",
+    "type": "Noun",
+    "rank": 68,
+    "examples": [
+      {
+        "v": "Mẹ tôi đi chợ sớm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chợ hôm nay rất đông người.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thích đi dạo ở chợ đêm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "trường": {
+    "word": "trường",
+    "trans": "school (校)",
+    "hv": "hiệu",
+    "type": "Noun",
+    "rank": 69,
+    "examples": [
+      {
+        "v": "Tôi đi học ở trường.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Trường học rộng lắm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Thầy cô ở trường rất tốt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "biển": {
+    "word": "biển",
+    "trans": "sea/beach (海)",
+    "hv": "hải",
+    "type": "Noun",
+    "rank": 70,
+    "examples": [
+      {
+        "v": "Mùa hè đi biển là nhất.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nước biển rất xanh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thích ngắm biển ban đêm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "núi": {
+    "word": "núi",
+    "trans": "mountain (山)",
+    "hv": "sơn",
+    "type": "Noun",
+    "rank": 71,
+    "examples": [
+      {
+        "v": "Leo núi rất vất vả nhưng vui.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Ngọn núi cao chót vót.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nhà tôi ở vùng núi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "phòng": {
+    "word": "phòng",
+    "trans": "room (房)",
+    "hv": "phòng",
+    "type": "Noun",
+    "rank": 72,
+    "examples": [
+      {
+        "v": "Phòng của tôi hơi nhỏ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Có ai trong phòng không?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Hãy dọn dẹp phòng sạch sẽ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bếp": {
+    "word": "bếp",
+    "trans": "kitchen (廚)",
+    "hv": "bộc",
+    "type": "Noun",
+    "rank": 73,
+    "examples": [
+      {
+        "v": "Mẹ đang nấu cơm trong bếp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Căn bếp rất ấm cúng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bếp núc là việc của tôi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ăn": {
+    "word": "ăn",
+    "trans": "eat (吃)",
+    "hv": "ngận",
+    "type": "Verb",
+    "rank": 74,
+    "examples": [
+      {
+        "v": "Bạn ăn tối chưa?",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mời cả nhà ăn cơm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thích ăn đồ ngọt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "uống": {
+    "word": "uống",
+    "trans": "drink (喝)",
+    "hv": "uống",
+    "type": "Verb",
+    "rank": 75,
+    "examples": [
+      {
+        "v": "Cho tôi uống một chút nước.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng uống nhiều rượu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thích uống nước cam.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ngủ": {
+    "word": "ngủ",
+    "trans": "sleep (睡)",
+    "hv": "thụy",
+    "type": "Verb",
+    "rank": 76,
+    "examples": [
+      {
+        "v": "Chúc bạn ngủ ngon.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi thường ngủ lúc 11 giờ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bé đang ngủ say.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "chạy": {
+    "word": "chạy",
+    "trans": "run (跑)",
+    "hv": "tẩu",
+    "type": "Verb",
+    "rank": 77,
+    "examples": [
+      {
+        "v": "Chạy bộ rất tốt cho sức khỏe.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng chạy quá nhanh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy chạy rất nhanh.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "học": {
+    "word": "học",
+    "trans": "study (學)",
+    "hv": "học",
+    "type": "Verb",
+    "rank": 78,
+    "examples": [
+      {
+        "v": "Tôi đang học tiếng Việt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Học hành là việc cả đời.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Bé chăm chỉ học bài.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "chơi": {
+    "word": "chơi",
+    "trans": "play (玩)",
+    "hv": "du",
+    "type": "Verb",
+    "rank": 79,
+    "examples": [
+      {
+        "v": "Trẻ con thích chơi đồ chơi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đi chơi thôi!",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng mải chơi quá.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "cười": {
+    "word": "cười",
+    "trans": "smile (笑)",
+    "hv": "tiếu",
+    "type": "Verb",
+    "rank": 80,
+    "examples": [
+      {
+        "v": "Hãy luôn mỉm cười.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Câu chuyện làm tôi buồn cười.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cô ấy có nụ cười tỏa nắng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "khóc": {
+    "word": "khóc",
+    "trans": "cry (哭)",
+    "hv": "khốc",
+    "type": "Verb",
+    "rank": 81,
+    "examples": [
+      {
+        "v": "Đừng khóc nữa mà.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cô ấy khóc vì cảm động.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Em bé đang khóc nhè.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đẹp": {
+    "word": "đẹp",
+    "trans": "beautiful (美)",
+    "hv": "mỹ",
+    "type": "Adj",
+    "rank": 82,
+    "examples": [
+      {
+        "v": "Cảnh quan thật đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cô ấy có đôi tay rất đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Một ngày đẹp trời.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "xấu": {
+    "word": "xấu",
+    "trans": "ugly/bad (醜)",
+    "hv": "xấu",
+    "type": "Adj",
+    "rank": 83,
+    "examples": [
+      {
+        "v": "Cái này trông hơi xấu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nói xấu người khác.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Thời tiết hôm nay rất xấu.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tốt": {
+    "word": "tốt",
+    "trans": "good (好)",
+    "hv": "tốt",
+    "type": "Adj",
+    "rank": 84,
+    "examples": [
+      {
+        "v": "Anh ấy là người tốt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mọi chuyện sẽ tốt đẹp thôi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Kết quả học tập rất tốt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "to": {
+    "word": "to",
+    "trans": "big (大)",
+    "hv": "đại",
+    "type": "Adj",
+    "rank": 85,
+    "examples": [
+      {
+        "v": "Cái bánh này to quá.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nói to lên tôi không nghe thấy.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy có tham vọng to lớn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nhỏ": {
+    "word": "nhỏ",
+    "trans": "small (小)",
+    "hv": "tiểu",
+    "type": "Adj",
+    "rank": 86,
+    "examples": [
+      {
+        "v": "Con mèo nhỏ xinh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Việc nhỏ đừng xé ra to.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Chi tiết này rất nhỏ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "dài": {
+    "word": "dài",
+    "trans": "long (長)",
+    "hv": "trường",
+    "type": "Adj",
+    "rank": 87,
+    "examples": [
+      {
+        "v": "Con đường dài dặc.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Mái tóc dài mượt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Câu chuyện này hơi dài.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ngắn": {
+    "word": "ngắn",
+    "trans": "short (短)",
+    "hv": "đoản",
+    "type": "Adj",
+    "rank": 88,
+    "examples": [
+      {
+        "v": "Cái váy này hơi ngắn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Câu trả lời rất ngắn gọn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Thời gian còn lại rất ngắn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "cao": {
+    "word": "cao",
+    "trans": "high (高)",
+    "hv": "cao",
+    "type": "Adj",
+    "rank": 89,
+    "examples": [
+      {
+        "v": "Bức tường rất cao.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy cao hơn tôi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Lương của sếp rất cao.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "thấp": {
+    "word": "thấp",
+    "trans": "low (低)",
+    "hv": "đê",
+    "type": "Adj",
+    "rank": 90,
+    "examples": [
+      {
+        "v": "Cái bàn này hơi thấp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Giọng nói của anh ấy hơi thấp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Nhiệt độ xuống thấp.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bàn": {
+    "word": "bàn",
+    "trans": "bàn (item) (物)",
+    "hv": "bàn",
+    "type": "Noun",
+    "rank": 91,
+    "examples": [
+      {
+        "v": "Đây là cái bàn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái bàn này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái bàn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ghế": {
+    "word": "ghế",
+    "trans": "ghế (item) (物)",
+    "hv": "ghế",
+    "type": "Noun",
+    "rank": 92,
+    "examples": [
+      {
+        "v": "Đây là cái ghế.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái ghế này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái ghế.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tủ": {
+    "word": "tủ",
+    "trans": "tủ (item) (物)",
+    "hv": "tủ",
+    "type": "Noun",
+    "rank": 93,
+    "examples": [
+      {
+        "v": "Đây là cái tủ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái tủ này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái tủ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "giường": {
+    "word": "giường",
+    "trans": "giường (item) (物)",
+    "hv": "giường",
+    "type": "Noun",
+    "rank": 94,
+    "examples": [
+      {
+        "v": "Đây là cái giường.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái giường này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái giường.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "dao": {
+    "word": "dao",
+    "trans": "dao (item) (物)",
+    "hv": "dao",
+    "type": "Noun",
+    "rank": 95,
+    "examples": [
+      {
+        "v": "Đây là cái dao.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái dao này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái dao.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "kéo": {
+    "word": "kéo",
+    "trans": "kéo (item) (物)",
+    "hv": "kéo",
+    "type": "Noun",
+    "rank": 96,
+    "examples": [
+      {
+        "v": "Đây là cái kéo.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái kéo này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái kéo.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bút": {
+    "word": "bút",
+    "trans": "bút (item) (物)",
+    "hv": "bút",
+    "type": "Noun",
+    "rank": 97,
+    "examples": [
+      {
+        "v": "Đây là cái bút.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái bút này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái bút.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "vở": {
+    "word": "vở",
+    "trans": "vở (item) (物)",
+    "hv": "vở",
+    "type": "Noun",
+    "rank": 98,
+    "examples": [
+      {
+        "v": "Đây là cái vở.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái vở này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái vở.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "giấy": {
+    "word": "giấy",
+    "trans": "giấy (item) (物)",
+    "hv": "giấy",
+    "type": "Noun",
+    "rank": 99,
+    "examples": [
+      {
+        "v": "Đây là cái giấy.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái giấy này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái giấy.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "máy": {
+    "word": "máy",
+    "trans": "máy (item) (物)",
+    "hv": "máy",
+    "type": "Noun",
+    "rank": 100,
+    "examples": [
+      {
+        "v": "Đây là cái máy.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái máy này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái máy.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "xe": {
+    "word": "xe",
+    "trans": "xe (item) (物)",
+    "hv": "xe",
+    "type": "Noun",
+    "rank": 101,
+    "examples": [
+      {
+        "v": "Đây là cái xe.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái xe này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái xe.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tàu": {
+    "word": "tàu",
+    "trans": "tàu (item) (物)",
+    "hv": "tàu",
+    "type": "Noun",
+    "rank": 102,
+    "examples": [
+      {
+        "v": "Đây là cái tàu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái tàu này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái tàu.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "thuyền": {
+    "word": "thuyền",
+    "trans": "thuyền (item) (物)",
+    "hv": "thuyền",
+    "type": "Noun",
+    "rank": 103,
+    "examples": [
+      {
+        "v": "Đây là cái thuyền.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái thuyền này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái thuyền.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "máy bay": {
+    "word": "máy bay",
+    "trans": "máy bay (item) (物)",
+    "hv": "máy bay",
+    "type": "Noun",
+    "rank": 104,
+    "examples": [
+      {
+        "v": "Đây là cái máy bay.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái máy bay này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái máy bay.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "điện thoại": {
+    "word": "điện thoại",
+    "trans": "điện thoại (item) (物)",
+    "hv": "điện thoại",
+    "type": "Noun",
+    "rank": 105,
+    "examples": [
+      {
+        "v": "Đây là cái điện thoại.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái điện thoại này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái điện thoại.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tivi": {
+    "word": "tivi",
+    "trans": "tivi (item) (物)",
+    "hv": "tivi",
+    "type": "Noun",
+    "rank": 106,
+    "examples": [
+      {
+        "v": "Đây là cái tivi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái tivi này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái tivi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "loa": {
+    "word": "loa",
+    "trans": "loa (item) (物)",
+    "hv": "loa",
+    "type": "Noun",
+    "rank": 107,
+    "examples": [
+      {
+        "v": "Đây là cái loa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái loa này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái loa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đàn": {
+    "word": "đàn",
+    "trans": "đàn (item) (物)",
+    "hv": "đàn",
+    "type": "Noun",
+    "rank": 108,
+    "examples": [
+      {
+        "v": "Đây là cái đàn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái đàn này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái đàn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "sách": {
+    "word": "sách",
+    "trans": "sách (item) (物)",
+    "hv": "sách",
+    "type": "Noun",
+    "rank": 109,
+    "examples": [
+      {
+        "v": "Đây là cái sách.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái sách này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái sách.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "báo": {
+    "word": "báo",
+    "trans": "báo (item) (物)",
+    "hv": "báo",
+    "type": "Noun",
+    "rank": 110,
+    "examples": [
+      {
+        "v": "Đây là cái báo.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái báo này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái báo.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "truyện": {
+    "word": "truyện",
+    "trans": "truyện (item) (物)",
+    "hv": "truyện",
+    "type": "Noun",
+    "rank": 111,
+    "examples": [
+      {
+        "v": "Đây là cái truyện.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái truyện này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái truyện.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tranh": {
+    "word": "tranh",
+    "trans": "tranh (item) (物)",
+    "hv": "tranh",
+    "type": "Noun",
+    "rank": 112,
+    "examples": [
+      {
+        "v": "Đây là cái tranh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái tranh này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái tranh.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ảnh": {
+    "word": "ảnh",
+    "trans": "ảnh (item) (物)",
+    "hv": "ảnh",
+    "type": "Noun",
+    "rank": 113,
+    "examples": [
+      {
+        "v": "Đây là cái ảnh.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái ảnh này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái ảnh.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "hoa": {
+    "word": "hoa",
+    "trans": "hoa (item) (物)",
+    "hv": "hoa",
+    "type": "Noun",
+    "rank": 114,
+    "examples": [
+      {
+        "v": "Đây là cái hoa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái hoa này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái hoa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "lá": {
+    "word": "lá",
+    "trans": "lá (item) (物)",
+    "hv": "lá",
+    "type": "Noun",
+    "rank": 115,
+    "examples": [
+      {
+        "v": "Đây là cái lá.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái lá này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái lá.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "cây": {
+    "word": "cây",
+    "trans": "cây (item) (物)",
+    "hv": "cây",
+    "type": "Noun",
+    "rank": 116,
+    "examples": [
+      {
+        "v": "Đây là cái cây.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái cây này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái cây.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "cỏ": {
+    "word": "cỏ",
+    "trans": "cỏ (item) (物)",
+    "hv": "cỏ",
+    "type": "Noun",
+    "rank": 117,
+    "examples": [
+      {
+        "v": "Đây là cái cỏ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái cỏ này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái cỏ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đá": {
+    "word": "đá",
+    "trans": "đá (item) (物)",
+    "hv": "đá",
+    "type": "Noun",
+    "rank": 118,
+    "examples": [
+      {
+        "v": "Đây là cái đá.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái đá này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái đá.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "sông": {
+    "word": "sông",
+    "trans": "sông (item) (物)",
+    "hv": "sông",
+    "type": "Noun",
+    "rank": 119,
+    "examples": [
+      {
+        "v": "Đây là cái sông.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái sông này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái sông.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "hồ": {
+    "word": "hồ",
+    "trans": "hồ (item) (物)",
+    "hv": "hồ",
+    "type": "Noun",
+    "rank": 120,
+    "examples": [
+      {
+        "v": "Đây là cái hồ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái hồ này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái hồ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mưa": {
+    "word": "mưa",
+    "trans": "mưa (item) (物)",
+    "hv": "mưa",
+    "type": "Noun",
+    "rank": 121,
+    "examples": [
+      {
+        "v": "Đây là cái mưa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái mưa này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái mưa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nắng": {
+    "word": "nắng",
+    "trans": "nắng (item) (物)",
+    "hv": "nắng",
+    "type": "Noun",
+    "rank": 122,
+    "examples": [
+      {
+        "v": "Đây là cái nắng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái nắng này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái nắng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "gió": {
+    "word": "gió",
+    "trans": "gió (item) (物)",
+    "hv": "gió",
+    "type": "Noun",
+    "rank": 123,
+    "examples": [
+      {
+        "v": "Đây là cái gió.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái gió này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái gió.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tuyết": {
+    "word": "tuyết",
+    "trans": "tuyết (item) (物)",
+    "hv": "tuyết",
+    "type": "Noun",
+    "rank": 124,
+    "examples": [
+      {
+        "v": "Đây là cái tuyết.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái tuyết này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái tuyết.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mây": {
+    "word": "mây",
+    "trans": "mây (item) (物)",
+    "hv": "mây",
+    "type": "Noun",
+    "rank": 125,
+    "examples": [
+      {
+        "v": "Đây là cái mây.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái mây này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái mây.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "trời": {
+    "word": "trời",
+    "trans": "trời (item) (物)",
+    "hv": "trời",
+    "type": "Noun",
+    "rank": 126,
+    "examples": [
+      {
+        "v": "Đây là cái trời.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái trời này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái trời.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đất": {
+    "word": "đất",
+    "trans": "đất (item) (物)",
+    "hv": "đất",
+    "type": "Noun",
+    "rank": 127,
+    "examples": [
+      {
+        "v": "Đây là cái đất.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái đất này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái đất.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ngọc": {
+    "word": "ngọc",
+    "trans": "ngọc (item) (物)",
+    "hv": "ngọc",
+    "type": "Noun",
+    "rank": 128,
+    "examples": [
+      {
+        "v": "Đây là cái ngọc.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái ngọc này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái ngọc.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "vàng": {
+    "word": "vàng",
+    "trans": "vàng (item) (物)",
+    "hv": "vàng",
+    "type": "Noun",
+    "rank": 129,
+    "examples": [
+      {
+        "v": "Đây là cái vàng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái vàng này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái vàng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bạc": {
+    "word": "bạc",
+    "trans": "bạc (item) (物)",
+    "hv": "bạc",
+    "type": "Noun",
+    "rank": 130,
+    "examples": [
+      {
+        "v": "Đây là cái bạc.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái bạc này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái bạc.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đồng": {
+    "word": "đồng",
+    "trans": "đồng (item) (物)",
+    "hv": "đồng",
+    "type": "Noun",
+    "rank": 131,
+    "examples": [
+      {
+        "v": "Đây là cái đồng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái đồng này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái đồng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "sắt": {
+    "word": "sắt",
+    "trans": "sắt (item) (物)",
+    "hv": "sắt",
+    "type": "Noun",
+    "rank": 132,
+    "examples": [
+      {
+        "v": "Đây là cái sắt.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái sắt này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái sắt.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "thép": {
+    "word": "thép",
+    "trans": "thép (item) (物)",
+    "hv": "thép",
+    "type": "Noun",
+    "rank": 133,
+    "examples": [
+      {
+        "v": "Đây là cái thép.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái thép này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái thép.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nhựa": {
+    "word": "nhựa",
+    "trans": "nhựa (item) (物)",
+    "hv": "nhựa",
+    "type": "Noun",
+    "rank": 134,
+    "examples": [
+      {
+        "v": "Đây là cái nhựa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái nhựa này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái nhựa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "gỗ": {
+    "word": "gỗ",
+    "trans": "gỗ (item) (物)",
+    "hv": "gỗ",
+    "type": "Noun",
+    "rank": 135,
+    "examples": [
+      {
+        "v": "Đây là cái gỗ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái gỗ này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái gỗ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "da": {
+    "word": "da",
+    "trans": "da (item) (物)",
+    "hv": "da",
+    "type": "Noun",
+    "rank": 136,
+    "examples": [
+      {
+        "v": "Đây là cái da.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái da này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái da.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "vải": {
+    "word": "vải",
+    "trans": "vải (item) (物)",
+    "hv": "vải",
+    "type": "Noun",
+    "rank": 137,
+    "examples": [
+      {
+        "v": "Đây là cái vải.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái vải này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái vải.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tơ": {
+    "word": "tơ",
+    "trans": "tơ (item) (物)",
+    "hv": "tơ",
+    "type": "Noun",
+    "rank": 138,
+    "examples": [
+      {
+        "v": "Đây là cái tơ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái tơ này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái tơ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "lụa": {
+    "word": "lụa",
+    "trans": "lụa (item) (物)",
+    "hv": "lụa",
+    "type": "Noun",
+    "rank": 139,
+    "examples": [
+      {
+        "v": "Đây là cái lụa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Cái lụa này đẹp.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Tôi cần một cái lụa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đứng": {
+    "word": "đứng",
+    "trans": "đứng (action) (動)",
+    "hv": "đứng",
+    "type": "Verb",
+    "rank": 140,
+    "examples": [
+      {
+        "v": "Tôi thích đứng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng đứng nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang đứng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nằm": {
+    "word": "nằm",
+    "trans": "nằm (action) (動)",
+    "hv": "nằm",
+    "type": "Verb",
+    "rank": 141,
+    "examples": [
+      {
+        "v": "Tôi thích nằm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nằm nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nằm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ngồi": {
+    "word": "ngồi",
+    "trans": "ngồi (action) (動)",
+    "hv": "ngồi",
+    "type": "Verb",
+    "rank": 142,
+    "examples": [
+      {
+        "v": "Tôi thích ngồi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng ngồi nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang ngồi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nghỉ": {
+    "word": "nghỉ",
+    "trans": "nghỉ (action) (動)",
+    "hv": "nghỉ",
+    "type": "Verb",
+    "rank": 143,
+    "examples": [
+      {
+        "v": "Tôi thích nghỉ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nghỉ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nghỉ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "hát": {
+    "word": "hát",
+    "trans": "hát (action) (動)",
+    "hv": "hát",
+    "type": "Verb",
+    "rank": 144,
+    "examples": [
+      {
+        "v": "Tôi thích hát.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng hát nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang hát.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "múa": {
+    "word": "múa",
+    "trans": "múa (action) (動)",
+    "hv": "múa",
+    "type": "Verb",
+    "rank": 145,
+    "examples": [
+      {
+        "v": "Tôi thích múa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng múa nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang múa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nhảy": {
+    "word": "nhảy",
+    "trans": "nhảy (action) (動)",
+    "hv": "nhảy",
+    "type": "Verb",
+    "rank": 146,
+    "examples": [
+      {
+        "v": "Tôi thích nhảy.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nhảy nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nhảy.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đi bộ": {
+    "word": "đi bộ",
+    "trans": "đi bộ (action) (動)",
+    "hv": "đi bộ",
+    "type": "Verb",
+    "rank": 147,
+    "examples": [
+      {
+        "v": "Tôi thích đi bộ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng đi bộ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang đi bộ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "lái xe": {
+    "word": "lái xe",
+    "trans": "lái xe (action) (動)",
+    "hv": "lái xe",
+    "type": "Verb",
+    "rank": 148,
+    "examples": [
+      {
+        "v": "Tôi thích lái xe.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng lái xe nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang lái xe.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "vẽ": {
+    "word": "vẽ",
+    "trans": "vẽ (action) (動)",
+    "hv": "vẽ",
+    "type": "Verb",
+    "rank": 149,
+    "examples": [
+      {
+        "v": "Tôi thích vẽ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng vẽ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang vẽ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "viết": {
+    "word": "viết",
+    "trans": "viết (action) (動)",
+    "hv": "viết",
+    "type": "Verb",
+    "rank": 150,
+    "examples": [
+      {
+        "v": "Tôi thích viết.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng viết nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang viết.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đọc": {
+    "word": "đọc",
+    "trans": "đọc (action) (動)",
+    "hv": "đọc",
+    "type": "Verb",
+    "rank": 151,
+    "examples": [
+      {
+        "v": "Tôi thích đọc.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng đọc nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang đọc.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nghe": {
+    "word": "nghe",
+    "trans": "nghe (action) (動)",
+    "hv": "nghe",
+    "type": "Verb",
+    "rank": 152,
+    "examples": [
+      {
+        "v": "Tôi thích nghe.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nghe nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nghe.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nhìn": {
+    "word": "nhìn",
+    "trans": "nhìn (action) (動)",
+    "hv": "nhìn",
+    "type": "Verb",
+    "rank": 153,
+    "examples": [
+      {
+        "v": "Tôi thích nhìn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nhìn nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nhìn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ngắm": {
+    "word": "ngắm",
+    "trans": "ngắm (action) (動)",
+    "hv": "ngắm",
+    "type": "Verb",
+    "rank": 154,
+    "examples": [
+      {
+        "v": "Tôi thích ngắm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng ngắm nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang ngắm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "hiểu": {
+    "word": "hiểu",
+    "trans": "hiểu (action) (動)",
+    "hv": "hiểu",
+    "type": "Verb",
+    "rank": 155,
+    "examples": [
+      {
+        "v": "Tôi thích hiểu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng hiểu nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang hiểu.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nghĩ": {
+    "word": "nghĩ",
+    "trans": "nghĩ (action) (動)",
+    "hv": "nghĩ",
+    "type": "Verb",
+    "rank": 156,
+    "examples": [
+      {
+        "v": "Tôi thích nghĩ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nghĩ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nghĩ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nhớ": {
+    "word": "nhớ",
+    "trans": "nhớ (action) (動)",
+    "hv": "nhớ",
+    "type": "Verb",
+    "rank": 157,
+    "examples": [
+      {
+        "v": "Tôi thích nhớ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nhớ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nhớ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "quên": {
+    "word": "quên",
+    "trans": "quên (action) (動)",
+    "hv": "quên",
+    "type": "Verb",
+    "rank": 158,
+    "examples": [
+      {
+        "v": "Tôi thích quên.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng quên nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang quên.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "yêu": {
+    "word": "yêu",
+    "trans": "yêu (action) (動)",
+    "hv": "yêu",
+    "type": "Verb",
+    "rank": 159,
+    "examples": [
+      {
+        "v": "Tôi thích yêu.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng yêu nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang yêu.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "ghét": {
+    "word": "ghét",
+    "trans": "ghét (action) (動)",
+    "hv": "ghét",
+    "type": "Verb",
+    "rank": 160,
+    "examples": [
+      {
+        "v": "Tôi thích ghét.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng ghét nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang ghét.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "giận": {
+    "word": "giận",
+    "trans": "giận (action) (動)",
+    "hv": "giận",
+    "type": "Verb",
+    "rank": 161,
+    "examples": [
+      {
+        "v": "Tôi thích giận.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng giận nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang giận.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mong": {
+    "word": "mong",
+    "trans": "mong (action) (動)",
+    "hv": "mong",
+    "type": "Verb",
+    "rank": 162,
+    "examples": [
+      {
+        "v": "Tôi thích mong.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng mong nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang mong.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "chờ": {
+    "word": "chờ",
+    "trans": "chờ (action) (動)",
+    "hv": "chờ",
+    "type": "Verb",
+    "rank": 163,
+    "examples": [
+      {
+        "v": "Tôi thích chờ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng chờ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang chờ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "đợi": {
+    "word": "đợi",
+    "trans": "đợi (action) (動)",
+    "hv": "đợi",
+    "type": "Verb",
+    "rank": 164,
+    "examples": [
+      {
+        "v": "Tôi thích đợi.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng đợi nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang đợi.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tìm": {
+    "word": "tìm",
+    "trans": "tìm (action) (動)",
+    "hv": "tìm",
+    "type": "Verb",
+    "rank": 165,
+    "examples": [
+      {
+        "v": "Tôi thích tìm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng tìm nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang tìm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "kiếm": {
+    "word": "kiếm",
+    "trans": "kiếm (action) (動)",
+    "hv": "kiếm",
+    "type": "Verb",
+    "rank": 166,
+    "examples": [
+      {
+        "v": "Tôi thích kiếm.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng kiếm nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang kiếm.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "lấy": {
+    "word": "lấy",
+    "trans": "lấy (action) (動)",
+    "hv": "lấy",
+    "type": "Verb",
+    "rank": 167,
+    "examples": [
+      {
+        "v": "Tôi thích lấy.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng lấy nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang lấy.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "tặng": {
+    "word": "tặng",
+    "trans": "tặng (action) (動)",
+    "hv": "tặng",
+    "type": "Verb",
+    "rank": 168,
+    "examples": [
+      {
+        "v": "Tôi thích tặng.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng tặng nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang tặng.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mua": {
+    "word": "mua",
+    "trans": "mua (action) (動)",
+    "hv": "mua",
+    "type": "Verb",
+    "rank": 169,
+    "examples": [
+      {
+        "v": "Tôi thích mua.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng mua nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang mua.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "bán": {
+    "word": "bán",
+    "trans": "bán (action) (動)",
+    "hv": "bán",
+    "type": "Verb",
+    "rank": 170,
+    "examples": [
+      {
+        "v": "Tôi thích bán.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng bán nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang bán.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "trả": {
+    "word": "trả",
+    "trans": "trả (action) (動)",
+    "hv": "trả",
+    "type": "Verb",
+    "rank": 171,
+    "examples": [
+      {
+        "v": "Tôi thích trả.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng trả nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang trả.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "mượn": {
+    "word": "mượn",
+    "trans": "mượn (action) (動)",
+    "hv": "mượn",
+    "type": "Verb",
+    "rank": 172,
+    "examples": [
+      {
+        "v": "Tôi thích mượn.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng mượn nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang mượn.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "vay": {
+    "word": "vay",
+    "trans": "vay (action) (動)",
+    "hv": "vay",
+    "type": "Verb",
+    "rank": 173,
+    "examples": [
+      {
+        "v": "Tôi thích vay.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng vay nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang vay.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "nợ": {
+    "word": "nợ",
+    "trans": "nợ (action) (動)",
+    "hv": "nợ",
+    "type": "Verb",
+    "rank": 174,
+    "examples": [
+      {
+        "v": "Tôi thích nợ.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng nợ nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang nợ.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "xây": {
+    "word": "xây",
+    "trans": "xây (action) (動)",
+    "hv": "xây",
+    "type": "Verb",
+    "rank": 175,
+    "examples": [
+      {
+        "v": "Tôi thích xây.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng xây nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang xây.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "phá": {
+    "word": "phá",
+    "trans": "phá (action) (動)",
+    "hv": "phá",
+    "type": "Verb",
+    "rank": 176,
+    "examples": [
+      {
+        "v": "Tôi thích phá.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng phá nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang phá.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  },
+  "sửa": {
+    "word": "sửa",
+    "trans": "sửa (action) (動)",
+    "hv": "sửa",
+    "type": "Verb",
+    "rank": 177,
+    "examples": [
+      {
+        "v": "Tôi thích sửa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Đừng sửa nữa.",
+        "e": "...",
+        "c": "..."
+      },
+      {
+        "v": "Anh ấy đang sửa.",
+        "e": "...",
+        "c": "..."
+      }
+    ]
+  }
+}

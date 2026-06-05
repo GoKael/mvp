@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grammar - Lexa</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    :root {
+      --serif: 'Crimson Pro', serif;
+      --gold-dark: #b8860b;
+    }
+
+    body {
+      background-color: #05080f;
+    }
+
+    .grammar-header {
+      margin-bottom: 100px;
+      padding-top: 40px;
+    }
+    .grammar-header h1 {
+      font-family: var(--serif);
+      font-size: 84px;
+      font-weight: 700;
+      font-style: italic;
+      margin: 0;
+      letter-spacing: -2px;
+      line-height: 1;
+      color: #fff;
+    }
+    .grammar-header p {
+      font-family: var(--font-main);
+      color: var(--text-muted);
+      font-size: 22px;
+      margin-top: 20px;
+      max-width: 700px;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    .grammar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 40px;
+      padding-bottom: 120px;
+    }
+
+    .grammar-card {
+      background: rgba(18, 22, 33, 0.6);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.03);
+      border-radius: 40px;
+      padding: 50px;
+      transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      min-height: 280px;
+    }
+
+    .grammar-card:hover {
+      background: rgba(24, 29, 43, 0.8);
+      border-color: rgba(251, 191, 36, 0.3);
+      transform: translateY(-12px);
+      box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+    }
+
+    .grammar-card::before {
+      content: attr(data-unit);
+      position: absolute;
+      top: -30px;
+      right: -20px;
+      font-size: 180px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.02);
+      line-height: 1;
+      font-family: var(--serif);
+      font-style: italic;
+      pointer-events: none;
+      transition: all 0.5s ease;
+    }
+    .grammar-card:hover::before {
+      color: rgba(251, 191, 36, 0.04);
+      transform: scale(1.1) rotate(-5deg);
+    }
+
+    .grammar-title {
+      font-family: var(--serif);
+      font-size: 32px;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 10px;
+      line-height: 1.1;
+    }
+
+    .grammar-subtitle {
+      font-size: 11px;
+      color: var(--accent-gold);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+      opacity: 0.8;
+    }
+
+    /* Modal - High Fashion / Research Aesthetic */
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(2, 4, 8, 0.95);
+      backdrop-filter: blur(25px);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 3000;
+      padding: 40px;
+    }
+    .modal-content {
+      background: #0d1117;
+      width: 100%;
+      max-width: 900px;
+      border-radius: 50px;
+      padding: 80px;
+      position: relative;
+      border: 1px solid rgba(255,255,255,0.06);
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .modal-close {
+      position: absolute;
+      top: 40px; right: 40px;
+      background: rgba(255,255,255,0.03); 
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-size: 24px;
+      width: 50px; height: 50px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.3s;
+    }
+    .modal-close:hover {
+      background: #fff;
+      color: #000;
+      transform: rotate(180deg);
+    }
+
+    .example-list {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .example-item {
+      padding: 40px;
+      background: rgba(255,255,255,0.015);
+      border: 1px solid rgba(255,255,255,0.03);
+      border-radius: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.4s;
+    }
+    .example-item:hover {
+      background: rgba(255,255,255,0.03);
+      border-color: rgba(251, 191, 36, 0.2);
+    }
+    .ex-v { 
+      font-family: var(--serif);
+      font-size: 26px; 
+      font-weight: 600; 
+      color: white; 
+      margin-bottom: 12px; 
+    }
+    .ex-e { font-size: 16px; color: var(--text-muted); margin-bottom: 4px; font-weight: 300; }
+    .ex-c { font-size: 16px; color: var(--text-muted); opacity: 0.5; font-weight: 300; }
+    
+    .play-btn {
+      width: 50px; height: 50px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: var(--accent-gold);
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.3s;
+      font-size: 20px;
+    }
+    .play-btn:hover {
+      background: var(--accent-gold);
+      color: black;
+      transform: scale(1.1);
+      box-shadow: 0 10px 25px rgba(251, 191, 36, 0.4);
+    }
+
+    .sidebar { z-index: 2000; }
+
+    /* Scrollbar Polish */
+    .modal-content::-webkit-scrollbar { width: 4px; }
+    .modal-content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
+  </style>
+</head>
+<body class="sidebar-closed">
+  <aside class="sidebar">
+    <div style="margin-bottom:20px; width:100%; display:flex; justify-content:center;">
+       <a href="index.html" style="text-decoration:none; color:var(--accent-gold); font-weight:900; font-size:24px; padding:10px;">L</a>
+    </div>
+    <a href="index.html" class="sidebar-link" data-tooltip="Vault">
+      <svg viewBox="0 0 24 24"><path d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"/></svg>
+    </a>
+    <a href="memory.html" class="sidebar-link" data-tooltip="Practice">
+      <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+    </a>
+    <a href="grammar.html" class="sidebar-link active" data-tooltip="Grammar">
+      <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg>
+    </a>
+  </aside>
+
+  <div id="main-wrapper">
+    <div id="main-container">
+      <header class="grammar-header">
+        <h1>Ngữ pháp</h1>
+        <p>The architecture of the Vietnamese soul. A curated curriculum of academic precision and native colloquialism.</p>
+      </header>
+
+      <div id="grammar-grid" class="grammar-grid">
+        <div style="color: var(--text-muted);">Curating knowledge...</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="close-modal">&times;</button>
+      <div id="modal-header">
+        <div id="modal-subtitle" class="grammar-subtitle">Module 01</div>
+        <h2 id="modal-title" class="grammar-title" style="font-size:48px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 20px;">Verb Patterns</h2>
+      </div>
+      <div id="example-list" class="example-list">
+        <!-- Examples -->
+      </div>
+    </div>
+  </div>
+
+  <script src="grammar.js"></script>
+</body>
+</html>

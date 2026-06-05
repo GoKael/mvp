@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexa - Gravity Puzzle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            background: #0b0f19;
+            color: #fff;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        #game-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        #canvas-wrapper {
+            flex-grow: 1;
+            position: relative;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        .ui-overlay {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            text-align: center;
+            pointer-events: none;
+        }
+
+        .ui-overlay h1 {
+            font-size: 32px;
+            font-weight: 900;
+            margin: 0;
+            background: linear-gradient(to bottom, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            transition: all 0.2s;
+            pointer-events: auto;
+        }
+
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #fbbf24;
+            color: #fbbf24;
+        }
+
+        .btn-primary {
+            background: #fbbf24;
+            color: #000;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: #fcd34d;
+            box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+            color: #000;
+        }
+
+        #status-msg {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #fbbf24;
+            font-weight: 600;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        /* Sidebar override to match main layout */
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 80px;
+            background: #141b2d;
+            border-right: 1px solid #1e293b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div style="margin-bottom:20px; width:100%; display:flex; justify-content:center;">
+           <a href="index.html" style="text-decoration:none; color:#fbbf24; font-weight:900; font-size:24px; padding:10px;">L</a>
+        </div>
+        <a href="index.html" class="sidebar-link" data-tooltip="Vault">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"/></svg>
+        </a>
+        <a href="memory.html" class="sidebar-link" data-tooltip="Practice">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        </a>
+        <a href="gravity.html" class="sidebar-link active" data-tooltip="Gravity Puzzle">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5c0-1.38-1.12-2.5-2.5-2.5S8 2.12 8 3.5V5H4c-1.1 0-2 .9-2 2v4H.5c-1.38 0-2.5 1.12-2.5 2.5S-.88 16 .5 16H2v4c0 1.1.9 2 2 2h4v1.5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V22h4c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5z"/></svg>
+        </a>
+    </aside>
+
+    <div id="game-container" style="margin-left: 80px; width: calc(100vw - 80px);">
+        <div class="ui-overlay">
+            <h1>Gravity Puzzle</h1>
+            <div id="status-msg">Correct! Next word incoming...</div>
+        </div>
+
+        <div id="canvas-wrapper"></div>
+
+        <div class="controls">
+            <button class="btn" id="reset-btn">Scramble</button>
+            <button class="btn btn-primary" id="next-btn">Skip Word</button>
+        </div>
+    </div>
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <!-- Pretext ESM import in gravity.js -->
+    <script type="module" src="gravity.js"></script>
+</body>
+</html>

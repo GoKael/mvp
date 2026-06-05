@@ -116,32 +116,43 @@ function getVaultKey(word) {
 
 async function fetchVault() {
   console.log('Memory: fetchVault started');
-  const fallbackRes = await fetch(chrome.runtime.getURL('server/data/lr_8k.json'));
-  const initialVaultMap = await fallbackRes.json();
-  console.log('Memory: initialVaultMap loaded', Object.keys(initialVaultMap).length);
+  // Loading the updated 1k list as requested
+  const dataPath = (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.getURL)
+    ? chrome.runtime.getURL('server/data/lr_1k.json')
+    : 'server/data/lr_1k.json';
+    
+  let initialVaultMap = {};
+  try {
+    const res = await fetch(dataPath);
+    initialVaultMap = await res.json();
+    console.log('Memory: initialVaultMap loaded', Object.keys(initialVaultMap).length);
+  } catch (e) {
+    console.error('Memory: failed to fetch vault data', e);
+  }
 
-  const storedStatuses = await new Promise(resolve => {
-    chrome.storage.local.get(['vaultWordStatuses'], result => {
-      console.log('Memory: storedStatuses from chrome.storage.local', result.vaultWordStatuses);
-      resolve(result.vaultWordStatuses || {});
+  let storedStatuses = {};
+  if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+    storedStatuses = await new Promise(resolve => {
+      chrome.storage.local.get(['vaultWordStatuses'], result => {
+        resolve(result.vaultWordStatuses || {});
+      });
     });
-  });
+  }
 
   vault = {};
   for (const word in initialVaultMap) {
-    vault[word] = { ...initialVaultMap[word] };
+    const normKey = normalizeKey(word);
+    vault[normKey] = { ...initialVaultMap[word], rawWord: word };
     if (storedStatuses[word] !== undefined) {
-      vault[word].status = storedStatuses[word];
+      vault[normKey].status = storedStatuses[word];
     }
   }
-  const rawValues = Object.values(vault);
-  rawValues.forEach((v, index) => { v.rank = index + 1; });
-  vaultArrayCache = rawValues;
-  console.log('Memory: final vault loaded', Object.keys(vault).length, 'first 5 words:', Object.keys(vault).slice(0, 5).map(w => ({ word: w, status: vault[w].status })));
+  vaultArrayCache = Object.values(vault).sort((a,b) => (a.rank || 9999) - (b.rank || 9999));
+  console.log('Memory: final normalized vault loaded', Object.keys(vault).length);
 }
 
-let currentLevel = parseInt(localStorage.getItem('learningRange') || '8000');
-if (![300, 1000, 2000, 5000, 8000].includes(currentLevel)) currentLevel = 8000;
+let currentLevel = parseInt(localStorage.getItem('learningRange') || '1000');
+const rangeSteps = [100, 300, 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000];
 let sessionSize = 10;
 let practicePool = [];
 let dictPinned = false;
@@ -167,45 +178,37 @@ function updateTodayPracticeCounter() {
   });
 }
 
-function setLevel(element, size) {
-  // Update UI chips
-  document.querySelectorAll('.level-chip').forEach(el => {
-    el.className = 'level-chip';
-    el.style.background = '#333';
-    el.style.color = 'white';
-    el.style.border = 'none';
-  });
-  element.className = 'level-chip active';
-  element.style.background = 'rgba(255, 152, 0, 0.2)';
-  element.style.color = 'var(--accent-gold)';
-  element.style.border = '1px solid var(--accent-gold)';
-  currentLevel = size;
-  localStorage.setItem('learningRange', size.toString());
+function updateRangeDisplay(index) {
+  const val = rangeSteps[index] || 1000;
+  currentLevel = val;
+  localStorage.setItem('learningRange', val.toString());
+  const label = document.getElementById('range-val');
+  if (label) {
+    if (val === 10000) label.innerText = "Master 10k";
+    else if (val >= 1000) label.innerText = `Core ${val/1000}k`;
+    else label.innerText = `Core ${val}`;
+  }
+  console.log("Memory: currentLevel updated to", currentLevel);
 }
 
 function updateSessionSize(val) {
   sessionSize = parseInt(val, 10);
   const valEl = document.getElementById('session-size-val');
   if (valEl) valEl.innerText = sessionSize;
-  
-  refreshHeatmap();
+  console.log("Memory: sessionSize updated to", sessionSize);
 }
 
 function resetSettings() {
-  currentLevel = 8000;
-  localStorage.setItem('learningRange', '8000');
+  currentLevel = 1000;
+  localStorage.setItem('learningRange', '1000');
   sessionSize = 10;
-  const slider = document.getElementById('session-slider');
-  if (slider) slider.value = '10';
-  const newItemsSlider = document.getElementById('new-items-slider');
-  if (newItemsSlider) newItemsSlider.value = '50';
-  const newItemsVal = document.getElementById('new-items-val');
-  if (newItemsVal) newItemsVal.innerText = '50%';
+  const sSlider = document.getElementById('session-slider');
+  if (sSlider) sSlider.value = '10';
+  const rSlider = document.getElementById('range-slider');
+  if (rSlider) rSlider.value = '3'; // Index 3 is 1000
+  updateRangeDisplay(3);
   updateSessionSize(10);
-  document.querySelectorAll('.level-chip').forEach(chip => {
-    const size = parseInt(chip.dataset.level || '0', 10);
-    if (size === 8000) setLevel(chip, 8000);
-  });
+  console.log("Memory: settings reset to 1k Core");
 }
 
 async function refreshHeatmap() {
@@ -296,6 +299,10 @@ function updateCounts() {
 }
 
 function startSession() {
+  if (vaultArrayCache.length === 0) {
+    alert("Vocabulary data is still loading... Please wait a few seconds.");
+    return;
+  }
   document.getElementById('setup-screen').style.display = 'none';
   document.getElementById('practice-screen').style.display = 'block';
   // Hide sidebar if open to focus on practice
@@ -320,7 +327,9 @@ function startSession() {
             `${item.word} là một từ rất phổ biến.`,
             `Bạn có biết ${item.word} nghĩa là gì không?`
           ];
-      examples.forEach(ex => {
+      examples.forEach(exObj => {
+        const ex = (typeof exObj === 'string') ? exObj : (exObj && exObj.v) ? exObj.v : '';
+        if (!ex) return;
         const lc = ex.toLowerCase();
         const lp = item.word.toLowerCase();
         const idx = lc.indexOf(lp);
@@ -342,7 +351,9 @@ function startSession() {
           viet: ex,
           words,
           focal: focalIndex >= 0 ? focalIndex : 0,
-          baseWord: item.word
+          baseWord: item.word,
+          en: (exObj && exObj.e) ? exObj.e : '',
+          cn: (exObj && exObj.c) ? exObj.c : ''
         });
       });
     });
@@ -362,7 +373,9 @@ function startSession() {
 
     practicePool = dedupedGenerated.slice(0, sessionSize);
     
-    if (practicePool.length === 0) practicePool = sentences;
+    if (practicePool.length === 0) {
+      practicePool = sentences.slice(0, sessionSize);
+    }
   } else {
     practicePool = [];
     for(let i=0; i < sessionSize; i++) {
@@ -370,13 +383,25 @@ function startSession() {
     }
   }
   
+  if (practicePool.length === 0) {
+    if (domainWords.length === 0) {
+       console.error("No words in selected level range!");
+       alert("No words found for this level. Please choose a different range.");
+       resetSession();
+       return;
+    }
+  }
+
   currentIndex = 0;
   
-  document.getElementById('sentence-area').onclick = () => {
-     if (currentIndex < practicePool.length) {
-       speak(practicePool[currentIndex].viet);
-     }
-  };
+  const sArea = document.getElementById('sentence-area');
+  if (sArea) {
+    sArea.onclick = () => {
+       if (currentIndex < practicePool.length) {
+         speak(practicePool[currentIndex].viet);
+       }
+    };
+  }
   
   renderSentence();
 }
@@ -385,26 +410,62 @@ let hoverTimeout;
 let popoverPinned = false;
 
 function renderSentence() {
-  if (currentIndex >= practicePool.length) {
-    document.getElementById('sentence-area').onclick = null; // Prevent voice speaking when clicking 'Session Complete'
-    document.getElementById('sentence-area').innerHTML = `
-      <div style="font-size:32px; width:100%; text-align:center; margin-bottom:20px;">Session Complete! 🎉</div>
-      <button id="reset-session-btn" style="padding:12px 24px; font-size:16px; font-weight:bold; background:var(--accent-gold); color:black; border:none; border-radius:6px; cursor:pointer; margin:0 auto; display:block;">Back to Dashboard</button>
-    `;
-    const resetBtn = document.getElementById('reset-session-btn');
-    if (resetBtn) resetBtn.onclick = () => resetSession();
-    document.getElementById('progress-counter').innerText = `${sessionSize} / ${sessionSize}`;
-    document.getElementById('status-fill').style.width = '100%';
-    document.getElementById('focal-word-hint').innerText = 'Done';
-    return;
-  }
-  
-  const s = practicePool[currentIndex];
-  const area = document.getElementById('sentence-area');
-  area.innerHTML = '';
-  
-  const focalWord = s.words[s.focal];
-  document.getElementById('focal-word-hint').innerText = focalWord;
+  try {
+    if (!practicePool || currentIndex >= practicePool.length) {
+      const qc = document.getElementById('quiz-card');
+      if (qc) {
+        qc.onclick = null;
+        qc.style.background = 'transparent';
+        qc.style.border = 'none';
+        qc.style.boxShadow = 'none';
+      }
+      const area = document.getElementById('sentence-area');
+      if (area) {
+        area.innerHTML = `
+          <div style="font-size:32px; width:100%; text-align:center; margin-bottom:20px; font-family:var(--serif);">Session Complete! 🎉</div>
+          <button id="reset-session-btn" style="padding:16px 32px; font-size:16px; font-weight:900; background:var(--accent-gold); color:black; border:none; border-radius:12px; cursor:pointer; margin:0 auto; display:block; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">Back to Dashboard</button>
+        `;
+        const resetBtn = document.getElementById('reset-session-btn');
+        if (resetBtn) resetBtn.onclick = () => resetSession();
+      }
+      const progress = document.getElementById('progress-counter');
+      if (progress) progress.innerText = `${sessionSize} / ${sessionSize}`;
+      const fill = document.getElementById('status-fill');
+      if (fill) fill.style.width = '100%';
+      const hint = document.getElementById('focal-word-hint');
+      if (hint) hint.innerText = 'Done';
+      const tBox = document.getElementById('trans-box');
+      if (tBox) tBox.style.display = 'none';
+      return;
+    }
+    
+    const s = practicePool[currentIndex];
+    const area = document.getElementById('sentence-area');
+    if (!area) return;
+    area.innerHTML = '';
+    
+    const focalWord = s.words[s.focal] || '...';
+    const focalHint = document.getElementById('focal-word-hint');
+    if (focalHint) focalHint.innerText = focalWord;
+
+    const quizCard = document.getElementById('quiz-card');
+    if (quizCard) {
+      quizCard.onclick = () => speak(s.viet);
+    }
+
+    // Handle Translations Safely
+    const transBox = document.getElementById('trans-box');
+    const enTrans = document.getElementById('sentence-trans-en');
+    const cnTrans = document.getElementById('sentence-trans-cn');
+    if (transBox && enTrans && cnTrans) {
+      const hasEn = s.en && s.en !== '...' && s.en.trim().length > 0;
+      const hasCn = s.cn && s.cn !== '...' && s.cn.trim().length > 0;
+      
+      enTrans.innerText = hasEn ? s.en : "Translation loading...";
+      cnTrans.innerText = hasCn ? s.cn : "正在加載翻譯...";
+      transBox.style.display = 'flex';
+      transBox.style.opacity = (hasEn || hasCn) ? '1' : '0.3';
+    }
 
   s.words.forEach((word, i) => {
     const span = document.createElement('span');
@@ -431,9 +492,8 @@ function renderSentence() {
     // Click: open sidebar + speak
     span.onclick = (e) => {
       e.stopPropagation();
-      showSidebar({ word: vaultItem ? (vaultItem.word || cleanWord) : word, ...(vaultItem || {}) });
+      showSidebar({ word: vaultItem ? (vaultItem.word || cleanWord) : word, ...(vaultItem || {}) }, s);
       dictPinned = true;
-      dictPinnedWord = vaultItem ? (vaultItem.word || cleanWord) : word;
       speak(span.innerText);
     };
 
@@ -471,7 +531,13 @@ function renderSentence() {
      const fw = s.words[s.focal];
      const cleanFW = fw.replace(/[.,!?]/g, '').toLowerCase();
      const vaultFW = vault[getVaultKey(cleanFW)] || vault[getVaultKey(s.baseWord)];
-     showSidebar({ word: vaultFW ? vaultFW.word : cleanFW, ...(vaultFW || {}) });
+     showSidebar({ word: vaultFW ? vaultFW.word : cleanFW, ...(vaultFW || {}) }, s);
+  }
+  } catch (err) {
+    console.error("Lexa Render Error:", err);
+    const area = document.getElementById('sentence-area');
+    if (area) area.innerHTML = `<div style="color:red; font-size:14px; text-align:center;">Error rendering sentence. Skipping...</div>`;
+    setTimeout(() => nextSentence(), 1500);
   }
 }
 
@@ -518,17 +584,21 @@ function showPopover(span, word, text) {
   }
 }
 
-document.getElementById('hover-popover').onmouseenter = () => {
-  popoverPinned = true;
-  clearTimeout(hoverTimeout);
-};
-document.getElementById('hover-popover').onmouseleave = () => {
-  popoverPinned = false;
-  hoverTimeout = setTimeout(hidePopover, 400); // 400ms delay
-};
+const popoverEl = document.getElementById('hover-popover');
+if (popoverEl) {
+  popoverEl.onmouseenter = () => {
+    popoverPinned = true;
+    clearTimeout(hoverTimeout);
+  };
+  popoverEl.onmouseleave = () => {
+    popoverPinned = false;
+    hoverTimeout = setTimeout(hidePopover, 400); 
+  };
+}
 
 function hidePopover() {
-  document.getElementById('hover-popover').style.display = 'none';
+  const p = document.getElementById('hover-popover');
+  if (p) p.style.display = 'none';
 }
 
 async function tooltipMarkWord(word, status) {
@@ -549,18 +619,18 @@ async function markWord(status) {
 }
 
 async function updateWordStatus(word, status) {
-  console.log(`Memory: updateWordStatus called for word: ${word}, status: ${status}`);
   const vaultKey = getVaultKey(word);
+  console.log(`Memory: updateWordStatus word=${word} status=${status} key=${vaultKey}`);
+  
   if (vault[vaultKey]) {
-    console.log(`Memory: Word ${word} current status: ${vault[word].status}`);
     vault[vaultKey].status = status;
-    chrome.storage.local.get(['vaultWordStatuses'], result => {
-      const statuses = result.vaultWordStatuses || {};
-      statuses[vaultKey] = status;
-      chrome.storage.local.set({ vaultWordStatuses: statuses }, () => {
-        console.log(`Memory: Word ${vaultKey} status updated to ${status} in chrome.storage.local`);
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.get(['vaultWordStatuses'], result => {
+        const statuses = result.vaultWordStatuses || {};
+        statuses[vaultKey] = status;
+        chrome.storage.local.set({ vaultWordStatuses: statuses });
       });
-    });
+    }
   }
   if (status === 1 || status === 2) { // Only track 'Learn' or 'Known' words
     const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
@@ -596,15 +666,35 @@ function resetSession() {
 
 let isDictActive = false;
 
-function showSidebar(data) {
+function updateSidebarStatusUI(word) {
+  const key = getVaultKey(word);
+  const item = vault[key];
+  const status = item ? (item.status !== undefined ? item.status : 0) : 0;
+  
+  const knownBtn = document.getElementById('dict-btn-known');
+  const learnBtn = document.getElementById('dict-btn-learn');
+  const ignoreBtn = document.getElementById('dict-btn-ignore');
+  
+  if (knownBtn) { knownBtn.style.background = 'rgba(255,255,255,0.02)'; knownBtn.style.borderColor = '#1e293b'; }
+  if (learnBtn) { learnBtn.style.background = 'rgba(255,255,255,0.02)'; learnBtn.style.borderColor = '#1e293b'; }
+  if (ignoreBtn) { ignoreBtn.style.background = 'rgba(255,255,255,0.02)'; ignoreBtn.style.borderColor = '#1e293b'; }
+
+  if (status === 2 && knownBtn) {
+    knownBtn.style.background = 'rgba(34, 197, 94, 0.2)';
+    knownBtn.style.borderColor = '#22c55e';
+  } else if (status === 1 && learnBtn) {
+    learnBtn.style.background = 'rgba(249, 115, 22, 0.2)';
+    learnBtn.style.borderColor = '#f97316';
+  } else if (status === 3 && ignoreBtn) {
+    ignoreBtn.style.background = 'rgba(107, 114, 128, 0.2)';
+    ignoreBtn.style.borderColor = '#6b7280';
+  }
+}
+
+function showSidebar(data, contextSentence = null) {
   isDictActive = true;
   document.getElementById('dict-sidebar').style.display = 'flex';
-  
-  // Shift main container if on large screen
-  if (window.innerWidth > 1000) {
-    document.getElementById('main-container').style.marginRight = '420px';
-    document.getElementById('main-container').style.marginLeft = '20px';
-  }
+  document.body.classList.add('sidebar-open');
 
   const wordAttr = data.word || data.id;
   const stableRank = data.rank || 'N/A';
@@ -612,72 +702,59 @@ function showSidebar(data) {
   document.getElementById('dict-hv').innerText = `Hán-Việt: ${data.hv || 'N/A'}`;
   document.getElementById('dict-rank').innerText = `#${stableRank}`;
   
-  const updateExplain = (trans) => {
-    document.getElementById('tab-explain').innerHTML = `
-        <p style="margin-top:0"><strong style="color:var(--accent-gold);">${wordAttr}</strong> translates directly to "${trans || '...' }". It is a core vocabulary item encountered frequently.</p>
-        <p>Usage Note: The rank ${stableRank} indicates it is highly recommended to practice.</p>
-    `;
-  };
+  updateSidebarStatusUI(wordAttr);
 
   const transEl = document.getElementById('dict-trans');
   const existingTrans = getWordTranslation(wordAttr, data);
-  if (existingTrans) {
-    transEl.innerText = existingTrans;
-    updateExplain(existingTrans);
-  } else {
-    transEl.innerText = 'Translating...';
-    updateExplain('...');
+  const finalTrans = existingTrans || '...';
+  if (transEl) transEl.innerText = finalTrans;
+
+  const updateExplain = () => {
+    let expHtml = `<p style="margin-top:0"><strong style="color:var(--accent-gold);">${wordAttr}</strong> translates to "${finalTrans}". Rank: #${stableRank}.</p>`;
+    
+    if (contextSentence) {
+      expHtml += `
+        <div style="margin-top:20px; padding:15px; background:rgba(255,255,255,0.03); border-radius:12px; border-left:3px solid var(--accent-gold);">
+          <div style="font-size:11px; color:var(--text-muted); text-transform:uppercase; font-weight:800; letter-spacing:1px; margin-bottom:8px;">Practice Context</div>
+          <div style="font-weight:700; color:#fff; border-bottom:1px solid rgba(255,255,255,0.05); padding-bottom:8px; margin-bottom:8px; font-size:15px;">${contextSentence.viet}</div>
+          <div style="font-size:13px; color:var(--text-muted);">${contextSentence.trans}</div>
+        </div>
+      `;
+    }
+    
+    document.getElementById('tab-explain').innerHTML = expHtml;
+  };
+
+  updateExplain();
+
+  if (!existingTrans) {
     fetchGoogleTranslate(wordAttr).then(res => {
       if (document.getElementById('dict-word').innerText === wordAttr) {
-        transEl.innerText = res || 'no translation';
-        updateExplain(res || 'no translation');
+        if (transEl) transEl.innerText = res || 'no translation';
+        updateExplain();
       }
     });
   }
 
   document.getElementById('dict-type').innerText = data.type || 'Word';
-  document.getElementById('dict-rank').innerText = `#${stableRank}`;
-  
-  document.getElementById('tab-grammar').innerHTML = `
-      <p style="margin-top:0"><strong style="color:var(--accent-gold);">Grammar Pattern:</strong> ${data.type || 'Noun / Verb'}</p>
-      <ul style="padding-left:15px; margin-top:10px;">
-        <li>Follows standard Subject-Verb-Object syntax.</li>
-        <li>No conjugations exist for this lemma.</li>
-      </ul>
-  `;
+  document.getElementById('tab-grammar').innerHTML = `<p>Grammar characteristics for ${wordAttr}: ${data.type || 'Standard Form'}.</p>`;
 
   const exContainer = document.getElementById('dict-examples');
   exContainer.innerHTML = '';
   
-  const examples = buildThreeExamples(data.word || data.id, data.examples);
-  examples.forEach(text => {
-    const div = document.createElement('div');
-    div.style.cssText = 'background:rgba(255,255,255,0.05); padding:12px; border-radius:8px; font-size:13px; cursor:pointer; display:flex; justify-content:space-between; align-items:center;';
-    
-    const wordsInEx = text.split(/\s+/);
-    let htmlContent = '';
-    wordsInEx.forEach(token => {
-      const cleanToken = token.replace(/[.,!?]/g, '').toLowerCase();
-      const key = getVaultKey(cleanToken);
-      const vItem = vault[key];
-      const isFocal = cleanToken === (data.word || '').toLowerCase();
-      
-      let color = 'inherit';
-      let weight = 'normal';
-      
-      if (isFocal) {
-        color = 'var(--accent-gold)';
-        weight = 'bold';
-      } else if (vItem) {
-        if (vItem.status === 2) color = '#4ade80';
-        else if (vItem.status === 1) color = '#fb923c';
-        else color = '#666';
-      }
-      
-      htmlContent += `<span style="color:${color}; font-weight:${weight};">${token}</span> `;
-    });
+  const examples = (data.examples && data.examples.length > 0) ? data.examples : [
+    {v: `${data.word} là một từ rất phổ biến.`, e: `The word ${data.word} is very common.`}
+  ];
 
-    div.innerHTML = `<span style="flex:1;">${htmlContent}</span> <svg style="width:20px; flex-shrink:0; margin-left:10px;" viewBox="0 0 24 24" fill="#b0b0b0"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>`;
+  examples.forEach(ex => {
+    const text = typeof ex === 'string' ? ex : ex.v;
+    const div = document.createElement('div');
+    div.style.cssText = 'background:rgba(255,255,255,0.05); padding:16px; border-radius:12px; font-size:14px; cursor:pointer; margin-bottom:12px; border-left: 3px solid transparent; transition: 0.2s;';
+    
+    div.innerHTML = `
+      <div style="font-weight:700;">${text}</div>
+      ${ex.e ? `<div style="font-size:11px; color:var(--text-muted); margin-top:6px;">${ex.e}</div>` : ''}
+    `;
     div.onclick = () => speak(text);
     exContainer.appendChild(div);
   });
@@ -686,30 +763,9 @@ function showSidebar(data) {
 function hideSidebar() {
   isDictActive = false;
   document.getElementById('dict-sidebar').style.display = 'none';
-  document.getElementById('main-container').style.marginRight = 'auto';
-  document.getElementById('main-container').style.marginLeft = 'auto';
+  document.body.classList.remove('sidebar-open');
 }
 
-document.getElementById('close-sidebar-btn').onclick = hideSidebar;
-
-// Lexa UI Tabs Listener
-document.querySelectorAll('.lexa-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-        document.querySelectorAll('.lexa-tab').forEach(t => {
-            t.classList.remove('active');
-            t.style.borderBottomColor = 'transparent';
-            t.style.color = '#6b7280';
-        });
-        document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
-        
-        tab.classList.add('active');
-        tab.style.borderBottomColor = '#a78bfa';
-        tab.style.color = '#a78bfa';
-        
-        const targetId = 'tab-' + tab.getAttribute('data-tab');
-        document.getElementById(targetId).style.display = targetId === 'tab-examples' ? 'flex' : 'block';
-    });
-});
 
 function speak(text) {
   if (!text) return;
@@ -727,26 +783,15 @@ function speak(text) {
     } catch (_e) {}
   }
   const msg = new SpeechSynthesisUtterance(text);
-
-  cachedVoices = window.speechSynthesis.getVoices();
-  const vnVoice = cachedVoices.find(v => 
+  const vnVoice = window.speechSynthesis.getVoices().find(v => 
     v.lang.toLowerCase().includes('vi') || 
     v.name.toLowerCase().includes('vietnam')
   );
-
   if (vnVoice) {
     msg.voice = vnVoice;
     msg.lang = vnVoice.lang;
-  } else if (cachedVoices[0]) {
-    msg.voice = cachedVoices[0];
-    msg.lang = cachedVoices[0].lang || msg.lang;
   }
-  
   msg.rate = 0.9;
-  msg.onerror = (e) => { if (e.error !== 'canceled') console.error('TTS Error:', e); };
-  try {
-    window.speechSynthesis.resume();
-  } catch (_e) {}
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(msg);
 }
@@ -757,70 +802,114 @@ window.onkeydown = (e) => {
   if (e.key.toLowerCase() === 'c') markWord(0); 
 };
 
-document.getElementById('btn-known').onclick = () => markWord(2);
-document.getElementById('btn-learn').onclick = () => markWord(1);
-document.getElementById('btn-ignore').onclick = () => markWord(0);
-document.getElementById('start-practice-btn').onclick = () => startSession();
-document.getElementById('reset-settings-btn').onclick = () => resetSettings();
-document.getElementById('dict-audio-btn').onclick = () => speak(document.getElementById('dict-word').innerText);
- document.getElementById('dict-known-btn').onclick = async () => {
-   const key = getVaultKey(document.getElementById('dict-word').innerText);
-   await updateWordStatus(key, 2);
-  renderSentence();
-};
-document.getElementById('dict-learn-btn').onclick = async () => {
-   const key = getVaultKey(document.getElementById('dict-word').innerText);
-   await updateWordStatus(key, 1);
-  renderSentence();
-};
-document.getElementById('dict-ignore-btn').onclick = async () => {
-   const key = getVaultKey(document.getElementById('dict-word').innerText);
-   await updateWordStatus(key, 0);
-  renderSentence();
+document.querySelectorAll('.lexa-tab').forEach(tab => {
+    tab.onclick = () => {
+        document.querySelectorAll('.lexa-tab').forEach(t => {
+            t.classList.remove('active');
+            t.style.borderBottomColor = 'transparent';
+            t.style.color = '#6b7280';
+        });
+        document.querySelectorAll('.tab-pane').forEach(p => p.style.display = 'none');
+        
+        tab.classList.add('active');
+        tab.style.borderBottomColor = '#a78bfa';
+        tab.style.color = '#a78bfa';
+        
+        const targetId = 'tab-' + tab.getAttribute('data-tab');
+        const pane = document.getElementById(targetId);
+        if (pane) pane.style.display = targetId === 'tab-examples' ? 'flex' : 'block';
+    };
+});
+
+const safeClick = (id, fn) => {
+  const el = document.getElementById(id);
+  if (el) el.onclick = fn;
 };
 
-const sessionSlider = document.getElementById('session-slider');
-if (sessionSlider) {
-  sessionSlider.addEventListener('input', (e) => updateSessionSize(e.target.value));
-}
-const newItemsSlider = document.getElementById('new-items-slider');
-if (newItemsSlider) {
-  newItemsSlider.addEventListener('input', (e) => {
-    document.getElementById('new-items-val').innerText = `${e.target.value}%`;
-  });
-}
-document.querySelectorAll('.level-chip').forEach(chip => {
-  chip.addEventListener('click', () => {
-    const size = parseInt(chip.dataset.level || '8000', 10);
-    setLevel(chip, size);
-  });
+safeClick('btn-known', () => markWord(2));
+safeClick('btn-learn', () => markWord(1));
+safeClick('btn-ignore', () => markWord(3));
+safeClick('start-practice-btn', () => startSession());
+safeClick('reset-settings-btn', () => resetSettings());
+safeClick('exit-practice-btn', () => location.reload());
+safeClick('study-btn', () => {
+    const w = document.getElementById('dict-word').innerText;
+    window.location.href = `memory.html?word=${encodeURIComponent(w)}`;
 });
-document.getElementById('hover-popover').addEventListener('click', async (e) => {
-  const btn = e.target.closest('.popover-mark-btn');
-  if (!btn) return;
-  const word = btn.dataset.word;
-  const status = parseInt(btn.dataset.status || '0', 10);
-  await tooltipMarkWord(word, status);
+
+const dictHW = document.getElementById('dict-word');
+if (dictHW) dictHW.onclick = () => speak(dictHW.innerText);
+
+safeClick('dict-btn-known', async () => {
+    const word = document.getElementById('dict-word').innerText;
+    await updateWordStatus(word, 2);
+    updateSidebarStatusUI(word);
+    renderSentence();
 });
+
+safeClick('dict-btn-learn', async () => {
+    const word = document.getElementById('dict-word').innerText;
+    await updateWordStatus(word, 1);
+    updateSidebarStatusUI(word);
+    renderSentence();
+});
+
+safeClick('dict-btn-ignore', async () => {
+    const word = document.getElementById('dict-word').innerText;
+    await updateWordStatus(word, 3);
+    updateSidebarStatusUI(word);
+    renderSentence();
+});
+
+const sSlider = document.getElementById('session-slider');
+if (sSlider) {
+  sSlider.oninput = (e) => updateSessionSize(e.target.value);
+}
+
+const nItemsSlider = document.getElementById('new-items-slider');
+if (nItemsSlider) {
+  nItemsSlider.oninput = (e) => {
+    const valEl = document.getElementById('new-items-val');
+    if (valEl) valEl.innerText = `${e.target.value}%`;
+  };
+}
+
+const rSlider = document.getElementById('range-slider');
+if (rSlider) {
+  rSlider.oninput = (e) => updateRangeDisplay(parseInt(e.target.value, 10));
+}
+
+const hPopover = document.getElementById('hover-popover');
+if (hPopover) {
+  hPopover.onclick = async (e) => {
+    const btn = e.target.closest('.popover-mark-btn');
+    if (!btn) return;
+    const word = btn.dataset.word;
+    const status = parseInt(btn.dataset.status || '0', 10);
+    await tooltipMarkWord(word, status);
+  };
+}
 
 // Init
 cachedVoices = window.speechSynthesis.getVoices();
 window.speechSynthesis.onvoiceschanged = () => {
   cachedVoices = window.speechSynthesis.getVoices();
 };
+
 window.addEventListener('mousedown', () => {
   const msg = new SpeechSynthesisUtterance('');
   window.speechSynthesis.speak(msg);
 }, { once: true });
+
 fetchVault().then(() => {
   updateCounts();
   if (currentLevel) {
-     document.querySelectorAll('.level-chip').forEach(el => {
-       const chipLevel = parseInt(el.dataset.level || '0', 10);
-       if (chipLevel === currentLevel) {
-         setLevel(el, currentLevel);
-       }
-     });
+     const idx = rangeSteps.indexOf(currentLevel);
+     const rSlider = document.getElementById('range-slider');
+     if (rSlider && idx !== -1) {
+       rSlider.value = idx;
+       updateRangeDisplay(idx);
+     }
   }
 });
 refreshHeatmap();

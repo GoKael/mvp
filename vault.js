@@ -43,15 +43,28 @@ if (![1000, 2000, 4000, 6000, 8000].includes(currentLimit)) currentLimit = 8000;
 
 async function fetchVault() {
   console.log('Vault: fetchVault started');
-  const fallbackRes = await fetch(chrome.runtime.getURL('server/data/lr_8k.json'));
+  // Load from the extension bundle when available, otherwise use the static file.
+  const dataPath = (typeof chrome !== 'undefined' && chrome.runtime && chrome.runtime.getURL)
+    ? chrome.runtime.getURL('server/data/lr_1k.json')
+    : 'server/data/lr_1k.json';
+  const fallbackRes = await fetch(dataPath);
   const initialVaultMap = await fallbackRes.json();
+
   console.log('Vault: initialVaultMap loaded', Object.keys(initialVaultMap).length);
 
   const storedStatuses = await new Promise(resolve => {
-    chrome.storage.local.get(['vaultWordStatuses'], result => {
-      console.log('Vault: storedStatuses from chrome.storage.local', result.vaultWordStatuses);
-      resolve(result.vaultWordStatuses || {});
-    });
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.get(['vaultWordStatuses'], result => {
+        console.log('Vault: storedStatuses from chrome.storage.local', result.vaultWordStatuses);
+        resolve(result.vaultWordStatuses || {});
+      });
+      return;
+    }
+    try {
+      resolve(JSON.parse(localStorage.getItem('vaultWordStatuses') || '{}'));
+    } catch (_e) {
+      resolve({});
+    }
   });
 
   vaultMap = {};
@@ -69,13 +82,19 @@ async function updateWordStatus(word, status) {
   if (vaultMap[word]) {
     console.log(`Vault: Word ${word} current status: ${vaultMap[word].status}`);
     vaultMap[word].status = status;
-    chrome.storage.local.get(['vaultWordStatuses'], result => {
-      const statuses = result.vaultWordStatuses || {};
-      statuses[word] = status;
-      chrome.storage.local.set({ vaultWordStatuses: statuses }, () => {
-        console.log(`Vault: Word ${word} status updated to ${status} in chrome.storage.local`);
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.get(['vaultWordStatuses'], result => {
+        const statuses = result.vaultWordStatuses || {};
+        statuses[word] = status;
+        chrome.storage.local.set({ vaultWordStatuses: statuses }, () => {
+          console.log(`Vault: Word ${word} status updated to ${status} in chrome.storage.local`);
+        });
       });
-    });
+    } else {
+      const statuses = JSON.parse(localStorage.getItem('vaultWordStatuses') || '{}');
+      statuses[word] = status;
+      localStorage.setItem('vaultWordStatuses', JSON.stringify(statuses));
+    }
   }
 
   // Update node colors selectively rather than re-rendering the whole 8k words
@@ -97,20 +116,16 @@ async function updateWordStatus(word, status) {
 }
 
 function updateCounts() {
-  let known = 0, learn = 0, suggest = 0;
-  const sortedWords = Object.values(vaultMap).slice(0, currentLimit);
-  sortedWords.forEach(i => {
+  let known = 0, learning = 0, total = 0;
+  total = Object.keys(vaultMap).length;
+  Object.values(vaultMap).forEach(i => {
     const status = i.status !== undefined ? i.status : 0;
-    if (status === 2) known++;
-    else if (status === 1) learn++;
-    else suggest++;
+    if (status === 1) learning++;
   });
-  const el1 = document.getElementById('count-known');
-  const el2 = document.getElementById('count-learn');
-  const el3 = document.getElementById('count-suggest');
-  if (el1) el1.innerText = known;
-  if (el2) el2.innerText = learn;
-  if (el3) el3.innerText = suggest;
+  const elTotal = document.getElementById('stat-total');
+  const elLearning = document.getElementById('stat-learning');
+  if (elTotal) elTotal.innerText = total;
+  if (elLearning) elLearning.innerText = learning;
 }
 
 async function renderVault(forceFetch = false) {
@@ -120,11 +135,12 @@ async function renderVault(forceFetch = false) {
   const container = document.getElementById('vault-blocks-container');
   container.innerHTML = '';
 
-  const sortedWords = Object.values(vaultMap);
+  const sortedWords = Object.values(vaultMap).sort((a,b) => (a.rank || 9999) - (b.rank || 9999));
+
   const CHUNK_SIZE = 100;
   const TOTAL_WORDS = Math.min(sortedWords.length, currentLimit);
 
-  const sidebar = document.getElementById('level-sidebar');
+  const sidebar = document.getElementById('sidebar-level');
   if (sidebar) sidebar.innerHTML = '';
 
   for (let i = 0; i < TOTAL_WORDS; i += CHUNK_SIZE) {
@@ -210,14 +226,90 @@ async function renderVault(forceFetch = false) {
   updateCounts();
 }
 
+let activeDictWord = null;
+
+function updateSidebarStatusUI(word) {
+  const item = vaultMap[word];
+  const status = item ? (item.status !== undefined ? item.status : 0) : 0;
+  
+  const bK = document.getElementById('dict-btn-known');
+  const bL = document.getElementById('dict-btn-learn');
+  const bI = document.getElementById('dict-btn-ignore');
+
+  if (bK) { bK.style.background = 'rgba(255,255,255,0.02)'; bK.style.borderColor = '#1e293b'; }
+  if (bL) { bL.style.background = 'rgba(255,255,255,0.02)'; bL.style.borderColor = '#1e293b'; }
+  if (bI) { bI.style.background = 'rgba(255,255,255,0.02)'; bI.style.borderColor = '#1e293b'; }
+
+  if (status === 2 && bK) { bK.style.background = 'rgba(34, 197, 94, 0.2)'; bK.style.borderColor = '#22c55e'; }
+  else if (status === 1 && bL) { bL.style.background = 'rgba(249, 115, 22, 0.2)'; bL.style.borderColor = '#f97316'; }
+  else if (status === 3 && bI) { bI.style.background = 'rgba(107, 114, 128, 0.2)'; bI.style.borderColor = '#6b7280'; }
+}
+
+function setWordStatus(word, newStatus) {
+  if (!word) return;
+
+  const persist = (statuses) => {
+    statuses[word] = newStatus;
+
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.set({ vaultWordStatuses: statuses });
+    } else {
+      localStorage.setItem('vaultWordStatuses', JSON.stringify(statuses));
+    }
+
+    // Update in memory map
+    if (vaultMap[word]) {
+      vaultMap[word].status = newStatus;
+    }
+
+    // Update sidebar UI
+    updateSidebarStatusUI(word);
+
+    // Update grid UI
+    const divId = `word-node-${encodeURIComponent(word)}`;
+    const div = document.getElementById(divId);
+    if (div) {
+      if (newStatus === 2) {
+        div.style.color = '#4ade80';
+        div.style.background = 'rgba(74, 222, 128, 0.1)';
+      } else if (newStatus === 1) {
+        div.style.color = '#fb923c';
+        div.style.background = 'rgba(251, 146, 60, 0.1)';
+      } else if (newStatus === 3) {
+        div.style.color = '#6b7280';
+        div.style.background = 'transparent';
+        div.style.opacity = '0.4';
+      } else {
+        div.style.color = '#e2e8f0';
+        div.style.background = 'transparent';
+        div.style.opacity = '1';
+      }
+    }
+    updateCounts();
+  };
+
+  if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+    chrome.storage.local.get(['vaultWordStatuses'], result => {
+      persist(result.vaultWordStatuses || {});
+    });
+  } else {
+    persist(JSON.parse(localStorage.getItem('vaultWordStatuses') || '{}'));
+  }
+}
+
 function showSidebar(data) {
+  activeDictWord = data.word;
   const sidebar = document.getElementById('dict-sidebar');
   sidebar.style.display = 'flex';
+  document.body.classList.add('sidebar-open');
+
   document.getElementById('dict-word').innerText = data.word || data.id;
   document.getElementById('dict-hv').innerText = `Hán-Việt: ${data.hv || 'N/A'}`;
   document.getElementById('dict-trans').innerText = data.trans || 'No definition found.';
   document.getElementById('dict-type').innerText = data.type || 'Word';
   document.getElementById('dict-rank').innerText = `#${data.rank || 0}`;
+
+  updateSidebarStatusUI(data.word);
 
   // Update LexaAI Explanations Fake Content
   document.getElementById('tab-explain').innerHTML = `
@@ -237,24 +329,34 @@ function showSidebar(data) {
   exContainer.innerHTML = '';
 
   const examples = (data.examples && data.examples.length > 0) ? data.examples : [
-    `${data.word} là một từ rất phổ biến.`,
-    `Tôi học từ ${data.word} hôm nay.`
+    {v: `${data.word} là một từ rất phổ biến.`, e: `${data.word} is a very common word.`, c: `${data.word} 是一個很常見的詞。`},
+    {v: `Tôi học từ ${data.word} hôm nay.`, e: `I'm learning the word ${data.word} today.`, c: `我今天在學 ${data.word} 這個詞。`}
   ];
 
-  examples.forEach(text => {
+
+  examples.forEach(ex => {
+    const text = typeof ex === 'string' ? ex : ex.v;
     const div = document.createElement('div');
-    div.style.cssText = 'background:rgba(255,255,255,0.05); padding:12px; border-radius:8px; font-size:14px; cursor:pointer; display:flex; justify-content:space-between; align-items:center;';
+    div.style.cssText = 'background:rgba(255,255,255,0.05); padding:12px; border-radius:8px; font-size:14px; cursor:pointer; display:flex; flex-direction:column; gap:5px; margin-bottom:10px; border-left: 3px solid transparent;';
 
     const regex = new RegExp(`(${data.word})`, "gi");
     let highlightedText = text.replace(regex, '<span style="color:var(--accent-gold); font-weight:bold;">$1</span>');
-    if (!text.match(regex)) {
-      highlightedText = text; // Fallback
-    }
+    
+    div.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+        <div style="font-weight:500; flex:1;">${highlightedText}</div>
+        <svg style="width:16px; flex-shrink:0; margin-left:10px; opacity:0.5;" viewBox="0 0 24 24" fill="#fff"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+      </div>
+      ${ex.e ? `<div style="font-size:11px; color:#888;">${ex.e}</div>` : ''}
+      ${ex.c ? `<div style="font-size:11px; color:#666;">${ex.c}</div>` : ''}
+    `;
 
-    div.innerHTML = `<span style="flex:1;">${highlightedText}</span> <svg style="width:20px; flex-shrink:0; margin-left:10px;" viewBox="0 0 24 24" fill="#b0b0b0"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>`;
-    div.addEventListener('click', () => speak(text)); // Use addEventListener
+    div.addEventListener('click', () => {
+      speak(text);
+    });
     exContainer.appendChild(div);
   });
+
 
   // Ensure Examples tab is what we start on or keep current
 }
@@ -345,8 +447,18 @@ window.addEventListener('mousedown', () => {
 }, { once: true });
 
 document.addEventListener('click', (e) => {
-  if (e.target.closest('.btn-audio')) {
-    speak(document.getElementById('dict-word').innerText);
+  if (e.target.id === 'dict-word') {
+    speak(e.target.innerText);
+  }
+  
+  // Status button listeners for the standard IDs
+  if (e.target.id === 'dict-btn-known' && activeDictWord) setWordStatus(activeDictWord, 2);
+  if (e.target.id === 'dict-btn-learn' && activeDictWord) setWordStatus(activeDictWord, 1);
+  if (e.target.id === 'dict-btn-ignore' && activeDictWord) setWordStatus(activeDictWord, 3);
+  
+  const studyBtn = e.target.closest('#study-btn');
+  if (studyBtn) {
+    window.location.href = 'memory.html';
   }
   const rangeBtn = e.target.closest('.range-known-btn');
   if (rangeBtn) {
@@ -362,42 +474,55 @@ document.addEventListener('click', (e) => {
     }
 
     if (wordsToUpdate.length > 0) {
-      chrome.storage.local.get(['vaultWordStatuses'], result => {
-        const statuses = result.vaultWordStatuses || {};
+      const persistRange = (statuses) => {
         wordsToUpdate.forEach(word => {
           if (vaultMap[word]) {
-            vaultMap[word].status = 2; // Update in memory
-            statuses[word] = 2; // Update for storage
+            vaultMap[word].status = 2;
+            statuses[word] = 2;
           }
         });
-        chrome.storage.local.set({ vaultWordStatuses: statuses }, () => {
-          // After updating storage, update UI for affected words
-          wordsToUpdate.forEach(word => {
-            const divId = `word-node-${encodeURIComponent(word)}`;
-            const div = document.getElementById(divId);
-            if (div) {
-              div.style.color = '#4ade80';
-              div.style.background = 'rgba(74, 222, 128, 0.1)';
-            }
-          });
-          updateCounts(); // Update counts display
+        if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+          chrome.storage.local.set({ vaultWordStatuses: statuses });
+        } else {
+          localStorage.setItem('vaultWordStatuses', JSON.stringify(statuses));
+        }
+        wordsToUpdate.forEach(word => {
+          const divId = `word-node-${encodeURIComponent(word)}`;
+          const div = document.getElementById(divId);
+          if (div) {
+            div.style.color = '#4ade80';
+            div.style.background = 'rgba(74, 222, 128, 0.1)';
+          }
         });
-      });
+        updateCounts();
+      };
+
+      if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+        chrome.storage.local.get(['vaultWordStatuses'], result => persistRange(result.vaultWordStatuses || {}));
+      } else {
+        persistRange(JSON.parse(localStorage.getItem('vaultWordStatuses') || '{}'));
+      }
     }
   }
 });
 
-document.getElementById('dict-audio-btn').addEventListener('click', () => {
-  speak(document.getElementById('dict-word').innerText);
+const safeClick = (id, fn) => {
+  const el = document.getElementById(id);
+  if (el) el.onclick = fn;
+};
+
+safeClick('dict-word', () => speak(document.getElementById('dict-word').innerText));
+safeClick('dict-btn-known', () => {
+    const w = document.getElementById('dict-word').innerText;
+    setWordStatus(w, 2);
 });
-document.getElementById('dict-known-btn').addEventListener('click', () => {
-  updateWordStatus(document.getElementById('dict-word').innerText, 2);
+safeClick('dict-btn-learn', () => {
+    const w = document.getElementById('dict-word').innerText;
+    setWordStatus(w, 1);
 });
-document.getElementById('dict-learn-btn').addEventListener('click', () => {
-  updateWordStatus(document.getElementById('dict-word').innerText, 1);
-});
-document.getElementById('dict-ignore-btn').addEventListener('click', () => {
-  updateWordStatus(document.getElementById('dict-word').innerText, 0);
+safeClick('dict-btn-ignore', () => {
+    const w = document.getElementById('dict-word').innerText;
+    setWordStatus(w, 3);
 });
 
 document.querySelectorAll('.level-btn').forEach(btn => {
