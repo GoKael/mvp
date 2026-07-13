@@ -13,7 +13,7 @@ import {
   wordProgress,
 } from './lib/app-core.mjs?v=2';
 import { AudioController } from './lib/audio.mjs?v=2';
-import { createLexicon, lexemeKey, splitLexemes } from './lib/lexeme.mjs?v=1';
+import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
   words: 'server/data/core-100.json?v=4',
@@ -115,11 +115,34 @@ function lexemeMarkup(entry, text, focus = false) {
   return `<span class="lexeme-token status-${status}${focus ? ' focus-hit' : ''}" data-lexeme-id="${escapeHtml(entry.id)}" tabindex="0" role="button" aria-label="${escapeHtml(label)}">${escapeHtml(text)}</span>`;
 }
 
-function renderVietnamese(text, focusWords = []) {
+function fallbackLexeme(text) {
+  const key = lexemeKey(text);
+  const existing = lexicon.byText.get(key);
+  if (existing) return existing;
+  const entry = {
+    id: `token:${encodeURIComponent(key)}`,
+    vi: text,
+    zhTW: '尚未校驗翻譯',
+    pos: '句中單字',
+    audio: '',
+    source: 'token',
+  };
+  lexicon.byId.set(entry.id, entry);
+  lexicon.byText.set(key, entry);
+  return entry;
+}
+
+function renderUnknownVietnamese(text) {
+  return splitLatinWords(text).map((part) => part.word
+    ? lexemeMarkup(fallbackLexeme(part.text), part.text)
+    : escapeHtml(part.text)).join('');
+}
+
+function renderVietnamese(text, focusWords = [], includeUnknown = true) {
   const focusKeys = new Set(focusWords.map((word) => lexemeKey(word.vi)));
   return splitLexemes(text, lexicon).map((part) => part.entry
     ? lexemeMarkup(part.entry, part.text, focusKeys.has(lexemeKey(part.text)))
-    : escapeHtml(part.text)).join('');
+    : (includeUnknown ? renderUnknownVietnamese(part.text) : escapeHtml(part.text))).join('');
 }
 
 function updateLexemeNodes(wordId) {
@@ -158,11 +181,6 @@ function closeLexemePopoverSurface() {
 
 function positionLexemePopover() {
   if (!isLexemePopoverOpen() || !activeLexemeTrigger?.isConnected) return;
-  if (matchMedia('(max-width: 720px)').matches) {
-    lexemePopover.style.removeProperty('left');
-    lexemePopover.style.removeProperty('top');
-    return;
-  }
   const trigger = activeLexemeTrigger.getBoundingClientRect();
   const card = lexemePopover.getBoundingClientRect();
   const left = Math.max(12, Math.min(innerWidth - card.width - 12, trigger.left + trigger.width / 2 - card.width / 2));
@@ -176,7 +194,9 @@ function renderLexemePopover() {
   const entry = lexicon.byId.get(activeLexemeId);
   if (!entry) return;
   const progress = wordProgress(state, entry.id);
-  const source = entry.source === 'core' ? `Core ${String(entry.rank).padStart(3, '0')}` : '課程詞組';
+  const source = entry.source === 'core'
+    ? `Core ${String(entry.rank).padStart(3, '0')}`
+    : (entry.source === 'focus' ? '課程詞組' : '句中單字 · 待校驗');
   const canPlay = Boolean(entry.audio && hasAudio(entry.audio));
   Object.values(STATUS).forEach((status) => lexemePopover.classList.remove(`status-${status}`));
   lexemePopover.classList.add(`status-${progress.status}`);
@@ -276,7 +296,7 @@ function updateShell() {
 function routeTitle(title, kicker, action = '') {
   return `<header class="page-title">
     <div>
-      <p class="eyebrow">${renderVietnamese(kicker)}</p>
+      <p class="eyebrow">${renderVietnamese(kicker, [], false)}</p>
       <h1>${escapeHtml(title)}</h1>
     </div>
     ${action}
@@ -833,7 +853,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=14', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=15', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

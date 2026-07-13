@@ -1,11 +1,11 @@
-const CACHE = 'lexa-v2-14';
+const CACHE = 'lexa-v2-15';
 const APP_SHELL = [
   './index.html',
-  './styles.css?v=19',
-  './app.js?v=24',
+  './styles.css?v=20',
+  './app.js?v=25',
   './lib/app-core.mjs?v=2',
   './lib/audio.mjs?v=2',
-  './lib/lexeme.mjs?v=1',
+  './lib/lexeme.mjs?v=2',
   './manifest.webmanifest',
   './assets/icon.svg',
   './server/data/core-100.json?v=4',
