@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node ../scripts/build-data.js && node ../scripts/validate-data.js --strict-audio && node ../scripts/test-core.mjs && node ../scripts/test-extension.cjs && node ../scripts/security-check.js"
+    "test": "node ../scripts/build-data.js && node ../scripts/validate-data.js --strict-audio && node ../scripts/test-core.mjs && node ../scripts/test-lexeme.mjs && node ../scripts/test-extension.cjs && node ../scripts/security-check.js"
   },
   "keywords": [],
   "author": "",

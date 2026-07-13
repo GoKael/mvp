@@ -13,6 +13,7 @@ import {
   wordProgress,
 } from './lib/app-core.mjs?v=2';
 import { AudioController } from './lib/audio.mjs?v=2';
+import { createLexicon, lexemeKey, splitLexemes } from './lib/lexeme.mjs?v=1';
 
 const DATA_PATHS = {
   words: 'server/data/core-100.json?v=4',
@@ -23,6 +24,7 @@ const DATA_PATHS = {
 
 const app = document.getElementById('app');
 const wordDialog = document.getElementById('word-dialog');
+const lexemePopover = document.getElementById('lexeme-popover');
 const toast = document.getElementById('toast');
 const ui = {
   lessonSegments: {},
@@ -40,6 +42,11 @@ const ui = {
 let data = { words: [], lessons: [], patterns: [], generatedAudio: new Set() };
 let state;
 let visibleWordIds = [];
+let lexicon = createLexicon([], []);
+let activeLexemeId = '';
+let activeLexemeTrigger = null;
+let lexemeOpenTimer;
+let lexemeCloseTimer;
 
 const extensionStorage = globalThis.chrome?.storage?.local;
 
@@ -101,6 +108,95 @@ function statusLabel(status) {
   }[status] || '新單字';
 }
 
+function lexemeMarkup(entry, text, focus = false) {
+  const status = wordProgress(state, entry.id).status;
+  const label = `${entry.vi}，${entry.zhTW}，${statusLabel(status)}`;
+  return `<span class="lexeme-token status-${status}${focus ? ' focus-hit' : ''}" data-lexeme-id="${escapeHtml(entry.id)}" tabindex="0" role="button" aria-label="${escapeHtml(label)}">${escapeHtml(text)}</span>`;
+}
+
+function renderVietnamese(text, focusWords = []) {
+  const focusKeys = new Set(focusWords.map((word) => lexemeKey(word.vi)));
+  return splitLexemes(text, lexicon).map((part) => part.entry
+    ? lexemeMarkup(part.entry, part.text, focusKeys.has(lexemeKey(part.text)))
+    : escapeHtml(part.text)).join('');
+}
+
+function updateLexemeNodes(wordId) {
+  const status = wordProgress(state, wordId).status;
+  document.querySelectorAll('[data-lexeme-id]').forEach((node) => {
+    if (node.dataset.lexemeId !== wordId) return;
+    Object.values(STATUS).forEach((value) => node.classList.remove(`status-${value}`));
+    node.classList.add(`status-${status}`);
+    const entry = lexicon.byId.get(wordId);
+    if (entry) node.setAttribute('aria-label', `${entry.vi}，${entry.zhTW}，${statusLabel(status)}`);
+    node.querySelectorAll('[data-status-label]').forEach((label) => { label.textContent = statusLabel(status); });
+  });
+}
+
+function positionLexemePopover() {
+  if (lexemePopover.hidden || !activeLexemeTrigger?.isConnected) return;
+  if (matchMedia('(max-width: 720px)').matches) {
+    lexemePopover.style.removeProperty('left');
+    lexemePopover.style.removeProperty('top');
+    return;
+  }
+  const trigger = activeLexemeTrigger.getBoundingClientRect();
+  const card = lexemePopover.getBoundingClientRect();
+  const left = Math.max(12, Math.min(innerWidth - card.width - 12, trigger.left + trigger.width / 2 - card.width / 2));
+  const below = trigger.bottom + 10;
+  const top = below + card.height <= innerHeight - 12 ? below : Math.max(12, trigger.top - card.height - 10);
+  lexemePopover.style.left = `${left}px`;
+  lexemePopover.style.top = `${top}px`;
+}
+
+function renderLexemePopover() {
+  const entry = lexicon.byId.get(activeLexemeId);
+  if (!entry) return;
+  const progress = wordProgress(state, entry.id);
+  const source = entry.source === 'core' ? `Core ${String(entry.rank).padStart(3, '0')}` : '課程詞組';
+  const canPlay = Boolean(entry.audio && hasAudio(entry.audio));
+  lexemePopover.className = `lexeme-popover status-${progress.status}`;
+  lexemePopover.querySelector('[data-lexeme-content]').innerHTML = `
+    <button class="lexeme-close" type="button" data-lexeme-action="close" aria-label="關閉單字卡">×</button>
+    <p class="lexeme-source">${escapeHtml(source)}</p>
+    <div class="lexeme-heading"><h2>${escapeHtml(entry.vi)}</h2><span>${escapeHtml(statusLabel(progress.status))}</span></div>
+    <p class="lexeme-meaning">${escapeHtml(entry.zhTW)}${entry.pos ? ` · ${escapeHtml(entry.pos)}` : ''}</p>
+    <button class="lexeme-play" type="button" data-lexeme-action="play" ${canPlay ? '' : 'disabled title="此詞組尚無獨立音檔"'}>▶ ${canPlay ? '播放發音' : '尚無獨立發音'}</button>
+    <div class="lexeme-actions" aria-label="學習狀態">
+      ${[
+        [STATUS.LEARNING, '學習中'],
+        [STATUS.KNOWN, '已會'],
+        [STATUS.IGNORED, '略過'],
+        [STATUS.NEW, '重設'],
+      ].map(([status, label]) => `<button type="button" class="${progress.status === status ? 'active' : ''}" data-lexeme-action="status" data-status="${status}">${label}</button>`).join('')}
+    </div>`;
+  requestAnimationFrame(positionLexemePopover);
+}
+
+function showLexemePopover(trigger, focusCard = false) {
+  const entry = lexicon.byId.get(trigger?.dataset.lexemeId);
+  if (!entry) return;
+  clearTimeout(lexemeCloseTimer);
+  activeLexemeId = entry.id;
+  activeLexemeTrigger = trigger;
+  lexemePopover.hidden = false;
+  renderLexemePopover();
+  if (focusCard) requestAnimationFrame(() => lexemePopover.querySelector('[data-lexeme-action="play"]:not(:disabled), [data-lexeme-action="status"]')?.focus());
+}
+
+function closeLexemePopover() {
+  clearTimeout(lexemeOpenTimer);
+  clearTimeout(lexemeCloseTimer);
+  lexemePopover.hidden = true;
+  activeLexemeId = '';
+  activeLexemeTrigger = null;
+}
+
+function scheduleLexemeClose() {
+  clearTimeout(lexemeCloseTimer);
+  lexemeCloseTimer = setTimeout(closeLexemePopover, 300);
+}
+
 function notify(message) {
   toast.textContent = message;
   toast.hidden = false;
@@ -150,7 +246,7 @@ function updateShell() {
 function routeTitle(title, kicker, action = '') {
   return `<header class="page-title">
     <div>
-      <p class="eyebrow">${escapeHtml(kicker)}</p>
+      <p class="eyebrow">${renderVietnamese(kicker)}</p>
       <h1>${escapeHtml(title)}</h1>
     </div>
     ${action}
@@ -177,7 +273,7 @@ function renderToday() {
         <p>下一課</p>
         <h2>${escapeHtml(lesson.title.zhTW)}</h2>
         <div class="ticket-lines">
-          ${lesson.segments.map((segment) => `<span>${escapeHtml(segment.topic.vi)} · ${escapeHtml(segment.topic.zhTW)}</span>`).join('')}
+          ${lesson.segments.map((segment) => `<span>${renderVietnamese(segment.topic.vi)} · ${escapeHtml(segment.topic.zhTW)}</span>`).join('')}
         </div>
       </article>
     </section>
@@ -209,12 +305,13 @@ function renderLessons() {
     <section class="lesson-grid reveal">
       ${data.lessons.map((lesson, index) => {
         const done = Boolean(state.lessons[lesson.id]?.completedAt);
-        return `<a class="lesson-card ${done ? 'completed' : ''}" href="#/lesson/${lesson.id}">
+        return `<article class="lesson-card ${done ? 'completed' : ''}">
           <div class="lesson-card-top"><span>${String(index + 1).padStart(2, '0')}</span><span>${done ? '已完成' : '30 秒'}</span></div>
-          <h2>${escapeHtml(lesson.title.zhTW)}</h2>
-          <p>${escapeHtml(lesson.title.vi)}</p>
-          <div class="topic-row">${lesson.segments.map((segment) => `<span>${escapeHtml(segment.topic.vi)}</span>`).join('')}</div>
-        </a>`;
+          <h2><a href="#/lesson/${lesson.id}">${escapeHtml(lesson.title.zhTW)}</a></h2>
+          <p>${renderVietnamese(lesson.title.vi)}</p>
+          <div class="topic-row">${lesson.segments.map((segment) => `<span>${renderVietnamese(segment.topic.vi)}</span>`).join('')}</div>
+          <a class="lesson-card-cta" href="#/lesson/${lesson.id}">${done ? '再次學習' : '開始三句'} →</a>
+        </article>`;
       }).join('')}
     </section>`;
 }
@@ -224,7 +321,7 @@ function lessonInsights(segment, open) {
     <article class="insight-card">
       <p class="eyebrow">第一原理</p>
       <h3>先抓能替換的積木</h3>
-      <div class="block-grid">${segment.breakdown.map((part) => `<span><small>${escapeHtml(part.role)}</small><b>${escapeHtml(part.vi)}</b><em>${escapeHtml(part.zhTW)}</em></span>`).join('')}</div>
+      <div class="block-grid">${segment.breakdown.map((part) => `<span><small>${escapeHtml(part.role)}</small><b>${renderVietnamese(part.vi)}</b><em>${escapeHtml(part.zhTW)}</em></span>`).join('')}</div>
     </article>
     <article class="insight-card feynman-card">
       <p class="eyebrow">費曼自述</p>
@@ -248,9 +345,9 @@ function renderLesson(route) {
     </div>
 
     <article class="sentence-stage reveal">
-      <div class="topic-badge"><span></span>${escapeHtml(segment.topic.vi)}<small>${escapeHtml(segment.topic.zhTW)}</small></div>
+      <div class="topic-badge"><span class="topic-dot"></span>${renderVietnamese(segment.topic.vi)}<small>${escapeHtml(segment.topic.zhTW)}</small></div>
       <div class="sentence-block zh"><span class="language-flag" aria-label="台灣華語">🇹🇼</span><p>${highlightSentence(segment.zhTW, segment.focusWords, 'zhTW')}</p></div>
-      <div class="sentence-block vi"><span class="language-flag" aria-label="越南語">🇻🇳</span><p>${highlightSentence(segment.vi, segment.focusWords, 'vi')}</p></div>
+      <div class="sentence-block vi"><span class="language-flag" aria-label="越南語">🇻🇳</span><p>${renderVietnamese(segment.vi, segment.focusWords)}</p></div>
       <div class="audio-row">
         ${audioButton('中文', segment.audio.zhTW)}
         ${audioButton('越南語', segment.audio.vi)}
@@ -258,7 +355,7 @@ function renderLesson(route) {
       </div>
       <div class="focus-panel">
         <p>單字對照</p>
-        <div>${segment.focusWords.map((word) => `<span><b>${escapeHtml(word.vi)}</b><small>${escapeHtml(word.zhTW)}</small></span>`).join('')}</div>
+        <div>${segment.focusWords.map((word) => `<span><b>${renderVietnamese(word.vi, [word])}</b><small>${escapeHtml(word.zhTW)}</small></span>`).join('')}</div>
       </div>
     </article>
 
@@ -302,11 +399,11 @@ function renderWords() {
     <section class="word-grid reveal">
       ${words.map((word) => {
         const progress = wordProgress(state, word.id);
-        return `<button class="word-card status-${progress.status}" type="button" data-action="open-word" data-id="${word.id}">
+        return `<button class="word-card status-${progress.status}" type="button" data-action="open-word" data-id="${word.id}" data-lexeme-id="${word.id}" aria-label="${escapeHtml(`${word.vi}，${word.zhTW}，${statusLabel(progress.status)}`)}">
           <span class="word-rank">${String(word.rank).padStart(3, '0')}</span>
           <strong>${escapeHtml(word.vi)}</strong>
           <span>${escapeHtml(word.zhTW)}</span>
-          <small>${escapeHtml(word.pos)} · ${statusLabel(progress.status)}</small>
+          <small>${escapeHtml(word.pos)} · <span data-status-label>${statusLabel(progress.status)}</span></small>
         </button>`;
       }).join('') || '<div class="empty-state">找不到符合的單字。</div>'}
     </section>`;
@@ -315,11 +412,12 @@ function renderWords() {
 function openWord(wordId) {
   const word = data.words.find((item) => item.id === wordId);
   if (!word) return;
+  closeLexemePopover();
   ui.activeWordId = word.id;
   const progress = wordProgress(state, word.id);
   wordDialog.querySelector('[data-dialog-content]').innerHTML = `
     <div class="dialog-rank">Core ${String(word.rank).padStart(3, '0')}</div>
-    <div class="dialog-title-row"><div><h2>${escapeHtml(word.vi)}</h2><p>${escapeHtml(word.zhTW)} · ${escapeHtml(word.pos)}</p></div>${audioButton('播放單字', word.audio, 'audio-button icon')}</div>
+    <div class="dialog-title-row"><div><h2>${renderVietnamese(word.vi)}</h2><p>${escapeHtml(word.zhTW)} · ${escapeHtml(word.pos)}</p></div>${audioButton('播放單字', word.audio, 'audio-button icon')}</div>
     <div class="status-actions">
       ${[
         [STATUS.LEARNING, '學習中'],
@@ -330,7 +428,7 @@ function openWord(wordId) {
     </div>
     <section class="example-list">
       <p class="eyebrow">三個自然例句</p>
-      ${word.examples.map((example, index) => `<article><div><b>${escapeHtml(example.vi)}</b><span>${escapeHtml(example.zhTW)}</span></div>${audioButton(`例句 ${index + 1}`, example.audio, 'audio-button icon')}</article>`).join('')}
+      ${word.examples.map((example, index) => `<article><div><b>${renderVietnamese(example.vi)}</b><span>${escapeHtml(example.zhTW)}</span></div>${audioButton(`例句 ${index + 1}`, example.audio, 'audio-button icon')}</article>`).join('')}
     </section>`;
   if (!wordDialog.open) wordDialog.showModal();
 }
@@ -385,7 +483,7 @@ function reviewPrompt(word) {
     </div>`;
   }
   if (ui.reviewMode === 'order') return orderExercise(word);
-  return `<h2>${escapeHtml(word.vi)}</h2>${audioButton('聽發音', word.audio)}<div class="answer-placeholder">在腦中說出中文意思，再翻面。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
+  return `<h2>${renderVietnamese(word.vi)}</h2>${audioButton('聽發音', word.audio)}<div class="answer-placeholder">在腦中說出中文意思，再翻面。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
 }
 
 function renderReview() {
@@ -414,7 +512,7 @@ function renderReview() {
       </aside>
       <article class="review-card">
         <span class="review-status">${statusLabel(progress.status)} · Box ${progress.box}</span>
-        ${ui.reviewRevealed ? `<h2>${escapeHtml(word.vi)}</h2><div class="review-answer"><strong>${escapeHtml(word.zhTW)}</strong><p>${escapeHtml(word.examples[0].vi)}</p><span>${escapeHtml(word.examples[0].zhTW)}</span></div>` : reviewPrompt(word)}
+        ${ui.reviewRevealed ? `<h2>${renderVietnamese(word.vi)}</h2><div class="review-answer"><strong>${escapeHtml(word.zhTW)}</strong><p>${renderVietnamese(word.examples[0].vi)}</p><span>${escapeHtml(word.examples[0].zhTW)}</span></div>` : reviewPrompt(word)}
         ${ui.reviewRevealed
           ? `<div class="review-actions"><button type="button" data-action="review-rate" data-rating="again">再來一次</button><button type="button" data-action="review-rate" data-rating="good">答對了</button><button type="button" data-action="review-rate" data-rating="known">直接已會</button><button type="button" data-action="review-rate" data-rating="ignored">略過</button></div>`
           : ''}
@@ -433,12 +531,13 @@ function renderPatterns() {
           <article class="pattern-explanation"><p>${escapeHtml(pattern.explanation)}</p><aside><b>易錯提醒</b>${escapeHtml(pattern.note)}</aside></article>
         </div>
         <p class="pattern-example-label">例句與發音</p>
-        <div class="pattern-examples">${pattern.examples.map((example) => `<article><div><b>${escapeHtml(example.vi)}</b><span>${escapeHtml(example.zhTW)}</span></div>${audioButton('播放例句', example.audio, 'audio-button icon')}</article>`).join('')}</div>
+        <div class="pattern-examples">${pattern.examples.map((example) => `<article><div><b>${renderVietnamese(example.vi)}</b><span>${escapeHtml(example.zhTW)}</span></div>${audioButton('播放例句', example.audio, 'audio-button icon')}</article>`).join('')}</div>
       </details>`).join('')}
     </section>`;
 }
 
 function render() {
+  closeLexemePopover();
   audio.stop();
   updateShell();
   const route = parseRoute(location.hash);
@@ -602,6 +701,68 @@ wordDialog.addEventListener('click', (event) => {
   }
 });
 
+document.addEventListener('pointerover', (event) => {
+  if (event.pointerType === 'touch') return;
+  const trigger = event.target.closest('[data-lexeme-id]');
+  const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+  if (!trigger || trigger.contains(related)) return;
+  clearTimeout(lexemeOpenTimer);
+  clearTimeout(lexemeCloseTimer);
+  lexemeOpenTimer = setTimeout(() => showLexemePopover(trigger), 120);
+});
+
+document.addEventListener('pointerout', (event) => {
+  if (event.pointerType === 'touch') return;
+  const trigger = event.target.closest('[data-lexeme-id]');
+  const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
+  if (!trigger || trigger.contains(related) || lexemePopover.contains(related)) return;
+  scheduleLexemeClose();
+});
+
+document.addEventListener('click', (event) => {
+  const trigger = event.target.closest('[data-lexeme-id]');
+  if (trigger && !trigger.closest('[data-action]')) {
+    showLexemePopover(trigger);
+    return;
+  }
+  if (!trigger && !lexemePopover.contains(event.target)) closeLexemePopover();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && !lexemePopover.hidden) {
+    const trigger = activeLexemeTrigger;
+    closeLexemePopover();
+    trigger?.focus();
+    return;
+  }
+  const trigger = event.target.closest?.('[data-lexeme-id]');
+  if (trigger && (event.key === 'Enter' || event.key === ' ')) {
+    event.preventDefault();
+    showLexemePopover(trigger, true);
+  }
+});
+
+lexemePopover.addEventListener('pointerenter', () => clearTimeout(lexemeCloseTimer));
+lexemePopover.addEventListener('pointerleave', scheduleLexemeClose);
+lexemePopover.addEventListener('click', (event) => {
+  const button = event.target.closest('[data-lexeme-action]');
+  if (!button) return;
+  const entry = lexicon.byId.get(activeLexemeId);
+  if (button.dataset.lexemeAction === 'close') closeLexemePopover();
+  if (button.dataset.lexemeAction === 'play' && entry?.audio) {
+    audio.play(entry.audio).then((ok) => { if (!ok) notify('音檔無法播放'); });
+  }
+  if (button.dataset.lexemeAction === 'status' && entry) {
+    setWordStatus(state, entry.id, button.dataset.status);
+    persist();
+    updateLexemeNodes(entry.id);
+    renderLexemePopover();
+  }
+});
+
+window.addEventListener('scroll', closeLexemePopover, { capture: true, passive: true });
+window.addEventListener('resize', positionLexemePopover);
+
 document.getElementById('playback-rate').addEventListener('change', (event) => {
   state.settings.playbackRate = Number(event.target.value);
   persist();
@@ -623,6 +784,7 @@ async function init() {
       patterns,
       generatedAudio: new Set(audioManifest.assets.filter((asset) => asset.generated).map((asset) => asset.output)),
     };
+    lexicon = createLexicon(words, lessons);
     state = loadState(localStorage, words);
     mergeInbox(await readExtensionInbox());
     if (!location.hash) history.replaceState(null, '', '#/today');
@@ -635,7 +797,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=8', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=12', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }
