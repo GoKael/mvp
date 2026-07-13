@@ -1,8 +1,8 @@
-const CACHE = 'lexa-v2-12';
+const CACHE = 'lexa-v2-14';
 const APP_SHELL = [
   './index.html',
-  './styles.css?v=17',
-  './app.js?v=22',
+  './styles.css?v=19',
+  './app.js?v=24',
   './lib/app-core.mjs?v=2',
   './lib/audio.mjs?v=2',
   './lib/lexeme.mjs?v=1',

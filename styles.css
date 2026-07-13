@@ -392,7 +392,7 @@ body.is-playing #audio-status { color: var(--rust); font-weight: 800; }
 .lexeme-token {
   display: inline;
   border-radius: .22em;
-  cursor: help;
+  cursor: pointer;
   text-decoration: underline dotted rgba(117, 108, 95, .55) .08em;
   text-underline-offset: .17em;
   transition: color .16s ease, background .16s ease, opacity .16s ease, box-shadow .16s ease;
@@ -409,8 +409,11 @@ body.is-playing #audio-status { color: var(--rust); font-weight: 800; }
 
 .lexeme-popover {
   position: fixed;
+  inset: auto;
   z-index: 75;
+  display: none;
   width: min(340px, calc(100vw - 24px));
+  margin: 0;
   padding: 22px;
   border: 1px solid rgba(255,255,255,.14);
   border-radius: 22px 9px 22px 9px;
@@ -418,6 +421,7 @@ body.is-playing #audio-status { color: var(--rust); font-weight: 800; }
   color: #fff8ea;
   box-shadow: 0 24px 70px rgba(35, 28, 20, .32);
 }
+.lexeme-popover:popover-open, .lexeme-popover.is-open { display: block; }
 .lexeme-popover::before { position: absolute; inset: 0 auto 0 0; width: 4px; content: ""; border-radius: 22px 0 0 9px; background: #bdb3a3; }
 .lexeme-popover.status-learning::before { background: var(--amber); }
 .lexeme-popover.status-known::before { background: #7e9b75; }

@@ -26,6 +26,7 @@ const app = document.getElementById('app');
 const wordDialog = document.getElementById('word-dialog');
 const lexemePopover = document.getElementById('lexeme-popover');
 const toast = document.getElementById('toast');
+const supportsPopover = typeof lexemePopover.showPopover === 'function';
 const ui = {
   lessonSegments: {},
   feynmanOpen: {},
@@ -133,8 +134,30 @@ function updateLexemeNodes(wordId) {
   });
 }
 
+function isLexemePopoverOpen() {
+  return supportsPopover
+    ? lexemePopover.matches(':popover-open')
+    : lexemePopover.classList.contains('is-open');
+}
+
+function openLexemePopoverSurface() {
+  if (supportsPopover) {
+    if (!isLexemePopoverOpen()) lexemePopover.showPopover();
+  } else {
+    lexemePopover.classList.add('is-open');
+  }
+}
+
+function closeLexemePopoverSurface() {
+  if (supportsPopover) {
+    if (isLexemePopoverOpen()) lexemePopover.hidePopover();
+  } else {
+    lexemePopover.classList.remove('is-open');
+  }
+}
+
 function positionLexemePopover() {
-  if (lexemePopover.hidden || !activeLexemeTrigger?.isConnected) return;
+  if (!isLexemePopoverOpen() || !activeLexemeTrigger?.isConnected) return;
   if (matchMedia('(max-width: 720px)').matches) {
     lexemePopover.style.removeProperty('left');
     lexemePopover.style.removeProperty('top');
@@ -155,7 +178,8 @@ function renderLexemePopover() {
   const progress = wordProgress(state, entry.id);
   const source = entry.source === 'core' ? `Core ${String(entry.rank).padStart(3, '0')}` : '課程詞組';
   const canPlay = Boolean(entry.audio && hasAudio(entry.audio));
-  lexemePopover.className = `lexeme-popover status-${progress.status}`;
+  Object.values(STATUS).forEach((status) => lexemePopover.classList.remove(`status-${status}`));
+  lexemePopover.classList.add(`status-${progress.status}`);
   lexemePopover.querySelector('[data-lexeme-content]').innerHTML = `
     <button class="lexeme-close" type="button" data-lexeme-action="close" aria-label="關閉單字卡">×</button>
     <p class="lexeme-source">${escapeHtml(source)}</p>
@@ -177,17 +201,23 @@ function showLexemePopover(trigger, focusCard = false) {
   const entry = lexicon.byId.get(trigger?.dataset.lexemeId);
   if (!entry) return;
   clearTimeout(lexemeCloseTimer);
+  const owner = trigger.closest('dialog[open]') || document.body;
+  if (lexemePopover.parentElement !== owner) {
+    closeLexemePopoverSurface();
+    owner.append(lexemePopover);
+  }
   activeLexemeId = entry.id;
   activeLexemeTrigger = trigger;
-  lexemePopover.hidden = false;
   renderLexemePopover();
+  openLexemePopoverSurface();
   if (focusCard) requestAnimationFrame(() => lexemePopover.querySelector('[data-lexeme-action="play"]:not(:disabled), [data-lexeme-action="status"]')?.focus());
 }
 
 function closeLexemePopover() {
   clearTimeout(lexemeOpenTimer);
   clearTimeout(lexemeCloseTimer);
-  lexemePopover.hidden = true;
+  closeLexemePopoverSurface();
+  if (lexemePopover.parentElement !== document.body) document.body.insertBefore(lexemePopover, toast);
   activeLexemeId = '';
   activeLexemeTrigger = null;
 }
@@ -690,7 +720,10 @@ app.addEventListener('input', (event) => {
 });
 
 wordDialog.addEventListener('click', (event) => {
-  if (event.target === wordDialog || event.target.closest('[data-close-dialog]')) wordDialog.close();
+  if (event.target === wordDialog || event.target.closest('[data-close-dialog]')) {
+    closeLexemePopover();
+    wordDialog.close();
+  }
   const button = event.target.closest('[data-action]');
   if (!button) return;
   if (button.dataset.action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify('音檔無法播放'); });
@@ -700,6 +733,7 @@ wordDialog.addEventListener('click', (event) => {
     openWord(button.dataset.id);
   }
 });
+wordDialog.addEventListener('close', closeLexemePopover);
 
 document.addEventListener('pointerover', (event) => {
   if (event.pointerType === 'touch') return;
@@ -729,7 +763,9 @@ document.addEventListener('click', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape' && !lexemePopover.hidden) {
+  if (event.key === 'Escape' && isLexemePopoverOpen()) {
+    event.preventDefault();
+    event.stopPropagation();
     const trigger = activeLexemeTrigger;
     closeLexemePopover();
     trigger?.focus();
@@ -797,7 +833,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=12', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=14', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }
