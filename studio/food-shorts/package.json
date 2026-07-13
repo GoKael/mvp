@@ -1,0 +1,10 @@
+{
+  "name": "lexa-food-shorts",
+  "private": true,
+  "scripts": {
+    "build": "node ../../scripts/build-shorts.js",
+    "preview": "cd food-001 && npx --yes hyperframes@0.7.33 preview",
+    "check:first": "cd food-001 && npx --yes hyperframes@0.7.33 lint && npx --yes hyperframes@0.7.33 validate && npx --yes hyperframes@0.7.33 inspect",
+    "check:all": "node ../../scripts/check-shorts.js"
+  }
+}

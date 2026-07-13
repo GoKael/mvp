@@ -1,0 +1,9 @@
+.DS_Store
+.agent/
+server/cache/
+node_modules/
+.venv/
+__pycache__/
+studio/**/.thumbnails/
+studio/**/.waveform-cache/
+*.pyc

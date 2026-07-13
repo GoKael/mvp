@@ -1,0 +1,3502 @@
+[
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "là",
+    "output": "assets/audio/words/001-la.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy là bạn thân của tôi.",
+    "output": "assets/audio/examples/001-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đây là lần đầu tiên tôi đi du lịch.",
+    "output": "assets/audio/examples/001-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đó là một ý kiến hay.",
+    "output": "assets/audio/examples/001-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "và",
+    "output": "assets/audio/words/002-va.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích ăn cơm và uống trà.",
+    "output": "assets/audio/examples/002-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Lan và Mai là chị em họ.",
+    "output": "assets/audio/examples/002-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy tập trung và cố gắng hết mình.",
+    "output": "assets/audio/examples/002-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "của",
+    "output": "assets/audio/words/003-cua.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đây là chìa khóa của căn nhà.",
+    "output": "assets/audio/examples/003-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Màu sắc của bầu trời thật đẹp.",
+    "output": "assets/audio/examples/003-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Lỗi này không phải của riêng ai.",
+    "output": "assets/audio/examples/003-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "có",
+    "output": "assets/audio/words/004-co.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi có rất nhiều việc phải làm.",
+    "output": "assets/audio/examples/004-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trong tủ lạnh có còn sữa không?",
+    "output": "assets/audio/examples/004-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có người đang chờ bạn ở cửa.",
+    "output": "assets/audio/examples/004-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "không",
+    "output": "assets/audio/words/005-khong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi không biết tiếng Pháp.",
+    "output": "assets/audio/examples/005-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy không có ở nhà.",
+    "output": "assets/audio/examples/005-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có khỏe không?",
+    "output": "assets/audio/examples/005-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "trong",
+    "output": "assets/audio/words/006-trong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi để ví tiền trong cặp sách.",
+    "output": "assets/audio/examples/006-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trong phòng bỗng nhiên im lặng.",
+    "output": "assets/audio/examples/006-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy luôn ở trong tim tôi.",
+    "output": "assets/audio/examples/006-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "một",
+    "output": "assets/audio/words/007-mot.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cho tôi xin một cốc nước lọc.",
+    "output": "assets/audio/examples/007-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đó chỉ là một sự tình cờ.",
+    "output": "assets/audio/examples/007-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy là một giáo viên giỏi.",
+    "output": "assets/audio/examples/007-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "các",
+    "output": "assets/audio/words/008-cac.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Các bạn hãy chú ý nghe tôi nói.",
+    "output": "assets/audio/examples/008-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Các em học sinh đang đá bóng.",
+    "output": "assets/audio/examples/008-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Các chuyên gia đang thảo luận.",
+    "output": "assets/audio/examples/008-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "cho",
+    "output": "assets/audio/words/009-cho.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy cho tôi thêm thời gian.",
+    "output": "assets/audio/examples/009-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi mua quà này cho mẹ.",
+    "output": "assets/audio/examples/009-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bố cho phép tôi đi chơi khuya.",
+    "output": "assets/audio/examples/009-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "được",
+    "output": "assets/audio/words/010-duoc.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đã nhận được tin nhắn.",
+    "output": "assets/audio/examples/010-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Món này ăn được không?",
+    "output": "assets/audio/examples/010-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hôm nay tôi được nghỉ sớm.",
+    "output": "assets/audio/examples/010-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "với",
+    "output": "assets/audio/words/011-voi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đi dạo cùng với bạn.",
+    "output": "assets/audio/examples/011-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng tranh cãi với anh ta.",
+    "output": "assets/audio/examples/011-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nói chuyện với cô ấy rất thú vị.",
+    "output": "assets/audio/examples/011-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "người",
+    "output": "assets/audio/words/012-nguoi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Người Việt Nam rất thân thiện.",
+    "output": "assets/audio/examples/012-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có bao nhiêu người trong phòng?",
+    "output": "assets/audio/examples/012-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi gặp một người quen cũ.",
+    "output": "assets/audio/examples/012-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ở",
+    "output": "assets/audio/words/013-o.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đang ở nhà một mình.",
+    "output": "assets/audio/examples/013-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn sống ở đâu?",
+    "output": "assets/audio/examples/013-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cuốn sách ở trên bàn.",
+    "output": "assets/audio/examples/013-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đã",
+    "output": "assets/audio/words/014-da.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đã hoàn thành công việc.",
+    "output": "assets/audio/examples/014-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chuyện đó đã xảy ra từ lâu.",
+    "output": "assets/audio/examples/014-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi đã gặp nhau rồi.",
+    "output": "assets/audio/examples/014-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "nhưng",
+    "output": "assets/audio/words/015-nhung.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi muốn đi nhưng thấy hơi mệt.",
+    "output": "assets/audio/examples/015-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Món này rẻ nhưng rất ngon.",
+    "output": "assets/audio/examples/015-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy giỏi nhưng hơi lười.",
+    "output": "assets/audio/examples/015-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "phải",
+    "output": "assets/audio/words/016-phai.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn phải đi ngay bây giờ.",
+    "output": "assets/audio/examples/016-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Câu trả lời này đúng phải không?",
+    "output": "assets/audio/examples/016-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi phải học bài cho kỳ thi.",
+    "output": "assets/audio/examples/016-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "làm",
+    "output": "assets/audio/words/017-lam.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn đang làm gì đấy?",
+    "output": "assets/audio/examples/017-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi làm việc ở công ty này.",
+    "output": "assets/audio/examples/017-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng làm mọi chuyện phức tạp lên.",
+    "output": "assets/audio/examples/017-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đến",
+    "output": "assets/audio/words/018-den.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khi nào bạn đến nơi?",
+    "output": "assets/audio/examples/018-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đến từ miền Trung.",
+    "output": "assets/audio/examples/018-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mùa đông sắp đến thật rồi.",
+    "output": "assets/audio/examples/018-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "về",
+    "output": "assets/audio/words/019-ve.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi vừa mới về đến nhà.",
+    "output": "assets/audio/examples/019-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng ta đang nói về chuyện gì?",
+    "output": "assets/audio/examples/019-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy kể cho tôi về gia đình bạn.",
+    "output": "assets/audio/examples/019-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "khi",
+    "output": "assets/audio/words/020-khi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khi còn nhỏ, tôi rất nghịch.",
+    "output": "assets/audio/examples/020-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khi nào bạn rảnh thì gọi tôi.",
+    "output": "assets/audio/examples/020-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khi ra về, nhớ khóa cửa.",
+    "output": "assets/audio/examples/020-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "thì",
+    "output": "assets/audio/words/021-thi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nếu bạn cố gắng thì sẽ thành công.",
+    "output": "assets/audio/examples/021-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi ăn cái này, còn bạn thì sao?",
+    "output": "assets/audio/examples/021-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Sáng nay trời nắng, chiều thì mưa.",
+    "output": "assets/audio/examples/021-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ra",
+    "output": "assets/audio/words/022-ra.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy đi ra ngoài hít thở không khí.",
+    "output": "assets/audio/examples/022-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mặt trời ló ra sau đám mây.",
+    "output": "assets/audio/examples/022-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn đã tìm ra chìa khóa chưa?",
+    "output": "assets/audio/examples/022-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "vào",
+    "output": "assets/audio/words/023-vao.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mời bạn vào trong nhà chơi.",
+    "output": "assets/audio/examples/023-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy vừa vào làm ở công ty này.",
+    "output": "assets/audio/examples/023-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng đi vào lối đó.",
+    "output": "assets/audio/examples/023-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "lên",
+    "output": "assets/audio/words/024-len.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy leo lên tầng thượng xem.",
+    "output": "assets/audio/examples/024-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Giá cả dạo này tăng lên quá.",
+    "output": "assets/audio/examples/024-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cố gắng lên, sắp xong rồi!",
+    "output": "assets/audio/examples/024-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đi",
+    "output": "assets/audio/words/025-di.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng ta cùng đi xem phim nhé.",
+    "output": "assets/audio/examples/025-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thường đi bộ buổi sáng.",
+    "output": "assets/audio/examples/025-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy đã đi công tác rồi.",
+    "output": "assets/audio/examples/025-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "biết",
+    "output": "assets/audio/words/026-biet.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi biết cách giải bài toán này.",
+    "output": "assets/audio/examples/026-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có ai biết anh ấy ở đâu không?",
+    "output": "assets/audio/examples/026-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi không biết tiếng Pháp.",
+    "output": "assets/audio/examples/026-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "muốn",
+    "output": "assets/audio/words/027-muon.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi muốn mua một chiếc máy tính.",
+    "output": "assets/audio/examples/027-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có muốn ăn gì không?",
+    "output": "assets/audio/examples/027-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy muốn trở thành bác sĩ.",
+    "output": "assets/audio/examples/027-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "thấy",
+    "output": "assets/audio/words/028-thay.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thấy rất vui khi gặp bạn.",
+    "output": "assets/audio/examples/028-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có thấy cuốn sổ của tôi không?",
+    "output": "assets/audio/examples/028-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thấy ý tưởng này rất hay.",
+    "output": "assets/audio/examples/028-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "nói",
+    "output": "assets/audio/words/029-noi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy nói cho tôi nghe sự thật.",
+    "output": "assets/audio/examples/029-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Họ đang nói chuyện gì vậy?",
+    "output": "assets/audio/examples/029-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng nói to quá ở đây.",
+    "output": "assets/audio/examples/029-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "cái",
+    "output": "assets/audio/words/030-cai.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái này giá bao nhiêu?",
+    "output": "assets/audio/examples/030-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mỗi cái đều có vẻ đẹp riêng.",
+    "output": "assets/audio/examples/030-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích cái màu xanh kia.",
+    "output": "assets/audio/examples/030-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "này",
+    "output": "assets/audio/words/031-nay.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Người này là ai vậy?",
+    "output": "assets/audio/examples/031-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Món ăn này rất đặc biệt.",
+    "output": "assets/audio/examples/031-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Lần này tôi sẽ thắng.",
+    "output": "assets/audio/examples/031-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đó",
+    "output": "assets/audio/words/032-do.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ngày đó trời mưa rất to.",
+    "output": "assets/audio/examples/032-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đó là lỗi của tôi.",
+    "output": "assets/audio/examples/032-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn còn nhớ người đó không?",
+    "output": "assets/audio/examples/032-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "nào",
+    "output": "assets/audio/words/033-nao.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn thích màu sắc nào?",
+    "output": "assets/audio/examples/033-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Lúc nào bạn cũng bận rộn.",
+    "output": "assets/audio/examples/033-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Không có cách nào khác đâu.",
+    "output": "assets/audio/examples/033-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đâu",
+    "output": "assets/audio/words/034-dau.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn đang ở đâu thế?",
+    "output": "assets/audio/examples/034-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi có thấy gì đâu.",
+    "output": "assets/audio/examples/034-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chuyện đó đâu có dễ dàng.",
+    "output": "assets/audio/examples/034-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ai",
+    "output": "assets/audio/words/035-ai.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ai là người nấu món này?",
+    "output": "assets/audio/examples/035-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Không có ai ở nhà cả.",
+    "output": "assets/audio/examples/035-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ai cũng thích cái đẹp.",
+    "output": "assets/audio/examples/035-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "gì",
+    "output": "assets/audio/words/036-gi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn đang tìm cái gì vậy?",
+    "output": "assets/audio/examples/036-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chẳng có gì đáng lo cả.",
+    "output": "assets/audio/examples/036-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Làm gì có chuyện vô lý thế.",
+    "output": "assets/audio/examples/036-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "mỗi",
+    "output": "assets/audio/words/037-moi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mỗi người có một sở thích.",
+    "output": "assets/audio/examples/037-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mỗi ngày tôi đều chạy bộ.",
+    "output": "assets/audio/examples/037-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chỉ có mỗi mình tôi ở đây.",
+    "output": "assets/audio/examples/037-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "mới",
+    "output": "assets/audio/words/038-moi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi vừa mua một đôi giày mới.",
+    "output": "assets/audio/examples/038-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đến bây giờ tôi mới hiểu.",
+    "output": "assets/audio/examples/038-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái này trông vẫn còn mới lắm.",
+    "output": "assets/audio/examples/038-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "nhà",
+    "output": "assets/audio/words/039-nha.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhà tôi ở gần công viên.",
+    "output": "assets/audio/examples/039-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có ở nhà không?",
+    "output": "assets/audio/examples/039-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhà là nơi ấm áp nhất.",
+    "output": "assets/audio/examples/039-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đời",
+    "output": "assets/audio/words/040-doi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cuộc đời thật lắm bất ngờ.",
+    "output": "assets/audio/examples/040-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đời người ngắn ngủi lắm.",
+    "output": "assets/audio/examples/040-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đời sống hiện đại thay đổi rất nhanh.",
+    "output": "assets/audio/examples/040-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ông",
+    "output": "assets/audio/words/041-ong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ông tôi năm nay đã 80 tuổi.",
+    "output": "assets/audio/examples/041-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chào ông, ông cần giúp gì?",
+    "output": "assets/audio/examples/041-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ông ấy là một doanh nhân.",
+    "output": "assets/audio/examples/041-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "bà",
+    "output": "assets/audio/words/042-ba.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bà nội tôi nấu ăn rất ngon.",
+    "output": "assets/audio/examples/042-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chào bà, bà khỏe không?",
+    "output": "assets/audio/examples/042-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bà ấy là một bác sĩ tận tâm.",
+    "output": "assets/audio/examples/042-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "anh",
+    "output": "assets/audio/words/043-anh.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh trai tôi đang đi làm.",
+    "output": "assets/audio/examples/043-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh có thể giúp tôi không?",
+    "output": "assets/audio/examples/043-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy rất tốt bụng.",
+    "output": "assets/audio/examples/043-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "chị",
+    "output": "assets/audio/words/044-chi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chị gái tôi thích vẽ tranh.",
+    "output": "assets/audio/examples/044-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chị đang làm gì đó?",
+    "output": "assets/audio/examples/044-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chị ấy rất thông minh.",
+    "output": "assets/audio/examples/044-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "em",
+    "output": "assets/audio/words/045-em.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Em út của tôi rất nghịch.",
+    "output": "assets/audio/examples/045-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Em có đói không?",
+    "output": "assets/audio/examples/045-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Em ấy là một học sinh giỏi.",
+    "output": "assets/audio/examples/045-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "con",
+    "output": "assets/audio/words/046-con.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Con tôi đang học bài.",
+    "output": "assets/audio/examples/046-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Con mèo này rất đáng yêu.",
+    "output": "assets/audio/examples/046-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đường này có nhiều con dốc.",
+    "output": "assets/audio/examples/046-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ngày",
+    "output": "assets/audio/words/047-ngay.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hôm nay là một ngày đẹp trời.",
+    "output": "assets/audio/examples/047-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi làm việc 8 tiếng một ngày.",
+    "output": "assets/audio/examples/047-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ngày mai chúng ta đi chơi nhé.",
+    "output": "assets/audio/examples/047-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "năm",
+    "output": "assets/audio/words/048-nam.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Năm nay tôi 20 tuổi.",
+    "output": "assets/audio/examples/048-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúc mừng năm mới!",
+    "output": "assets/audio/examples/048-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Năm ngoái tôi đi du lịch Đà Lạt.",
+    "output": "assets/audio/examples/048-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "tháng",
+    "output": "assets/audio/words/049-thang.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tháng này có 31 ngày.",
+    "output": "assets/audio/examples/049-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi sẽ đi dự tiệc vào tháng sau.",
+    "output": "assets/audio/examples/049-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trăng tháng mười rất sáng.",
+    "output": "assets/audio/examples/049-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "giờ",
+    "output": "assets/audio/words/050-gio.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bây giờ là mấy giờ rồi?",
+    "output": "assets/audio/examples/050-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đợi bạn suốt hai giờ đồng hồ.",
+    "output": "assets/audio/examples/050-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đến giờ đi ngủ rồi.",
+    "output": "assets/audio/examples/050-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đầu",
+    "output": "assets/audio/words/051-dau.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi bị đau đầu.",
+    "output": "assets/audio/examples/051-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy ngẩng cao đầu.",
+    "output": "assets/audio/examples/051-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đầu óc anh ấy rất nhanh nhạy.",
+    "output": "assets/audio/examples/051-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "tóc",
+    "output": "assets/audio/words/052-toc.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy có mái tóc dài.",
+    "output": "assets/audio/examples/052-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi vừa đi cắt tóc về.",
+    "output": "assets/audio/examples/052-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tóc ông ấy đã bạc trắng.",
+    "output": "assets/audio/examples/052-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "mặt",
+    "output": "assets/audio/words/053-mat.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Rửa mặt cho tỉnh táo.",
+    "output": "assets/audio/examples/053-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khuôn mặt cô ấy rất tươi.",
+    "output": "assets/audio/examples/053-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng làm mất mặt tôi.",
+    "output": "assets/audio/examples/053-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "mắt",
+    "output": "assets/audio/words/054-mat.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đôi mắt là cửa sổ tâm hồn.",
+    "output": "assets/audio/examples/054-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mắt tôi hơi mỏi.",
+    "output": "assets/audio/examples/054-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy có đôi mắt rất đẹp.",
+    "output": "assets/audio/examples/054-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "tai",
+    "output": "assets/audio/words/055-tai.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tai tôi hơi bị ù.",
+    "output": "assets/audio/examples/055-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng để lời tôi nói vào tai này rồi lọt ra tai kia.",
+    "output": "assets/audio/examples/055-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy có đôi tai rất thính.",
+    "output": "assets/audio/examples/055-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "mũi",
+    "output": "assets/audio/words/056-mui.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mũi bạn bị đỏ kìa.",
+    "output": "assets/audio/examples/056-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi bị ngạt mũi.",
+    "output": "assets/audio/examples/056-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy có sống mũi cao.",
+    "output": "assets/audio/examples/056-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "miệng",
+    "output": "assets/audio/words/057-mieng.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy ngậm miệng lại.",
+    "output": "assets/audio/examples/057-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khuôn miệng cô ấy rất xinh.",
+    "output": "assets/audio/examples/057-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy chỉ hứa bằng miệng.",
+    "output": "assets/audio/examples/057-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "răng",
+    "output": "assets/audio/words/058-rang.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi cần đi khám răng.",
+    "output": "assets/audio/examples/058-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đau răng thật là khó chịu.",
+    "output": "assets/audio/examples/058-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bé mới mọc hai cái răng cửa.",
+    "output": "assets/audio/examples/058-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "tay",
+    "output": "assets/audio/words/059-tay.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Rửa tay trước khi ăn.",
+    "output": "assets/audio/examples/059-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nắm lấy tay tôi.",
+    "output": "assets/audio/examples/059-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bàn tay anh ấy rất ấm.",
+    "output": "assets/audio/examples/059-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "chân",
+    "output": "assets/audio/words/060-chan.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đi bộ nên mỏi chân.",
+    "output": "assets/audio/examples/060-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đứng vững trên đôi chân mình.",
+    "output": "assets/audio/examples/060-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy bị đau chân.",
+    "output": "assets/audio/examples/060-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "lưng",
+    "output": "assets/audio/words/061-lung.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi bị đau lưng.",
+    "output": "assets/audio/examples/061-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy đứng thẳng lưng lên.",
+    "output": "assets/audio/examples/061-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy vác bao gạo trên lưng.",
+    "output": "assets/audio/examples/061-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "bụng",
+    "output": "assets/audio/words/062-bung.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi bị đau bụng.",
+    "output": "assets/audio/examples/062-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng để bụng đói.",
+    "output": "assets/audio/examples/062-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bụng tôi đang réo vì đói.",
+    "output": "assets/audio/examples/062-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "thuốc",
+    "output": "assets/audio/words/063-thuoc.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn đã uống thuốc chưa?",
+    "output": "assets/audio/examples/063-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đây là thuốc giảm đau.",
+    "output": "assets/audio/examples/063-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mua thuốc ở hiệu thuốc tây.",
+    "output": "assets/audio/examples/063-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "khám",
+    "output": "assets/audio/words/064-kham.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đi khám sức khỏe.",
+    "output": "assets/audio/examples/064-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bác sĩ đang khám bệnh.",
+    "output": "assets/audio/examples/064-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy đi khám ngay nếu thấy mệt.",
+    "output": "assets/audio/examples/064-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "bệnh",
+    "output": "assets/audio/words/065-benh.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy đang mắc bệnh nặng.",
+    "output": "assets/audio/examples/065-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bệnh này rất dễ lây.",
+    "output": "assets/audio/examples/065-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Phòng bệnh hơn chữa bệnh.",
+    "output": "assets/audio/examples/065-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đau",
+    "output": "assets/audio/words/066-dau.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi bị đau ở vai.",
+    "output": "assets/audio/examples/066-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nỗi đau này thật khó quên.",
+    "output": "assets/audio/examples/066-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có thấy đau không?",
+    "output": "assets/audio/examples/066-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "mệt",
+    "output": "assets/audio/words/067-met.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi cảm thấy hơi mệt.",
+    "output": "assets/audio/examples/067-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Công việc này rất mệt mỏi.",
+    "output": "assets/audio/examples/067-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nghỉ ngơi một chút cho đỡ mệt.",
+    "output": "assets/audio/examples/067-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "chợ",
+    "output": "assets/audio/words/068-cho.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mẹ tôi đi chợ sớm.",
+    "output": "assets/audio/examples/068-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chợ hôm nay rất đông người.",
+    "output": "assets/audio/examples/068-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích đi dạo ở chợ đêm.",
+    "output": "assets/audio/examples/068-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "trường",
+    "output": "assets/audio/words/069-truong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đi học ở trường.",
+    "output": "assets/audio/examples/069-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trường học rộng lắm.",
+    "output": "assets/audio/examples/069-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Thầy cô ở trường rất tốt.",
+    "output": "assets/audio/examples/069-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "biển",
+    "output": "assets/audio/words/070-bien.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mùa hè đi biển là nhất.",
+    "output": "assets/audio/examples/070-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nước biển rất xanh.",
+    "output": "assets/audio/examples/070-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích ngắm biển ban đêm.",
+    "output": "assets/audio/examples/070-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "núi",
+    "output": "assets/audio/words/071-nui.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Leo núi rất vất vả nhưng vui.",
+    "output": "assets/audio/examples/071-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ngọn núi cao chót vót.",
+    "output": "assets/audio/examples/071-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhà tôi ở vùng núi.",
+    "output": "assets/audio/examples/071-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "phòng",
+    "output": "assets/audio/words/072-phong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Phòng của tôi hơi nhỏ.",
+    "output": "assets/audio/examples/072-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có ai trong phòng không?",
+    "output": "assets/audio/examples/072-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy dọn dẹp phòng sạch sẽ.",
+    "output": "assets/audio/examples/072-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "bếp",
+    "output": "assets/audio/words/073-bep.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mẹ đang nấu cơm trong bếp.",
+    "output": "assets/audio/examples/073-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Căn bếp rất ấm cúng.",
+    "output": "assets/audio/examples/073-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích tự vào bếp nấu ăn.",
+    "output": "assets/audio/examples/073-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ăn",
+    "output": "assets/audio/words/074-an.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn ăn tối chưa?",
+    "output": "assets/audio/examples/074-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mời cả nhà ăn cơm.",
+    "output": "assets/audio/examples/074-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích ăn đồ ngọt.",
+    "output": "assets/audio/examples/074-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "uống",
+    "output": "assets/audio/words/075-uong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi muốn uống một chút nước.",
+    "output": "assets/audio/examples/075-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng uống nhiều rượu.",
+    "output": "assets/audio/examples/075-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích uống nước cam.",
+    "output": "assets/audio/examples/075-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ngủ",
+    "output": "assets/audio/words/076-ngu.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúc bạn ngủ ngon.",
+    "output": "assets/audio/examples/076-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thường ngủ lúc 11 giờ.",
+    "output": "assets/audio/examples/076-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bé đang ngủ say.",
+    "output": "assets/audio/examples/076-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "chạy",
+    "output": "assets/audio/words/077-chay.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chạy bộ rất tốt cho sức khỏe.",
+    "output": "assets/audio/examples/077-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng chạy quá nhanh.",
+    "output": "assets/audio/examples/077-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy chạy rất nhanh.",
+    "output": "assets/audio/examples/077-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "học",
+    "output": "assets/audio/words/078-hoc.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đang học tiếng Việt.",
+    "output": "assets/audio/examples/078-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Học hành là việc cả đời.",
+    "output": "assets/audio/examples/078-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bé chăm chỉ học bài.",
+    "output": "assets/audio/examples/078-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "chơi",
+    "output": "assets/audio/words/079-choi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trẻ con thích chơi đồ chơi.",
+    "output": "assets/audio/examples/079-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đi chơi thôi!",
+    "output": "assets/audio/examples/079-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng mải chơi quá.",
+    "output": "assets/audio/examples/079-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "cười",
+    "output": "assets/audio/words/080-cuoi.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy luôn mỉm cười.",
+    "output": "assets/audio/examples/080-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Câu chuyện làm tôi buồn cười.",
+    "output": "assets/audio/examples/080-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy có nụ cười tỏa nắng.",
+    "output": "assets/audio/examples/080-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "khóc",
+    "output": "assets/audio/words/081-khoc.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng khóc nữa mà.",
+    "output": "assets/audio/examples/081-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy khóc vì cảm động.",
+    "output": "assets/audio/examples/081-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Em bé đang khóc nhè.",
+    "output": "assets/audio/examples/081-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "đẹp",
+    "output": "assets/audio/words/082-dep.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cảnh quan thật đẹp.",
+    "output": "assets/audio/examples/082-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy có đôi tay rất đẹp.",
+    "output": "assets/audio/examples/082-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Một ngày đẹp trời.",
+    "output": "assets/audio/examples/082-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "xấu",
+    "output": "assets/audio/words/083-xau.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái này trông hơi xấu.",
+    "output": "assets/audio/examples/083-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đừng nói xấu người khác.",
+    "output": "assets/audio/examples/083-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Thời tiết hôm nay rất xấu.",
+    "output": "assets/audio/examples/083-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "tốt",
+    "output": "assets/audio/words/084-tot.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy là người tốt.",
+    "output": "assets/audio/examples/084-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mọi chuyện sẽ tốt đẹp thôi.",
+    "output": "assets/audio/examples/084-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Kết quả học tập rất tốt.",
+    "output": "assets/audio/examples/084-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "to",
+    "output": "assets/audio/words/085-to.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái bánh này to quá.",
+    "output": "assets/audio/examples/085-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nói to lên tôi không nghe thấy.",
+    "output": "assets/audio/examples/085-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy có tham vọng to lớn.",
+    "output": "assets/audio/examples/085-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "nhỏ",
+    "output": "assets/audio/words/086-nho.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Con mèo nhỏ xinh.",
+    "output": "assets/audio/examples/086-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Việc nhỏ đừng xé ra to.",
+    "output": "assets/audio/examples/086-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chi tiết này rất nhỏ.",
+    "output": "assets/audio/examples/086-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "dài",
+    "output": "assets/audio/words/087-dai.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Con đường dài dằng dặc.",
+    "output": "assets/audio/examples/087-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mái tóc dài mượt.",
+    "output": "assets/audio/examples/087-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Câu chuyện này hơi dài.",
+    "output": "assets/audio/examples/087-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ngắn",
+    "output": "assets/audio/words/088-ngan.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái váy này hơi ngắn.",
+    "output": "assets/audio/examples/088-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Câu trả lời rất ngắn gọn.",
+    "output": "assets/audio/examples/088-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Thời gian còn lại rất ngắn.",
+    "output": "assets/audio/examples/088-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "cao",
+    "output": "assets/audio/words/089-cao.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bức tường rất cao.",
+    "output": "assets/audio/examples/089-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy cao hơn tôi.",
+    "output": "assets/audio/examples/089-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Lương của sếp rất cao.",
+    "output": "assets/audio/examples/089-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "thấp",
+    "output": "assets/audio/words/090-thap.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái bàn này hơi thấp.",
+    "output": "assets/audio/examples/090-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mức giá này thấp hơn tôi nghĩ.",
+    "output": "assets/audio/examples/090-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhiệt độ xuống thấp.",
+    "output": "assets/audio/examples/090-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "bàn",
+    "output": "assets/audio/words/091-ban.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chiếc bàn này đặt cạnh cửa sổ.",
+    "output": "assets/audio/examples/091-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi để sách lên bàn.",
+    "output": "assets/audio/examples/091-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi ngồi quanh bàn ăn.",
+    "output": "assets/audio/examples/091-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "ghế",
+    "output": "assets/audio/words/092-ghe.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mời bạn ngồi xuống ghế.",
+    "output": "assets/audio/examples/092-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chiếc ghế này rất thoải mái.",
+    "output": "assets/audio/examples/092-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trong phòng còn một chiếc ghế trống.",
+    "output": "assets/audio/examples/092-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "tủ",
+    "output": "assets/audio/words/093-tu.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Quần áo được cất trong tủ.",
+    "output": "assets/audio/examples/093-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chiếc tủ này làm bằng gỗ.",
+    "output": "assets/audio/examples/093-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi để chìa khóa trong ngăn tủ.",
+    "output": "assets/audio/examples/093-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "giường",
+    "output": "assets/audio/words/094-giuong.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi nằm trên giường đọc sách.",
+    "output": "assets/audio/examples/094-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chiếc giường này rất êm.",
+    "output": "assets/audio/examples/094-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bé đang ngủ trên giường.",
+    "output": "assets/audio/examples/094-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "dao",
+    "output": "assets/audio/words/095-dao.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đây là con dao dùng để thái rau.",
+    "output": "assets/audio/examples/095-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Con dao này rất sắc.",
+    "output": "assets/audio/examples/095-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi cần một con dao để cắt trái cây.",
+    "output": "assets/audio/examples/095-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "kéo",
+    "output": "assets/audio/words/096-keo.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cho tôi mượn cái kéo.",
+    "output": "assets/audio/examples/096-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái kéo này dùng để cắt giấy.",
+    "output": "assets/audio/examples/096-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cẩn thận, mũi kéo rất nhọn.",
+    "output": "assets/audio/examples/096-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "bút",
+    "output": "assets/audio/words/097-but.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi viết tên bằng bút mực.",
+    "output": "assets/audio/examples/097-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cây bút này hết mực rồi.",
+    "output": "assets/audio/examples/097-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có thể cho tôi mượn bút không?",
+    "output": "assets/audio/examples/097-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "vở",
+    "output": "assets/audio/words/098-vo.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi ghi từ mới vào vở.",
+    "output": "assets/audio/examples/098-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Quyển vở này là của em tôi.",
+    "output": "assets/audio/examples/098-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Học sinh mở vở ra làm bài.",
+    "output": "assets/audio/examples/098-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "giấy",
+    "output": "assets/audio/words/099-giay.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi cần một tờ giấy trắng.",
+    "output": "assets/audio/examples/099-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hãy viết địa chỉ lên giấy.",
+    "output": "assets/audio/examples/099-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trên bàn có một xấp giấy.",
+    "output": "assets/audio/examples/099-3.mp3"
+  },
+  {
+    "kind": "word",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "máy",
+    "output": "assets/audio/words/100-may.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái máy này đang hoạt động.",
+    "output": "assets/audio/examples/100-1.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi chưa biết cách dùng máy.",
+    "output": "assets/audio/examples/100-2.mp3"
+  },
+  {
+    "kind": "example",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Kỹ thuật viên đang sửa máy.",
+    "output": "assets/audio/examples/100-3.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我喜歡在早上吃熱牛肉河粉。",
+    "output": "assets/audio/lessons/food-001-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi thích ăn phở bò nóng vào buổi sáng.",
+    "output": "assets/audio/lessons/food-001-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "滴漏咖啡一滴一滴慢慢滴下來。",
+    "output": "assets/audio/lessons/food-001-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cà phê phin nhỏ từng giọt một, rất chậm.",
+    "output": "assets/audio/lessons/food-001-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們在週末吃什錦火鍋。",
+    "output": "assets/audio/lessons/food-001-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng ta ăn lẩu thập cẩm vào cuối tuần.",
+    "output": "assets/audio/lessons/food-001-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "這個法國麵包太脆太好吃了。",
+    "output": "assets/audio/lessons/food-002-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bánh mì này giòn và ngon quá.",
+    "output": "assets/audio/lessons/food-002-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "生春捲有蝦、肉和很多蔬菜。",
+    "output": "assets/audio/lessons/food-002-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Gỏi cuốn có tôm, thịt và nhiều rau.",
+    "output": "assets/audio/lessons/food-002-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "烤肉米線的沾醬酸甜適中。",
+    "output": "assets/audio/lessons/food-002-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nước chấm bún chả có vị chua ngọt vừa ăn.",
+    "output": "assets/audio/lessons/food-002-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "給我一杯少糖的冰茶。",
+    "output": "assets/audio/lessons/food-003-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cho tôi một ly trà đá ít đường.",
+    "output": "assets/audio/lessons/food-003-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "這個甜湯太甜了，我吃不下。",
+    "output": "assets/audio/lessons/food-003-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Món chè này ngọt quá, tôi không ăn được.",
+    "output": "assets/audio/lessons/food-003-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "烤排骨碎米飯是西貢的特色美食。",
+    "output": "assets/audio/lessons/food-003-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cơm tấm sườn nướng là món ăn đặc trưng của Sài Gòn.",
+    "output": "assets/audio/lessons/food-003-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "順化牛肉麵有獨特的辛辣味。",
+    "output": "assets/audio/lessons/food-004-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bún bò Huế có vị cay nồng đặc trưng.",
+    "output": "assets/audio/lessons/food-004-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "魚露是越南美食的靈魂。",
+    "output": "assets/audio/lessons/food-004-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nước mắm là linh hồn của ẩm thực Việt Nam.",
+    "output": "assets/audio/lessons/food-004-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "粽子是用冬葉包的。",
+    "output": "assets/audio/lessons/food-004-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bánh chưng gói bằng lá dong.",
+    "output": "assets/audio/lessons/food-004-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我想喝一杯酪梨奶昔。",
+    "output": "assets/audio/lessons/food-005-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi muốn uống một ly sinh tố bơ.",
+    "output": "assets/audio/lessons/food-005-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "大蒜炒空心菜香氣四溢。",
+    "output": "assets/audio/lessons/food-005-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Rau muống xào tỏi thơm phức.",
+    "output": "assets/audio/lessons/food-005-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "金邊粿條非常有名。",
+    "output": "assets/audio/lessons/food-005-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hủ tiếu Nam Vang rất nổi tiếng.",
+    "output": "assets/audio/lessons/food-005-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "煎餅煎的時候發出滋滋的響聲。",
+    "output": "assets/audio/lessons/food-006-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bánh xèo khi chiên có tiếng kêu xèo xèo.",
+    "output": "assets/audio/lessons/food-006-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "在下雨天吃熱豬雜粥太棒了。",
+    "output": "assets/audio/lessons/food-006-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ăn cháo lòng nóng vào ngày mưa rất tuyệt.",
+    "output": "assets/audio/lessons/food-006-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "粉卷薄薄的，配著扎肉吃。",
+    "output": "assets/audio/lessons/food-006-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bánh cuốn tráng mỏng ăn kèm chả lụa.",
+    "output": "assets/audio/lessons/food-006-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "鱧魚酸湯是用鳳梨和番茄煮的。",
+    "output": "assets/audio/lessons/food-007-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Canh chua cá lóc nấu với thơm và cà chua.",
+    "output": "assets/audio/lessons/food-007-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "烤肉串在紅炭爐上烤。",
+    "output": "assets/audio/lessons/food-007-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nem lụi nướng trên bếp than hồng.",
+    "output": "assets/audio/lessons/food-007-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "炙魚膾配蒔蘿和蔥一起吃。",
+    "output": "assets/audio/lessons/food-007-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chả cá Lã Vọng ăn kèm với thì là và hành lá.",
+    "output": "assets/audio/lessons/food-007-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "椰子水自然清甜涼爽。",
+    "output": "assets/audio/lessons/food-008-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nước dừa ngọt mát tự nhiên.",
+    "output": "assets/audio/lessons/food-008-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "木鱉果糯米飯有很漂亮的紅色。",
+    "output": "assets/audio/lessons/food-008-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xôi gấc có màu đỏ rất đẹp.",
+    "output": "assets/audio/lessons/food-008-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "蟹膏米線有來自蟹膏的清甜味。",
+    "output": "assets/audio/lessons/food-008-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bún riêu cua có vị ngọt thanh từ gạch cua.",
+    "output": "assets/audio/lessons/food-008-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "砂鍋燉肉是在土鍋裡燉的。",
+    "output": "assets/audio/lessons/food-009-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Thịt kho tộ được kho trong nồi đất.",
+    "output": "assets/audio/lessons/food-009-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "小孩子喜歡吃麵包夾冰淇淋。",
+    "output": "assets/audio/lessons/food-009-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trẻ em thích ăn bánh mì kẹp kem.",
+    "output": "assets/audio/lessons/food-009-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "湯圓配薑糖水吃。",
+    "output": "assets/audio/lessons/food-009-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chè trôi nước ăn với nước đường gừng.",
+    "output": "assets/audio/lessons/food-009-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "泡麵是半夜救飢的美食。",
+    "output": "assets/audio/lessons/food-010-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mì tôm là món ăn cứu đói lúc nửa đêm.",
+    "output": "assets/audio/lessons/food-010-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "甕仔雞皮脆肉嫩。",
+    "output": "assets/audio/lessons/food-010-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Gà nướng lu có da giòn, thịt mềm.",
+    "output": "assets/audio/lessons/food-010-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "黑糯米優格又酸又甜。",
+    "output": "assets/audio/lessons/food-010-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Sữa chua nếp cẩm vừa chua vừa ngọt.",
+    "output": "assets/audio/lessons/food-010-3-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đi làm bằng xe máy.",
+    "output": "assets/audio/patterns/pattern-01-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy hát rất hay.",
+    "output": "assets/audio/patterns/pattern-01-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi ăn phở sáng nay.",
+    "output": "assets/audio/patterns/pattern-01-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có muốn uống cà phê không?",
+    "output": "assets/audio/patterns/pattern-01-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy đang đọc sách.",
+    "output": "assets/audio/patterns/pattern-01-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi không biết anh ấy.",
+    "output": "assets/audio/patterns/pattern-02-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn không nên đi ra ngoài lúc này.",
+    "output": "assets/audio/patterns/pattern-02-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy không ăn thịt bò.",
+    "output": "assets/audio/patterns/pattern-02-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi không thấy kết quả.",
+    "output": "assets/audio/patterns/pattern-02-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ngày mai trời sẽ không mưa.",
+    "output": "assets/audio/patterns/pattern-02-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ngôi nhà này rất lớn.",
+    "output": "assets/audio/patterns/pattern-03-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tiếng Việt rất thú vị.",
+    "output": "assets/audio/patterns/pattern-03-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy là một người tốt.",
+    "output": "assets/audio/patterns/pattern-03-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bữa tối hôm nay rất ngon.",
+    "output": "assets/audio/patterns/pattern-03-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Thời tiết hôm nay thật đẹp.",
+    "output": "assets/audio/patterns/pattern-03-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bài tập này không khó.",
+    "output": "assets/audio/patterns/pattern-04-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy không cao lắm.",
+    "output": "assets/audio/patterns/pattern-04-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Món ăn này không cay.",
+    "output": "assets/audio/patterns/pattern-04-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi không mệt.",
+    "output": "assets/audio/patterns/pattern-04-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chiếc xe này không đắt.",
+    "output": "assets/audio/patterns/pattern-04-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có khỏe không?",
+    "output": "assets/audio/patterns/pattern-05-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy có đi họp không?",
+    "output": "assets/audio/patterns/pattern-05-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Món này có ngon không?",
+    "output": "assets/audio/patterns/pattern-05-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có hiểu ý tôi không?",
+    "output": "assets/audio/patterns/pattern-05-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cô ấy có đẹp không?",
+    "output": "assets/audio/patterns/pattern-05-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi là học sinh.",
+    "output": "assets/audio/patterns/pattern-06-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đây là phở bò.",
+    "output": "assets/audio/patterns/pattern-06-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy là người tốt.",
+    "output": "assets/audio/patterns/pattern-06-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Việt Nam là một đất nước đẹp.",
+    "output": "assets/audio/patterns/pattern-06-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đó là chìa khóa của tôi.",
+    "output": "assets/audio/patterns/pattern-06-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi không phải là bác sĩ.",
+    "output": "assets/audio/patterns/pattern-07-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đây không phải là lỗi của bạn.",
+    "output": "assets/audio/patterns/pattern-07-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Anh ấy không phải là người đó.",
+    "output": "assets/audio/patterns/pattern-07-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đó không phải là sự thật.",
+    "output": "assets/audio/patterns/pattern-07-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi không phải là bạn thân.",
+    "output": "assets/audio/patterns/pattern-07-05-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có phải là anh ấy không?",
+    "output": "assets/audio/patterns/pattern-08-01-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có phải là ngày mai không?",
+    "output": "assets/audio/patterns/pattern-08-02-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có phải là món này không?",
+    "output": "assets/audio/patterns/pattern-08-03-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có phải là sự thật không?",
+    "output": "assets/audio/patterns/pattern-08-04-vi.mp3"
+  },
+  {
+    "kind": "pattern",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Có phải là bạn không?",
+    "output": "assets/audio/patterns/pattern-08-05-vi.mp3"
+  }
+]

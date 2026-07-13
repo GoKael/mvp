@@ -1,0 +1,282 @@
+[
+  {
+    "id": "01",
+    "title": "Động từ（動詞句）",
+    "summary": "主詞＋動詞＋受詞／補語",
+    "formula": "主詞 + 動詞 + 受詞／補語 + 時間",
+    "explanation": "越南語動詞不會因人稱改變形式。需要表達時間時，通常加入 đã（已經）、đang（正在）、sẽ（將要）或明確的時間詞。",
+    "note": "一般動詞前不要加 là：『我工作』是 Tôi làm việc，不是 Tôi là làm việc。",
+    "examples": [
+      {
+        "vi": "Tôi đi làm bằng xe máy.",
+        "zhTW": "我騎摩托車去上班。",
+        "audio": "assets/audio/patterns/pattern-01-01-vi.mp3"
+      },
+      {
+        "vi": "Cô ấy hát rất hay.",
+        "zhTW": "她唱得很好聽。",
+        "audio": "assets/audio/patterns/pattern-01-02-vi.mp3"
+      },
+      {
+        "vi": "Chúng tôi ăn phở sáng nay.",
+        "zhTW": "我們今天早上吃了越南粉。",
+        "audio": "assets/audio/patterns/pattern-01-03-vi.mp3"
+      },
+      {
+        "vi": "Bạn có muốn uống cà phê không?",
+        "zhTW": "你想喝咖啡嗎？",
+        "audio": "assets/audio/patterns/pattern-01-04-vi.mp3"
+      },
+      {
+        "vi": "Anh ấy đang đọc sách.",
+        "zhTW": "他正在看書。",
+        "audio": "assets/audio/patterns/pattern-01-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "không + 動詞",
+    "summary": "否定動作：不～、沒～",
+    "formula": "主詞 + không + 動詞 (+ 受詞)",
+    "explanation": "không 直接放在要否定的動詞或動詞詞組前。若要表達『還沒』，通常使用 chưa，而不是只用 không。",
+    "note": "không 表示一般否定；chưa 強調動作截至目前尚未完成。",
+    "examples": [
+      {
+        "vi": "Tôi không biết anh ấy.",
+        "zhTW": "我不認識他。",
+        "audio": "assets/audio/patterns/pattern-02-01-vi.mp3"
+      },
+      {
+        "vi": "Bạn không nên đi ra ngoài lúc này.",
+        "zhTW": "你現在不應該出去。",
+        "audio": "assets/audio/patterns/pattern-02-02-vi.mp3"
+      },
+      {
+        "vi": "Cô ấy không ăn thịt bò.",
+        "zhTW": "她不吃牛肉。",
+        "audio": "assets/audio/patterns/pattern-02-03-vi.mp3"
+      },
+      {
+        "vi": "Chúng tôi không thấy kết quả.",
+        "zhTW": "我們沒看到結果。",
+        "audio": "assets/audio/patterns/pattern-02-04-vi.mp3"
+      },
+      {
+        "vi": "Ngày mai trời sẽ không mưa.",
+        "zhTW": "明天不會下雨。",
+        "audio": "assets/audio/patterns/pattern-02-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Tính từ（形容詞述語）",
+    "summary": "主詞＋程度副詞＋形容詞",
+    "formula": "主詞 + (rất / hơi / khá) + 形容詞",
+    "explanation": "越南語形容詞可以直接當述語，不需要加 là。形容詞修飾名詞時通常放在名詞後，例如 món ăn ngon（好吃的料理）。",
+    "note": "『她很漂亮』是 Cô ấy rất đẹp，不是 Cô ấy là rất đẹp。",
+    "examples": [
+      {
+        "vi": "Ngôi nhà này rất lớn.",
+        "zhTW": "這間房子很大。",
+        "audio": "assets/audio/patterns/pattern-03-01-vi.mp3"
+      },
+      {
+        "vi": "Tiếng Việt rất thú vị.",
+        "zhTW": "越南語很有趣。",
+        "audio": "assets/audio/patterns/pattern-03-02-vi.mp3"
+      },
+      {
+        "vi": "Cô ấy là một người tốt.",
+        "zhTW": "她是一個好人。",
+        "audio": "assets/audio/patterns/pattern-03-03-vi.mp3"
+      },
+      {
+        "vi": "Bữa tối hôm nay rất ngon.",
+        "zhTW": "今天的晚餐很好吃。",
+        "audio": "assets/audio/patterns/pattern-03-04-vi.mp3"
+      },
+      {
+        "vi": "Thời tiết hôm nay thật đẹp.",
+        "zhTW": "今天天氣真好。",
+        "audio": "assets/audio/patterns/pattern-03-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "không + 形容詞",
+    "summary": "否定狀態或性質：不～",
+    "formula": "主詞 + không + 形容詞 (+ lắm)",
+    "explanation": "không 放在形容詞前否定某種狀態或性質。句尾加 lắm 可形成較委婉的『不太～』。",
+    "note": "không cao 是『不高』；không cao lắm 比較接近『不太高』。",
+    "examples": [
+      {
+        "vi": "Bài tập này không khó.",
+        "zhTW": "這個練習不難。",
+        "audio": "assets/audio/patterns/pattern-04-01-vi.mp3"
+      },
+      {
+        "vi": "Anh ấy không cao lắm.",
+        "zhTW": "他不怎麼高。",
+        "audio": "assets/audio/patterns/pattern-04-02-vi.mp3"
+      },
+      {
+        "vi": "Món ăn này không cay.",
+        "zhTW": "這道菜不辣。",
+        "audio": "assets/audio/patterns/pattern-04-03-vi.mp3"
+      },
+      {
+        "vi": "Tôi không mệt.",
+        "zhTW": "我不累。",
+        "audio": "assets/audio/patterns/pattern-04-04-vi.mp3"
+      },
+      {
+        "vi": "Chiếc xe này không đắt.",
+        "zhTW": "這輛車不貴。",
+        "audio": "assets/audio/patterns/pattern-04-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "title": "có ... không?（一般疑問句）",
+    "summary": "詢問動作或狀態是否成立",
+    "formula": "主詞 + có + 動詞／形容詞 + không?",
+    "explanation": "把 có 放在動詞或形容詞前，並在句尾加 không，就能形成是非問句。回答時可用 có／vâng 表示肯定，用 không 表示否定。",
+    "note": "中文翻譯不一定出現『有』；Bạn có khỏe không? 自然翻成『你好嗎？』。",
+    "examples": [
+      {
+        "vi": "Bạn có khỏe không?",
+        "zhTW": "你好嗎？",
+        "audio": "assets/audio/patterns/pattern-05-01-vi.mp3"
+      },
+      {
+        "vi": "Anh ấy có đi họp không?",
+        "zhTW": "他有去開會嗎？",
+        "audio": "assets/audio/patterns/pattern-05-02-vi.mp3"
+      },
+      {
+        "vi": "Món này có ngon không?",
+        "zhTW": "這個好吃嗎？",
+        "audio": "assets/audio/patterns/pattern-05-03-vi.mp3"
+      },
+      {
+        "vi": "Bạn có hiểu ý tôi không?",
+        "zhTW": "你明白我的意思嗎？",
+        "audio": "assets/audio/patterns/pattern-05-04-vi.mp3"
+      },
+      {
+        "vi": "Cô ấy có đẹp không?",
+        "zhTW": "她漂亮嗎？",
+        "audio": "assets/audio/patterns/pattern-05-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "title": "là + 名詞",
+    "summary": "說明身分、分類或等同關係",
+    "formula": "主詞 + là + 名詞／名詞詞組",
+    "explanation": "là 用來連接主詞與身分、職業、分類或定義。一般動詞句與形容詞述語通常不使用 là。",
+    "note": "Tôi là học sinh（我是學生），但 Tôi khỏe（我很好）不能說成 Tôi là khỏe。",
+    "examples": [
+      {
+        "vi": "Tôi là học sinh.",
+        "zhTW": "我是學生。",
+        "audio": "assets/audio/patterns/pattern-06-01-vi.mp3"
+      },
+      {
+        "vi": "Đây là phở bò.",
+        "zhTW": "這是牛肉河粉。",
+        "audio": "assets/audio/patterns/pattern-06-02-vi.mp3"
+      },
+      {
+        "vi": "Anh ấy là người tốt.",
+        "zhTW": "他是個好人。",
+        "audio": "assets/audio/patterns/pattern-06-03-vi.mp3"
+      },
+      {
+        "vi": "Việt Nam là một đất nước đẹp.",
+        "zhTW": "越南是一個美麗的國家。",
+        "audio": "assets/audio/patterns/pattern-06-04-vi.mp3"
+      },
+      {
+        "vi": "Đó là chìa khóa của tôi.",
+        "zhTW": "那是我的鑰匙。",
+        "audio": "assets/audio/patterns/pattern-06-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "title": "không phải là + 名詞",
+    "summary": "否定身分、分類或等同關係",
+    "formula": "主詞 + không phải là + 名詞／名詞詞組",
+    "explanation": "không phải là 是 là 句的否定形式，用來表達『不是某人／某物／某種身分』。",
+    "note": "否定一般動作要用 không + 動詞；例如『我不工作』是 Tôi không làm việc。",
+    "examples": [
+      {
+        "vi": "Tôi không phải là bác sĩ.",
+        "zhTW": "我不是醫生。",
+        "audio": "assets/audio/patterns/pattern-07-01-vi.mp3"
+      },
+      {
+        "vi": "Đây không phải là lỗi của bạn.",
+        "zhTW": "這不是你的錯。",
+        "audio": "assets/audio/patterns/pattern-07-02-vi.mp3"
+      },
+      {
+        "vi": "Anh ấy không phải là người đó.",
+        "zhTW": "他不是那個人。",
+        "audio": "assets/audio/patterns/pattern-07-03-vi.mp3"
+      },
+      {
+        "vi": "Đó không phải là sự thật.",
+        "zhTW": "那不是事實。",
+        "audio": "assets/audio/patterns/pattern-07-04-vi.mp3"
+      },
+      {
+        "vi": "Chúng tôi không phải là bạn thân.",
+        "zhTW": "我們不是好朋友。",
+        "audio": "assets/audio/patterns/pattern-07-05-vi.mp3"
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Có phải là ... không?",
+    "summary": "確認身分、事物或判斷是否正確",
+    "formula": "Có phải (là) + 名詞／命題 + không?",
+    "explanation": "這個句型用來確認說話者已有猜測的資訊，相當於『是不是～？』。確認名詞身分時常保留 là；確認完整事件時 là 經常省略。",
+    "note": "可回答 Đúng/Vâng（對、是）或 Không, ...（不，不是……），並補上正確資訊。",
+    "examples": [
+      {
+        "vi": "Có phải là anh ấy không?",
+        "zhTW": "是他嗎？",
+        "audio": "assets/audio/patterns/pattern-08-01-vi.mp3"
+      },
+      {
+        "vi": "Có phải là ngày mai không?",
+        "zhTW": "是明天嗎？",
+        "audio": "assets/audio/patterns/pattern-08-02-vi.mp3"
+      },
+      {
+        "vi": "Có phải là món này không?",
+        "zhTW": "是這道菜嗎？",
+        "audio": "assets/audio/patterns/pattern-08-03-vi.mp3"
+      },
+      {
+        "vi": "Có phải là sự thật không?",
+        "zhTW": "這是事實嗎？",
+        "audio": "assets/audio/patterns/pattern-08-04-vi.mp3"
+      },
+      {
+        "vi": "Có phải là bạn không?",
+        "zhTW": "是你嗎？",
+        "audio": "assets/audio/patterns/pattern-08-05-vi.mp3"
+      }
+    ]
+  }
+]
