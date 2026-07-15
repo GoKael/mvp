@@ -5,12 +5,12 @@ Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越�
 ## 本地啟動
 
 ```bash
-cd server
-npm install
+npm install --prefix server
 npm start
 ```
 
 開啟 `http://127.0.0.1:4174/index.html#/today`。
+播放使用專案內 MP3；試玩期間必須讓這個本地服務持續執行。若只剩 PWA 快取頁面、服務已關閉，未快取的語音會無法讀取。
 
 ## 主要路由
 
@@ -29,7 +29,62 @@ node scripts/validate-data.js --strict-audio
 node scripts/test-core.mjs
 ```
 
-正式資料位於 `server/data/core-100.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`。歷史詞表只保留在 `server/data/archive/`，不會進入正式 UI。
+正式資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會進入正式 UI。
+
+`rank` 是穩定的 Lexa 內容目錄位置，不是要求使用者依序背誦的解鎖順序。實際課程依口語頻率、情境必要性與個人弱點選詞。
+
+Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查，但在人工抽聽通過前都不會進入正式 UI。
+
+建立任一批次的可發布 JSON 與 200 個音檔任務：
+
+```bash
+node scripts/build-core-batch.js content/core-151-200.source.json
+.venv/bin/python scripts/generate-audio.py \
+  --kind all \
+  --jobs-file server/data/core-151-200-audio-jobs.json \
+  --manifest-file server/data/core-151-200-audio-manifest.json \
+  --project YOUR_PROJECT_ID
+node scripts/validate-core-batch-audio.js \
+  server/data/core-151-200-audio-manifest.json
+```
+
+一次檢查四批音檔：
+
+```bash
+npm --prefix server run check:core-audio
+```
+
+音檔與例句人工抽查通過後，才可把該批次從 `reviewed` 升為 `verified` 並合併進正式詞庫。
+目前正式 UI 仍只載入 Core 100；完成來源檔不等於發音品質已通過。
+
+本地服務啟動後，開啟 `http://127.0.0.1:4174/audio-qa.html?range=101-150`，逐一播放單字與三例句並標記「通過／需重生」。可用空白鍵播放、`1 / 2` 標記、方向鍵切換；結果只保存在本機，可從頁面匯出供精確重生。
+
+只重生匯出清單中被標記的音檔：
+
+```bash
+.venv/bin/python scripts/generate-audio.py \
+  --kind all \
+  --jobs-file server/data/core-101-150-audio-jobs.json \
+  --manifest-file server/data/core-101-150-audio-manifest.json \
+  --qa-file ~/Downloads/core-101-150-audio-qa.json \
+  --project YOUR_PROJECT_ID
+```
+
+全部抽聽完成後，必須通過人工結果閘門才可升級：
+
+```bash
+node scripts/validate-core-qa.js \
+  server/data/core-101-150-audio-manifest.json \
+  ~/Downloads/core-101-150-audio-qa.json
+```
+
+驗證通過後依序發布 50 詞；命令會再次檢查真人結果與音質，失敗時不會修改正式詞庫：
+
+```bash
+npm --prefix server run promote:core -- \
+  server/data/core-101-150-audio-manifest.json \
+  ~/Downloads/core-101-150-audio-qa.json
+```
 
 ## 產生 Gemini TTS
 
@@ -47,7 +102,7 @@ node scripts/test-core.mjs
 .venv/bin/python scripts/generate-audio.py --kind word --match 009-cho --force --project YOUR_PROJECT_ID
 ```
 
-孤立單字必須人工抽聽；驗證器會攔截短於 0.18 秒或長於 2.5 秒的可疑檔案。
+孤立單字必須人工抽聽；機器驗證只能排除靜音、格式、音量、削波、留白與檔案重複等技術問題，不能判斷聲調、詞義或語氣是否正確。
 
 ## Short 預覽
 

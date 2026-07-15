@@ -1,0 +1,602 @@
+[
+  {
+    "rank": 251,
+    "vi": "gia đình",
+    "zhTW": "家庭；家人",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Gia đình tôi có bốn người.", "zhTW": "我家有四個人。" },
+      { "vi": "Cuối tuần tôi thường về thăm gia đình.", "zhTW": "週末我常回去探望家人。" },
+      { "vi": "Gia đình bạn sống ở đâu?", "zhTW": "你的家人住在哪裡？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 252,
+    "vi": "chồng",
+    "zhTW": "丈夫",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Chồng tôi là người Việt Nam.", "zhTW": "我丈夫是越南人。" },
+      { "vi": "Tôi đi du lịch cùng chồng.", "zhTW": "我和丈夫一起旅行。" },
+      { "vi": "Chồng cô ấy đang làm việc ở Đà Nẵng.", "zhTW": "她丈夫正在峴港工作。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 253,
+    "vi": "vợ",
+    "zhTW": "妻子",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Vợ tôi đang học tiếng Việt.", "zhTW": "我妻子正在學越南語。" },
+      { "vi": "Anh ấy mua quà cho vợ.", "zhTW": "他買禮物給妻子。" },
+      { "vi": "Vợ chồng họ sống gần đây.", "zhTW": "他們夫妻住在這附近。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 254,
+    "vi": "cha mẹ",
+    "zhTW": "父母",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cha mẹ tôi sống ở Đài Loan.", "zhTW": "我父母住在台灣。" },
+      { "vi": "Tôi gọi điện cho cha mẹ mỗi tuần.", "zhTW": "我每週打電話給父母。" },
+      { "vi": "Cuối năm chúng tôi về thăm cha mẹ.", "zhTW": "年底我們回去探望父母。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 255,
+    "vi": "số không",
+    "zhTW": "零；數字零",
+    "pos": "數詞／名詞",
+    "examples": [
+      { "vi": "Số không đứng trước số một.", "zhTW": "零在一的前面。" },
+      { "vi": "Số điện thoại của tôi có hai số không.", "zhTW": "我的電話號碼有兩個零。" },
+      { "vi": "Bạn viết nhầm số sáu thành số không.", "zhTW": "你把六誤寫成零了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 256,
+    "vi": "điện thoại",
+    "zhTW": "電話；手機",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Điện thoại của tôi hết pin rồi.", "zhTW": "我的手機沒電了。" },
+      { "vi": "Cho tôi xin số điện thoại của bạn.", "zhTW": "請給我你的電話號碼。" },
+      { "vi": "Tôi để quên điện thoại ở khách sạn.", "zhTW": "我把手機忘在飯店了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 257,
+    "vi": "quần áo",
+    "zhTW": "衣服",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi cần giặt quần áo.", "zhTW": "我需要洗衣服。" },
+      { "vi": "Quần áo của tôi vẫn còn ướt.", "zhTW": "我的衣服還是濕的。" },
+      { "vi": "Cửa hàng này bán quần áo trẻ em.", "zhTW": "這家店賣童裝。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 258,
+    "vi": "đồ ăn",
+    "zhTW": "食物；吃的東西",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Đồ ăn ở đây rất ngon.", "zhTW": "這裡的食物很好吃。" },
+      { "vi": "Tôi muốn mua một ít đồ ăn.", "zhTW": "我想買一些食物。" },
+      { "vi": "Đừng để đồ ăn ở ngoài quá lâu.", "zhTW": "不要把食物放在外面太久。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 259,
+    "vi": "tiếng Việt",
+    "zhTW": "越南語",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi đang học tiếng Việt.", "zhTW": "我正在學越南語。" },
+      { "vi": "Bạn nói tiếng Việt rất rõ.", "zhTW": "你的越南語說得很清楚。" },
+      { "vi": "Câu này trong tiếng Việt có nghĩa là gì?", "zhTW": "這句話在越南語裡是什麼意思？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 260,
+    "vi": "Đài Loan",
+    "zhTW": "台灣",
+    "pos": "專有名詞",
+    "examples": [
+      { "vi": "Tôi đến từ Đài Loan.", "zhTW": "我來自台灣。" },
+      { "vi": "Bạn đã từng đến Đài Loan chưa?", "zhTW": "你去過台灣嗎？" },
+      { "vi": "Chuyến bay về Đài Loan khởi hành lúc mấy giờ?", "zhTW": "回台灣的班機幾點起飛？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 261,
+    "vi": "tuổi",
+    "zhTW": "歲；年齡",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Bạn bao nhiêu tuổi?", "zhTW": "你幾歲？" },
+      { "vi": "Con trai tôi năm nay năm tuổi.", "zhTW": "我兒子今年五歲。" },
+      { "vi": "Ở tuổi này, ông ấy vẫn rất khỏe.", "zhTW": "到了這個年紀，他還是很健康。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 262,
+    "vi": "quê",
+    "zhTW": "家鄉；鄉下",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Quê bạn ở đâu?", "zhTW": "你的家鄉在哪裡？" },
+      { "vi": "Tết này tôi sẽ về quê.", "zhTW": "今年過年我會回家鄉。" },
+      { "vi": "Quê tôi có nhiều ruộng lúa.", "zhTW": "我的家鄉有很多稻田。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 263,
+    "vi": "nước",
+    "zhTW": "水；國家",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cho tôi một ly nước.", "zhTW": "請給我一杯水。" },
+      { "vi": "Bạn đến từ nước nào?", "zhTW": "你來自哪個國家？" },
+      { "vi": "Nước trong phòng tắm không nóng.", "zhTW": "浴室裡的水不熱。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 264,
+    "vi": "thành phố",
+    "zhTW": "城市",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Thành phố này rất nhộn nhịp.", "zhTW": "這座城市很熱鬧。" },
+      { "vi": "Tôi sống ở thành phố Hồ Chí Minh.", "zhTW": "我住在胡志明市。" },
+      { "vi": "Trung tâm thành phố cách đây bao xa?", "zhTW": "市中心離這裡多遠？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 265,
+    "vi": "công việc",
+    "zhTW": "工作；職務",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Công việc của bạn là gì?", "zhTW": "你的工作是什麼？" },
+      { "vi": "Hôm nay tôi có nhiều công việc.", "zhTW": "我今天有很多工作。" },
+      { "vi": "Tôi khá hài lòng với công việc hiện tại.", "zhTW": "我對目前的工作相當滿意。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 266,
+    "vi": "làm việc",
+    "zhTW": "工作",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi làm việc từ thứ Hai đến thứ Sáu.", "zhTW": "我從週一工作到週五。" },
+      { "vi": "Bạn làm việc ở đâu?", "zhTW": "你在哪裡工作？" },
+      { "vi": "Hôm nay tôi phải làm việc muộn.", "zhTW": "我今天必須工作到很晚。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 267,
+    "vi": "công ty",
+    "zhTW": "公司",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Công ty của tôi ở gần ga tàu.", "zhTW": "我的公司在火車站附近。" },
+      { "vi": "Tôi mới vào công ty này.", "zhTW": "我剛進這家公司。" },
+      { "vi": "Công ty có khoảng một trăm nhân viên.", "zhTW": "公司大約有一百名員工。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 268,
+    "vi": "đồng nghiệp",
+    "zhTW": "同事",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Đồng nghiệp của tôi rất thân thiện.", "zhTW": "我的同事很友善。" },
+      { "vi": "Tôi đi ăn trưa cùng đồng nghiệp.", "zhTW": "我和同事一起吃午餐。" },
+      { "vi": "Một đồng nghiệp sẽ giúp bạn.", "zhTW": "一位同事會協助你。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 269,
+    "vi": "sếp",
+    "zhTW": "老闆；主管",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Sếp đang họp với khách hàng.", "zhTW": "主管正在和客戶開會。" },
+      { "vi": "Tôi cần báo việc này cho sếp.", "zhTW": "我需要把這件事告訴主管。" },
+      { "vi": "Sếp cho tôi nghỉ chiều nay.", "zhTW": "主管讓我今天下午請假。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 270,
+    "vi": "khách hàng",
+    "zhTW": "客戶；顧客",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Khách hàng đang đợi ở phòng họp.", "zhTW": "客戶正在會議室等。" },
+      { "vi": "Chúng tôi luôn lắng nghe ý kiến khách hàng.", "zhTW": "我們總是傾聽顧客的意見。" },
+      { "vi": "Hôm nay cửa hàng có rất nhiều khách hàng.", "zhTW": "今天店裡有很多顧客。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 271,
+    "vi": "học sinh",
+    "zhTW": "學生（中小學）",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Em gái tôi là học sinh trung học.", "zhTW": "我妹妹是中學生。" },
+      { "vi": "Học sinh đang làm bài tập.", "zhTW": "學生們正在寫作業。" },
+      { "vi": "Lớp này có ba mươi học sinh.", "zhTW": "這個班有三十名學生。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 272,
+    "vi": "giáo viên",
+    "zhTW": "老師；教師",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cô ấy là giáo viên tiếng Việt.", "zhTW": "她是越南語老師。" },
+      { "vi": "Giáo viên nói rất rõ và chậm.", "zhTW": "老師說得很清楚而且很慢。" },
+      { "vi": "Tôi muốn hỏi giáo viên một câu.", "zhTW": "我想問老師一個問題。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 273,
+    "vi": "cuộc họp",
+    "zhTW": "會議",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cuộc họp bắt đầu lúc chín giờ.", "zhTW": "會議九點開始。" },
+      { "vi": "Tôi đang chuẩn bị cho cuộc họp chiều nay.", "zhTW": "我正在準備今天下午的會議。" },
+      { "vi": "Cuộc họp đã kết thúc sớm.", "zhTW": "會議提早結束了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 274,
+    "vi": "nghỉ",
+    "zhTW": "休息；請假；停止",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi muốn nghỉ một chút.", "zhTW": "我想休息一下。" },
+      { "vi": "Ngày mai tôi xin nghỉ làm.", "zhTW": "明天我請假不上班。" },
+      { "vi": "Chúng tôi nghỉ trưa từ mười hai giờ.", "zhTW": "我們從十二點開始午休。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 275,
+    "vi": "bận",
+    "zhTW": "忙",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Hôm nay tôi rất bận.", "zhTW": "我今天很忙。" },
+      { "vi": "Bạn có bận vào chiều mai không?", "zhTW": "你明天下午忙嗎？" },
+      { "vi": "Xin lỗi, lúc đó tôi đang bận họp.", "zhTW": "不好意思，我那時正在忙著開會。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 276,
+    "vi": "rảnh",
+    "zhTW": "有空；空閒",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Cuối tuần bạn có rảnh không?", "zhTW": "你週末有空嗎？" },
+      { "vi": "Khi nào rảnh thì gọi cho tôi nhé.", "zhTW": "有空時打電話給我喔。" },
+      { "vi": "Chiều nay tôi rảnh từ ba giờ.", "zhTW": "我今天下午三點後有空。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 277,
+    "vi": "thích",
+    "zhTW": "喜歡",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi thích uống cà phê Việt Nam.", "zhTW": "我喜歡喝越南咖啡。" },
+      { "vi": "Bạn thích món nào nhất?", "zhTW": "你最喜歡哪一道菜？" },
+      { "vi": "Con trai tôi rất thích đi xe buýt.", "zhTW": "我兒子很喜歡搭公車。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 278,
+    "vi": "yêu",
+    "zhTW": "愛；喜愛",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi yêu gia đình của mình.", "zhTW": "我愛我的家人。" },
+      { "vi": "Cô ấy rất yêu công việc này.", "zhTW": "她很熱愛這份工作。" },
+      { "vi": "Chúng tôi yêu thành phố này.", "zhTW": "我們很喜愛這座城市。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 279,
+    "vi": "ghét",
+    "zhTW": "討厭",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi ghét phải chờ quá lâu.", "zhTW": "我討厭等太久。" },
+      { "vi": "Cô ấy ghét đồ ăn quá cay.", "zhTW": "她討厭太辣的食物。" },
+      { "vi": "Đừng ghét bản thân vì một lỗi nhỏ.", "zhTW": "不要因為一個小錯就討厭自己。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 280,
+    "vi": "vui",
+    "zhTW": "開心；愉快",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Hôm nay tôi rất vui.", "zhTW": "我今天很開心。" },
+      { "vi": "Chúc bạn có một chuyến đi vui vẻ.", "zhTW": "祝你旅途愉快。" },
+      { "vi": "Tôi vui vì được gặp bạn.", "zhTW": "我很高興見到你。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 281,
+    "vi": "buồn",
+    "zhTW": "難過；無聊",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Tôi buồn vì phải về sớm.", "zhTW": "我因為必須早點回去而難過。" },
+      { "vi": "Bộ phim này hơi buồn.", "zhTW": "這部電影有點悲傷。" },
+      { "vi": "Ở nhà một mình cả ngày rất buồn.", "zhTW": "整天一個人在家很無聊。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 282,
+    "vi": "dễ",
+    "zhTW": "容易",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Câu này rất dễ hiểu.", "zhTW": "這句話很容易懂。" },
+      { "vi": "Đường đến khách sạn rất dễ tìm.", "zhTW": "去飯店的路很好找。" },
+      { "vi": "Món này dễ làm tại nhà.", "zhTW": "這道菜在家很容易做。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 283,
+    "vi": "khó",
+    "zhTW": "困難",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Từ này hơi khó phát âm.", "zhTW": "這個詞有點難發音。" },
+      { "vi": "Tìm taxi vào giờ này rất khó.", "zhTW": "這個時間很難叫到計程車。" },
+      { "vi": "Bài tập hôm nay không quá khó.", "zhTW": "今天的作業不會太難。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 284,
+    "vi": "nhanh",
+    "zhTW": "快；快速",
+    "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Xe này chạy rất nhanh.", "zhTW": "這輛車開得很快。" },
+      { "vi": "Bạn nói nhanh quá, tôi nghe không kịp.", "zhTW": "你說得太快，我聽不及。" },
+      { "vi": "Dịch vụ ở đây nhanh và tiện.", "zhTW": "這裡的服務快速又方便。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 285,
+    "vi": "chậm",
+    "zhTW": "慢；緩慢",
+    "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Xin nói chậm một chút.", "zhTW": "請說慢一點。" },
+      { "vi": "Mạng Wi-Fi hôm nay rất chậm.", "zhTW": "今天的無線網路很慢。" },
+      { "vi": "Xe buýt chạy chậm vì đường đông.", "zhTW": "因為塞車，公車開得很慢。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 286,
+    "vi": "nóng",
+    "zhTW": "熱；燙",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Hôm nay trời rất nóng.", "zhTW": "今天天氣很熱。" },
+      { "vi": "Bát phở này còn nóng.", "zhTW": "這碗河粉還很燙。" },
+      { "vi": "Tôi muốn một ly trà nóng.", "zhTW": "我想要一杯熱茶。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 287,
+    "vi": "lạnh",
+    "zhTW": "冷；冰",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Phòng này hơi lạnh.", "zhTW": "這個房間有點冷。" },
+      { "vi": "Cho tôi một chai nước lạnh.", "zhTW": "請給我一瓶冰水。" },
+      { "vi": "Buổi tối ở Đà Lạt khá lạnh.", "zhTW": "大叻晚上相當冷。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 288,
+    "vi": "ngon",
+    "zhTW": "好吃；美味",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Món này rất ngon.", "zhTW": "這道菜很好吃。" },
+      { "vi": "Ở gần đây có quán phở nào ngon không?", "zhTW": "這附近有好吃的河粉店嗎？" },
+      { "vi": "Cà phê Việt Nam vừa thơm vừa ngon.", "zhTW": "越南咖啡又香又好喝。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 289,
+    "vi": "cay",
+    "zhTW": "辣",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Món này có cay không?", "zhTW": "這道菜會辣嗎？" },
+      { "vi": "Tôi không ăn được đồ quá cay.", "zhTW": "我不能吃太辣的食物。" },
+      { "vi": "Xin làm ít cay cho tôi.", "zhTW": "請幫我做小辣。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 290,
+    "vi": "ngọt",
+    "zhTW": "甜",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Cà phê này hơi ngọt.", "zhTW": "這杯咖啡有點甜。" },
+      { "vi": "Tôi thích xoài chín vì rất ngọt.", "zhTW": "我喜歡熟芒果，因為很甜。" },
+      { "vi": "Xin làm ít ngọt thôi.", "zhTW": "請做少甜就好。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 291,
+    "vi": "mặn",
+    "zhTW": "鹹",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Món canh này hơi mặn.", "zhTW": "這道湯有點鹹。" },
+      { "vi": "Tôi không ăn được quá mặn.", "zhTW": "我不能吃太鹹。" },
+      { "vi": "Xin nấu nhạt hơn, đừng quá mặn.", "zhTW": "請煮清淡一點，不要太鹹。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 292,
+    "vi": "chua",
+    "zhTW": "酸",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Quả này còn xanh nên rất chua.", "zhTW": "這個水果還沒熟，所以很酸。" },
+      { "vi": "Canh chua là món ăn phổ biến ở miền Nam.", "zhTW": "酸湯是越南南部常見的菜。" },
+      { "vi": "Nước chanh này hơi chua.", "zhTW": "這杯檸檬水有點酸。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 293,
+    "vi": "nhiều",
+    "zhTW": "多；許多",
+    "pos": "數量詞",
+    "examples": [
+      { "vi": "Chợ này có nhiều món ăn ngon.", "zhTW": "這個市場有很多好吃的食物。" },
+      { "vi": "Tôi không mang nhiều hành lý.", "zhTW": "我沒有帶很多行李。" },
+      { "vi": "Cảm ơn bạn rất nhiều.", "zhTW": "非常謝謝你。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 294,
+    "vi": "ít",
+    "zhTW": "少；一點",
+    "pos": "數量詞",
+    "examples": [
+      { "vi": "Cho tôi ít đường thôi.", "zhTW": "請只給我一點糖。" },
+      { "vi": "Hôm nay khách ít hơn hôm qua.", "zhTW": "今天的客人比昨天少。" },
+      { "vi": "Tôi chỉ nói được một ít tiếng Việt.", "zhTW": "我只會說一點越南語。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 295,
+    "vi": "đủ",
+    "zhTW": "足夠；夠；齊全",
+    "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Tôi không mang đủ tiền mặt.", "zhTW": "我沒有帶足夠的現金。" },
+      { "vi": "Phòng này đủ chỗ cho ba người.", "zhTW": "這個房間足夠住三個人。" },
+      { "vi": "Một chai nước là đủ rồi.", "zhTW": "一瓶水就夠了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 296,
+    "vi": "rất",
+    "zhTW": "很；非常",
+    "pos": "副詞",
+    "examples": [
+      { "vi": "Món ăn ở đây rất ngon.", "zhTW": "這裡的食物很好吃。" },
+      { "vi": "Tôi rất vui được gặp bạn.", "zhTW": "我很高興見到你。" },
+      { "vi": "Khách sạn này rất gần sân bay.", "zhTW": "這家飯店離機場很近。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 297,
+    "vi": "hơi",
+    "zhTW": "有點；稍微",
+    "pos": "副詞",
+    "examples": [
+      { "vi": "Hôm nay tôi hơi mệt.", "zhTW": "我今天有點累。" },
+      { "vi": "Cà phê này hơi ngọt.", "zhTW": "這杯咖啡有點甜。" },
+      { "vi": "Phòng này hơi nhỏ nhưng rất sạch.", "zhTW": "這個房間有點小，但很乾淨。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 298,
+    "vi": "cũng",
+    "zhTW": "也",
+    "pos": "副詞",
+    "examples": [
+      { "vi": "Tôi cũng thích món này.", "zhTW": "我也喜歡這道菜。" },
+      { "vi": "Ngày mai cô ấy cũng đi cùng chúng ta.", "zhTW": "明天她也會和我們一起去。" },
+      { "vi": "Khách sạn này đẹp mà giá cũng rẻ.", "zhTW": "這家飯店漂亮，價格也便宜。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 299,
+    "vi": "luôn",
+    "zhTW": "總是；一直",
+    "pos": "副詞",
+    "examples": [
+      { "vi": "Cô ấy luôn đến đúng giờ.", "zhTW": "她總是準時到。" },
+      { "vi": "Tôi luôn mang theo hộ chiếu khi đi xa.", "zhTW": "我出遠門時總是隨身帶護照。" },
+      { "vi": "Nhà hàng này luôn đông khách vào buổi tối.", "zhTW": "這家餐廳晚上總是很多客人。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 300,
+    "vi": "thường",
+    "zhTW": "常常；通常",
+    "pos": "副詞",
+    "examples": [
+      { "vi": "Tôi thường uống cà phê vào buổi sáng.", "zhTW": "我早上常喝咖啡。" },
+      { "vi": "Cuối tuần bạn thường làm gì?", "zhTW": "你週末通常做什麼？" },
+      { "vi": "Xe buýt thường đến muộn vào giờ cao điểm.", "zhTW": "公車在尖峰時段通常會晚到。" }
+    ],
+    "quality": "reviewed"
+  }
+]

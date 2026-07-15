@@ -1,0 +1,602 @@
+[
+  {
+    "rank": 151,
+    "vi": "xe",
+    "zhTW": "車；交通工具",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xe của tôi ở bên ngoài.", "zhTW": "我的車在外面。" },
+      { "vi": "Chiếc xe này còn mới.", "zhTW": "這輛車還很新。" },
+      { "vi": "Xe đến chưa?", "zhTW": "車到了嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 152,
+    "vi": "xe máy",
+    "zhTW": "機車",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi đi làm bằng xe máy.", "zhTW": "我騎機車上班。" },
+      { "vi": "Xe máy này của ai?", "zhTW": "這台機車是誰的？" },
+      { "vi": "Ở đây có chỗ thuê xe máy không?", "zhTW": "這裡有租機車的地方嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 153,
+    "vi": "xe buýt",
+    "zhTW": "公車",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi đi xe buýt đến trung tâm thành phố.", "zhTW": "我搭公車去市中心。" },
+      { "vi": "Xe buýt này có đi qua sân bay không?", "zhTW": "這班公車有經過機場嗎？" },
+      { "vi": "Chúng ta xuống xe buýt ở trạm tiếp theo.", "zhTW": "我們在下一站下公車。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 154,
+    "vi": "taxi",
+    "zhTW": "計程車",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xin gọi giúp tôi một chiếc taxi.", "zhTW": "請幫我叫一輛計程車。" },
+      { "vi": "Đi taxi đến sân bay mất bao lâu?", "zhTW": "搭計程車到機場要多久？" },
+      { "vi": "Taxi đang đợi trước khách sạn.", "zhTW": "計程車正在飯店前面等。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 155,
+    "vi": "sân bay",
+    "zhTW": "機場",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi cần đến sân bay trước sáu giờ.", "zhTW": "我需要在六點前到機場。" },
+      { "vi": "Sân bay cách đây bao xa?", "zhTW": "機場離這裡多遠？" },
+      { "vi": "Xe buýt ra sân bay ở đâu?", "zhTW": "去機場的公車在哪裡搭？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 156,
+    "vi": "ga",
+    "zhTW": "車站；火車站",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Ga tàu ở gần đây không?", "zhTW": "火車站在這附近嗎？" },
+      { "vi": "Tôi sẽ đón bạn ở ga.", "zhTW": "我會在車站接你。" },
+      { "vi": "Từ khách sạn đến ga mất mười phút.", "zhTW": "從飯店到車站要十分鐘。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 157,
+    "vi": "bến xe",
+    "zhTW": "客運站；公車站",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Bến xe ở phía bên phải.", "zhTW": "客運站在右手邊。" },
+      { "vi": "Tôi mua vé tại bến xe.", "zhTW": "我在客運站買票。" },
+      { "vi": "Xe đi Đà Lạt khởi hành từ bến xe này.", "zhTW": "去大叻的車從這個客運站出發。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 158,
+    "vi": "vé",
+    "zhTW": "票",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cho tôi mua hai vé đi Huế.", "zhTW": "我要買兩張去順化的票。" },
+      { "vi": "Vé này giá bao nhiêu?", "zhTW": "這張票多少錢？" },
+      { "vi": "Bạn nhớ giữ vé nhé.", "zhTW": "你要記得保管好票喔。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 159,
+    "vi": "đường",
+    "zhTW": "道路；糖",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Con đường này dẫn ra biển.", "zhTW": "這條路通往海邊。" },
+      { "vi": "Xin chỉ đường đến khách sạn cho tôi.", "zhTW": "請告訴我去飯店的路。" },
+      { "vi": "Cà phê này có nhiều đường quá.", "zhTW": "這杯咖啡糖太多了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 160,
+    "vi": "phố",
+    "zhTW": "街道；街區",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phố này có nhiều quán ăn ngon.", "zhTW": "這條街有很多好吃的餐廳。" },
+      { "vi": "Tôi đang đi dạo trong khu phố cổ.", "zhTW": "我正在老街區散步。" },
+      { "vi": "Khách sạn nằm ở cuối phố.", "zhTW": "飯店位在街道盡頭。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 161,
+    "vi": "bản đồ",
+    "zhTW": "地圖",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Bạn có bản đồ thành phố không?", "zhTW": "你有城市地圖嗎？" },
+      { "vi": "Xin đánh dấu khách sạn trên bản đồ.", "zhTW": "請在地圖上標出飯店。" },
+      { "vi": "Tôi xem bản đồ để tìm đường.", "zhTW": "我看地圖找路。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 162,
+    "vi": "địa chỉ",
+    "zhTW": "地址",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Địa chỉ khách sạn là gì?", "zhTW": "飯店地址是什麼？" },
+      { "vi": "Xin viết địa chỉ này cho tôi.", "zhTW": "請幫我寫下這個地址。" },
+      { "vi": "Tài xế không tìm thấy địa chỉ.", "zhTW": "司機找不到這個地址。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 163,
+    "vi": "bên trái",
+    "zhTW": "左邊",
+    "pos": "方位詞",
+    "examples": [
+      { "vi": "Nhà vệ sinh ở bên trái.", "zhTW": "洗手間在左邊。" },
+      { "vi": "Bạn rẽ về bên trái ở ngã tư.", "zhTW": "你在十字路口左轉。" },
+      { "vi": "Cửa hàng bên trái đang mở cửa.", "zhTW": "左邊的商店正在營業。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 164,
+    "vi": "bên phải",
+    "zhTW": "右邊",
+    "pos": "方位詞",
+    "examples": [
+      { "vi": "Quầy bán vé ở bên phải.", "zhTW": "售票櫃台在右邊。" },
+      { "vi": "Rẽ bên phải sau khi qua cầu.", "zhTW": "過橋後右轉。" },
+      { "vi": "Phòng của tôi ở bên phải thang máy.", "zhTW": "我的房間在電梯右邊。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 165,
+    "vi": "thẳng",
+    "zhTW": "直；直走",
+    "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Bạn cứ đi thẳng khoảng hai trăm mét.", "zhTW": "你一直直走大約兩百公尺。" },
+      { "vi": "Con đường này chạy thẳng ra biển.", "zhTW": "這條路直通海邊。" },
+      { "vi": "Đi thẳng rồi rẽ trái.", "zhTW": "直走後左轉。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 166,
+    "vi": "gần",
+    "zhTW": "近；附近",
+    "pos": "形容詞／介系詞",
+    "examples": [
+      { "vi": "Khách sạn ở gần sân bay.", "zhTW": "飯店在機場附近。" },
+      { "vi": "Ở gần đây có nhà hàng nào ngon không?", "zhTW": "這附近有好吃的餐廳嗎？" },
+      { "vi": "Ga tàu rất gần, chúng ta đi bộ nhé.", "zhTW": "火車站很近，我們走路去吧。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 167,
+    "vi": "xa",
+    "zhTW": "遠",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Sân bay có xa đây không?", "zhTW": "機場離這裡遠嗎？" },
+      { "vi": "Nhà tôi ở khá xa trung tâm.", "zhTW": "我家離市中心相當遠。" },
+      { "vi": "Đường không xa, chỉ mất năm phút.", "zhTW": "路不遠，只要五分鐘。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 168,
+    "vi": "trước",
+    "zhTW": "前面；之前",
+    "pos": "方位詞／時間詞",
+    "examples": [
+      { "vi": "Taxi đang đợi trước cửa.", "zhTW": "計程車正在門前等。" },
+      { "vi": "Bạn cần đến trước tám giờ.", "zhTW": "你需要在八點前到。" },
+      { "vi": "Tôi đã gặp cô ấy trước đây.", "zhTW": "我以前見過她。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 169,
+    "vi": "sau",
+    "zhTW": "後面；之後",
+    "pos": "方位詞／時間詞",
+    "examples": [
+      { "vi": "Nhà vệ sinh ở sau quầy lễ tân.", "zhTW": "洗手間在櫃台後面。" },
+      { "vi": "Chúng ta gặp nhau sau bữa tối.", "zhTW": "我們晚餐後見。" },
+      { "vi": "Tôi sẽ gọi lại sau.", "zhTW": "我晚一點再打回去。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 170,
+    "vi": "trên",
+    "zhTW": "上面；在…上",
+    "pos": "方位詞／介系詞",
+    "examples": [
+      { "vi": "Chìa khóa ở trên bàn.", "zhTW": "鑰匙在桌上。" },
+      { "vi": "Tên khách sạn được ghi trên bản đồ.", "zhTW": "飯店名稱寫在地圖上。" },
+      { "vi": "Phòng của tôi ở trên tầng ba.", "zhTW": "我的房間在三樓。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 171,
+    "vi": "dưới",
+    "zhTW": "下面；在…下",
+    "pos": "方位詞／介系詞",
+    "examples": [
+      { "vi": "Túi của tôi ở dưới ghế.", "zhTW": "我的包包在椅子下面。" },
+      { "vi": "Quán cà phê nằm dưới khách sạn.", "zhTW": "咖啡店在飯店樓下。" },
+      { "vi": "Xin ký tên ở dưới đây.", "zhTW": "請在下方簽名。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 172,
+    "vi": "ngoài",
+    "zhTW": "外面；在…外",
+    "pos": "方位詞／介系詞",
+    "examples": [
+      { "vi": "Tôi đang đợi ở ngoài.", "zhTW": "我正在外面等。" },
+      { "vi": "Bên ngoài trời đang mưa.", "zhTW": "外面正在下雨。" },
+      { "vi": "Đừng để hành lý ngoài cửa.", "zhTW": "不要把行李放在門外。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 173,
+    "vi": "bên cạnh",
+    "zhTW": "旁邊",
+    "pos": "方位詞",
+    "examples": [
+      { "vi": "Nhà thuốc ở bên cạnh bệnh viện.", "zhTW": "藥局在醫院旁邊。" },
+      { "vi": "Tôi ngồi bên cạnh cửa sổ.", "zhTW": "我坐在窗戶旁邊。" },
+      { "vi": "Khách sạn nằm bên cạnh ga tàu.", "zhTW": "飯店位在火車站旁邊。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 174,
+    "vi": "giữa",
+    "zhTW": "中間；在…之間",
+    "pos": "方位詞／介系詞",
+    "examples": [
+      { "vi": "Ngân hàng ở giữa khách sạn và nhà hàng.", "zhTW": "銀行在飯店和餐廳之間。" },
+      { "vi": "Có một cái bàn ở giữa phòng.", "zhTW": "房間中間有一張桌子。" },
+      { "vi": "Xe dừng giữa đường.", "zhTW": "車停在路中間。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 175,
+    "vi": "đi bộ",
+    "zhTW": "走路；步行",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi thường đi bộ đến chợ.", "zhTW": "我常走路去市場。" },
+      { "vi": "Từ đây đi bộ mất bao lâu?", "zhTW": "從這裡走路要多久？" },
+      { "vi": "Chúng ta đi bộ vì khách sạn ở rất gần.", "zhTW": "飯店很近，我們走路去吧。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 176,
+    "vi": "lái xe",
+    "zhTW": "開車；駕駛",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Anh ấy đang lái xe đến sân bay.", "zhTW": "他正在開車去機場。" },
+      { "vi": "Bạn có biết lái xe không?", "zhTW": "你會開車嗎？" },
+      { "vi": "Đừng lái xe khi quá mệt.", "zhTW": "太累時不要開車。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 177,
+    "vi": "dừng",
+    "zhTW": "停止；停車",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Xin dừng xe ở đây.", "zhTW": "請在這裡停車。" },
+      { "vi": "Xe buýt dừng trước chợ.", "zhTW": "公車停在市場前面。" },
+      { "vi": "Trời mưa nên chúng tôi phải dừng lại.", "zhTW": "下雨了，所以我們必須停下來。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 178,
+    "vi": "đón",
+    "zhTW": "接；迎接",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi sẽ đón bạn ở sân bay.", "zhTW": "我會去機場接你。" },
+      { "vi": "Xe đến đón chúng ta lúc bảy giờ.", "zhTW": "車會在七點來接我們。" },
+      { "vi": "Ai sẽ đón con hôm nay?", "zhTW": "今天誰去接孩子？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 179,
+    "vi": "xuống",
+    "zhTW": "下去；下車",
+    "pos": "動詞／副詞",
+    "examples": [
+      { "vi": "Tôi xuống xe ở trạm tiếp theo.", "zhTW": "我在下一站下車。" },
+      { "vi": "Bạn đi xuống cầu thang nhé.", "zhTW": "請你走樓梯下去。" },
+      { "vi": "Giá phòng đã xuống một chút.", "zhTW": "房價已經降了一點。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 180,
+    "vi": "lên xe",
+    "zhTW": "上車",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Mời bạn lên xe.", "zhTW": "請上車。" },
+      { "vi": "Chúng ta lên xe ở cổng số hai.", "zhTW": "我們在二號門上車。" },
+      { "vi": "Đợi mọi người lên xe rồi hãy đi.", "zhTW": "等大家都上車後再出發。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 181,
+    "vi": "rẽ",
+    "zhTW": "轉彎",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Rẽ trái ở ngã tư đầu tiên.", "zhTW": "在第一個十字路口左轉。" },
+      { "vi": "Bạn rẽ phải sau khi qua cầu.", "zhTW": "你過橋後右轉。" },
+      { "vi": "Đến cuối đường thì rẽ vào con phố nhỏ.", "zhTW": "走到路底後轉進小街。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 182,
+    "vi": "qua",
+    "zhTW": "經過；穿過",
+    "pos": "動詞／介系詞",
+    "examples": [
+      { "vi": "Xe buýt này đi qua chợ Bến Thành.", "zhTW": "這班公車會經過濱城市場。" },
+      { "vi": "Chúng ta phải qua đường ở đèn xanh.", "zhTW": "我們要在綠燈時過馬路。" },
+      { "vi": "Đi qua cây cầu rồi rẽ trái.", "zhTW": "過橋後左轉。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 183,
+    "vi": "mất bao lâu",
+    "zhTW": "需要多久",
+    "pos": "疑問短語",
+    "examples": [
+      { "vi": "Đi đến sân bay mất bao lâu?", "zhTW": "到機場要多久？" },
+      { "vi": "Từ đây đi bộ mất bao lâu?", "zhTW": "從這裡走路要多久？" },
+      { "vi": "Giặt quần áo mất bao lâu?", "zhTW": "洗衣服要多久？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 184,
+    "vi": "cây số",
+    "zhTW": "公里",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Sân bay cách đây mười cây số.", "zhTW": "機場離這裡十公里。" },
+      { "vi": "Tôi đi bộ hai cây số mỗi ngày.", "zhTW": "我每天走兩公里。" },
+      { "vi": "Khách sạn còn cách một cây số.", "zhTW": "飯店還有一公里。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 185,
+    "vi": "mét",
+    "zhTW": "公尺",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Đi thẳng khoảng một trăm mét.", "zhTW": "直走大約一百公尺。" },
+      { "vi": "Trạm xe buýt cách đây năm mươi mét.", "zhTW": "公車站離這裡五十公尺。" },
+      { "vi": "Phòng này rộng hai mươi mét vuông.", "zhTW": "這個房間有二十平方公尺。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 186,
+    "vi": "khách sạn",
+    "zhTW": "飯店；旅館",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Khách sạn của tôi ở gần biển.", "zhTW": "我的飯店在海邊附近。" },
+      { "vi": "Tôi muốn về khách sạn.", "zhTW": "我想回飯店。" },
+      { "vi": "Khách sạn có phục vụ bữa sáng không?", "zhTW": "飯店有供應早餐嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 187,
+    "vi": "đặt phòng",
+    "zhTW": "訂房",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi muốn đặt phòng cho hai đêm.", "zhTW": "我想訂兩晚的房間。" },
+      { "vi": "Bạn đã đặt phòng trước chưa?", "zhTW": "你已經事先訂房了嗎？" },
+      { "vi": "Tôi đặt phòng qua mạng.", "zhTW": "我透過網路訂房。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 188,
+    "vi": "hộ chiếu",
+    "zhTW": "護照",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xin cho tôi xem hộ chiếu của bạn.", "zhTW": "請讓我看你的護照。" },
+      { "vi": "Tôi để hộ chiếu trong túi.", "zhTW": "我把護照放在包包裡。" },
+      { "vi": "Tôi không tìm thấy hộ chiếu.", "zhTW": "我找不到護照。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 189,
+    "vi": "hành lý",
+    "zhTW": "行李",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Hành lý của tôi khá nặng.", "zhTW": "我的行李相當重。" },
+      { "vi": "Tôi có thể gửi hành lý ở đây không?", "zhTW": "我可以把行李寄放在這裡嗎？" },
+      { "vi": "Nhân viên đang mang hành lý lên phòng.", "zhTW": "工作人員正在把行李送到房間。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 190,
+    "vi": "chìa khóa",
+    "zhTW": "鑰匙",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Đây là chìa khóa phòng của bạn.", "zhTW": "這是你的房間鑰匙。" },
+      { "vi": "Tôi để quên chìa khóa trong phòng.", "zhTW": "我把鑰匙忘在房間裡了。" },
+      { "vi": "Xin cho tôi thêm một chìa khóa.", "zhTW": "請再給我一把鑰匙。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 191,
+    "vi": "cửa",
+    "zhTW": "門；出入口",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xin đóng cửa giúp tôi.", "zhTW": "請幫我關門。" },
+      { "vi": "Lối ra ở gần cửa chính.", "zhTW": "出口在大門附近。" },
+      { "vi": "Có người đang đợi ngoài cửa.", "zhTW": "有人正在門外等。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 192,
+    "vi": "tầng",
+    "zhTW": "樓層",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng của tôi ở tầng năm.", "zhTW": "我的房間在五樓。" },
+      { "vi": "Nhà hàng nằm ở tầng một.", "zhTW": "餐廳在一樓。" },
+      { "vi": "Thang máy không dừng ở tầng này.", "zhTW": "電梯不停這一層。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 193,
+    "vi": "nhà vệ sinh",
+    "zhTW": "洗手間；廁所",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xin lỗi, nhà vệ sinh ở đâu?", "zhTW": "不好意思，洗手間在哪裡？" },
+      { "vi": "Nhà vệ sinh ở cuối hành lang.", "zhTW": "洗手間在走廊盡頭。" },
+      { "vi": "Ở đây có nhà vệ sinh không?", "zhTW": "這裡有洗手間嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 194,
+    "vi": "phòng tắm",
+    "zhTW": "浴室",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng tắm ở bên phải.", "zhTW": "浴室在右邊。" },
+      { "vi": "Trong phòng tắm không có khăn.", "zhTW": "浴室裡沒有毛巾。" },
+      { "vi": "Sàn phòng tắm hơi trơn.", "zhTW": "浴室地板有點滑。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 195,
+    "vi": "nước nóng",
+    "zhTW": "熱水",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng này không có nước nóng.", "zhTW": "這個房間沒有熱水。" },
+      { "vi": "Xin cho tôi một ly nước nóng.", "zhTW": "請給我一杯熱水。" },
+      { "vi": "Nước nóng sẽ có lại sau mười phút.", "zhTW": "熱水十分鐘後會恢復。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 196,
+    "vi": "máy lạnh",
+    "zhTW": "冷氣",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Máy lạnh trong phòng không hoạt động.", "zhTW": "房間裡的冷氣不能運作。" },
+      { "vi": "Bạn có thể bật máy lạnh không?", "zhTW": "你可以開冷氣嗎？" },
+      { "vi": "Xin giảm nhiệt độ máy lạnh xuống một chút.", "zhTW": "請把冷氣溫度調低一點。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 197,
+    "vi": "mạng Wi-Fi",
+    "zhTW": "無線網路",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Mạng Wi-Fi ở đây hơi chậm.", "zhTW": "這裡的無線網路有點慢。" },
+      { "vi": "Mật khẩu mạng Wi-Fi là gì?", "zhTW": "無線網路密碼是什麼？" },
+      { "vi": "Tôi không kết nối được với mạng Wi-Fi.", "zhTW": "我連不上無線網路。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 198,
+    "vi": "thuê",
+    "zhTW": "租；雇用",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi muốn thuê xe máy trong hai ngày.", "zhTW": "我想租兩天機車。" },
+      { "vi": "Chúng tôi thuê một căn hộ gần công ty.", "zhTW": "我們在公司附近租了一間公寓。" },
+      { "vi": "Thuê xe ở đây giá bao nhiêu?", "zhTW": "在這裡租車多少錢？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 199,
+    "vi": "đêm",
+    "zhTW": "夜晚；晚",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi muốn ở lại hai đêm.", "zhTW": "我想住兩晚。" },
+      { "vi": "Đêm nay trời sẽ mưa.", "zhTW": "今晚會下雨。" },
+      { "vi": "Khu phố này rất yên tĩnh vào ban đêm.", "zhTW": "這個街區夜晚很安靜。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 200,
+    "vi": "ở lại",
+    "zhTW": "留下；住宿",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi sẽ ở lại đây ba ngày.", "zhTW": "我會在這裡住三天。" },
+      { "vi": "Bạn có muốn ở lại ăn tối không?", "zhTW": "你想留下來吃晚餐嗎？" },
+      { "vi": "Chúng tôi quyết định ở lại thêm một đêm.", "zhTW": "我們決定多住一晚。" }
+    ],
+    "quality": "reviewed"
+  }
+]

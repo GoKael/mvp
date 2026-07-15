@@ -1,14 +1,14 @@
-const CACHE = 'lexa-v2-15';
+const CACHE = 'lexa-v2-23';
 const APP_SHELL = [
   './index.html',
-  './styles.css?v=20',
-  './app.js?v=25',
-  './lib/app-core.mjs?v=2',
-  './lib/audio.mjs?v=2',
+  './styles.css?v=24',
+  './app.js?v=32',
+  './lib/app-core.mjs?v=4',
+  './lib/audio.mjs?v=3',
   './lib/lexeme.mjs?v=2',
   './manifest.webmanifest',
   './assets/icon.svg',
-  './server/data/core-100.json?v=4',
+  './server/data/core.json?v=1',
   './server/data/lessons.json?v=4',
   './server/data/patterns.json?v=4',
   './server/data/audio-manifest.json?v=4',
@@ -36,7 +36,15 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
+  const isAudio = url.pathname.includes('/assets/audio/');
   const isData = url.pathname.includes('/server/data/');
+  if (isAudio) {
+    event.respondWith(fetch(event.request).then((response) => {
+      if (response.ok) caches.open(CACHE).then((cache) => cache.put(event.request, response.clone()));
+      return response;
+    }).catch(() => caches.match(event.request)));
+    return;
+  }
   if (isData || event.request.mode === 'navigate') {
     event.respondWith(fetch(event.request).then((response) => {
       if (response.ok) caches.open(CACHE).then((cache) => cache.put(event.request, response.clone()));

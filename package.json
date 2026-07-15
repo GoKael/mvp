@@ -1,0 +1,9 @@
+{
+  "name": "lexa",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix server run start",
+    "dev": "npm --prefix server run start",
+    "test": "npm --prefix server run test"
+  }
+}

@@ -14,8 +14,8 @@ from google.api_core.exceptions import GoogleAPICallError
 from google.cloud import texttospeech
 
 ROOT = Path(__file__).resolve().parent.parent
-JOBS_PATH = ROOT / "server/data/audio-jobs.json"
-MANIFEST_PATH = ROOT / "server/data/audio-manifest.json"
+DEFAULT_JOBS_PATH = ROOT / "server/data/audio-jobs.json"
+DEFAULT_MANIFEST_PATH = ROOT / "server/data/audio-manifest.json"
 MODEL = "gemini-2.5-pro-tts"
 
 
@@ -38,8 +38,8 @@ def prompt_for(job: dict) -> str:
     )
 
 
-def refresh_manifest() -> None:
-    jobs = json.loads(JOBS_PATH.read_text(encoding="utf-8"))
+def refresh_manifest(jobs_path: Path, manifest_path: Path) -> None:
+    jobs = json.loads(jobs_path.read_text(encoding="utf-8"))
     payload = {
         "model": MODEL,
         "expected": len(jobs),
@@ -48,7 +48,8 @@ def refresh_manifest() -> None:
             for job in jobs
         ],
     }
-    MANIFEST_PATH.write_text(
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
@@ -57,6 +58,9 @@ def refresh_manifest() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--kind", choices=["lesson", "word", "example", "pattern", "all"], default="lesson")
+    parser.add_argument("--jobs-file", default=str(DEFAULT_JOBS_PATH.relative_to(ROOT)))
+    parser.add_argument("--manifest-file", default=str(DEFAULT_MANIFEST_PATH.relative_to(ROOT)))
+    parser.add_argument("--qa-file", help="Only regenerate paths listed by an audio QA export")
     parser.add_argument("--match", default="", help="Only generate jobs whose text or output path contains this value")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--delay-ms", type=int, default=6500)
@@ -67,20 +71,26 @@ def main() -> None:
     parser.add_argument("--retries", type=int, default=4)
     args = parser.parse_args()
 
-    jobs = json.loads(JOBS_PATH.read_text(encoding="utf-8"))
+    jobs_path = ROOT / args.jobs_file
+    manifest_path = ROOT / args.manifest_file
+    jobs = json.loads(jobs_path.read_text(encoding="utf-8"))
+    if args.qa_file:
+        qa = json.loads(Path(args.qa_file).expanduser().read_text(encoding="utf-8"))
+        regenerate = set(qa.get("regenerate", []))
+        jobs = [job for job in jobs if job["output"] in regenerate]
     if args.kind != "all":
         jobs = [job for job in jobs if job["kind"] == args.kind]
     if args.match:
         needle = args.match.casefold()
         jobs = [job for job in jobs if needle in job["text"].casefold() or needle in job["output"].casefold()]
-    if not args.force:
+    if not args.force and not args.qa_file:
         jobs = [job for job in jobs if not (ROOT / job["output"]).is_file()]
     if args.limit > 0:
         jobs = jobs[: args.limit]
 
     print(f"queued {len(jobs)} {args.kind} audio jobs")
     if args.dry_run or not jobs:
-        refresh_manifest()
+        refresh_manifest(jobs_path, manifest_path)
         return
 
     if args.credentials_file:
@@ -121,7 +131,7 @@ def main() -> None:
                 print(f"temporary TTS error ({error.code}); retrying in {retry_delay}s", flush=True)
                 time.sleep(retry_delay)
         target.write_bytes(response.audio_content)
-        refresh_manifest()
+        refresh_manifest(jobs_path, manifest_path)
         print(f"[{index}/{len(jobs)}] wrote {target.relative_to(ROOT)}", flush=True)
         if index < len(jobs) and args.delay_ms > 0:
             time.sleep(args.delay_ms / 1000)

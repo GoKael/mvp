@@ -3,11 +3,16 @@ import {
   STATUS,
   completeLesson,
   dueWords,
+  lessonLearningProgress,
+  lessonSegmentProgress,
   loadState,
   parseRoute,
+  recordAttempt,
   reviewRound,
   reviewWord,
   setWordStatus,
+  startLesson,
+  updateLessonSegment,
   wordProgress,
 } from '../lib/app-core.mjs';
 
@@ -44,9 +49,36 @@ const round = reviewRound(words, state, now, 10);
 assert.equal(new Set(round.map((word) => word.id)).size, round.length);
 assert.ok(round.length > 1);
 
-const lesson = { id: 'food-001', segments: [{ wordIds: [words[0].id, words[2].id] }] };
+const freshWords = Array.from({ length: 12 }, (_, index) => ({ id: `vi:new-${index}`, vi: `new-${index}`, rank: index + 1 }));
+const freshRound = reviewRound(freshWords, { words: {} }, now, 10);
+assert.equal(freshRound.length, 5);
+
+const overdueState = { words: Object.fromEntries(freshWords.map((word) => [word.id, {
+  status: STATUS.LEARNING,
+  box: 1,
+  nextReviewAt: now - 1,
+  hits: 0,
+  misses: 0,
+  lastReviewedAt: 0,
+}])) };
+assert.equal(reviewRound(freshWords, overdueState, now, 10).length, 10);
+
+const lesson = { id: 'food-001', segments: [{ id: 1, wordIds: [words[0].id, words[2].id] }] };
+startLesson(state, lesson.id, now);
+updateLessonSegment(state, lesson.id, 1, { understoodAt: now, feynman: 'clear', recalledAt: now });
+assert.equal(lessonSegmentProgress(state, lesson.id, 1).feynman, 'clear');
+assert.deepEqual(lessonLearningProgress(state, lesson), {
+  started: true,
+  understood: 1,
+  explained: 1,
+  recalled: 1,
+  completed: false,
+});
 completeLesson(state, lesson, now);
 assert.equal(state.lessons['food-001'].completedAt, now);
+assert.equal(state.lessons['food-001'].segments[1].recalledAt, now);
+recordAttempt(state, words[0].id, 'miss', now);
+assert.equal(wordProgress(state, words[0].id).misses, 1);
 assert.deepEqual(parseRoute('#/lesson/food-001'), { name: 'lesson', id: 'food-001' });
 assert.deepEqual(parseRoute('#/unknown'), { name: 'today', id: '' });
 

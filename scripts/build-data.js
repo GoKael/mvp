@@ -5,6 +5,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const FOOD_SOURCE = path.join(ROOT, 'content/food-30.source.json');
+const CORE_RELEASES = path.join(ROOT, 'content/core-releases.json');
 
 const zhMeaning = [
   '是', '和、以及', '的、屬於', '有、擁有', '不、沒有', '在…裡、之中', '一、一個', '各、複數標記',
@@ -274,7 +275,7 @@ function normalize(value) {
   return slugify(value).replace(/-/g, ' ');
 }
 
-function buildCoreWords() {
+function buildCoreSeed() {
   const source = JSON.parse(fs.readFileSync(path.join(ROOT, 'server/data/archive/lr_1k.json'), 'utf8'));
   const translations = new Map(
     JSON.parse(fs.readFileSync(path.join(ROOT, 'content/core-100-examples.zhTW.json'), 'utf8'))
@@ -309,6 +310,44 @@ function buildCoreWords() {
       quality: 'verified',
     };
   });
+}
+
+function buildReleasedWords(range) {
+  const source = JSON.parse(fs.readFileSync(path.join(ROOT, `content/core-${range}.source.json`), 'utf8'));
+  return source.map((word) => {
+    if (word.quality !== 'reviewed') throw new Error(`Released source must remain reviewed: ${word.vi}`);
+    const prefix = `${String(word.rank).padStart(3, '0')}-${slugify(word.vi)}`;
+    return {
+      id: `vi:${prefix}`,
+      vi: word.vi,
+      zhTW: word.zhTW,
+      pos: word.pos,
+      hanViet: '',
+      rank: word.rank,
+      audio: `assets/audio/words/${prefix}.mp3`,
+      examples: word.examples.map((example, index) => ({
+        ...example,
+        audio: `assets/audio/examples/${String(word.rank).padStart(3, '0')}-${index + 1}.mp3`,
+      })),
+      quality: 'verified',
+    };
+  });
+}
+
+function buildCoreWords() {
+  const releases = JSON.parse(fs.readFileSync(CORE_RELEASES, 'utf8'));
+  const words = buildCoreSeed();
+  let expectedStart = 101;
+  releases.forEach((range) => {
+    const match = /^(\d+)-(\d+)$/.exec(range);
+    if (!match) throw new Error(`Invalid Core release range: ${range}`);
+    const start = Number(match[1]);
+    const end = Number(match[2]);
+    if (start !== expectedStart || end !== start + 49 || end > 300) throw new Error(`Core releases must be contiguous 50-word batches: ${range}`);
+    words.push(...buildReleasedWords(range));
+    expectedStart = end + 1;
+  });
+  return words;
 }
 
 function parseFoodSource() {
@@ -474,7 +513,8 @@ function main() {
   const lessons = buildLessons(coreWords);
   const patterns = buildPatterns();
   const audioJobs = buildAudioJobs(coreWords, lessons, patterns);
-  writeJson(path.join(ROOT, 'server/data/core-100.json'), coreWords);
+  writeJson(path.join(ROOT, 'server/data/core-100.json'), coreWords.slice(0, 100));
+  writeJson(path.join(ROOT, 'server/data/core.json'), coreWords);
   writeJson(path.join(ROOT, 'server/data/lessons.json'), lessons);
   writeJson(path.join(ROOT, 'server/data/patterns.json'), patterns);
   writeJson(path.join(ROOT, 'server/data/audio-jobs.json'), audioJobs);

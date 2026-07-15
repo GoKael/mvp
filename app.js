@@ -2,21 +2,26 @@ import {
   STATUS,
   completeLesson,
   currentLesson,
+  lessonLearningProgress,
+  lessonSegmentProgress,
   loadState,
   normalize,
   parseRoute,
   progressSummary,
+  recordAttempt,
   reviewRound,
   reviewWord,
   saveState,
   setWordStatus,
+  startLesson,
+  updateLessonSegment,
   wordProgress,
-} from './lib/app-core.mjs?v=2';
-import { AudioController } from './lib/audio.mjs?v=2';
+} from './lib/app-core.mjs?v=4';
+import { AudioController } from './lib/audio.mjs?v=3';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
-  words: 'server/data/core-100.json?v=4',
+  words: 'server/data/core.json?v=1',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
   audio: 'server/data/audio-manifest.json?v=4',
@@ -29,7 +34,6 @@ const toast = document.getElementById('toast');
 const supportsPopover = typeof lexemePopover.showPopover === 'function';
 const ui = {
   lessonSegments: {},
-  feynmanOpen: {},
   wordFilter: 'all',
   wordSearch: '',
   reviewRevealed: false,
@@ -51,9 +55,9 @@ let lexemeCloseTimer;
 
 const extensionStorage = globalThis.chrome?.storage?.local;
 
-const audio = new AudioController(({ playing }) => {
+const audio = new AudioController(({ playing, error }) => {
   document.body.classList.toggle('is-playing', playing);
-  document.getElementById('audio-status').textContent = playing ? '正在播放' : '語音就緒';
+  document.getElementById('audio-status').textContent = error ? '語音無法讀取' : (playing ? '正在播放' : '語音就緒');
 });
 
 function escapeHtml(value) {
@@ -283,7 +287,8 @@ function mergeInbox(entries) {
 function updateShell() {
   const summary = progressSummary(data.words, data.lessons, state);
   document.getElementById('nav-due').textContent = summary.due;
-  document.getElementById('header-progress').textContent = `${summary.known} / 100 已會`;
+  document.getElementById('nav-words').textContent = `Core ${data.words.length}`;
+  document.getElementById('header-progress').textContent = `${summary.known} / ${data.words.length} 已會`;
   document.querySelectorAll('[data-route]').forEach((link) => {
     link.classList.toggle('active', link.dataset.route === parseRoute(location.hash).name);
   });
@@ -303,24 +308,55 @@ function routeTitle(title, kicker, action = '') {
   </header>`;
 }
 
+function weakestTrackedWord() {
+  const now = Date.now();
+  return data.words
+    .filter((word) => [STATUS.LEARNING, STATUS.KNOWN].includes(wordProgress(state, word.id).status))
+    .sort((left, right) => {
+      const a = wordProgress(state, left.id);
+      const b = wordProgress(state, right.id);
+      const score = (progress) => progress.misses * 3 - progress.hits
+        + Math.max(0, now - progress.nextReviewAt) / (24 * 60 * 60 * 1000);
+      return score(b) - score(a) || left.rank - right.rank;
+    })[0];
+}
+
+function weakWordReason(word) {
+  if (!word) return '完成第一課後，系統會開始安排複習。';
+  const progress = wordProgress(state, word.id);
+  if (progress.misses) return `最近答錯 ${progress.misses} 次，會優先再出現。`;
+  if (progress.nextReviewAt <= Date.now()) return '已到複習時間，現在回想效果最好。';
+  return '正在學習中，系統會在適合的時間再次出題。';
+}
+
 function renderToday() {
   const lesson = currentLesson(data.lessons, state);
   const summary = progressSummary(data.words, data.lessons, state);
-  const learnedPercent = Math.round((summary.known / data.words.length) * 100);
+  const lessonProgress = lessonLearningProgress(state, lesson);
+  const weakest = weakestTrackedWord();
+  const lessonNumber = data.lessons.findIndex((item) => item.id === lesson.id) + 1;
+  const loopSteps = [
+    ['選擇情境', '學習路線', lessonProgress.started, lessonProgress.started ? '已進入今天的飲食情境' : '從今天的三句開始'],
+    ['先理解', '智慧摘要＋第一原理', lessonProgress.understood === 3, `${lessonProgress.understood} / 3 句已拆解`],
+    ['說給自己聽', '費曼學習', lessonProgress.explained === 3, `${lessonProgress.explained} / 3 句已自述`],
+    ['不看答案想一次', '主動回憶', lessonProgress.recalled === 3, `${lessonProgress.recalled} / 3 句已回想`],
+    ['系統安排下一次', '弱點評估＋間隔重複', lessonProgress.completed, lessonProgress.completed ? '已加入個人複習排程' : '完成三句後自動安排'],
+  ];
+  const activeStep = loopSteps.findIndex((step) => !step[2]);
   app.innerHTML = `
     <section class="today-hero reveal">
       <div class="today-copy">
-        <p class="eyebrow">今日 30 秒</p>
-        <h1>先會三句，<br>再把越南變熟悉。</h1>
-        <p>中文先理解，越南語再跟讀。今天只完成一個真實情境，不追求一次背完。</p>
+        <p class="eyebrow">今天的學習循環</p>
+        <h1>三句理解，<br>一次真正想起來。</h1>
+        <p>先看全貌、拆解句子，再用自己的話解釋與回想。弱點排序和複習時間交給系統。</p>
         <div class="hero-actions">
-          <a class="button primary" href="#/lesson/${lesson.id}">開始今天三句</a>
+          <a class="button primary" href="#/lesson/${lesson.id}">${lessonProgress.started ? '繼續今天三句' : '開始今天三句'}</a>
           <a class="button ghost" href="#/review">複習 ${summary.due} 張</a>
         </div>
       </div>
       <article class="today-ticket">
-        <span class="ticket-number">${String(summary.completedLessons + 1).padStart(2, '0')}</span>
-        <p>下一課</p>
+        <span class="ticket-number">${String(lessonNumber).padStart(2, '0')}</span>
+        <p>今天的情境 · 越南飲食</p>
         <h2>${escapeHtml(lesson.title.zhTW)}</h2>
         <div class="ticket-lines">
           ${lesson.segments.map((segment) => `<span>${renderVietnamese(segment.topic.vi)} · ${escapeHtml(segment.topic.zhTW)}</span>`).join('')}
@@ -328,23 +364,36 @@ function renderToday() {
       </article>
     </section>
 
-    <section class="metric-row reveal delay-1" aria-label="學習進度">
-      <article><strong>${summary.completedLessons}</strong><span>完成課程</span></article>
-      <article><strong>${summary.due}</strong><span>今天待複習</span></article>
-      <article><strong>${summary.learning}</strong><span>正在追蹤</span></article>
-      <article><strong>${learnedPercent}%</strong><span>Core 100</span></article>
+    <section class="today-task-grid reveal delay-1" aria-label="今日任務">
+      <article class="today-task lesson-task">
+        <div><p class="eyebrow">任務一 · 一課三句</p><strong>${lessonProgress.recalled} / 3</strong></div>
+        <h2>${escapeHtml(lesson.title.zhTW)}</h2>
+        <p>完成理解、自述與回想，才算真正學完今天三句。</p>
+        <a href="#/lesson/${lesson.id}">${lessonProgress.started ? '繼續學習' : '開始學習'} →</a>
+      </article>
+      <article class="today-task review-task">
+        <div><p class="eyebrow">任務二 · 到期複習</p><strong>${summary.due}</strong></div>
+        <h2>${weakest ? `${renderVietnamese(weakest.vi)} · ${escapeHtml(weakest.zhTW)}` : '尚無到期單字'}</h2>
+        <p>${escapeHtml(weakWordReason(weakest))}</p>
+        <a href="#/review">進入複習 →</a>
+      </article>
     </section>
 
     <section class="section-block reveal delay-2">
-      ${routeTitle('今天怎麼學', '七種方法，一條路徑')}
-      <div class="method-grid">
-        <article><span>01</span><h3>句子積木</h3><p>用第一原理拆出角色、動作與時間。</p></article>
-        <article><span>02</span><h3>三句速查</h3><p>每課只摘要三句與能替換的核心詞。</p></article>
-        <article><span>03</span><h3>情境路線</h3><p>沿著飲食、交通、住宿與求助前進。</p></article>
-        <article><span>04</span><h3>自己解釋</h3><p>翻答案前，先用自己的話說一次。</p></article>
-        <article><span>05</span><h3>先想再翻</h3><p>遮住答案，迫使自己主動回憶。</p></article>
-        <article><span>06</span><h3>弱點優先</h3><p>卡住越多次，越早回到複習佇列。</p></article>
-        <article><span>07</span><h3>到期再見</h3><p>答錯 12 小時後再來，答對逐步拉長。</p></article>
+      ${routeTitle('今天做到哪一步', '七種方法，收進五步循環')}
+      <div class="learning-loop">
+        ${loopSteps.map(([title, method, done, detail], index) => `<article class="${done ? 'done' : ''} ${index === activeStep ? 'active' : ''}">
+          <span>${done ? '✓' : String(index + 1).padStart(2, '0')}</span>
+          <div><small>${escapeHtml(method)}</small><h3>${escapeHtml(title)}</h3><p>${escapeHtml(detail)}</p></div>
+        </article>`).join('')}
+      </div>
+    </section>
+
+    <section class="section-block route-section reveal">
+      ${routeTitle('情境路線', '只顯示真實內容進度')}
+      <div class="route-map">
+        <article class="available"><span>現在學習</span><h3>越南飲食</h3><p>${summary.completedLessons} / ${data.lessons.length} 課完成</p><a href="#/lessons">查看課程 →</a></article>
+        ${['交通與問路', '住宿與居家', '購物與付款', '健康與求助', '社交與工作'].map((title) => `<article><span>規劃中</span><h3>${title}</h3><p>內容校驗完成後才會開放</p></article>`).join('')}
       </div>
     </section>`;
 }
@@ -366,33 +415,64 @@ function renderLessons() {
     </section>`;
 }
 
-function lessonInsights(segment, open) {
+function lessonInsights(segment, progress) {
+  const canExplain = Boolean(progress.understoodAt);
+  const canRecall = Boolean(progress.feynman);
   return `<section class="insight-grid">
     <article class="insight-card">
       <p class="eyebrow">第一原理</p>
       <h3>先抓能替換的積木</h3>
-      <div class="block-grid">${segment.breakdown.map((part) => `<span><small>${escapeHtml(part.role)}</small><b>${renderVietnamese(part.vi)}</b><em>${escapeHtml(part.zhTW)}</em></span>`).join('')}</div>
+      ${canExplain
+        ? `<div class="block-grid">${segment.breakdown.map((part) => `<span><small>${escapeHtml(part.role)}</small><b>${renderVietnamese(part.vi)}</b><em>${escapeHtml(part.zhTW)}</em></span>`).join('')}</div><p class="step-feedback">✓ 已完成句子拆解</p>`
+        : '<p>先找出誰、做什麼、核心內容與時間，再打開積木核對。</p><button class="button compact" type="button" data-action="understand-segment">拆解這句</button>'}
     </article>
     <article class="insight-card feynman-card">
       <p class="eyebrow">費曼自述</p>
       <h3>先不看中文，你能解釋這句嗎？</h3>
-      <button class="text-button" type="button" data-action="toggle-feynman">${open ? '收起答案' : '看簡單答案'}</button>
-      ${open ? `<p class="feynman-answer">這句是在說：「${escapeHtml(segment.zhTW.replace(/。$/, ''))}」。先記整塊，再替換黃色詞組。</p>` : ''}
+      ${!canExplain
+        ? '<p class="locked-step">先完成左側的句子拆解。</p>'
+        : `${progress.feynman ? `<p class="feynman-answer">這句是在說：「${escapeHtml(segment.zhTW.replace(/。$/, ''))}」。先記整塊，再替換黃色詞組。</p>` : '<p>先說出「誰、做什麼、什麼情境」，再選擇你的理解程度。</p>'}
+          <div class="self-check-actions">
+            <button class="${progress.feynman === 'clear' ? 'active' : ''}" type="button" data-action="feynman-rate" data-result="clear">我能解釋</button>
+            <button class="${progress.feynman === 'unclear' ? 'active' : ''}" type="button" data-action="feynman-rate" data-result="unclear">還不清楚</button>
+          </div>`}
+    </article>
+    <article class="insight-card recall-check">
+      <p class="eyebrow">主動回憶</p>
+      <h3>遮住中文，你能說出這句的意思嗎？</h3>
+      ${!canRecall
+        ? '<p class="locked-step">先完成自述，再做一次不看答案的回想。</p>'
+        : `<p>${progress.recalledAt ? '這句已完成回想，可以前往下一句。' : '在腦中說一次；不確定也沒關係，系統會記住這個弱點。'}</p>
+          <div class="self-check-actions">
+            <button class="${progress.recalledAt ? 'active' : ''}" type="button" data-action="recall-segment" data-result="clear">我想起來了</button>
+            <button type="button" data-action="recall-segment" data-result="unclear">還要練習</button>
+          </div>`}
     </article>
   </section>`;
 }
 
 function renderLesson(route) {
   const lesson = data.lessons.find((item) => item.id === route.id) || data.lessons[0];
+  if (!state.lessons[lesson.id]?.startedAt) {
+    startLesson(state, lesson.id);
+    saveState(localStorage, state);
+  }
   const active = Math.min(2, Math.max(0, ui.lessonSegments[lesson.id] || 0));
   const segment = lesson.segments[active];
-  const key = `${lesson.id}:${segment.id}`;
-  const open = Boolean(ui.feynmanOpen[key]);
+  const progress = lessonSegmentProgress(state, lesson.id, segment.id);
+  const learning = lessonLearningProgress(state, lesson);
   app.innerHTML = `
     ${routeTitle(lesson.title.zhTW, lesson.title.vi, `<a class="button ghost compact" href="#/lessons">全部課程</a>`)}
-    <div class="segment-tabs" role="tablist" aria-label="本課三句">
-      ${lesson.segments.map((item, index) => `<button type="button" class="${index === active ? 'active' : ''}" data-action="lesson-segment" data-index="${index}">${index + 1}<span>${escapeHtml(item.topic.vi)}</span></button>`).join('')}
-    </div>
+    <section class="lesson-overview" aria-label="本課三句速查">
+      <div><p class="eyebrow">智慧摘要</p><h2>先看完三句，再逐句理解</h2></div>
+      ${lesson.segments.map((item, index) => {
+        const itemProgress = lessonSegmentProgress(state, lesson.id, item.id);
+        return `<article class="${index === active ? 'active' : ''}">
+          <button type="button" data-action="lesson-segment" data-index="${index}" aria-label="切換到第 ${index + 1} 句">${itemProgress.recalledAt ? '✓' : index + 1}</button>
+          <div><b>${escapeHtml(item.zhTW)}</b><small>${renderVietnamese(item.vi)}</small></div>
+        </article>`;
+      }).join('')}
+    </section>
 
     <article class="sentence-stage reveal">
       <div class="topic-badge"><span class="topic-dot"></span>${renderVietnamese(segment.topic.vi)}<small>${escapeHtml(segment.topic.zhTW)}</small></div>
@@ -409,13 +489,13 @@ function renderLesson(route) {
       </div>
     </article>
 
-    ${lessonInsights(segment, open)}
+    ${lessonInsights(segment, progress)}
 
     <footer class="lesson-footer">
       <button class="button ghost" type="button" data-action="lesson-prev" ${active === 0 ? 'disabled' : ''}>上一句</button>
       ${active < 2
         ? '<button class="button primary" type="button" data-action="lesson-next">下一句</button>'
-        : `<button class="button primary" type="button" data-action="complete-lesson" data-id="${lesson.id}">完成本課並加入複習</button>`}
+        : `<button class="button primary" type="button" data-action="complete-lesson" data-id="${lesson.id}" ${learning.recalled < 3 ? 'disabled' : ''}>${learning.recalled < 3 ? `先完成三句回想（${learning.recalled}/3）` : '完成本課並加入複習'}</button>`}
     </footer>`;
 }
 
@@ -434,7 +514,7 @@ function renderWords() {
   const words = filteredWords();
   visibleWordIds = words.map((word) => word.id);
   app.innerHTML = `
-    ${routeTitle('Core 100 單字庫', '只顯示校驗內容', `<div class="page-actions"><button class="button ghost compact" type="button" data-action="bulk-known">全部設為已會</button><button class="button ghost compact" type="button" data-action="bulk-reset">全部重設</button></div>`)}
+    ${routeTitle(`Core ${data.words.length} 單字庫`, '只顯示校驗內容', `<div class="page-actions"><button class="button ghost compact" type="button" data-action="bulk-known">全部設為已會</button><button class="button ghost compact" type="button" data-action="bulk-reset">全部重設</button></div>`)}
     ${state.inbox.length ? `<section class="capture-inbox reveal">
       <div><p class="eyebrow">瀏覽器收件匣</p><h2>稍後整理的選字</h2><p>這些內容只進入個人佇列，不會改寫正式詞庫。</p></div>
       <div class="capture-list">${state.inbox.map((item) => `<article><span>${escapeHtml(item.text)}</span><small>${escapeHtml(item.title || '網頁選字')}</small><button type="button" data-action="dismiss-capture" data-id="${escapeHtml(item.id)}" aria-label="移除 ${escapeHtml(item.text)}">移除</button></article>`).join('')}</div>
@@ -445,7 +525,7 @@ function renderWords() {
         ${['all', 'new', 'learning', 'known', 'ignored'].map((filter) => `<button type="button" class="${ui.wordFilter === filter ? 'active' : ''}" data-action="word-filter" data-filter="${filter}">${filter === 'all' ? '全部' : statusLabel(filter)}</button>`).join('')}
       </div>
     </section>
-    <p class="result-count">顯示 ${words.length} / 100</p>
+    <p class="result-count">顯示 ${words.length} / ${data.words.length}</p>
     <section class="word-grid reveal">
       ${words.map((word) => {
         const progress = wordProgress(state, word.id);
@@ -533,7 +613,7 @@ function reviewPrompt(word) {
     </div>`;
   }
   if (ui.reviewMode === 'order') return orderExercise(word);
-  return `<h2>${renderVietnamese(word.vi)}</h2>${audioButton('聽發音', word.audio)}<div class="answer-placeholder">在腦中說出中文意思，再翻面。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
+  return `<h2>${escapeHtml(word.vi)}</h2>${audioButton('聽發音', word.audio)}<div class="answer-placeholder">在腦中說出中文意思，再翻面。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
 }
 
 function renderReview() {
@@ -556,8 +636,9 @@ function renderReview() {
     ${reviewModeTabs()}
     <section class="review-layout reveal">
       <aside class="review-queue">
-        <p class="eyebrow">這一輪</p>
+        <p class="eyebrow">本輪尚餘</p>
         <strong>${queue.length}</strong><span>張卡片</span>
+        <p>每輪最多 10 張：先排到期詞，再補學習中／已會；若尚未有排程詞，帶入 5 個新詞。</p>
         <p>答錯會在 12 小時後回來；答對後間隔逐步拉長。</p>
       </aside>
       <article class="review-card">
@@ -606,13 +687,18 @@ function activeLesson() {
   return data.lessons.find((lesson) => lesson.id === route.id) || data.lessons[0];
 }
 
+function activeLessonSegment() {
+  const lesson = activeLesson();
+  return { lesson, segment: lesson.segments[ui.lessonSegments[lesson.id] || 0] };
+}
+
 app.addEventListener('click', (event) => {
   const button = event.target.closest('[data-action]');
   if (!button) return;
   const action = button.dataset.action;
 
-  if (action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify('音檔無法播放'); });
-  if (action === 'play-sequence') audio.playSequence(button.dataset.srcs.split('|')).then((ok) => { if (!ok) notify('雙語音檔尚未完整'); });
+  if (action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify('音檔無法讀取，請確認本地服務仍在執行'); });
+  if (action === 'play-sequence') audio.playSequence(button.dataset.srcs.split('|')).then((ok) => { if (!ok) notify('雙語音檔無法讀取，請確認本地服務仍在執行'); });
   if (action === 'lesson-segment') {
     const lesson = activeLesson();
     ui.lessonSegments[lesson.id] = Number(button.dataset.index);
@@ -624,15 +710,38 @@ app.addEventListener('click', (event) => {
     ui.lessonSegments[lesson.id] = Math.min(2, Math.max(0, (ui.lessonSegments[lesson.id] || 0) + delta));
     renderLesson({ id: lesson.id });
   }
-  if (action === 'toggle-feynman') {
-    const lesson = activeLesson();
-    const segment = lesson.segments[ui.lessonSegments[lesson.id] || 0];
-    const key = `${lesson.id}:${segment.id}`;
-    ui.feynmanOpen[key] = !ui.feynmanOpen[key];
+  if (action === 'understand-segment') {
+    const { lesson, segment } = activeLessonSegment();
+    updateLessonSegment(state, lesson.id, segment.id, { understoodAt: Date.now() });
+    persist();
     renderLesson({ id: lesson.id });
+  }
+  if (action === 'feynman-rate') {
+    const { lesson, segment } = activeLessonSegment();
+    const clear = button.dataset.result === 'clear';
+    updateLessonSegment(state, lesson.id, segment.id, {
+      feynman: button.dataset.result,
+      feynmanAt: Date.now(),
+      ...(!clear ? { recalledAt: 0 } : {}),
+    });
+    persist();
+    renderLesson({ id: lesson.id });
+  }
+  if (action === 'recall-segment') {
+    const { lesson, segment } = activeLessonSegment();
+    const progress = lessonSegmentProgress(state, lesson.id, segment.id);
+    const clear = button.dataset.result === 'clear';
+    updateLessonSegment(state, lesson.id, segment.id, {
+      recalledAt: clear ? Date.now() : 0,
+      recallMisses: progress.recallMisses + (clear ? 0 : 1),
+    });
+    persist();
+    renderLesson({ id: lesson.id });
+    notify(clear ? '這句已完成回想' : '已記下這個弱點，稍後會再遇到');
   }
   if (action === 'complete-lesson') {
     const lesson = data.lessons.find((item) => item.id === button.dataset.id);
+    if (lessonLearningProgress(state, lesson).recalled < 3) return;
     completeLesson(state, lesson);
     persist();
     notify('本課已完成，單字已加入複習');
@@ -676,6 +785,8 @@ app.addEventListener('click', (event) => {
       ui.reviewRevealed = true;
       renderReview();
     } else {
+      recordAttempt(state, reviewQueue()[0].id, 'miss');
+      persist();
       notify('還不是這句，再聽一次。');
     }
   }
@@ -687,6 +798,8 @@ app.addEventListener('click', (event) => {
       const answerText = ui.orderSelection.map((index) => tokens[index]).join(' ');
       if (answerText === word.examples[0].vi) ui.reviewRevealed = true;
       else {
+        recordAttempt(state, word.id, 'miss');
+        persist();
         ui.orderSelection = [];
         notify('順序不對，再排一次。');
       }
@@ -746,7 +859,7 @@ wordDialog.addEventListener('click', (event) => {
   }
   const button = event.target.closest('[data-action]');
   if (!button) return;
-  if (button.dataset.action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify('音檔無法播放'); });
+  if (button.dataset.action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify('音檔無法讀取，請確認本地服務仍在執行'); });
   if (button.dataset.action === 'word-status') {
     setWordStatus(state, button.dataset.id, button.dataset.status);
     persist();
@@ -806,7 +919,7 @@ lexemePopover.addEventListener('click', (event) => {
   const entry = lexicon.byId.get(activeLexemeId);
   if (button.dataset.lexemeAction === 'close') closeLexemePopover();
   if (button.dataset.lexemeAction === 'play' && entry?.audio) {
-    audio.play(entry.audio).then((ok) => { if (!ok) notify('音檔無法播放'); });
+    audio.play(entry.audio).then((ok) => { if (!ok) notify('音檔無法讀取，請確認本地服務仍在執行'); });
   }
   if (button.dataset.lexemeAction === 'status' && entry) {
     setWordStatus(state, entry.id, button.dataset.status);
@@ -853,7 +966,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=15', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=23', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

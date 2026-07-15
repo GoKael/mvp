@@ -15,16 +15,16 @@ const normalize = (value) => String(value || '')
   .replace(/[^a-z0-9]+/g, ' ')
   .trim();
 
-const words = read('server/data/core-100.json');
+const words = read('server/data/core.json');
 const lessons = read('server/data/lessons.json');
 const patterns = read('server/data/patterns.json');
 const manifest = read('server/data/audio-manifest.json');
 const strictAudio = process.argv.includes('--strict-audio');
 const strictLessons = process.argv.includes('--strict-lessons');
 
-assert.strictEqual(words.length, 100, 'Core vocabulary must contain exactly 100 words');
-assert.strictEqual(new Set(words.map((word) => word.id)).size, 100, 'Word ids must be unique');
-assert.deepStrictEqual(words.map((word) => word.rank), Array.from({ length: 100 }, (_, index) => index + 1));
+assert.ok(words.length >= 100 && words.length <= 300 && words.length % 50 === 0, 'Published Core must contain 100–300 words in 50-word batches');
+assert.strictEqual(new Set(words.map((word) => word.id)).size, words.length, 'Word ids must be unique');
+assert.deepStrictEqual(words.map((word) => word.rank), Array.from({ length: words.length }, (_, index) => index + 1));
 words.forEach((word) => {
   assert.ok(word.id.startsWith('vi:'), `Invalid word id: ${word.id}`);
   assert.ok(word.vi && word.zhTW && word.pos, `Missing required word fields: ${word.id}`);
@@ -67,7 +67,7 @@ patterns.forEach((pattern) => {
   pattern.examples.forEach((example) => assert.ok(example.vi && example.zhTW && example.audio));
 });
 
-assert.strictEqual(manifest.expected, 500, 'Unexpected audio job count');
+assert.strictEqual(manifest.expected, words.length * 4 + 100, 'Unexpected audio job count');
 assert.strictEqual(manifest.assets.filter((asset) => asset.kind === 'pattern').length, 40, 'Expected forty pattern audio jobs');
 assert.strictEqual(manifest.assets.length, manifest.expected, 'Audio manifest is incomplete');
 assert.strictEqual(new Set(manifest.assets.map((asset) => asset.output)).size, manifest.expected, 'Audio paths must be unique');
@@ -96,4 +96,4 @@ generated.forEach((asset) => {
   }
 });
 
-console.log(`data ok: 100 words, 10 lessons, 8 patterns, ${manifest.expected - missingAudio.length}/${manifest.expected} audio files`);
+console.log(`data ok: ${words.length} words, 10 lessons, 8 patterns, ${manifest.expected - missingAudio.length}/${manifest.expected} audio files`);

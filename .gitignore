@@ -7,3 +7,6 @@ __pycache__/
 studio/**/.thumbnails/
 studio/**/.waveform-cache/
 *.pyc
+server/data/core-*-*.review.json
+server/data/core-*-*-audio-jobs.json
+server/data/core-*-*-audio-manifest.json
