@@ -56,10 +56,10 @@ node scripts/validate-core-batch-audio.js \
 npm --prefix server run check:core-audio
 ```
 
-音檔與例句人工抽查通過後，才可把該批次從 `reviewed` 升為 `verified` 並合併進正式詞庫。
+50 個孤立單字全部人工抽聽、例句抽查通過後，才可把該批次從 `reviewed` 升為 `verified` 並合併進正式詞庫。發布時仍會對完整 200 個音檔執行機器音質驗證；任何被標記需重生的例句也會阻止發布。
 目前正式 UI 仍只載入 Core 100；完成來源檔不等於發音品質已通過。
 
-本地服務啟動後，開啟 `http://127.0.0.1:4174/audio-qa.html?range=101-150`，逐一播放單字與三例句並標記「通過／需重生」。可用空白鍵播放、`1 / 2` 標記、方向鍵切換；結果只保存在本機，可從頁面匯出供精確重生。
+本地服務啟動後，開啟 `http://127.0.0.1:4174/audio-qa.html?range=101-150`，逐一播放 50 個單字並標記「通過／需重生」，三個例句保留在同卡供抽查。可用空白鍵播放、`1 / 2` 標記、方向鍵切換；結果只保存在本機，可從頁面匯出供精確重生。
 
 只重生匯出清單中被標記的音檔：
 
@@ -72,7 +72,7 @@ npm --prefix server run check:core-audio
   --project YOUR_PROJECT_ID
 ```
 
-全部抽聽完成後，必須通過人工結果閘門才可升級：
+50 個單字全部抽聽完成後，必須通過人工結果閘門才可升級：
 
 ```bash
 node scripts/validate-core-qa.js \

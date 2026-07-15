@@ -26,6 +26,7 @@
     .clips { display: grid; gap: 10px; }
     .clip { display: grid; grid-template-columns: 48px 1fr auto; align-items: center; gap: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: #faf4e8; }
     .clip.current { border-color: var(--amber); }
+    .clip.required { border-left: 5px solid var(--rust); }
     .clip.playing { border-color: var(--amber); box-shadow: 0 0 0 2px rgba(229,167,25,.18); }
     .play { width: 46px; padding: 0; border-radius: 50%; font-size: 18px; }
     .clip-text strong { display: block; font-size: 17px; line-height: 1.4; }
@@ -57,7 +58,7 @@
   <main>
     <div class="progress"><span id="progress-bar"></span></div>
     <div class="summary"><span id="position"></span><span id="counts"></span></div>
-    <p class="shortcuts"><kbd>空白</kbd> 播放　<kbd>1</kbd> 通過　<kbd>2</kbd> 需重生　<kbd>↑↓</kbd> 切換音檔　<kbd>←→</kbd> 換詞</p>
+    <p class="shortcuts">單字為發布必檢，標記後自動換詞；例句可抽聽。<br><kbd>空白</kbd> 播放　<kbd>1</kbd> 通過　<kbd>2</kbd> 需重生　<kbd>↑↓</kbd> 切換音檔　<kbd>←→</kbd> 換詞</p>
     <section id="content" class="card" aria-live="polite"></section>
     <nav class="nav" aria-label="抽聽導覽">
       <button id="previous" type="button">← 上一詞</button>
@@ -84,7 +85,7 @@
 
     const storageKey = () => `lexa:audio-qa:${range}`;
     const save = () => localStorage.setItem(storageKey(), JSON.stringify(results));
-    const clipsFor = (word) => [{ label: '單字', vi: word.vi, zhTW: word.zhTW, audio: word.audio }, ...word.examples.map((example, exampleIndex) => ({ label: `例句 ${exampleIndex + 1}`, ...example }))];
+    const clipsFor = (word) => [{ label: '單字 · 發布必檢', required: true, vi: word.vi, zhTW: word.zhTW, audio: word.audio }, ...word.examples.map((example, exampleIndex) => ({ label: `例句 ${exampleIndex + 1}`, required: false, ...example }))];
 
     function stopAudio() {
       if (activeAudio) activeAudio.pause();
@@ -99,12 +100,13 @@
 
     function updateSummary() {
       const clips = words.flatMap((word) => clipsFor(word));
-      const passed = clips.filter((clip) => statusFor(clip.audio, clip.vi) === 'pass').length;
+      const required = clips.filter((clip) => clip.required);
+      const passed = required.filter((clip) => statusFor(clip.audio, clip.vi) === 'pass').length;
+      const examplesChecked = clips.filter((clip) => !clip.required && statusFor(clip.audio, clip.vi) !== 'pending').length;
       const redo = clips.filter((clip) => statusFor(clip.audio, clip.vi) === 'redo').length;
-      const done = passed + redo;
       position.textContent = words.length ? `第 ${index + 1} / ${words.length} 詞` : '';
-      counts.textContent = `已檢查 ${done}/${clips.length} · 通過 ${passed} · 重生 ${redo}`;
-      progressBar.style.width = `${clips.length ? done / clips.length * 100 : 0}%`;
+      counts.textContent = `必檢單字 ${passed}/${required.length} · 例句選檢 ${examplesChecked}/${clips.length - required.length} · 重生 ${redo}`;
+      progressBar.style.width = `${required.length ? passed / required.length * 100 : 0}%`;
     }
 
     function advanceClip() {
@@ -115,7 +117,7 @@
       }
     }
 
-    function decisionButton(path, text, value, label) {
+    function decisionButton(path, text, value, label, required) {
       const button = document.createElement('button');
       button.type = 'button';
       button.textContent = label;
@@ -126,7 +128,10 @@
         if (statusFor(path, text) === value) delete results[path];
         else {
           results[path] = { status: value, text };
-          advanceClip();
+          if (required) {
+            index = (index + 1) % words.length;
+            clipIndex = 0;
+          } else advanceClip();
         }
         save();
         render();
@@ -153,7 +158,7 @@
 
       clipsFor(word).forEach((clip, currentIndex) => {
         const row = document.createElement('article');
-        row.className = `clip${currentIndex === clipIndex ? ' current' : ''}`;
+        row.className = `clip${clip.required ? ' required' : ''}${currentIndex === clipIndex ? ' current' : ''}`;
         const play = document.createElement('button');
         play.type = 'button';
         play.className = 'play';
@@ -177,7 +182,7 @@
         text.append(vi, zh);
         const decision = document.createElement('div');
         decision.className = 'decision';
-        decision.append(decisionButton(clip.audio, clip.vi, 'pass', '通過'), decisionButton(clip.audio, clip.vi, 'redo', '需重生'));
+        decision.append(decisionButton(clip.audio, clip.vi, 'pass', '通過', clip.required), decisionButton(clip.audio, clip.vi, 'redo', '需重生', clip.required));
         row.append(play, text, decision);
         list.append(row);
       });
@@ -216,8 +221,8 @@
     document.querySelector('#previous').addEventListener('click', () => move(-1));
     document.querySelector('#next').addEventListener('click', () => move(1));
     document.querySelector('#next-pending').addEventListener('click', () => {
-      const next = words.findIndex((word, wordIndex) => wordIndex > index && clipsFor(word).some((clip) => statusFor(clip.audio, clip.vi) === 'pending'));
-      const wrapped = next >= 0 ? next : words.findIndex((word) => clipsFor(word).some((clip) => statusFor(clip.audio, clip.vi) === 'pending'));
+      const next = words.findIndex((word, wordIndex) => wordIndex > index && statusFor(word.audio, word.vi) === 'pending');
+      const wrapped = next >= 0 ? next : words.findIndex((word) => statusFor(word.audio, word.vi) === 'pending');
       if (wrapped >= 0) { index = wrapped; clipIndex = 0; render(); }
     });
     rangeSelect.addEventListener('change', () => load(rangeSelect.value));
