@@ -300,6 +300,7 @@ function buildCoreSeed() {
     }
     return {
       id: `vi:${String(index + 1).padStart(3, '0')}-${slug}`,
+      conceptId: `concept:${String(index + 1).padStart(3, '0')}`,
       vi: item.word,
       zhTW: zhMeaning[index],
       pos: posMap[item.type] || item.type,
@@ -319,6 +320,7 @@ function buildReleasedWords(range) {
     const prefix = `${String(word.rank).padStart(3, '0')}-${slugify(word.vi)}`;
     return {
       id: `vi:${prefix}`,
+      conceptId: `concept:${String(word.rank).padStart(3, '0')}`,
       vi: word.vi,
       zhTW: word.zhTW,
       pos: word.pos,

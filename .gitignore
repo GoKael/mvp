@@ -4,6 +4,7 @@ server/cache/
 node_modules/
 .venv/
 __pycache__/
+dist/
 studio/**/.thumbnails/
 studio/**/.waveform-cache/
 *.pyc

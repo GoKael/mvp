@@ -8,7 +8,7 @@
   <title>Lexa｜30 秒學三句越南語</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=24">
+  <link rel="stylesheet" href="styles.css?v=26">
 </head>
 <body>
   <a class="skip-link" href="#app">跳到主要內容</a>
@@ -29,6 +29,12 @@
 
     <div class="header-tools">
       <span id="audio-status" aria-live="polite">語音就緒</span>
+      <label class="direction-control">方向
+        <select id="learning-direction" aria-label="學習方向">
+          <option value="zhTW-vi">台灣人學越南語</option>
+          <option value="vi-zhTW">Người Việt học Hoa ngữ</option>
+        </select>
+      </label>
       <label class="rate-control">速度
         <select id="playback-rate" aria-label="播放速度">
           <option value="0.8">0.8×</option>
@@ -66,6 +72,6 @@
 
   <div id="toast" class="toast" role="status" hidden></div>
   <noscript>Lexa 需要 JavaScript 才能保存進度與播放課程。</noscript>
-  <script type="module" src="app.js?v=32"></script>
+  <script type="module" src="app.js?v=35"></script>
 </body>
 </html>

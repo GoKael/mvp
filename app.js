@@ -1,27 +1,34 @@
 import {
+  LEARNING_DIRECTION,
   STATUS,
   completeLesson,
   currentLesson,
+  dueLessonSegments,
   lessonLearningProgress,
+  lessonProgress,
   lessonSegmentProgress,
+  learningDirection,
   loadState,
   normalize,
   parseRoute,
   progressSummary,
   recordAttempt,
-  reviewRound,
+  recordLessonSegmentRecall,
+  reviewLessonSegment,
+  reviewRoundItems,
   reviewWord,
   saveState,
+  setLearningDirection,
   setWordStatus,
   startLesson,
   updateLessonSegment,
   wordProgress,
-} from './lib/app-core.mjs?v=4';
+} from './lib/app-core.mjs?v=7';
 import { AudioController } from './lib/audio.mjs?v=3';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
-  words: 'server/data/core.json?v=1',
+  words: 'server/data/core.json?v=2',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
   audio: 'server/data/audio-manifest.json?v=4',
@@ -52,6 +59,52 @@ let activeLexemeId = '';
 let activeLexemeTrigger = null;
 let lexemeOpenTimer;
 let lexemeCloseTimer;
+
+function isReverseDirection() {
+  return learningDirection(state) === LEARNING_DIRECTION.VI_TO_ZH;
+}
+
+function sourceKey() {
+  return isReverseDirection() ? 'vi' : 'zhTW';
+}
+
+function targetKey() {
+  return isReverseDirection() ? 'zhTW' : 'vi';
+}
+
+function languageName(key) {
+  return key === 'vi' ? '越南語' : '台灣華語';
+}
+
+function renderField(pair, key, focusWords = []) {
+  return key === 'vi'
+    ? renderVietnamese(pair.vi, focusWords)
+    : escapeHtml(pair.zhTW);
+}
+
+function renderSentenceField(pair, key, focusWords = []) {
+  return key === 'vi'
+    ? renderVietnamese(pair.vi, focusWords)
+    : highlightSentence(pair.zhTW, focusWords, 'zhTW');
+}
+
+function sourceAudio(audioPaths) {
+  return audioPaths?.[sourceKey()] || '';
+}
+
+function targetAudio(audioPaths) {
+  return audioPaths?.[targetKey()] || '';
+}
+
+function wordTargetAudio(item) {
+  return targetKey() === 'vi' ? item.audio : '';
+}
+
+function exerciseTokens(text, key = targetKey()) {
+  return key === 'vi'
+    ? String(text).split(/\s+/).filter(Boolean)
+    : Array.from(String(text).replace(/[\s，。！？、]/g, ''));
+}
 
 const extensionStorage = globalThis.chrome?.storage?.local;
 
@@ -201,14 +254,16 @@ function renderLexemePopover() {
   const source = entry.source === 'core'
     ? `Core ${String(entry.rank).padStart(3, '0')}`
     : (entry.source === 'focus' ? '課程詞組' : '句中單字 · 待校驗');
-  const canPlay = Boolean(entry.audio && hasAudio(entry.audio));
+  const canPlay = !isReverseDirection() && Boolean(entry.audio && hasAudio(entry.audio));
   Object.values(STATUS).forEach((status) => lexemePopover.classList.remove(`status-${status}`));
   lexemePopover.classList.add(`status-${progress.status}`);
+  const title = isReverseDirection() ? entry.zhTW : entry.vi;
+  const meaning = isReverseDirection() ? entry.vi : entry.zhTW;
   lexemePopover.querySelector('[data-lexeme-content]').innerHTML = `
     <button class="lexeme-close" type="button" data-lexeme-action="close" aria-label="關閉單字卡">×</button>
     <p class="lexeme-source">${escapeHtml(source)}</p>
-    <div class="lexeme-heading"><h2>${escapeHtml(entry.vi)}</h2><span>${escapeHtml(statusLabel(progress.status))}</span></div>
-    <p class="lexeme-meaning">${escapeHtml(entry.zhTW)}${entry.pos ? ` · ${escapeHtml(entry.pos)}` : ''}</p>
+    <div class="lexeme-heading"><h2>${escapeHtml(title)}</h2><span>${escapeHtml(statusLabel(progress.status))}</span></div>
+    <p class="lexeme-meaning">${escapeHtml(meaning)}${entry.pos ? ` · ${escapeHtml(entry.pos)}` : ''}</p>
     <button class="lexeme-play" type="button" data-lexeme-action="play" ${canPlay ? '' : 'disabled title="此詞組尚無獨立音檔"'}>▶ ${canPlay ? '播放發音' : '尚無獨立發音'}</button>
     <div class="lexeme-actions" aria-label="學習狀態">
       ${[
@@ -295,6 +350,10 @@ function updateShell() {
   const rate = state.settings.playbackRate || 1;
   const select = document.getElementById('playback-rate');
   if (select) select.value = String(rate);
+  const directionSelect = document.getElementById('learning-direction');
+  if (directionSelect) directionSelect.value = learningDirection(state);
+  const brandNote = document.querySelector('.brand small');
+  if (brandNote) brandNote.textContent = isReverseDirection() ? 'Traditional Chinese notes' : 'Vietnamese field notes';
   audio.setRate(rate);
 }
 
@@ -321,9 +380,20 @@ function weakestTrackedWord() {
     })[0];
 }
 
-function weakWordReason(word) {
-  if (!word) return '完成第一課後，系統會開始安排複習。';
-  const progress = wordProgress(state, word.id);
+function weakestReviewItem() {
+  const weakSegment = dueLessonSegments(data.lessons, state)[0];
+  const weakWord = weakestTrackedWord();
+  return weakSegment || (weakWord ? { type: 'word', word: weakWord } : null);
+}
+
+function weakReviewReason(item) {
+  if (!item) return '完成第一課後，系統會開始安排複習。';
+  if (item.type === 'segment') {
+    return item.progress.reviewMisses
+      ? `這句已答錯 ${item.progress.reviewMisses} 次，會優先再出現。`
+      : `這句已到複習時間，先不看${languageName(targetKey())}再說一次。`;
+  }
+  const progress = wordProgress(state, item.word.id);
   if (progress.misses) return `最近答錯 ${progress.misses} 次，會優先再出現。`;
   if (progress.nextReviewAt <= Date.now()) return '已到複習時間，現在回想效果最好。';
   return '正在學習中，系統會在適合的時間再次出題。';
@@ -333,7 +403,7 @@ function renderToday() {
   const lesson = currentLesson(data.lessons, state);
   const summary = progressSummary(data.words, data.lessons, state);
   const lessonProgress = lessonLearningProgress(state, lesson);
-  const weakest = weakestTrackedWord();
+  const weakest = weakestReviewItem();
   const lessonNumber = data.lessons.findIndex((item) => item.id === lesson.id) + 1;
   const loopSteps = [
     ['選擇情境', '學習路線', lessonProgress.started, lessonProgress.started ? '已進入今天的飲食情境' : '從今天的三句開始'],
@@ -357,9 +427,9 @@ function renderToday() {
       <article class="today-ticket">
         <span class="ticket-number">${String(lessonNumber).padStart(2, '0')}</span>
         <p>今天的情境 · 越南飲食</p>
-        <h2>${escapeHtml(lesson.title.zhTW)}</h2>
+        <h2>${renderField(lesson.title, sourceKey())}</h2>
         <div class="ticket-lines">
-          ${lesson.segments.map((segment) => `<span>${renderVietnamese(segment.topic.vi)} · ${escapeHtml(segment.topic.zhTW)}</span>`).join('')}
+          ${lesson.segments.map((segment) => `<span>${renderField(segment.topic, sourceKey())} · ${renderField(segment.topic, targetKey())}</span>`).join('')}
         </div>
       </article>
     </section>
@@ -367,14 +437,18 @@ function renderToday() {
     <section class="today-task-grid reveal delay-1" aria-label="今日任務">
       <article class="today-task lesson-task">
         <div><p class="eyebrow">任務一 · 一課三句</p><strong>${lessonProgress.recalled} / 3</strong></div>
-        <h2>${escapeHtml(lesson.title.zhTW)}</h2>
+        <h2>${renderField(lesson.title, sourceKey())}</h2>
         <p>完成理解、自述與回想，才算真正學完今天三句。</p>
         <a href="#/lesson/${lesson.id}">${lessonProgress.started ? '繼續學習' : '開始學習'} →</a>
       </article>
       <article class="today-task review-task">
         <div><p class="eyebrow">任務二 · 到期複習</p><strong>${summary.due}</strong></div>
-        <h2>${weakest ? `${renderVietnamese(weakest.vi)} · ${escapeHtml(weakest.zhTW)}` : '尚無到期單字'}</h2>
-        <p>${escapeHtml(weakWordReason(weakest))}</p>
+        <h2>${weakest
+          ? (weakest.type === 'segment'
+            ? `${renderField(weakest.segment, sourceKey())} · ${renderField(weakest.segment, targetKey())}`
+            : `${renderField(weakest.word, targetKey())} · ${renderField(weakest.word, sourceKey())}`)
+          : '尚無到期內容'}</h2>
+        <p>${escapeHtml(weakReviewReason(weakest))}</p>
         <a href="#/review">進入複習 →</a>
       </article>
     </section>
@@ -403,12 +477,12 @@ function renderLessons() {
     ${routeTitle('情境課程', '10 支 Short · 30 句')}
     <section class="lesson-grid reveal">
       ${data.lessons.map((lesson, index) => {
-        const done = Boolean(state.lessons[lesson.id]?.completedAt);
+        const done = Boolean(lessonProgress(state, lesson.id).completedAt);
         return `<article class="lesson-card ${done ? 'completed' : ''}">
           <div class="lesson-card-top"><span>${String(index + 1).padStart(2, '0')}</span><span>${done ? '已完成' : '30 秒'}</span></div>
-          <h2><a href="#/lesson/${lesson.id}">${escapeHtml(lesson.title.zhTW)}</a></h2>
-          <p>${renderVietnamese(lesson.title.vi)}</p>
-          <div class="topic-row">${lesson.segments.map((segment) => `<span>${renderVietnamese(segment.topic.vi)}</span>`).join('')}</div>
+          <h2><a href="#/lesson/${lesson.id}">${renderField(lesson.title, sourceKey())}</a></h2>
+          <p>${renderField(lesson.title, targetKey())}</p>
+          <div class="topic-row">${lesson.segments.map((segment) => `<span>${renderField(segment.topic, targetKey())}</span>`).join('')}</div>
           <a class="lesson-card-cta" href="#/lesson/${lesson.id}">${done ? '再次學習' : '開始三句'} →</a>
         </article>`;
       }).join('')}
@@ -417,21 +491,23 @@ function renderLessons() {
 
 function lessonInsights(segment, progress) {
   const canExplain = Boolean(progress.understoodAt);
-  const canRecall = Boolean(progress.feynman);
+  const canRecall = progress.feynman === 'clear' && Boolean(progress.feynmanNote.trim());
   return `<section class="insight-grid">
     <article class="insight-card">
       <p class="eyebrow">第一原理</p>
       <h3>先抓能替換的積木</h3>
       ${canExplain
-        ? `<div class="block-grid">${segment.breakdown.map((part) => `<span><small>${escapeHtml(part.role)}</small><b>${renderVietnamese(part.vi)}</b><em>${escapeHtml(part.zhTW)}</em></span>`).join('')}</div><p class="step-feedback">✓ 已完成句子拆解</p>`
+        ? `<div class="block-grid">${segment.breakdown.map((part) => `<span><small>${escapeHtml(part.role)}</small><b>${renderField(part, targetKey())}</b><em>${renderField(part, sourceKey())}</em></span>`).join('')}</div><p class="step-feedback">✓ 已完成句子拆解</p>`
         : '<p>先找出誰、做什麼、核心內容與時間，再打開積木核對。</p><button class="button compact" type="button" data-action="understand-segment">拆解這句</button>'}
     </article>
     <article class="insight-card feynman-card">
       <p class="eyebrow">費曼自述</p>
-      <h3>先不看中文，你能解釋這句嗎？</h3>
+      <h3>先不看${languageName(sourceKey())}，你能解釋這句嗎？</h3>
       ${!canExplain
         ? '<p class="locked-step">先完成左側的句子拆解。</p>'
-        : `${progress.feynman ? `<p class="feynman-answer">這句是在說：「${escapeHtml(segment.zhTW.replace(/。$/, ''))}」。先記整塊，再替換黃色詞組。</p>` : '<p>先說出「誰、做什麼、什麼情境」，再選擇你的理解程度。</p>'}
+        : `<p>先用自己的話寫出「誰、做什麼、什麼情境」，不用逐字翻譯。</p>
+          <textarea class="feynman-note" data-feynman-note rows="3" placeholder="我理解這句是在說……">${escapeHtml(progress.feynmanNote)}</textarea>
+          ${progress.feynman ? `<p class="feynman-answer">參考意思：「${renderField(segment, sourceKey())}」。${progress.feynman === 'clear' ? '✓ 已保存你的解釋。' : '這句已加入弱點複習。'}</p>` : ''}
           <div class="self-check-actions">
             <button class="${progress.feynman === 'clear' ? 'active' : ''}" type="button" data-action="feynman-rate" data-result="clear">我能解釋</button>
             <button class="${progress.feynman === 'unclear' ? 'active' : ''}" type="button" data-action="feynman-rate" data-result="unclear">還不清楚</button>
@@ -439,7 +515,7 @@ function lessonInsights(segment, progress) {
     </article>
     <article class="insight-card recall-check">
       <p class="eyebrow">主動回憶</p>
-      <h3>遮住中文，你能說出這句的意思嗎？</h3>
+      <h3>遮住${languageName(sourceKey())}，你能說出${languageName(targetKey())}嗎？</h3>
       ${!canRecall
         ? '<p class="locked-step">先完成自述，再做一次不看答案的回想。</p>'
         : `<p>${progress.recalledAt ? '這句已完成回想，可以前往下一句。' : '在腦中說一次；不確定也沒關係，系統會記住這個弱點。'}</p>
@@ -453,7 +529,7 @@ function lessonInsights(segment, progress) {
 
 function renderLesson(route) {
   const lesson = data.lessons.find((item) => item.id === route.id) || data.lessons[0];
-  if (!state.lessons[lesson.id]?.startedAt) {
+  if (!lessonProgress(state, lesson.id).startedAt) {
     startLesson(state, lesson.id);
     saveState(localStorage, state);
   }
@@ -462,30 +538,30 @@ function renderLesson(route) {
   const progress = lessonSegmentProgress(state, lesson.id, segment.id);
   const learning = lessonLearningProgress(state, lesson);
   app.innerHTML = `
-    ${routeTitle(lesson.title.zhTW, lesson.title.vi, `<a class="button ghost compact" href="#/lessons">全部課程</a>`)}
+    ${routeTitle(lesson.title[sourceKey()], lesson.title[targetKey()], `<a class="button ghost compact" href="#/lessons">全部課程</a>`)}
     <section class="lesson-overview" aria-label="本課三句速查">
       <div><p class="eyebrow">智慧摘要</p><h2>先看完三句，再逐句理解</h2></div>
       ${lesson.segments.map((item, index) => {
         const itemProgress = lessonSegmentProgress(state, lesson.id, item.id);
         return `<article class="${index === active ? 'active' : ''}">
           <button type="button" data-action="lesson-segment" data-index="${index}" aria-label="切換到第 ${index + 1} 句">${itemProgress.recalledAt ? '✓' : index + 1}</button>
-          <div><b>${escapeHtml(item.zhTW)}</b><small>${renderVietnamese(item.vi)}</small></div>
+          <div><b>${renderField(item, sourceKey())}</b><small>${renderField(item, targetKey())}</small></div>
         </article>`;
       }).join('')}
     </section>
 
     <article class="sentence-stage reveal">
-      <div class="topic-badge"><span class="topic-dot"></span>${renderVietnamese(segment.topic.vi)}<small>${escapeHtml(segment.topic.zhTW)}</small></div>
-      <div class="sentence-block zh"><span class="language-flag" aria-label="台灣華語">🇹🇼</span><p>${highlightSentence(segment.zhTW, segment.focusWords, 'zhTW')}</p></div>
-      <div class="sentence-block vi"><span class="language-flag" aria-label="越南語">🇻🇳</span><p>${renderVietnamese(segment.vi, segment.focusWords)}</p></div>
+      <div class="topic-badge"><span class="topic-dot"></span>${renderField(segment.topic, targetKey())}<small>${renderField(segment.topic, sourceKey())}</small></div>
+      <div class="sentence-block ${sourceKey()}"><span class="language-flag" aria-label="${languageName(sourceKey())}">${sourceKey() === 'vi' ? '🇻🇳' : '🇹🇼'}</span><p>${renderSentenceField(segment, sourceKey(), segment.focusWords)}</p></div>
+      <div class="sentence-block ${targetKey()}"><span class="language-flag" aria-label="${languageName(targetKey())}">${targetKey() === 'vi' ? '🇻🇳' : '🇹🇼'}</span><p>${renderSentenceField(segment, targetKey(), segment.focusWords)}</p></div>
       <div class="audio-row">
-        ${audioButton('中文', segment.audio.zhTW)}
-        ${audioButton('越南語', segment.audio.vi)}
-        ${sequenceButton('依序播放', [segment.audio.zhTW, segment.audio.vi])}
+        ${audioButton(languageName(sourceKey()), sourceAudio(segment.audio))}
+        ${audioButton(languageName(targetKey()), targetAudio(segment.audio))}
+        ${sequenceButton('依序播放', [sourceAudio(segment.audio), targetAudio(segment.audio)])}
       </div>
       <div class="focus-panel">
         <p>單字對照</p>
-        <div>${segment.focusWords.map((word) => `<span><b>${renderVietnamese(word.vi, [word])}</b><small>${escapeHtml(word.zhTW)}</small></span>`).join('')}</div>
+        <div>${segment.focusWords.map((word) => `<span><b>${renderField(word, targetKey(), [word])}</b><small>${renderField(word, sourceKey())}</small></span>`).join('')}</div>
       </div>
     </article>
 
@@ -529,10 +605,10 @@ function renderWords() {
     <section class="word-grid reveal">
       ${words.map((word) => {
         const progress = wordProgress(state, word.id);
-        return `<button class="word-card status-${progress.status}" type="button" data-action="open-word" data-id="${word.id}" data-lexeme-id="${word.id}" aria-label="${escapeHtml(`${word.vi}，${word.zhTW}，${statusLabel(progress.status)}`)}">
+        return `<button class="word-card status-${progress.status}" type="button" data-action="open-word" data-id="${word.id}" data-lexeme-id="${word.id}" aria-label="${escapeHtml(`${word[targetKey()]}，${word[sourceKey()]}，${statusLabel(progress.status)}`)}">
           <span class="word-rank">${String(word.rank).padStart(3, '0')}</span>
-          <strong>${escapeHtml(word.vi)}</strong>
-          <span>${escapeHtml(word.zhTW)}</span>
+          <strong>${escapeHtml(word[targetKey()])}</strong>
+          <span>${escapeHtml(word[sourceKey()])}</span>
           <small>${escapeHtml(word.pos)} · <span data-status-label>${statusLabel(progress.status)}</span></small>
         </button>`;
       }).join('') || '<div class="empty-state">找不到符合的單字。</div>'}
@@ -547,7 +623,7 @@ function openWord(wordId) {
   const progress = wordProgress(state, word.id);
   wordDialog.querySelector('[data-dialog-content]').innerHTML = `
     <div class="dialog-rank">Core ${String(word.rank).padStart(3, '0')}</div>
-    <div class="dialog-title-row"><div><h2>${renderVietnamese(word.vi)}</h2><p>${escapeHtml(word.zhTW)} · ${escapeHtml(word.pos)}</p></div>${audioButton('播放單字', word.audio, 'audio-button icon')}</div>
+    <div class="dialog-title-row"><div><h2>${renderField(word, targetKey())}</h2><p>${renderField(word, sourceKey())} · ${escapeHtml(word.pos)}</p></div>${audioButton(`播放${languageName(targetKey())}`, wordTargetAudio(word), 'audio-button icon')}</div>
     <div class="status-actions">
       ${[
         [STATUS.LEARNING, '學習中'],
@@ -558,17 +634,29 @@ function openWord(wordId) {
     </div>
     <section class="example-list">
       <p class="eyebrow">三個自然例句</p>
-      ${word.examples.map((example, index) => `<article><div><b>${renderVietnamese(example.vi)}</b><span>${escapeHtml(example.zhTW)}</span></div>${audioButton(`例句 ${index + 1}`, example.audio, 'audio-button icon')}</article>`).join('')}
+      ${word.examples.map((example, index) => `<article><div><b>${renderField(example, targetKey())}</b><span>${renderField(example, sourceKey())}</span></div>${audioButton(`例句 ${index + 1}`, wordTargetAudio(example), 'audio-button icon')}</article>`).join('')}
     </section>`;
   if (!wordDialog.open) wordDialog.showModal();
 }
 
 function reviewQueue() {
   if (ui.reviewQueueIds === null) {
-    ui.reviewQueueIds = reviewRound(data.words, state).map((word) => word.id);
+    ui.reviewQueueIds = reviewRoundItems(data.words, data.lessons, state).map((item) => item.key);
   }
   return ui.reviewQueueIds
-    .map((id) => data.words.find((word) => word.id === id))
+    .map((key) => {
+      if (key.startsWith('word:')) {
+        const word = data.words.find((item) => item.id === key.slice(5));
+        return word ? { type: 'word', key, word } : null;
+      }
+      const [, lessonId, segmentId] = key.split(':');
+      const lesson = data.lessons.find((item) => item.id === lessonId);
+      const segment = lesson?.segments.find((item) => String(item.id) === segmentId);
+      return lesson && segment ? {
+        type: 'segment', key, lesson, segment,
+        progress: lessonSegmentProgress(state, lesson.id, segment.id),
+      } : null;
+    })
     .filter(Boolean);
 }
 
@@ -578,48 +666,55 @@ function reviewModeTabs() {
       ['recall', '翻譯回想'],
       ['listen', '聽音選句'],
       ['order', '句子排序'],
-    ].map(([mode, label]) => `<button type="button" class="${ui.reviewMode === mode ? 'active' : ''}" data-action="review-mode" data-mode="${mode}">${label}</button>`).join('')}
+    ].map(([mode, label]) => {
+      const disabled = isReverseDirection() && mode === 'listen';
+      return `<button type="button" class="${ui.reviewMode === mode ? 'active' : ''}" data-action="review-mode" data-mode="${mode}" ${disabled ? 'disabled title="繁中例句音檔尚未發布"' : ''}>${label}</button>`;
+    }).join('')}
   </div>`;
 }
 
 function listenChoices(word) {
   const offsets = [17, 43];
   const choices = [word, ...offsets.map((offset) => data.words[(word.rank - 1 + offset) % data.words.length])]
-    .map((item) => ({ id: item.id, text: item.examples[0].zhTW }));
+    .map((item) => ({ id: item.id, text: item.examples[0][sourceKey()] }));
   const shift = word.rank % choices.length;
   return [...choices.slice(shift), ...choices.slice(0, shift)];
 }
 
 function orderExercise(word) {
   const example = word.examples[0];
-  const tokens = example.vi.split(/\s+/).map((text, index) => ({ text, index }));
+  const tokens = exerciseTokens(example[targetKey()]).map((text, index) => ({ text, index }));
   const selected = new Set(ui.orderSelection);
   const remaining = [...tokens].reverse().filter((token) => !selected.has(token.index));
   return `<div class="order-exercise">
-    <p class="order-prompt">${escapeHtml(example.zhTW)}</p>
-    <div class="order-answer">${ui.orderSelection.map((index) => `<span>${escapeHtml(tokens[index].text)}</span>`).join('') || '<em>依序點選越南語詞塊</em>'}</div>
+    <p class="order-prompt">${escapeHtml(example[sourceKey()])}</p>
+    <div class="order-answer">${ui.orderSelection.map((index) => `<span>${escapeHtml(tokens[index].text)}</span>`).join('') || `<em>依序點選${languageName(targetKey())}詞塊</em>`}</div>
     <div class="order-tokens">${remaining.map((token) => `<button type="button" data-action="order-token" data-index="${token.index}">${escapeHtml(token.text)}</button>`).join('')}</div>
     <button class="text-button" type="button" data-action="reset-order">重新排列</button>
   </div>`;
 }
 
-function reviewPrompt(word) {
+function reviewPrompt(item) {
+  if (item.type === 'segment') {
+    return `<p class="eyebrow">弱點句回想</p><h2>${escapeHtml(item.segment[sourceKey()])}</h2><div class="answer-placeholder">先用${languageName(targetKey())}說一次，再翻面核對。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
+  }
+  const { word } = item;
   if (ui.reviewMode === 'listen') {
     return `<div class="listen-exercise">
       <h2 class="listen-symbol">♪</h2>
-      <p>播放例句後，選出正確中文。</p>
-      ${audioButton('播放越南語例句', word.examples[0].audio)}
+      <p>播放例句後，選出正確${languageName(sourceKey())}。</p>
+      ${audioButton(`播放${languageName(targetKey())}例句`, wordTargetAudio(word.examples[0]))}
       <div class="listen-choices">${listenChoices(word).map((choice) => `<button type="button" data-action="review-choice" data-correct="${choice.id === word.id}">${escapeHtml(choice.text)}</button>`).join('')}</div>
     </div>`;
   }
   if (ui.reviewMode === 'order') return orderExercise(word);
-  return `<h2>${escapeHtml(word.vi)}</h2>${audioButton('聽發音', word.audio)}<div class="answer-placeholder">在腦中說出中文意思，再翻面。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
+  return `<h2>${escapeHtml(word[targetKey()])}</h2>${audioButton('聽發音', wordTargetAudio(word))}<div class="answer-placeholder">在腦中說出${languageName(sourceKey())}意思，再翻面。</div><button class="button primary wide" type="button" data-action="reveal-review">顯示答案</button>`;
 }
 
 function renderReview() {
   const queue = reviewQueue();
-  const word = queue[0];
-  if (!word) {
+  const item = queue[0];
+  if (!item) {
     app.innerHTML = `
       ${routeTitle('本輪完成', '主動回憶')}
       <section class="review-complete reveal">
@@ -630,7 +725,9 @@ function renderReview() {
       </section>`;
     return;
   }
-  const progress = wordProgress(state, word.id);
+  const progress = item.type === 'word'
+    ? wordProgress(state, item.word.id)
+    : item.progress;
   app.innerHTML = `
     ${routeTitle('主動回憶', '先想，再看答案')}
     ${reviewModeTabs()}
@@ -638,20 +735,34 @@ function renderReview() {
       <aside class="review-queue">
         <p class="eyebrow">本輪尚餘</p>
         <strong>${queue.length}</strong><span>張卡片</span>
-        <p>每輪最多 10 張：先排到期詞，再補學習中／已會；若尚未有排程詞，帶入 5 個新詞。</p>
+        <p>每輪最多 10 張：先排到期弱點句與單字，再補學習中／已會；若尚未有排程內容，帶入 5 個新詞。</p>
         <p>答錯會在 12 小時後回來；答對後間隔逐步拉長。</p>
       </aside>
       <article class="review-card">
-        <span class="review-status">${statusLabel(progress.status)} · Box ${progress.box}</span>
-        ${ui.reviewRevealed ? `<h2>${renderVietnamese(word.vi)}</h2><div class="review-answer"><strong>${escapeHtml(word.zhTW)}</strong><p>${renderVietnamese(word.examples[0].vi)}</p><span>${escapeHtml(word.examples[0].zhTW)}</span></div>` : reviewPrompt(word)}
+        <span class="review-status">${item.type === 'word' ? statusLabel(progress.status) : '弱點句'} · Box ${item.type === 'word' ? progress.box : progress.reviewBox}</span>
         ${ui.reviewRevealed
-          ? `<div class="review-actions"><button type="button" data-action="review-rate" data-rating="again">再來一次</button><button type="button" data-action="review-rate" data-rating="good">答對了</button><button type="button" data-action="review-rate" data-rating="known">直接已會</button><button type="button" data-action="review-rate" data-rating="ignored">略過</button></div>`
+          ? (item.type === 'word'
+            ? `<h2>${renderField(item.word, targetKey())}</h2><div class="review-answer"><strong>${renderField(item.word, sourceKey())}</strong><p>${renderField(item.word.examples[0], targetKey())}</p><span>${renderField(item.word.examples[0], sourceKey())}</span></div>`
+            : `<h2>${renderField(item.segment, targetKey())}</h2><div class="review-answer"><strong>${renderField(item.segment, sourceKey())}</strong><p>${item.segment.breakdown.map((part) => `${escapeHtml(part.role)}：${renderField(part, targetKey())}`).join(' · ')}</p></div>`)
+          : reviewPrompt(item)}
+        ${ui.reviewRevealed
+          ? `<div class="review-actions"><button type="button" data-action="review-rate" data-rating="again">再來一次</button><button type="button" data-action="review-rate" data-rating="good">答對了</button>${item.type === 'word' ? '<button type="button" data-action="review-rate" data-rating="known">直接已會</button><button type="button" data-action="review-rate" data-rating="ignored">略過</button>' : ''}</div>`
           : ''}
       </article>
     </section>`;
 }
 
 function renderPatterns() {
+  if (isReverseDirection()) {
+    app.innerHTML = `
+      ${routeTitle('繁中句型準備中', '不以越南語規則冒充中文教材')}
+      <section class="review-complete reveal">
+        <span aria-hidden="true">中</span>
+        <h2>雙向進度已可使用</h2>
+        <p>情境課與單字複習已能交換方向；繁中句型需要獨立校驗內容與台灣華語音檔，完成前不顯示錯誤教材。</p>
+      </section>`;
+    return;
+  }
   app.innerHTML = `
     ${routeTitle('核心句型', '8 組已校驗語法')}
     <section class="pattern-list reveal">
@@ -719,22 +830,26 @@ app.addEventListener('click', (event) => {
   if (action === 'feynman-rate') {
     const { lesson, segment } = activeLessonSegment();
     const clear = button.dataset.result === 'clear';
+    const note = document.querySelector('[data-feynman-note]')?.value.trim() || '';
+    if (clear && !note) {
+      notify('先寫一句自己的解釋，再確認理解');
+      return;
+    }
+    if (!clear) recordLessonSegmentRecall(state, lesson.id, segment.id, false);
     updateLessonSegment(state, lesson.id, segment.id, {
       feynman: button.dataset.result,
+      feynmanNote: note,
       feynmanAt: Date.now(),
       ...(!clear ? { recalledAt: 0 } : {}),
     });
     persist();
     renderLesson({ id: lesson.id });
+    notify(clear ? '已保存你的解釋' : '已記下這句理解弱點');
   }
   if (action === 'recall-segment') {
     const { lesson, segment } = activeLessonSegment();
-    const progress = lessonSegmentProgress(state, lesson.id, segment.id);
     const clear = button.dataset.result === 'clear';
-    updateLessonSegment(state, lesson.id, segment.id, {
-      recalledAt: clear ? Date.now() : 0,
-      recallMisses: progress.recallMisses + (clear ? 0 : 1),
-    });
+    recordLessonSegmentRecall(state, lesson.id, segment.id, clear);
     persist();
     renderLesson({ id: lesson.id });
     notify(clear ? '這句已完成回想' : '已記下這個弱點，稍後會再遇到');
@@ -785,18 +900,19 @@ app.addEventListener('click', (event) => {
       ui.reviewRevealed = true;
       renderReview();
     } else {
-      recordAttempt(state, reviewQueue()[0].id, 'miss');
+      recordAttempt(state, reviewQueue()[0].word.id, 'miss');
       persist();
       notify('還不是這句，再聽一次。');
     }
   }
   if (action === 'order-token') {
-    const word = reviewQueue()[0];
-    const tokens = word.examples[0].vi.split(/\s+/);
+    const word = reviewQueue()[0].word;
+    const tokens = exerciseTokens(word.examples[0][targetKey()]);
     ui.orderSelection.push(Number(button.dataset.index));
     if (ui.orderSelection.length === tokens.length) {
-      const answerText = ui.orderSelection.map((index) => tokens[index]).join(' ');
-      if (answerText === word.examples[0].vi) ui.reviewRevealed = true;
+      const separator = targetKey() === 'vi' ? ' ' : '';
+      const answerText = ui.orderSelection.map((index) => tokens[index]).join(separator);
+      if (answerText === tokens.join(separator)) ui.reviewRevealed = true;
       else {
         recordAttempt(state, word.id, 'miss');
         persist();
@@ -811,8 +927,9 @@ app.addEventListener('click', (event) => {
     renderReview();
   }
   if (action === 'review-rate') {
-    const word = reviewQueue()[0];
-    reviewWord(state, word.id, button.dataset.rating);
+    const item = reviewQueue()[0];
+    if (item.type === 'segment') reviewLessonSegment(state, item.lesson.id, item.segment.id, button.dataset.rating);
+    else reviewWord(state, item.word.id, button.dataset.rating);
     ui.reviewQueueIds.shift();
     ui.reviewRevealed = false;
     ui.orderSelection = [];
@@ -918,7 +1035,7 @@ lexemePopover.addEventListener('click', (event) => {
   if (!button) return;
   const entry = lexicon.byId.get(activeLexemeId);
   if (button.dataset.lexemeAction === 'close') closeLexemePopover();
-  if (button.dataset.lexemeAction === 'play' && entry?.audio) {
+  if (button.dataset.lexemeAction === 'play' && entry?.audio && !isReverseDirection()) {
     audio.play(entry.audio).then((ok) => { if (!ok) notify('音檔無法讀取，請確認本地服務仍在執行'); });
   }
   if (button.dataset.lexemeAction === 'status' && entry) {
@@ -935,6 +1052,19 @@ window.addEventListener('resize', positionLexemePopover);
 document.getElementById('playback-rate').addEventListener('change', (event) => {
   state.settings.playbackRate = Number(event.target.value);
   persist();
+});
+
+document.getElementById('learning-direction').addEventListener('change', (event) => {
+  if (!state) return;
+  setLearningDirection(state, event.target.value);
+  ui.reviewQueueIds = null;
+  ui.reviewRevealed = false;
+  ui.reviewMode = 'recall';
+  ui.orderSelection = [];
+  if (wordDialog.open) wordDialog.close();
+  persist();
+  render();
+  notify(isReverseDirection() ? '已切換為越南人學繁中' : '已切換為台灣人學越南語');
 });
 
 window.addEventListener('hashchange', render);
@@ -966,7 +1096,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=23', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=26', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

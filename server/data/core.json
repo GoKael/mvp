@@ -1,6 +1,7 @@
 [
   {
     "id": "vi:001-la",
+    "conceptId": "concept:001",
     "vi": "là",
     "zhTW": "是",
     "pos": "動詞",
@@ -28,6 +29,7 @@
   },
   {
     "id": "vi:002-va",
+    "conceptId": "concept:002",
     "vi": "và",
     "zhTW": "和、以及",
     "pos": "連接詞",
@@ -55,6 +57,7 @@
   },
   {
     "id": "vi:003-cua",
+    "conceptId": "concept:003",
     "vi": "của",
     "zhTW": "的、屬於",
     "pos": "介系詞",
@@ -82,6 +85,7 @@
   },
   {
     "id": "vi:004-co",
+    "conceptId": "concept:004",
     "vi": "có",
     "zhTW": "有、擁有",
     "pos": "動詞",
@@ -109,6 +113,7 @@
   },
   {
     "id": "vi:005-khong",
+    "conceptId": "concept:005",
     "vi": "không",
     "zhTW": "不、沒有",
     "pos": "副詞",
@@ -136,6 +141,7 @@
   },
   {
     "id": "vi:006-trong",
+    "conceptId": "concept:006",
     "vi": "trong",
     "zhTW": "在…裡、之中",
     "pos": "介系詞",
@@ -163,6 +169,7 @@
   },
   {
     "id": "vi:007-mot",
+    "conceptId": "concept:007",
     "vi": "một",
     "zhTW": "一、一個",
     "pos": "數詞",
@@ -190,6 +197,7 @@
   },
   {
     "id": "vi:008-cac",
+    "conceptId": "concept:008",
     "vi": "các",
     "zhTW": "各、複數標記",
     "pos": "限定詞",
@@ -217,6 +225,7 @@
   },
   {
     "id": "vi:009-cho",
+    "conceptId": "concept:009",
     "vi": "cho",
     "zhTW": "給、為了、讓",
     "pos": "動詞",
@@ -244,6 +253,7 @@
   },
   {
     "id": "vi:010-duoc",
+    "conceptId": "concept:010",
     "vi": "được",
     "zhTW": "得到、可以",
     "pos": "動詞",
@@ -271,6 +281,7 @@
   },
   {
     "id": "vi:011-voi",
+    "conceptId": "concept:011",
     "vi": "với",
     "zhTW": "和、與",
     "pos": "介系詞",
@@ -298,6 +309,7 @@
   },
   {
     "id": "vi:012-nguoi",
+    "conceptId": "concept:012",
     "vi": "người",
     "zhTW": "人",
     "pos": "名詞",
@@ -325,6 +337,7 @@
   },
   {
     "id": "vi:013-o",
+    "conceptId": "concept:013",
     "vi": "ở",
     "zhTW": "在、居住",
     "pos": "動詞／介系詞",
@@ -352,6 +365,7 @@
   },
   {
     "id": "vi:014-da",
+    "conceptId": "concept:014",
     "vi": "đã",
     "zhTW": "已經（過去／完成標記）",
     "pos": "副詞",
@@ -379,6 +393,7 @@
   },
   {
     "id": "vi:015-nhung",
+    "conceptId": "concept:015",
     "vi": "nhưng",
     "zhTW": "但是",
     "pos": "連接詞",
@@ -406,6 +421,7 @@
   },
   {
     "id": "vi:016-phai",
+    "conceptId": "concept:016",
     "vi": "phải",
     "zhTW": "必須、對",
     "pos": "動詞",
@@ -433,6 +449,7 @@
   },
   {
     "id": "vi:017-lam",
+    "conceptId": "concept:017",
     "vi": "làm",
     "zhTW": "做、工作",
     "pos": "動詞",
@@ -460,6 +477,7 @@
   },
   {
     "id": "vi:018-den",
+    "conceptId": "concept:018",
     "vi": "đến",
     "zhTW": "到、抵達",
     "pos": "動詞",
@@ -487,6 +505,7 @@
   },
   {
     "id": "vi:019-ve",
+    "conceptId": "concept:019",
     "vi": "về",
     "zhTW": "回、關於",
     "pos": "動詞／介系詞",
@@ -514,6 +533,7 @@
   },
   {
     "id": "vi:020-khi",
+    "conceptId": "concept:020",
     "vi": "khi",
     "zhTW": "當…時",
     "pos": "連接詞",
@@ -541,6 +561,7 @@
   },
   {
     "id": "vi:021-thi",
+    "conceptId": "concept:021",
     "vi": "thì",
     "zhTW": "就、則",
     "pos": "連接詞",
@@ -568,6 +589,7 @@
   },
   {
     "id": "vi:022-ra",
+    "conceptId": "concept:022",
     "vi": "ra",
     "zhTW": "出、出來",
     "pos": "動詞／副詞",
@@ -595,6 +617,7 @@
   },
   {
     "id": "vi:023-vao",
+    "conceptId": "concept:023",
     "vi": "vào",
     "zhTW": "進、進入",
     "pos": "動詞／介系詞",
@@ -622,6 +645,7 @@
   },
   {
     "id": "vi:024-len",
+    "conceptId": "concept:024",
     "vi": "lên",
     "zhTW": "上、上去",
     "pos": "動詞／副詞",
@@ -649,6 +673,7 @@
   },
   {
     "id": "vi:025-di",
+    "conceptId": "concept:025",
     "vi": "đi",
     "zhTW": "去、走",
     "pos": "動詞",
@@ -676,6 +701,7 @@
   },
   {
     "id": "vi:026-biet",
+    "conceptId": "concept:026",
     "vi": "biết",
     "zhTW": "知道、會",
     "pos": "動詞",
@@ -703,6 +729,7 @@
   },
   {
     "id": "vi:027-muon",
+    "conceptId": "concept:027",
     "vi": "muốn",
     "zhTW": "想要",
     "pos": "動詞",
@@ -730,6 +757,7 @@
   },
   {
     "id": "vi:028-thay",
+    "conceptId": "concept:028",
     "vi": "thấy",
     "zhTW": "看見、感覺",
     "pos": "動詞",
@@ -757,6 +785,7 @@
   },
   {
     "id": "vi:029-noi",
+    "conceptId": "concept:029",
     "vi": "nói",
     "zhTW": "說",
     "pos": "動詞",
@@ -784,6 +813,7 @@
   },
   {
     "id": "vi:030-cai",
+    "conceptId": "concept:030",
     "vi": "cái",
     "zhTW": "個（物品量詞）",
     "pos": "量詞",
@@ -811,6 +841,7 @@
   },
   {
     "id": "vi:031-nay",
+    "conceptId": "concept:031",
     "vi": "này",
     "zhTW": "這、這個",
     "pos": "限定詞",
@@ -838,6 +869,7 @@
   },
   {
     "id": "vi:032-do",
+    "conceptId": "concept:032",
     "vi": "đó",
     "zhTW": "那、那個",
     "pos": "限定詞",
@@ -865,6 +897,7 @@
   },
   {
     "id": "vi:033-nao",
+    "conceptId": "concept:033",
     "vi": "nào",
     "zhTW": "哪、哪個",
     "pos": "限定詞",
@@ -892,6 +925,7 @@
   },
   {
     "id": "vi:034-dau",
+    "conceptId": "concept:034",
     "vi": "đâu",
     "zhTW": "哪裡",
     "pos": "代名詞",
@@ -919,6 +953,7 @@
   },
   {
     "id": "vi:035-ai",
+    "conceptId": "concept:035",
     "vi": "ai",
     "zhTW": "誰",
     "pos": "代名詞",
@@ -946,6 +981,7 @@
   },
   {
     "id": "vi:036-gi",
+    "conceptId": "concept:036",
     "vi": "gì",
     "zhTW": "什麼",
     "pos": "代名詞",
@@ -973,6 +1009,7 @@
   },
   {
     "id": "vi:037-moi",
+    "conceptId": "concept:037",
     "vi": "mỗi",
     "zhTW": "每、每個",
     "pos": "限定詞",
@@ -1000,6 +1037,7 @@
   },
   {
     "id": "vi:038-moi",
+    "conceptId": "concept:038",
     "vi": "mới",
     "zhTW": "新、剛、才",
     "pos": "形容詞／副詞",
@@ -1027,6 +1065,7 @@
   },
   {
     "id": "vi:039-nha",
+    "conceptId": "concept:039",
     "vi": "nhà",
     "zhTW": "家、房子",
     "pos": "名詞",
@@ -1054,6 +1093,7 @@
   },
   {
     "id": "vi:040-doi",
+    "conceptId": "concept:040",
     "vi": "đời",
     "zhTW": "人生、世代",
     "pos": "名詞",
@@ -1081,6 +1121,7 @@
   },
   {
     "id": "vi:041-ong",
+    "conceptId": "concept:041",
     "vi": "ông",
     "zhTW": "爺爺、先生",
     "pos": "名詞",
@@ -1108,6 +1149,7 @@
   },
   {
     "id": "vi:042-ba",
+    "conceptId": "concept:042",
     "vi": "bà",
     "zhTW": "奶奶／外婆、女士",
     "pos": "名詞",
@@ -1135,6 +1177,7 @@
   },
   {
     "id": "vi:043-anh",
+    "conceptId": "concept:043",
     "vi": "anh",
     "zhTW": "哥哥、你（年長男性）",
     "pos": "名詞",
@@ -1162,6 +1205,7 @@
   },
   {
     "id": "vi:044-chi",
+    "conceptId": "concept:044",
     "vi": "chị",
     "zhTW": "姊姊、你（年長女性）",
     "pos": "名詞",
@@ -1189,6 +1233,7 @@
   },
   {
     "id": "vi:045-em",
+    "conceptId": "concept:045",
     "vi": "em",
     "zhTW": "弟妹、你（年幼者）",
     "pos": "名詞",
@@ -1216,6 +1261,7 @@
   },
   {
     "id": "vi:046-con",
+    "conceptId": "concept:046",
     "vi": "con",
     "zhTW": "孩子、動物量詞",
     "pos": "名詞",
@@ -1243,6 +1289,7 @@
   },
   {
     "id": "vi:047-ngay",
+    "conceptId": "concept:047",
     "vi": "ngày",
     "zhTW": "天、日",
     "pos": "名詞",
@@ -1270,6 +1317,7 @@
   },
   {
     "id": "vi:048-nam",
+    "conceptId": "concept:048",
     "vi": "năm",
     "zhTW": "年",
     "pos": "名詞",
@@ -1297,6 +1345,7 @@
   },
   {
     "id": "vi:049-thang",
+    "conceptId": "concept:049",
     "vi": "tháng",
     "zhTW": "月",
     "pos": "名詞",
@@ -1324,6 +1373,7 @@
   },
   {
     "id": "vi:050-gio",
+    "conceptId": "concept:050",
     "vi": "giờ",
     "zhTW": "小時、現在",
     "pos": "名詞",
@@ -1351,6 +1401,7 @@
   },
   {
     "id": "vi:051-dau",
+    "conceptId": "concept:051",
     "vi": "đầu",
     "zhTW": "頭、開頭",
     "pos": "名詞",
@@ -1378,6 +1429,7 @@
   },
   {
     "id": "vi:052-toc",
+    "conceptId": "concept:052",
     "vi": "tóc",
     "zhTW": "頭髮",
     "pos": "名詞",
@@ -1405,6 +1457,7 @@
   },
   {
     "id": "vi:053-mat",
+    "conceptId": "concept:053",
     "vi": "mặt",
     "zhTW": "臉、表面",
     "pos": "名詞",
@@ -1432,6 +1485,7 @@
   },
   {
     "id": "vi:054-mat",
+    "conceptId": "concept:054",
     "vi": "mắt",
     "zhTW": "眼睛",
     "pos": "名詞",
@@ -1459,6 +1513,7 @@
   },
   {
     "id": "vi:055-tai",
+    "conceptId": "concept:055",
     "vi": "tai",
     "zhTW": "耳朵",
     "pos": "名詞",
@@ -1486,6 +1541,7 @@
   },
   {
     "id": "vi:056-mui",
+    "conceptId": "concept:056",
     "vi": "mũi",
     "zhTW": "鼻子",
     "pos": "名詞",
@@ -1513,6 +1569,7 @@
   },
   {
     "id": "vi:057-mieng",
+    "conceptId": "concept:057",
     "vi": "miệng",
     "zhTW": "嘴巴",
     "pos": "名詞",
@@ -1540,6 +1597,7 @@
   },
   {
     "id": "vi:058-rang",
+    "conceptId": "concept:058",
     "vi": "răng",
     "zhTW": "牙齒",
     "pos": "名詞",
@@ -1567,6 +1625,7 @@
   },
   {
     "id": "vi:059-tay",
+    "conceptId": "concept:059",
     "vi": "tay",
     "zhTW": "手、手臂",
     "pos": "名詞",
@@ -1594,6 +1653,7 @@
   },
   {
     "id": "vi:060-chan",
+    "conceptId": "concept:060",
     "vi": "chân",
     "zhTW": "腳、腿",
     "pos": "名詞",
@@ -1621,6 +1681,7 @@
   },
   {
     "id": "vi:061-lung",
+    "conceptId": "concept:061",
     "vi": "lưng",
     "zhTW": "背部",
     "pos": "名詞",
@@ -1648,6 +1709,7 @@
   },
   {
     "id": "vi:062-bung",
+    "conceptId": "concept:062",
     "vi": "bụng",
     "zhTW": "肚子",
     "pos": "名詞",
@@ -1675,6 +1737,7 @@
   },
   {
     "id": "vi:063-thuoc",
+    "conceptId": "concept:063",
     "vi": "thuốc",
     "zhTW": "藥",
     "pos": "名詞",
@@ -1702,6 +1765,7 @@
   },
   {
     "id": "vi:064-kham",
+    "conceptId": "concept:064",
     "vi": "khám",
     "zhTW": "檢查、看診",
     "pos": "動詞",
@@ -1729,6 +1793,7 @@
   },
   {
     "id": "vi:065-benh",
+    "conceptId": "concept:065",
     "vi": "bệnh",
     "zhTW": "疾病",
     "pos": "名詞",
@@ -1756,6 +1821,7 @@
   },
   {
     "id": "vi:066-dau",
+    "conceptId": "concept:066",
     "vi": "đau",
     "zhTW": "痛、疼",
     "pos": "名詞／形容詞",
@@ -1783,6 +1849,7 @@
   },
   {
     "id": "vi:067-met",
+    "conceptId": "concept:067",
     "vi": "mệt",
     "zhTW": "累、疲倦",
     "pos": "形容詞",
@@ -1810,6 +1877,7 @@
   },
   {
     "id": "vi:068-cho",
+    "conceptId": "concept:068",
     "vi": "chợ",
     "zhTW": "市場、菜市場",
     "pos": "名詞",
@@ -1837,6 +1905,7 @@
   },
   {
     "id": "vi:069-truong",
+    "conceptId": "concept:069",
     "vi": "trường",
     "zhTW": "學校",
     "pos": "名詞",
@@ -1864,6 +1933,7 @@
   },
   {
     "id": "vi:070-bien",
+    "conceptId": "concept:070",
     "vi": "biển",
     "zhTW": "海、海邊",
     "pos": "名詞",
@@ -1891,6 +1961,7 @@
   },
   {
     "id": "vi:071-nui",
+    "conceptId": "concept:071",
     "vi": "núi",
     "zhTW": "山",
     "pos": "名詞",
@@ -1918,6 +1989,7 @@
   },
   {
     "id": "vi:072-phong",
+    "conceptId": "concept:072",
     "vi": "phòng",
     "zhTW": "房間",
     "pos": "名詞",
@@ -1945,6 +2017,7 @@
   },
   {
     "id": "vi:073-bep",
+    "conceptId": "concept:073",
     "vi": "bếp",
     "zhTW": "廚房、爐灶",
     "pos": "名詞",
@@ -1972,6 +2045,7 @@
   },
   {
     "id": "vi:074-an",
+    "conceptId": "concept:074",
     "vi": "ăn",
     "zhTW": "吃",
     "pos": "動詞",
@@ -1999,6 +2073,7 @@
   },
   {
     "id": "vi:075-uong",
+    "conceptId": "concept:075",
     "vi": "uống",
     "zhTW": "喝",
     "pos": "動詞",
@@ -2026,6 +2101,7 @@
   },
   {
     "id": "vi:076-ngu",
+    "conceptId": "concept:076",
     "vi": "ngủ",
     "zhTW": "睡覺",
     "pos": "動詞",
@@ -2053,6 +2129,7 @@
   },
   {
     "id": "vi:077-chay",
+    "conceptId": "concept:077",
     "vi": "chạy",
     "zhTW": "跑",
     "pos": "動詞",
@@ -2080,6 +2157,7 @@
   },
   {
     "id": "vi:078-hoc",
+    "conceptId": "concept:078",
     "vi": "học",
     "zhTW": "學習",
     "pos": "動詞",
@@ -2107,6 +2185,7 @@
   },
   {
     "id": "vi:079-choi",
+    "conceptId": "concept:079",
     "vi": "chơi",
     "zhTW": "玩",
     "pos": "動詞",
@@ -2134,6 +2213,7 @@
   },
   {
     "id": "vi:080-cuoi",
+    "conceptId": "concept:080",
     "vi": "cười",
     "zhTW": "笑",
     "pos": "動詞",
@@ -2161,6 +2241,7 @@
   },
   {
     "id": "vi:081-khoc",
+    "conceptId": "concept:081",
     "vi": "khóc",
     "zhTW": "哭",
     "pos": "動詞",
@@ -2188,6 +2269,7 @@
   },
   {
     "id": "vi:082-dep",
+    "conceptId": "concept:082",
     "vi": "đẹp",
     "zhTW": "漂亮",
     "pos": "形容詞",
@@ -2215,6 +2297,7 @@
   },
   {
     "id": "vi:083-xau",
+    "conceptId": "concept:083",
     "vi": "xấu",
     "zhTW": "醜、壞",
     "pos": "形容詞",
@@ -2242,6 +2325,7 @@
   },
   {
     "id": "vi:084-tot",
+    "conceptId": "concept:084",
     "vi": "tốt",
     "zhTW": "好",
     "pos": "形容詞",
@@ -2269,6 +2353,7 @@
   },
   {
     "id": "vi:085-to",
+    "conceptId": "concept:085",
     "vi": "to",
     "zhTW": "大",
     "pos": "形容詞",
@@ -2296,6 +2381,7 @@
   },
   {
     "id": "vi:086-nho",
+    "conceptId": "concept:086",
     "vi": "nhỏ",
     "zhTW": "小",
     "pos": "形容詞",
@@ -2323,6 +2409,7 @@
   },
   {
     "id": "vi:087-dai",
+    "conceptId": "concept:087",
     "vi": "dài",
     "zhTW": "長",
     "pos": "形容詞",
@@ -2350,6 +2437,7 @@
   },
   {
     "id": "vi:088-ngan",
+    "conceptId": "concept:088",
     "vi": "ngắn",
     "zhTW": "短",
     "pos": "形容詞",
@@ -2377,6 +2465,7 @@
   },
   {
     "id": "vi:089-cao",
+    "conceptId": "concept:089",
     "vi": "cao",
     "zhTW": "高",
     "pos": "形容詞",
@@ -2404,6 +2493,7 @@
   },
   {
     "id": "vi:090-thap",
+    "conceptId": "concept:090",
     "vi": "thấp",
     "zhTW": "低",
     "pos": "形容詞",
@@ -2431,6 +2521,7 @@
   },
   {
     "id": "vi:091-ban",
+    "conceptId": "concept:091",
     "vi": "bàn",
     "zhTW": "桌子",
     "pos": "名詞",
@@ -2458,6 +2549,7 @@
   },
   {
     "id": "vi:092-ghe",
+    "conceptId": "concept:092",
     "vi": "ghế",
     "zhTW": "椅子",
     "pos": "名詞",
@@ -2485,6 +2577,7 @@
   },
   {
     "id": "vi:093-tu",
+    "conceptId": "concept:093",
     "vi": "tủ",
     "zhTW": "櫃子",
     "pos": "名詞",
@@ -2512,6 +2605,7 @@
   },
   {
     "id": "vi:094-giuong",
+    "conceptId": "concept:094",
     "vi": "giường",
     "zhTW": "床",
     "pos": "名詞",
@@ -2539,6 +2633,7 @@
   },
   {
     "id": "vi:095-dao",
+    "conceptId": "concept:095",
     "vi": "dao",
     "zhTW": "刀",
     "pos": "名詞",
@@ -2566,6 +2661,7 @@
   },
   {
     "id": "vi:096-keo",
+    "conceptId": "concept:096",
     "vi": "kéo",
     "zhTW": "剪刀",
     "pos": "名詞",
@@ -2593,6 +2689,7 @@
   },
   {
     "id": "vi:097-but",
+    "conceptId": "concept:097",
     "vi": "bút",
     "zhTW": "筆",
     "pos": "名詞",
@@ -2620,6 +2717,7 @@
   },
   {
     "id": "vi:098-vo",
+    "conceptId": "concept:098",
     "vi": "vở",
     "zhTW": "筆記本、作業本",
     "pos": "名詞",
@@ -2647,6 +2745,7 @@
   },
   {
     "id": "vi:099-giay",
+    "conceptId": "concept:099",
     "vi": "giấy",
     "zhTW": "紙",
     "pos": "名詞",
@@ -2674,6 +2773,7 @@
   },
   {
     "id": "vi:100-may",
+    "conceptId": "concept:100",
     "vi": "máy",
     "zhTW": "機器、設備",
     "pos": "名詞",

@@ -2,6 +2,7 @@
   "name": "lexa",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-data.js && node scripts/validate-data.js --strict-audio && node scripts/build-static.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",
     "test": "npm --prefix server run test"

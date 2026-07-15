@@ -2,6 +2,8 @@
 
 Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 100、主動回憶與本地間隔複習。
 
+頁首可切換 `台灣人學越南語 / Người Việt học Hoa ngữ`。兩個方向共用概念資料但保存獨立進度；反向模式目前可使用雙語情境課、單字顯示與複習，缺少的繁中單字音檔與中文句型會明確停用，補齊內容前不視為正式發行。
+
 ## 本地啟動
 
 ```bash
@@ -114,6 +116,14 @@ npm run preview
 ```
 
 10 支 composition 全部由 `server/data/lessons.json` 生成；不要手動修改 `food-*/index.html`。
+
+## 靜態發布
+
+```bash
+npm run build
+```
+
+部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置只發布正式 Core 100、10 課、8 句型與 manifest 內 500 個音檔；候選 Core 101–300 不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
 
 ## Browser Extension
 

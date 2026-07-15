@@ -24,9 +24,11 @@ const strictLessons = process.argv.includes('--strict-lessons');
 
 assert.ok(words.length >= 100 && words.length <= 300 && words.length % 50 === 0, 'Published Core must contain 100–300 words in 50-word batches');
 assert.strictEqual(new Set(words.map((word) => word.id)).size, words.length, 'Word ids must be unique');
+assert.strictEqual(new Set(words.map((word) => word.conceptId)).size, words.length, 'Concept ids must be unique');
 assert.deepStrictEqual(words.map((word) => word.rank), Array.from({ length: words.length }, (_, index) => index + 1));
 words.forEach((word) => {
   assert.ok(word.id.startsWith('vi:'), `Invalid word id: ${word.id}`);
+  assert.ok(/^concept:\d{3}$/.test(word.conceptId), `Invalid concept id: ${word.id}`);
   assert.ok(word.vi && word.zhTW && word.pos, `Missing required word fields: ${word.id}`);
   assert.strictEqual(word.quality, 'verified', `Word is not verified: ${word.id}`);
   assert.ok(!/meaning pending|vietnamese core word|\bword\b/i.test(word.zhTW), `Placeholder found: ${word.id}`);
