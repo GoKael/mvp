@@ -54,7 +54,7 @@
     "pos": "名詞／量詞",
     "examples": [
       { "vi": "Món này có cay không?", "zhTW": "這道菜會辣嗎？" },
-      { "vi": "Cho tôi gọi thêm một món.", "zhTW": "請讓我再點一道菜。" },
+      { "vi": "Cho tôi gọi thêm một món nữa.", "zhTW": "我要再點一道菜。" },
       { "vi": "Bạn thích món Việt Nam nào nhất?", "zhTW": "你最喜歡哪一道越南菜？" }
     ],
     "quality": "reviewed"
@@ -326,7 +326,7 @@
   {
     "rank": 228,
     "vi": "dùng",
-    "zhTW": "使用；吃用",
+    "zhTW": "使用；用餐／享用",
     "pos": "動詞",
     "examples": [
       { "vi": "Tôi có thể dùng thẻ ở đây không?", "zhTW": "我可以在這裡刷卡嗎？" },

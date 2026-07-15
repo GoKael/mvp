@@ -19,7 +19,7 @@
     "examples": [
       { "vi": "Bạn tên là gì?", "zhTW": "你叫什麼名字？" },
       { "vi": "Bạn có khỏe không?", "zhTW": "你好嗎？" },
-      { "vi": "Tôi đi cùng bạn.", "zhTW": "我和你一起去。" }
+      { "vi": "Lan là bạn của tôi.", "zhTW": "蘭是我的朋友。" }
     ],
     "quality": "reviewed"
   },
@@ -183,7 +183,7 @@
     "rank": 116,
     "vi": "xin",
     "zhTW": "請；請求",
-    "pos": "動詞",
+    "pos": "動詞／禮貌用語",
     "examples": [
       { "vi": "Xin chào.", "zhTW": "你好。" },
       { "vi": "Xin cho tôi xem thực đơn.", "zhTW": "請讓我看一下菜單。" },

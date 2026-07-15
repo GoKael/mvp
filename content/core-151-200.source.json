@@ -62,7 +62,7 @@
   {
     "rank": 156,
     "vi": "ga",
-    "zhTW": "車站；火車站",
+    "zhTW": "火車站；軌道車站",
     "pos": "名詞",
     "examples": [
       { "vi": "Ga tàu ở gần đây không?", "zhTW": "火車站在這附近嗎？" },
@@ -74,7 +74,7 @@
   {
     "rank": 157,
     "vi": "bến xe",
-    "zhTW": "客運站；公車站",
+    "zhTW": "汽車客運站；巴士總站",
     "pos": "名詞",
     "examples": [
       { "vi": "Bến xe ở phía bên phải.", "zhTW": "客運站在右手邊。" },

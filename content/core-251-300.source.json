@@ -463,7 +463,7 @@
     "examples": [
       { "vi": "Món này có cay không?", "zhTW": "這道菜會辣嗎？" },
       { "vi": "Tôi không ăn được đồ quá cay.", "zhTW": "我不能吃太辣的食物。" },
-      { "vi": "Xin làm ít cay cho tôi.", "zhTW": "請幫我做小辣。" }
+      { "vi": "Xin làm món này ít cay thôi.", "zhTW": "這道菜請做小辣。" }
     ],
     "quality": "reviewed"
   },
@@ -475,7 +475,7 @@
     "examples": [
       { "vi": "Cà phê này hơi ngọt.", "zhTW": "這杯咖啡有點甜。" },
       { "vi": "Tôi thích xoài chín vì rất ngọt.", "zhTW": "我喜歡熟芒果，因為很甜。" },
-      { "vi": "Xin làm ít ngọt thôi.", "zhTW": "請做少甜就好。" }
+      { "vi": "Xin pha đồ uống này ít ngọt thôi.", "zhTW": "這杯飲料請少甜一點。" }
     ],
     "quality": "reviewed"
   },
