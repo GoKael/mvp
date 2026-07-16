@@ -1,6 +1,6 @@
 # Lexa
 
-Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 100、主動回憶與本地間隔複習。
+Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 300 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 200 詞以「校對中」只讀顯示。
 
 頁首可切換 `台灣人學越南語 / Người Việt học Hoa ngữ`。兩個方向共用概念資料但保存獨立進度；反向模式目前可使用雙語情境課、單字顯示與複習，缺少的繁中單字音檔與中文句型會明確停用，補齊內容前不視為正式發行。
 
@@ -31,11 +31,11 @@ node scripts/validate-data.js --strict-audio
 node scripts/test-core.mjs
 ```
 
-正式資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會進入正式 UI。
+正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是 300 詞查閱索引，只有 `verified` 詞能進入播放、狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會進入正式 UI。
 
 `rank` 是穩定的 Lexa 內容目錄位置，不是要求使用者依序背誦的解鎖順序。實際課程依口語頻率、情境必要性與個人弱點選詞。
 
-Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查，但在人工抽聽通過前都不會進入正式 UI。
+Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查。人工抽聽前只會進入只讀詞典，不會開放播放、學習狀態或複習。
 
 建立任一批次的可發布 JSON 與 200 個音檔任務：
 
@@ -57,7 +57,7 @@ npm --prefix server run check:core-audio
 ```
 
 50 個孤立單字全部人工抽聽、例句抽查通過後，才可把該批次從 `reviewed` 升為 `verified` 並合併進正式詞庫。發布時仍會對完整 200 個音檔執行機器音質驗證；任何被標記需重生的例句也會阻止發布。
-目前正式 UI 仍只載入 Core 100；完成來源檔不等於發音品質已通過。
+目前正式學習流程仍只載入 Core 100；完成來源檔或出現在只讀詞典，不等於發音品質已通過。
 
 本地服務啟動後，開啟 `http://127.0.0.1:4174/audio-qa.html?range=101-150`，逐一播放 50 個單字並標記「通過／需重生」，三個例句保留在同卡供抽查。第一次按空白鍵播放；之後按 `1 / 2` 標記時會自動播放下一個未檢查單字。結果只保存在本機，可從頁面匯出供精確重生。
 
@@ -123,7 +123,7 @@ npm run preview
 npm run build
 ```
 
-部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置只發布正式 Core 100、10 課、8 句型與 manifest 內 500 個音檔；候選 Core 101–300 不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
+部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 300 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；候選的 800 個音檔、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
 
 ## Browser Extension
 

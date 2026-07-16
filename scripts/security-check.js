@@ -39,4 +39,9 @@ const extensionManifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'manifest.j
 assert.ok(!extensionManifest.permissions.includes('tts'), 'Extension must not request TTS permission');
 assert.ok(!/localhost|127\.0\.0\.1/.test(fs.readFileSync(path.join(ROOT, 'background.js'), 'utf8')), 'Extension must not call localhost');
 
+const pagesWorkflow = fs.readFileSync(path.join(ROOT, '.github/workflows/pages.yml'), 'utf8');
+assert.ok(/run:\s+npm run build/.test(pagesWorkflow), 'GitHub Pages must run the verified static build');
+assert.ok(/path:\s+dist/.test(pagesWorkflow), 'GitHub Pages must publish dist only');
+assert.ok(!/path:\s+\./.test(pagesWorkflow), 'GitHub Pages must not publish the repository root');
+
 console.log('security ok');

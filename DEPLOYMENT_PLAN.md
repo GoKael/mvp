@@ -6,9 +6,9 @@
 
 首發使用 **Cloudflare Pages**，網站、JSON、圖示與 MP3 同源發布。可先使用免費 `pages.dev` 網址；需要品牌網址時才購買網域。
 
-不先使用 GitHub Pages：目前容量雖完全足夠，但 GitHub 官方明示 Pages 不應用作商業 SaaS，且有每月 100 GB 軟性流量限制。Lexa 若日後收費，遷移成本反而更高。
+GitHub Pages 保留為免費備援與內部驗收，不作正式商業站。其 workflow 必須執行同一個 `npm run build` 並且只上傳 `dist`，不可直接公開整個 repository。
 
-不先使用 R2：工作區雖有 1,300 個 MP3，但正式 Core 100 與 10 課只發布 manifest 內的 500 個，整個 `dist` 約 5 MiB。只有音檔庫需要獨立版本、單檔超過 25 MiB、總檔案逼近 20,000，或需要與網站分開發布時才搬到 R2。
+不先使用 R2：工作區雖有 1,300 個 MP3，但正式 Core 100 與 10 課只發布 manifest 內的 500 個，現在整個 `dist` 為 520 檔、約 4.2 MiB。只有音檔庫需要獨立版本、單檔超過 25 MiB、總檔案逼近 20,000，或需要與網站分開發布時才搬到 R2。
 
 ## 2. 使用者端音檔
 
@@ -22,7 +22,7 @@
 
 | 項目 | Lexa 現況 | 免費平台邊界 | 結論 |
 |---|---:|---:|---|
-| 正式 MP3 | 500 檔；完整 `dist` 約 5 MiB | Cloudflare 每版最多 20,000 靜態檔 | 足夠 |
+| 正式 MP3 | 500 檔；完整 `dist` 520 檔、約 4.2 MiB | Cloudflare 每版最多 20,000 靜態檔 | 足夠 |
 | 候選 MP3 | 工作區另有 800 檔，人工 QA 前不發布 | 不占正式站容量 | 保持隔離 |
 | 單檔 | 遠低於 1 MiB | 單一靜態檔最多 25 MiB | 足夠 |
 | 流量 | 純靜態 | Cloudflare 靜態資產請求免費且不限量 | 適合全球首發 |
@@ -45,6 +45,7 @@ dist/
   assets/audio/
   server/data/core.json
   server/data/core-100.json
+  server/data/lexicon.json
   server/data/lessons.json
   server/data/patterns.json
   server/data/audio-manifest.json
@@ -60,6 +61,8 @@ Hash 路由不需要伺服器 rewrite。Express 只供本地開發；正式站�
 4. 不設定 Functions、環境變數或 API key。
 
 `npm run build` 會先重建並嚴格驗證正式資料與音檔，再以白名單建立 `dist`。候選詞表、TTS 工具、QA 結果與個人憑證不會被複製。`_headers` 已為入口與 Service Worker 設定重新驗證，並讓 MP3 在 CDN 快取 30 天。
+
+GitHub Pages 備援使用 `.github/workflows/pages.yml`，同樣只部署 `dist`。Hash 路由與相對資源路徑可直接在 repository 子路徑運作，不需要 rewrite。
 
 ## 6. 升級條件
 
