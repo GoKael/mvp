@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build-data.js && node scripts/validate-data.js --strict-audio && node scripts/build-static.js",
+    "audit:vocabulary": "node scripts/audit-vocabulary.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",
     "test": "npm --prefix server run test"

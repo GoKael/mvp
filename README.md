@@ -28,6 +28,7 @@ npm start
 ```bash
 node scripts/build-data.js
 node scripts/validate-data.js --strict-audio
+node scripts/audit-vocabulary.js
 node scripts/test-core.mjs
 ```
 
