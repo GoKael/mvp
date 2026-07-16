@@ -24,11 +24,12 @@ import {
   updateLessonSegment,
   wordProgress,
 } from './lib/app-core.mjs?v=7';
-import { AudioController } from './lib/audio.mjs?v=3';
+import { AudioController } from './lib/audio.mjs?v=4';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
   words: 'server/data/core.json?v=2',
+  lexicon: 'server/data/lexicon.json?v=1',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
   audio: 'server/data/audio-manifest.json?v=4',
@@ -51,7 +52,7 @@ const ui = {
   activeWordId: '',
 };
 
-let data = { words: [], lessons: [], patterns: [], generatedAudio: new Set() };
+let data = { words: [], lexicon: [], lessons: [], patterns: [], generatedAudio: new Set() };
 let state;
 let visibleWordIds = [];
 let lexicon = createLexicon([], []);
@@ -97,7 +98,8 @@ function targetAudio(audioPaths) {
 }
 
 function wordTargetAudio(item) {
-  return targetKey() === 'vi' ? item.audio : '';
+  if (typeof item?.audio === 'string') return targetKey() === 'vi' ? item.audio : '';
+  return item?.audio?.[targetKey()] || '';
 }
 
 function exerciseTokens(text, key = targetKey()) {
@@ -110,8 +112,15 @@ const extensionStorage = globalThis.chrome?.storage?.local;
 
 const audio = new AudioController(({ playing, error }) => {
   document.body.classList.toggle('is-playing', playing);
-  document.getElementById('audio-status').textContent = error ? '語音無法讀取' : (playing ? '正在播放' : '語音就緒');
+  const status = document.getElementById('audio-status');
+  status.textContent = error ? '語音無法讀取' : (playing ? '正在播放' : '語音就緒');
+  status.title = error ? audio.lastError : '';
 });
+
+function audioFailureMessage() {
+  if (audio.lastError.startsWith('NotAllowedError')) return '瀏覽器尚未允許播放，請再按一次播放';
+  return audio.lastError ? `音檔無法播放（${audio.lastError}）` : '音檔無法播放';
+}
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -179,8 +188,8 @@ function fallbackLexeme(text) {
   const entry = {
     id: `token:${encodeURIComponent(key)}`,
     vi: text,
-    zhTW: '尚未校驗翻譯',
-    pos: '句中單字',
+    zhTW: '未收錄於 Core 300',
+    pos: '待建立詞條',
     audio: '',
     source: 'token',
   };
@@ -252,9 +261,10 @@ function renderLexemePopover() {
   if (!entry) return;
   const progress = wordProgress(state, entry.id);
   const source = entry.source === 'core'
-    ? `Core ${String(entry.rank).padStart(3, '0')}`
+    ? `Core ${String(entry.rank).padStart(3, '0')}${entry.quality === 'reviewed' ? ' · 校對中' : ''}`
     : (entry.source === 'focus' ? '課程詞組' : '句中單字 · 待校驗');
-  const canPlay = !isReverseDirection() && Boolean(entry.audio && hasAudio(entry.audio));
+  const wordAudio = wordTargetAudio(entry);
+  const canPlay = Boolean(wordAudio && hasAudio(wordAudio));
   Object.values(STATUS).forEach((status) => lexemePopover.classList.remove(`status-${status}`));
   lexemePopover.classList.add(`status-${progress.status}`);
   const title = isReverseDirection() ? entry.zhTW : entry.vi;
@@ -290,6 +300,10 @@ function showLexemePopover(trigger, focusCard = false) {
   renderLexemePopover();
   openLexemePopoverSurface();
   if (focusCard) requestAnimationFrame(() => lexemePopover.querySelector('[data-lexeme-action="play"]:not(:disabled), [data-lexeme-action="status"]')?.focus());
+}
+
+function lexemeInteractionAllowed(trigger) {
+  return !(trigger?.closest('.review-card') && !ui.reviewRevealed);
 }
 
 function closeLexemePopover() {
@@ -735,7 +749,7 @@ function renderReview() {
       <aside class="review-queue">
         <p class="eyebrow">本輪尚餘</p>
         <strong>${queue.length}</strong><span>張卡片</span>
-        <p>每輪最多 10 張：先排到期弱點句與單字，再補學習中／已會；若尚未有排程內容，帶入 5 個新詞。</p>
+        <p>數字是本輪尚未回答的卡片數。每輪最多 10 張：先排到期弱點句與單字，再補學習中／已會；若尚未有排程內容，帶入 5 個新詞。</p>
         <p>答錯會在 12 小時後回來；答對後間隔逐步拉長。</p>
       </aside>
       <article class="review-card">
@@ -808,8 +822,8 @@ app.addEventListener('click', (event) => {
   if (!button) return;
   const action = button.dataset.action;
 
-  if (action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify('音檔無法讀取，請確認本地服務仍在執行'); });
-  if (action === 'play-sequence') audio.playSequence(button.dataset.srcs.split('|')).then((ok) => { if (!ok) notify('雙語音檔無法讀取，請確認本地服務仍在執行'); });
+  if (action === 'play-audio') audio.play(button.dataset.src).then((ok) => { if (!ok) notify(audioFailureMessage()); });
+  if (action === 'play-sequence') audio.playSequence(button.dataset.srcs.split('|')).then((ok) => { if (!ok) notify(audioFailureMessage()); });
   if (action === 'lesson-segment') {
     const lesson = activeLesson();
     ui.lessonSegments[lesson.id] = Number(button.dataset.index);
@@ -989,7 +1003,7 @@ document.addEventListener('pointerover', (event) => {
   if (event.pointerType === 'touch') return;
   const trigger = event.target.closest('[data-lexeme-id]');
   const related = event.relatedTarget instanceof Node ? event.relatedTarget : null;
-  if (!trigger || trigger.contains(related)) return;
+  if (!trigger || trigger.contains(related) || !lexemeInteractionAllowed(trigger)) return;
   clearTimeout(lexemeOpenTimer);
   clearTimeout(lexemeCloseTimer);
   lexemeOpenTimer = setTimeout(() => showLexemePopover(trigger), 120);
@@ -1005,7 +1019,7 @@ document.addEventListener('pointerout', (event) => {
 
 document.addEventListener('click', (event) => {
   const trigger = event.target.closest('[data-lexeme-id]');
-  if (trigger && !trigger.closest('[data-action]')) {
+  if (trigger && !trigger.closest('[data-action]') && lexemeInteractionAllowed(trigger)) {
     showLexemePopover(trigger);
     return;
   }
@@ -1022,7 +1036,7 @@ document.addEventListener('keydown', (event) => {
     return;
   }
   const trigger = event.target.closest?.('[data-lexeme-id]');
-  if (trigger && (event.key === 'Enter' || event.key === ' ')) {
+  if (trigger && lexemeInteractionAllowed(trigger) && (event.key === 'Enter' || event.key === ' ')) {
     event.preventDefault();
     showLexemePopover(trigger, true);
   }
@@ -1035,8 +1049,9 @@ lexemePopover.addEventListener('click', (event) => {
   if (!button) return;
   const entry = lexicon.byId.get(activeLexemeId);
   if (button.dataset.lexemeAction === 'close') closeLexemePopover();
-  if (button.dataset.lexemeAction === 'play' && entry?.audio && !isReverseDirection()) {
-    audio.play(entry.audio).then((ok) => { if (!ok) notify('音檔無法讀取，請確認本地服務仍在執行'); });
+  if (button.dataset.lexemeAction === 'play' && entry) {
+    const src = wordTargetAudio(entry);
+    if (src) audio.play(src).then((ok) => { if (!ok) notify(audioFailureMessage()); });
   }
   if (button.dataset.lexemeAction === 'status' && entry) {
     setWordStatus(state, entry.id, button.dataset.status);
@@ -1071,7 +1086,7 @@ window.addEventListener('hashchange', render);
 
 async function init() {
   try {
-    const [words, lessons, patterns, audioManifest] = await Promise.all(
+    const [words, dictionary, lessons, patterns, audioManifest] = await Promise.all(
       Object.values(DATA_PATHS).map((url) => fetch(url).then((response) => {
         if (!response.ok) throw new Error(`無法載入 ${url}`);
         return response.json();
@@ -1079,11 +1094,12 @@ async function init() {
     );
     data = {
       words,
+      lexicon: dictionary,
       lessons,
       patterns,
       generatedAudio: new Set(audioManifest.assets.filter((asset) => asset.generated).map((asset) => asset.output)),
     };
-    lexicon = createLexicon(words, lessons);
+    lexicon = createLexicon(dictionary, lessons);
     state = loadState(localStorage, words);
     mergeInbox(await readExtensionInbox());
     if (!location.hash) history.replaceState(null, '', '#/today');
@@ -1096,7 +1112,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=26', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=28', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

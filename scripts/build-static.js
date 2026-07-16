@@ -12,7 +12,7 @@ const publicFiles = [
   'memory.html', 'grammar.html', 'content.html',
   'assets/icon.svg',
   'lib/app-core.mjs', 'lib/audio.mjs', 'lib/lexeme.mjs',
-  'server/data/core.json', 'server/data/core-100.json', 'server/data/lessons.json',
+  'server/data/core.json', 'server/data/core-100.json', 'server/data/lexicon.json', 'server/data/lessons.json',
   'server/data/patterns.json', 'server/data/audio-manifest.json',
   ...manifest.assets.map((asset) => asset.output),
 ];

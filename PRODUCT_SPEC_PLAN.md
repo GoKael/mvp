@@ -129,6 +129,8 @@ Chrome／Edge 共用 Manifest V3 薄入口：工具列開啟 Lexa，右鍵將選
 
 `Ceelog/DictionaryByGPT4` 的 `gptwords.json` 是英文單字對簡體中文的 GPT-4 解析資料，並非越南語字典。它只可參考詞條內容欄位，不得用來覆蓋或驗證 Core 越南語詞義。若引用其內容，必須遵守 CC BY-SA 4.0；Core 300 的越南語校驗仍需使用可追溯的越南語詞典與人工複核。
 
+實際檔案是 8,714 行 JSONL，每行只有英文 `word` 與簡中 `content`。和 Core 300 逐字比對只碰到 `to / ba / taxi` 三筆，其中前兩筆是跨語言同形異義，不能建立可靠中越對應；因此產品不匯入這份 17 MB 資料，也不把它列為 Core 300 的校驗證據。
+
 下一輪詞義校驗預設以越南語 Wiktionary 的公開 dump 核對詞性與主要義項，再由人工改寫成台灣繁中；Wiktionary 內容同樣需要保留 CC BY-SA 4.0 來源紀錄，不能無標示複製到正式詞庫。
 
 ## 8. 驗收門檻

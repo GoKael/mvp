@@ -58,7 +58,7 @@
   <main>
     <div class="progress"><span id="progress-bar"></span></div>
     <div class="summary"><span id="position"></span><span id="counts"></span></div>
-    <p class="shortcuts">單字為發布必檢，標記後自動換詞；例句可抽聽。<br><kbd>空白</kbd> 播放　<kbd>1</kbd> 通過　<kbd>2</kbd> 需重生　<kbd>↑↓</kbd> 切換音檔　<kbd>←→</kbd> 換詞</p>
+    <p class="shortcuts">第一次按空白播放；之後標記時會自動播放下一個未檢查單字。例句可抽聽。<br><kbd>空白</kbd> 播放　<kbd>1</kbd> 通過　<kbd>2</kbd> 需重生　<kbd>↑↓</kbd> 切換音檔　<kbd>←→</kbd> 換詞</p>
     <section id="content" class="card" aria-live="polite"></section>
     <nav class="nav" aria-label="抽聽導覽">
       <button id="previous" type="button">← 上一詞</button>
@@ -117,6 +117,11 @@
       }
     }
 
+    function pendingWordIndex(afterIndex = -1) {
+      const next = words.findIndex((word, wordIndex) => wordIndex > afterIndex && statusFor(word.audio, word.vi) === 'pending');
+      return next >= 0 ? next : words.findIndex((word) => statusFor(word.audio, word.vi) === 'pending');
+    }
+
     function decisionButton(path, text, value, label, required) {
       const button = document.createElement('button');
       button.type = 'button';
@@ -125,16 +130,22 @@
       button.setAttribute('aria-pressed', String(active));
       if (active) button.className = `active-${value}`;
       button.addEventListener('click', () => {
+        let autoPlayNext = false;
         if (statusFor(path, text) === value) delete results[path];
         else {
           results[path] = { status: value, text };
           if (required) {
-            index = (index + 1) % words.length;
+            const next = pendingWordIndex(index);
+            if (next >= 0) {
+              index = next;
+              autoPlayNext = true;
+            }
             clipIndex = 0;
           } else advanceClip();
         }
         save();
         render();
+        if (autoPlayNext) content.querySelector('.clip.current .play')?.click();
       });
       return button;
     }
@@ -221,8 +232,7 @@
     document.querySelector('#previous').addEventListener('click', () => move(-1));
     document.querySelector('#next').addEventListener('click', () => move(1));
     document.querySelector('#next-pending').addEventListener('click', () => {
-      const next = words.findIndex((word, wordIndex) => wordIndex > index && statusFor(word.audio, word.vi) === 'pending');
-      const wrapped = next >= 0 ? next : words.findIndex((word) => statusFor(word.audio, word.vi) === 'pending');
+      const wrapped = pendingWordIndex(index);
       if (wrapped >= 0) { index = wrapped; clipIndex = 0; render(); }
     });
     rangeSelect.addEventListener('change', () => load(rangeSelect.value));

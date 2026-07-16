@@ -6,6 +6,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const FOOD_SOURCE = path.join(ROOT, 'content/food-30.source.json');
 const CORE_RELEASES = path.join(ROOT, 'content/core-releases.json');
+const CORE_CANDIDATE_RANGES = ['101-150', '151-200', '201-250', '251-300'];
 
 const zhMeaning = [
   '是', '和、以及', '的、屬於', '有、擁有', '不、沒有', '在…裡、之中', '一、一個', '各、複數標記',
@@ -352,6 +353,16 @@ function buildCoreWords() {
   return words;
 }
 
+function buildLexiconWords(coreWords) {
+  const byRank = new Map(coreWords.map((word) => [word.rank, word]));
+  CORE_CANDIDATE_RANGES.forEach((range) => {
+    buildReleasedWords(range).forEach((word) => {
+      if (!byRank.has(word.rank)) byRank.set(word.rank, { ...word, quality: 'reviewed' });
+    });
+  });
+  return [...byRank.values()].sort((left, right) => left.rank - right.rank);
+}
+
 function parseFoodSource() {
   const items = JSON.parse(fs.readFileSync(FOOD_SOURCE, 'utf8'));
   if (items.length !== 30) throw new Error(`Expected 30 food sentences, found ${items.length}`);
@@ -512,11 +523,13 @@ function renderReviewMarkdown(lessons) {
 
 function main() {
   const coreWords = buildCoreWords();
+  const lexiconWords = buildLexiconWords(coreWords);
   const lessons = buildLessons(coreWords);
   const patterns = buildPatterns();
   const audioJobs = buildAudioJobs(coreWords, lessons, patterns);
   writeJson(path.join(ROOT, 'server/data/core-100.json'), coreWords.slice(0, 100));
   writeJson(path.join(ROOT, 'server/data/core.json'), coreWords);
+  writeJson(path.join(ROOT, 'server/data/lexicon.json'), lexiconWords);
   writeJson(path.join(ROOT, 'server/data/lessons.json'), lessons);
   writeJson(path.join(ROOT, 'server/data/patterns.json'), patterns);
   writeJson(path.join(ROOT, 'server/data/audio-jobs.json'), audioJobs);
@@ -529,7 +542,7 @@ function main() {
   const contentDir = path.join(ROOT, 'content');
   ensureDir(contentDir);
   fs.writeFileSync(path.join(contentDir, 'short_30_script.md'), renderReviewMarkdown(lessons));
-  console.log(`Built ${coreWords.length} words, ${lessons.length} lessons, ${patterns.length} patterns, ${audioJobs.length} audio jobs.`);
+  console.log(`Built ${coreWords.length} published words, ${lexiconWords.length} dictionary entries, ${lessons.length} lessons, ${patterns.length} patterns, ${audioJobs.length} audio jobs.`);
 }
 
 main();

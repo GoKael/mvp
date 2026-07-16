@@ -16,6 +16,7 @@ const normalize = (value) => String(value || '')
   .trim();
 
 const words = read('server/data/core.json');
+const lexicon = read('server/data/lexicon.json');
 const lessons = read('server/data/lessons.json');
 const patterns = read('server/data/patterns.json');
 const manifest = read('server/data/audio-manifest.json');
@@ -23,6 +24,16 @@ const strictAudio = process.argv.includes('--strict-audio');
 const strictLessons = process.argv.includes('--strict-lessons');
 
 assert.ok(words.length >= 100 && words.length <= 300 && words.length % 50 === 0, 'Published Core must contain 100–300 words in 50-word batches');
+assert.strictEqual(lexicon.length, 300, 'Dictionary index must contain the reviewed Core 300');
+assert.deepStrictEqual(lexicon.map((word) => word.rank), Array.from({ length: 300 }, (_, index) => index + 1));
+assert.strictEqual(new Set(lexicon.map((word) => word.id)).size, 300, 'Dictionary ids must be unique');
+lexicon.forEach((word) => {
+  assert.ok(word.vi && word.zhTW && word.pos, `Incomplete dictionary entry: ${word.id}`);
+  assert.ok(['verified', 'reviewed'].includes(word.quality), `Invalid dictionary quality: ${word.id}`);
+  assert.ok(!/meaning pending|vietnamese core word|尚未|\bword\b/i.test(word.zhTW), `Dictionary placeholder found: ${word.id}`);
+  assert.strictEqual(word.examples.length, 3, `Dictionary entry needs three examples: ${word.id}`);
+});
+assert.deepStrictEqual(lexicon.slice(0, words.length), words, 'Published words must match the dictionary prefix');
 assert.strictEqual(new Set(words.map((word) => word.id)).size, words.length, 'Word ids must be unique');
 assert.strictEqual(new Set(words.map((word) => word.conceptId)).size, words.length, 'Concept ids must be unique');
 assert.deepStrictEqual(words.map((word) => word.rank), Array.from({ length: words.length }, (_, index) => index + 1));
