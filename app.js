@@ -4,6 +4,7 @@ import {
   completeLesson,
   currentLesson,
   dueLessonSegments,
+  filterDictionaryWords,
   lessonLearningProgress,
   lessonProgress,
   lessonSegmentProgress,
@@ -23,7 +24,7 @@ import {
   startLesson,
   updateLessonSegment,
   wordProgress,
-} from './lib/app-core.mjs?v=7';
+} from './lib/app-core.mjs?v=8';
 import { AudioController } from './lib/audio.mjs?v=4';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
@@ -176,9 +177,10 @@ function statusLabel(status) {
 }
 
 function lexemeMarkup(entry, text, focus = false) {
+  const reviewed = entry.quality === 'reviewed';
   const status = wordProgress(state, entry.id).status;
-  const label = `${entry.vi}，${entry.zhTW}，${statusLabel(status)}`;
-  return `<span class="lexeme-token status-${status}${focus ? ' focus-hit' : ''}" data-lexeme-id="${escapeHtml(entry.id)}" tabindex="0" role="button" aria-label="${escapeHtml(label)}">${escapeHtml(text)}</span>`;
+  const label = `${entry.vi}，${entry.zhTW}，${reviewed ? '校對中' : statusLabel(status)}`;
+  return `<span class="lexeme-token ${reviewed ? 'quality-reviewed' : `status-${status}`}${focus ? ' focus-hit' : ''}" data-lexeme-id="${escapeHtml(entry.id)}" tabindex="0" role="button" aria-label="${escapeHtml(label)}">${escapeHtml(text)}</span>`;
 }
 
 function fallbackLexeme(text) {
@@ -259,12 +261,13 @@ function positionLexemePopover() {
 function renderLexemePopover() {
   const entry = lexicon.byId.get(activeLexemeId);
   if (!entry) return;
+  const reviewed = entry.quality === 'reviewed';
   const progress = wordProgress(state, entry.id);
   const source = entry.source === 'core'
     ? `Core ${String(entry.rank).padStart(3, '0')}${entry.quality === 'reviewed' ? ' · 校對中' : ''}`
     : (entry.source === 'focus' ? '課程詞組' : '句中單字 · 待校驗');
   const wordAudio = wordTargetAudio(entry);
-  const canPlay = Boolean(wordAudio && hasAudio(wordAudio));
+  const canPlay = !reviewed && Boolean(wordAudio && hasAudio(wordAudio));
   Object.values(STATUS).forEach((status) => lexemePopover.classList.remove(`status-${status}`));
   lexemePopover.classList.add(`status-${progress.status}`);
   const title = isReverseDirection() ? entry.zhTW : entry.vi;
@@ -272,17 +275,17 @@ function renderLexemePopover() {
   lexemePopover.querySelector('[data-lexeme-content]').innerHTML = `
     <button class="lexeme-close" type="button" data-lexeme-action="close" aria-label="關閉單字卡">×</button>
     <p class="lexeme-source">${escapeHtml(source)}</p>
-    <div class="lexeme-heading"><h2>${escapeHtml(title)}</h2><span>${escapeHtml(statusLabel(progress.status))}</span></div>
+    <div class="lexeme-heading"><h2>${escapeHtml(title)}</h2><span>${escapeHtml(reviewed ? '校對中' : statusLabel(progress.status))}</span></div>
     <p class="lexeme-meaning">${escapeHtml(meaning)}${entry.pos ? ` · ${escapeHtml(entry.pos)}` : ''}</p>
     <button class="lexeme-play" type="button" data-lexeme-action="play" ${canPlay ? '' : 'disabled title="此詞組尚無獨立音檔"'}>▶ ${canPlay ? '播放發音' : '尚無獨立發音'}</button>
-    <div class="lexeme-actions" aria-label="學習狀態">
+    ${reviewed ? '<p class="lexeme-review-note">完成發音驗收後開放學習狀態。</p>' : `<div class="lexeme-actions" aria-label="學習狀態">
       ${[
         [STATUS.LEARNING, '學習中'],
         [STATUS.KNOWN, '已會'],
         [STATUS.IGNORED, '略過'],
         [STATUS.NEW, '重設'],
       ].map(([status, label]) => `<button type="button" class="${progress.status === status ? 'active' : ''}" data-lexeme-action="status" data-status="${status}">${label}</button>`).join('')}
-    </div>`;
+    </div>`}`;
   requestAnimationFrame(positionLexemePopover);
 }
 
@@ -356,7 +359,7 @@ function mergeInbox(entries) {
 function updateShell() {
   const summary = progressSummary(data.words, data.lessons, state);
   document.getElementById('nav-due').textContent = summary.due;
-  document.getElementById('nav-words').textContent = `Core ${data.words.length}`;
+  document.getElementById('nav-words').textContent = `詞典 ${data.lexicon.length}`;
   document.getElementById('header-progress').textContent = `${summary.known} / ${data.words.length} 已會`;
   document.querySelectorAll('[data-route]').forEach((link) => {
     link.classList.toggle('active', link.dataset.route === parseRoute(location.hash).name);
@@ -590,21 +593,15 @@ function renderLesson(route) {
 }
 
 function filteredWords() {
-  const query = normalize(ui.wordSearch);
-  return data.words.filter((word) => {
-    const progress = wordProgress(state, word.id);
-    const matchesStatus = ui.wordFilter === 'all' || progress.status === ui.wordFilter;
-    const matchesQuery = !query || [word.vi, word.zhTW, word.pos, ...word.examples.flatMap((example) => [example.vi, example.zhTW])]
-      .some((value) => normalize(value).includes(query));
-    return matchesStatus && matchesQuery;
-  });
+  return filterDictionaryWords(data.lexicon, state, ui.wordFilter, ui.wordSearch);
 }
 
 function renderWords() {
   const words = filteredWords();
-  visibleWordIds = words.map((word) => word.id);
+  const reviewedCount = data.lexicon.filter((word) => word.quality === 'reviewed').length;
+  visibleWordIds = words.filter((word) => word.quality === 'verified').map((word) => word.id);
   app.innerHTML = `
-    ${routeTitle(`Core ${data.words.length} 單字庫`, '只顯示校驗內容', `<div class="page-actions"><button class="button ghost compact" type="button" data-action="bulk-known">全部設為已會</button><button class="button ghost compact" type="button" data-action="bulk-reset">全部重設</button></div>`)}
+    ${routeTitle(`Core ${data.lexicon.length} 詞典`, `${data.words.length} 詞已發布 · ${reviewedCount} 詞校對中`, visibleWordIds.length ? `<div class="page-actions"><button class="button ghost compact" type="button" data-action="bulk-known">正式詞全部設為已會</button><button class="button ghost compact" type="button" data-action="bulk-reset">正式詞全部重設</button></div>` : '')}
     ${state.inbox.length ? `<section class="capture-inbox reveal">
       <div><p class="eyebrow">瀏覽器收件匣</p><h2>稍後整理的選字</h2><p>這些內容只進入個人佇列，不會改寫正式詞庫。</p></div>
       <div class="capture-list">${state.inbox.map((item) => `<article><span>${escapeHtml(item.text)}</span><small>${escapeHtml(item.title || '網頁選字')}</small><button type="button" data-action="dismiss-capture" data-id="${escapeHtml(item.id)}" aria-label="移除 ${escapeHtml(item.text)}">移除</button></article>`).join('')}</div>
@@ -612,40 +609,42 @@ function renderWords() {
     <section class="word-toolbar reveal">
       <label><span>搜尋</span><input id="word-search" type="search" value="${escapeHtml(ui.wordSearch)}" placeholder="越南語、中文、例句"></label>
       <div class="filter-pills" role="group" aria-label="單字狀態">
-        ${['all', 'new', 'learning', 'known', 'ignored'].map((filter) => `<button type="button" class="${ui.wordFilter === filter ? 'active' : ''}" data-action="word-filter" data-filter="${filter}">${filter === 'all' ? '全部' : statusLabel(filter)}</button>`).join('')}
+        ${['all', 'reviewed', 'new', 'learning', 'known', 'ignored'].map((filter) => `<button type="button" class="${ui.wordFilter === filter ? 'active' : ''}" data-action="word-filter" data-filter="${filter}">${filter === 'all' ? `全部 ${data.lexicon.length}` : (filter === 'reviewed' ? `校對中 ${reviewedCount}` : statusLabel(filter))}</button>`).join('')}
       </div>
     </section>
-    <p class="result-count">顯示 ${words.length} / ${data.words.length}</p>
+    <p class="result-count">顯示 ${words.length} / ${data.lexicon.length}；校對中詞可查閱，暫不進入播放與複習。</p>
     <section class="word-grid reveal">
       ${words.map((word) => {
+        const reviewed = word.quality === 'reviewed';
         const progress = wordProgress(state, word.id);
-        return `<button class="word-card status-${progress.status}" type="button" data-action="open-word" data-id="${word.id}" data-lexeme-id="${word.id}" aria-label="${escapeHtml(`${word[targetKey()]}，${word[sourceKey()]}，${statusLabel(progress.status)}`)}">
+        return `<button class="word-card ${reviewed ? 'quality-reviewed' : `status-${progress.status}`}" type="button" data-action="open-word" data-id="${word.id}" data-lexeme-id="${word.id}" aria-label="${escapeHtml(`${word[targetKey()]}，${word[sourceKey()]}，${reviewed ? '校對中' : statusLabel(progress.status)}`)}">
           <span class="word-rank">${String(word.rank).padStart(3, '0')}</span>
           <strong>${escapeHtml(word[targetKey()])}</strong>
           <span>${escapeHtml(word[sourceKey()])}</span>
-          <small>${escapeHtml(word.pos)} · <span data-status-label>${statusLabel(progress.status)}</span></small>
+          <small>${escapeHtml(word.pos)} · <span data-status-label>${reviewed ? '校對中' : statusLabel(progress.status)}</span></small>
         </button>`;
       }).join('') || '<div class="empty-state">找不到符合的單字。</div>'}
     </section>`;
 }
 
 function openWord(wordId) {
-  const word = data.words.find((item) => item.id === wordId);
+  const word = data.lexicon.find((item) => item.id === wordId);
   if (!word) return;
   closeLexemePopover();
   ui.activeWordId = word.id;
+  const reviewed = word.quality === 'reviewed';
   const progress = wordProgress(state, word.id);
   wordDialog.querySelector('[data-dialog-content]').innerHTML = `
-    <div class="dialog-rank">Core ${String(word.rank).padStart(3, '0')}</div>
+    <div class="dialog-rank">Core ${String(word.rank).padStart(3, '0')}${reviewed ? ' · 校對中' : ''}</div>
     <div class="dialog-title-row"><div><h2>${renderField(word, targetKey())}</h2><p>${renderField(word, sourceKey())} · ${escapeHtml(word.pos)}</p></div>${audioButton(`播放${languageName(targetKey())}`, wordTargetAudio(word), 'audio-button icon')}</div>
-    <div class="status-actions">
+    ${reviewed ? '<p class="reviewed-word-note">內容已完成初校；發音驗收後才會開放學習狀態與複習。</p>' : `<div class="status-actions">
       ${[
         [STATUS.LEARNING, '學習中'],
         [STATUS.KNOWN, '已會'],
         [STATUS.IGNORED, '略過'],
         [STATUS.NEW, '重設'],
       ].map(([status, label]) => `<button type="button" class="${progress.status === status ? 'active' : ''}" data-action="word-status" data-id="${word.id}" data-status="${status}">${label}</button>`).join('')}
-    </div>
+    </div>`}
     <section class="example-list">
       <p class="eyebrow">三個自然例句</p>
       ${word.examples.map((example, index) => `<article><div><b>${renderField(example, targetKey())}</b><span>${renderField(example, sourceKey())}</span></div>${audioButton(`例句 ${index + 1}`, wordTargetAudio(example), 'audio-button icon')}</article>`).join('')}
@@ -1112,7 +1111,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=28', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=29', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

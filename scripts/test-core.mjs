@@ -5,6 +5,7 @@ import {
   completeLesson,
   dueLessonSegments,
   dueWords,
+  filterDictionaryWords,
   lessonLearningProgress,
   lessonProgress,
   lessonSegmentProgress,
@@ -59,6 +60,16 @@ assert.ok(round.length > 1);
 const freshWords = Array.from({ length: 12 }, (_, index) => ({ id: `vi:new-${index}`, vi: `new-${index}`, rank: index + 1 }));
 const freshRound = reviewRound(freshWords, { words: {} }, now, 10);
 assert.equal(freshRound.length, 5);
+
+const dictionary = [
+  { ...words[0], zhTW: '是', pos: '動詞', quality: 'verified', examples: [] },
+  { id: 'vi:101-toi', vi: 'tôi', zhTW: '我', pos: '代名詞', rank: 101, quality: 'reviewed', examples: [] },
+  { id: 'vi:draft', vi: 'nháp', zhTW: '草稿', pos: '名詞', rank: 301, quality: 'draft', examples: [] },
+];
+assert.equal(filterDictionaryWords(dictionary, state, 'all').length, 3);
+assert.deepEqual(filterDictionaryWords(dictionary, state, 'reviewed').map((word) => word.id), ['vi:101-toi']);
+assert.equal(filterDictionaryWords(dictionary, state, STATUS.NEW).length, 0);
+assert.deepEqual(filterDictionaryWords(dictionary, state, 'all', '代名詞').map((word) => word.id), ['vi:101-toi']);
 
 const overdueState = { words: Object.fromEntries(freshWords.map((word) => [word.id, {
   status: STATUS.LEARNING,
