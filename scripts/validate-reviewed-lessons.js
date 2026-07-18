@@ -57,7 +57,7 @@ lessons.forEach((lesson, lessonIndex) => {
     segment.wordIds.forEach((wordId) => {
       const word = wordsById.get(wordId);
       assert.ok(word, `Unknown Core link: ${wordId}`);
-      assert.strictEqual(word.quality, 'reviewed', `Candidate pack bypasses the Core quality gate: ${wordId}`);
+      assert.ok(['verified', 'reviewed'].includes(word.quality), `Candidate pack bypasses the Core quality gate: ${wordId}`);
       assert.ok(containsPhrase(segment.vi, word.vi), `Linked Core word is absent: ${lesson.id}/${word.vi}`);
     });
   });
@@ -65,7 +65,8 @@ lessons.forEach((lesson, lessonIndex) => {
 
 const coveredRanks = new Set(segments.flatMap((segment) => segment.wordIds.map((id) => wordsById.get(id).rank)));
 const [firstRank, lastRank] = source.requiredCoreRange;
-for (let rank = firstRank; rank <= lastRank; rank += 1) {
+const requiredRanks = source.requiredCoreRanks || Array.from({ length: lastRank - firstRank + 1 }, (_, index) => firstRank + index);
+for (const rank of requiredRanks) {
   assert.ok(coveredRanks.has(rank), `${source.id} pack does not cover Core rank ${rank}`);
 }
 

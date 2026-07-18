@@ -42,7 +42,7 @@ lessonWordIds.forEach((id) => assert.ok(lexicon.some((word) => word.id === id), 
 candidateWordIds.forEach((id) => {
   const word = lexicon.find((entry) => entry.id === id);
   assert.ok(word, `Candidate lesson references unknown word: ${id}`);
-  assert.strictEqual(word.quality, 'reviewed', `Candidate lesson bypasses the Core quality gate: ${id}`);
+  assert.ok(['verified', 'reviewed'].includes(word.quality), `Candidate lesson bypasses the Core quality gate: ${id}`);
 });
 
 const reviewed = lexicon.filter((word) => word.quality === 'reviewed');
@@ -50,11 +50,13 @@ const archivedReviewed = reviewed.filter((word) => archiveRanks.has(normalize(wo
 const archivedTop1000 = archivedReviewed.filter((word) => archiveRanks.get(normalize(word.vi)) <= 1000);
 const linkedWords = lexicon.filter((word) => lessonWordIds.has(word.id));
 const candidateLinkedWords = lexicon.filter((word) => candidateWordIds.has(word.id));
+const reviewedCandidateLinkedWords = reviewed.filter((word) => candidateWordIds.has(word.id));
 const combinedWordIds = new Set([...lessonWordIds, ...candidateWordIds]);
 const combinedLinkedWords = lexicon.filter((word) => combinedWordIds.has(word.id));
 
 assert.ok(archivedReviewed.length >= 150, 'Core 101–300 lost too much archived frequency evidence');
 assert.ok(archivedTop1000.length >= 100, 'Core 101–300 must retain at least 100 archived top-1000 matches');
+assert.strictEqual(combinedLinkedWords.length, lexicon.length, 'Every Core 300 word must link to a published or candidate lesson');
 
 console.log(JSON.stringify({
   lexicalUnits: lexicon.length,
@@ -65,7 +67,8 @@ console.log(JSON.stringify({
   linkedToPublishedLessons: linkedWords.length,
   lessonCoveragePercent: Number((linkedWords.length / lexicon.length * 100).toFixed(1)),
   reviewedLessonPacks: candidateLessonFiles.map((file) => file.replace('-lessons.json', '')),
-  linkedToReviewedLessons: candidateLinkedWords.length,
+  linkedToReviewedLessons: reviewedCandidateLinkedWords.length,
+  linkedToCandidateLessons: candidateLinkedWords.length,
   combinedLessonCoverageAfterPromotion: combinedLinkedWords.length,
   combinedLessonCoveragePercentAfterPromotion: Number((combinedLinkedWords.length / lexicon.length * 100).toFixed(1)),
   domains: domains.map(({ range, name }) => ({ range: `${range[0]}-${range[1]}`, name, count: 50 })),

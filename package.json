@@ -9,6 +9,7 @@
     "build:health": "node scripts/build-reviewed-lessons.js content/health-24.source.json && node scripts/validate-reviewed-lessons.js content/health-24.source.json",
     "build:social-work": "node scripts/build-reviewed-lessons.js content/social-work-30.source.json && node scripts/validate-reviewed-lessons.js content/social-work-30.source.json",
     "build:basics": "node scripts/build-reviewed-lessons.js content/basics-30.source.json && node scripts/validate-reviewed-lessons.js content/basics-30.source.json",
+    "build:core-context": "node scripts/build-reviewed-lessons.js content/core-context-39.source.json && node scripts/validate-reviewed-lessons.js content/core-context-39.source.json",
     "audit:vocabulary": "node scripts/audit-vocabulary.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",

@@ -1,0 +1,683 @@
+{
+  "id": "core-context",
+  "category": "core-context",
+  "status": "reviewed",
+  "expectedLessons": 13,
+  "requiredCoreRange": [1, 100],
+  "requiredCoreRanks": [8, 12, 13, 15, 16, 17, 18, 19, 22, 24, 25, 26, 28, 30, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 46, 49, 50, 51, 52, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 69, 70, 71, 72, 76, 77, 78, 79, 81, 83, 84, 87, 88, 89, 91, 92, 94, 95, 96, 97, 98, 99, 100],
+  "title": {
+    "vi": "Tình huống Core 100",
+    "zhTW": "Core 100 情境補充"
+  },
+  "lessons": [
+    {
+      "id": "core-context-001",
+      "title": { "vi": "Người và công việc", "zhTW": "人物與工作" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Các bạn ở đây", "zhTW": "在這裡的大家" },
+          "zhTW": "你們都是住在這裡的越南人。",
+          "vi": "Các bạn đều là người Việt Nam ở đây.",
+          "wordRanks": [8, 12, 13],
+          "focusWords": [
+            { "zhTW": "你們", "vi": "các bạn" },
+            { "zhTW": "在這裡的越南人", "vi": "người Việt Nam ở đây" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Các bạn", "zhTW": "你們" },
+            { "role": "身分", "vi": "đều là người Việt Nam", "zhTW": "都是越南人" },
+            { "role": "地點", "vi": "ở đây", "zhTW": "在這裡" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Phải làm việc", "zhTW": "必須工作" },
+          "zhTW": "我很累，但還是必須工作。",
+          "vi": "Tôi mệt nhưng vẫn phải làm việc.",
+          "wordRanks": [15, 16, 17, 67],
+          "focusWords": [
+            { "zhTW": "我很累", "vi": "tôi mệt" },
+            { "zhTW": "但還是必須工作", "vi": "nhưng vẫn phải làm việc" }
+          ],
+          "breakdown": [
+            { "role": "狀態", "vi": "Tôi mệt", "zhTW": "我很累" },
+            { "role": "轉折", "vi": "nhưng", "zhTW": "但是" },
+            { "role": "責任", "vi": "vẫn phải làm việc", "zhTW": "還是必須工作" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đến rồi về", "zhTW": "抵達再回家" },
+          "zhTW": "我到公司後就回家。",
+          "vi": "Tôi đến công ty rồi về nhà.",
+          "wordRanks": [18, 19, 39],
+          "focusWords": [
+            { "zhTW": "到公司", "vi": "đến công ty" },
+            { "zhTW": "然後回家", "vi": "rồi về nhà" }
+          ],
+          "breakdown": [
+            { "role": "抵達", "vi": "Tôi đến công ty", "zhTW": "我到公司" },
+            { "role": "返回", "vi": "rồi về nhà", "zhTW": "然後回家" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-002",
+      "title": { "vi": "Đi ra và đi lên", "zhTW": "移動方向" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đi ra ngoài", "zhTW": "走到外面" },
+          "zhTW": "請走到外面。",
+          "vi": "Xin đi ra ngoài.",
+          "wordRanks": [22, 25],
+          "focusWords": [
+            { "zhTW": "請走", "vi": "xin đi" },
+            { "zhTW": "到外面", "vi": "ra ngoài" }
+          ],
+          "breakdown": [
+            { "role": "請求", "vi": "Xin đi", "zhTW": "請走" },
+            { "role": "方向", "vi": "ra ngoài", "zhTW": "到外面" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Lên xe", "zhTW": "上車" },
+          "zhTW": "我們一起上車。",
+          "vi": "Chúng ta cùng lên xe.",
+          "wordRanks": [24],
+          "focusWords": [
+            { "zhTW": "我們一起", "vi": "chúng ta cùng" },
+            { "zhTW": "上車", "vi": "lên xe" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Chúng ta cùng", "zhTW": "我們一起" },
+            { "role": "方向", "vi": "lên xe", "zhTW": "上車" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Về nhà", "zhTW": "回家" },
+          "zhTW": "我明天回家。",
+          "vi": "Ngày mai tôi về nhà.",
+          "wordRanks": [19, 39],
+          "focusWords": [
+            { "zhTW": "明天", "vi": "ngày mai" },
+            { "zhTW": "我回家", "vi": "tôi về nhà" }
+          ],
+          "breakdown": [
+            { "role": "時間", "vi": "Ngày mai", "zhTW": "明天" },
+            { "role": "動作", "vi": "tôi về nhà", "zhTW": "我回家" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-003",
+      "title": { "vi": "Biết và hỏi", "zhTW": "理解與提問" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Cái này là gì", "zhTW": "這是什麼" },
+          "zhTW": "你知道這是什麼嗎？",
+          "vi": "Bạn biết cái này là gì không?",
+          "wordRanks": [26, 30, 36],
+          "focusWords": [
+            { "zhTW": "你知道", "vi": "bạn biết" },
+            { "zhTW": "這是什麼", "vi": "cái này là gì" }
+          ],
+          "breakdown": [
+            { "role": "理解", "vi": "Bạn biết", "zhTW": "你知道" },
+            { "role": "物品", "vi": "cái này", "zhTW": "這個" },
+            { "role": "提問", "vi": "là gì không", "zhTW": "是什麼嗎" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Người nào", "zhTW": "哪一個人" },
+          "zhTW": "你看到哪一個人在那裡？",
+          "vi": "Bạn thấy người nào ở đó?",
+          "wordRanks": [12, 13, 28, 33],
+          "focusWords": [
+            { "zhTW": "你看到", "vi": "bạn thấy" },
+            { "zhTW": "哪一個人在那裡", "vi": "người nào ở đó" }
+          ],
+          "breakdown": [
+            { "role": "感知", "vi": "Bạn thấy", "zhTW": "你看到" },
+            { "role": "人物", "vi": "người nào", "zhTW": "哪一個人" },
+            { "role": "地點", "vi": "ở đó", "zhTW": "在那裡" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Ai ở đâu", "zhTW": "誰在哪裡" },
+          "zhTW": "誰正在什麼地方？",
+          "vi": "Ai đang ở đâu?",
+          "wordRanks": [13, 34, 35],
+          "focusWords": [
+            { "zhTW": "誰", "vi": "ai" },
+            { "zhTW": "正在什麼地方", "vi": "đang ở đâu" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Ai", "zhTW": "誰" },
+            { "role": "地點", "vi": "đang ở đâu", "zhTW": "正在什麼地方" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-004",
+      "title": { "vi": "Thói quen và nhà", "zhTW": "日常與住家" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Mỗi ngày", "zhTW": "每天學習" },
+          "zhTW": "我每天學一個新詞。",
+          "vi": "Mỗi ngày tôi học một từ mới.",
+          "wordRanks": [37, 38, 78],
+          "focusWords": [
+            { "zhTW": "每天", "vi": "mỗi ngày" },
+            { "zhTW": "學一個新詞", "vi": "học một từ mới" }
+          ],
+          "breakdown": [
+            { "role": "頻率", "vi": "Mỗi ngày", "zhTW": "每天" },
+            { "role": "學習", "vi": "tôi học", "zhTW": "我學" },
+            { "role": "內容", "vi": "một từ mới", "zhTW": "一個新詞" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Mới về nhà", "zhTW": "剛回到家" },
+          "zhTW": "我剛回家。",
+          "vi": "Tôi mới về nhà.",
+          "wordRanks": [19, 38, 39],
+          "focusWords": [
+            { "zhTW": "我剛", "vi": "tôi mới" },
+            { "zhTW": "回家", "vi": "về nhà" }
+          ],
+          "breakdown": [
+            { "role": "時間", "vi": "Tôi mới", "zhTW": "我剛" },
+            { "role": "動作", "vi": "về nhà", "zhTW": "回家" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Nhà gần trường", "zhTW": "家在學校附近" },
+          "zhTW": "我家在學校附近。",
+          "vi": "Nhà tôi ở gần trường.",
+          "wordRanks": [13, 39, 69],
+          "focusWords": [
+            { "zhTW": "我家", "vi": "nhà tôi" },
+            { "zhTW": "在學校附近", "vi": "ở gần trường" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Nhà tôi", "zhTW": "我家" },
+            { "role": "位置", "vi": "ở gần trường", "zhTW": "在學校附近" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-005",
+      "title": { "vi": "Cách xưng hô", "zhTW": "家庭稱呼" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Ông và bà", "zhTW": "爺爺奶奶" },
+          "zhTW": "爺爺和奶奶正在喝茶。",
+          "vi": "Ông và bà đang uống trà.",
+          "wordRanks": [41, 42],
+          "focusWords": [
+            { "zhTW": "爺爺和奶奶", "vi": "ông và bà" },
+            { "zhTW": "正在喝茶", "vi": "đang uống trà" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Ông và bà", "zhTW": "爺爺和奶奶" },
+            { "role": "動作", "vi": "đang uống trà", "zhTW": "正在喝茶" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Anh và chị", "zhTW": "哥哥姊姊" },
+          "zhTW": "哥哥和姊姊正在工作。",
+          "vi": "Anh và chị đang làm việc.",
+          "wordRanks": [17, 43, 44],
+          "focusWords": [
+            { "zhTW": "哥哥和姊姊", "vi": "anh và chị" },
+            { "zhTW": "正在工作", "vi": "đang làm việc" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Anh và chị", "zhTW": "哥哥和姊姊" },
+            { "role": "動作", "vi": "đang làm việc", "zhTW": "正在工作" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Con đang chơi", "zhTW": "孩子在玩" },
+          "zhTW": "孩子正在家裡玩。",
+          "vi": "Con đang chơi ở nhà.",
+          "wordRanks": [13, 39, 46, 79],
+          "focusWords": [
+            { "zhTW": "孩子正在玩", "vi": "con đang chơi" },
+            { "zhTW": "在家裡", "vi": "ở nhà" }
+          ],
+          "breakdown": [
+            { "role": "人物動作", "vi": "Con đang chơi", "zhTW": "孩子正在玩" },
+            { "role": "地點", "vi": "ở nhà", "zhTW": "在家裡" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-006",
+      "title": { "vi": "Thời gian và mái tóc", "zhTW": "時間與頭髮" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Tháng này", "zhTW": "這個月" },
+          "zhTW": "我這個月很忙。",
+          "vi": "Tháng này tôi rất bận.",
+          "wordRanks": [49],
+          "focusWords": [
+            { "zhTW": "這個月", "vi": "tháng này" },
+            { "zhTW": "我很忙", "vi": "tôi rất bận" }
+          ],
+          "breakdown": [
+            { "role": "時間", "vi": "Tháng này", "zhTW": "這個月" },
+            { "role": "狀態", "vi": "tôi rất bận", "zhTW": "我很忙" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Chín giờ", "zhTW": "現在九點" },
+          "zhTW": "現在九點。",
+          "vi": "Bây giờ là chín giờ.",
+          "wordRanks": [50],
+          "focusWords": [
+            { "zhTW": "現在", "vi": "bây giờ" },
+            { "zhTW": "是九點", "vi": "là chín giờ" }
+          ],
+          "breakdown": [
+            { "role": "現在", "vi": "Bây giờ", "zhTW": "現在" },
+            { "role": "時間", "vi": "là chín giờ", "zhTW": "是九點" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Tóc dài", "zhTW": "頭髮很長" },
+          "zhTW": "我頭上的頭髮有點長。",
+          "vi": "Tóc trên đầu tôi hơi dài.",
+          "wordRanks": [51, 52, 87],
+          "focusWords": [
+            { "zhTW": "我頭上的頭髮", "vi": "tóc trên đầu tôi" },
+            { "zhTW": "有點長", "vi": "hơi dài" }
+          ],
+          "breakdown": [
+            { "role": "部位", "vi": "Tóc trên đầu tôi", "zhTW": "我頭上的頭髮" },
+            { "role": "描述", "vi": "hơi dài", "zhTW": "有點長" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-007",
+      "title": { "vi": "Tai, mũi, miệng, răng", "zhTW": "五官與牙齒" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đau tai", "zhTW": "耳朵痛" },
+          "zhTW": "我的耳朵有點痛。",
+          "vi": "Tai tôi hơi đau.",
+          "wordRanks": [55, 66],
+          "focusWords": [
+            { "zhTW": "我的耳朵", "vi": "tai tôi" },
+            { "zhTW": "有點痛", "vi": "hơi đau" }
+          ],
+          "breakdown": [
+            { "role": "部位", "vi": "Tai tôi", "zhTW": "我的耳朵" },
+            { "role": "症狀", "vi": "hơi đau", "zhTW": "有點痛" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Nghẹt mũi", "zhTW": "鼻塞" },
+          "zhTW": "我的鼻子塞住了。",
+          "vi": "Mũi tôi bị nghẹt.",
+          "wordRanks": [56],
+          "focusWords": [
+            { "zhTW": "我的鼻子", "vi": "mũi tôi" },
+            { "zhTW": "塞住了", "vi": "bị nghẹt" }
+          ],
+          "breakdown": [
+            { "role": "部位", "vi": "Mũi tôi", "zhTW": "我的鼻子" },
+            { "role": "症狀", "vi": "bị nghẹt", "zhTW": "塞住了" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Khám răng miệng", "zhTW": "檢查口腔" },
+          "zhTW": "醫生正在檢查我的牙齒和嘴巴。",
+          "vi": "Bác sĩ đang khám răng và miệng cho tôi.",
+          "wordRanks": [57, 58, 64],
+          "focusWords": [
+            { "zhTW": "醫生正在檢查", "vi": "bác sĩ đang khám" },
+            { "zhTW": "我的牙齒和嘴巴", "vi": "răng và miệng cho tôi" }
+          ],
+          "breakdown": [
+            { "role": "人物動作", "vi": "Bác sĩ đang khám", "zhTW": "醫生正在檢查" },
+            { "role": "部位", "vi": "răng và miệng", "zhTW": "牙齒和嘴巴" },
+            { "role": "對象", "vi": "cho tôi", "zhTW": "為我" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-008",
+      "title": { "vi": "Tay, chân, lưng, bụng", "zhTW": "四肢與身體" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Mỏi tay chân", "zhTW": "手腳疲累" },
+          "zhTW": "我的手和腳都很累。",
+          "vi": "Tay và chân tôi đều mệt.",
+          "wordRanks": [59, 60, 67],
+          "focusWords": [
+            { "zhTW": "我的手和腳", "vi": "tay và chân tôi" },
+            { "zhTW": "都很累", "vi": "đều mệt" }
+          ],
+          "breakdown": [
+            { "role": "部位", "vi": "Tay và chân tôi", "zhTW": "我的手和腳" },
+            { "role": "狀態", "vi": "đều mệt", "zhTW": "都很累" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Đau lưng", "zhTW": "背痛" },
+          "zhTW": "我的背很痛。",
+          "vi": "Tôi bị đau lưng.",
+          "wordRanks": [61, 66],
+          "focusWords": [
+            { "zhTW": "我有", "vi": "tôi bị" },
+            { "zhTW": "背痛", "vi": "đau lưng" }
+          ],
+          "breakdown": [
+            { "role": "人物狀態", "vi": "Tôi bị", "zhTW": "我有" },
+            { "role": "症狀", "vi": "đau lưng", "zhTW": "背痛" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đau bụng", "zhTW": "肚子痛" },
+          "zhTW": "我的肚子有點痛。",
+          "vi": "Bụng tôi hơi đau.",
+          "wordRanks": [62, 66],
+          "focusWords": [
+            { "zhTW": "我的肚子", "vi": "bụng tôi" },
+            { "zhTW": "有點痛", "vi": "hơi đau" }
+          ],
+          "breakdown": [
+            { "role": "部位", "vi": "Bụng tôi", "zhTW": "我的肚子" },
+            { "role": "症狀", "vi": "hơi đau", "zhTW": "有點痛" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-009",
+      "title": { "vi": "Đi khám", "zhTW": "看診與用藥" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Uống thuốc", "zhTW": "醫生開藥" },
+          "zhTW": "醫生給我藥。",
+          "vi": "Bác sĩ cho tôi thuốc.",
+          "wordRanks": [63],
+          "focusWords": [
+            { "zhTW": "醫生給我", "vi": "bác sĩ cho tôi" },
+            { "zhTW": "藥", "vi": "thuốc" }
+          ],
+          "breakdown": [
+            { "role": "人物動作", "vi": "Bác sĩ cho tôi", "zhTW": "醫生給我" },
+            { "role": "物品", "vi": "thuốc", "zhTW": "藥" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Khám bệnh", "zhTW": "去看病" },
+          "zhTW": "我去看病。",
+          "vi": "Tôi đi khám bệnh.",
+          "wordRanks": [64, 65],
+          "focusWords": [
+            { "zhTW": "我去", "vi": "tôi đi" },
+            { "zhTW": "看病", "vi": "khám bệnh" }
+          ],
+          "breakdown": [
+            { "role": "人物動作", "vi": "Tôi đi", "zhTW": "我去" },
+            { "role": "目的", "vi": "khám bệnh", "zhTW": "看病" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đau và mệt", "zhTW": "又痛又累" },
+          "zhTW": "我又痛又累。",
+          "vi": "Tôi vừa đau vừa mệt.",
+          "wordRanks": [66, 67],
+          "focusWords": [
+            { "zhTW": "我", "vi": "tôi" },
+            { "zhTW": "又痛又累", "vi": "vừa đau vừa mệt" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Tôi", "zhTW": "我" },
+            { "role": "症狀", "vi": "vừa đau vừa mệt", "zhTW": "又痛又累" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-010",
+      "title": { "vi": "Trường, biển và núi", "zhTW": "學校、海邊與山" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Trường gần biển", "zhTW": "海邊的學校" },
+          "zhTW": "學校在海邊附近。",
+          "vi": "Trường ở gần biển.",
+          "wordRanks": [13, 69, 70],
+          "focusWords": [
+            { "zhTW": "學校", "vi": "trường" },
+            { "zhTW": "在海邊附近", "vi": "ở gần biển" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Trường", "zhTW": "學校" },
+            { "role": "位置", "vi": "ở gần biển", "zhTW": "在海邊附近" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Nhìn ra núi", "zhTW": "房間看得到山" },
+          "zhTW": "飯店有看得到山的房間。",
+          "vi": "Khách sạn có phòng nhìn ra núi.",
+          "wordRanks": [22, 71, 72],
+          "focusWords": [
+            { "zhTW": "飯店有房間", "vi": "khách sạn có phòng" },
+            { "zhTW": "看得到山", "vi": "nhìn ra núi" }
+          ],
+          "breakdown": [
+            { "role": "地點物品", "vi": "Khách sạn có phòng", "zhTW": "飯店有房間" },
+            { "role": "景觀", "vi": "nhìn ra núi", "zhTW": "看得到山" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Ngủ trong phòng", "zhTW": "在房間睡覺" },
+          "zhTW": "我想在房間睡覺。",
+          "vi": "Tôi muốn ngủ trong phòng.",
+          "wordRanks": [72, 76],
+          "focusWords": [
+            { "zhTW": "我想睡覺", "vi": "tôi muốn ngủ" },
+            { "zhTW": "在房間", "vi": "trong phòng" }
+          ],
+          "breakdown": [
+            { "role": "意願", "vi": "Tôi muốn ngủ", "zhTW": "我想睡覺" },
+            { "role": "地點", "vi": "trong phòng", "zhTW": "在房間" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-011",
+      "title": { "vi": "Học và chơi", "zhTW": "學習與活動" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Chạy buổi sáng", "zhTW": "早上跑步" },
+          "zhTW": "我每天早上跑步。",
+          "vi": "Tôi chạy mỗi buổi sáng.",
+          "wordRanks": [37, 77],
+          "focusWords": [
+            { "zhTW": "我跑步", "vi": "tôi chạy" },
+            { "zhTW": "每天早上", "vi": "mỗi buổi sáng" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Tôi chạy", "zhTW": "我跑步" },
+            { "role": "頻率", "vi": "mỗi buổi sáng", "zhTW": "每天早上" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Học ở trường", "zhTW": "在學校學習玩耍" },
+          "zhTW": "孩子們在學校學習和玩耍。",
+          "vi": "Trẻ em học và chơi ở trường.",
+          "wordRanks": [13, 69, 78, 79],
+          "focusWords": [
+            { "zhTW": "孩子們學習和玩耍", "vi": "trẻ em học và chơi" },
+            { "zhTW": "在學校", "vi": "ở trường" }
+          ],
+          "breakdown": [
+            { "role": "人物動作", "vi": "Trẻ em học và chơi", "zhTW": "孩子們學習和玩耍" },
+            { "role": "地點", "vi": "ở trường", "zhTW": "在學校" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Trẻ đang khóc", "zhTW": "孩子在哭" },
+          "zhTW": "那個孩子正在哭。",
+          "vi": "Đứa trẻ đang khóc.",
+          "wordRanks": [81],
+          "focusWords": [
+            { "zhTW": "那個孩子", "vi": "đứa trẻ" },
+            { "zhTW": "正在哭", "vi": "đang khóc" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Đứa trẻ", "zhTW": "那個孩子" },
+            { "role": "動作", "vi": "đang khóc", "zhTW": "正在哭" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-012",
+      "title": { "vi": "Miêu tả", "zhTW": "外觀與評價" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Xấu rồi tốt", "zhTW": "壞天氣轉好" },
+          "zhTW": "今天天氣不好，但明天會變好。",
+          "vi": "Thời tiết hôm nay xấu nhưng ngày mai sẽ tốt.",
+          "wordRanks": [15, 83, 84],
+          "focusWords": [
+            { "zhTW": "今天天氣不好", "vi": "thời tiết hôm nay xấu" },
+            { "zhTW": "但明天會變好", "vi": "nhưng ngày mai sẽ tốt" }
+          ],
+          "breakdown": [
+            { "role": "現在", "vi": "Thời tiết hôm nay xấu", "zhTW": "今天天氣不好" },
+            { "role": "未來", "vi": "nhưng ngày mai sẽ tốt", "zhTW": "但明天會變好" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Tóc dài và ngắn", "zhTW": "長髮與短髮" },
+          "zhTW": "姊姊頭髮長，哥哥頭髮短。",
+          "vi": "Tóc chị dài, tóc anh ngắn.",
+          "wordRanks": [43, 44, 52, 87, 88],
+          "focusWords": [
+            { "zhTW": "姊姊頭髮長", "vi": "tóc chị dài" },
+            { "zhTW": "哥哥頭髮短", "vi": "tóc anh ngắn" }
+          ],
+          "breakdown": [
+            { "role": "描述一", "vi": "Tóc chị dài", "zhTW": "姊姊頭髮長" },
+            { "role": "描述二", "vi": "tóc anh ngắn", "zhTW": "哥哥頭髮短" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Núi cao", "zhTW": "高山" },
+          "zhTW": "這座山很高。",
+          "vi": "Ngọn núi này rất cao.",
+          "wordRanks": [71, 89],
+          "focusWords": [
+            { "zhTW": "這座山", "vi": "ngọn núi này" },
+            { "zhTW": "很高", "vi": "rất cao" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Ngọn núi này", "zhTW": "這座山" },
+            { "role": "描述", "vi": "rất cao", "zhTW": "很高" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-context-013",
+      "title": { "vi": "Đồ dùng", "zhTW": "家具與工具" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Bàn ghế cạnh giường", "zhTW": "床邊的桌椅" },
+          "zhTW": "桌子和椅子在床旁邊。",
+          "vi": "Bàn và ghế ở cạnh giường.",
+          "wordRanks": [13, 91, 92, 94],
+          "focusWords": [
+            { "zhTW": "桌子和椅子", "vi": "bàn và ghế" },
+            { "zhTW": "在床旁邊", "vi": "ở cạnh giường" }
+          ],
+          "breakdown": [
+            { "role": "物品", "vi": "Bàn và ghế", "zhTW": "桌子和椅子" },
+            { "role": "位置", "vi": "ở cạnh giường", "zhTW": "在床旁邊" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Dao kéo trên bàn", "zhTW": "桌上的刀剪" },
+          "zhTW": "刀和剪刀在桌上。",
+          "vi": "Dao và kéo ở trên bàn.",
+          "wordRanks": [13, 91, 95, 96],
+          "focusWords": [
+            { "zhTW": "刀和剪刀", "vi": "dao và kéo" },
+            { "zhTW": "在桌上", "vi": "ở trên bàn" }
+          ],
+          "breakdown": [
+            { "role": "工具", "vi": "Dao và kéo", "zhTW": "刀和剪刀" },
+            { "role": "位置", "vi": "ở trên bàn", "zhTW": "在桌上" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đồ học tập", "zhTW": "書寫用品" },
+          "zhTW": "筆、筆記本和紙在機器旁邊。",
+          "vi": "Bút, vở và giấy ở cạnh máy.",
+          "wordRanks": [13, 97, 98, 99, 100],
+          "focusWords": [
+            { "zhTW": "筆、筆記本和紙", "vi": "bút, vở và giấy" },
+            { "zhTW": "在機器旁邊", "vi": "ở cạnh máy" }
+          ],
+          "breakdown": [
+            { "role": "用品", "vi": "Bút, vở và giấy", "zhTW": "筆、筆記本和紙" },
+            { "role": "位置", "vi": "ở cạnh máy", "zhTW": "在機器旁邊" }
+          ]
+        }
+      ]
+    }
+  ]
+}

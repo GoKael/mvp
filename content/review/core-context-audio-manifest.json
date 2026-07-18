@@ -1,0 +1,631 @@
+{
+  "model": "gemini-2.5-pro-tts",
+  "status": "reviewed",
+  "expected": 78,
+  "assets": [
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你們都是住在這裡的越南人。",
+      "output": "assets/audio/candidates/core-context/core-context-001-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Các bạn đều là người Việt Nam ở đây.",
+      "output": "assets/audio/candidates/core-context/core-context-001-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我很累，但還是必須工作。",
+      "output": "assets/audio/candidates/core-context/core-context-001-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi mệt nhưng vẫn phải làm việc.",
+      "output": "assets/audio/candidates/core-context/core-context-001-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我到公司後就回家。",
+      "output": "assets/audio/candidates/core-context/core-context-001-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi đến công ty rồi về nhà.",
+      "output": "assets/audio/candidates/core-context/core-context-001-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請走到外面。",
+      "output": "assets/audio/candidates/core-context/core-context-002-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin đi ra ngoài.",
+      "output": "assets/audio/candidates/core-context/core-context-002-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我們一起上車。",
+      "output": "assets/audio/candidates/core-context/core-context-002-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chúng ta cùng lên xe.",
+      "output": "assets/audio/candidates/core-context/core-context-002-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我明天回家。",
+      "output": "assets/audio/candidates/core-context/core-context-002-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Ngày mai tôi về nhà.",
+      "output": "assets/audio/candidates/core-context/core-context-002-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你知道這是什麼嗎？",
+      "output": "assets/audio/candidates/core-context/core-context-003-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn biết cái này là gì không?",
+      "output": "assets/audio/candidates/core-context/core-context-003-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你看到哪一個人在那裡？",
+      "output": "assets/audio/candidates/core-context/core-context-003-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn thấy người nào ở đó?",
+      "output": "assets/audio/candidates/core-context/core-context-003-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "誰正在什麼地方？",
+      "output": "assets/audio/candidates/core-context/core-context-003-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Ai đang ở đâu?",
+      "output": "assets/audio/candidates/core-context/core-context-003-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我每天學一個新詞。",
+      "output": "assets/audio/candidates/core-context/core-context-004-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Mỗi ngày tôi học một từ mới.",
+      "output": "assets/audio/candidates/core-context/core-context-004-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我剛回家。",
+      "output": "assets/audio/candidates/core-context/core-context-004-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi mới về nhà.",
+      "output": "assets/audio/candidates/core-context/core-context-004-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我家在學校附近。",
+      "output": "assets/audio/candidates/core-context/core-context-004-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Nhà tôi ở gần trường.",
+      "output": "assets/audio/candidates/core-context/core-context-004-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "爺爺和奶奶正在喝茶。",
+      "output": "assets/audio/candidates/core-context/core-context-005-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Ông và bà đang uống trà.",
+      "output": "assets/audio/candidates/core-context/core-context-005-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "哥哥和姊姊正在工作。",
+      "output": "assets/audio/candidates/core-context/core-context-005-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Anh và chị đang làm việc.",
+      "output": "assets/audio/candidates/core-context/core-context-005-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "孩子正在家裡玩。",
+      "output": "assets/audio/candidates/core-context/core-context-005-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Con đang chơi ở nhà.",
+      "output": "assets/audio/candidates/core-context/core-context-005-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我這個月很忙。",
+      "output": "assets/audio/candidates/core-context/core-context-006-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tháng này tôi rất bận.",
+      "output": "assets/audio/candidates/core-context/core-context-006-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "現在九點。",
+      "output": "assets/audio/candidates/core-context/core-context-006-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bây giờ là chín giờ.",
+      "output": "assets/audio/candidates/core-context/core-context-006-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我頭上的頭髮有點長。",
+      "output": "assets/audio/candidates/core-context/core-context-006-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tóc trên đầu tôi hơi dài.",
+      "output": "assets/audio/candidates/core-context/core-context-006-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的耳朵有點痛。",
+      "output": "assets/audio/candidates/core-context/core-context-007-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tai tôi hơi đau.",
+      "output": "assets/audio/candidates/core-context/core-context-007-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的鼻子塞住了。",
+      "output": "assets/audio/candidates/core-context/core-context-007-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Mũi tôi bị nghẹt.",
+      "output": "assets/audio/candidates/core-context/core-context-007-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "醫生正在檢查我的牙齒和嘴巴。",
+      "output": "assets/audio/candidates/core-context/core-context-007-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bác sĩ đang khám răng và miệng cho tôi.",
+      "output": "assets/audio/candidates/core-context/core-context-007-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的手和腳都很累。",
+      "output": "assets/audio/candidates/core-context/core-context-008-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tay và chân tôi đều mệt.",
+      "output": "assets/audio/candidates/core-context/core-context-008-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的背很痛。",
+      "output": "assets/audio/candidates/core-context/core-context-008-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi bị đau lưng.",
+      "output": "assets/audio/candidates/core-context/core-context-008-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的肚子有點痛。",
+      "output": "assets/audio/candidates/core-context/core-context-008-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bụng tôi hơi đau.",
+      "output": "assets/audio/candidates/core-context/core-context-008-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "醫生給我藥。",
+      "output": "assets/audio/candidates/core-context/core-context-009-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bác sĩ cho tôi thuốc.",
+      "output": "assets/audio/candidates/core-context/core-context-009-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我去看病。",
+      "output": "assets/audio/candidates/core-context/core-context-009-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi đi khám bệnh.",
+      "output": "assets/audio/candidates/core-context/core-context-009-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我又痛又累。",
+      "output": "assets/audio/candidates/core-context/core-context-009-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi vừa đau vừa mệt.",
+      "output": "assets/audio/candidates/core-context/core-context-009-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "學校在海邊附近。",
+      "output": "assets/audio/candidates/core-context/core-context-010-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Trường ở gần biển.",
+      "output": "assets/audio/candidates/core-context/core-context-010-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "飯店有看得到山的房間。",
+      "output": "assets/audio/candidates/core-context/core-context-010-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Khách sạn có phòng nhìn ra núi.",
+      "output": "assets/audio/candidates/core-context/core-context-010-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想在房間睡覺。",
+      "output": "assets/audio/candidates/core-context/core-context-010-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn ngủ trong phòng.",
+      "output": "assets/audio/candidates/core-context/core-context-010-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我每天早上跑步。",
+      "output": "assets/audio/candidates/core-context/core-context-011-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi chạy mỗi buổi sáng.",
+      "output": "assets/audio/candidates/core-context/core-context-011-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "孩子們在學校學習和玩耍。",
+      "output": "assets/audio/candidates/core-context/core-context-011-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Trẻ em học và chơi ở trường.",
+      "output": "assets/audio/candidates/core-context/core-context-011-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "那個孩子正在哭。",
+      "output": "assets/audio/candidates/core-context/core-context-011-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Đứa trẻ đang khóc.",
+      "output": "assets/audio/candidates/core-context/core-context-011-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "今天天氣不好，但明天會變好。",
+      "output": "assets/audio/candidates/core-context/core-context-012-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Thời tiết hôm nay xấu nhưng ngày mai sẽ tốt.",
+      "output": "assets/audio/candidates/core-context/core-context-012-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "姊姊頭髮長，哥哥頭髮短。",
+      "output": "assets/audio/candidates/core-context/core-context-012-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tóc chị dài, tóc anh ngắn.",
+      "output": "assets/audio/candidates/core-context/core-context-012-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這座山很高。",
+      "output": "assets/audio/candidates/core-context/core-context-012-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Ngọn núi này rất cao.",
+      "output": "assets/audio/candidates/core-context/core-context-012-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "桌子和椅子在床旁邊。",
+      "output": "assets/audio/candidates/core-context/core-context-013-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bàn và ghế ở cạnh giường.",
+      "output": "assets/audio/candidates/core-context/core-context-013-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "刀和剪刀在桌上。",
+      "output": "assets/audio/candidates/core-context/core-context-013-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Dao và kéo ở trên bàn.",
+      "output": "assets/audio/candidates/core-context/core-context-013-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "筆、筆記本和紙在機器旁邊。",
+      "output": "assets/audio/candidates/core-context/core-context-013-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bút, vở và giấy ở cạnh máy.",
+      "output": "assets/audio/candidates/core-context/core-context-013-3-vi.mp3",
+      "generated": true
+    }
+  ]
+}
