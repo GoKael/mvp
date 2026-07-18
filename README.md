@@ -40,7 +40,7 @@ node scripts/test-core.mjs
 
 Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查。人工抽聽前只會進入只讀詞典，不會開放播放、學習狀態或複習。
 
-五個 reviewed 情境候選包位於 `content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`、`content/health-24.source.json`、`content/social-work-30.source.json`，合計連結 Core 151–300 全部 150 詞。執行對應的 `npm run build:*` 會生成 reviewed 課程、雙語音訊工作與 manifest 到 `content/review/`；候選內容不會寫入正式 `server/data/lessons.json`，也不會被靜態部署。
+六個 reviewed 情境候選包位於 `content/basics-30.source.json`、`content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`、`content/health-24.source.json`、`content/social-work-30.source.json`，合計連結 Core 101–300 全部 200 個 reviewed 詞。執行對應的 `npm run build:*` 會生成 reviewed 課程、雙語音訊工作與 manifest 到 `content/review/`；候選內容不會寫入正式 `server/data/lessons.json`，也不會被靜態部署。
 
 建立任一批次的可發布 JSON 與 200 個音檔任務：
 

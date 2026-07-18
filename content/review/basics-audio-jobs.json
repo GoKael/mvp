@@ -1,0 +1,422 @@
+[
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我和你一起去。",
+    "output": "assets/audio/candidates/basics/basics-001-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đi cùng bạn.",
+    "output": "assets/audio/candidates/basics/basics-001-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們會和他們見面。",
+    "output": "assets/audio/candidates/basics/basics-001-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi sẽ gặp họ.",
+    "output": "assets/audio/candidates/basics/basics-001-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們一起為自己做準備。",
+    "output": "assets/audio/candidates/basics/basics-001-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng ta cùng chuẩn bị cho mình.",
+    "output": "assets/audio/candidates/basics/basics-001-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我爸爸叫明。",
+    "output": "assets/audio/candidates/basics/basics-002-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bố tôi tên là Minh.",
+    "output": "assets/audio/candidates/basics/basics-002-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我媽媽和朋友們一起去。",
+    "output": "assets/audio/candidates/basics/basics-002-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Mẹ tôi đi cùng bạn bè.",
+    "output": "assets/audio/candidates/basics/basics-002-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "你叫什麼名字？",
+    "output": "assets/audio/candidates/basics/basics-002-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn tên là gì?",
+    "output": "assets/audio/candidates/basics/basics-002-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "這個多少錢？",
+    "output": "assets/audio/candidates/basics/basics-003-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái này giá bao nhiêu?",
+    "output": "assets/audio/candidates/basics/basics-003-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "為什麼計畫改了？現在怎麼樣？",
+    "output": "assets/audio/candidates/basics/basics-003-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tại sao kế hoạch thay đổi? Bây giờ thế nào?",
+    "output": "assets/audio/candidates/basics/basics-003-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們什麼時候去？幾點？",
+    "output": "assets/audio/candidates/basics/basics-003-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bao giờ chúng ta đi? Lúc mấy giờ?",
+    "output": "assets/audio/candidates/basics/basics-003-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "請讓我問一下。",
+    "output": "assets/audio/candidates/basics/basics-004-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xin cho tôi hỏi một chút.",
+    "output": "assets/audio/candidates/basics/basics-004-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "謝謝你，也很抱歉打擾了。",
+    "output": "assets/audio/candidates/basics/basics-004-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cảm ơn bạn và xin lỗi vì đã làm phiền.",
+    "output": "assets/audio/candidates/basics/basics-004-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "北部常說 vâng，南部常說 dạ。",
+    "output": "assets/audio/candidates/basics/basics-004-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Người miền Bắc thường nói vâng, miền Nam thường nói dạ.",
+    "output": "assets/audio/candidates/basics/basics-004-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我需要兩張票和三瓶水。",
+    "output": "assets/audio/candidates/basics/basics-005-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi cần hai vé và ba chai nước.",
+    "output": "assets/audio/candidates/basics/basics-005-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "這張桌子有四張椅子和六個杯子。",
+    "output": "assets/audio/candidates/basics/basics-005-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bàn này có bốn ghế và sáu ly.",
+    "output": "assets/audio/candidates/basics/basics-005-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "七號公車八點到。",
+    "output": "assets/audio/candidates/basics/basics-005-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xe buýt số bảy đến lúc tám giờ.",
+    "output": "assets/audio/candidates/basics/basics-005-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我的房間在九樓。",
+    "output": "assets/audio/candidates/basics/basics-006-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Phòng của tôi ở tầng chín.",
+    "output": "assets/audio/candidates/basics/basics-006-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們這組有十個人。",
+    "output": "assets/audio/candidates/basics/basics-006-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhóm chúng ta có mười người.",
+    "output": "assets/audio/candidates/basics/basics-006-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "這張票十萬越南盾。",
+    "output": "assets/audio/candidates/basics/basics-006-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Vé này giá một trăm nghìn đồng.",
+    "output": "assets/audio/candidates/basics/basics-006-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我昨天很忙，今天有空。",
+    "output": "assets/audio/candidates/basics/basics-007-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hôm qua tôi bận, hôm nay tôi rảnh.",
+    "output": "assets/audio/candidates/basics/basics-007-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們明天早上去。",
+    "output": "assets/audio/candidates/basics/basics-007-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ngày mai chúng ta đi vào buổi sáng.",
+    "output": "assets/audio/candidates/basics/basics-007-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "現在幾點？",
+    "output": "assets/audio/candidates/basics/basics-007-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bây giờ là mấy giờ?",
+    "output": "assets/audio/candidates/basics/basics-007-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我中午休息。",
+    "output": "assets/audio/candidates/basics/basics-008-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi nghỉ vào buổi trưa.",
+    "output": "assets/audio/candidates/basics/basics-008-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我下午工作。",
+    "output": "assets/audio/candidates/basics/basics-008-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi làm việc vào buổi chiều.",
+    "output": "assets/audio/candidates/basics/basics-008-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們晚上回家。",
+    "output": "assets/audio/candidates/basics/basics-008-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng tôi về nhà vào buổi tối.",
+    "output": "assets/audio/candidates/basics/basics-008-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "請等我五分鐘。",
+    "output": "assets/audio/candidates/basics/basics-009-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xin đợi tôi năm phút.",
+    "output": "assets/audio/candidates/basics/basics-009-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我這週工作，週末休息。",
+    "output": "assets/audio/candidates/basics/basics-009-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tuần này tôi làm việc, cuối tuần tôi nghỉ.",
+    "output": "assets/audio/candidates/basics/basics-009-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我早到，你晚到。",
+    "output": "assets/audio/candidates/basics/basics-009-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi đến sớm, bạn đến muộn.",
+    "output": "assets/audio/candidates/basics/basics-009-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我沒有帶夠錢。",
+    "output": "assets/audio/candidates/basics/basics-010-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi không mang đủ tiền.",
+    "output": "assets/audio/candidates/basics/basics-010-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "這支手機兩百萬越南盾。",
+    "output": "assets/audio/candidates/basics/basics-010-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Điện thoại này giá hai triệu đồng.",
+    "output": "assets/audio/candidates/basics/basics-010-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "那個太貴，這個比較便宜。",
+    "output": "assets/audio/candidates/basics/basics-010-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Cái kia quá đắt, cái này rẻ hơn.",
+    "output": "assets/audio/candidates/basics/basics-010-3-vi.mp3"
+  }
+]
