@@ -28,6 +28,8 @@ npm start
 ```bash
 node scripts/build-data.js
 node scripts/validate-data.js --strict-audio
+node scripts/build-transport-lessons.js
+node scripts/validate-transport-lessons.js
 node scripts/audit-vocabulary.js
 node scripts/test-core.mjs
 ```
@@ -37,6 +39,8 @@ node scripts/test-core.mjs
 `rank` 是穩定的 Lexa 內容目錄位置，不是要求使用者依序背誦的解鎖順序。實際課程依口語頻率、情境必要性與個人弱點選詞。
 
 Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查。人工抽聽前只會進入只讀詞典，不會開放播放、學習狀態或複習。
+
+「交通與問路」的 10 課、30 句來源位於 `content/transport-30.source.json`。執行 `npm run build:transport` 會生成 reviewed 課程、60 筆雙語音訊工作與 manifest 到 `content/review/`；這批內容不會寫入正式 `server/data/lessons.json`，也不會被靜態部署。
 
 建立任一批次的可發布 JSON 與 200 個音檔任務：
 
@@ -98,6 +102,21 @@ npm --prefix server run promote:core -- \
 ```
 
 預設使用 Gemini 2.5 Pro TTS、Zephyr、`vi-VN / cmn-TW`，請求間隔 6.5 秒。瀏覽器不會在執行時生成或替代音訊。
+
+產生 reviewed 交通課程的 60 個候選音檔：
+
+```bash
+npm run build:transport
+.venv/bin/python scripts/generate-audio.py \
+  --kind lesson \
+  --jobs-file content/review/transport-audio-jobs.json \
+  --manifest-file content/review/transport-audio-manifest.json \
+  --project YOUR_PROJECT_ID
+node scripts/validate-transport-lessons.js
+node scripts/validate-core-batch-audio.js \
+  content/review/transport-audio-manifest.json \
+  --allow-any-size
+```
 
 只重生被人工標記的單字時，可以用文字或檔名篩選：
 

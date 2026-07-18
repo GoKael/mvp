@@ -1,0 +1,570 @@
+{
+  "id": "transport",
+  "category": "transport",
+  "status": "reviewed",
+  "title": {
+    "vi": "Giao thông và chỉ đường",
+    "zhTW": "交通與問路"
+  },
+  "lessons": [
+    {
+      "id": "transport-001",
+      "title": { "vi": "Đến sân bay", "zhTW": "前往機場" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Sân bay", "zhTW": "機場" },
+          "zhTW": "我需要在六點前到機場。",
+          "vi": "Tôi cần đến sân bay trước sáu giờ.",
+          "wordRanks": [155, 168],
+          "focusWords": [
+            { "zhTW": "機場", "vi": "sân bay" },
+            { "zhTW": "六點前", "vi": "trước sáu giờ" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Tôi", "zhTW": "我" },
+            { "role": "需求", "vi": "cần đến", "zhTW": "需要到" },
+            { "role": "地點", "vi": "sân bay", "zhTW": "機場" },
+            { "role": "時間", "vi": "trước sáu giờ", "zhTW": "六點前" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Taxi", "zhTW": "計程車" },
+          "zhTW": "搭計程車到機場要多久？",
+          "vi": "Đi taxi đến sân bay mất bao lâu?",
+          "wordRanks": [154, 155, 183],
+          "focusWords": [
+            { "zhTW": "搭計程車", "vi": "đi taxi" },
+            { "zhTW": "到機場", "vi": "đến sân bay" },
+            { "zhTW": "要多久", "vi": "mất bao lâu" }
+          ],
+          "breakdown": [
+            { "role": "方式", "vi": "Đi taxi", "zhTW": "搭計程車" },
+            { "role": "目的地", "vi": "đến sân bay", "zhTW": "到機場" },
+            { "role": "提問", "vi": "mất bao lâu", "zhTW": "要多久" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Xe buýt", "zhTW": "公車" },
+          "zhTW": "去機場的公車在哪裡搭？",
+          "vi": "Xe buýt ra sân bay ở đâu?",
+          "wordRanks": [153, 155],
+          "focusWords": [
+            { "zhTW": "公車", "vi": "xe buýt" },
+            { "zhTW": "去機場", "vi": "ra sân bay" },
+            { "zhTW": "在哪裡", "vi": "ở đâu" }
+          ],
+          "breakdown": [
+            { "role": "交通", "vi": "Xe buýt", "zhTW": "公車" },
+            { "role": "目的地", "vi": "ra sân bay", "zhTW": "去機場" },
+            { "role": "提問", "vi": "ở đâu", "zhTW": "在哪裡" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-002",
+      "title": { "vi": "Nhà ga và vé", "zhTW": "車站與車票" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Ga tàu", "zhTW": "火車站" },
+          "zhTW": "火車站在這附近嗎？",
+          "vi": "Ga tàu ở gần đây không?",
+          "wordRanks": [156, 166],
+          "focusWords": [
+            { "zhTW": "火車站", "vi": "ga tàu" },
+            { "zhTW": "這附近", "vi": "gần đây" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Ga tàu", "zhTW": "火車站" },
+            { "role": "距離", "vi": "ở gần đây", "zhTW": "在這附近" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Mua vé", "zhTW": "買票" },
+          "zhTW": "我想買兩張去峴港的票。",
+          "vi": "Tôi muốn mua hai vé đi Đà Nẵng.",
+          "wordRanks": [158],
+          "focusWords": [
+            { "zhTW": "想買", "vi": "muốn mua" },
+            { "zhTW": "兩張票", "vi": "hai vé" },
+            { "zhTW": "去峴港", "vi": "đi Đà Nẵng" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Tôi", "zhTW": "我" },
+            { "role": "意願", "vi": "muốn mua", "zhTW": "想買" },
+            { "role": "數量", "vi": "hai vé", "zhTW": "兩張票" },
+            { "role": "目的地", "vi": "đi Đà Nẵng", "zhTW": "去峴港" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Bến xe", "zhTW": "客運站" },
+          "zhTW": "客運站在右手邊。",
+          "vi": "Bến xe ở phía bên phải.",
+          "wordRanks": [157, 164],
+          "focusWords": [
+            { "zhTW": "客運站", "vi": "bến xe" },
+            { "zhTW": "右手邊", "vi": "bên phải" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Bến xe", "zhTW": "客運站" },
+            { "role": "方位", "vi": "ở phía bên phải", "zhTW": "在右手邊" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-003",
+      "title": { "vi": "Hỏi đường", "zhTW": "開口問路" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Chỉ đường", "zhTW": "指路" },
+          "zhTW": "請告訴我去飯店的路。",
+          "vi": "Xin chỉ đường đến khách sạn cho tôi.",
+          "wordRanks": [159],
+          "focusWords": [
+            { "zhTW": "請告訴我", "vi": "xin chỉ đường" },
+            { "zhTW": "去飯店", "vi": "đến khách sạn" },
+            { "zhTW": "給我", "vi": "cho tôi" }
+          ],
+          "breakdown": [
+            { "role": "禮貌", "vi": "Xin", "zhTW": "請" },
+            { "role": "需求", "vi": "chỉ đường", "zhTW": "指路" },
+            { "role": "目的地", "vi": "đến khách sạn", "zhTW": "去飯店" },
+            { "role": "對象", "vi": "cho tôi", "zhTW": "給我" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Đi thẳng", "zhTW": "直走" },
+          "zhTW": "請一直直走大約兩百公尺。",
+          "vi": "Bạn cứ đi thẳng khoảng hai trăm mét.",
+          "wordRanks": [165, 185],
+          "focusWords": [
+            { "zhTW": "一直直走", "vi": "cứ đi thẳng" },
+            { "zhTW": "大約", "vi": "khoảng" },
+            { "zhTW": "兩百公尺", "vi": "hai trăm mét" }
+          ],
+          "breakdown": [
+            { "role": "對象", "vi": "Bạn", "zhTW": "你" },
+            { "role": "動作", "vi": "cứ đi thẳng", "zhTW": "一直直走" },
+            { "role": "距離", "vi": "khoảng hai trăm mét", "zhTW": "大約兩百公尺" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Rẽ trái", "zhTW": "左轉" },
+          "zhTW": "在下一個十字路口左轉。",
+          "vi": "Rẽ bên trái ở ngã tư tiếp theo.",
+          "wordRanks": [163, 181],
+          "focusWords": [
+            { "zhTW": "左轉", "vi": "rẽ bên trái" },
+            { "zhTW": "下一個十字路口", "vi": "ngã tư tiếp theo" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Rẽ bên trái", "zhTW": "左轉" },
+            { "role": "地點", "vi": "ở ngã tư tiếp theo", "zhTW": "在下一個十字路口" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-004",
+      "title": { "vi": "Rẽ và đi qua", "zhTW": "轉彎與通過" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Rẽ phải", "zhTW": "右轉" },
+          "zhTW": "過橋後右轉。",
+          "vi": "Rẽ bên phải sau khi qua cầu.",
+          "wordRanks": [164, 169, 181, 182],
+          "focusWords": [
+            { "zhTW": "右轉", "vi": "rẽ bên phải" },
+            { "zhTW": "過橋", "vi": "qua cầu" },
+            { "zhTW": "之後", "vi": "sau khi" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Rẽ bên phải", "zhTW": "右轉" },
+            { "role": "順序", "vi": "sau khi", "zhTW": "之後" },
+            { "role": "地標", "vi": "qua cầu", "zhTW": "過橋" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Qua đường", "zhTW": "過馬路" },
+          "zhTW": "直走，然後在綠燈時過馬路。",
+          "vi": "Đi thẳng rồi qua đường khi đèn xanh.",
+          "wordRanks": [159, 165, 182],
+          "focusWords": [
+            { "zhTW": "直走", "vi": "đi thẳng" },
+            { "zhTW": "過馬路", "vi": "qua đường" },
+            { "zhTW": "綠燈時", "vi": "khi đèn xanh" }
+          ],
+          "breakdown": [
+            { "role": "第一步", "vi": "Đi thẳng", "zhTW": "直走" },
+            { "role": "第二步", "vi": "rồi qua đường", "zhTW": "然後過馬路" },
+            { "role": "時機", "vi": "khi đèn xanh", "zhTW": "綠燈時" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Quầy bán vé", "zhTW": "售票櫃台" },
+          "zhTW": "售票櫃台在出入口旁邊。",
+          "vi": "Quầy bán vé ở bên cạnh cửa ra vào.",
+          "wordRanks": [158, 173],
+          "focusWords": [
+            { "zhTW": "售票櫃台", "vi": "quầy bán vé" },
+            { "zhTW": "旁邊", "vi": "bên cạnh" },
+            { "zhTW": "出入口", "vi": "cửa ra vào" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Quầy bán vé", "zhTW": "售票櫃台" },
+            { "role": "方位", "vi": "ở bên cạnh", "zhTW": "在旁邊" },
+            { "role": "地標", "vi": "cửa ra vào", "zhTW": "出入口" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-005",
+      "title": { "vi": "Bản đồ và địa chỉ", "zhTW": "地圖與地址" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Bản đồ", "zhTW": "地圖" },
+          "zhTW": "你有城市地圖嗎？",
+          "vi": "Bạn có bản đồ thành phố không?",
+          "wordRanks": [161],
+          "focusWords": [
+            { "zhTW": "你有", "vi": "bạn có" },
+            { "zhTW": "城市地圖", "vi": "bản đồ thành phố" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Bạn", "zhTW": "你" },
+            { "role": "擁有", "vi": "có", "zhTW": "有" },
+            { "role": "物品", "vi": "bản đồ thành phố", "zhTW": "城市地圖" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Địa chỉ", "zhTW": "地址" },
+          "zhTW": "請幫我寫下這個地址。",
+          "vi": "Xin viết địa chỉ này cho tôi.",
+          "wordRanks": [162],
+          "focusWords": [
+            { "zhTW": "寫下", "vi": "viết" },
+            { "zhTW": "這個地址", "vi": "địa chỉ này" },
+            { "zhTW": "幫我", "vi": "cho tôi" }
+          ],
+          "breakdown": [
+            { "role": "禮貌", "vi": "Xin", "zhTW": "請" },
+            { "role": "動作", "vi": "viết", "zhTW": "寫下" },
+            { "role": "內容", "vi": "địa chỉ này", "zhTW": "這個地址" },
+            { "role": "對象", "vi": "cho tôi", "zhTW": "幫我" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Tìm địa chỉ", "zhTW": "尋找地址" },
+          "zhTW": "司機找不到這個地址。",
+          "vi": "Tài xế không tìm thấy địa chỉ.",
+          "wordRanks": [162],
+          "focusWords": [
+            { "zhTW": "司機", "vi": "tài xế" },
+            { "zhTW": "找不到", "vi": "không tìm thấy" },
+            { "zhTW": "地址", "vi": "địa chỉ" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Tài xế", "zhTW": "司機" },
+            { "role": "結果", "vi": "không tìm thấy", "zhTW": "找不到" },
+            { "role": "目標", "vi": "địa chỉ", "zhTW": "地址" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-006",
+      "title": { "vi": "Gần hay xa", "zhTW": "遠近與位置" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Ở gần", "zhTW": "在附近" },
+          "zhTW": "飯店在機場附近。",
+          "vi": "Khách sạn ở gần sân bay.",
+          "wordRanks": [155, 166],
+          "focusWords": [
+            { "zhTW": "飯店", "vi": "khách sạn" },
+            { "zhTW": "機場附近", "vi": "gần sân bay" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Khách sạn", "zhTW": "飯店" },
+            { "role": "位置", "vi": "ở gần", "zhTW": "在附近" },
+            { "role": "地標", "vi": "sân bay", "zhTW": "機場" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Ở xa", "zhTW": "距離很遠" },
+          "zhTW": "機場離這裡遠嗎？",
+          "vi": "Sân bay có xa đây không?",
+          "wordRanks": [155, 167],
+          "focusWords": [
+            { "zhTW": "機場", "vi": "sân bay" },
+            { "zhTW": "離這裡遠嗎", "vi": "xa đây không" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Sân bay", "zhTW": "機場" },
+            { "role": "距離", "vi": "xa đây", "zhTW": "離這裡遠" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Ở giữa", "zhTW": "在中間" },
+          "zhTW": "火車站在銀行和飯店中間。",
+          "vi": "Nhà ga ở giữa ngân hàng và khách sạn.",
+          "wordRanks": [156, 174],
+          "focusWords": [
+            { "zhTW": "火車站", "vi": "nhà ga" },
+            { "zhTW": "在中間", "vi": "ở giữa" },
+            { "zhTW": "銀行", "vi": "ngân hàng" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Nhà ga", "zhTW": "火車站" },
+            { "role": "方位", "vi": "ở giữa", "zhTW": "在中間" },
+            { "role": "地標", "vi": "ngân hàng và khách sạn", "zhTW": "銀行和飯店" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-007",
+      "title": { "vi": "Cách di chuyển", "zhTW": "選擇移動方式" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đi bộ", "zhTW": "走路" },
+          "zhTW": "火車站很近，我們走路去吧。",
+          "vi": "Ga tàu rất gần, chúng ta đi bộ nhé.",
+          "wordRanks": [156, 166, 175],
+          "focusWords": [
+            { "zhTW": "火車站", "vi": "ga tàu" },
+            { "zhTW": "很近", "vi": "rất gần" },
+            { "zhTW": "走路", "vi": "đi bộ" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Ga tàu", "zhTW": "火車站" },
+            { "role": "距離", "vi": "rất gần", "zhTW": "很近" },
+            { "role": "建議", "vi": "chúng ta đi bộ nhé", "zhTW": "我們走路去吧" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Xe máy", "zhTW": "機車" },
+          "zhTW": "我想租機車在市區繞一繞。",
+          "vi": "Tôi muốn thuê xe máy để đi quanh thành phố.",
+          "wordRanks": [152],
+          "focusWords": [
+            { "zhTW": "租機車", "vi": "thuê xe máy" },
+            { "zhTW": "在市區繞一繞", "vi": "đi quanh thành phố" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Tôi", "zhTW": "我" },
+            { "role": "意願", "vi": "muốn thuê xe máy", "zhTW": "想租機車" },
+            { "role": "目的", "vi": "để đi quanh thành phố", "zhTW": "在市區繞一繞" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Lái xe", "zhTW": "開車" },
+          "zhTW": "從這裡開車要多久？",
+          "vi": "Từ đây lái xe mất bao lâu?",
+          "wordRanks": [176, 183],
+          "focusWords": [
+            { "zhTW": "從這裡", "vi": "từ đây" },
+            { "zhTW": "開車", "vi": "lái xe" },
+            { "zhTW": "要多久", "vi": "mất bao lâu" }
+          ],
+          "breakdown": [
+            { "role": "起點", "vi": "Từ đây", "zhTW": "從這裡" },
+            { "role": "方式", "vi": "lái xe", "zhTW": "開車" },
+            { "role": "提問", "vi": "mất bao lâu", "zhTW": "要多久" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-008",
+      "title": { "vi": "Lên và xuống xe", "zhTW": "上下車" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Điểm dừng", "zhTW": "停靠站" },
+          "zhTW": "公車停靠在下一站。",
+          "vi": "Xe buýt dừng ở trạm tiếp theo.",
+          "wordRanks": [153, 177],
+          "focusWords": [
+            { "zhTW": "公車", "vi": "xe buýt" },
+            { "zhTW": "停靠", "vi": "dừng" },
+            { "zhTW": "下一站", "vi": "trạm tiếp theo" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Xe buýt", "zhTW": "公車" },
+            { "role": "動作", "vi": "dừng", "zhTW": "停靠" },
+            { "role": "地點", "vi": "ở trạm tiếp theo", "zhTW": "在下一站" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Lên xe", "zhTW": "上車" },
+          "zhTW": "我們從前門上車。",
+          "vi": "Chúng ta lên xe ở cửa trước.",
+          "wordRanks": [151, 168, 180],
+          "focusWords": [
+            { "zhTW": "上車", "vi": "lên xe" },
+            { "zhTW": "前門", "vi": "cửa trước" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Chúng ta", "zhTW": "我們" },
+            { "role": "動作", "vi": "lên xe", "zhTW": "上車" },
+            { "role": "位置", "vi": "ở cửa trước", "zhTW": "從前門" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Xuống xe", "zhTW": "下車" },
+          "zhTW": "我在下一站下車。",
+          "vi": "Tôi xuống xe ở trạm tiếp theo.",
+          "wordRanks": [151, 179],
+          "focusWords": [
+            { "zhTW": "下車", "vi": "xuống xe" },
+            { "zhTW": "下一站", "vi": "trạm tiếp theo" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Tôi", "zhTW": "我" },
+            { "role": "動作", "vi": "xuống xe", "zhTW": "下車" },
+            { "role": "地點", "vi": "ở trạm tiếp theo", "zhTW": "在下一站" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-009",
+      "title": { "vi": "Đón và chờ", "zhTW": "接送與等候" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đón khách", "zhTW": "接人" },
+          "zhTW": "司機會在飯店前面接我。",
+          "vi": "Tài xế sẽ đón tôi trước khách sạn.",
+          "wordRanks": [168, 178],
+          "focusWords": [
+            { "zhTW": "司機", "vi": "tài xế" },
+            { "zhTW": "接我", "vi": "đón tôi" },
+            { "zhTW": "飯店前面", "vi": "trước khách sạn" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Tài xế", "zhTW": "司機" },
+            { "role": "動作", "vi": "sẽ đón tôi", "zhTW": "會接我" },
+            { "role": "地點", "vi": "trước khách sạn", "zhTW": "在飯店前面" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Bên ngoài", "zhTW": "在外面" },
+          "zhTW": "車正在外面等。",
+          "vi": "Xe đang đợi ở bên ngoài.",
+          "wordRanks": [151, 172],
+          "focusWords": [
+            { "zhTW": "車", "vi": "xe" },
+            { "zhTW": "正在等", "vi": "đang đợi" },
+            { "zhTW": "在外面", "vi": "ở bên ngoài" }
+          ],
+          "breakdown": [
+            { "role": "主詞", "vi": "Xe", "zhTW": "車" },
+            { "role": "狀態", "vi": "đang đợi", "zhTW": "正在等" },
+            { "role": "位置", "vi": "ở bên ngoài", "zhTW": "在外面" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Hành lý", "zhTW": "行李" },
+          "zhTW": "行李在椅子下面。",
+          "vi": "Hành lý ở dưới ghế.",
+          "wordRanks": [171],
+          "focusWords": [
+            { "zhTW": "行李", "vi": "hành lý" },
+            { "zhTW": "椅子下面", "vi": "dưới ghế" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Hành lý", "zhTW": "行李" },
+            { "role": "位置", "vi": "ở dưới ghế", "zhTW": "在椅子下面" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport-010",
+      "title": { "vi": "Khoảng cách trong phố", "zhTW": "街區距離" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Phố cổ", "zhTW": "老街區" },
+          "zhTW": "老街區離這裡兩公里。",
+          "vi": "Phố cổ cách đây hai cây số.",
+          "wordRanks": [160, 184],
+          "focusWords": [
+            { "zhTW": "老街區", "vi": "phố cổ" },
+            { "zhTW": "離這裡", "vi": "cách đây" },
+            { "zhTW": "兩公里", "vi": "hai cây số" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Phố cổ", "zhTW": "老街區" },
+            { "role": "距離", "vi": "cách đây", "zhTW": "離這裡" },
+            { "role": "數量", "vi": "hai cây số", "zhTW": "兩公里" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Tầng trên", "zhTW": "樓上" },
+          "zhTW": "藥局在二樓。",
+          "vi": "Nhà thuốc ở trên tầng hai.",
+          "wordRanks": [170],
+          "focusWords": [
+            { "zhTW": "藥局", "vi": "nhà thuốc" },
+            { "zhTW": "在二樓", "vi": "ở trên tầng hai" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Nhà thuốc", "zhTW": "藥局" },
+            { "role": "方位", "vi": "ở trên tầng hai", "zhTW": "在二樓" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Trạm xe buýt", "zhTW": "公車站" },
+          "zhTW": "公車站離這裡五百公尺。",
+          "vi": "Trạm xe buýt cách đây năm trăm mét.",
+          "wordRanks": [153, 185],
+          "focusWords": [
+            { "zhTW": "公車站", "vi": "trạm xe buýt" },
+            { "zhTW": "離這裡", "vi": "cách đây" },
+            { "zhTW": "五百公尺", "vi": "năm trăm mét" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Trạm xe buýt", "zhTW": "公車站" },
+            { "role": "距離", "vi": "cách đây", "zhTW": "離這裡" },
+            { "role": "數量", "vi": "năm trăm mét", "zhTW": "五百公尺" }
+          ]
+        }
+      ]
+    }
+  ]
+}

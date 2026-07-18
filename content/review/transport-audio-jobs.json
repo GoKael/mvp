@@ -1,0 +1,422 @@
+[
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我需要在六點前到機場。",
+    "output": "assets/audio/candidates/transport/transport-001-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi cần đến sân bay trước sáu giờ.",
+    "output": "assets/audio/candidates/transport/transport-001-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "搭計程車到機場要多久？",
+    "output": "assets/audio/candidates/transport/transport-001-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đi taxi đến sân bay mất bao lâu?",
+    "output": "assets/audio/candidates/transport/transport-001-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "去機場的公車在哪裡搭？",
+    "output": "assets/audio/candidates/transport/transport-001-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xe buýt ra sân bay ở đâu?",
+    "output": "assets/audio/candidates/transport/transport-001-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "火車站在這附近嗎？",
+    "output": "assets/audio/candidates/transport/transport-002-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ga tàu ở gần đây không?",
+    "output": "assets/audio/candidates/transport/transport-002-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我想買兩張去峴港的票。",
+    "output": "assets/audio/candidates/transport/transport-002-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi muốn mua hai vé đi Đà Nẵng.",
+    "output": "assets/audio/candidates/transport/transport-002-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "客運站在右手邊。",
+    "output": "assets/audio/candidates/transport/transport-002-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bến xe ở phía bên phải.",
+    "output": "assets/audio/candidates/transport/transport-002-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "請告訴我去飯店的路。",
+    "output": "assets/audio/candidates/transport/transport-003-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xin chỉ đường đến khách sạn cho tôi.",
+    "output": "assets/audio/candidates/transport/transport-003-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "請一直直走大約兩百公尺。",
+    "output": "assets/audio/candidates/transport/transport-003-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn cứ đi thẳng khoảng hai trăm mét.",
+    "output": "assets/audio/candidates/transport/transport-003-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "在下一個十字路口左轉。",
+    "output": "assets/audio/candidates/transport/transport-003-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Rẽ bên trái ở ngã tư tiếp theo.",
+    "output": "assets/audio/candidates/transport/transport-003-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "過橋後右轉。",
+    "output": "assets/audio/candidates/transport/transport-004-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Rẽ bên phải sau khi qua cầu.",
+    "output": "assets/audio/candidates/transport/transport-004-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "直走，然後在綠燈時過馬路。",
+    "output": "assets/audio/candidates/transport/transport-004-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Đi thẳng rồi qua đường khi đèn xanh.",
+    "output": "assets/audio/candidates/transport/transport-004-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "售票櫃台在出入口旁邊。",
+    "output": "assets/audio/candidates/transport/transport-004-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Quầy bán vé ở bên cạnh cửa ra vào.",
+    "output": "assets/audio/candidates/transport/transport-004-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "你有城市地圖嗎？",
+    "output": "assets/audio/candidates/transport/transport-005-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Bạn có bản đồ thành phố không?",
+    "output": "assets/audio/candidates/transport/transport-005-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "請幫我寫下這個地址。",
+    "output": "assets/audio/candidates/transport/transport-005-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xin viết địa chỉ này cho tôi.",
+    "output": "assets/audio/candidates/transport/transport-005-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "司機找不到這個地址。",
+    "output": "assets/audio/candidates/transport/transport-005-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tài xế không tìm thấy địa chỉ.",
+    "output": "assets/audio/candidates/transport/transport-005-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "飯店在機場附近。",
+    "output": "assets/audio/candidates/transport/transport-006-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Khách sạn ở gần sân bay.",
+    "output": "assets/audio/candidates/transport/transport-006-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "機場離這裡遠嗎？",
+    "output": "assets/audio/candidates/transport/transport-006-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Sân bay có xa đây không?",
+    "output": "assets/audio/candidates/transport/transport-006-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "火車站在銀行和飯店中間。",
+    "output": "assets/audio/candidates/transport/transport-006-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhà ga ở giữa ngân hàng và khách sạn.",
+    "output": "assets/audio/candidates/transport/transport-006-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "火車站很近，我們走路去吧。",
+    "output": "assets/audio/candidates/transport/transport-007-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Ga tàu rất gần, chúng ta đi bộ nhé.",
+    "output": "assets/audio/candidates/transport/transport-007-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我想租機車在市區繞一繞。",
+    "output": "assets/audio/candidates/transport/transport-007-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi muốn thuê xe máy để đi quanh thành phố.",
+    "output": "assets/audio/candidates/transport/transport-007-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "從這裡開車要多久？",
+    "output": "assets/audio/candidates/transport/transport-007-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Từ đây lái xe mất bao lâu?",
+    "output": "assets/audio/candidates/transport/transport-007-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "公車停靠在下一站。",
+    "output": "assets/audio/candidates/transport/transport-008-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xe buýt dừng ở trạm tiếp theo.",
+    "output": "assets/audio/candidates/transport/transport-008-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我們從前門上車。",
+    "output": "assets/audio/candidates/transport/transport-008-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Chúng ta lên xe ở cửa trước.",
+    "output": "assets/audio/candidates/transport/transport-008-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "我在下一站下車。",
+    "output": "assets/audio/candidates/transport/transport-008-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tôi xuống xe ở trạm tiếp theo.",
+    "output": "assets/audio/candidates/transport/transport-008-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "司機會在飯店前面接我。",
+    "output": "assets/audio/candidates/transport/transport-009-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Tài xế sẽ đón tôi trước khách sạn.",
+    "output": "assets/audio/candidates/transport/transport-009-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "車正在外面等。",
+    "output": "assets/audio/candidates/transport/transport-009-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Xe đang đợi ở bên ngoài.",
+    "output": "assets/audio/candidates/transport/transport-009-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "行李在椅子下面。",
+    "output": "assets/audio/candidates/transport/transport-009-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Hành lý ở dưới ghế.",
+    "output": "assets/audio/candidates/transport/transport-009-3-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "老街區離這裡兩公里。",
+    "output": "assets/audio/candidates/transport/transport-010-1-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Phố cổ cách đây hai cây số.",
+    "output": "assets/audio/candidates/transport/transport-010-1-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "藥局在二樓。",
+    "output": "assets/audio/candidates/transport/transport-010-2-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Nhà thuốc ở trên tầng hai.",
+    "output": "assets/audio/candidates/transport/transport-010-2-vi.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "cmn-TW",
+    "voice": "Zephyr",
+    "text": "公車站離這裡五百公尺。",
+    "output": "assets/audio/candidates/transport/transport-010-3-zh.mp3"
+  },
+  {
+    "kind": "lesson",
+    "languageCode": "vi-VN",
+    "voice": "Zephyr",
+    "text": "Trạm xe buýt cách đây năm trăm mét.",
+    "output": "assets/audio/candidates/transport/transport-010-3-vi.mp3"
+  }
+]

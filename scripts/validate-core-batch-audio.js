@@ -9,7 +9,10 @@ const { spawnSync } = require('child_process');
 const ROOT = path.resolve(__dirname, '..');
 const manifestPath = path.resolve(ROOT, process.argv[2] || 'server/data/core-101-150-audio-manifest.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-assert.strictEqual(manifest.expected, 200, 'A 50-word Core batch must contain 200 audio jobs');
+const allowAnySize = process.argv.includes('--allow-any-size');
+if (allowAnySize) assert.ok(manifest.expected > 0, 'Audio manifest must not be empty');
+else assert.strictEqual(manifest.expected, 200, 'A 50-word Core batch must contain 200 audio jobs');
+assert.strictEqual(manifest.assets.length, manifest.expected, 'Audio manifest count mismatch');
 
 const missing = manifest.assets.filter((asset) => !fs.existsSync(path.join(ROOT, asset.output)));
 assert.strictEqual(missing.length, 0, `Missing ${missing.length} batch audio files`);
@@ -89,4 +92,4 @@ const range = (key) => {
   return `${Math.min(...values).toFixed(2)}–${Math.max(...values).toFixed(2)}`;
 };
 
-console.log(`core batch audio ok: 200/200 files; mean ${range('meanVolume')} dB; peak ${range('peakVolume')} dB; manual pronunciation QA still required`);
+console.log(`audio manifest ok: ${manifest.expected}/${manifest.expected} files; mean ${range('meanVolume')} dB; peak ${range('peakVolume')} dB; manual pronunciation QA still required`);

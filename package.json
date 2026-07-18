@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build-data.js && node scripts/validate-data.js --strict-audio && node scripts/build-static.js",
+    "build:transport": "node scripts/build-transport-lessons.js && node scripts/validate-transport-lessons.js",
     "audit:vocabulary": "node scripts/audit-vocabulary.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",
