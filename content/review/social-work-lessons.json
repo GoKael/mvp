@@ -1,0 +1,1358 @@
+[
+  {
+    "id": "social-work-001",
+    "category": "social-work",
+    "title": {
+      "vi": "Gia đình",
+      "zhTW": "介紹家人"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Bốn người",
+          "zhTW": "四個人"
+        },
+        "zhTW": "我家有四個人。",
+        "vi": "Gia đình tôi có bốn người.",
+        "wordIds": [
+          "vi:251-gia-dinh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我的家庭",
+            "vi": "gia đình tôi"
+          },
+          {
+            "zhTW": "有四個人",
+            "vi": "có bốn người"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Gia đình tôi",
+            "zhTW": "我的家庭"
+          },
+          {
+            "role": "人數",
+            "vi": "có bốn người",
+            "zhTW": "有四個人"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-001-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-001-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Chồng đi làm",
+          "zhTW": "丈夫上班"
+        },
+        "zhTW": "我丈夫在這家公司工作。",
+        "vi": "Chồng tôi làm việc ở công ty này.",
+        "wordIds": [
+          "vi:252-chong",
+          "vi:266-lam-viec",
+          "vi:267-cong-ty"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我丈夫",
+            "vi": "chồng tôi"
+          },
+          {
+            "zhTW": "在這家公司工作",
+            "vi": "làm việc ở công ty này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物",
+            "vi": "Chồng tôi",
+            "zhTW": "我丈夫"
+          },
+          {
+            "role": "工作",
+            "vi": "làm việc",
+            "zhTW": "工作"
+          },
+          {
+            "role": "地點",
+            "vi": "ở công ty này",
+            "zhTW": "在這家公司"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-001-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-001-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Thăm cha mẹ",
+          "zhTW": "探望父母"
+        },
+        "zhTW": "我妻子常回去探望父母。",
+        "vi": "Vợ tôi thường về thăm cha mẹ.",
+        "wordIds": [
+          "vi:253-vo",
+          "vi:254-cha-me",
+          "vi:300-thuong"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我妻子",
+            "vi": "vợ tôi"
+          },
+          {
+            "zhTW": "常回去探望父母",
+            "vi": "thường về thăm cha mẹ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物",
+            "vi": "Vợ tôi",
+            "zhTW": "我妻子"
+          },
+          {
+            "role": "頻率",
+            "vi": "thường",
+            "zhTW": "常常"
+          },
+          {
+            "role": "動作",
+            "vi": "về thăm cha mẹ",
+            "zhTW": "回去探望父母"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-001-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-001-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-002",
+    "category": "social-work",
+    "title": {
+      "vi": "Đồ dùng hằng ngày",
+      "zhTW": "日常用品"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Số điện thoại",
+          "zhTW": "電話號碼"
+        },
+        "zhTW": "我的電話號碼有兩個零。",
+        "vi": "Số điện thoại của tôi có hai số không.",
+        "wordIds": [
+          "vi:255-so-khong",
+          "vi:256-dien-thoai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我的電話號碼",
+            "vi": "số điện thoại của tôi"
+          },
+          {
+            "zhTW": "兩個零",
+            "vi": "hai số không"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "資訊",
+            "vi": "Số điện thoại của tôi",
+            "zhTW": "我的電話號碼"
+          },
+          {
+            "role": "數字",
+            "vi": "có hai số không",
+            "zhTW": "有兩個零"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-002-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-002-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Giặt đồ",
+          "zhTW": "洗衣服"
+        },
+        "zhTW": "我需要洗衣服。",
+        "vi": "Tôi cần giặt quần áo.",
+        "wordIds": [
+          "vi:257-quan-ao"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我需要",
+            "vi": "tôi cần"
+          },
+          {
+            "zhTW": "洗衣服",
+            "vi": "giặt quần áo"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "需求",
+            "vi": "Tôi cần",
+            "zhTW": "我需要"
+          },
+          {
+            "role": "動作",
+            "vi": "giặt quần áo",
+            "zhTW": "洗衣服"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-002-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-002-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Mua đồ ăn",
+          "zhTW": "買食物"
+        },
+        "zhTW": "我想買一些食物。",
+        "vi": "Tôi muốn mua một ít đồ ăn.",
+        "wordIds": [
+          "vi:258-do-an",
+          "vi:294-it"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我想買",
+            "vi": "tôi muốn mua"
+          },
+          {
+            "zhTW": "一些食物",
+            "vi": "một ít đồ ăn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "意願",
+            "vi": "Tôi muốn mua",
+            "zhTW": "我想買"
+          },
+          {
+            "role": "數量",
+            "vi": "một ít",
+            "zhTW": "一些"
+          },
+          {
+            "role": "物品",
+            "vi": "đồ ăn",
+            "zhTW": "食物"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-002-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-002-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-003",
+    "category": "social-work",
+    "title": {
+      "vi": "Giới thiệu bản thân",
+      "zhTW": "自我介紹"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Đến từ Đài Loan",
+          "zhTW": "來自台灣"
+        },
+        "zhTW": "我來自台灣，正在學越南語。",
+        "vi": "Tôi đến từ Đài Loan và đang học tiếng Việt.",
+        "wordIds": [
+          "vi:259-tieng-viet",
+          "vi:260-dai-loan"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "來自台灣",
+            "vi": "đến từ Đài Loan"
+          },
+          {
+            "zhTW": "正在學越南語",
+            "vi": "đang học tiếng Việt"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "來源",
+            "vi": "Tôi đến từ Đài Loan",
+            "zhTW": "我來自台灣"
+          },
+          {
+            "role": "學習",
+            "vi": "đang học tiếng Việt",
+            "zhTW": "正在學越南語"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-003-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-003-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Ba mươi tuổi",
+          "zhTW": "三十歲"
+        },
+        "zhTW": "我今年三十歲。",
+        "vi": "Tôi năm nay ba mươi tuổi.",
+        "wordIds": [
+          "vi:261-tuoi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我今年",
+            "vi": "tôi năm nay"
+          },
+          {
+            "zhTW": "三十歲",
+            "vi": "ba mươi tuổi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "時間",
+            "vi": "Tôi năm nay",
+            "zhTW": "我今年"
+          },
+          {
+            "role": "年齡",
+            "vi": "ba mươi tuổi",
+            "zhTW": "三十歲"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-003-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-003-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Quê ở đâu",
+          "zhTW": "家鄉在哪裡"
+        },
+        "zhTW": "你的家鄉在哪個城市、哪個國家？",
+        "vi": "Quê bạn ở thành phố nào, thuộc nước nào?",
+        "wordIds": [
+          "vi:262-que",
+          "vi:263-nuoc",
+          "vi:264-thanh-pho"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你的家鄉",
+            "vi": "quê bạn"
+          },
+          {
+            "zhTW": "哪個城市",
+            "vi": "thành phố nào"
+          },
+          {
+            "zhTW": "哪個國家",
+            "vi": "nước nào"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Quê bạn",
+            "zhTW": "你的家鄉"
+          },
+          {
+            "role": "城市",
+            "vi": "ở thành phố nào",
+            "zhTW": "在哪個城市"
+          },
+          {
+            "role": "國家",
+            "vi": "thuộc nước nào",
+            "zhTW": "屬於哪個國家"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-003-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-003-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-004",
+    "category": "social-work",
+    "title": {
+      "vi": "Nơi làm việc",
+      "zhTW": "工作環境"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Công việc",
+          "zhTW": "職業"
+        },
+        "zhTW": "你的工作是什麼？",
+        "vi": "Công việc của bạn là gì?",
+        "wordIds": [
+          "vi:265-cong-viec"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你的工作",
+            "vi": "công việc của bạn"
+          },
+          {
+            "zhTW": "是什麼",
+            "vi": "là gì"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Công việc của bạn",
+            "zhTW": "你的工作"
+          },
+          {
+            "role": "提問",
+            "vi": "là gì",
+            "zhTW": "是什麼"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-004-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-004-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Đồng nghiệp",
+          "zhTW": "同事"
+        },
+        "zhTW": "我的同事非常友善。",
+        "vi": "Đồng nghiệp của tôi rất thân thiện.",
+        "wordIds": [
+          "vi:268-dong-nghiep",
+          "vi:296-rat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我的同事",
+            "vi": "đồng nghiệp của tôi"
+          },
+          {
+            "zhTW": "非常友善",
+            "vi": "rất thân thiện"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物",
+            "vi": "Đồng nghiệp của tôi",
+            "zhTW": "我的同事"
+          },
+          {
+            "role": "程度",
+            "vi": "rất",
+            "zhTW": "非常"
+          },
+          {
+            "role": "描述",
+            "vi": "thân thiện",
+            "zhTW": "友善"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-004-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-004-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Sếp gặp khách",
+          "zhTW": "主管見客戶"
+        },
+        "zhTW": "主管正在會見客戶。",
+        "vi": "Sếp đang gặp khách hàng.",
+        "wordIds": [
+          "vi:269-sep",
+          "vi:270-khach-hang"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "主管",
+            "vi": "sếp"
+          },
+          {
+            "zhTW": "正在會見客戶",
+            "vi": "đang gặp khách hàng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物",
+            "vi": "Sếp",
+            "zhTW": "主管"
+          },
+          {
+            "role": "動作",
+            "vi": "đang gặp",
+            "zhTW": "正在會見"
+          },
+          {
+            "role": "對象",
+            "vi": "khách hàng",
+            "zhTW": "客戶"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-004-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-004-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-005",
+    "category": "social-work",
+    "title": {
+      "vi": "Trường học",
+      "zhTW": "學校生活"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Học sinh",
+          "zhTW": "學生"
+        },
+        "zhTW": "我妹妹是中學生。",
+        "vi": "Em gái tôi là học sinh trung học.",
+        "wordIds": [
+          "vi:271-hoc-sinh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我妹妹",
+            "vi": "em gái tôi"
+          },
+          {
+            "zhTW": "是中學生",
+            "vi": "là học sinh trung học"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物",
+            "vi": "Em gái tôi",
+            "zhTW": "我妹妹"
+          },
+          {
+            "role": "身分",
+            "vi": "là học sinh trung học",
+            "zhTW": "是中學生"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-005-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-005-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Giáo viên",
+          "zhTW": "越南語老師"
+        },
+        "zhTW": "我姊姊是越南語老師。",
+        "vi": "Chị tôi là giáo viên tiếng Việt.",
+        "wordIds": [
+          "vi:259-tieng-viet",
+          "vi:272-giao-vien"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我姊姊",
+            "vi": "chị tôi"
+          },
+          {
+            "zhTW": "是越南語老師",
+            "vi": "là giáo viên tiếng Việt"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物",
+            "vi": "Chị tôi",
+            "zhTW": "我姊姊"
+          },
+          {
+            "role": "身分",
+            "vi": "là giáo viên",
+            "zhTW": "是老師"
+          },
+          {
+            "role": "科目",
+            "vi": "tiếng Việt",
+            "zhTW": "越南語"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-005-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-005-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Bài học",
+          "zhTW": "課程難度"
+        },
+        "zhTW": "這一課容易，但那一課很難。",
+        "vi": "Bài này dễ, nhưng bài kia rất khó.",
+        "wordIds": [
+          "vi:282-de",
+          "vi:283-kho",
+          "vi:296-rat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這一課容易",
+            "vi": "bài này dễ"
+          },
+          {
+            "zhTW": "那一課很難",
+            "vi": "bài kia rất khó"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "對比一",
+            "vi": "Bài này dễ",
+            "zhTW": "這一課容易"
+          },
+          {
+            "role": "轉折",
+            "vi": "nhưng",
+            "zhTW": "但是"
+          },
+          {
+            "role": "對比二",
+            "vi": "bài kia rất khó",
+            "zhTW": "那一課很難"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-005-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-005-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-006",
+    "category": "social-work",
+    "title": {
+      "vi": "Lịch làm việc",
+      "zhTW": "工作安排"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Cuộc họp",
+          "zhTW": "開會"
+        },
+        "zhTW": "會議九點開始。",
+        "vi": "Cuộc họp bắt đầu lúc chín giờ.",
+        "wordIds": [
+          "vi:273-cuoc-hop"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "會議",
+            "vi": "cuộc họp"
+          },
+          {
+            "zhTW": "九點開始",
+            "vi": "bắt đầu lúc chín giờ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "事件",
+            "vi": "Cuộc họp",
+            "zhTW": "會議"
+          },
+          {
+            "role": "時間",
+            "vi": "bắt đầu lúc chín giờ",
+            "zhTW": "九點開始"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-006-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-006-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Bận việc",
+          "zhTW": "工作忙碌"
+        },
+        "zhTW": "我今天很忙，不能休息。",
+        "vi": "Hôm nay tôi bận nên không thể nghỉ.",
+        "wordIds": [
+          "vi:274-nghi",
+          "vi:275-ban"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我今天很忙",
+            "vi": "hôm nay tôi bận"
+          },
+          {
+            "zhTW": "不能休息",
+            "vi": "không thể nghỉ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "狀態",
+            "vi": "Hôm nay tôi bận",
+            "zhTW": "我今天很忙"
+          },
+          {
+            "role": "結果",
+            "vi": "nên không thể nghỉ",
+            "zhTW": "所以不能休息"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-006-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-006-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Rảnh chiều mai",
+          "zhTW": "明天下午有空"
+        },
+        "zhTW": "你明天下午有空嗎？",
+        "vi": "Chiều mai bạn có rảnh không?",
+        "wordIds": [
+          "vi:276-ranh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "明天下午",
+            "vi": "chiều mai"
+          },
+          {
+            "zhTW": "你有空嗎",
+            "vi": "bạn có rảnh không"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "時間",
+            "vi": "Chiều mai",
+            "zhTW": "明天下午"
+          },
+          {
+            "role": "提問",
+            "vi": "bạn có rảnh không",
+            "zhTW": "你有空嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-006-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-006-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-007",
+    "category": "social-work",
+    "title": {
+      "vi": "Sở thích và cảm xúc",
+      "zhTW": "喜好與情緒"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Thích công việc",
+          "zhTW": "喜歡工作"
+        },
+        "zhTW": "我喜歡這份工作。",
+        "vi": "Tôi thích công việc này.",
+        "wordIds": [
+          "vi:265-cong-viec",
+          "vi:277-thich"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我喜歡",
+            "vi": "tôi thích"
+          },
+          {
+            "zhTW": "這份工作",
+            "vi": "công việc này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "偏好",
+            "vi": "Tôi thích",
+            "zhTW": "我喜歡"
+          },
+          {
+            "role": "對象",
+            "vi": "công việc này",
+            "zhTW": "這份工作"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-007-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-007-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Yêu gia đình",
+          "zhTW": "愛家人"
+        },
+        "zhTW": "我愛家人，但討厭離家太遠。",
+        "vi": "Tôi yêu gia đình nhưng ghét sống xa nhà.",
+        "wordIds": [
+          "vi:251-gia-dinh",
+          "vi:278-yeu",
+          "vi:279-ghet"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我愛家人",
+            "vi": "tôi yêu gia đình"
+          },
+          {
+            "zhTW": "討厭離家太遠",
+            "vi": "ghét sống xa nhà"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "情感",
+            "vi": "Tôi yêu gia đình",
+            "zhTW": "我愛家人"
+          },
+          {
+            "role": "轉折",
+            "vi": "nhưng",
+            "zhTW": "但是"
+          },
+          {
+            "role": "反感",
+            "vi": "ghét sống xa nhà",
+            "zhTW": "討厭離家太遠"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-007-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-007-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Vui hơn",
+          "zhTW": "心情變好"
+        },
+        "zhTW": "我今天很開心，不再難過了。",
+        "vi": "Hôm nay tôi vui, không còn buồn nữa.",
+        "wordIds": [
+          "vi:280-vui",
+          "vi:281-buon"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我今天很開心",
+            "vi": "hôm nay tôi vui"
+          },
+          {
+            "zhTW": "不再難過",
+            "vi": "không còn buồn nữa"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "現在",
+            "vi": "Hôm nay tôi vui",
+            "zhTW": "我今天很開心"
+          },
+          {
+            "role": "改變",
+            "vi": "không còn buồn nữa",
+            "zhTW": "不再難過了"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-007-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-007-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-008",
+    "category": "social-work",
+    "title": {
+      "vi": "Tốc độ giao tiếp",
+      "zhTW": "溝通速度"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Nói nhanh",
+          "zhTW": "說得太快"
+        },
+        "zhTW": "你說得太快了。",
+        "vi": "Bạn nói nhanh quá.",
+        "wordIds": [
+          "vi:284-nhanh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你說",
+            "vi": "bạn nói"
+          },
+          {
+            "zhTW": "太快",
+            "vi": "nhanh quá"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "人物動作",
+            "vi": "Bạn nói",
+            "zhTW": "你說"
+          },
+          {
+            "role": "速度",
+            "vi": "nhanh quá",
+            "zhTW": "太快"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-008-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-008-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Nói chậm",
+          "zhTW": "說慢一點"
+        },
+        "zhTW": "請說慢一點。",
+        "vi": "Xin nói chậm một chút.",
+        "wordIds": [
+          "vi:285-cham"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請說",
+            "vi": "xin nói"
+          },
+          {
+            "zhTW": "慢一點",
+            "vi": "chậm một chút"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin nói",
+            "zhTW": "請說"
+          },
+          {
+            "role": "速度",
+            "vi": "chậm một chút",
+            "zhTW": "慢一點"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-008-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-008-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Nói nhiều hơn",
+          "zhTW": "多說一點"
+        },
+        "zhTW": "我聽得懂很多，但還說得很少。",
+        "vi": "Tôi hiểu nhiều nhưng vẫn nói ít.",
+        "wordIds": [
+          "vi:293-nhieu",
+          "vi:294-it"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "聽得懂很多",
+            "vi": "hiểu nhiều"
+          },
+          {
+            "zhTW": "還說得很少",
+            "vi": "vẫn nói ít"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "理解",
+            "vi": "Tôi hiểu nhiều",
+            "zhTW": "我聽得懂很多"
+          },
+          {
+            "role": "對比",
+            "vi": "nhưng",
+            "zhTW": "但是"
+          },
+          {
+            "role": "表達",
+            "vi": "vẫn nói ít",
+            "zhTW": "還說得很少"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-008-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-008-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-009",
+    "category": "social-work",
+    "title": {
+      "vi": "Nhiệt độ và hương vị",
+      "zhTW": "溫度與味道"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Phở nóng",
+          "zhTW": "熱河粉"
+        },
+        "zhTW": "河粉還很熱，而且非常好吃。",
+        "vi": "Phở còn nóng và rất ngon.",
+        "wordIds": [
+          "vi:286-nong",
+          "vi:288-ngon",
+          "vi:296-rat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "河粉還很熱",
+            "vi": "phở còn nóng"
+          },
+          {
+            "zhTW": "非常好吃",
+            "vi": "rất ngon"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "溫度",
+            "vi": "Phở còn nóng",
+            "zhTW": "河粉還很熱"
+          },
+          {
+            "role": "味道",
+            "vi": "rất ngon",
+            "zhTW": "非常好吃"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-009-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-009-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Nước chanh",
+          "zhTW": "檸檬水"
+        },
+        "zhTW": "這杯檸檬水很冰，還有點酸。",
+        "vi": "Nước chanh này lạnh và hơi chua.",
+        "wordIds": [
+          "vi:263-nuoc",
+          "vi:287-lanh",
+          "vi:292-chua",
+          "vi:297-hoi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這杯檸檬水很冰",
+            "vi": "nước chanh này lạnh"
+          },
+          {
+            "zhTW": "有點酸",
+            "vi": "hơi chua"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "飲料溫度",
+            "vi": "Nước chanh này lạnh",
+            "zhTW": "這杯檸檬水很冰"
+          },
+          {
+            "role": "味道",
+            "vi": "hơi chua",
+            "zhTW": "有點酸"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-009-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-009-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Ba vị",
+          "zhTW": "三種味道"
+        },
+        "zhTW": "這道菜又辣又甜，還有點鹹。",
+        "vi": "Món này cay, ngọt và hơi mặn.",
+        "wordIds": [
+          "vi:289-cay",
+          "vi:290-ngot",
+          "vi:291-man",
+          "vi:297-hoi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "又辣又甜",
+            "vi": "cay, ngọt"
+          },
+          {
+            "zhTW": "有點鹹",
+            "vi": "hơi mặn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Món này",
+            "zhTW": "這道菜"
+          },
+          {
+            "role": "味道一",
+            "vi": "cay, ngọt",
+            "zhTW": "又辣又甜"
+          },
+          {
+            "role": "味道二",
+            "vi": "hơi mặn",
+            "zhTW": "有點鹹"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-009-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-009-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "social-work-010",
+    "category": "social-work",
+    "title": {
+      "vi": "Số lượng và thói quen",
+      "zhTW": "數量與習慣"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Nhiều việc",
+          "zhTW": "工作很多"
+        },
+        "zhTW": "我有很多事，但時間很少。",
+        "vi": "Tôi có nhiều việc nhưng rất ít thời gian.",
+        "wordIds": [
+          "vi:293-nhieu",
+          "vi:294-it",
+          "vi:296-rat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "有很多事",
+            "vi": "có nhiều việc"
+          },
+          {
+            "zhTW": "時間很少",
+            "vi": "rất ít thời gian"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "數量一",
+            "vi": "Tôi có nhiều việc",
+            "zhTW": "我有很多事"
+          },
+          {
+            "role": "轉折",
+            "vi": "nhưng",
+            "zhTW": "但是"
+          },
+          {
+            "role": "數量二",
+            "vi": "rất ít thời gian",
+            "zhTW": "時間很少"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-010-1-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-010-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Đủ đồ ăn",
+          "zhTW": "食物足夠"
+        },
+        "zhTW": "我們已經有足夠的食物。",
+        "vi": "Chúng ta đã có đủ đồ ăn.",
+        "wordIds": [
+          "vi:258-do-an",
+          "vi:295-du"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我們已經有",
+            "vi": "chúng ta đã có"
+          },
+          {
+            "zhTW": "足夠的食物",
+            "vi": "đủ đồ ăn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "狀態",
+            "vi": "Chúng ta đã có",
+            "zhTW": "我們已經有"
+          },
+          {
+            "role": "數量",
+            "vi": "đủ đồ ăn",
+            "zhTW": "足夠的食物"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-010-2-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-010-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Gọi về nhà",
+          "zhTW": "打電話回家"
+        },
+        "zhTW": "我也總是早點回家。",
+        "vi": "Tôi cũng luôn về nhà sớm.",
+        "wordIds": [
+          "vi:298-cung",
+          "vi:299-luon"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我也",
+            "vi": "tôi cũng"
+          },
+          {
+            "zhTW": "總是早點回家",
+            "vi": "luôn về nhà sớm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "連接",
+            "vi": "Tôi cũng",
+            "zhTW": "我也"
+          },
+          {
+            "role": "習慣",
+            "vi": "luôn về nhà sớm",
+            "zhTW": "總是早點回家"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/social-work/social-work-010-3-zh.mp3",
+          "vi": "assets/audio/candidates/social-work/social-work-010-3-vi.mp3"
+        }
+      }
+    ]
+  }
+]
