@@ -40,7 +40,7 @@ node scripts/test-core.mjs
 
 Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查。人工抽聽前只會進入只讀詞典，不會開放播放、學習狀態或複習。
 
-「交通與問路」10 課、30 句、「住宿與居家」8 課、24 句與「購物與付款」8 課、24 句分別位於 `content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`。執行對應的 `npm run build:*` 會生成 reviewed 課程、雙語音訊工作與 manifest 到 `content/review/`；候選內容不會寫入正式 `server/data/lessons.json`，也不會被靜態部署。
+「交通與問路」10 課、30 句，以及「住宿與居家」、「購物與付款」、「健康與求助」各 8 課、24 句，分別位於 `content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`、`content/health-24.source.json`。執行對應的 `npm run build:*` 會生成 reviewed 課程、雙語音訊工作與 manifest 到 `content/review/`；候選內容不會寫入正式 `server/data/lessons.json`，也不會被靜態部署。
 
 建立任一批次的可發布 JSON 與 200 個音檔任務：
 
@@ -103,7 +103,7 @@ npm --prefix server run promote:core -- \
 
 預設使用 Gemini 2.5 Pro TTS、Zephyr、`vi-VN / cmn-TW`，請求間隔 6.5 秒。瀏覽器不會在執行時生成或替代音訊。
 
-產生 reviewed 課程候選音檔（下例為交通包；住宿包改用 `lodging-24.source.json` 與 `lodging-*` 輸出）：
+產生 reviewed 課程候選音檔（下例為交通包；其他情境替換來源檔與輸出前綴）：
 
 ```bash
 npm run build:transport
