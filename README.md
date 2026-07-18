@@ -143,7 +143,7 @@ npm run preview
 npm run build
 ```
 
-部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 300 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；候選的 800 個音檔、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
+部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 300 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；其餘 1,202 個未發布音檔、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
 
 ## Browser Extension
 
