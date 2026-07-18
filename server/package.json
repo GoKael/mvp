@@ -6,12 +6,13 @@
   "scripts": {
     "start": "node server.js",
     "build:core-batch": "node ../scripts/build-core-batch.js",
-    "build:transport": "node ../scripts/build-transport-lessons.js && node ../scripts/validate-transport-lessons.js",
+    "build:transport": "node ../scripts/build-reviewed-lessons.js content/transport-30.source.json && node ../scripts/validate-reviewed-lessons.js content/transport-30.source.json",
+    "build:lodging": "node ../scripts/build-reviewed-lessons.js content/lodging-24.source.json && node ../scripts/validate-reviewed-lessons.js content/lodging-24.source.json",
     "check:core-batch-audio": "node ../scripts/validate-core-batch-audio.js",
     "check:core-audio": "node ../scripts/validate-core-batch-audio.js server/data/core-101-150-audio-manifest.json && node ../scripts/validate-core-batch-audio.js server/data/core-151-200-audio-manifest.json && node ../scripts/validate-core-batch-audio.js server/data/core-201-250-audio-manifest.json && node ../scripts/validate-core-batch-audio.js server/data/core-251-300-audio-manifest.json",
     "promote:core": "node ../scripts/promote-core-batch.js",
     "audit:vocabulary": "node ../scripts/audit-vocabulary.js",
-    "test": "node ../scripts/build-data.js && node ../scripts/validate-data.js --strict-audio && node ../scripts/validate-core-batches.js && node ../scripts/build-transport-lessons.js && node ../scripts/validate-transport-lessons.js && node ../scripts/validate-core-batch-audio.js content/review/transport-audio-manifest.json --allow-any-size && node ../scripts/audit-vocabulary.js && node ../scripts/test-core.mjs && node ../scripts/test-audio.mjs && node ../scripts/test-lexeme.mjs && node ../scripts/test-extension.cjs && node ../scripts/security-check.js"
+    "test": "node ../scripts/build-data.js && node ../scripts/validate-data.js --strict-audio && node ../scripts/validate-core-batches.js && node ../scripts/build-reviewed-lessons.js content/transport-30.source.json && node ../scripts/validate-reviewed-lessons.js content/transport-30.source.json && node ../scripts/validate-core-batch-audio.js content/review/transport-audio-manifest.json --allow-any-size && node ../scripts/build-reviewed-lessons.js content/lodging-24.source.json && node ../scripts/validate-reviewed-lessons.js content/lodging-24.source.json && node ../scripts/validate-core-batch-audio.js content/review/lodging-audio-manifest.json --allow-any-size && node ../scripts/audit-vocabulary.js && node ../scripts/test-core.mjs && node ../scripts/test-audio.mjs && node ../scripts/test-lexeme.mjs && node ../scripts/test-extension.cjs && node ../scripts/security-check.js"
   },
   "keywords": [],
   "author": "",

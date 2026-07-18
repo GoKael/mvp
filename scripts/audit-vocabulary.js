@@ -10,7 +10,10 @@ const normalize = (value) => String(value || '').normalize('NFC').toLocaleLowerC
 
 const lexicon = read('server/data/lexicon.json');
 const lessons = read('server/data/lessons.json');
-const candidateLessons = read('content/review/transport-lessons.json');
+const candidateLessonFiles = fs.readdirSync(path.join(ROOT, 'content/review'))
+  .filter((file) => file.endsWith('-lessons.json'))
+  .sort();
+const candidateLessons = candidateLessonFiles.flatMap((file) => read(`content/review/${file}`));
 const archive = Object.values(read('server/data/archive/lr_3k.json'));
 const archiveRanks = new Map(archive.map((word) => [normalize(word.word), word.rank]));
 const lessonWordIds = new Set(lessons.flatMap((lesson) => lesson.segments.flatMap((segment) => segment.wordIds)));
@@ -61,7 +64,8 @@ console.log(JSON.stringify({
   reviewedFoundInArchivedTop1000: archivedTop1000.length,
   linkedToPublishedLessons: linkedWords.length,
   lessonCoveragePercent: Number((linkedWords.length / lexicon.length * 100).toFixed(1)),
-  linkedToReviewedTransportLessons: candidateLinkedWords.length,
+  reviewedLessonPacks: candidateLessonFiles.map((file) => file.replace('-lessons.json', '')),
+  linkedToReviewedLessons: candidateLinkedWords.length,
   combinedLessonCoverageAfterPromotion: combinedLinkedWords.length,
   combinedLessonCoveragePercentAfterPromotion: Number((combinedLinkedWords.length / lexicon.length * 100).toFixed(1)),
   domains: domains.map(({ range, name }) => ({ range: `${range[0]}-${range[1]}`, name, count: 50 })),

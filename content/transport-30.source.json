@@ -2,6 +2,8 @@
   "id": "transport",
   "category": "transport",
   "status": "reviewed",
+  "expectedLessons": 10,
+  "requiredCoreRange": [151, 185],
   "title": {
     "vi": "Giao thông và chỉ đường",
     "zhTW": "交通與問路"

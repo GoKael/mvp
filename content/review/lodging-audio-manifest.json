@@ -1,0 +1,391 @@
+{
+  "model": "gemini-2.5-pro-tts",
+  "status": "reviewed",
+  "expected": 48,
+  "assets": [
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想訂兩晚的房間。",
+      "output": "assets/audio/candidates/lodging/lodging-001-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn đặt phòng cho hai đêm.",
+      "output": "assets/audio/candidates/lodging/lodging-001-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "飯店有空房嗎？",
+      "output": "assets/audio/candidates/lodging/lodging-001-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Khách sạn có phòng trống không?",
+      "output": "assets/audio/candidates/lodging/lodging-001-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我會從星期一住到星期三。",
+      "output": "assets/audio/candidates/lodging/lodging-001-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi sẽ ở lại từ thứ Hai đến thứ Tư.",
+      "output": "assets/audio/candidates/lodging/lodging-001-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這是我的護照。",
+      "output": "assets/audio/candidates/lodging/lodging-002-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Đây là hộ chiếu của tôi.",
+      "output": "assets/audio/candidates/lodging/lodging-002-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我把鑰匙忘在房間裡了。",
+      "output": "assets/audio/candidates/lodging/lodging-002-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi để quên chìa khóa trong phòng.",
+      "output": "assets/audio/candidates/lodging/lodging-002-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你可以幫我搬行李嗎？",
+      "output": "assets/audio/candidates/lodging/lodging-002-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn có thể giúp tôi mang hành lý không?",
+      "output": "assets/audio/candidates/lodging/lodging-002-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的房間在五樓。",
+      "output": "assets/audio/candidates/lodging/lodging-003-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Phòng của tôi ở tầng năm.",
+      "output": "assets/audio/candidates/lodging/lodging-003-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請幫我關門。",
+      "output": "assets/audio/candidates/lodging/lodging-003-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin đóng cửa giúp tôi.",
+      "output": "assets/audio/candidates/lodging/lodging-003-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "洗手間在走廊盡頭。",
+      "output": "assets/audio/candidates/lodging/lodging-003-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Nhà vệ sinh ở cuối hành lang.",
+      "output": "assets/audio/candidates/lodging/lodging-003-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "浴室在右邊。",
+      "output": "assets/audio/candidates/lodging/lodging-004-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Phòng tắm ở bên phải.",
+      "output": "assets/audio/candidates/lodging/lodging-004-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這個房間沒有熱水。",
+      "output": "assets/audio/candidates/lodging/lodging-004-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Phòng này không có nước nóng.",
+      "output": "assets/audio/candidates/lodging/lodging-004-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "熱水會在十分鐘後恢復。",
+      "output": "assets/audio/candidates/lodging/lodging-004-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Nước nóng sẽ có lại sau mười phút.",
+      "output": "assets/audio/candidates/lodging/lodging-004-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "房間裡的冷氣不能運作。",
+      "output": "assets/audio/candidates/lodging/lodging-005-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Máy lạnh trong phòng không hoạt động.",
+      "output": "assets/audio/candidates/lodging/lodging-005-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你可以開冷氣嗎？",
+      "output": "assets/audio/candidates/lodging/lodging-005-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn có thể bật máy lạnh không?",
+      "output": "assets/audio/candidates/lodging/lodging-005-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請把冷氣溫度調低一點。",
+      "output": "assets/audio/candidates/lodging/lodging-005-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin giảm nhiệt độ máy lạnh xuống một chút.",
+      "output": "assets/audio/candidates/lodging/lodging-005-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這裡的無線網路有點慢。",
+      "output": "assets/audio/candidates/lodging/lodging-006-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Mạng Wi-Fi ở đây hơi chậm.",
+      "output": "assets/audio/candidates/lodging/lodging-006-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "無線網路密碼是什麼？",
+      "output": "assets/audio/candidates/lodging/lodging-006-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Mật khẩu mạng Wi-Fi là gì?",
+      "output": "assets/audio/candidates/lodging/lodging-006-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我連不上無線網路。",
+      "output": "assets/audio/candidates/lodging/lodging-006-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi không kết nối được với mạng Wi-Fi.",
+      "output": "assets/audio/candidates/lodging/lodging-006-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想租兩天機車。",
+      "output": "assets/audio/candidates/lodging/lodging-007-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn thuê xe máy trong hai ngày.",
+      "output": "assets/audio/candidates/lodging/lodging-007-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我們在公司附近租了一間公寓。",
+      "output": "assets/audio/candidates/lodging/lodging-007-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chúng tôi thuê một căn hộ gần công ty.",
+      "output": "assets/audio/candidates/lodging/lodging-007-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "在這裡租車多少錢？",
+      "output": "assets/audio/candidates/lodging/lodging-007-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Thuê xe ở đây giá bao nhiêu?",
+      "output": "assets/audio/candidates/lodging/lodging-007-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想住兩晚。",
+      "output": "assets/audio/candidates/lodging/lodging-008-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn ở lại hai đêm.",
+      "output": "assets/audio/candidates/lodging/lodging-008-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我們決定多住一晚。",
+      "output": "assets/audio/candidates/lodging/lodging-008-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chúng tôi quyết định ở lại thêm một đêm.",
+      "output": "assets/audio/candidates/lodging/lodging-008-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "退房時我會歸還鑰匙。",
+      "output": "assets/audio/candidates/lodging/lodging-008-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi sẽ trả chìa khóa khi trả phòng.",
+      "output": "assets/audio/candidates/lodging/lodging-008-3-vi.mp3",
+      "generated": true
+    }
+  ]
+}

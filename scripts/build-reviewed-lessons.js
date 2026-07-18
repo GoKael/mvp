@@ -4,12 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SOURCE = path.join(ROOT, 'content/transport-30.source.json');
-const OUTPUT_DIR = path.join(ROOT, 'content/review');
-const LESSONS_OUTPUT = path.join(OUTPUT_DIR, 'transport-lessons.json');
-const JOBS_OUTPUT = path.join(OUTPUT_DIR, 'transport-audio-jobs.json');
-const MANIFEST_OUTPUT = path.join(OUTPUT_DIR, 'transport-audio-manifest.json');
-
+const sourcePath = path.resolve(ROOT, process.argv[2] || 'content/transport-30.source.json');
 const readJson = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
 const writeJson = (file, value) => {
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -17,7 +12,12 @@ const writeJson = (file, value) => {
 };
 
 function main() {
-  const source = readJson(SOURCE);
+  const source = readJson(sourcePath);
+  if (!/^[a-z][a-z0-9-]+$/.test(source.id)) throw new Error(`Invalid pack id: ${source.id}`);
+  const outputDir = path.join(ROOT, 'content/review');
+  const lessonsOutput = path.join(outputDir, `${source.id}-lessons.json`);
+  const jobsOutput = path.join(outputDir, `${source.id}-audio-jobs.json`);
+  const manifestOutput = path.join(outputDir, `${source.id}-audio-manifest.json`);
   const lexicon = readJson(path.join(ROOT, 'server/data/lexicon.json'));
   const wordsByRank = new Map(lexicon.map((word) => [word.rank, word]));
 
@@ -40,8 +40,8 @@ function main() {
       focusWords: segment.focusWords,
       breakdown: segment.breakdown,
       audio: {
-        zhTW: `assets/audio/candidates/transport/${lesson.id}-${segment.id}-zh.mp3`,
-        vi: `assets/audio/candidates/transport/${lesson.id}-${segment.id}-vi.mp3`,
+        zhTW: `assets/audio/candidates/${source.id}/${lesson.id}-${segment.id}-zh.mp3`,
+        vi: `assets/audio/candidates/${source.id}/${lesson.id}-${segment.id}-vi.mp3`,
       },
     })),
   }));
@@ -63,9 +63,9 @@ function main() {
     },
   ]));
 
-  writeJson(LESSONS_OUTPUT, lessons);
-  writeJson(JOBS_OUTPUT, audioJobs);
-  writeJson(MANIFEST_OUTPUT, {
+  writeJson(lessonsOutput, lessons);
+  writeJson(jobsOutput, audioJobs);
+  writeJson(manifestOutput, {
     model: 'gemini-2.5-pro-tts',
     status: 'reviewed',
     expected: audioJobs.length,
@@ -75,7 +75,7 @@ function main() {
     })),
   });
 
-  console.log(`Built ${lessons.length} reviewed transport lessons and ${audioJobs.length} candidate audio jobs.`);
+  console.log(`Built ${lessons.length} reviewed ${source.id} lessons and ${audioJobs.length} candidate audio jobs.`);
 }
 
 main();
