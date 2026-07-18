@@ -5,6 +5,7 @@
     "build": "node scripts/build-data.js && node scripts/validate-data.js --strict-audio && node scripts/build-static.js",
     "build:transport": "node scripts/build-reviewed-lessons.js content/transport-30.source.json && node scripts/validate-reviewed-lessons.js content/transport-30.source.json",
     "build:lodging": "node scripts/build-reviewed-lessons.js content/lodging-24.source.json && node scripts/validate-reviewed-lessons.js content/lodging-24.source.json",
+    "build:shopping": "node scripts/build-reviewed-lessons.js content/shopping-24.source.json && node scripts/validate-reviewed-lessons.js content/shopping-24.source.json",
     "audit:vocabulary": "node scripts/audit-vocabulary.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",
