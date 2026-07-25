@@ -6,6 +6,7 @@ import {
   dueLessonSegments,
   dueWords,
   filterDictionaryWords,
+  itemAudio,
   lessonLearningProgress,
   lessonProgress,
   lessonSegmentProgress,
@@ -70,6 +71,10 @@ assert.equal(filterDictionaryWords(dictionary, state, 'all').length, 3);
 assert.deepEqual(filterDictionaryWords(dictionary, state, 'reviewed').map((word) => word.id), ['vi:101-toi']);
 assert.equal(filterDictionaryWords(dictionary, state, STATUS.NEW).length, 0);
 assert.deepEqual(filterDictionaryWords(dictionary, state, 'all', '代名詞').map((word) => word.id), ['vi:101-toi']);
+assert.equal(itemAudio({ audio: 'legacy-vi.mp3' }, 'vi'), 'legacy-vi.mp3');
+assert.equal(itemAudio({ audio: 'legacy-vi.mp3' }, 'zhTW'), '');
+assert.equal(itemAudio({ audio: { vi: 'word-vi.mp3', zhTW: 'word-zh.mp3' } }, 'vi'), 'word-vi.mp3');
+assert.equal(itemAudio({ audio: { vi: 'word-vi.mp3', zhTW: 'word-zh.mp3' } }, 'zhTW'), 'word-zh.mp3');
 
 const overdueState = { words: Object.fromEntries(freshWords.map((word) => [word.id, {
   status: STATUS.LEARNING,

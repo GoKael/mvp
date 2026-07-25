@@ -10,11 +10,21 @@ const ROOT = path.resolve(__dirname, '..');
 const manifestPath = path.resolve(ROOT, process.argv[2] || 'server/data/core-101-150-audio-manifest.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
 const allowAnySize = process.argv.includes('--allow-any-size');
+const allowMissing = process.argv.includes('--allow-missing');
 if (allowAnySize) assert.ok(manifest.expected > 0, 'Audio manifest must not be empty');
-else assert.strictEqual(manifest.expected, 200, 'A 50-word Core batch must contain 200 audio jobs');
+else assert.strictEqual(manifest.expected, manifest.bilingual ? 400 : 200, 'A 50-word Core batch has an invalid audio job count');
 assert.strictEqual(manifest.assets.length, manifest.expected, 'Audio manifest count mismatch');
+assert.strictEqual(new Set(manifest.assets.map((asset) => asset.output)).size, manifest.expected, 'Audio paths must be unique');
+if (manifest.bilingual) {
+  assert.strictEqual(manifest.assets.filter((asset) => asset.languageCode === 'vi-VN').length, 200, 'Missing Vietnamese audio jobs');
+  assert.strictEqual(manifest.assets.filter((asset) => asset.languageCode === 'cmn-TW').length, 200, 'Missing Traditional Chinese audio jobs');
+}
 
 const missing = manifest.assets.filter((asset) => !fs.existsSync(path.join(ROOT, asset.output)));
+if (allowMissing) {
+  console.log(`audio plan ok: ${manifest.expected} jobs, ${missing.length} files pending; no TTS request made`);
+  process.exit(0);
+}
 assert.strictEqual(missing.length, 0, `Missing ${missing.length} batch audio files`);
 
 function metric(output, label) {

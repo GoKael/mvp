@@ -8,6 +8,7 @@ import {
   lessonLearningProgress,
   lessonProgress,
   lessonSegmentProgress,
+  itemAudio,
   learningDirection,
   loadState,
   normalize,
@@ -24,13 +25,13 @@ import {
   startLesson,
   updateLessonSegment,
   wordProgress,
-} from './lib/app-core.mjs?v=8';
+} from './lib/app-core.mjs?v=9';
 import { AudioController } from './lib/audio.mjs?v=4';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
   words: 'server/data/core.json?v=2',
-  lexicon: 'server/data/lexicon.json?v=1',
+  lexicon: 'server/data/lexicon.json?v=2',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
   audio: 'server/data/audio-manifest.json?v=4',
@@ -99,8 +100,7 @@ function targetAudio(audioPaths) {
 }
 
 function wordTargetAudio(item) {
-  if (typeof item?.audio === 'string') return targetKey() === 'vi' ? item.audio : '';
-  return item?.audio?.[targetKey()] || '';
+  return itemAudio(item, targetKey());
 }
 
 function exerciseTokens(text, key = targetKey()) {
@@ -1111,7 +1111,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=29', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=30', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

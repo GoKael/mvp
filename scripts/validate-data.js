@@ -23,14 +23,14 @@ const manifest = read('server/data/audio-manifest.json');
 const strictAudio = process.argv.includes('--strict-audio');
 const strictLessons = process.argv.includes('--strict-lessons');
 
-assert.ok(words.length >= 100 && words.length <= 300 && words.length % 50 === 0, 'Published Core must contain 100–300 words in 50-word batches');
-assert.strictEqual(lexicon.length, 300, 'Dictionary index must contain the reviewed Core 300');
-assert.deepStrictEqual(lexicon.map((word) => word.rank), Array.from({ length: 300 }, (_, index) => index + 1));
-assert.strictEqual(new Set(lexicon.map((word) => word.id)).size, 300, 'Dictionary ids must be unique');
+assert.ok(words.length >= 100 && words.length <= 1000 && words.length % 50 === 0, 'Published Core must contain 100–1000 words in 50-word batches');
+assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Dictionary index must grow in 50-word batches');
+assert.deepStrictEqual(lexicon.map((word) => word.rank), Array.from({ length: lexicon.length }, (_, index) => index + 1));
+assert.strictEqual(new Set(lexicon.map((word) => word.id)).size, lexicon.length, 'Dictionary ids must be unique');
 lexicon.forEach((word) => {
   assert.ok(word.vi && word.zhTW && word.pos, `Incomplete dictionary entry: ${word.id}`);
   assert.ok(['verified', 'reviewed'].includes(word.quality), `Invalid dictionary quality: ${word.id}`);
-  assert.ok(!/meaning pending|vietnamese core word|尚未|\bword\b/i.test(word.zhTW), `Dictionary placeholder found: ${word.id}`);
+  assert.ok(!/meaning pending|vietnamese core word|尚未(?:補|完成)|\bword\b/i.test(word.zhTW), `Dictionary placeholder found: ${word.id}`);
   assert.strictEqual(word.examples.length, 3, `Dictionary entry needs three examples: ${word.id}`);
 });
 assert.deepStrictEqual(lexicon.slice(0, words.length), words, 'Published words must match the dictionary prefix');
@@ -39,7 +39,7 @@ assert.strictEqual(new Set(words.map((word) => word.conceptId)).size, words.leng
 assert.deepStrictEqual(words.map((word) => word.rank), Array.from({ length: words.length }, (_, index) => index + 1));
 words.forEach((word) => {
   assert.ok(word.id.startsWith('vi:'), `Invalid word id: ${word.id}`);
-  assert.ok(/^concept:\d{3}$/.test(word.conceptId), `Invalid concept id: ${word.id}`);
+  assert.ok(/^concept:\d{3,4}$/.test(word.conceptId), `Invalid concept id: ${word.id}`);
   assert.ok(word.vi && word.zhTW && word.pos, `Missing required word fields: ${word.id}`);
   assert.strictEqual(word.quality, 'verified', `Word is not verified: ${word.id}`);
   assert.ok(!/meaning pending|vietnamese core word|\bword\b/i.test(word.zhTW), `Placeholder found: ${word.id}`);
@@ -80,7 +80,13 @@ patterns.forEach((pattern) => {
   pattern.examples.forEach((example) => assert.ok(example.vi && example.zhTW && example.audio));
 });
 
-assert.strictEqual(manifest.expected, words.length * 4 + 100, 'Unexpected audio job count');
+const vocabularyAudioJobs = words.reduce((count, word) => {
+  const wordCount = typeof word.audio === 'string' ? 1 : Object.values(word.audio).filter(Boolean).length;
+  return count + wordCount + word.examples.reduce((sum, example) => (
+    sum + (typeof example.audio === 'string' ? 1 : Object.values(example.audio).filter(Boolean).length)
+  ), 0);
+}, 0);
+assert.strictEqual(manifest.expected, vocabularyAudioJobs + 100, 'Unexpected audio job count');
 assert.strictEqual(manifest.assets.filter((asset) => asset.kind === 'pattern').length, 40, 'Expected forty pattern audio jobs');
 assert.strictEqual(manifest.assets.length, manifest.expected, 'Audio manifest is incomplete');
 assert.strictEqual(new Set(manifest.assets.map((asset) => asset.output)).size, manifest.expected, 'Audio paths must be unique');

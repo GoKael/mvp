@@ -25,12 +25,14 @@ const domains = [
   { range: [151, 200], name: '交通、方向、住宿、居家', required: ['xe', 'sân bay', 'bên trái', 'đi bộ', 'khách sạn', 'nhà vệ sinh'] },
   { range: [201, 250], name: '購物、健康、求助、常用動作', required: ['mua', 'thanh toán', 'giúp', 'bệnh viện', 'nhà thuốc'] },
   { range: [251, 300], name: '社交、家庭、工作、常用描述', required: ['gia đình', 'công việc', 'đồng nghiệp', 'thích', 'nhiều', 'thường'] },
+  { range: [301, 350], name: '句子連接、思考、溝通與常用動作', required: ['đang', 'nếu', 'để', 'hỏi', 'nhớ', 'bắt đầu'] },
+  { range: [351, 400], name: '常用描述、程度時間與餐飲基本詞', required: ['sai', 'sạch', 'có thể', 'nhà hàng', 'cà phê', 'đói'] },
 ];
 
-assert.strictEqual(lexicon.length, 300, 'Vocabulary roadmap requires exactly 300 lexical units');
+assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');
 assert.strictEqual(lexicon.filter((word) => word.quality === 'verified').length, 100, 'Expected 100 published words');
-assert.strictEqual(lexicon.filter((word) => word.quality === 'reviewed').length, 200, 'Expected 200 reviewed words');
-assert.strictEqual(new Set(lexicon.map((word) => normalize(word.vi))).size, 300, 'Vocabulary roadmap contains duplicate lexical units');
+assert.strictEqual(lexicon.filter((word) => word.quality === 'reviewed').length, lexicon.length - 100, 'Unexpected reviewed word count');
+assert.strictEqual(new Set(lexicon.map((word) => normalize(word.vi))).size, lexicon.length, 'Vocabulary roadmap contains duplicate lexical units');
 
 domains.forEach(({ range: [start, end], name, required }) => {
   const batch = lexicon.filter((word) => word.rank >= start && word.rank <= end);
@@ -56,12 +58,12 @@ const combinedLinkedWords = lexicon.filter((word) => combinedWordIds.has(word.id
 
 assert.ok(archivedReviewed.length >= 150, 'Core 101–300 lost too much archived frequency evidence');
 assert.ok(archivedTop1000.length >= 100, 'Core 101–300 must retain at least 100 archived top-1000 matches');
-assert.strictEqual(combinedLinkedWords.length, lexicon.length, 'Every Core 300 word must link to a published or candidate lesson');
+assert.strictEqual(combinedLinkedWords.filter((word) => word.rank <= 300).length, 300, 'Every Core 300 word must link to a published or candidate lesson');
 
 console.log(JSON.stringify({
   lexicalUnits: lexicon.length,
-  verified: 100,
-  reviewed: 200,
+  verified: lexicon.filter((word) => word.quality === 'verified').length,
+  reviewed: reviewed.length,
   reviewedFoundInArchived3k: archivedReviewed.length,
   reviewedFoundInArchivedTop1000: archivedTop1000.length,
   linkedToPublishedLessons: linkedWords.length,

@@ -6,7 +6,14 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const FOOD_SOURCE = path.join(ROOT, 'content/food-30.source.json');
 const CORE_RELEASES = path.join(ROOT, 'content/core-releases.json');
-const CORE_CANDIDATE_RANGES = ['101-150', '151-200', '201-250', '251-300'];
+
+function coreCandidateRanges() {
+  return fs.readdirSync(path.join(ROOT, 'content'))
+    .map((file) => /^core-(\d+)-(\d+)\.source\.json$/.exec(file))
+    .filter(Boolean)
+    .map((match) => `${match[1]}-${match[2]}`)
+    .sort((left, right) => Number(left.split('-')[0]) - Number(right.split('-')[0]));
+}
 
 const zhMeaning = [
   '是', '和、以及', '的、屬於', '有、擁有', '不、沒有', '在…裡、之中', '一、一個', '各、複數標記',
@@ -327,10 +334,16 @@ function buildReleasedWords(range) {
       pos: word.pos,
       hanViet: '',
       rank: word.rank,
-      audio: `assets/audio/words/${prefix}.mp3`,
+      audio: {
+        vi: `assets/audio/words/${prefix}.mp3`,
+        zhTW: `assets/audio/words/${prefix}-zh.mp3`,
+      },
       examples: word.examples.map((example, index) => ({
         ...example,
-        audio: `assets/audio/examples/${String(word.rank).padStart(3, '0')}-${index + 1}.mp3`,
+        audio: {
+          vi: `assets/audio/examples/${String(word.rank).padStart(3, '0')}-${index + 1}.mp3`,
+          zhTW: `assets/audio/examples/${String(word.rank).padStart(3, '0')}-${index + 1}-zh.mp3`,
+        },
       })),
       quality: 'verified',
     };
@@ -346,7 +359,7 @@ function buildCoreWords() {
     if (!match) throw new Error(`Invalid Core release range: ${range}`);
     const start = Number(match[1]);
     const end = Number(match[2]);
-    if (start !== expectedStart || end !== start + 49 || end > 300) throw new Error(`Core releases must be contiguous 50-word batches: ${range}`);
+    if (start !== expectedStart || end !== start + 49 || end > 1000) throw new Error(`Core releases must be contiguous 50-word batches: ${range}`);
     words.push(...buildReleasedWords(range));
     expectedStart = end + 1;
   });
@@ -355,7 +368,7 @@ function buildCoreWords() {
 
 function buildLexiconWords(coreWords) {
   const byRank = new Map(coreWords.map((word) => [word.rank, word]));
-  CORE_CANDIDATE_RANGES.forEach((range) => {
+  coreCandidateRanges().forEach((range) => {
     buildReleasedWords(range).forEach((word) => {
       if (!byRank.has(word.rank)) byRank.set(word.rank, { ...word, quality: 'reviewed' });
     });
@@ -453,20 +466,14 @@ function buildPatterns() {
 function buildAudioJobs(coreWords, lessons, patterns) {
   const jobs = [];
   coreWords.forEach((word) => {
-    jobs.push({
-      kind: 'word',
-      languageCode: 'vi-VN',
-      voice: 'Zephyr',
-      text: word.vi,
-      output: word.audio,
+    const wordAudio = typeof word.audio === 'string' ? { vi: word.audio } : word.audio;
+    jobs.push({ kind: 'word', languageCode: 'vi-VN', voice: 'Zephyr', text: word.vi, output: wordAudio.vi });
+    if (wordAudio.zhTW) jobs.push({ kind: 'word', languageCode: 'cmn-TW', voice: 'Zephyr', text: word.zhTW, output: wordAudio.zhTW });
+    word.examples.forEach((example) => {
+      const exampleAudio = typeof example.audio === 'string' ? { vi: example.audio } : example.audio;
+      jobs.push({ kind: 'example', languageCode: 'vi-VN', voice: 'Zephyr', text: example.vi, output: exampleAudio.vi });
+      if (exampleAudio.zhTW) jobs.push({ kind: 'example', languageCode: 'cmn-TW', voice: 'Zephyr', text: example.zhTW, output: exampleAudio.zhTW });
     });
-    word.examples.forEach((example) => jobs.push({
-      kind: 'example',
-      languageCode: 'vi-VN',
-      voice: 'Zephyr',
-      text: example.vi,
-      output: example.audio,
-    }));
   });
   lessons.forEach((lesson) => lesson.segments.forEach((segment) => {
     jobs.push({

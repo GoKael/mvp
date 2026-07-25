@@ -1,6 +1,6 @@
 # Lexa
 
-Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 300 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 200 詞以「校對中」只讀顯示。
+Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 300 詞以「校對中」只讀顯示；下一個內容目標是 Core 1000。
 
 頁首可切換 `台灣人學越南語 / Người Việt học Hoa ngữ`。兩個方向共用概念資料但保存獨立進度；反向模式目前可使用雙語情境課、單字顯示與複習，缺少的繁中單字音檔與中文句型會明確停用，補齊內容前不視為正式發行。
 
@@ -34,11 +34,13 @@ node scripts/audit-vocabulary.js
 node scripts/test-core.mjs
 ```
 
-正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是 300 詞查閱索引，只有 `verified` 詞能進入播放、狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會進入正式 UI。
+正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是目前 400 詞的查閱索引，只有 `verified` 詞能進入播放、狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會直接進入正式 UI。
 
 `rank` 是穩定的 Lexa 內容目錄位置，不是要求使用者依序背誦的解鎖順序。實際課程依口語頻率、情境必要性與個人弱點選詞。
 
 Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查。人工抽聽前只會進入只讀詞典，不會開放播放、學習狀態或複習。
+
+Core `301–400` 已完成兩個 50 詞的人工編輯來源，共 100 詞、300 個雙語例句。每詞已建立中越詞頭與三例句雙語的 8 個音訊任務，共 800 個候選任務；目前沒有免費 Gemini API key，因此尚未送出 TTS 請求，也不會進入正式發布 manifest。
 
 七個 reviewed 情境候選包位於 `content/basics-30.source.json`、`content/core-context-39.source.json`、`content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`、`content/health-24.source.json`、`content/social-work-30.source.json`。候選包與正式食物課合計連結 Core 300 全部詞彙；執行對應的 `npm run build:*` 會生成課程、雙語音訊工作與 manifest 到 `content/review/`，不會寫入正式 `server/data/lessons.json` 或靜態部署。
 
@@ -143,7 +145,7 @@ npm run preview
 npm run build
 ```
 
-部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 300 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；其餘 1,202 個未發布音檔、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
+部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 400 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；其餘未發布音檔、候選 TTS 任務、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
 
 ## Browser Extension
 
