@@ -69,6 +69,7 @@ def main() -> None:
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--retries", type=int, default=4)
+    parser.add_argument("--manifest-every", type=int, default=1)
     args = parser.parse_args()
 
     jobs_path = ROOT / args.jobs_file
@@ -131,8 +132,10 @@ def main() -> None:
                 print(f"temporary TTS error ({error.code}); retrying in {retry_delay}s", flush=True)
                 time.sleep(retry_delay)
         target.write_bytes(response.audio_content)
-        refresh_manifest(jobs_path, manifest_path)
-        print(f"[{index}/{len(jobs)}] wrote {target.relative_to(ROOT)}", flush=True)
+        if index % args.manifest_every == 0 or index == len(jobs):
+            refresh_manifest(jobs_path, manifest_path)
+        label = target.relative_to(ROOT) if target.is_relative_to(ROOT) else target
+        print(f"[{index}/{len(jobs)}] wrote {label}", flush=True)
         if index < len(jobs) and args.delay_ms > 0:
             time.sleep(args.delay_ms / 1000)
 

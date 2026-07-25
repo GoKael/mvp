@@ -30,11 +30,11 @@ import { AudioController } from './lib/audio.mjs?v=4';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
-  words: 'server/data/core.json?v=3',
-  lexicon: 'server/data/lexicon.json?v=4',
+  words: 'server/data/core.json?v=4',
+  lexicon: 'server/data/lexicon.json?v=5',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
-  audio: 'server/data/audio-manifest.json?v=4',
+  audio: 'server/data/audio-manifest.json?v=5',
 };
 
 const app = document.getElementById('app');
@@ -267,7 +267,7 @@ function renderLexemePopover() {
     ? `Core ${String(entry.rank).padStart(3, '0')}${entry.quality === 'reviewed' ? ' · 校對中' : ''}`
     : (entry.source === 'focus' ? '課程詞組' : '句中單字 · 待校驗');
   const wordAudio = wordTargetAudio(entry);
-  const canPlay = !reviewed && Boolean(wordAudio && hasAudio(wordAudio));
+  const canPlay = Boolean(wordAudio && hasAudio(wordAudio));
   Object.values(STATUS).forEach((status) => lexemePopover.classList.remove(`status-${status}`));
   lexemePopover.classList.add(`status-${progress.status}`);
   const title = isReverseDirection() ? entry.zhTW : entry.vi;
@@ -612,7 +612,7 @@ function renderWords() {
         ${['all', 'reviewed', 'new', 'learning', 'known', 'ignored'].map((filter) => `<button type="button" class="${ui.wordFilter === filter ? 'active' : ''}" data-action="word-filter" data-filter="${filter}">${filter === 'all' ? `全部 ${data.lexicon.length}` : (filter === 'reviewed' ? `校對中 ${reviewedCount}` : statusLabel(filter))}</button>`).join('')}
       </div>
     </section>
-    <p class="result-count">顯示 ${words.length} / ${data.lexicon.length}；校對中詞可查閱，暫不進入播放與複習。</p>
+    <p class="result-count">顯示 ${words.length} / ${data.lexicon.length}；校對中詞可播放，人工驗收後才進入複習。</p>
     <section class="word-grid reveal">
       ${words.map((word) => {
         const reviewed = word.quality === 'reviewed';
@@ -1111,7 +1111,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=30', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=32', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

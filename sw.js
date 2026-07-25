@@ -1,18 +1,18 @@
-const CACHE = 'lexa-v2-32';
+const CACHE = 'lexa-v2-34';
 const APP_SHELL = [
   './index.html',
   './styles.css?v=27',
-  './app.js?v=41',
+  './app.js?v=43',
   './lib/app-core.mjs?v=9',
   './lib/audio.mjs?v=4',
   './lib/lexeme.mjs?v=2',
   './manifest.webmanifest',
   './assets/icon.svg',
-  './server/data/core.json?v=3',
-  './server/data/lexicon.json?v=4',
+  './server/data/core.json?v=4',
+  './server/data/lexicon.json?v=5',
   './server/data/lessons.json?v=4',
   './server/data/patterns.json?v=4',
-  './server/data/audio-manifest.json?v=4',
+  './server/data/audio-manifest.json?v=5',
   './assets/audio/lessons/food-001-1-zh.mp3',
   './assets/audio/lessons/food-001-1-vi.mp3',
   './assets/audio/lessons/food-001-2-zh.mp3',

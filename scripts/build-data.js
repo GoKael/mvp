@@ -296,17 +296,16 @@ function buildCoreSeed() {
     const slug = slugify(item.word);
     const rank = index + 1;
     const prefix = `${String(rank).padStart(3, '0')}-${slug}`;
-    const bilingualAudio = rank <= 10;
     const translated = translations.get(rank);
     const sourceExamples = exampleOverrides[rank]
       || (item.examples || []).slice(0, 3).map((example, exampleIndex) => [example.v || example.vi, translated?.[exampleIndex]]);
     const examples = sourceExamples.map((example, exampleIndex) => ({
       vi: String(example[0] || '').trim(),
       zhTW: String(example[1] || '').trim(),
-      audio: bilingualAudio ? {
+      audio: {
         vi: `assets/audio/examples/${String(rank).padStart(3, '0')}-${exampleIndex + 1}.mp3`,
         zhTW: `assets/audio/examples/${String(rank).padStart(3, '0')}-${exampleIndex + 1}-zh.mp3`,
-      } : `assets/audio/examples/${String(rank).padStart(3, '0')}-${exampleIndex + 1}.mp3`,
+      },
     }));
     if (examples.length !== 3 || examples.some((example) => !example.vi || !example.zhTW)) {
       throw new Error(`Core word ${item.word} is missing bilingual examples`);
@@ -319,10 +318,10 @@ function buildCoreSeed() {
       pos: posMap[item.type] || item.type,
       hanViet: '',
       rank,
-      audio: bilingualAudio ? {
+      audio: {
         vi: `assets/audio/words/${prefix}.mp3`,
         zhTW: `assets/audio/words/${prefix}-zh.mp3`,
-      } : `assets/audio/words/${prefix}.mp3`,
+      },
       examples,
       quality: 'verified',
     };
@@ -471,7 +470,7 @@ function buildPatterns() {
     }));
 }
 
-function buildAudioJobs(coreWords, lessons, patterns) {
+function buildAudioJobs(coreWords, lexiconWords, lessons, patterns) {
   const jobs = [];
   coreWords.forEach((word) => {
     const wordAudio = typeof word.audio === 'string' ? { vi: word.audio } : word.audio;
@@ -481,6 +480,12 @@ function buildAudioJobs(coreWords, lessons, patterns) {
       const exampleAudio = typeof example.audio === 'string' ? { vi: example.audio } : example.audio;
       jobs.push({ kind: 'example', languageCode: 'vi-VN', voice: 'Zephyr', text: example.vi, output: exampleAudio.vi });
       if (exampleAudio.zhTW) jobs.push({ kind: 'example', languageCode: 'cmn-TW', voice: 'Zephyr', text: example.zhTW, output: exampleAudio.zhTW });
+    });
+  });
+  lexiconWords.filter((word) => word.quality === 'reviewed').forEach((word) => {
+    jobs.push({ kind: 'word', languageCode: 'cmn-TW', voice: 'Zephyr', text: word.zhTW, output: word.audio.zhTW });
+    word.examples.forEach((example) => {
+      jobs.push({ kind: 'example', languageCode: 'cmn-TW', voice: 'Zephyr', text: example.zhTW, output: example.audio.zhTW });
     });
   });
   lessons.forEach((lesson) => lesson.segments.forEach((segment) => {
@@ -541,7 +546,7 @@ function main() {
   const lexiconWords = buildLexiconWords(coreWords);
   const lessons = buildLessons(coreWords);
   const patterns = buildPatterns();
-  const audioJobs = buildAudioJobs(coreWords, lessons, patterns);
+  const audioJobs = buildAudioJobs(coreWords, lexiconWords, lessons, patterns);
   writeJson(path.join(ROOT, 'server/data/core-100.json'), coreWords.slice(0, 100));
   writeJson(path.join(ROOT, 'server/data/core.json'), coreWords);
   writeJson(path.join(ROOT, 'server/data/lexicon.json'), lexiconWords);

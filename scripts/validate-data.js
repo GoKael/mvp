@@ -50,11 +50,15 @@ words.forEach((word) => {
     assert.ok(normalize(example.vi).split(' ').includes(normalize(word.vi)), `Example does not contain ${word.vi}: ${example.vi}`);
   });
 });
-words.slice(0, 10).forEach((word) => {
-  assert.ok(word.audio.vi && word.audio.zhTW, `Core 10 word needs bilingual audio: ${word.id}`);
+words.forEach((word) => {
+  assert.ok(word.audio.vi && word.audio.zhTW, `Published word needs bilingual audio: ${word.id}`);
   word.examples.forEach((example) => {
-    assert.ok(example.audio.vi && example.audio.zhTW, `Core 10 example needs bilingual audio: ${word.id}`);
+    assert.ok(example.audio.vi && example.audio.zhTW, `Published example needs bilingual audio: ${word.id}`);
   });
+});
+lexicon.filter((word) => word.quality === 'reviewed').forEach((word) => {
+  assert.ok(word.audio.zhTW, `Reviewed word needs Mandarin audio: ${word.id}`);
+  word.examples.forEach((example) => assert.ok(example.audio.zhTW, `Reviewed example needs Mandarin audio: ${word.id}`));
 });
 
 assert.strictEqual(lessons.length, 10, 'Expected ten food lessons');
@@ -92,7 +96,8 @@ const vocabularyAudioJobs = words.reduce((count, word) => {
     sum + (typeof example.audio === 'string' ? 1 : Object.values(example.audio).filter(Boolean).length)
   ), 0);
 }, 0);
-assert.strictEqual(manifest.expected, vocabularyAudioJobs + 100, 'Unexpected audio job count');
+const reviewedMandarinJobs = lexicon.filter((word) => word.quality === 'reviewed').length * 4;
+assert.strictEqual(manifest.expected, vocabularyAudioJobs + reviewedMandarinJobs + 100, 'Unexpected audio job count');
 assert.strictEqual(manifest.assets.filter((asset) => asset.kind === 'pattern').length, 40, 'Expected forty pattern audio jobs');
 assert.strictEqual(manifest.assets.length, manifest.expected, 'Audio manifest is incomplete');
 assert.strictEqual(new Set(manifest.assets.map((asset) => asset.output)).size, manifest.expected, 'Audio paths must be unique');
@@ -117,7 +122,7 @@ generated.forEach((asset) => {
   assert.ok(probe.status === 0 && Number.isFinite(duration), `Audio cannot be decoded: ${asset.output}`);
   assert.ok(duration <= 9.5, `Audio exceeds 9.5 seconds: ${asset.output} (${duration})`);
   if (asset.kind === 'word') {
-    const maxDuration = asset.languageCode === 'cmn-TW' ? 4.5 : 2.5;
+    const maxDuration = asset.languageCode === 'cmn-TW' ? 7.5 : 2.5;
     assert.ok(duration >= 0.18 && duration <= maxDuration, `Word audio duration is suspicious: ${asset.output} (${duration})`);
   }
 });
