@@ -16798,5 +16798,2005 @@
       }
     ],
     "quality": "reviewed"
+  },
+  {
+    "id": "vi:451-can-ho",
+    "conceptId": "concept:451",
+    "vi": "căn hộ",
+    "zhTW": "公寓、住宅單位",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 451,
+    "audio": {
+      "vi": "assets/audio/words/451-can-ho.mp3",
+      "zhTW": "assets/audio/words/451-can-ho-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi thuê một căn hộ gần công ty.",
+        "zhTW": "我在公司附近租了一間公寓。",
+        "audio": {
+          "vi": "assets/audio/examples/451-1.mp3",
+          "zhTW": "assets/audio/examples/451-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Căn hộ này có hai phòng ngủ.",
+        "zhTW": "這間公寓有兩間臥室。",
+        "audio": {
+          "vi": "assets/audio/examples/451-2.mp3",
+          "zhTW": "assets/audio/examples/451-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Giá căn hộ đã bao gồm điện nước chưa?",
+        "zhTW": "公寓租金包含水電費了嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/451-3.mp3",
+          "zhTW": "assets/audio/examples/451-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:452-chung-cu",
+    "conceptId": "concept:452",
+    "vi": "chung cư",
+    "zhTW": "公寓大樓、集合住宅",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 452,
+    "audio": {
+      "vi": "assets/audio/words/452-chung-cu.mp3",
+      "zhTW": "assets/audio/words/452-chung-cu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi sống ở chung cư này.",
+        "zhTW": "我住在這棟公寓大樓。",
+        "audio": {
+          "vi": "assets/audio/examples/452-1.mp3",
+          "zhTW": "assets/audio/examples/452-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chung cư có thang máy không?",
+        "zhTW": "這棟公寓有電梯嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/452-2.mp3",
+          "zhTW": "assets/audio/examples/452-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tầng trệt của chung cư có siêu thị.",
+        "zhTW": "公寓大樓一樓有超市。",
+        "audio": {
+          "vi": "assets/audio/examples/452-3.mp3",
+          "zhTW": "assets/audio/examples/452-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:453-tien-coc",
+    "conceptId": "concept:453",
+    "vi": "tiền cọc",
+    "zhTW": "押金、保證金",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 453,
+    "audio": {
+      "vi": "assets/audio/words/453-tien-coc.mp3",
+      "zhTW": "assets/audio/words/453-tien-coc-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi phải trả bao nhiêu tiền cọc?",
+        "zhTW": "我需要付多少押金？",
+        "audio": {
+          "vi": "assets/audio/examples/453-1.mp3",
+          "zhTW": "assets/audio/examples/453-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tiền cọc sẽ được hoàn lại khi trả phòng.",
+        "zhTW": "退房時會退還押金。",
+        "audio": {
+          "vi": "assets/audio/examples/453-2.mp3",
+          "zhTW": "assets/audio/examples/453-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chủ nhà đã nhận tiền cọc rồi.",
+        "zhTW": "房東已經收到押金了。",
+        "audio": {
+          "vi": "assets/audio/examples/453-3.mp3",
+          "zhTW": "assets/audio/examples/453-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:454-chu-nha",
+    "conceptId": "concept:454",
+    "vi": "chủ nhà",
+    "zhTW": "房東；屋主",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 454,
+    "audio": {
+      "vi": "assets/audio/words/454-chu-nha.mp3",
+      "zhTW": "assets/audio/words/454-chu-nha-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần liên lạc với chủ nhà.",
+        "zhTW": "我需要聯絡房東。",
+        "audio": {
+          "vi": "assets/audio/examples/454-1.mp3",
+          "zhTW": "assets/audio/examples/454-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chủ nhà sống ở tầng trên.",
+        "zhTW": "房東住在樓上。",
+        "audio": {
+          "vi": "assets/audio/examples/454-2.mp3",
+          "zhTW": "assets/audio/examples/454-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chủ nhà sẽ đến kiểm tra máy lạnh.",
+        "zhTW": "房東會來檢查冷氣。",
+        "audio": {
+          "vi": "assets/audio/examples/454-3.mp3",
+          "zhTW": "assets/audio/examples/454-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:455-tien-thue",
+    "conceptId": "concept:455",
+    "vi": "tiền thuê",
+    "zhTW": "租金、租賃費",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 455,
+    "audio": {
+      "vi": "assets/audio/words/455-tien-thue.mp3",
+      "zhTW": "assets/audio/words/455-tien-thue-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tiền thuê mỗi tháng là bao nhiêu?",
+        "zhTW": "每個月的租金是多少？",
+        "audio": {
+          "vi": "assets/audio/examples/455-1.mp3",
+          "zhTW": "assets/audio/examples/455-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi đã trả tiền thuê tháng này.",
+        "zhTW": "我已經付了這個月的租金。",
+        "audio": {
+          "vi": "assets/audio/examples/455-2.mp3",
+          "zhTW": "assets/audio/examples/455-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tiền thuê không bao gồm tiền điện.",
+        "zhTW": "租金不包含電費。",
+        "audio": {
+          "vi": "assets/audio/examples/455-3.mp3",
+          "zhTW": "assets/audio/examples/455-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:456-hop-dong",
+    "conceptId": "concept:456",
+    "vi": "hợp đồng",
+    "zhTW": "合約、契約",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 456,
+    "audio": {
+      "vi": "assets/audio/words/456-hop-dong.mp3",
+      "zhTW": "assets/audio/words/456-hop-dong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn đọc hợp đồng trước khi ký.",
+        "zhTW": "我想在簽名前先閱讀合約。",
+        "audio": {
+          "vi": "assets/audio/examples/456-1.mp3",
+          "zhTW": "assets/audio/examples/456-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hợp đồng thuê nhà kéo dài một năm.",
+        "zhTW": "租屋合約為期一年。",
+        "audio": {
+          "vi": "assets/audio/examples/456-2.mp3",
+          "zhTW": "assets/audio/examples/456-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể gửi hợp đồng qua email không?",
+        "zhTW": "你可以用電子郵件寄合約嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/456-3.mp3",
+          "zhTW": "assets/audio/examples/456-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:457-dien",
+    "conceptId": "concept:457",
+    "vi": "điện",
+    "zhTW": "電、電力",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 457,
+    "audio": {
+      "vi": "assets/audio/words/457-dien.mp3",
+      "zhTW": "assets/audio/words/457-dien-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng này bị mất điện.",
+        "zhTW": "這個房間停電了。",
+        "audio": {
+          "vi": "assets/audio/examples/457-1.mp3",
+          "zhTW": "assets/audio/examples/457-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tiền điện tháng này khá cao.",
+        "zhTW": "這個月的電費相當高。",
+        "audio": {
+          "vi": "assets/audio/examples/457-2.mp3",
+          "zhTW": "assets/audio/examples/457-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy tắt điện trước khi ra ngoài.",
+        "zhTW": "出門前請關掉電源。",
+        "audio": {
+          "vi": "assets/audio/examples/457-3.mp3",
+          "zhTW": "assets/audio/examples/457-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:458-quat",
+    "conceptId": "concept:458",
+    "vi": "quạt",
+    "zhTW": "電風扇；扇子",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 458,
+    "audio": {
+      "vi": "assets/audio/words/458-quat.mp3",
+      "zhTW": "assets/audio/words/458-quat-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Quạt trong phòng không chạy.",
+        "zhTW": "房間裡的電風扇不會轉。",
+        "audio": {
+          "vi": "assets/audio/examples/458-1.mp3",
+          "zhTW": "assets/audio/examples/458-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể bật quạt giúp tôi không?",
+        "zhTW": "你可以幫我開電風扇嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/458-2.mp3",
+          "zhTW": "assets/audio/examples/458-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trời nóng nên tôi mua một chiếc quạt.",
+        "zhTW": "天氣很熱，所以我買了一把扇子。",
+        "audio": {
+          "vi": "assets/audio/examples/458-3.mp3",
+          "zhTW": "assets/audio/examples/458-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:459-den",
+    "conceptId": "concept:459",
+    "vi": "đèn",
+    "zhTW": "燈、燈具",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 459,
+    "audio": {
+      "vi": "assets/audio/words/459-den.mp3",
+      "zhTW": "assets/audio/words/459-den-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Đèn trong phòng tắm bị hỏng.",
+        "zhTW": "浴室的燈壞了。",
+        "audio": {
+          "vi": "assets/audio/examples/459-1.mp3",
+          "zhTW": "assets/audio/examples/459-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bật đèn giúp tôi nhé.",
+        "zhTW": "請幫我開燈。",
+        "audio": {
+          "vi": "assets/audio/examples/459-2.mp3",
+          "zhTW": "assets/audio/examples/459-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Ngoài cửa có một chiếc đèn nhỏ.",
+        "zhTW": "門外有一盞小燈。",
+        "audio": {
+          "vi": "assets/audio/examples/459-3.mp3",
+          "zhTW": "assets/audio/examples/459-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:460-cua-so",
+    "conceptId": "concept:460",
+    "vi": "cửa sổ",
+    "zhTW": "窗戶",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 460,
+    "audio": {
+      "vi": "assets/audio/words/460-cua-so.mp3",
+      "zhTW": "assets/audio/words/460-cua-so-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin mở cửa sổ một chút.",
+        "zhTW": "請把窗戶打開一點。",
+        "audio": {
+          "vi": "assets/audio/examples/460-1.mp3",
+          "zhTW": "assets/audio/examples/460-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phòng có cửa sổ nhìn ra biển.",
+        "zhTW": "房間有一扇面海的窗戶。",
+        "audio": {
+          "vi": "assets/audio/examples/460-2.mp3",
+          "zhTW": "assets/audio/examples/460-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cửa sổ này không đóng được.",
+        "zhTW": "這扇窗戶關不起來。",
+        "audio": {
+          "vi": "assets/audio/examples/460-3.mp3",
+          "zhTW": "assets/audio/examples/460-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:461-ban-cong",
+    "conceptId": "concept:461",
+    "vi": "ban công",
+    "zhTW": "陽台",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 461,
+    "audio": {
+      "vi": "assets/audio/words/461-ban-cong.mp3",
+      "zhTW": "assets/audio/words/461-ban-cong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Căn hộ này có ban công.",
+        "zhTW": "這間公寓有陽台。",
+        "audio": {
+          "vi": "assets/audio/examples/461-1.mp3",
+          "zhTW": "assets/audio/examples/461-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi phơi quần áo ngoài ban công.",
+        "zhTW": "我把衣服晾在陽台上。",
+        "audio": {
+          "vi": "assets/audio/examples/461-2.mp3",
+          "zhTW": "assets/audio/examples/461-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Từ ban công có thể nhìn thấy thành phố.",
+        "zhTW": "從陽台可以看見城市。",
+        "audio": {
+          "vi": "assets/audio/examples/461-3.mp3",
+          "zhTW": "assets/audio/examples/461-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:462-thang-may",
+    "conceptId": "concept:462",
+    "vi": "thang máy",
+    "zhTW": "電梯",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 462,
+    "audio": {
+      "vi": "assets/audio/words/462-thang-may.mp3",
+      "zhTW": "assets/audio/words/462-thang-may-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Thang máy ở bên trái.",
+        "zhTW": "電梯在左邊。",
+        "audio": {
+          "vi": "assets/audio/examples/462-1.mp3",
+          "zhTW": "assets/audio/examples/462-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Thang máy đang được sửa.",
+        "zhTW": "電梯正在維修。",
+        "audio": {
+          "vi": "assets/audio/examples/462-2.mp3",
+          "zhTW": "assets/audio/examples/462-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khách sạn này không có thang máy.",
+        "zhTW": "這家飯店沒有電梯。",
+        "audio": {
+          "vi": "assets/audio/examples/462-3.mp3",
+          "zhTW": "assets/audio/examples/462-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:463-cau-thang",
+    "conceptId": "concept:463",
+    "vi": "cầu thang",
+    "zhTW": "樓梯",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 463,
+    "audio": {
+      "vi": "assets/audio/words/463-cau-thang.mp3",
+      "zhTW": "assets/audio/words/463-cau-thang-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cầu thang ở cuối hành lang.",
+        "zhTW": "樓梯在走廊盡頭。",
+        "audio": {
+          "vi": "assets/audio/examples/463-1.mp3",
+          "zhTW": "assets/audio/examples/463-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin đừng để hành lý trên cầu thang.",
+        "zhTW": "請不要把行李放在樓梯上。",
+        "audio": {
+          "vi": "assets/audio/examples/463-2.mp3",
+          "zhTW": "assets/audio/examples/463-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng tôi đi cầu thang lên tầng hai.",
+        "zhTW": "我們走樓梯上二樓。",
+        "audio": {
+          "vi": "assets/audio/examples/463-3.mp3",
+          "zhTW": "assets/audio/examples/463-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:464-tang-tret",
+    "conceptId": "concept:464",
+    "vi": "tầng trệt",
+    "zhTW": "一樓、地面層（南部常用）",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 464,
+    "audio": {
+      "vi": "assets/audio/words/464-tang-tret.mp3",
+      "zhTW": "assets/audio/words/464-tang-tret-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Quầy lễ tân ở tầng trệt.",
+        "zhTW": "櫃檯在一樓。",
+        "audio": {
+          "vi": "assets/audio/examples/464-1.mp3",
+          "zhTW": "assets/audio/examples/464-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhà hàng nằm ở tầng trệt.",
+        "zhTW": "餐廳位於地面層。",
+        "audio": {
+          "vi": "assets/audio/examples/464-2.mp3",
+          "zhTW": "assets/audio/examples/464-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn thuê phòng ở tầng trệt.",
+        "zhTW": "我想租一樓的房間。",
+        "audio": {
+          "vi": "assets/audio/examples/464-3.mp3",
+          "zhTW": "assets/audio/examples/464-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:465-phong-khach",
+    "conceptId": "concept:465",
+    "vi": "phòng khách",
+    "zhTW": "客廳",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 465,
+    "audio": {
+      "vi": "assets/audio/words/465-phong-khach.mp3",
+      "zhTW": "assets/audio/words/465-phong-khach-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Gia đình tôi đang ngồi ở phòng khách.",
+        "zhTW": "我的家人正坐在客廳。",
+        "audio": {
+          "vi": "assets/audio/examples/465-1.mp3",
+          "zhTW": "assets/audio/examples/465-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phòng khách có một chiếc bàn lớn.",
+        "zhTW": "客廳裡有一張大桌子。",
+        "audio": {
+          "vi": "assets/audio/examples/465-2.mp3",
+          "zhTW": "assets/audio/examples/465-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Máy lạnh trong phòng khách bị hỏng.",
+        "zhTW": "客廳的冷氣壞了。",
+        "audio": {
+          "vi": "assets/audio/examples/465-3.mp3",
+          "zhTW": "assets/audio/examples/465-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:466-phong-ngu",
+    "conceptId": "concept:466",
+    "vi": "phòng ngủ",
+    "zhTW": "臥室",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 466,
+    "audio": {
+      "vi": "assets/audio/words/466-phong-ngu.mp3",
+      "zhTW": "assets/audio/words/466-phong-ngu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Căn hộ có hai phòng ngủ.",
+        "zhTW": "這間公寓有兩間臥室。",
+        "audio": {
+          "vi": "assets/audio/examples/466-1.mp3",
+          "zhTW": "assets/audio/examples/466-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phòng ngủ này hơi nhỏ.",
+        "zhTW": "這間臥室有點小。",
+        "audio": {
+          "vi": "assets/audio/examples/466-2.mp3",
+          "zhTW": "assets/audio/examples/466-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi để hành lý trong phòng ngủ.",
+        "zhTW": "我把行李放在臥室裡。",
+        "audio": {
+          "vi": "assets/audio/examples/466-3.mp3",
+          "zhTW": "assets/audio/examples/466-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:467-may-giat",
+    "conceptId": "concept:467",
+    "vi": "máy giặt",
+    "zhTW": "洗衣機",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 467,
+    "audio": {
+      "vi": "assets/audio/words/467-may-giat.mp3",
+      "zhTW": "assets/audio/words/467-may-giat-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Máy giặt ở đâu?",
+        "zhTW": "洗衣機在哪裡？",
+        "audio": {
+          "vi": "assets/audio/examples/467-1.mp3",
+          "zhTW": "assets/audio/examples/467-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Máy giặt này không hoạt động.",
+        "zhTW": "這台洗衣機無法運作。",
+        "audio": {
+          "vi": "assets/audio/examples/467-2.mp3",
+          "zhTW": "assets/audio/examples/467-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khách có thể dùng máy giặt miễn phí.",
+        "zhTW": "房客可以免費使用洗衣機。",
+        "audio": {
+          "vi": "assets/audio/examples/467-3.mp3",
+          "zhTW": "assets/audio/examples/467-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:468-tu-lanh",
+    "conceptId": "concept:468",
+    "vi": "tủ lạnh",
+    "zhTW": "冰箱",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 468,
+    "audio": {
+      "vi": "assets/audio/words/468-tu-lanh.mp3",
+      "zhTW": "assets/audio/words/468-tu-lanh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Nước uống ở trong tủ lạnh.",
+        "zhTW": "飲料在冰箱裡。",
+        "audio": {
+          "vi": "assets/audio/examples/468-1.mp3",
+          "zhTW": "assets/audio/examples/468-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tủ lạnh không đủ lạnh.",
+        "zhTW": "冰箱不夠冷。",
+        "audio": {
+          "vi": "assets/audio/examples/468-2.mp3",
+          "zhTW": "assets/audio/examples/468-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đừng để đồ ăn ngoài tủ lạnh quá lâu.",
+        "zhTW": "不要把食物放在冰箱外太久。",
+        "audio": {
+          "vi": "assets/audio/examples/468-3.mp3",
+          "zhTW": "assets/audio/examples/468-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:469-lo-vi-song",
+    "conceptId": "concept:469",
+    "vi": "lò vi sóng",
+    "zhTW": "微波爐",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 469,
+    "audio": {
+      "vi": "assets/audio/words/469-lo-vi-song.mp3",
+      "zhTW": "assets/audio/words/469-lo-vi-song-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng có lò vi sóng không?",
+        "zhTW": "房間裡有微波爐嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/469-1.mp3",
+          "zhTW": "assets/audio/examples/469-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi hâm đồ ăn bằng lò vi sóng.",
+        "zhTW": "我用微波爐加熱食物。",
+        "audio": {
+          "vi": "assets/audio/examples/469-2.mp3",
+          "zhTW": "assets/audio/examples/469-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Lò vi sóng này không hoạt động.",
+        "zhTW": "這台微波爐無法運作。",
+        "audio": {
+          "vi": "assets/audio/examples/469-3.mp3",
+          "zhTW": "assets/audio/examples/469-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:470-voi-nuoc",
+    "conceptId": "concept:470",
+    "vi": "vòi nước",
+    "zhTW": "水龍頭",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 470,
+    "audio": {
+      "vi": "assets/audio/words/470-voi-nuoc.mp3",
+      "zhTW": "assets/audio/words/470-voi-nuoc-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Vòi nước trong phòng tắm bị rò rỉ.",
+        "zhTW": "浴室的水龍頭漏水。",
+        "audio": {
+          "vi": "assets/audio/examples/470-1.mp3",
+          "zhTW": "assets/audio/examples/470-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin khóa vòi nước sau khi dùng.",
+        "zhTW": "使用後請關上水龍頭。",
+        "audio": {
+          "vi": "assets/audio/examples/470-2.mp3",
+          "zhTW": "assets/audio/examples/470-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Vòi nước không có nước nóng.",
+        "zhTW": "這個水龍頭沒有熱水。",
+        "audio": {
+          "vi": "assets/audio/examples/470-3.mp3",
+          "zhTW": "assets/audio/examples/470-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:471-khan",
+    "conceptId": "concept:471",
+    "vi": "khăn",
+    "zhTW": "毛巾；圍巾、布巾",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 471,
+    "audio": {
+      "vi": "assets/audio/words/471-khan.mp3",
+      "zhTW": "assets/audio/words/471-khan-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin cho tôi thêm một chiếc khăn.",
+        "zhTW": "請再給我一條毛巾。",
+        "audio": {
+          "vi": "assets/audio/examples/471-1.mp3",
+          "zhTW": "assets/audio/examples/471-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khăn trong phòng tắm chưa sạch.",
+        "zhTW": "浴室裡的毛巾不乾淨。",
+        "audio": {
+          "vi": "assets/audio/examples/471-2.mp3",
+          "zhTW": "assets/audio/examples/471-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trời lạnh nên cô ấy quàng khăn.",
+        "zhTW": "天氣冷，所以她圍著圍巾。",
+        "audio": {
+          "vi": "assets/audio/examples/471-3.mp3",
+          "zhTW": "assets/audio/examples/471-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:472-xa-phong",
+    "conceptId": "concept:472",
+    "vi": "xà phòng",
+    "zhTW": "肥皂",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 472,
+    "audio": {
+      "vi": "assets/audio/words/472-xa-phong.mp3",
+      "zhTW": "assets/audio/words/472-xa-phong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng tắm hết xà phòng rồi.",
+        "zhTW": "浴室裡的肥皂用完了。",
+        "audio": {
+          "vi": "assets/audio/examples/472-1.mp3",
+          "zhTW": "assets/audio/examples/472-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy rửa tay bằng xà phòng.",
+        "zhTW": "請用肥皂洗手。",
+        "audio": {
+          "vi": "assets/audio/examples/472-2.mp3",
+          "zhTW": "assets/audio/examples/472-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần mua một bánh xà phòng.",
+        "zhTW": "我需要買一塊肥皂。",
+        "audio": {
+          "vi": "assets/audio/examples/472-3.mp3",
+          "zhTW": "assets/audio/examples/472-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:473-ban-chai",
+    "conceptId": "concept:473",
+    "vi": "bàn chải",
+    "zhTW": "刷子；牙刷",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 473,
+    "audio": {
+      "vi": "assets/audio/words/473-ban-chai.mp3",
+      "zhTW": "assets/audio/words/473-ban-chai-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi quên mang bàn chải đánh răng.",
+        "zhTW": "我忘了帶牙刷。",
+        "audio": {
+          "vi": "assets/audio/examples/473-1.mp3",
+          "zhTW": "assets/audio/examples/473-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khách sạn có cung cấp bàn chải không?",
+        "zhTW": "飯店有提供牙刷嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/473-2.mp3",
+          "zhTW": "assets/audio/examples/473-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cái bàn chải này còn mới.",
+        "zhTW": "這支刷子還很新。",
+        "audio": {
+          "vi": "assets/audio/examples/473-3.mp3",
+          "zhTW": "assets/audio/examples/473-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:474-kem-danh-rang",
+    "conceptId": "concept:474",
+    "vi": "kem đánh răng",
+    "zhTW": "牙膏",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 474,
+    "audio": {
+      "vi": "assets/audio/words/474-kem-danh-rang.mp3",
+      "zhTW": "assets/audio/words/474-kem-danh-rang-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần mua kem đánh răng.",
+        "zhTW": "我需要買牙膏。",
+        "audio": {
+          "vi": "assets/audio/examples/474-1.mp3",
+          "zhTW": "assets/audio/examples/474-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Kem đánh răng ở trong phòng tắm.",
+        "zhTW": "牙膏在浴室裡。",
+        "audio": {
+          "vi": "assets/audio/examples/474-2.mp3",
+          "zhTW": "assets/audio/examples/474-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khách sạn không cung cấp kem đánh răng.",
+        "zhTW": "飯店不提供牙膏。",
+        "audio": {
+          "vi": "assets/audio/examples/474-3.mp3",
+          "zhTW": "assets/audio/examples/474-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:475-giay-ve-sinh",
+    "conceptId": "concept:475",
+    "vi": "giấy vệ sinh",
+    "zhTW": "衛生紙、廁紙",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 475,
+    "audio": {
+      "vi": "assets/audio/words/475-giay-ve-sinh.mp3",
+      "zhTW": "assets/audio/words/475-giay-ve-sinh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng tắm hết giấy vệ sinh rồi.",
+        "zhTW": "浴室裡的衛生紙用完了。",
+        "audio": {
+          "vi": "assets/audio/examples/475-1.mp3",
+          "zhTW": "assets/audio/examples/475-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin cho tôi thêm giấy vệ sinh.",
+        "zhTW": "請再給我一些衛生紙。",
+        "audio": {
+          "vi": "assets/audio/examples/475-2.mp3",
+          "zhTW": "assets/audio/examples/475-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Giấy vệ sinh ở trong tủ.",
+        "zhTW": "衛生紙在櫃子裡。",
+        "audio": {
+          "vi": "assets/audio/examples/475-3.mp3",
+          "zhTW": "assets/audio/examples/475-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:476-rac",
+    "conceptId": "concept:476",
+    "vi": "rác",
+    "zhTW": "垃圾",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 476,
+    "audio": {
+      "vi": "assets/audio/words/476-rac.mp3",
+      "zhTW": "assets/audio/words/476-rac-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Thùng rác ở đâu?",
+        "zhTW": "垃圾桶在哪裡？",
+        "audio": {
+          "vi": "assets/audio/examples/476-1.mp3",
+          "zhTW": "assets/audio/examples/476-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin đừng để rác ngoài cửa.",
+        "zhTW": "請不要把垃圾放在門外。",
+        "audio": {
+          "vi": "assets/audio/examples/476-2.mp3",
+          "zhTW": "assets/audio/examples/476-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần mang rác ra ngoài.",
+        "zhTW": "我需要把垃圾拿出去。",
+        "audio": {
+          "vi": "assets/audio/examples/476-3.mp3",
+          "zhTW": "assets/audio/examples/476-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:477-don-dep",
+    "conceptId": "concept:477",
+    "vi": "dọn dẹp",
+    "zhTW": "打掃、整理",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 477,
+    "audio": {
+      "vi": "assets/audio/words/477-don-dep.mp3",
+      "zhTW": "assets/audio/words/477-don-dep-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Nhân viên đang dọn dẹp phòng.",
+        "zhTW": "工作人員正在打掃房間。",
+        "audio": {
+          "vi": "assets/audio/examples/477-1.mp3",
+          "zhTW": "assets/audio/examples/477-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần dọn dẹp căn hộ.",
+        "zhTW": "我需要整理公寓。",
+        "audio": {
+          "vi": "assets/audio/examples/477-2.mp3",
+          "zhTW": "assets/audio/examples/477-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phòng được dọn dẹp mỗi ngày.",
+        "zhTW": "房間每天都會打掃。",
+        "audio": {
+          "vi": "assets/audio/examples/477-3.mp3",
+          "zhTW": "assets/audio/examples/477-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:478-giat",
+    "conceptId": "concept:478",
+    "vi": "giặt",
+    "zhTW": "洗滌、洗衣服",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 478,
+    "audio": {
+      "vi": "assets/audio/words/478-giat.mp3",
+      "zhTW": "assets/audio/words/478-giat-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần giặt quần áo.",
+        "zhTW": "我需要洗衣服。",
+        "audio": {
+          "vi": "assets/audio/examples/478-1.mp3",
+          "zhTW": "assets/audio/examples/478-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khách sạn có dịch vụ giặt đồ không?",
+        "zhTW": "飯店有洗衣服務嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/478-2.mp3",
+          "zhTW": "assets/audio/examples/478-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc khăn này đã được giặt sạch.",
+        "zhTW": "這條毛巾已經洗乾淨了。",
+        "audio": {
+          "vi": "assets/audio/examples/478-3.mp3",
+          "zhTW": "assets/audio/examples/478-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:479-thay",
+    "conceptId": "concept:479",
+    "vi": "thay",
+    "zhTW": "更換、替換；代替",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 479,
+    "audio": {
+      "vi": "assets/audio/words/479-thay.mp3",
+      "zhTW": "assets/audio/words/479-thay-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin thay khăn mới giúp tôi.",
+        "zhTW": "請幫我換新毛巾。",
+        "audio": {
+          "vi": "assets/audio/examples/479-1.mp3",
+          "zhTW": "assets/audio/examples/479-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần thay quần áo.",
+        "zhTW": "我需要換衣服。",
+        "audio": {
+          "vi": "assets/audio/examples/479-2.mp3",
+          "zhTW": "assets/audio/examples/479-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hôm nay cô ấy làm việc thay cho đồng nghiệp.",
+        "zhTW": "她今天代替同事上班。",
+        "audio": {
+          "vi": "assets/audio/examples/479-3.mp3",
+          "zhTW": "assets/audio/examples/479-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:480-ao",
+    "conceptId": "concept:480",
+    "vi": "áo",
+    "zhTW": "上衣、衣服",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 480,
+    "audio": {
+      "vi": "assets/audio/words/480-ao.mp3",
+      "zhTW": "assets/audio/words/480-ao-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn thử chiếc áo này.",
+        "zhTW": "我想試穿這件上衣。",
+        "audio": {
+          "vi": "assets/audio/examples/480-1.mp3",
+          "zhTW": "assets/audio/examples/480-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Áo này có màu khác không?",
+        "zhTW": "這件衣服有其他顏色嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/480-2.mp3",
+          "zhTW": "assets/audio/examples/480-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc áo hơi rộng đối với tôi.",
+        "zhTW": "這件上衣對我來說有點寬鬆。",
+        "audio": {
+          "vi": "assets/audio/examples/480-3.mp3",
+          "zhTW": "assets/audio/examples/480-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:481-quan",
+    "conceptId": "concept:481",
+    "vi": "quần",
+    "zhTW": "褲子",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 481,
+    "audio": {
+      "vi": "assets/audio/words/481-quan.mp3",
+      "zhTW": "assets/audio/words/481-quan-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chiếc quần này quá dài.",
+        "zhTW": "這條褲子太長了。",
+        "audio": {
+          "vi": "assets/audio/examples/481-1.mp3",
+          "zhTW": "assets/audio/examples/481-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần một chiếc quần màu đen.",
+        "zhTW": "我需要一條黑色褲子。",
+        "audio": {
+          "vi": "assets/audio/examples/481-2.mp3",
+          "zhTW": "assets/audio/examples/481-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có quần cỡ lớn hơn không?",
+        "zhTW": "你們有大一號的褲子嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/481-3.mp3",
+          "zhTW": "assets/audio/examples/481-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:482-vay",
+    "conceptId": "concept:482",
+    "vi": "váy",
+    "zhTW": "裙子、洋裝",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 482,
+    "audio": {
+      "vi": "assets/audio/words/482-vay.mp3",
+      "zhTW": "assets/audio/words/482-vay-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chiếc váy này rất đẹp.",
+        "zhTW": "這件洋裝很漂亮。",
+        "audio": {
+          "vi": "assets/audio/examples/482-1.mp3",
+          "zhTW": "assets/audio/examples/482-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn thử váy màu xanh.",
+        "zhTW": "我想試穿藍色洋裝。",
+        "audio": {
+          "vi": "assets/audio/examples/482-2.mp3",
+          "zhTW": "assets/audio/examples/482-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Váy này có kích cỡ nhỏ hơn không?",
+        "zhTW": "這件裙子有小一號的嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/482-3.mp3",
+          "zhTW": "assets/audio/examples/482-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:483-giay",
+    "conceptId": "concept:483",
+    "vi": "giày",
+    "zhTW": "鞋子",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 483,
+    "audio": {
+      "vi": "assets/audio/words/483-giay.mp3",
+      "zhTW": "assets/audio/words/483-giay-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Đôi giày này hơi chật.",
+        "zhTW": "這雙鞋有點緊。",
+        "audio": {
+          "vi": "assets/audio/examples/483-1.mp3",
+          "zhTW": "assets/audio/examples/483-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn mua giày đi bộ.",
+        "zhTW": "我想買走路穿的鞋。",
+        "audio": {
+          "vi": "assets/audio/examples/483-2.mp3",
+          "zhTW": "assets/audio/examples/483-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có giày cỡ bốn mươi không?",
+        "zhTW": "你們有四十號的鞋嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/483-3.mp3",
+          "zhTW": "assets/audio/examples/483-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:484-dep",
+    "conceptId": "concept:484",
+    "vi": "dép",
+    "zhTW": "拖鞋、涼鞋",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 484,
+    "audio": {
+      "vi": "assets/audio/words/484-dep.mp3",
+      "zhTW": "assets/audio/words/484-dep-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Trong phòng có dép không?",
+        "zhTW": "房間裡有拖鞋嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/484-1.mp3",
+          "zhTW": "assets/audio/examples/484-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi mang dép đi ra biển.",
+        "zhTW": "我穿涼鞋去海邊。",
+        "audio": {
+          "vi": "assets/audio/examples/484-2.mp3",
+          "zhTW": "assets/audio/examples/484-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đôi dép này rất nhẹ.",
+        "zhTW": "這雙拖鞋很輕。",
+        "audio": {
+          "vi": "assets/audio/examples/484-3.mp3",
+          "zhTW": "assets/audio/examples/484-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:485-mu",
+    "conceptId": "concept:485",
+    "vi": "mũ",
+    "zhTW": "帽子",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 485,
+    "audio": {
+      "vi": "assets/audio/words/485-mu.mp3",
+      "zhTW": "assets/audio/words/485-mu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần mua một chiếc mũ.",
+        "zhTW": "我需要買一頂帽子。",
+        "audio": {
+          "vi": "assets/audio/examples/485-1.mp3",
+          "zhTW": "assets/audio/examples/485-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhớ đội mũ khi trời nắng.",
+        "zhTW": "天氣晴朗時記得戴帽子。",
+        "audio": {
+          "vi": "assets/audio/examples/485-2.mp3",
+          "zhTW": "assets/audio/examples/485-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc mũ này có màu đen không?",
+        "zhTW": "這頂帽子有黑色的嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/485-3.mp3",
+          "zhTW": "assets/audio/examples/485-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:486-tui",
+    "conceptId": "concept:486",
+    "vi": "túi",
+    "zhTW": "袋子、包包；口袋",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 486,
+    "audio": {
+      "vi": "assets/audio/words/486-tui.mp3",
+      "zhTW": "assets/audio/words/486-tui-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi xin một cái túi.",
+        "zhTW": "請給我一個袋子。",
+        "audio": {
+          "vi": "assets/audio/examples/486-1.mp3",
+          "zhTW": "assets/audio/examples/486-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi để hộ chiếu trong túi.",
+        "zhTW": "我把護照放在包包裡。",
+        "audio": {
+          "vi": "assets/audio/examples/486-2.mp3",
+          "zhTW": "assets/audio/examples/486-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Điện thoại ở trong túi áo.",
+        "zhTW": "手機在衣服口袋裡。",
+        "audio": {
+          "vi": "assets/audio/examples/486-3.mp3",
+          "zhTW": "assets/audio/examples/486-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:487-kich-co",
+    "conceptId": "concept:487",
+    "vi": "kích cỡ",
+    "zhTW": "尺寸、尺碼",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 487,
+    "audio": {
+      "vi": "assets/audio/words/487-kich-co.mp3",
+      "zhTW": "assets/audio/words/487-kich-co-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bạn mặc kích cỡ nào?",
+        "zhTW": "你穿什麼尺寸？",
+        "audio": {
+          "vi": "assets/audio/examples/487-1.mp3",
+          "zhTW": "assets/audio/examples/487-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn đổi kích cỡ lớn hơn.",
+        "zhTW": "我想換大一號的尺寸。",
+        "audio": {
+          "vi": "assets/audio/examples/487-2.mp3",
+          "zhTW": "assets/audio/examples/487-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Kích cỡ này vừa với tôi.",
+        "zhTW": "這個尺寸很合身。",
+        "audio": {
+          "vi": "assets/audio/examples/487-3.mp3",
+          "zhTW": "assets/audio/examples/487-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:488-vua",
+    "conceptId": "concept:488",
+    "vi": "vừa",
+    "zhTW": "剛剛；合身、剛好；既…又…",
+    "pos": "副詞／形容詞／連接詞",
+    "hanViet": "",
+    "rank": 488,
+    "audio": {
+      "vi": "assets/audio/words/488-vua.mp3",
+      "zhTW": "assets/audio/words/488-vua-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi vừa đến khách sạn.",
+        "zhTW": "我剛到飯店。",
+        "audio": {
+          "vi": "assets/audio/examples/488-1.mp3",
+          "zhTW": "assets/audio/examples/488-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc áo này mặc vừa không?",
+        "zhTW": "這件上衣穿起來合身嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/488-2.mp3",
+          "zhTW": "assets/audio/examples/488-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Món này vừa ngon vừa rẻ.",
+        "zhTW": "這道菜既好吃又便宜。",
+        "audio": {
+          "vi": "assets/audio/examples/488-3.mp3",
+          "zhTW": "assets/audio/examples/488-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:489-rong",
+    "conceptId": "concept:489",
+    "vi": "rộng",
+    "zhTW": "寬、寬敞；寬鬆",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 489,
+    "audio": {
+      "vi": "assets/audio/words/489-rong.mp3",
+      "zhTW": "assets/audio/words/489-rong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng này rộng hơn phòng cũ.",
+        "zhTW": "這個房間比舊房間寬敞。",
+        "audio": {
+          "vi": "assets/audio/examples/489-1.mp3",
+          "zhTW": "assets/audio/examples/489-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Con đường này rất rộng.",
+        "zhTW": "這條路很寬。",
+        "audio": {
+          "vi": "assets/audio/examples/489-2.mp3",
+          "zhTW": "assets/audio/examples/489-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc áo hơi rộng đối với tôi.",
+        "zhTW": "這件上衣對我來說有點寬鬆。",
+        "audio": {
+          "vi": "assets/audio/examples/489-3.mp3",
+          "zhTW": "assets/audio/examples/489-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:490-chat",
+    "conceptId": "concept:490",
+    "vi": "chật",
+    "zhTW": "狹窄、擁擠；緊身",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 490,
+    "audio": {
+      "vi": "assets/audio/words/490-chat.mp3",
+      "zhTW": "assets/audio/words/490-chat-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng này hơi chật.",
+        "zhTW": "這個房間有點狹窄。",
+        "audio": {
+          "vi": "assets/audio/examples/490-1.mp3",
+          "zhTW": "assets/audio/examples/490-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xe buýt đông và rất chật.",
+        "zhTW": "公車人很多，非常擁擠。",
+        "audio": {
+          "vi": "assets/audio/examples/490-2.mp3",
+          "zhTW": "assets/audio/examples/490-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đôi giày này quá chật.",
+        "zhTW": "這雙鞋太緊了。",
+        "audio": {
+          "vi": "assets/audio/examples/490-3.mp3",
+          "zhTW": "assets/audio/examples/490-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:491-mac",
+    "conceptId": "concept:491",
+    "vi": "mặc",
+    "zhTW": "穿（衣物）",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 491,
+    "audio": {
+      "vi": "assets/audio/words/491-mac.mp3",
+      "zhTW": "assets/audio/words/491-mac-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hôm nay bạn mặc áo màu gì?",
+        "zhTW": "你今天穿什麼顏色的衣服？",
+        "audio": {
+          "vi": "assets/audio/examples/491-1.mp3",
+          "zhTW": "assets/audio/examples/491-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn mặc thử chiếc áo này.",
+        "zhTW": "我想試穿這件上衣。",
+        "audio": {
+          "vi": "assets/audio/examples/491-2.mp3",
+          "zhTW": "assets/audio/examples/491-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trời lạnh nên hãy mặc áo ấm.",
+        "zhTW": "天氣冷，請穿暖一點。",
+        "audio": {
+          "vi": "assets/audio/examples/491-3.mp3",
+          "zhTW": "assets/audio/examples/491-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:492-deo",
+    "conceptId": "concept:492",
+    "vi": "đeo",
+    "zhTW": "戴、佩戴；背、掛",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 492,
+    "audio": {
+      "vi": "assets/audio/words/492-deo.mp3",
+      "zhTW": "assets/audio/words/492-deo-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hãy đeo khẩu trang.",
+        "zhTW": "請戴口罩。",
+        "audio": {
+          "vi": "assets/audio/examples/492-1.mp3",
+          "zhTW": "assets/audio/examples/492-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy đang đeo kính.",
+        "zhTW": "她正戴著眼鏡。",
+        "audio": {
+          "vi": "assets/audio/examples/492-2.mp3",
+          "zhTW": "assets/audio/examples/492-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi đeo túi trên vai.",
+        "zhTW": "我把包背在肩上。",
+        "audio": {
+          "vi": "assets/audio/examples/492-3.mp3",
+          "zhTW": "assets/audio/examples/492-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:493-den",
+    "conceptId": "concept:493",
+    "vi": "đen",
+    "zhTW": "黑色、黑的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 493,
+    "audio": {
+      "vi": "assets/audio/words/493-den.mp3",
+      "zhTW": "assets/audio/words/493-den-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn một chiếc áo màu đen.",
+        "zhTW": "我想要一件黑色上衣。",
+        "audio": {
+          "vi": "assets/audio/examples/493-1.mp3",
+          "zhTW": "assets/audio/examples/493-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cà phê đen này khá mạnh.",
+        "zhTW": "這杯黑咖啡相當濃。",
+        "audio": {
+          "vi": "assets/audio/examples/493-2.mp3",
+          "zhTW": "assets/audio/examples/493-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc túi đen là của tôi.",
+        "zhTW": "那個黑色包包是我的。",
+        "audio": {
+          "vi": "assets/audio/examples/493-3.mp3",
+          "zhTW": "assets/audio/examples/493-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:494-trang",
+    "conceptId": "concept:494",
+    "vi": "trắng",
+    "zhTW": "白色、白的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 494,
+    "audio": {
+      "vi": "assets/audio/words/494-trang.mp3",
+      "zhTW": "assets/audio/words/494-trang-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Khách sạn có khăn màu trắng.",
+        "zhTW": "飯店有白色毛巾。",
+        "audio": {
+          "vi": "assets/audio/examples/494-1.mp3",
+          "zhTW": "assets/audio/examples/494-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn thử chiếc áo trắng.",
+        "zhTW": "我想試穿這件白色上衣。",
+        "audio": {
+          "vi": "assets/audio/examples/494-2.mp3",
+          "zhTW": "assets/audio/examples/494-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cơm trắng ăn với cá kho.",
+        "zhTW": "白飯配燉魚吃。",
+        "audio": {
+          "vi": "assets/audio/examples/494-3.mp3",
+          "zhTW": "assets/audio/examples/494-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:495-do",
+    "conceptId": "concept:495",
+    "vi": "đỏ",
+    "zhTW": "紅色、紅的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 495,
+    "audio": {
+      "vi": "assets/audio/words/495-do.mp3",
+      "zhTW": "assets/audio/words/495-do-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi thích chiếc váy màu đỏ.",
+        "zhTW": "我喜歡那件紅色洋裝。",
+        "audio": {
+          "vi": "assets/audio/examples/495-1.mp3",
+          "zhTW": "assets/audio/examples/495-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đèn đỏ rồi, hãy dừng lại.",
+        "zhTW": "紅燈了，請停下來。",
+        "audio": {
+          "vi": "assets/audio/examples/495-2.mp3",
+          "zhTW": "assets/audio/examples/495-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Quả này chín nên chuyển sang màu đỏ.",
+        "zhTW": "這顆果實熟了，所以變成紅色。",
+        "audio": {
+          "vi": "assets/audio/examples/495-3.mp3",
+          "zhTW": "assets/audio/examples/495-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:496-xanh",
+    "conceptId": "concept:496",
+    "vi": "xanh",
+    "zhTW": "藍色、綠色；青色",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 496,
+    "audio": {
+      "vi": "assets/audio/words/496-xanh.mp3",
+      "zhTW": "assets/audio/words/496-xanh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn chiếc áo màu xanh.",
+        "zhTW": "我想要那件藍色上衣。",
+        "audio": {
+          "vi": "assets/audio/examples/496-1.mp3",
+          "zhTW": "assets/audio/examples/496-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Rau này vẫn còn xanh và tươi.",
+        "zhTW": "這些蔬菜仍然青綠新鮮。",
+        "audio": {
+          "vi": "assets/audio/examples/496-2.mp3",
+          "zhTW": "assets/audio/examples/496-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Biển hôm nay có màu xanh rất đẹp.",
+        "zhTW": "今天海水的藍色很漂亮。",
+        "audio": {
+          "vi": "assets/audio/examples/496-3.mp3",
+          "zhTW": "assets/audio/examples/496-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:497-vang",
+    "conceptId": "concept:497",
+    "vi": "vàng",
+    "zhTW": "黃色；黃金",
+    "pos": "形容詞／名詞",
+    "hanViet": "",
+    "rank": 497,
+    "audio": {
+      "vi": "assets/audio/words/497-vang.mp3",
+      "zhTW": "assets/audio/words/497-vang-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn mua chiếc mũ màu vàng.",
+        "zhTW": "我想買那頂黃色帽子。",
+        "audio": {
+          "vi": "assets/audio/examples/497-1.mp3",
+          "zhTW": "assets/audio/examples/497-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Lá cây đã chuyển sang màu vàng.",
+        "zhTW": "樹葉已經變黃了。",
+        "audio": {
+          "vi": "assets/audio/examples/497-2.mp3",
+          "zhTW": "assets/audio/examples/497-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc nhẫn này làm bằng vàng.",
+        "zhTW": "這枚戒指是黃金做的。",
+        "audio": {
+          "vi": "assets/audio/examples/497-3.mp3",
+          "zhTW": "assets/audio/examples/497-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:498-nau",
+    "conceptId": "concept:498",
+    "vi": "nâu",
+    "zhTW": "棕色、褐色",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 498,
+    "audio": {
+      "vi": "assets/audio/words/498-nau.mp3",
+      "zhTW": "assets/audio/words/498-nau-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi thích chiếc túi màu nâu.",
+        "zhTW": "我喜歡那個棕色包包。",
+        "audio": {
+          "vi": "assets/audio/examples/498-1.mp3",
+          "zhTW": "assets/audio/examples/498-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đôi giày nâu này rất vừa.",
+        "zhTW": "這雙棕色鞋很合腳。",
+        "audio": {
+          "vi": "assets/audio/examples/498-2.mp3",
+          "zhTW": "assets/audio/examples/498-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bàn trong phòng có màu nâu.",
+        "zhTW": "房間裡的桌子是棕色的。",
+        "audio": {
+          "vi": "assets/audio/examples/498-3.mp3",
+          "zhTW": "assets/audio/examples/498-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:499-xam",
+    "conceptId": "concept:499",
+    "vi": "xám",
+    "zhTW": "灰色、灰的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 499,
+    "audio": {
+      "vi": "assets/audio/words/499-xam.mp3",
+      "zhTW": "assets/audio/words/499-xam-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bạn có chiếc áo màu xám không?",
+        "zhTW": "你們有灰色上衣嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/499-1.mp3",
+          "zhTW": "assets/audio/examples/499-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bầu trời hôm nay có màu xám.",
+        "zhTW": "今天的天空是灰色的。",
+        "audio": {
+          "vi": "assets/audio/examples/499-2.mp3",
+          "zhTW": "assets/audio/examples/499-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc vali xám là của tôi.",
+        "zhTW": "那個灰色行李箱是我的。",
+        "audio": {
+          "vi": "assets/audio/examples/499-3.mp3",
+          "zhTW": "assets/audio/examples/499-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:500-hong",
+    "conceptId": "concept:500",
+    "vi": "hồng",
+    "zhTW": "粉紅色；玫瑰",
+    "pos": "形容詞／名詞",
+    "hanViet": "",
+    "rank": 500,
+    "audio": {
+      "vi": "assets/audio/words/500-hong.mp3",
+      "zhTW": "assets/audio/words/500-hong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cô ấy mặc chiếc váy màu hồng.",
+        "zhTW": "她穿著粉紅色洋裝。",
+        "audio": {
+          "vi": "assets/audio/examples/500-1.mp3",
+          "zhTW": "assets/audio/examples/500-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn mua một bó hoa hồng.",
+        "zhTW": "我想買一束玫瑰花。",
+        "audio": {
+          "vi": "assets/audio/examples/500-2.mp3",
+          "zhTW": "assets/audio/examples/500-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc túi hồng này hơi nhỏ.",
+        "zhTW": "這個粉紅色包包有點小。",
+        "audio": {
+          "vi": "assets/audio/examples/500-3.mp3",
+          "zhTW": "assets/audio/examples/500-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
   }
 ]

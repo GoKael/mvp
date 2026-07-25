@@ -1,0 +1,602 @@
+[
+  {
+    "rank": 451,
+    "vi": "căn hộ",
+    "zhTW": "公寓、住宅單位",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi thuê một căn hộ gần công ty.", "zhTW": "我在公司附近租了一間公寓。" },
+      { "vi": "Căn hộ này có hai phòng ngủ.", "zhTW": "這間公寓有兩間臥室。" },
+      { "vi": "Giá căn hộ đã bao gồm điện nước chưa?", "zhTW": "公寓租金包含水電費了嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 452,
+    "vi": "chung cư",
+    "zhTW": "公寓大樓、集合住宅",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi sống ở chung cư này.", "zhTW": "我住在這棟公寓大樓。" },
+      { "vi": "Chung cư có thang máy không?", "zhTW": "這棟公寓有電梯嗎？" },
+      { "vi": "Tầng trệt của chung cư có siêu thị.", "zhTW": "公寓大樓一樓有超市。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 453,
+    "vi": "tiền cọc",
+    "zhTW": "押金、保證金",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi phải trả bao nhiêu tiền cọc?", "zhTW": "我需要付多少押金？" },
+      { "vi": "Tiền cọc sẽ được hoàn lại khi trả phòng.", "zhTW": "退房時會退還押金。" },
+      { "vi": "Chủ nhà đã nhận tiền cọc rồi.", "zhTW": "房東已經收到押金了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 454,
+    "vi": "chủ nhà",
+    "zhTW": "房東；屋主",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi cần liên lạc với chủ nhà.", "zhTW": "我需要聯絡房東。" },
+      { "vi": "Chủ nhà sống ở tầng trên.", "zhTW": "房東住在樓上。" },
+      { "vi": "Chủ nhà sẽ đến kiểm tra máy lạnh.", "zhTW": "房東會來檢查冷氣。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 455,
+    "vi": "tiền thuê",
+    "zhTW": "租金、租賃費",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tiền thuê mỗi tháng là bao nhiêu?", "zhTW": "每個月的租金是多少？" },
+      { "vi": "Tôi đã trả tiền thuê tháng này.", "zhTW": "我已經付了這個月的租金。" },
+      { "vi": "Tiền thuê không bao gồm tiền điện.", "zhTW": "租金不包含電費。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 456,
+    "vi": "hợp đồng",
+    "zhTW": "合約、契約",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi muốn đọc hợp đồng trước khi ký.", "zhTW": "我想在簽名前先閱讀合約。" },
+      { "vi": "Hợp đồng thuê nhà kéo dài một năm.", "zhTW": "租屋合約為期一年。" },
+      { "vi": "Bạn có thể gửi hợp đồng qua email không?", "zhTW": "你可以用電子郵件寄合約嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 457,
+    "vi": "điện",
+    "zhTW": "電、電力",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng này bị mất điện.", "zhTW": "這個房間停電了。" },
+      { "vi": "Tiền điện tháng này khá cao.", "zhTW": "這個月的電費相當高。" },
+      { "vi": "Hãy tắt điện trước khi ra ngoài.", "zhTW": "出門前請關掉電源。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 458,
+    "vi": "quạt",
+    "zhTW": "電風扇；扇子",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Quạt trong phòng không chạy.", "zhTW": "房間裡的電風扇不會轉。" },
+      { "vi": "Bạn có thể bật quạt giúp tôi không?", "zhTW": "你可以幫我開電風扇嗎？" },
+      { "vi": "Trời nóng nên tôi mua một chiếc quạt.", "zhTW": "天氣很熱，所以我買了一把扇子。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 459,
+    "vi": "đèn",
+    "zhTW": "燈、燈具",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Đèn trong phòng tắm bị hỏng.", "zhTW": "浴室的燈壞了。" },
+      { "vi": "Bật đèn giúp tôi nhé.", "zhTW": "請幫我開燈。" },
+      { "vi": "Ngoài cửa có một chiếc đèn nhỏ.", "zhTW": "門外有一盞小燈。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 460,
+    "vi": "cửa sổ",
+    "zhTW": "窗戶",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xin mở cửa sổ một chút.", "zhTW": "請把窗戶打開一點。" },
+      { "vi": "Phòng có cửa sổ nhìn ra biển.", "zhTW": "房間有一扇面海的窗戶。" },
+      { "vi": "Cửa sổ này không đóng được.", "zhTW": "這扇窗戶關不起來。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 461,
+    "vi": "ban công",
+    "zhTW": "陽台",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Căn hộ này có ban công.", "zhTW": "這間公寓有陽台。" },
+      { "vi": "Tôi phơi quần áo ngoài ban công.", "zhTW": "我把衣服晾在陽台上。" },
+      { "vi": "Từ ban công có thể nhìn thấy thành phố.", "zhTW": "從陽台可以看見城市。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 462,
+    "vi": "thang máy",
+    "zhTW": "電梯",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Thang máy ở bên trái.", "zhTW": "電梯在左邊。" },
+      { "vi": "Thang máy đang được sửa.", "zhTW": "電梯正在維修。" },
+      { "vi": "Khách sạn này không có thang máy.", "zhTW": "這家飯店沒有電梯。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 463,
+    "vi": "cầu thang",
+    "zhTW": "樓梯",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cầu thang ở cuối hành lang.", "zhTW": "樓梯在走廊盡頭。" },
+      { "vi": "Xin đừng để hành lý trên cầu thang.", "zhTW": "請不要把行李放在樓梯上。" },
+      { "vi": "Chúng tôi đi cầu thang lên tầng hai.", "zhTW": "我們走樓梯上二樓。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 464,
+    "vi": "tầng trệt",
+    "zhTW": "一樓、地面層（南部常用）",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Quầy lễ tân ở tầng trệt.", "zhTW": "櫃檯在一樓。" },
+      { "vi": "Nhà hàng nằm ở tầng trệt.", "zhTW": "餐廳位於地面層。" },
+      { "vi": "Tôi muốn thuê phòng ở tầng trệt.", "zhTW": "我想租一樓的房間。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 465,
+    "vi": "phòng khách",
+    "zhTW": "客廳",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Gia đình tôi đang ngồi ở phòng khách.", "zhTW": "我的家人正坐在客廳。" },
+      { "vi": "Phòng khách có một chiếc bàn lớn.", "zhTW": "客廳裡有一張大桌子。" },
+      { "vi": "Máy lạnh trong phòng khách bị hỏng.", "zhTW": "客廳的冷氣壞了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 466,
+    "vi": "phòng ngủ",
+    "zhTW": "臥室",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Căn hộ có hai phòng ngủ.", "zhTW": "這間公寓有兩間臥室。" },
+      { "vi": "Phòng ngủ này hơi nhỏ.", "zhTW": "這間臥室有點小。" },
+      { "vi": "Tôi để hành lý trong phòng ngủ.", "zhTW": "我把行李放在臥室裡。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 467,
+    "vi": "máy giặt",
+    "zhTW": "洗衣機",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Máy giặt ở đâu?", "zhTW": "洗衣機在哪裡？" },
+      { "vi": "Máy giặt này không hoạt động.", "zhTW": "這台洗衣機無法運作。" },
+      { "vi": "Khách có thể dùng máy giặt miễn phí.", "zhTW": "房客可以免費使用洗衣機。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 468,
+    "vi": "tủ lạnh",
+    "zhTW": "冰箱",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Nước uống ở trong tủ lạnh.", "zhTW": "飲料在冰箱裡。" },
+      { "vi": "Tủ lạnh không đủ lạnh.", "zhTW": "冰箱不夠冷。" },
+      { "vi": "Đừng để đồ ăn ngoài tủ lạnh quá lâu.", "zhTW": "不要把食物放在冰箱外太久。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 469,
+    "vi": "lò vi sóng",
+    "zhTW": "微波爐",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng có lò vi sóng không?", "zhTW": "房間裡有微波爐嗎？" },
+      { "vi": "Tôi hâm đồ ăn bằng lò vi sóng.", "zhTW": "我用微波爐加熱食物。" },
+      { "vi": "Lò vi sóng này không hoạt động.", "zhTW": "這台微波爐無法運作。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 470,
+    "vi": "vòi nước",
+    "zhTW": "水龍頭",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Vòi nước trong phòng tắm bị rò rỉ.", "zhTW": "浴室的水龍頭漏水。" },
+      { "vi": "Xin khóa vòi nước sau khi dùng.", "zhTW": "使用後請關上水龍頭。" },
+      { "vi": "Vòi nước không có nước nóng.", "zhTW": "這個水龍頭沒有熱水。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 471,
+    "vi": "khăn",
+    "zhTW": "毛巾；圍巾、布巾",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Xin cho tôi thêm một chiếc khăn.", "zhTW": "請再給我一條毛巾。" },
+      { "vi": "Khăn trong phòng tắm chưa sạch.", "zhTW": "浴室裡的毛巾不乾淨。" },
+      { "vi": "Trời lạnh nên cô ấy quàng khăn.", "zhTW": "天氣冷，所以她圍著圍巾。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 472,
+    "vi": "xà phòng",
+    "zhTW": "肥皂",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng tắm hết xà phòng rồi.", "zhTW": "浴室裡的肥皂用完了。" },
+      { "vi": "Hãy rửa tay bằng xà phòng.", "zhTW": "請用肥皂洗手。" },
+      { "vi": "Tôi cần mua một bánh xà phòng.", "zhTW": "我需要買一塊肥皂。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 473,
+    "vi": "bàn chải",
+    "zhTW": "刷子；牙刷",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi quên mang bàn chải đánh răng.", "zhTW": "我忘了帶牙刷。" },
+      { "vi": "Khách sạn có cung cấp bàn chải không?", "zhTW": "飯店有提供牙刷嗎？" },
+      { "vi": "Cái bàn chải này còn mới.", "zhTW": "這支刷子還很新。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 474,
+    "vi": "kem đánh răng",
+    "zhTW": "牙膏",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi cần mua kem đánh răng.", "zhTW": "我需要買牙膏。" },
+      { "vi": "Kem đánh răng ở trong phòng tắm.", "zhTW": "牙膏在浴室裡。" },
+      { "vi": "Khách sạn không cung cấp kem đánh răng.", "zhTW": "飯店不提供牙膏。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 475,
+    "vi": "giấy vệ sinh",
+    "zhTW": "衛生紙、廁紙",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Phòng tắm hết giấy vệ sinh rồi.", "zhTW": "浴室裡的衛生紙用完了。" },
+      { "vi": "Xin cho tôi thêm giấy vệ sinh.", "zhTW": "請再給我一些衛生紙。" },
+      { "vi": "Giấy vệ sinh ở trong tủ.", "zhTW": "衛生紙在櫃子裡。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 476,
+    "vi": "rác",
+    "zhTW": "垃圾",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Thùng rác ở đâu?", "zhTW": "垃圾桶在哪裡？" },
+      { "vi": "Xin đừng để rác ngoài cửa.", "zhTW": "請不要把垃圾放在門外。" },
+      { "vi": "Tôi cần mang rác ra ngoài.", "zhTW": "我需要把垃圾拿出去。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 477,
+    "vi": "dọn dẹp",
+    "zhTW": "打掃、整理",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Nhân viên đang dọn dẹp phòng.", "zhTW": "工作人員正在打掃房間。" },
+      { "vi": "Tôi cần dọn dẹp căn hộ.", "zhTW": "我需要整理公寓。" },
+      { "vi": "Phòng được dọn dẹp mỗi ngày.", "zhTW": "房間每天都會打掃。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 478,
+    "vi": "giặt",
+    "zhTW": "洗滌、洗衣服",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi cần giặt quần áo.", "zhTW": "我需要洗衣服。" },
+      { "vi": "Khách sạn có dịch vụ giặt đồ không?", "zhTW": "飯店有洗衣服務嗎？" },
+      { "vi": "Chiếc khăn này đã được giặt sạch.", "zhTW": "這條毛巾已經洗乾淨了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 479,
+    "vi": "thay",
+    "zhTW": "更換、替換；代替",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Xin thay khăn mới giúp tôi.", "zhTW": "請幫我換新毛巾。" },
+      { "vi": "Tôi cần thay quần áo.", "zhTW": "我需要換衣服。" },
+      { "vi": "Hôm nay cô ấy làm việc thay cho đồng nghiệp.", "zhTW": "她今天代替同事上班。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 480,
+    "vi": "áo",
+    "zhTW": "上衣、衣服",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi muốn thử chiếc áo này.", "zhTW": "我想試穿這件上衣。" },
+      { "vi": "Áo này có màu khác không?", "zhTW": "這件衣服有其他顏色嗎？" },
+      { "vi": "Chiếc áo hơi rộng đối với tôi.", "zhTW": "這件上衣對我來說有點寬鬆。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 481,
+    "vi": "quần",
+    "zhTW": "褲子",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Chiếc quần này quá dài.", "zhTW": "這條褲子太長了。" },
+      { "vi": "Tôi cần một chiếc quần màu đen.", "zhTW": "我需要一條黑色褲子。" },
+      { "vi": "Bạn có quần cỡ lớn hơn không?", "zhTW": "你們有大一號的褲子嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 482,
+    "vi": "váy",
+    "zhTW": "裙子、洋裝",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Chiếc váy này rất đẹp.", "zhTW": "這件洋裝很漂亮。" },
+      { "vi": "Tôi muốn thử váy màu xanh.", "zhTW": "我想試穿藍色洋裝。" },
+      { "vi": "Váy này có kích cỡ nhỏ hơn không?", "zhTW": "這件裙子有小一號的嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 483,
+    "vi": "giày",
+    "zhTW": "鞋子",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Đôi giày này hơi chật.", "zhTW": "這雙鞋有點緊。" },
+      { "vi": "Tôi muốn mua giày đi bộ.", "zhTW": "我想買走路穿的鞋。" },
+      { "vi": "Bạn có giày cỡ bốn mươi không?", "zhTW": "你們有四十號的鞋嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 484,
+    "vi": "dép",
+    "zhTW": "拖鞋、涼鞋",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Trong phòng có dép không?", "zhTW": "房間裡有拖鞋嗎？" },
+      { "vi": "Tôi mang dép đi ra biển.", "zhTW": "我穿涼鞋去海邊。" },
+      { "vi": "Đôi dép này rất nhẹ.", "zhTW": "這雙拖鞋很輕。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 485,
+    "vi": "mũ",
+    "zhTW": "帽子",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi cần mua một chiếc mũ.", "zhTW": "我需要買一頂帽子。" },
+      { "vi": "Nhớ đội mũ khi trời nắng.", "zhTW": "天氣晴朗時記得戴帽子。" },
+      { "vi": "Chiếc mũ này có màu đen không?", "zhTW": "這頂帽子有黑色的嗎？" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 486,
+    "vi": "túi",
+    "zhTW": "袋子、包包；口袋",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Cho tôi xin một cái túi.", "zhTW": "請給我一個袋子。" },
+      { "vi": "Tôi để hộ chiếu trong túi.", "zhTW": "我把護照放在包包裡。" },
+      { "vi": "Điện thoại ở trong túi áo.", "zhTW": "手機在衣服口袋裡。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 487,
+    "vi": "kích cỡ",
+    "zhTW": "尺寸、尺碼",
+    "pos": "名詞",
+    "examples": [
+      { "vi": "Bạn mặc kích cỡ nào?", "zhTW": "你穿什麼尺寸？" },
+      { "vi": "Tôi muốn đổi kích cỡ lớn hơn.", "zhTW": "我想換大一號的尺寸。" },
+      { "vi": "Kích cỡ này vừa với tôi.", "zhTW": "這個尺寸很合身。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 488,
+    "vi": "vừa",
+    "zhTW": "剛剛；合身、剛好；既…又…",
+    "pos": "副詞／形容詞／連接詞",
+    "examples": [
+      { "vi": "Tôi vừa đến khách sạn.", "zhTW": "我剛到飯店。" },
+      { "vi": "Chiếc áo này mặc vừa không?", "zhTW": "這件上衣穿起來合身嗎？" },
+      { "vi": "Món này vừa ngon vừa rẻ.", "zhTW": "這道菜既好吃又便宜。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 489,
+    "vi": "rộng",
+    "zhTW": "寬、寬敞；寬鬆",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Phòng này rộng hơn phòng cũ.", "zhTW": "這個房間比舊房間寬敞。" },
+      { "vi": "Con đường này rất rộng.", "zhTW": "這條路很寬。" },
+      { "vi": "Chiếc áo hơi rộng đối với tôi.", "zhTW": "這件上衣對我來說有點寬鬆。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 490,
+    "vi": "chật",
+    "zhTW": "狹窄、擁擠；緊身",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Phòng này hơi chật.", "zhTW": "這個房間有點狹窄。" },
+      { "vi": "Xe buýt đông và rất chật.", "zhTW": "公車人很多，非常擁擠。" },
+      { "vi": "Đôi giày này quá chật.", "zhTW": "這雙鞋太緊了。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 491,
+    "vi": "mặc",
+    "zhTW": "穿（衣物）",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Hôm nay bạn mặc áo màu gì?", "zhTW": "你今天穿什麼顏色的衣服？" },
+      { "vi": "Tôi muốn mặc thử chiếc áo này.", "zhTW": "我想試穿這件上衣。" },
+      { "vi": "Trời lạnh nên hãy mặc áo ấm.", "zhTW": "天氣冷，請穿暖一點。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 492,
+    "vi": "đeo",
+    "zhTW": "戴、佩戴；背、掛",
+    "pos": "動詞",
+    "examples": [
+      { "vi": "Hãy đeo khẩu trang.", "zhTW": "請戴口罩。" },
+      { "vi": "Cô ấy đang đeo kính.", "zhTW": "她正戴著眼鏡。" },
+      { "vi": "Tôi đeo túi trên vai.", "zhTW": "我把包背在肩上。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 493,
+    "vi": "đen",
+    "zhTW": "黑色、黑的",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Tôi muốn một chiếc áo màu đen.", "zhTW": "我想要一件黑色上衣。" },
+      { "vi": "Cà phê đen này khá mạnh.", "zhTW": "這杯黑咖啡相當濃。" },
+      { "vi": "Chiếc túi đen là của tôi.", "zhTW": "那個黑色包包是我的。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 494,
+    "vi": "trắng",
+    "zhTW": "白色、白的",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Khách sạn có khăn màu trắng.", "zhTW": "飯店有白色毛巾。" },
+      { "vi": "Tôi muốn thử chiếc áo trắng.", "zhTW": "我想試穿這件白色上衣。" },
+      { "vi": "Cơm trắng ăn với cá kho.", "zhTW": "白飯配燉魚吃。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 495,
+    "vi": "đỏ",
+    "zhTW": "紅色、紅的",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Tôi thích chiếc váy màu đỏ.", "zhTW": "我喜歡那件紅色洋裝。" },
+      { "vi": "Đèn đỏ rồi, hãy dừng lại.", "zhTW": "紅燈了，請停下來。" },
+      { "vi": "Quả này chín nên chuyển sang màu đỏ.", "zhTW": "這顆果實熟了，所以變成紅色。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 496,
+    "vi": "xanh",
+    "zhTW": "藍色、綠色；青色",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Tôi muốn chiếc áo màu xanh.", "zhTW": "我想要那件藍色上衣。" },
+      { "vi": "Rau này vẫn còn xanh và tươi.", "zhTW": "這些蔬菜仍然青綠新鮮。" },
+      { "vi": "Biển hôm nay có màu xanh rất đẹp.", "zhTW": "今天海水的藍色很漂亮。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 497,
+    "vi": "vàng",
+    "zhTW": "黃色；黃金",
+    "pos": "形容詞／名詞",
+    "examples": [
+      { "vi": "Tôi muốn mua chiếc mũ màu vàng.", "zhTW": "我想買那頂黃色帽子。" },
+      { "vi": "Lá cây đã chuyển sang màu vàng.", "zhTW": "樹葉已經變黃了。" },
+      { "vi": "Chiếc nhẫn này làm bằng vàng.", "zhTW": "這枚戒指是黃金做的。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 498,
+    "vi": "nâu",
+    "zhTW": "棕色、褐色",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Tôi thích chiếc túi màu nâu.", "zhTW": "我喜歡那個棕色包包。" },
+      { "vi": "Đôi giày nâu này rất vừa.", "zhTW": "這雙棕色鞋很合腳。" },
+      { "vi": "Bàn trong phòng có màu nâu.", "zhTW": "房間裡的桌子是棕色的。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 499,
+    "vi": "xám",
+    "zhTW": "灰色、灰的",
+    "pos": "形容詞",
+    "examples": [
+      { "vi": "Bạn có chiếc áo màu xám không?", "zhTW": "你們有灰色上衣嗎？" },
+      { "vi": "Bầu trời hôm nay có màu xám.", "zhTW": "今天的天空是灰色的。" },
+      { "vi": "Chiếc vali xám là của tôi.", "zhTW": "那個灰色行李箱是我的。" }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 500,
+    "vi": "hồng",
+    "zhTW": "粉紅色；玫瑰",
+    "pos": "形容詞／名詞",
+    "examples": [
+      { "vi": "Cô ấy mặc chiếc váy màu hồng.", "zhTW": "她穿著粉紅色洋裝。" },
+      { "vi": "Tôi muốn mua một bó hoa hồng.", "zhTW": "我想買一束玫瑰花。" },
+      { "vi": "Chiếc túi hồng này hơi nhỏ.", "zhTW": "這個粉紅色包包有點小。" }
+    ],
+    "quality": "reviewed"
+  }
+]
