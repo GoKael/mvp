@@ -29,6 +29,7 @@ const domains = [
   { range: [351, 400], name: '常用描述、程度時間與餐飲基本詞', required: ['sai', 'sạch', 'có thể', 'nhà hàng', 'cà phê', 'đói'] },
   { range: [401, 450], name: '食物烹調、機場通關與聯絡', required: ['phở', 'nước mắm', 'nấu', 'chuyến bay', 'nhập cảnh', 'mật khẩu'] },
   { range: [451, 500], name: '租屋居家、衣著尺寸與顏色', required: ['căn hộ', 'tiền cọc', 'máy giặt', 'kích cỡ', 'mặc', 'xanh'] },
+  { range: [501, 550], name: '餐飲服務、消費付款與天氣', required: ['hải sản', 'phục vụ', 'mang về', 'giảm giá', 'thời tiết', 'mưa'] },
 ];
 
 assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');
