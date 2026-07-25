@@ -8,10 +8,12 @@ class FakeAudio {
   src = '';
   error = null;
   shouldReject = false;
+  played = [];
 
   pause() {}
 
   play() {
+    this.played.push(this.src);
     if (this.shouldReject) {
       const error = new Error('blocked');
       error.name = 'NotAllowedError';
@@ -33,5 +35,9 @@ assert.equal(controller.audio.playsInline, true);
 controller.audio.shouldReject = true;
 assert.equal(await controller.play('blocked.mp3'), false);
 assert.match(controller.lastError, /^NotAllowedError: blocked$/);
+
+const sequenceController = new AudioController();
+assert.equal(await sequenceController.playSequence(['zh.mp3', 'vi.mp3']), true);
+assert.deepEqual(sequenceController.audio.played, ['zh.mp3', 'vi.mp3']);
 
 console.log('audio ok');

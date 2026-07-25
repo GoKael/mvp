@@ -1,15 +1,15 @@
-const CACHE = 'lexa-v2-30';
+const CACHE = 'lexa-v2-31';
 const APP_SHELL = [
   './index.html',
   './styles.css?v=27',
-  './app.js?v=39',
+  './app.js?v=40',
   './lib/app-core.mjs?v=9',
   './lib/audio.mjs?v=4',
   './lib/lexeme.mjs?v=2',
   './manifest.webmanifest',
   './assets/icon.svg',
   './server/data/core.json?v=2',
-  './server/data/lexicon.json?v=2',
+  './server/data/lexicon.json?v=3',
   './server/data/lessons.json?v=4',
   './server/data/patterns.json?v=4',
   './server/data/audio-manifest.json?v=4',
