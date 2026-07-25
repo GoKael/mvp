@@ -1,0 +1,402 @@
+[
+  {
+    "rank": 651, "vi": "du lịch", "zhTW": "旅行；旅遊活動", "pos": "動詞／名詞",
+    "examples": [
+      { "vi": "Tôi thích đi du lịch một mình.", "zhTW": "我喜歡一個人旅行。" },
+      { "vi": "Mùa hè là mùa du lịch đông khách.", "zhTW": "夏天是旅遊旺季。" },
+      { "vi": "Cô ấy làm việc trong ngành du lịch.", "zhTW": "她在旅遊業工作。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 652, "vi": "năng lượng", "zhTW": "能量、能源", "pos": "名詞",
+    "examples": [
+      { "vi": "Bữa sáng cung cấp năng lượng cho cả ngày.", "zhTW": "早餐提供一整天所需的能量。" },
+      { "vi": "Tôi không còn năng lượng để làm việc.", "zhTW": "我已沒有力氣工作。" },
+      { "vi": "Công ty đang đầu tư vào năng lượng sạch.", "zhTW": "公司正在投資潔淨能源。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 653, "vi": "tiếp theo", "zhTW": "接下來的；接著", "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Điểm dừng tiếp theo là ga trung tâm.", "zhTW": "下一站是中央車站。" },
+      { "vi": "Tiếp theo, chúng ta sẽ học ba câu mới.", "zhTW": "接下來，我們要學三個新句子。" },
+      { "vi": "Hẹn gặp bạn vào tuần tiếp theo.", "zhTW": "下週見。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 654, "vi": "tặng", "zhTW": "贈送、送給", "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi muốn tặng bạn món quà này.", "zhTW": "我想把這份禮物送給你。" },
+      { "vi": "Cửa hàng tặng khách một chiếc túi.", "zhTW": "商店送給客人一個袋子。" },
+      { "vi": "Cô ấy được tặng hoa vào sinh nhật.", "zhTW": "她生日收到別人送的花。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 655, "vi": "tắt", "zhTW": "關掉、熄滅", "pos": "動詞",
+    "examples": [
+      { "vi": "Hãy tắt đèn trước khi ra ngoài.", "zhTW": "出門前請關燈。" },
+      { "vi": "Điện thoại của tôi tự tắt.", "zhTW": "我的手機自動關機了。" },
+      { "vi": "Xin tắt máy lạnh giúp tôi.", "zhTW": "請幫我關掉冷氣。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 656, "vi": "hoàn hảo", "zhTW": "完美的", "pos": "形容詞",
+    "examples": [
+      { "vi": "Không có kế hoạch nào hoàn hảo.", "zhTW": "沒有任何計畫是完美的。" },
+      { "vi": "Thời tiết hôm nay thật hoàn hảo để đi biển.", "zhTW": "今天的天氣非常適合去海邊。" },
+      { "vi": "Bạn không cần nói tiếng Việt hoàn hảo.", "zhTW": "你不需要把越南語說得完美。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 657, "vi": "chú ý", "zhTW": "注意、留意", "pos": "動詞",
+    "examples": [
+      { "vi": "Hãy chú ý khi qua đường.", "zhTW": "過馬路時請注意。" },
+      { "vi": "Tôi không chú ý nên đi nhầm đường.", "zhTW": "我沒注意，所以走錯路了。" },
+      { "vi": "Bạn cần chú ý đến dấu thanh.", "zhTW": "你需要注意聲調符號。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 658, "vi": "thăm", "zhTW": "探望、參觀", "pos": "動詞",
+    "examples": [
+      { "vi": "Cuối tuần tôi về thăm gia đình.", "zhTW": "週末我要回去探望家人。" },
+      { "vi": "Chúng tôi đi thăm bảo tàng.", "zhTW": "我們去參觀博物館。" },
+      { "vi": "Cô ấy đến bệnh viện thăm bạn.", "zhTW": "她去醫院探望朋友。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 659, "vi": "thi", "zhTW": "考試、參賽", "pos": "動詞",
+    "examples": [
+      { "vi": "Ngày mai tôi thi tiếng Việt.", "zhTW": "我明天要考越南語。" },
+      { "vi": "Cô ấy đang chuẩn bị thi đại học.", "zhTW": "她正在準備大學入學考試。" },
+      { "vi": "Đội của chúng tôi sẽ thi vào tuần sau.", "zhTW": "我們的隊伍下週要參賽。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 660, "vi": "sân", "zhTW": "庭院、場地", "pos": "名詞",
+    "examples": [
+      { "vi": "Trẻ em đang chơi ngoài sân.", "zhTW": "孩子們正在院子裡玩。" },
+      { "vi": "Trận đấu diễn ra trên sân lớn.", "zhTW": "比賽在大球場舉行。" },
+      { "vi": "Xe đang đợi ở ngoài sân.", "zhTW": "車子正在外面的場地等候。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 661, "vi": "dữ liệu", "zhTW": "資料、數據", "pos": "名詞",
+    "examples": [
+      { "vi": "Ứng dụng lưu dữ liệu trên điện thoại.", "zhTW": "應用程式把資料儲存在手機上。" },
+      { "vi": "Chúng tôi đang kiểm tra dữ liệu.", "zhTW": "我們正在檢查數據。" },
+      { "vi": "Xin đừng chia sẻ dữ liệu cá nhân.", "zhTW": "請不要分享個人資料。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 662, "vi": "tự nhiên", "zhTW": "自然的；自然地", "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Phong cảnh ở đây rất tự nhiên.", "zhTW": "這裡的景色很自然。" },
+      { "vi": "Bạn hãy nói một cách tự nhiên.", "zhTW": "請自然地說。" },
+      { "vi": "Nụ cười của cô ấy rất tự nhiên.", "zhTW": "她的笑容很自然。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 663, "vi": "nhiệm vụ", "zhTW": "任務、職責", "pos": "名詞",
+    "examples": [
+      { "vi": "Nhiệm vụ hôm nay là học ba câu.", "zhTW": "今天的任務是學三個句子。" },
+      { "vi": "Tôi đã hoàn thành nhiệm vụ.", "zhTW": "我已完成任務。" },
+      { "vi": "Mỗi thành viên có một nhiệm vụ khác nhau.", "zhTW": "每位成員都有不同的任務。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 664, "vi": "thở", "zhTW": "呼吸", "pos": "動詞",
+    "examples": [
+      { "vi": "Hãy hít vào và thở ra chậm.", "zhTW": "請慢慢吸氣再吐氣。" },
+      { "vi": "Tôi cảm thấy khó thở.", "zhTW": "我覺得呼吸困難。" },
+      { "vi": "Cô ấy dừng lại để thở.", "zhTW": "她停下來喘口氣。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 665, "vi": "cẩn thận", "zhTW": "小心的；小心地", "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Bạn đi đường cẩn thận nhé.", "zhTW": "你路上小心。" },
+      { "vi": "Hãy đọc hợp đồng thật cẩn thận.", "zhTW": "請仔細閱讀合約。" },
+      { "vi": "Cô ấy là người rất cẩn thận.", "zhTW": "她是個很謹慎的人。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 666, "vi": "kỹ", "zhTW": "仔細地、徹底地", "pos": "副詞",
+    "examples": [
+      { "vi": "Tôi cần suy nghĩ kỹ trước khi quyết định.", "zhTW": "我需要仔細考慮後再決定。" },
+      { "vi": "Hãy kiểm tra kỹ địa chỉ.", "zhTW": "請仔細確認地址。" },
+      { "vi": "Cô ấy rửa rau rất kỹ.", "zhTW": "她把蔬菜洗得很乾淨。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 667, "vi": "vui vẻ", "zhTW": "開心的、愉快的", "pos": "形容詞",
+    "examples": [
+      { "vi": "Chúc bạn một ngày vui vẻ.", "zhTW": "祝你有愉快的一天。" },
+      { "vi": "Mọi người nói chuyện rất vui vẻ.", "zhTW": "大家聊得很開心。" },
+      { "vi": "Cô ấy luôn vui vẻ khi gặp khách hàng.", "zhTW": "她見到客戶時總是很開朗。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 668, "vi": "may mắn", "zhTW": "幸運的；幸運", "pos": "形容詞／名詞",
+    "examples": [
+      { "vi": "Hôm nay tôi thật may mắn.", "zhTW": "我今天真幸運。" },
+      { "vi": "Chúc bạn may mắn trong kỳ thi.", "zhTW": "祝你考試順利。" },
+      { "vi": "May mắn là chúng tôi đến kịp giờ.", "zhTW": "幸運的是，我們準時趕到了。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 669, "vi": "thoát", "zhTW": "逃脫、離開；登出", "pos": "動詞",
+    "examples": [
+      { "vi": "Mọi người đã thoát khỏi khu vực nguy hiểm.", "zhTW": "大家已離開危險區域。" },
+      { "vi": "Tôi không biết cách thoát khỏi ứng dụng.", "zhTW": "我不知道如何離開這個應用程式。" },
+      { "vi": "Hãy nhấn nút này để thoát tài khoản.", "zhTW": "請按這個按鈕登出帳號。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 670, "vi": "thông báo", "zhTW": "通知；公告", "pos": "動詞／名詞",
+    "examples": [
+      { "vi": "Hãng bay đã thông báo chuyến bay bị trễ.", "zhTW": "航空公司已通知班機延誤。" },
+      { "vi": "Tôi nhận được một thông báo mới.", "zhTW": "我收到一則新通知。" },
+      { "vi": "Thông báo được dán ở cửa.", "zhTW": "公告貼在門上。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 671, "vi": "rút", "zhTW": "拔出、抽出；提款", "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi muốn rút tiền từ máy ATM.", "zhTW": "我想從提款機領錢。" },
+      { "vi": "Hãy rút chìa khóa ra khỏi cửa.", "zhTW": "請把鑰匙從門上拔出來。" },
+      { "vi": "Cô ấy rút một tờ giấy từ túi.", "zhTW": "她從袋子裡抽出一張紙。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 672, "vi": "quà", "zhTW": "禮物", "pos": "名詞",
+    "examples": [
+      { "vi": "Tôi mua một món quà cho mẹ.", "zhTW": "我買了一份禮物給媽媽。" },
+      { "vi": "Cảm ơn bạn về món quà.", "zhTW": "謝謝你的禮物。" },
+      { "vi": "Cô ấy mở quà vào ngày sinh nhật.", "zhTW": "她在生日當天拆禮物。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 673, "vi": "hứa", "zhTW": "答應、承諾", "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi hứa sẽ đến đúng giờ.", "zhTW": "我答應會準時到。" },
+      { "vi": "Cô ấy hứa gọi lại vào buổi tối.", "zhTW": "她答應晚上回電。" },
+      { "vi": "Bạn đừng hứa nếu không chắc chắn.", "zhTW": "如果不確定，就不要承諾。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 674, "vi": "bật", "zhTW": "打開、開啟", "pos": "動詞",
+    "examples": [
+      { "vi": "Xin bật máy lạnh giúp tôi.", "zhTW": "請幫我開冷氣。" },
+      { "vi": "Tôi không biết cách bật máy này.", "zhTW": "我不知道怎麼開這台機器。" },
+      { "vi": "Cô ấy bật đèn trong phòng.", "zhTW": "她打開房間的燈。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 675, "vi": "đoàn", "zhTW": "團、團體", "pos": "名詞",
+    "examples": [
+      { "vi": "Đoàn du lịch có hai mươi người.", "zhTW": "旅行團有二十人。" },
+      { "vi": "Tôi đang đợi đoàn ở sân bay.", "zhTW": "我正在機場等團體。" },
+      { "vi": "Đoàn sẽ rời khách sạn lúc bảy giờ.", "zhTW": "團體將在七點離開飯店。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 676, "vi": "lễ", "zhTW": "典禮、節慶", "pos": "名詞",
+    "examples": [
+      { "vi": "Ngày mai công ty tổ chức lễ khai trương.", "zhTW": "公司明天舉行開幕典禮。" },
+      { "vi": "Đường phố rất đông vào dịp lễ.", "zhTW": "節日期間街上很擁擠。" },
+      { "vi": "Chúng tôi mặc trang phục đẹp trong buổi lễ.", "zhTW": "我們在典禮上穿著正式服裝。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 677, "vi": "già", "zhTW": "年老的；老年人", "pos": "形容詞／名詞",
+    "examples": [
+      { "vi": "Ông tôi đã già nhưng vẫn khỏe.", "zhTW": "我爺爺年紀大了，但仍很健康。" },
+      { "vi": "Người già được ưu tiên chỗ ngồi.", "zhTW": "老年人可以優先入座。" },
+      { "vi": "Con chó này đã khá già.", "zhTW": "這隻狗已經很老了。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 678, "vi": "đẩy", "zhTW": "推、推動", "pos": "動詞",
+    "examples": [
+      { "vi": "Hãy đẩy cửa để mở.", "zhTW": "請推門打開。" },
+      { "vi": "Anh ấy giúp tôi đẩy xe.", "zhTW": "他幫我推車。" },
+      { "vi": "Công ty đang đẩy nhanh tiến độ.", "zhTW": "公司正在加快進度。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 679, "vi": "nuôi", "zhTW": "養育、飼養", "pos": "動詞",
+    "examples": [
+      { "vi": "Gia đình tôi nuôi một con chó.", "zhTW": "我家養了一隻狗。" },
+      { "vi": "Cô ấy làm việc để nuôi con.", "zhTW": "她工作養孩子。" },
+      { "vi": "Người dân ở đây nuôi cá.", "zhTW": "這裡的居民養魚。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 680, "vi": "đảo", "zhTW": "島、島嶼", "pos": "名詞",
+    "examples": [
+      { "vi": "Chúng tôi đi tàu ra đảo.", "zhTW": "我們搭船去島上。" },
+      { "vi": "Hòn đảo này có bãi biển rất đẹp.", "zhTW": "這座島有很美的海灘。" },
+      { "vi": "Trên đảo không có máy ATM.", "zhTW": "島上沒有提款機。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 681, "vi": "kinh nghiệm", "zhTW": "經驗", "pos": "名詞",
+    "examples": [
+      { "vi": "Cô ấy có nhiều kinh nghiệm làm việc.", "zhTW": "她有豐富的工作經驗。" },
+      { "vi": "Đây là một kinh nghiệm thú vị.", "zhTW": "這是一次有趣的經驗。" },
+      { "vi": "Tôi muốn chia sẻ kinh nghiệm học tiếng Việt.", "zhTW": "我想分享學越南語的經驗。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 682, "vi": "quy định", "zhTW": "規定、規章", "pos": "名詞",
+    "examples": [
+      { "vi": "Xin đọc kỹ quy định của khách sạn.", "zhTW": "請仔細閱讀飯店規定。" },
+      { "vi": "Quy định này áp dụng cho mọi người.", "zhTW": "這項規定適用於所有人。" },
+      { "vi": "Bạn không được hút thuốc theo quy định.", "zhTW": "依規定你不能吸菸。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 683, "vi": "kiểm soát", "zhTW": "控制、管控", "pos": "動詞",
+    "examples": [
+      { "vi": "Tôi đang cố kiểm soát chi tiêu.", "zhTW": "我正在努力控制開支。" },
+      { "vi": "Cảnh sát kiểm soát giao thông ở đây.", "zhTW": "警察在這裡管制交通。" },
+      { "vi": "Bác sĩ giúp bệnh nhân kiểm soát huyết áp.", "zhTW": "醫師幫助病人控制血壓。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 684, "vi": "thông minh", "zhTW": "聰明的、智慧型的", "pos": "形容詞",
+    "examples": [
+      { "vi": "Cô bé này rất thông minh.", "zhTW": "這個小女孩很聰明。" },
+      { "vi": "Đây là một cách giải quyết thông minh.", "zhTW": "這是一個聰明的解決方式。" },
+      { "vi": "Tôi đang dùng đồng hồ thông minh.", "zhTW": "我正在使用智慧型手錶。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 685, "vi": "thể hiện", "zhTW": "表現、展現、表達", "pos": "動詞",
+    "examples": [
+      { "vi": "Cô ấy thể hiện ý kiến rất rõ.", "zhTW": "她清楚表達自己的意見。" },
+      { "vi": "Kết quả thể hiện sự tiến bộ.", "zhTW": "結果展現了進步。" },
+      { "vi": "Anh ấy thể hiện tốt trong cuộc họp.", "zhTW": "他在會議中表現良好。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 686, "vi": "lá", "zhTW": "葉子", "pos": "名詞",
+    "examples": [
+      { "vi": "Lá cây đã chuyển sang màu vàng.", "zhTW": "樹葉已經變黃了。" },
+      { "vi": "Món này được gói bằng lá chuối.", "zhTW": "這道食物用香蕉葉包著。" },
+      { "vi": "Có nhiều lá rơi trên đường.", "zhTW": "路上有很多落葉。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 687, "vi": "giọng", "zhTW": "聲音、口音、語調", "pos": "名詞",
+    "examples": [
+      { "vi": "Cô ấy có giọng nói rất nhẹ nhàng.", "zhTW": "她的聲音很溫柔。" },
+      { "vi": "Tôi chưa quen với giọng miền Nam.", "zhTW": "我還不習慣南部口音。" },
+      { "vi": "Hãy đọc câu này bằng giọng tự nhiên.", "zhTW": "請用自然的語調念這個句子。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 688, "vi": "giải thích", "zhTW": "解釋、說明", "pos": "動詞",
+    "examples": [
+      { "vi": "Bạn có thể giải thích câu này không?", "zhTW": "你可以解釋這個句子嗎？" },
+      { "vi": "Nhân viên giải thích quy định rất rõ.", "zhTW": "工作人員把規定說明得很清楚。" },
+      { "vi": "Tôi cần giải thích lý do đến muộn.", "zhTW": "我需要解釋遲到的原因。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 689, "vi": "ảnh hưởng", "zhTW": "影響；影響力", "pos": "動詞／名詞",
+    "examples": [
+      { "vi": "Thời tiết ảnh hưởng đến chuyến bay.", "zhTW": "天氣影響了班機。" },
+      { "vi": "Việc này không ảnh hưởng đến kế hoạch.", "zhTW": "這件事不會影響計畫。" },
+      { "vi": "Tiếng ồn có ảnh hưởng xấu đến giấc ngủ.", "zhTW": "噪音對睡眠有不良影響。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 690, "vi": "giây", "zhTW": "秒", "pos": "名詞",
+    "examples": [
+      { "vi": "Xin đợi tôi vài giây.", "zhTW": "請等我幾秒。" },
+      { "vi": "Video này dài ba mươi giây.", "zhTW": "這支影片長三十秒。" },
+      { "vi": "Máy sẽ khởi động sau năm giây.", "zhTW": "機器將在五秒後啟動。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 691, "vi": "thoải mái", "zhTW": "舒適的；自在地", "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Căn phòng này rất thoải mái.", "zhTW": "這個房間很舒適。" },
+      { "vi": "Bạn cứ ngồi thoải mái nhé.", "zhTW": "你自在地坐就好。" },
+      { "vi": "Đôi giày này đi rất thoải mái.", "zhTW": "這雙鞋穿起來很舒服。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 692, "vi": "cụ thể", "zhTW": "具體的；具體地", "pos": "形容詞／副詞",
+    "examples": [
+      { "vi": "Bạn có kế hoạch cụ thể chưa?", "zhTW": "你有具體計畫了嗎？" },
+      { "vi": "Xin nói cụ thể hơn.", "zhTW": "請說得更具體一點。" },
+      { "vi": "Tôi cần một địa chỉ cụ thể.", "zhTW": "我需要一個明確的地址。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 693, "vi": "quận", "zhTW": "郡、城市行政區", "pos": "名詞",
+    "examples": [
+      { "vi": "Khách sạn nằm ở quận trung tâm.", "zhTW": "飯店位於市中心的行政區。" },
+      { "vi": "Bạn đang sống ở quận nào?", "zhTW": "你住在哪一區？" },
+      { "vi": "Từ đây đến quận Một mất bao lâu?", "zhTW": "從這裡到第一郡要多久？" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 694, "vi": "quốc gia", "zhTW": "國家", "pos": "名詞",
+    "examples": [
+      { "vi": "Việt Nam là một quốc gia ở Đông Nam Á.", "zhTW": "越南是東南亞的一個國家。" },
+      { "vi": "Mỗi quốc gia có quy định nhập cảnh khác nhau.", "zhTW": "每個國家的入境規定不同。" },
+      { "vi": "Cô ấy đã du lịch qua nhiều quốc gia.", "zhTW": "她已旅行過許多國家。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 695, "vi": "trách nhiệm", "zhTW": "責任、職責", "pos": "名詞",
+    "examples": [
+      { "vi": "Đây là trách nhiệm của tôi.", "zhTW": "這是我的責任。" },
+      { "vi": "Mỗi thành viên có trách nhiệm riêng.", "zhTW": "每位成員都有各自的職責。" },
+      { "vi": "Công ty phải chịu trách nhiệm về lỗi này.", "zhTW": "公司必須對這個錯誤負責。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 696, "vi": "kỹ thuật", "zhTW": "技術；技術性的", "pos": "名詞／形容詞",
+    "examples": [
+      { "vi": "Tôi cần hỗ trợ kỹ thuật.", "zhTW": "我需要技術支援。" },
+      { "vi": "Nhân viên kỹ thuật đang kiểm tra máy.", "zhTW": "技術人員正在檢查機器。" },
+      { "vi": "Cô ấy học kỹ thuật máy tính.", "zhTW": "她學習電腦技術。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 697, "vi": "nhắc", "zhTW": "提醒、提到", "pos": "動詞",
+    "examples": [
+      { "vi": "Bạn nhớ nhắc tôi gọi điện nhé.", "zhTW": "記得提醒我打電話。" },
+      { "vi": "Cô ấy nhắc đến kế hoạch trong cuộc họp.", "zhTW": "她在會議中提到那項計畫。" },
+      { "vi": "Tôi đã nhắc anh ấy đến đúng giờ.", "zhTW": "我已提醒他準時到。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 698, "vi": "hộp", "zhTW": "盒子、箱子", "pos": "名詞",
+    "examples": [
+      { "vi": "Xin cho tôi một cái hộp mang về.", "zhTW": "請給我一個外帶盒。" },
+      { "vi": "Quà được đặt trong hộp.", "zhTW": "禮物放在盒子裡。" },
+      { "vi": "Tôi mua một hộp thuốc.", "zhTW": "我買了一盒藥。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 699, "vi": "điều kiện", "zhTW": "條件、狀況", "pos": "名詞",
+    "examples": [
+      { "vi": "Điều kiện thuê nhà là gì?", "zhTW": "租屋條件是什麼？" },
+      { "vi": "Thời tiết là điều kiện quan trọng của chuyến đi.", "zhTW": "天氣是旅行的重要條件。" },
+      { "vi": "Căn phòng có điều kiện ánh sáng tốt.", "zhTW": "這個房間的採光條件很好。" }
+    ], "quality": "reviewed"
+  },
+  {
+    "rank": 700, "vi": "màn hình", "zhTW": "螢幕、顯示器", "pos": "名詞",
+    "examples": [
+      { "vi": "Màn hình điện thoại bị vỡ.", "zhTW": "手機螢幕破了。" },
+      { "vi": "Thông tin được hiển thị trên màn hình.", "zhTW": "資訊顯示在螢幕上。" },
+      { "vi": "Xin tắt màn hình khi không dùng.", "zhTW": "不用時請關閉螢幕。" }
+    ], "quality": "reviewed"
+  }
+]

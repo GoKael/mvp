@@ -17,6 +17,7 @@
     "build:core-501-550": "node scripts/build-core-batch.js content/core-501-550.source.json",
     "build:core-551-600": "node scripts/build-core-batch.js content/core-551-600.source.json",
     "build:core-601-650": "node scripts/build-core-batch.js content/core-601-650.source.json",
+    "build:core-651-700": "node scripts/build-core-batch.js content/core-651-700.source.json",
     "audit:vocabulary": "node scripts/audit-vocabulary.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",
