@@ -23,6 +23,7 @@
     "build:core-801-850": "node scripts/build-core-batch.js content/core-801-850.source.json",
     "build:core-851-900": "node scripts/build-core-batch.js content/core-851-900.source.json",
     "build:core-901-950": "node scripts/build-core-batch.js content/core-901-950.source.json",
+    "build:core-951-1000": "node scripts/build-core-batch.js content/core-951-1000.source.json",
     "audit:vocabulary": "node scripts/audit-vocabulary.js",
     "start": "npm --prefix server run start",
     "dev": "npm --prefix server run start",
