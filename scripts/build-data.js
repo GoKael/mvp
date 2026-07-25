@@ -295,26 +295,34 @@ function buildCoreSeed() {
   return rows.map((item, index) => {
     const slug = slugify(item.word);
     const rank = index + 1;
+    const prefix = `${String(rank).padStart(3, '0')}-${slug}`;
+    const bilingualAudio = rank <= 10;
     const translated = translations.get(rank);
     const sourceExamples = exampleOverrides[rank]
       || (item.examples || []).slice(0, 3).map((example, exampleIndex) => [example.v || example.vi, translated?.[exampleIndex]]);
     const examples = sourceExamples.map((example, exampleIndex) => ({
       vi: String(example[0] || '').trim(),
       zhTW: String(example[1] || '').trim(),
-      audio: `assets/audio/examples/${String(index + 1).padStart(3, '0')}-${exampleIndex + 1}.mp3`,
+      audio: bilingualAudio ? {
+        vi: `assets/audio/examples/${String(rank).padStart(3, '0')}-${exampleIndex + 1}.mp3`,
+        zhTW: `assets/audio/examples/${String(rank).padStart(3, '0')}-${exampleIndex + 1}-zh.mp3`,
+      } : `assets/audio/examples/${String(rank).padStart(3, '0')}-${exampleIndex + 1}.mp3`,
     }));
     if (examples.length !== 3 || examples.some((example) => !example.vi || !example.zhTW)) {
       throw new Error(`Core word ${item.word} is missing bilingual examples`);
     }
     return {
-      id: `vi:${String(index + 1).padStart(3, '0')}-${slug}`,
-      conceptId: `concept:${String(index + 1).padStart(3, '0')}`,
+      id: `vi:${prefix}`,
+      conceptId: `concept:${String(rank).padStart(3, '0')}`,
       vi: item.word,
       zhTW: zhMeaning[index],
       pos: posMap[item.type] || item.type,
       hanViet: '',
-      rank: index + 1,
-      audio: `assets/audio/words/${String(index + 1).padStart(3, '0')}-${slug}.mp3`,
+      rank,
+      audio: bilingualAudio ? {
+        vi: `assets/audio/words/${prefix}.mp3`,
+        zhTW: `assets/audio/words/${prefix}-zh.mp3`,
+      } : `assets/audio/words/${prefix}.mp3`,
       examples,
       quality: 'verified',
     };

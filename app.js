@@ -30,8 +30,8 @@ import { AudioController } from './lib/audio.mjs?v=4';
 import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/lexeme.mjs?v=2';
 
 const DATA_PATHS = {
-  words: 'server/data/core.json?v=2',
-  lexicon: 'server/data/lexicon.json?v=3',
+  words: 'server/data/core.json?v=3',
+  lexicon: 'server/data/lexicon.json?v=4',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
   audio: 'server/data/audio-manifest.json?v=4',

@@ -1,6 +1,6 @@
 {
   "model": "gemini-2.5-pro-tts",
-  "expected": 500,
+  "expected": 540,
   "assets": [
     {
       "kind": "word",
@@ -8,6 +8,14 @@
       "voice": "Zephyr",
       "text": "là",
       "output": "assets/audio/words/001-la.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "是",
+      "output": "assets/audio/words/001-la-zh.mp3",
       "generated": true
     },
     {
@@ -20,10 +28,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "他是我的摯友。",
+      "output": "assets/audio/examples/001-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Đây là lần đầu tiên tôi đi du lịch.",
       "output": "assets/audio/examples/001-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這是我第一次去旅行。",
+      "output": "assets/audio/examples/001-2-zh.mp3",
       "generated": true
     },
     {
@@ -35,11 +59,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "那是一個好主意。",
+      "output": "assets/audio/examples/001-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "và",
       "output": "assets/audio/words/002-va.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "和、以及",
+      "output": "assets/audio/words/002-va-zh.mp3",
       "generated": true
     },
     {
@@ -52,10 +92,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我喜歡吃飯和喝茶。",
+      "output": "assets/audio/examples/002-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Lan và Mai là chị em họ.",
       "output": "assets/audio/examples/002-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "蘭和梅是表姊妹。",
+      "output": "assets/audio/examples/002-2-zh.mp3",
       "generated": true
     },
     {
@@ -67,11 +123,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請專心並盡力而為。",
+      "output": "assets/audio/examples/002-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "của",
       "output": "assets/audio/words/003-cua.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "的、屬於",
+      "output": "assets/audio/words/003-cua-zh.mp3",
       "generated": true
     },
     {
@@ -84,10 +156,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這是這間房子的鑰匙。",
+      "output": "assets/audio/examples/003-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Màu sắc của bầu trời thật đẹp.",
       "output": "assets/audio/examples/003-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "天空的顏色真美。",
+      "output": "assets/audio/examples/003-2-zh.mp3",
       "generated": true
     },
     {
@@ -99,11 +187,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這不是任何單一個人的錯。",
+      "output": "assets/audio/examples/003-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "có",
       "output": "assets/audio/words/004-co.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "有、擁有",
+      "output": "assets/audio/words/004-co-zh.mp3",
       "generated": true
     },
     {
@@ -116,10 +220,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我有很多事要做。",
+      "output": "assets/audio/examples/004-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Trong tủ lạnh có còn sữa không?",
       "output": "assets/audio/examples/004-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "冰箱裡還有牛奶嗎？",
+      "output": "assets/audio/examples/004-2-zh.mp3",
       "generated": true
     },
     {
@@ -131,11 +251,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "有人在門口等你。",
+      "output": "assets/audio/examples/004-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "không",
       "output": "assets/audio/words/005-khong.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "不、沒有",
+      "output": "assets/audio/words/005-khong-zh.mp3",
       "generated": true
     },
     {
@@ -148,10 +284,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我不會說法語。",
+      "output": "assets/audio/examples/005-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Anh ấy không có ở nhà.",
       "output": "assets/audio/examples/005-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "他不在家。",
+      "output": "assets/audio/examples/005-2-zh.mp3",
       "generated": true
     },
     {
@@ -163,11 +315,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你好嗎？",
+      "output": "assets/audio/examples/005-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "trong",
       "output": "assets/audio/words/006-trong.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "在…裡、之中",
+      "output": "assets/audio/words/006-trong-zh.mp3",
       "generated": true
     },
     {
@@ -180,10 +348,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我把錢包放在書包裡。",
+      "output": "assets/audio/examples/006-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Trong phòng bỗng nhiên im lặng.",
       "output": "assets/audio/examples/006-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "房間裡突然變得很安靜。",
+      "output": "assets/audio/examples/006-2-zh.mp3",
       "generated": true
     },
     {
@@ -195,11 +379,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "她永遠活在我心中。",
+      "output": "assets/audio/examples/006-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "một",
       "output": "assets/audio/words/007-mot.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "一、一個",
+      "output": "assets/audio/words/007-mot-zh.mp3",
       "generated": true
     },
     {
@@ -212,10 +412,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請給我一杯白開水。",
+      "output": "assets/audio/examples/007-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Đó chỉ là một sự tình cờ.",
       "output": "assets/audio/examples/007-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "那只是一個巧合。",
+      "output": "assets/audio/examples/007-2-zh.mp3",
       "generated": true
     },
     {
@@ -227,11 +443,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "他是一位好老師。",
+      "output": "assets/audio/examples/007-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "các",
       "output": "assets/audio/words/008-cac.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "各、複數標記",
+      "output": "assets/audio/words/008-cac-zh.mp3",
       "generated": true
     },
     {
@@ -244,10 +476,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "各位請注意聽我說。",
+      "output": "assets/audio/examples/008-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Các em học sinh đang đá bóng.",
       "output": "assets/audio/examples/008-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "學生們正在踢足球。",
+      "output": "assets/audio/examples/008-2-zh.mp3",
       "generated": true
     },
     {
@@ -259,11 +507,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "專家們正在討論。",
+      "output": "assets/audio/examples/008-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "cho",
       "output": "assets/audio/words/009-cho.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "給、為了、讓",
+      "output": "assets/audio/words/009-cho-zh.mp3",
       "generated": true
     },
     {
@@ -276,10 +540,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請再給我多一點時間。",
+      "output": "assets/audio/examples/009-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Tôi mua quà này cho mẹ.",
       "output": "assets/audio/examples/009-2.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我買這個禮物給媽媽。",
+      "output": "assets/audio/examples/009-2-zh.mp3",
       "generated": true
     },
     {
@@ -291,11 +571,27 @@
       "generated": true
     },
     {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "爸爸准我玩到很晚。",
+      "output": "assets/audio/examples/009-3-zh.mp3",
+      "generated": true
+    },
+    {
       "kind": "word",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "được",
       "output": "assets/audio/words/010-duoc.mp3",
+      "generated": true
+    },
+    {
+      "kind": "word",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "得到、可以",
+      "output": "assets/audio/words/010-duoc-zh.mp3",
       "generated": true
     },
     {
@@ -308,6 +604,14 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我已經收到訊息了。",
+      "output": "assets/audio/examples/010-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Món này ăn được không?",
@@ -316,10 +620,26 @@
     },
     {
       "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這道菜可以吃嗎？",
+      "output": "assets/audio/examples/010-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
       "languageCode": "vi-VN",
       "voice": "Zephyr",
       "text": "Hôm nay tôi được nghỉ sớm.",
       "output": "assets/audio/examples/010-3.mp3",
+      "generated": true
+    },
+    {
+      "kind": "example",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "今天我得以提早下班。",
+      "output": "assets/audio/examples/010-3-zh.mp3",
       "generated": true
     },
     {

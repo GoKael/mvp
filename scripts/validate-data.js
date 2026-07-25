@@ -50,6 +50,12 @@ words.forEach((word) => {
     assert.ok(normalize(example.vi).split(' ').includes(normalize(word.vi)), `Example does not contain ${word.vi}: ${example.vi}`);
   });
 });
+words.slice(0, 10).forEach((word) => {
+  assert.ok(word.audio.vi && word.audio.zhTW, `Core 10 word needs bilingual audio: ${word.id}`);
+  word.examples.forEach((example) => {
+    assert.ok(example.audio.vi && example.audio.zhTW, `Core 10 example needs bilingual audio: ${word.id}`);
+  });
+});
 
 assert.strictEqual(lessons.length, 10, 'Expected ten food lessons');
 assert.strictEqual(new Set(lessons.map((lesson) => lesson.id)).size, 10, 'Lesson ids must be unique');
@@ -111,7 +117,8 @@ generated.forEach((asset) => {
   assert.ok(probe.status === 0 && Number.isFinite(duration), `Audio cannot be decoded: ${asset.output}`);
   assert.ok(duration <= 9.5, `Audio exceeds 9.5 seconds: ${asset.output} (${duration})`);
   if (asset.kind === 'word') {
-    assert.ok(duration >= 0.18 && duration <= 2.5, `Word audio duration is suspicious: ${asset.output} (${duration})`);
+    const maxDuration = asset.languageCode === 'cmn-TW' ? 4.5 : 2.5;
+    assert.ok(duration >= 0.18 && duration <= maxDuration, `Word audio duration is suspicious: ${asset.output} (${duration})`);
   }
 });
 
