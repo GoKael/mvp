@@ -30,6 +30,7 @@ const domains = [
   { range: [401, 450], name: '食物烹調、機場通關與聯絡', required: ['phở', 'nước mắm', 'nấu', 'chuyến bay', 'nhập cảnh', 'mật khẩu'] },
   { range: [451, 500], name: '租屋居家、衣著尺寸與顏色', required: ['căn hộ', 'tiền cọc', 'máy giặt', 'kích cỡ', 'mặc', 'xanh'] },
   { range: [501, 550], name: '餐飲服務、消費付款與天氣', required: ['hải sản', 'phục vụ', 'mang về', 'giảm giá', 'thời tiết', 'mưa'] },
+  { range: [551, 600], name: '溝通、工作計畫與抽象日常', required: ['hy vọng', 'kế hoạch', 'cơ hội', 'đăng ký', 'theo dõi', 'có vẻ'] },
 ];
 
 assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');
