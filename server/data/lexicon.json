@@ -14798,5 +14798,2005 @@
       }
     ],
     "quality": "reviewed"
+  },
+  {
+    "id": "vi:401-pho",
+    "conceptId": "concept:401",
+    "vi": "phở",
+    "zhTW": "河粉、越南河粉",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 401,
+    "audio": {
+      "vi": "assets/audio/words/401-pho.mp3",
+      "zhTW": "assets/audio/words/401-pho-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn ăn một tô phở.",
+        "zhTW": "我想吃一碗河粉。",
+        "audio": {
+          "vi": "assets/audio/examples/401-1.mp3",
+          "zhTW": "assets/audio/examples/401-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Quán phở này mở cửa từ sáng sớm.",
+        "zhTW": "這家河粉店一大早就營業。",
+        "audio": {
+          "vi": "assets/audio/examples/401-2.mp3",
+          "zhTW": "assets/audio/examples/401-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phở bò ở đây rất ngon.",
+        "zhTW": "這裡的牛肉河粉很好吃。",
+        "audio": {
+          "vi": "assets/audio/examples/401-3.mp3",
+          "zhTW": "assets/audio/examples/401-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:402-ga",
+    "conceptId": "concept:402",
+    "vi": "gà",
+    "zhTW": "雞；雞肉",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 402,
+    "audio": {
+      "vi": "assets/audio/words/402-ga.mp3",
+      "zhTW": "assets/audio/words/402-ga-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn gọi món gà nướng.",
+        "zhTW": "我想點烤雞。",
+        "audio": {
+          "vi": "assets/audio/examples/402-1.mp3",
+          "zhTW": "assets/audio/examples/402-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phở gà này có vị rất thanh.",
+        "zhTW": "這碗雞肉河粉味道很清爽。",
+        "audio": {
+          "vi": "assets/audio/examples/402-2.mp3",
+          "zhTW": "assets/audio/examples/402-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Con gà đang ở ngoài sân.",
+        "zhTW": "那隻雞在院子裡。",
+        "audio": {
+          "vi": "assets/audio/examples/402-3.mp3",
+          "zhTW": "assets/audio/examples/402-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:403-bo",
+    "conceptId": "concept:403",
+    "vi": "bò",
+    "zhTW": "牛；牛肉",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 403,
+    "audio": {
+      "vi": "assets/audio/words/403-bo.mp3",
+      "zhTW": "assets/audio/words/403-bo-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Món này có thịt bò không?",
+        "zhTW": "這道菜有牛肉嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/403-1.mp3",
+          "zhTW": "assets/audio/examples/403-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi thích phở bò hơn phở gà.",
+        "zhTW": "比起雞肉河粉，我更喜歡牛肉河粉。",
+        "audio": {
+          "vi": "assets/audio/examples/403-2.mp3",
+          "zhTW": "assets/audio/examples/403-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Con bò đang ăn cỏ.",
+        "zhTW": "那頭牛正在吃草。",
+        "audio": {
+          "vi": "assets/audio/examples/403-3.mp3",
+          "zhTW": "assets/audio/examples/403-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:404-heo",
+    "conceptId": "concept:404",
+    "vi": "heo",
+    "zhTW": "豬；豬肉（南部常用）",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 404,
+    "audio": {
+      "vi": "assets/audio/words/404-heo.mp3",
+      "zhTW": "assets/audio/words/404-heo-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cơm tấm thường ăn với thịt heo nướng.",
+        "zhTW": "碎米飯通常配烤豬肉吃。",
+        "audio": {
+          "vi": "assets/audio/examples/404-1.mp3",
+          "zhTW": "assets/audio/examples/404-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi không ăn thịt heo.",
+        "zhTW": "我不吃豬肉。",
+        "audio": {
+          "vi": "assets/audio/examples/404-2.mp3",
+          "zhTW": "assets/audio/examples/404-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Ở miền Nam, người ta thường nói “heo”.",
+        "zhTW": "在越南南部，人們通常說「heo」。",
+        "audio": {
+          "vi": "assets/audio/examples/404-3.mp3",
+          "zhTW": "assets/audio/examples/404-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:405-trung",
+    "conceptId": "concept:405",
+    "vi": "trứng",
+    "zhTW": "蛋、雞蛋",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 405,
+    "audio": {
+      "vi": "assets/audio/words/405-trung.mp3",
+      "zhTW": "assets/audio/words/405-trung-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi thêm một quả trứng.",
+        "zhTW": "請再給我一顆蛋。",
+        "audio": {
+          "vi": "assets/audio/examples/405-1.mp3",
+          "zhTW": "assets/audio/examples/405-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bữa sáng có bánh mì và trứng.",
+        "zhTW": "早餐有麵包和雞蛋。",
+        "audio": {
+          "vi": "assets/audio/examples/405-2.mp3",
+          "zhTW": "assets/audio/examples/405-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn ăn trứng chiên.",
+        "zhTW": "我想吃煎蛋。",
+        "audio": {
+          "vi": "assets/audio/examples/405-3.mp3",
+          "zhTW": "assets/audio/examples/405-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:406-mi",
+    "conceptId": "concept:406",
+    "vi": "mì",
+    "zhTW": "麵、麵條",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 406,
+    "audio": {
+      "vi": "assets/audio/words/406-mi.mp3",
+      "zhTW": "assets/audio/words/406-mi-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn một tô mì nóng.",
+        "zhTW": "我想要一碗熱麵。",
+        "audio": {
+          "vi": "assets/audio/examples/406-1.mp3",
+          "zhTW": "assets/audio/examples/406-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mì này hơi mặn.",
+        "zhTW": "這碗麵有點鹹。",
+        "audio": {
+          "vi": "assets/audio/examples/406-2.mp3",
+          "zhTW": "assets/audio/examples/406-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Quán có mì xào không?",
+        "zhTW": "店裡有炒麵嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/406-3.mp3",
+          "zhTW": "assets/audio/examples/406-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:407-bun",
+    "conceptId": "concept:407",
+    "vi": "bún",
+    "zhTW": "米線、細米粉",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 407,
+    "audio": {
+      "vi": "assets/audio/words/407-bun.mp3",
+      "zhTW": "assets/audio/words/407-bun-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bún chả là món ăn nổi tiếng của Hà Nội.",
+        "zhTW": "烤肉米線是河內的知名美食。",
+        "audio": {
+          "vi": "assets/audio/examples/407-1.mp3",
+          "zhTW": "assets/audio/examples/407-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn ăn bún bò Huế.",
+        "zhTW": "我想吃順化牛肉米線。",
+        "audio": {
+          "vi": "assets/audio/examples/407-2.mp3",
+          "zhTW": "assets/audio/examples/407-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Sợi bún này rất mềm.",
+        "zhTW": "這種米線很柔軟。",
+        "audio": {
+          "vi": "assets/audio/examples/407-3.mp3",
+          "zhTW": "assets/audio/examples/407-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:408-banh",
+    "conceptId": "concept:408",
+    "vi": "bánh",
+    "zhTW": "餅、糕、麵包類食品",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 408,
+    "audio": {
+      "vi": "assets/audio/words/408-banh.mp3",
+      "zhTW": "assets/audio/words/408-banh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn mua một ít bánh.",
+        "zhTW": "我想買一些糕點。",
+        "audio": {
+          "vi": "assets/audio/examples/408-1.mp3",
+          "zhTW": "assets/audio/examples/408-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bánh này có nhân đậu xanh.",
+        "zhTW": "這個糕餅有綠豆餡。",
+        "audio": {
+          "vi": "assets/audio/examples/408-2.mp3",
+          "zhTW": "assets/audio/examples/408-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mỗi vùng có một loại bánh khác nhau.",
+        "zhTW": "每個地區都有不同種類的糕餅。",
+        "audio": {
+          "vi": "assets/audio/examples/408-3.mp3",
+          "zhTW": "assets/audio/examples/408-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:409-canh",
+    "conceptId": "concept:409",
+    "vi": "canh",
+    "zhTW": "湯（佐餐湯）",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 409,
+    "audio": {
+      "vi": "assets/audio/words/409-canh.mp3",
+      "zhTW": "assets/audio/words/409-canh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bữa cơm này có một bát canh.",
+        "zhTW": "這頓飯有一碗湯。",
+        "audio": {
+          "vi": "assets/audio/examples/409-1.mp3",
+          "zhTW": "assets/audio/examples/409-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Canh chua cá rất dễ ăn.",
+        "zhTW": "酸魚湯很下飯。",
+        "audio": {
+          "vi": "assets/audio/examples/409-2.mp3",
+          "zhTW": "assets/audio/examples/409-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Món canh này còn nóng.",
+        "zhTW": "這碗湯還是熱的。",
+        "audio": {
+          "vi": "assets/audio/examples/409-3.mp3",
+          "zhTW": "assets/audio/examples/409-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:410-sup",
+    "conceptId": "concept:410",
+    "vi": "súp",
+    "zhTW": "濃湯、西式湯品",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 410,
+    "audio": {
+      "vi": "assets/audio/words/410-sup.mp3",
+      "zhTW": "assets/audio/words/410-sup-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi một bát súp nóng.",
+        "zhTW": "請給我一碗熱湯。",
+        "audio": {
+          "vi": "assets/audio/examples/410-1.mp3",
+          "zhTW": "assets/audio/examples/410-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Súp này có hải sản không?",
+        "zhTW": "這道濃湯有海鮮嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/410-2.mp3",
+          "zhTW": "assets/audio/examples/410-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trẻ em rất thích món súp này.",
+        "zhTW": "小孩子很喜歡這道濃湯。",
+        "audio": {
+          "vi": "assets/audio/examples/410-3.mp3",
+          "zhTW": "assets/audio/examples/410-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:411-dau",
+    "conceptId": "concept:411",
+    "vi": "dầu",
+    "zhTW": "油；石油、燃油",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 411,
+    "audio": {
+      "vi": "assets/audio/words/411-dau.mp3",
+      "zhTW": "assets/audio/words/411-dau-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Món này có quá nhiều dầu.",
+        "zhTW": "這道菜油太多了。",
+        "audio": {
+          "vi": "assets/audio/examples/411-1.mp3",
+          "zhTW": "assets/audio/examples/411-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần mua một chai dầu ăn.",
+        "zhTW": "我需要買一瓶食用油。",
+        "audio": {
+          "vi": "assets/audio/examples/411-2.mp3",
+          "zhTW": "assets/audio/examples/411-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xe máy sắp hết dầu.",
+        "zhTW": "機車快沒油了。",
+        "audio": {
+          "vi": "assets/audio/examples/411-3.mp3",
+          "zhTW": "assets/audio/examples/411-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:412-tieu",
+    "conceptId": "concept:412",
+    "vi": "tiêu",
+    "zhTW": "胡椒；花費、消費",
+    "pos": "名詞／動詞",
+    "hanViet": "",
+    "rank": 412,
+    "audio": {
+      "vi": "assets/audio/words/412-tieu.mp3",
+      "zhTW": "assets/audio/words/412-tieu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin đừng cho nhiều tiêu.",
+        "zhTW": "請不要放太多胡椒。",
+        "audio": {
+          "vi": "assets/audio/examples/412-1.mp3",
+          "zhTW": "assets/audio/examples/412-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Món này thơm mùi tiêu.",
+        "zhTW": "這道菜有胡椒的香氣。",
+        "audio": {
+          "vi": "assets/audio/examples/412-2.mp3",
+          "zhTW": "assets/audio/examples/412-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi đã tiêu quá nhiều tiền hôm nay.",
+        "zhTW": "我今天花了太多錢。",
+        "audio": {
+          "vi": "assets/audio/examples/412-3.mp3",
+          "zhTW": "assets/audio/examples/412-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:413-nuoc-mam",
+    "conceptId": "concept:413",
+    "vi": "nước mắm",
+    "zhTW": "魚露",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 413,
+    "audio": {
+      "vi": "assets/audio/words/413-nuoc-mam.mp3",
+      "zhTW": "assets/audio/words/413-nuoc-mam-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi thêm một ít nước mắm.",
+        "zhTW": "請再給我一點魚露。",
+        "audio": {
+          "vi": "assets/audio/examples/413-1.mp3",
+          "zhTW": "assets/audio/examples/413-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nước mắm này hơi mặn.",
+        "zhTW": "這種魚露有點鹹。",
+        "audio": {
+          "vi": "assets/audio/examples/413-2.mp3",
+          "zhTW": "assets/audio/examples/413-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhiều món Việt dùng nước mắm.",
+        "zhTW": "許多越南菜會使用魚露。",
+        "audio": {
+          "vi": "assets/audio/examples/413-3.mp3",
+          "zhTW": "assets/audio/examples/413-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:414-nuoc-da",
+    "conceptId": "concept:414",
+    "vi": "nước đá",
+    "zhTW": "冰塊、冰水",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 414,
+    "audio": {
+      "vi": "assets/audio/words/414-nuoc-da.mp3",
+      "zhTW": "assets/audio/words/414-nuoc-da-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi một ly nước đá.",
+        "zhTW": "請給我一杯冰水。",
+        "audio": {
+          "vi": "assets/audio/examples/414-1.mp3",
+          "zhTW": "assets/audio/examples/414-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin đừng cho nước đá.",
+        "zhTW": "請不要加冰塊。",
+        "audio": {
+          "vi": "assets/audio/examples/414-2.mp3",
+          "zhTW": "assets/audio/examples/414-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nước đá ở đây có sạch không?",
+        "zhTW": "這裡的冰塊乾淨嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/414-3.mp3",
+          "zhTW": "assets/audio/examples/414-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:415-khau-vi",
+    "conceptId": "concept:415",
+    "vi": "khẩu vị",
+    "zhTW": "口味、味覺偏好",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 415,
+    "audio": {
+      "vi": "assets/audio/words/415-khau-vi.mp3",
+      "zhTW": "assets/audio/words/415-khau-vi-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Món này hợp khẩu vị của tôi.",
+        "zhTW": "這道菜合我的口味。",
+        "audio": {
+          "vi": "assets/audio/examples/415-1.mp3",
+          "zhTW": "assets/audio/examples/415-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Theo khẩu vị của bạn, món này có cay quá không?",
+        "zhTW": "依你的口味，這道菜會太辣嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/415-2.mp3",
+          "zhTW": "assets/audio/examples/415-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhà hàng điều chỉnh món ăn theo khẩu vị khách hàng.",
+        "zhTW": "餐廳會依照客人的口味調整餐點。",
+        "audio": {
+          "vi": "assets/audio/examples/415-3.mp3",
+          "zhTW": "assets/audio/examples/415-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:416-dang",
+    "conceptId": "concept:416",
+    "vi": "đắng",
+    "zhTW": "苦、苦澀",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 416,
+    "audio": {
+      "vi": "assets/audio/words/416-dang.mp3",
+      "zhTW": "assets/audio/words/416-dang-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cà phê này khá đắng.",
+        "zhTW": "這杯咖啡相當苦。",
+        "audio": {
+          "vi": "assets/audio/examples/416-1.mp3",
+          "zhTW": "assets/audio/examples/416-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Thuốc này có vị đắng.",
+        "zhTW": "這個藥味道很苦。",
+        "audio": {
+          "vi": "assets/audio/examples/416-2.mp3",
+          "zhTW": "assets/audio/examples/416-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi không thích đồ uống quá đắng.",
+        "zhTW": "我不喜歡太苦的飲料。",
+        "audio": {
+          "vi": "assets/audio/examples/416-3.mp3",
+          "zhTW": "assets/audio/examples/416-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:417-beo",
+    "conceptId": "concept:417",
+    "vi": "béo",
+    "zhTW": "油膩、濃郁；胖",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 417,
+    "audio": {
+      "vi": "assets/audio/words/417-beo.mp3",
+      "zhTW": "assets/audio/words/417-beo-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Nước dùng này có vị béo.",
+        "zhTW": "這個湯頭味道濃郁。",
+        "audio": {
+          "vi": "assets/audio/examples/417-1.mp3",
+          "zhTW": "assets/audio/examples/417-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Món này hơi béo đối với tôi.",
+        "zhTW": "這道菜對我來說有點油膩。",
+        "audio": {
+          "vi": "assets/audio/examples/417-2.mp3",
+          "zhTW": "assets/audio/examples/417-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Con mèo này khá béo.",
+        "zhTW": "這隻貓相當胖。",
+        "audio": {
+          "vi": "assets/audio/examples/417-3.mp3",
+          "zhTW": "assets/audio/examples/417-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:418-thom",
+    "conceptId": "concept:418",
+    "vi": "thơm",
+    "zhTW": "香、芳香；鳳梨（南部用法）",
+    "pos": "形容詞／名詞",
+    "hanViet": "",
+    "rank": 418,
+    "audio": {
+      "vi": "assets/audio/words/418-thom.mp3",
+      "zhTW": "assets/audio/words/418-thom-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Món ăn này rất thơm.",
+        "zhTW": "這道菜很香。",
+        "audio": {
+          "vi": "assets/audio/examples/418-1.mp3",
+          "zhTW": "assets/audio/examples/418-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cà phê mới pha có mùi rất thơm.",
+        "zhTW": "剛泡好的咖啡聞起來很香。",
+        "audio": {
+          "vi": "assets/audio/examples/418-2.mp3",
+          "zhTW": "assets/audio/examples/418-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Canh chua thường có thơm và cà chua.",
+        "zhTW": "酸湯通常有鳳梨和番茄。",
+        "audio": {
+          "vi": "assets/audio/examples/418-3.mp3",
+          "zhTW": "assets/audio/examples/418-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:419-tuoi",
+    "conceptId": "concept:419",
+    "vi": "tươi",
+    "zhTW": "新鮮、鮮活",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 419,
+    "audio": {
+      "vi": "assets/audio/words/419-tuoi.mp3",
+      "zhTW": "assets/audio/words/419-tuoi-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cá ở chợ này rất tươi.",
+        "zhTW": "這個市場的魚很新鮮。",
+        "audio": {
+          "vi": "assets/audio/examples/419-1.mp3",
+          "zhTW": "assets/audio/examples/419-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn một ly nước cam tươi.",
+        "zhTW": "我想要一杯新鮮柳橙汁。",
+        "audio": {
+          "vi": "assets/audio/examples/419-2.mp3",
+          "zhTW": "assets/audio/examples/419-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhà hàng dùng rau tươi mỗi ngày.",
+        "zhTW": "餐廳每天使用新鮮蔬菜。",
+        "audio": {
+          "vi": "assets/audio/examples/419-3.mp3",
+          "zhTW": "assets/audio/examples/419-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:420-tai",
+    "conceptId": "concept:420",
+    "vi": "tái",
+    "zhTW": "半生、未全熟；再、重新",
+    "pos": "形容詞／副詞",
+    "hanViet": "",
+    "rank": 420,
+    "audio": {
+      "vi": "assets/audio/words/420-tai.mp3",
+      "zhTW": "assets/audio/words/420-tai-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn thịt bò tái.",
+        "zhTW": "我想要半熟的牛肉。",
+        "audio": {
+          "vi": "assets/audio/examples/420-1.mp3",
+          "zhTW": "assets/audio/examples/420-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Thịt này còn hơi tái.",
+        "zhTW": "這塊肉還有點沒熟。",
+        "audio": {
+          "vi": "assets/audio/examples/420-2.mp3",
+          "zhTW": "assets/audio/examples/420-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Công ty đang tái sử dụng các hộp cũ.",
+        "zhTW": "公司正在重複使用舊盒子。",
+        "audio": {
+          "vi": "assets/audio/examples/420-3.mp3",
+          "zhTW": "assets/audio/examples/420-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:421-nau",
+    "conceptId": "concept:421",
+    "vi": "nấu",
+    "zhTW": "煮、烹調",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 421,
+    "audio": {
+      "vi": "assets/audio/words/421-nau.mp3",
+      "zhTW": "assets/audio/words/421-nau-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Mẹ tôi đang nấu cơm.",
+        "zhTW": "我媽媽正在煮飯。",
+        "audio": {
+          "vi": "assets/audio/examples/421-1.mp3",
+          "zhTW": "assets/audio/examples/421-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Món này được nấu với nước dừa.",
+        "zhTW": "這道菜用椰子水烹煮。",
+        "audio": {
+          "vi": "assets/audio/examples/421-2.mp3",
+          "zhTW": "assets/audio/examples/421-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn biết nấu món Việt không?",
+        "zhTW": "你會煮越南菜嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/421-3.mp3",
+          "zhTW": "assets/audio/examples/421-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:422-chien",
+    "conceptId": "concept:422",
+    "vi": "chiên",
+    "zhTW": "煎、炸（南部常用）",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 422,
+    "audio": {
+      "vi": "assets/audio/words/422-chien.mp3",
+      "zhTW": "assets/audio/words/422-chien-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn gọi cơm chiên.",
+        "zhTW": "我想點炒飯。",
+        "audio": {
+          "vi": "assets/audio/examples/422-1.mp3",
+          "zhTW": "assets/audio/examples/422-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trứng đang được chiên trong bếp.",
+        "zhTW": "廚房正在煎蛋。",
+        "audio": {
+          "vi": "assets/audio/examples/422-2.mp3",
+          "zhTW": "assets/audio/examples/422-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Món này chiên bằng dầu gì?",
+        "zhTW": "這道菜是用什麼油炸的？",
+        "audio": {
+          "vi": "assets/audio/examples/422-3.mp3",
+          "zhTW": "assets/audio/examples/422-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:423-xao",
+    "conceptId": "concept:423",
+    "vi": "xào",
+    "zhTW": "炒",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 423,
+    "audio": {
+      "vi": "assets/audio/words/423-xao.mp3",
+      "zhTW": "assets/audio/words/423-xao-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi một đĩa rau xào.",
+        "zhTW": "請給我一盤炒青菜。",
+        "audio": {
+          "vi": "assets/audio/examples/423-1.mp3",
+          "zhTW": "assets/audio/examples/423-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mì này được xào với thịt bò.",
+        "zhTW": "這份麵和牛肉一起炒。",
+        "audio": {
+          "vi": "assets/audio/examples/423-2.mp3",
+          "zhTW": "assets/audio/examples/423-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đầu bếp đang xào rau.",
+        "zhTW": "廚師正在炒菜。",
+        "audio": {
+          "vi": "assets/audio/examples/423-3.mp3",
+          "zhTW": "assets/audio/examples/423-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:424-nuong",
+    "conceptId": "concept:424",
+    "vi": "nướng",
+    "zhTW": "烤、燒烤",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 424,
+    "audio": {
+      "vi": "assets/audio/words/424-nuong.mp3",
+      "zhTW": "assets/audio/words/424-nuong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Thịt đang được nướng trên than.",
+        "zhTW": "肉正在炭火上烤。",
+        "audio": {
+          "vi": "assets/audio/examples/424-1.mp3",
+          "zhTW": "assets/audio/examples/424-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi thích cá nướng.",
+        "zhTW": "我喜歡烤魚。",
+        "audio": {
+          "vi": "assets/audio/examples/424-2.mp3",
+          "zhTW": "assets/audio/examples/424-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhà hàng này nướng gà rất ngon.",
+        "zhTW": "這家餐廳的烤雞很好吃。",
+        "audio": {
+          "vi": "assets/audio/examples/424-3.mp3",
+          "zhTW": "assets/audio/examples/424-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:425-luoc",
+    "conceptId": "concept:425",
+    "vi": "luộc",
+    "zhTW": "水煮、汆燙",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 425,
+    "audio": {
+      "vi": "assets/audio/words/425-luoc.mp3",
+      "zhTW": "assets/audio/words/425-luoc-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn gọi rau luộc.",
+        "zhTW": "我想點燙青菜。",
+        "audio": {
+          "vi": "assets/audio/examples/425-1.mp3",
+          "zhTW": "assets/audio/examples/425-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trứng cần luộc trong mười phút.",
+        "zhTW": "雞蛋需要煮十分鐘。",
+        "audio": {
+          "vi": "assets/audio/examples/425-2.mp3",
+          "zhTW": "assets/audio/examples/425-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Thịt heo luộc ăn với nước mắm.",
+        "zhTW": "白切豬肉配魚露吃。",
+        "audio": {
+          "vi": "assets/audio/examples/425-3.mp3",
+          "zhTW": "assets/audio/examples/425-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:426-hap",
+    "conceptId": "concept:426",
+    "vi": "hấp",
+    "zhTW": "蒸",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 426,
+    "audio": {
+      "vi": "assets/audio/words/426-hap.mp3",
+      "zhTW": "assets/audio/words/426-hap-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cá này được hấp với gừng.",
+        "zhTW": "這條魚和薑一起蒸。",
+        "audio": {
+          "vi": "assets/audio/examples/426-1.mp3",
+          "zhTW": "assets/audio/examples/426-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi thích bánh bao hấp.",
+        "zhTW": "我喜歡蒸包子。",
+        "audio": {
+          "vi": "assets/audio/examples/426-2.mp3",
+          "zhTW": "assets/audio/examples/426-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đầu bếp đang hấp rau.",
+        "zhTW": "廚師正在蒸蔬菜。",
+        "audio": {
+          "vi": "assets/audio/examples/426-3.mp3",
+          "zhTW": "assets/audio/examples/426-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:427-cat",
+    "conceptId": "concept:427",
+    "vi": "cắt",
+    "zhTW": "切、剪；中斷",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 427,
+    "audio": {
+      "vi": "assets/audio/words/427-cat.mp3",
+      "zhTW": "assets/audio/words/427-cat-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin cắt thịt thành miếng nhỏ.",
+        "zhTW": "請把肉切成小塊。",
+        "audio": {
+          "vi": "assets/audio/examples/427-1.mp3",
+          "zhTW": "assets/audio/examples/427-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy đang cắt trái cây.",
+        "zhTW": "她正在切水果。",
+        "audio": {
+          "vi": "assets/audio/examples/427-2.mp3",
+          "zhTW": "assets/audio/examples/427-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khách sạn bị cắt điện trong một giờ.",
+        "zhTW": "飯店停電了一小時。",
+        "audio": {
+          "vi": "assets/audio/examples/427-3.mp3",
+          "zhTW": "assets/audio/examples/427-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:428-rua",
+    "conceptId": "concept:428",
+    "vi": "rửa",
+    "zhTW": "洗、清洗",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 428,
+    "audio": {
+      "vi": "assets/audio/words/428-rua.mp3",
+      "zhTW": "assets/audio/words/428-rua-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hãy rửa tay trước khi ăn.",
+        "zhTW": "吃飯前請洗手。",
+        "audio": {
+          "vi": "assets/audio/examples/428-1.mp3",
+          "zhTW": "assets/audio/examples/428-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi đang rửa rau.",
+        "zhTW": "我正在洗菜。",
+        "audio": {
+          "vi": "assets/audio/examples/428-2.mp3",
+          "zhTW": "assets/audio/examples/428-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể rửa chiếc ly này không?",
+        "zhTW": "你可以洗一下這個杯子嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/428-3.mp3",
+          "zhTW": "assets/audio/examples/428-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:429-them",
+    "conceptId": "concept:429",
+    "vi": "thêm",
+    "zhTW": "再、更多；添加",
+    "pos": "副詞／動詞",
+    "hanViet": "",
+    "rank": 429,
+    "audio": {
+      "vi": "assets/audio/words/429-them.mp3",
+      "zhTW": "assets/audio/words/429-them-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cho tôi thêm một ít rau.",
+        "zhTW": "請再給我一些蔬菜。",
+        "audio": {
+          "vi": "assets/audio/examples/429-1.mp3",
+          "zhTW": "assets/audio/examples/429-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn ở thêm một đêm.",
+        "zhTW": "我想再住一晚。",
+        "audio": {
+          "vi": "assets/audio/examples/429-2.mp3",
+          "zhTW": "assets/audio/examples/429-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin đừng thêm đường.",
+        "zhTW": "請不要加糖。",
+        "audio": {
+          "vi": "assets/audio/examples/429-3.mp3",
+          "zhTW": "assets/audio/examples/429-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:430-bot",
+    "conceptId": "concept:430",
+    "vi": "bớt",
+    "zhTW": "減少、少一點",
+    "pos": "動詞／副詞",
+    "hanViet": "",
+    "rank": 430,
+    "audio": {
+      "vi": "assets/audio/words/430-bot.mp3",
+      "zhTW": "assets/audio/words/430-bot-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin bớt cay.",
+        "zhTW": "請少辣一點。",
+        "audio": {
+          "vi": "assets/audio/examples/430-1.mp3",
+          "zhTW": "assets/audio/examples/430-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể bớt giá một chút không?",
+        "zhTW": "可以算便宜一點嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/430-2.mp3",
+          "zhTW": "assets/audio/examples/430-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi đã bớt mệt sau khi nghỉ.",
+        "zhTW": "休息後我比較不累了。",
+        "audio": {
+          "vi": "assets/audio/examples/430-3.mp3",
+          "zhTW": "assets/audio/examples/430-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:431-chuyen-bay",
+    "conceptId": "concept:431",
+    "vi": "chuyến bay",
+    "zhTW": "航班、班機",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 431,
+    "audio": {
+      "vi": "assets/audio/words/431-chuyen-bay.mp3",
+      "zhTW": "assets/audio/words/431-chuyen-bay-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chuyến bay của tôi khởi hành lúc tám giờ.",
+        "zhTW": "我的班機八點起飛。",
+        "audio": {
+          "vi": "assets/audio/examples/431-1.mp3",
+          "zhTW": "assets/audio/examples/431-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chuyến bay bị trễ hai giờ.",
+        "zhTW": "航班延誤了兩小時。",
+        "audio": {
+          "vi": "assets/audio/examples/431-2.mp3",
+          "zhTW": "assets/audio/examples/431-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn kiểm tra tình trạng chuyến bay.",
+        "zhTW": "我想查詢航班狀態。",
+        "audio": {
+          "vi": "assets/audio/examples/431-3.mp3",
+          "zhTW": "assets/audio/examples/431-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:432-khoi-hanh",
+    "conceptId": "concept:432",
+    "vi": "khởi hành",
+    "zhTW": "出發、啟程",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 432,
+    "audio": {
+      "vi": "assets/audio/words/432-khoi-hanh.mp3",
+      "zhTW": "assets/audio/words/432-khoi-hanh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tàu khởi hành lúc mấy giờ?",
+        "zhTW": "火車幾點出發？",
+        "audio": {
+          "vi": "assets/audio/examples/432-1.mp3",
+          "zhTW": "assets/audio/examples/432-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chuyến bay sắp khởi hành.",
+        "zhTW": "班機即將起飛。",
+        "audio": {
+          "vi": "assets/audio/examples/432-2.mp3",
+          "zhTW": "assets/audio/examples/432-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng tôi khởi hành vào sáng mai.",
+        "zhTW": "我們明天早上出發。",
+        "audio": {
+          "vi": "assets/audio/examples/432-3.mp3",
+          "zhTW": "assets/audio/examples/432-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:433-den-noi",
+    "conceptId": "concept:433",
+    "vi": "đến nơi",
+    "zhTW": "抵達目的地",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 433,
+    "audio": {
+      "vi": "assets/audio/words/433-den-noi.mp3",
+      "zhTW": "assets/audio/words/433-den-noi-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Khi đến nơi, hãy gọi cho tôi.",
+        "zhTW": "抵達後請打電話給我。",
+        "audio": {
+          "vi": "assets/audio/examples/433-1.mp3",
+          "zhTW": "assets/audio/examples/433-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng tôi đã đến nơi an toàn.",
+        "zhTW": "我們已經平安抵達。",
+        "audio": {
+          "vi": "assets/audio/examples/433-2.mp3",
+          "zhTW": "assets/audio/examples/433-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Còn bao lâu nữa mới đến nơi?",
+        "zhTW": "還要多久才會抵達？",
+        "audio": {
+          "vi": "assets/audio/examples/433-3.mp3",
+          "zhTW": "assets/audio/examples/433-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:434-tre",
+    "conceptId": "concept:434",
+    "vi": "trễ",
+    "zhTW": "晚、遲到（南部常用）",
+    "pos": "形容詞／副詞",
+    "hanViet": "",
+    "rank": 434,
+    "audio": {
+      "vi": "assets/audio/words/434-tre.mp3",
+      "zhTW": "assets/audio/words/434-tre-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chuyến bay bị trễ.",
+        "zhTW": "班機延誤了。",
+        "audio": {
+          "vi": "assets/audio/examples/434-1.mp3",
+          "zhTW": "assets/audio/examples/434-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin lỗi, tôi đến trễ.",
+        "zhTW": "對不起，我遲到了。",
+        "audio": {
+          "vi": "assets/audio/examples/434-2.mp3",
+          "zhTW": "assets/audio/examples/434-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xe buýt thường trễ vào giờ cao điểm.",
+        "zhTW": "公車在尖峰時段常誤點。",
+        "audio": {
+          "vi": "assets/audio/examples/434-3.mp3",
+          "zhTW": "assets/audio/examples/434-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:435-huy",
+    "conceptId": "concept:435",
+    "vi": "hủy",
+    "zhTW": "取消、作廢",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 435,
+    "audio": {
+      "vi": "assets/audio/words/435-huy.mp3",
+      "zhTW": "assets/audio/words/435-huy-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chuyến bay đã bị hủy.",
+        "zhTW": "航班已經取消。",
+        "audio": {
+          "vi": "assets/audio/examples/435-1.mp3",
+          "zhTW": "assets/audio/examples/435-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn hủy phòng.",
+        "zhTW": "我想取消訂房。",
+        "audio": {
+          "vi": "assets/audio/examples/435-2.mp3",
+          "zhTW": "assets/audio/examples/435-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể hủy vé trước một ngày.",
+        "zhTW": "你可以在一天前取消票券。",
+        "audio": {
+          "vi": "assets/audio/examples/435-3.mp3",
+          "zhTW": "assets/audio/examples/435-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:436-hanh-khach",
+    "conceptId": "concept:436",
+    "vi": "hành khách",
+    "zhTW": "乘客、旅客",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 436,
+    "audio": {
+      "vi": "assets/audio/words/436-hanh-khach.mp3",
+      "zhTW": "assets/audio/words/436-hanh-khach-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hành khách vui lòng xếp hàng.",
+        "zhTW": "請旅客排隊。",
+        "audio": {
+          "vi": "assets/audio/examples/436-1.mp3",
+          "zhTW": "assets/audio/examples/436-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xe buýt có quá nhiều hành khách.",
+        "zhTW": "公車上的乘客太多了。",
+        "audio": {
+          "vi": "assets/audio/examples/436-2.mp3",
+          "zhTW": "assets/audio/examples/436-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mỗi hành khách được mang một kiện hành lý.",
+        "zhTW": "每位旅客可攜帶一件行李。",
+        "audio": {
+          "vi": "assets/audio/examples/436-3.mp3",
+          "zhTW": "assets/audio/examples/436-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:437-cua-ra-may-bay",
+    "conceptId": "concept:437",
+    "vi": "cửa ra máy bay",
+    "zhTW": "登機門",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 437,
+    "audio": {
+      "vi": "assets/audio/words/437-cua-ra-may-bay.mp3",
+      "zhTW": "assets/audio/words/437-cua-ra-may-bay-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cửa ra máy bay ở đâu?",
+        "zhTW": "登機門在哪裡？",
+        "audio": {
+          "vi": "assets/audio/examples/437-1.mp3",
+          "zhTW": "assets/audio/examples/437-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cửa ra máy bay đã thay đổi.",
+        "zhTW": "登機門已經更改。",
+        "audio": {
+          "vi": "assets/audio/examples/437-2.mp3",
+          "zhTW": "assets/audio/examples/437-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin đến cửa ra máy bay trước giờ khởi hành.",
+        "zhTW": "請在起飛前抵達登機門。",
+        "audio": {
+          "vi": "assets/audio/examples/437-3.mp3",
+          "zhTW": "assets/audio/examples/437-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:438-an-ninh",
+    "conceptId": "concept:438",
+    "vi": "an ninh",
+    "zhTW": "安全、保安；安檢",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 438,
+    "audio": {
+      "vi": "assets/audio/words/438-an-ninh.mp3",
+      "zhTW": "assets/audio/words/438-an-ninh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đang xếp hàng kiểm tra an ninh.",
+        "zhTW": "我正在排隊接受安全檢查。",
+        "audio": {
+          "vi": "assets/audio/examples/438-1.mp3",
+          "zhTW": "assets/audio/examples/438-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khu vực này có nhân viên an ninh.",
+        "zhTW": "這個區域有保安人員。",
+        "audio": {
+          "vi": "assets/audio/examples/438-2.mp3",
+          "zhTW": "assets/audio/examples/438-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Qua cửa an ninh mất bao lâu?",
+        "zhTW": "通過安檢要多久？",
+        "audio": {
+          "vi": "assets/audio/examples/438-3.mp3",
+          "zhTW": "assets/audio/examples/438-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:439-hai-quan",
+    "conceptId": "concept:439",
+    "vi": "hải quan",
+    "zhTW": "海關",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 439,
+    "audio": {
+      "vi": "assets/audio/words/439-hai-quan.mp3",
+      "zhTW": "assets/audio/words/439-hai-quan-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần khai báo với hải quan.",
+        "zhTW": "我需要向海關申報。",
+        "audio": {
+          "vi": "assets/audio/examples/439-1.mp3",
+          "zhTW": "assets/audio/examples/439-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Quầy hải quan ở phía trước.",
+        "zhTW": "海關櫃檯在前面。",
+        "audio": {
+          "vi": "assets/audio/examples/439-2.mp3",
+          "zhTW": "assets/audio/examples/439-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhân viên hải quan kiểm tra hành lý.",
+        "zhTW": "海關人員檢查行李。",
+        "audio": {
+          "vi": "assets/audio/examples/439-3.mp3",
+          "zhTW": "assets/audio/examples/439-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:440-nhap-canh",
+    "conceptId": "concept:440",
+    "vi": "nhập cảnh",
+    "zhTW": "入境；入境手續",
+    "pos": "動詞／名詞",
+    "hanViet": "",
+    "rank": 440,
+    "audio": {
+      "vi": "assets/audio/words/440-nhap-canh.mp3",
+      "zhTW": "assets/audio/words/440-nhap-canh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đang làm thủ tục nhập cảnh.",
+        "zhTW": "我正在辦理入境手續。",
+        "audio": {
+          "vi": "assets/audio/examples/440-1.mp3",
+          "zhTW": "assets/audio/examples/440-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn cần hộ chiếu để nhập cảnh.",
+        "zhTW": "你需要護照才能入境。",
+        "audio": {
+          "vi": "assets/audio/examples/440-2.mp3",
+          "zhTW": "assets/audio/examples/440-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Quầy nhập cảnh ở đâu?",
+        "zhTW": "入境櫃檯在哪裡？",
+        "audio": {
+          "vi": "assets/audio/examples/440-3.mp3",
+          "zhTW": "assets/audio/examples/440-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:441-xuat-canh",
+    "conceptId": "concept:441",
+    "vi": "xuất cảnh",
+    "zhTW": "出境；出境手續",
+    "pos": "動詞／名詞",
+    "hanViet": "",
+    "rank": 441,
+    "audio": {
+      "vi": "assets/audio/words/441-xuat-canh.mp3",
+      "zhTW": "assets/audio/words/441-xuat-canh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đang làm thủ tục xuất cảnh.",
+        "zhTW": "我正在辦理出境手續。",
+        "audio": {
+          "vi": "assets/audio/examples/441-1.mp3",
+          "zhTW": "assets/audio/examples/441-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn phải qua quầy xuất cảnh.",
+        "zhTW": "你必須通過出境櫃檯。",
+        "audio": {
+          "vi": "assets/audio/examples/441-2.mp3",
+          "zhTW": "assets/audio/examples/441-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khu vực xuất cảnh ở tầng hai.",
+        "zhTW": "出境區在二樓。",
+        "audio": {
+          "vi": "assets/audio/examples/441-3.mp3",
+          "zhTW": "assets/audio/examples/441-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:442-giay-to",
+    "conceptId": "concept:442",
+    "vi": "giấy tờ",
+    "zhTW": "證件、文件",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 442,
+    "audio": {
+      "vi": "assets/audio/words/442-giay-to.mp3",
+      "zhTW": "assets/audio/words/442-giay-to-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin chuẩn bị đầy đủ giấy tờ.",
+        "zhTW": "請準備好完整文件。",
+        "audio": {
+          "vi": "assets/audio/examples/442-1.mp3",
+          "zhTW": "assets/audio/examples/442-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi để quên giấy tờ ở khách sạn.",
+        "zhTW": "我把證件忘在飯店了。",
+        "audio": {
+          "vi": "assets/audio/examples/442-2.mp3",
+          "zhTW": "assets/audio/examples/442-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn cần giấy tờ gì để thuê xe?",
+        "zhTW": "租車需要什麼證件？",
+        "audio": {
+          "vi": "assets/audio/examples/442-3.mp3",
+          "zhTW": "assets/audio/examples/442-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:443-quoc-tich",
+    "conceptId": "concept:443",
+    "vi": "quốc tịch",
+    "zhTW": "國籍",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 443,
+    "audio": {
+      "vi": "assets/audio/words/443-quoc-tich.mp3",
+      "zhTW": "assets/audio/words/443-quoc-tich-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Quốc tịch của bạn là gì?",
+        "zhTW": "你的國籍是什麼？",
+        "audio": {
+          "vi": "assets/audio/examples/443-1.mp3",
+          "zhTW": "assets/audio/examples/443-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy ghi quốc tịch vào mẫu này.",
+        "zhTW": "請在這份表格填寫國籍。",
+        "audio": {
+          "vi": "assets/audio/examples/443-2.mp3",
+          "zhTW": "assets/audio/examples/443-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy có quốc tịch Việt Nam.",
+        "zhTW": "她擁有越南國籍。",
+        "audio": {
+          "vi": "assets/audio/examples/443-3.mp3",
+          "zhTW": "assets/audio/examples/443-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:444-ngon-ngu",
+    "conceptId": "concept:444",
+    "vi": "ngôn ngữ",
+    "zhTW": "語言",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 444,
+    "audio": {
+      "vi": "assets/audio/words/444-ngon-ngu.mp3",
+      "zhTW": "assets/audio/words/444-ngon-ngu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bạn muốn chọn ngôn ngữ nào?",
+        "zhTW": "你想選擇哪一種語言？",
+        "audio": {
+          "vi": "assets/audio/examples/444-1.mp3",
+          "zhTW": "assets/audio/examples/444-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tiếng Việt là một ngôn ngữ có thanh điệu.",
+        "zhTW": "越南語是一種有聲調的語言。",
+        "audio": {
+          "vi": "assets/audio/examples/444-2.mp3",
+          "zhTW": "assets/audio/examples/444-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Ứng dụng này hỗ trợ nhiều ngôn ngữ.",
+        "zhTW": "這個應用程式支援多種語言。",
+        "audio": {
+          "vi": "assets/audio/examples/444-3.mp3",
+          "zhTW": "assets/audio/examples/444-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:445-phien-dich",
+    "conceptId": "concept:445",
+    "vi": "phiên dịch",
+    "zhTW": "口譯、翻譯",
+    "pos": "動詞／名詞",
+    "hanViet": "",
+    "rank": 445,
+    "audio": {
+      "vi": "assets/audio/words/445-phien-dich.mp3",
+      "zhTW": "assets/audio/words/445-phien-dich-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần một người phiên dịch.",
+        "zhTW": "我需要一位口譯員。",
+        "audio": {
+          "vi": "assets/audio/examples/445-1.mp3",
+          "zhTW": "assets/audio/examples/445-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy phiên dịch từ tiếng Việt sang tiếng Trung.",
+        "zhTW": "她把越南語口譯成中文。",
+        "audio": {
+          "vi": "assets/audio/examples/445-2.mp3",
+          "zhTW": "assets/audio/examples/445-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Dịch vụ phiên dịch có tính phí không?",
+        "zhTW": "口譯服務要收費嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/445-3.mp3",
+          "zhTW": "assets/audio/examples/445-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:446-lien-lac",
+    "conceptId": "concept:446",
+    "vi": "liên lạc",
+    "zhTW": "聯絡、聯繫",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 446,
+    "audio": {
+      "vi": "assets/audio/words/446-lien-lac.mp3",
+      "zhTW": "assets/audio/words/446-lien-lac-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Làm sao để liên lạc với bạn?",
+        "zhTW": "要怎麼聯絡你？",
+        "audio": {
+          "vi": "assets/audio/examples/446-1.mp3",
+          "zhTW": "assets/audio/examples/446-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi sẽ liên lạc với khách sạn.",
+        "zhTW": "我會聯絡飯店。",
+        "audio": {
+          "vi": "assets/audio/examples/446-2.mp3",
+          "zhTW": "assets/audio/examples/446-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nếu cần giúp đỡ, hãy liên lạc với cảnh sát.",
+        "zhTW": "如果需要幫助，請聯絡警察。",
+        "audio": {
+          "vi": "assets/audio/examples/446-3.mp3",
+          "zhTW": "assets/audio/examples/446-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:447-tin-nhan",
+    "conceptId": "concept:447",
+    "vi": "tin nhắn",
+    "zhTW": "訊息、簡訊",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 447,
+    "audio": {
+      "vi": "assets/audio/words/447-tin-nhan.mp3",
+      "zhTW": "assets/audio/words/447-tin-nhan-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đã nhận được tin nhắn của bạn.",
+        "zhTW": "我已收到你的訊息。",
+        "audio": {
+          "vi": "assets/audio/examples/447-1.mp3",
+          "zhTW": "assets/audio/examples/447-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy gửi cho tôi một tin nhắn.",
+        "zhTW": "請傳一則訊息給我。",
+        "audio": {
+          "vi": "assets/audio/examples/447-2.mp3",
+          "zhTW": "assets/audio/examples/447-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy chưa trả lời tin nhắn.",
+        "zhTW": "她還沒回覆訊息。",
+        "audio": {
+          "vi": "assets/audio/examples/447-3.mp3",
+          "zhTW": "assets/audio/examples/447-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:448-email",
+    "conceptId": "concept:448",
+    "vi": "email",
+    "zhTW": "電子郵件",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 448,
+    "audio": {
+      "vi": "assets/audio/words/448-email.mp3",
+      "zhTW": "assets/audio/words/448-email-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Địa chỉ email của bạn là gì?",
+        "zhTW": "你的電子郵件地址是什麼？",
+        "audio": {
+          "vi": "assets/audio/examples/448-1.mp3",
+          "zhTW": "assets/audio/examples/448-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi đã gửi xác nhận qua email.",
+        "zhTW": "我已經用電子郵件寄出確認信。",
+        "audio": {
+          "vi": "assets/audio/examples/448-2.mp3",
+          "zhTW": "assets/audio/examples/448-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin kiểm tra email của bạn.",
+        "zhTW": "請檢查你的電子郵件。",
+        "audio": {
+          "vi": "assets/audio/examples/448-3.mp3",
+          "zhTW": "assets/audio/examples/448-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:449-internet",
+    "conceptId": "concept:449",
+    "vi": "internet",
+    "zhTW": "網際網路",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 449,
+    "audio": {
+      "vi": "assets/audio/words/449-internet.mp3",
+      "zhTW": "assets/audio/words/449-internet-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Phòng này có internet không?",
+        "zhTW": "這個房間有網路嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/449-1.mp3",
+          "zhTW": "assets/audio/examples/449-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Internet ở đây hơi chậm.",
+        "zhTW": "這裡的網路有點慢。",
+        "audio": {
+          "vi": "assets/audio/examples/449-2.mp3",
+          "zhTW": "assets/audio/examples/449-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cần internet để làm việc.",
+        "zhTW": "我需要網路工作。",
+        "audio": {
+          "vi": "assets/audio/examples/449-3.mp3",
+          "zhTW": "assets/audio/examples/449-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:450-mat-khau",
+    "conceptId": "concept:450",
+    "vi": "mật khẩu",
+    "zhTW": "密碼",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 450,
+    "audio": {
+      "vi": "assets/audio/words/450-mat-khau.mp3",
+      "zhTW": "assets/audio/words/450-mat-khau-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Mật khẩu Wi-Fi là gì?",
+        "zhTW": "Wi-Fi 密碼是什麼？",
+        "audio": {
+          "vi": "assets/audio/examples/450-1.mp3",
+          "zhTW": "assets/audio/examples/450-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi quên mật khẩu rồi.",
+        "zhTW": "我忘記密碼了。",
+        "audio": {
+          "vi": "assets/audio/examples/450-2.mp3",
+          "zhTW": "assets/audio/examples/450-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Xin đừng chia sẻ mật khẩu với người khác.",
+        "zhTW": "請不要把密碼分享給別人。",
+        "audio": {
+          "vi": "assets/audio/examples/450-3.mp3",
+          "zhTW": "assets/audio/examples/450-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
   }
 ]

@@ -27,6 +27,7 @@ const domains = [
   { range: [251, 300], name: '社交、家庭、工作、常用描述', required: ['gia đình', 'công việc', 'đồng nghiệp', 'thích', 'nhiều', 'thường'] },
   { range: [301, 350], name: '句子連接、思考、溝通與常用動作', required: ['đang', 'nếu', 'để', 'hỏi', 'nhớ', 'bắt đầu'] },
   { range: [351, 400], name: '常用描述、程度時間與餐飲基本詞', required: ['sai', 'sạch', 'có thể', 'nhà hàng', 'cà phê', 'đói'] },
+  { range: [401, 450], name: '食物烹調、機場通關與聯絡', required: ['phở', 'nước mắm', 'nấu', 'chuyến bay', 'nhập cảnh', 'mật khẩu'] },
 ];
 
 assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');
