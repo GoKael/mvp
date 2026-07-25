@@ -35,6 +35,7 @@ const domains = [
   { range: [651, 700], name: '旅行活動、學習操作與安全提醒', required: ['du lịch', 'chú ý', 'dữ liệu', 'cẩn thận', 'giải thích', 'màn hình'] },
   { range: [701, 750], name: '方法社會、資訊處理與自然環境', required: ['phương pháp', 'nội dung', 'môi trường', 'kết quả', 'hướng dẫn', 'tập trung'] },
   { range: [751, 800], name: '常見資訊、職場系統與健康狀態', required: ['chi phí', 'trải nghiệm', 'tình trạng', 'máy tính', 'sức khỏe', 'tiết kiệm'] },
+  { range: [801, 850], name: '學習服務、行政健康與常見動作', required: ['giải pháp', 'điều trị', 'tài chính', 'văn hóa', 'địa điểm', 'đồng hồ'] },
 ];
 
 assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');

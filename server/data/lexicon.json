@@ -30798,5 +30798,2005 @@
       }
     ],
     "quality": "reviewed"
+  },
+  {
+    "id": "vi:801-cam-nhan",
+    "conceptId": "concept:801",
+    "vi": "cảm nhận",
+    "zhTW": "感受、體會",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 801,
+    "audio": {
+      "vi": "assets/audio/words/801-cam-nhan.mp3",
+      "zhTW": "assets/audio/words/801-cam-nhan-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bạn cảm nhận thế nào về món ăn này?",
+        "zhTW": "你對這道菜有什麼感受？",
+        "audio": {
+          "vi": "assets/audio/examples/801-1.mp3",
+          "zhTW": "assets/audio/examples/801-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi cảm nhận được sự chân thành của cô ấy.",
+        "zhTW": "我感受到她的真誠。",
+        "audio": {
+          "vi": "assets/audio/examples/801-2.mp3",
+          "zhTW": "assets/audio/examples/801-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy dành thời gian cảm nhận thành phố này.",
+        "zhTW": "花點時間體會這座城市吧。",
+        "audio": {
+          "vi": "assets/audio/examples/801-3.mp3",
+          "zhTW": "assets/audio/examples/801-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:802-tin-tuc",
+    "conceptId": "concept:802",
+    "vi": "tin tức",
+    "zhTW": "新聞、消息",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 802,
+    "audio": {
+      "vi": "assets/audio/words/802-tin-tuc.mp3",
+      "zhTW": "assets/audio/words/802-tin-tuc-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đọc tin tức mỗi buổi sáng.",
+        "zhTW": "我每天早上看新聞。",
+        "audio": {
+          "vi": "assets/audio/examples/802-1.mp3",
+          "zhTW": "assets/audio/examples/802-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn đã nghe tin tức mới nhất chưa?",
+        "zhTW": "你聽到最新消息了嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/802-2.mp3",
+          "zhTW": "assets/audio/examples/802-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tin tức về cơn bão đang được cập nhật.",
+        "zhTW": "颱風的消息正在更新。",
+        "audio": {
+          "vi": "assets/audio/examples/802-3.mp3",
+          "zhTW": "assets/audio/examples/802-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:803-giai-phap",
+    "conceptId": "concept:803",
+    "vi": "giải pháp",
+    "zhTW": "解決方案",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 803,
+    "audio": {
+      "vi": "assets/audio/words/803-giai-phap.mp3",
+      "zhTW": "assets/audio/words/803-giai-phap-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chúng ta cần tìm một giải pháp phù hợp.",
+        "zhTW": "我們需要找出合適的解決方案。",
+        "audio": {
+          "vi": "assets/audio/examples/803-1.mp3",
+          "zhTW": "assets/audio/examples/803-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Giải pháp này giúp tiết kiệm thời gian.",
+        "zhTW": "這個方案有助於節省時間。",
+        "audio": {
+          "vi": "assets/audio/examples/803-2.mp3",
+          "zhTW": "assets/audio/examples/803-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy đề xuất một giải pháp đơn giản.",
+        "zhTW": "他提出一個簡單的解決方案。",
+        "audio": {
+          "vi": "assets/audio/examples/803-3.mp3",
+          "zhTW": "assets/audio/examples/803-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:804-doi-tuong",
+    "conceptId": "concept:804",
+    "vi": "đối tượng",
+    "zhTW": "對象、目標對象",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 804,
+    "audio": {
+      "vi": "assets/audio/words/804-doi-tuong.mp3",
+      "zhTW": "assets/audio/words/804-doi-tuong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Khóa học này dành cho đối tượng mới bắt đầu.",
+        "zhTW": "這門課是為初學者設計的。",
+        "audio": {
+          "vi": "assets/audio/examples/804-1.mp3",
+          "zhTW": "assets/audio/examples/804-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trẻ em là đối tượng cần được bảo vệ.",
+        "zhTW": "兒童是需要被保護的對象。",
+        "audio": {
+          "vi": "assets/audio/examples/804-2.mp3",
+          "zhTW": "assets/audio/examples/804-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy xác định rõ đối tượng khách hàng.",
+        "zhTW": "請明確界定目標客群。",
+        "audio": {
+          "vi": "assets/audio/examples/804-3.mp3",
+          "zhTW": "assets/audio/examples/804-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:805-phan-ung",
+    "conceptId": "concept:805",
+    "vi": "phản ứng",
+    "zhTW": "反應；回應",
+    "pos": "名詞／動詞",
+    "hanViet": "",
+    "rank": 805,
+    "audio": {
+      "vi": "assets/audio/words/805-phan-ung.mp3",
+      "zhTW": "assets/audio/words/805-phan-ung-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cơ thể tôi phản ứng với loại thuốc này.",
+        "zhTW": "我的身體對這種藥有反應。",
+        "audio": {
+          "vi": "assets/audio/examples/805-1.mp3",
+          "zhTW": "assets/audio/examples/805-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phản ứng của khách hàng khá tích cực.",
+        "zhTW": "顧客的反應相當正面。",
+        "audio": {
+          "vi": "assets/audio/examples/805-2.mp3",
+          "zhTW": "assets/audio/examples/805-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy phản ứng rất bình tĩnh.",
+        "zhTW": "她的反應非常冷靜。",
+        "audio": {
+          "vi": "assets/audio/examples/805-3.mp3",
+          "zhTW": "assets/audio/examples/805-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:806-phien",
+    "conceptId": "concept:806",
+    "vi": "phiền",
+    "zhTW": "麻煩；打擾",
+    "pos": "形容詞／動詞",
+    "hanViet": "",
+    "rank": 806,
+    "audio": {
+      "vi": "assets/audio/words/806-phien.mp3",
+      "zhTW": "assets/audio/words/806-phien-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Xin lỗi đã làm phiền bạn.",
+        "zhTW": "抱歉打擾你了。",
+        "audio": {
+          "vi": "assets/audio/examples/806-1.mp3",
+          "zhTW": "assets/audio/examples/806-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phiền bạn mở cửa giúp tôi.",
+        "zhTW": "麻煩你幫我開門。",
+        "audio": {
+          "vi": "assets/audio/examples/806-2.mp3",
+          "zhTW": "assets/audio/examples/806-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Vấn đề này khiến tôi rất phiền.",
+        "zhTW": "這個問題讓我很困擾。",
+        "audio": {
+          "vi": "assets/audio/examples/806-3.mp3",
+          "zhTW": "assets/audio/examples/806-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:807-suc-manh",
+    "conceptId": "concept:807",
+    "vi": "sức mạnh",
+    "zhTW": "力量、強項",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 807,
+    "audio": {
+      "vi": "assets/audio/words/807-suc-manh.mp3",
+      "zhTW": "assets/audio/words/807-suc-manh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Đoàn kết tạo nên sức mạnh.",
+        "zhTW": "團結能創造力量。",
+        "audio": {
+          "vi": "assets/audio/examples/807-1.mp3",
+          "zhTW": "assets/audio/examples/807-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Sức mạnh của đội nằm ở tinh thần hợp tác.",
+        "zhTW": "這支團隊的強項在於合作精神。",
+        "audio": {
+          "vi": "assets/audio/examples/807-2.mp3",
+          "zhTW": "assets/audio/examples/807-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy có đủ sức mạnh để vượt qua khó khăn.",
+        "zhTW": "她有足夠的力量克服困難。",
+        "audio": {
+          "vi": "assets/audio/examples/807-3.mp3",
+          "zhTW": "assets/audio/examples/807-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:808-thanh-phan",
+    "conceptId": "concept:808",
+    "vi": "thành phần",
+    "zhTW": "成分、組成部分",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 808,
+    "audio": {
+      "vi": "assets/audio/words/808-thanh-phan.mp3",
+      "zhTW": "assets/audio/words/808-thanh-phan-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hãy đọc kỹ thành phần của sản phẩm.",
+        "zhTW": "請仔細閱讀產品成分。",
+        "audio": {
+          "vi": "assets/audio/examples/808-1.mp3",
+          "zhTW": "assets/audio/examples/808-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nước là thành phần chính của món canh.",
+        "zhTW": "水是這道湯的主要成分。",
+        "audio": {
+          "vi": "assets/audio/examples/808-2.mp3",
+          "zhTW": "assets/audio/examples/808-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhóm có thành phần rất đa dạng.",
+        "zhTW": "這個團隊的組成相當多元。",
+        "audio": {
+          "vi": "assets/audio/examples/808-3.mp3",
+          "zhTW": "assets/audio/examples/808-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:809-nuoc-ngoai",
+    "conceptId": "concept:809",
+    "vi": "nước ngoài",
+    "zhTW": "國外、外國",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 809,
+    "audio": {
+      "vi": "assets/audio/words/809-nuoc-ngoai.mp3",
+      "zhTW": "assets/audio/words/809-nuoc-ngoai-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi từng sống ở nước ngoài hai năm.",
+        "zhTW": "我曾在國外住過兩年。",
+        "audio": {
+          "vi": "assets/audio/examples/809-1.mp3",
+          "zhTW": "assets/audio/examples/809-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Công ty có nhiều khách hàng nước ngoài.",
+        "zhTW": "公司有許多外國客戶。",
+        "audio": {
+          "vi": "assets/audio/examples/809-2.mp3",
+          "zhTW": "assets/audio/examples/809-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy muốn đi du học nước ngoài.",
+        "zhTW": "她想去國外留學。",
+        "audio": {
+          "vi": "assets/audio/examples/809-3.mp3",
+          "zhTW": "assets/audio/examples/809-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:810-khuyen",
+    "conceptId": "concept:810",
+    "vi": "khuyên",
+    "zhTW": "勸告、建議",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 810,
+    "audio": {
+      "vi": "assets/audio/words/810-khuyen.mp3",
+      "zhTW": "assets/audio/words/810-khuyen-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bác sĩ khuyên tôi nên nghỉ ngơi.",
+        "zhTW": "醫師建議我應該休息。",
+        "audio": {
+          "vi": "assets/audio/examples/810-1.mp3",
+          "zhTW": "assets/audio/examples/810-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi khuyên bạn đặt phòng trước.",
+        "zhTW": "我建議你先訂房。",
+        "audio": {
+          "vi": "assets/audio/examples/810-2.mp3",
+          "zhTW": "assets/audio/examples/810-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mẹ khuyên tôi mang theo áo khoác.",
+        "zhTW": "媽媽勸我帶上外套。",
+        "audio": {
+          "vi": "assets/audio/examples/810-3.mp3",
+          "zhTW": "assets/audio/examples/810-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:811-on-dinh",
+    "conceptId": "concept:811",
+    "vi": "ổn định",
+    "zhTW": "穩定的；使穩定",
+    "pos": "形容詞／動詞",
+    "hanViet": "",
+    "rank": 811,
+    "audio": {
+      "vi": "assets/audio/words/811-on-dinh.mp3",
+      "zhTW": "assets/audio/words/811-on-dinh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tình trạng của bệnh nhân đã ổn định.",
+        "zhTW": "病人的狀況已經穩定。",
+        "audio": {
+          "vi": "assets/audio/examples/811-1.mp3",
+          "zhTW": "assets/audio/examples/811-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi muốn tìm một công việc ổn định.",
+        "zhTW": "我想找一份穩定的工作。",
+        "audio": {
+          "vi": "assets/audio/examples/811-2.mp3",
+          "zhTW": "assets/audio/examples/811-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chính sách mới giúp ổn định giá cả.",
+        "zhTW": "新政策有助於穩定物價。",
+        "audio": {
+          "vi": "assets/audio/examples/811-3.mp3",
+          "zhTW": "assets/audio/examples/811-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:812-dieu-tri",
+    "conceptId": "concept:812",
+    "vi": "điều trị",
+    "zhTW": "治療",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 812,
+    "audio": {
+      "vi": "assets/audio/words/812-dieu-tri.mp3",
+      "zhTW": "assets/audio/words/812-dieu-tri-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bác sĩ đang điều trị cho bệnh nhân.",
+        "zhTW": "醫師正在治療病人。",
+        "audio": {
+          "vi": "assets/audio/examples/812-1.mp3",
+          "zhTW": "assets/audio/examples/812-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bệnh này cần được điều trị sớm.",
+        "zhTW": "這種病需要及早治療。",
+        "audio": {
+          "vi": "assets/audio/examples/812-2.mp3",
+          "zhTW": "assets/audio/examples/812-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy phải điều trị tại bệnh viện.",
+        "zhTW": "她必須在醫院接受治療。",
+        "audio": {
+          "vi": "assets/audio/examples/812-3.mp3",
+          "zhTW": "assets/audio/examples/812-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:813-chu-de",
+    "conceptId": "concept:813",
+    "vi": "chủ đề",
+    "zhTW": "主題",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 813,
+    "audio": {
+      "vi": "assets/audio/words/813-chu-de.mp3",
+      "zhTW": "assets/audio/words/813-chu-de-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chủ đề hôm nay là ẩm thực Việt Nam.",
+        "zhTW": "今天的主題是越南美食。",
+        "audio": {
+          "vi": "assets/audio/examples/813-1.mp3",
+          "zhTW": "assets/audio/examples/813-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng tôi đang thảo luận về chủ đề du lịch.",
+        "zhTW": "我們正在討論旅遊主題。",
+        "audio": {
+          "vi": "assets/audio/examples/813-2.mp3",
+          "zhTW": "assets/audio/examples/813-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn muốn chọn chủ đề nào?",
+        "zhTW": "你想選哪個主題？",
+        "audio": {
+          "vi": "assets/audio/examples/813-3.mp3",
+          "zhTW": "assets/audio/examples/813-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:814-xoa",
+    "conceptId": "concept:814",
+    "vi": "xóa",
+    "zhTW": "刪除、擦掉",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 814,
+    "audio": {
+      "vi": "assets/audio/words/814-xoa.mp3",
+      "zhTW": "assets/audio/words/814-xoa-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đã xóa tin nhắn đó.",
+        "zhTW": "我已經刪除那則訊息。",
+        "audio": {
+          "vi": "assets/audio/examples/814-1.mp3",
+          "zhTW": "assets/audio/examples/814-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đừng xóa tệp quan trọng này.",
+        "zhTW": "不要刪除這個重要檔案。",
+        "audio": {
+          "vi": "assets/audio/examples/814-2.mp3",
+          "zhTW": "assets/audio/examples/814-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể xóa chữ trên bảng không?",
+        "zhTW": "你可以擦掉黑板上的字嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/814-3.mp3",
+          "zhTW": "assets/audio/examples/814-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:815-manh-me",
+    "conceptId": "concept:815",
+    "vi": "mạnh mẽ",
+    "zhTW": "強烈的、堅強的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 815,
+    "audio": {
+      "vi": "assets/audio/words/815-manh-me.mp3",
+      "zhTW": "assets/audio/words/815-manh-me-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cô ấy là một người phụ nữ mạnh mẽ.",
+        "zhTW": "她是一位堅強的女性。",
+        "audio": {
+          "vi": "assets/audio/examples/815-1.mp3",
+          "zhTW": "assets/audio/examples/815-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy bày tỏ ý kiến một cách mạnh mẽ.",
+        "zhTW": "她強而有力地表達意見。",
+        "audio": {
+          "vi": "assets/audio/examples/815-2.mp3",
+          "zhTW": "assets/audio/examples/815-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đội đã trở lại mạnh mẽ sau thất bại.",
+        "zhTW": "球隊在失敗後強勢回歸。",
+        "audio": {
+          "vi": "assets/audio/examples/815-3.mp3",
+          "zhTW": "assets/audio/examples/815-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:816-tai-chinh",
+    "conceptId": "concept:816",
+    "vi": "tài chính",
+    "zhTW": "財務；金融的",
+    "pos": "名詞／形容詞",
+    "hanViet": "",
+    "rank": 816,
+    "audio": {
+      "vi": "assets/audio/words/816-tai-chinh.mp3",
+      "zhTW": "assets/audio/words/816-tai-chinh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tình hình tài chính của công ty khá tốt.",
+        "zhTW": "公司的財務狀況相當好。",
+        "audio": {
+          "vi": "assets/audio/examples/816-1.mp3",
+          "zhTW": "assets/audio/examples/816-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy làm việc trong ngành tài chính.",
+        "zhTW": "他在金融業工作。",
+        "audio": {
+          "vi": "assets/audio/examples/816-2.mp3",
+          "zhTW": "assets/audio/examples/816-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Gia đình đang gặp khó khăn tài chính.",
+        "zhTW": "這個家庭正面臨財務困難。",
+        "audio": {
+          "vi": "assets/audio/examples/816-3.mp3",
+          "zhTW": "assets/audio/examples/816-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:817-tinh-cam",
+    "conceptId": "concept:817",
+    "vi": "tình cảm",
+    "zhTW": "感情、情感",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 817,
+    "audio": {
+      "vi": "assets/audio/words/817-tinh-cam.mp3",
+      "zhTW": "assets/audio/words/817-tinh-cam-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hai người có tình cảm với nhau.",
+        "zhTW": "兩人對彼此有感情。",
+        "audio": {
+          "vi": "assets/audio/examples/817-1.mp3",
+          "zhTW": "assets/audio/examples/817-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bài hát này chứa nhiều tình cảm.",
+        "zhTW": "這首歌蘊含豐富的情感。",
+        "audio": {
+          "vi": "assets/audio/examples/817-2.mp3",
+          "zhTW": "assets/audio/examples/817-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy sống rất tình cảm.",
+        "zhTW": "她是一個很重感情的人。",
+        "audio": {
+          "vi": "assets/audio/examples/817-3.mp3",
+          "zhTW": "assets/audio/examples/817-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:818-nghe",
+    "conceptId": "concept:818",
+    "vi": "nghề",
+    "zhTW": "職業、行業",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 818,
+    "audio": {
+      "vi": "assets/audio/words/818-nghe.mp3",
+      "zhTW": "assets/audio/words/818-nghe-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Nghề của bạn là gì?",
+        "zhTW": "你的職業是什麼？",
+        "audio": {
+          "vi": "assets/audio/examples/818-1.mp3",
+          "zhTW": "assets/audio/examples/818-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy theo nghề đầu bếp.",
+        "zhTW": "他從事廚師這個職業。",
+        "audio": {
+          "vi": "assets/audio/examples/818-2.mp3",
+          "zhTW": "assets/audio/examples/818-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mỗi nghề đều có khó khăn riêng.",
+        "zhTW": "每個行業都有各自的難處。",
+        "audio": {
+          "vi": "assets/audio/examples/818-3.mp3",
+          "zhTW": "assets/audio/examples/818-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:819-say",
+    "conceptId": "concept:819",
+    "vi": "say",
+    "zhTW": "醉、暈",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 819,
+    "audio": {
+      "vi": "assets/audio/words/819-say.mp3",
+      "zhTW": "assets/audio/words/819-say-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi bị say xe khi đi đường dài.",
+        "zhTW": "我坐長途車會暈車。",
+        "audio": {
+          "vi": "assets/audio/examples/819-1.mp3",
+          "zhTW": "assets/audio/examples/819-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy uống nhiều nên đã say.",
+        "zhTW": "他喝太多，所以醉了。",
+        "audio": {
+          "vi": "assets/audio/examples/819-2.mp3",
+          "zhTW": "assets/audio/examples/819-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy thường bị say sóng.",
+        "zhTW": "她常常暈船。",
+        "audio": {
+          "vi": "assets/audio/examples/819-3.mp3",
+          "zhTW": "assets/audio/examples/819-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:820-dien-tu",
+    "conceptId": "concept:820",
+    "vi": "điện tử",
+    "zhTW": "電子；電子的",
+    "pos": "名詞／形容詞",
+    "hanViet": "",
+    "rank": 820,
+    "audio": {
+      "vi": "assets/audio/words/820-dien-tu.mp3",
+      "zhTW": "assets/audio/words/820-dien-tu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi nhận được vé điện tử qua email.",
+        "zhTW": "我透過電子郵件收到電子票。",
+        "audio": {
+          "vi": "assets/audio/examples/820-1.mp3",
+          "zhTW": "assets/audio/examples/820-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cửa hàng này bán đồ điện tử.",
+        "zhTW": "這家商店販售電子產品。",
+        "audio": {
+          "vi": "assets/audio/examples/820-2.mp3",
+          "zhTW": "assets/audio/examples/820-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể thanh toán bằng ví điện tử.",
+        "zhTW": "你可以使用電子錢包付款。",
+        "audio": {
+          "vi": "assets/audio/examples/820-3.mp3",
+          "zhTW": "assets/audio/examples/820-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:821-thong-thuong",
+    "conceptId": "concept:821",
+    "vi": "thông thường",
+    "zhTW": "通常的；通常",
+    "pos": "形容詞／副詞",
+    "hanViet": "",
+    "rank": 821,
+    "audio": {
+      "vi": "assets/audio/words/821-thong-thuong.mp3",
+      "zhTW": "assets/audio/words/821-thong-thuong-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Thông thường tôi đi làm lúc tám giờ.",
+        "zhTW": "我通常八點去上班。",
+        "audio": {
+          "vi": "assets/audio/examples/821-1.mp3",
+          "zhTW": "assets/audio/examples/821-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đây là một lỗi thông thường.",
+        "zhTW": "這是一個常見的錯誤。",
+        "audio": {
+          "vi": "assets/audio/examples/821-2.mp3",
+          "zhTW": "assets/audio/examples/821-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Giá cuối tuần cao hơn ngày thông thường.",
+        "zhTW": "週末價格比平日高。",
+        "audio": {
+          "vi": "assets/audio/examples/821-3.mp3",
+          "zhTW": "assets/audio/examples/821-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:822-tai-san",
+    "conceptId": "concept:822",
+    "vi": "tài sản",
+    "zhTW": "財產、資產",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 822,
+    "audio": {
+      "vi": "assets/audio/words/822-tai-san.mp3",
+      "zhTW": "assets/audio/words/822-tai-san-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hãy giữ gìn tài sản cá nhân.",
+        "zhTW": "請保管好個人財物。",
+        "audio": {
+          "vi": "assets/audio/examples/822-1.mp3",
+          "zhTW": "assets/audio/examples/822-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Ngôi nhà là tài sản lớn nhất của gia đình.",
+        "zhTW": "房子是這個家庭最大的資產。",
+        "audio": {
+          "vi": "assets/audio/examples/822-2.mp3",
+          "zhTW": "assets/audio/examples/822-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Công ty đang kiểm kê tài sản.",
+        "zhTW": "公司正在盤點資產。",
+        "audio": {
+          "vi": "assets/audio/examples/822-3.mp3",
+          "zhTW": "assets/audio/examples/822-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:823-khuon-mat",
+    "conceptId": "concept:823",
+    "vi": "khuôn mặt",
+    "zhTW": "臉、臉龐",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 823,
+    "audio": {
+      "vi": "assets/audio/words/823-khuon-mat.mp3",
+      "zhTW": "assets/audio/words/823-khuon-mat-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Khuôn mặt cô ấy trông rất quen.",
+        "zhTW": "她的臉看起來很熟悉。",
+        "audio": {
+          "vi": "assets/audio/examples/823-1.mp3",
+          "zhTW": "assets/audio/examples/823-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy rửa khuôn mặt bằng nước lạnh.",
+        "zhTW": "他用冷水洗臉。",
+        "audio": {
+          "vi": "assets/audio/examples/823-2.mp3",
+          "zhTW": "assets/audio/examples/823-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nụ cười hiện rõ trên khuôn mặt của bé.",
+        "zhTW": "孩子的臉上露出明顯的笑容。",
+        "audio": {
+          "vi": "assets/audio/examples/823-3.mp3",
+          "zhTW": "assets/audio/examples/823-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:824-quoc-te",
+    "conceptId": "concept:824",
+    "vi": "quốc tế",
+    "zhTW": "國際的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 824,
+    "audio": {
+      "vi": "assets/audio/words/824-quoc-te.mp3",
+      "zhTW": "assets/audio/words/824-quoc-te-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Đây là sân bay quốc tế.",
+        "zhTW": "這是一座國際機場。",
+        "audio": {
+          "vi": "assets/audio/examples/824-1.mp3",
+          "zhTW": "assets/audio/examples/824-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Công ty có nhiều đối tác quốc tế.",
+        "zhTW": "公司有許多國際合作夥伴。",
+        "audio": {
+          "vi": "assets/audio/examples/824-2.mp3",
+          "zhTW": "assets/audio/examples/824-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy tham dự một hội nghị quốc tế.",
+        "zhTW": "她參加了一場國際會議。",
+        "audio": {
+          "vi": "assets/audio/examples/824-3.mp3",
+          "zhTW": "assets/audio/examples/824-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:825-dai-hoc",
+    "conceptId": "concept:825",
+    "vi": "đại học",
+    "zhTW": "大學",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 825,
+    "audio": {
+      "vi": "assets/audio/words/825-dai-hoc.mp3",
+      "zhTW": "assets/audio/words/825-dai-hoc-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Em gái tôi đang học đại học.",
+        "zhTW": "我妹妹正在念大學。",
+        "audio": {
+          "vi": "assets/audio/examples/825-1.mp3",
+          "zhTW": "assets/audio/examples/825-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Trường đại học này ở gần trung tâm.",
+        "zhTW": "這所大學靠近市中心。",
+        "audio": {
+          "vi": "assets/audio/examples/825-2.mp3",
+          "zhTW": "assets/audio/examples/825-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy tốt nghiệp đại học năm ngoái.",
+        "zhTW": "他去年大學畢業。",
+        "audio": {
+          "vi": "assets/audio/examples/825-3.mp3",
+          "zhTW": "assets/audio/examples/825-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:826-tron",
+    "conceptId": "concept:826",
+    "vi": "trộn",
+    "zhTW": "混合、攪拌",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 826,
+    "audio": {
+      "vi": "assets/audio/words/826-tron.mp3",
+      "zhTW": "assets/audio/words/826-tron-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hãy trộn đều các nguyên liệu.",
+        "zhTW": "請把所有材料攪拌均勻。",
+        "audio": {
+          "vi": "assets/audio/examples/826-1.mp3",
+          "zhTW": "assets/audio/examples/826-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi trộn cà phê với sữa.",
+        "zhTW": "我把咖啡和牛奶混在一起。",
+        "audio": {
+          "vi": "assets/audio/examples/826-2.mp3",
+          "zhTW": "assets/audio/examples/826-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đừng trộn hai loại thuốc này.",
+        "zhTW": "不要把這兩種藥混在一起。",
+        "audio": {
+          "vi": "assets/audio/examples/826-3.mp3",
+          "zhTW": "assets/audio/examples/826-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:827-nhiem",
+    "conceptId": "concept:827",
+    "vi": "nhiễm",
+    "zhTW": "感染、沾染",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 827,
+    "audio": {
+      "vi": "assets/audio/words/827-nhiem.mp3",
+      "zhTW": "assets/audio/words/827-nhiem-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Vết thương có dấu hiệu bị nhiễm trùng.",
+        "zhTW": "傷口有感染的跡象。",
+        "audio": {
+          "vi": "assets/audio/examples/827-1.mp3",
+          "zhTW": "assets/audio/examples/827-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nguồn nước có thể nhiễm hóa chất.",
+        "zhTW": "水源可能受到化學物質污染。",
+        "audio": {
+          "vi": "assets/audio/examples/827-2.mp3",
+          "zhTW": "assets/audio/examples/827-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy bị nhiễm cúm từ đồng nghiệp.",
+        "zhTW": "他被同事傳染了流感。",
+        "audio": {
+          "vi": "assets/audio/examples/827-3.mp3",
+          "zhTW": "assets/audio/examples/827-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:828-san",
+    "conceptId": "concept:828",
+    "vi": "sàn",
+    "zhTW": "地板、樓面",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 828,
+    "audio": {
+      "vi": "assets/audio/words/828-san.mp3",
+      "zhTW": "assets/audio/words/828-san-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Sàn nhà vừa được lau sạch.",
+        "zhTW": "地板剛剛擦乾淨。",
+        "audio": {
+          "vi": "assets/audio/examples/828-1.mp3",
+          "zhTW": "assets/audio/examples/828-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cẩn thận vì sàn đang ướt.",
+        "zhTW": "小心，地板是濕的。",
+        "audio": {
+          "vi": "assets/audio/examples/828-2.mp3",
+          "zhTW": "assets/audio/examples/828-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc túi nằm trên sàn.",
+        "zhTW": "袋子放在地板上。",
+        "audio": {
+          "vi": "assets/audio/examples/828-3.mp3",
+          "zhTW": "assets/audio/examples/828-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:829-hop-ly",
+    "conceptId": "concept:829",
+    "vi": "hợp lý",
+    "zhTW": "合理的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 829,
+    "audio": {
+      "vi": "assets/audio/words/829-hop-ly.mp3",
+      "zhTW": "assets/audio/words/829-hop-ly-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Giá này khá hợp lý.",
+        "zhTW": "這個價格相當合理。",
+        "audio": {
+          "vi": "assets/audio/examples/829-1.mp3",
+          "zhTW": "assets/audio/examples/829-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn đưa ra một lý do hợp lý.",
+        "zhTW": "你提出了一個合理的理由。",
+        "audio": {
+          "vi": "assets/audio/examples/829-2.mp3",
+          "zhTW": "assets/audio/examples/829-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng ta cần sắp xếp thời gian hợp lý.",
+        "zhTW": "我們需要合理安排時間。",
+        "audio": {
+          "vi": "assets/audio/examples/829-3.mp3",
+          "zhTW": "assets/audio/examples/829-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:830-hop-tac",
+    "conceptId": "concept:830",
+    "vi": "hợp tác",
+    "zhTW": "合作；合作關係",
+    "pos": "動詞／名詞",
+    "hanViet": "",
+    "rank": 830,
+    "audio": {
+      "vi": "assets/audio/words/830-hop-tac.mp3",
+      "zhTW": "assets/audio/words/830-hop-tac-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Hai công ty sẽ hợp tác trong dự án này.",
+        "zhTW": "兩家公司將在這個專案中合作。",
+        "audio": {
+          "vi": "assets/audio/examples/830-1.mp3",
+          "zhTW": "assets/audio/examples/830-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cảm ơn bạn đã hợp tác với chúng tôi.",
+        "zhTW": "謝謝你與我們合作。",
+        "audio": {
+          "vi": "assets/audio/examples/830-2.mp3",
+          "zhTW": "assets/audio/examples/830-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Sự hợp tác giữa hai bên rất hiệu quả.",
+        "zhTW": "雙方的合作很有效率。",
+        "audio": {
+          "vi": "assets/audio/examples/830-3.mp3",
+          "zhTW": "assets/audio/examples/830-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:831-nghiem-tuc",
+    "conceptId": "concept:831",
+    "vi": "nghiêm túc",
+    "zhTW": "認真的、嚴肅的",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 831,
+    "audio": {
+      "vi": "assets/audio/words/831-nghiem-tuc.mp3",
+      "zhTW": "assets/audio/words/831-nghiem-tuc-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Anh ấy rất nghiêm túc trong công việc.",
+        "zhTW": "他工作時非常認真。",
+        "audio": {
+          "vi": "assets/audio/examples/831-1.mp3",
+          "zhTW": "assets/audio/examples/831-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng ta cần nói chuyện nghiêm túc.",
+        "zhTW": "我們需要認真談一談。",
+        "audio": {
+          "vi": "assets/audio/examples/831-2.mp3",
+          "zhTW": "assets/audio/examples/831-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy có vẻ mặt nghiêm túc.",
+        "zhTW": "她的表情看起來很嚴肅。",
+        "audio": {
+          "vi": "assets/audio/examples/831-3.mp3",
+          "zhTW": "assets/audio/examples/831-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:832-gian",
+    "conceptId": "concept:832",
+    "vi": "giận",
+    "zhTW": "生氣；發怒",
+    "pos": "形容詞／動詞",
+    "hanViet": "",
+    "rank": 832,
+    "audio": {
+      "vi": "assets/audio/words/832-gian.mp3",
+      "zhTW": "assets/audio/words/832-gian-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bạn đừng giận tôi nhé.",
+        "zhTW": "你不要生我的氣。",
+        "audio": {
+          "vi": "assets/audio/examples/832-1.mp3",
+          "zhTW": "assets/audio/examples/832-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy giận vì tôi đến muộn.",
+        "zhTW": "她因為我遲到而生氣。",
+        "audio": {
+          "vi": "assets/audio/examples/832-2.mp3",
+          "zhTW": "assets/audio/examples/832-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy rất giận khi nghe tin đó.",
+        "zhTW": "他聽到那個消息時非常生氣。",
+        "audio": {
+          "vi": "assets/audio/examples/832-3.mp3",
+          "zhTW": "assets/audio/examples/832-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:833-khi",
+    "conceptId": "concept:833",
+    "vi": "khí",
+    "zhTW": "氣體、空氣",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 833,
+    "audio": {
+      "vi": "assets/audio/words/833-khi.mp3",
+      "zhTW": "assets/audio/words/833-khi-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bình này chứa khí ga.",
+        "zhTW": "這個鋼瓶裝有瓦斯。",
+        "audio": {
+          "vi": "assets/audio/examples/833-1.mp3",
+          "zhTW": "assets/audio/examples/833-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khí lạnh đang tràn vào phòng.",
+        "zhTW": "冷空氣正進入房間。",
+        "audio": {
+          "vi": "assets/audio/examples/833-2.mp3",
+          "zhTW": "assets/audio/examples/833-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhà máy kiểm tra lượng khí thải.",
+        "zhTW": "工廠檢查廢氣排放量。",
+        "audio": {
+          "vi": "assets/audio/examples/833-3.mp3",
+          "zhTW": "assets/audio/examples/833-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:834-thong-qua",
+    "conceptId": "concept:834",
+    "vi": "thông qua",
+    "zhTW": "通過；經由",
+    "pos": "動詞／介詞",
+    "hanViet": "",
+    "rank": 834,
+    "audio": {
+      "vi": "assets/audio/words/834-thong-qua.mp3",
+      "zhTW": "assets/audio/words/834-thong-qua-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Đề xuất đã được thông qua.",
+        "zhTW": "提案已經獲得通過。",
+        "audio": {
+          "vi": "assets/audio/examples/834-1.mp3",
+          "zhTW": "assets/audio/examples/834-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi biết tin này thông qua một người bạn.",
+        "zhTW": "我是透過一位朋友得知這個消息的。",
+        "audio": {
+          "vi": "assets/audio/examples/834-2.mp3",
+          "zhTW": "assets/audio/examples/834-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hai bên liên lạc thông qua email.",
+        "zhTW": "雙方透過電子郵件聯絡。",
+        "audio": {
+          "vi": "assets/audio/examples/834-3.mp3",
+          "zhTW": "assets/audio/examples/834-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:835-no",
+    "conceptId": "concept:835",
+    "vi": "nợ",
+    "zhTW": "欠債；債務",
+    "pos": "動詞／名詞",
+    "hanViet": "",
+    "rank": 835,
+    "audio": {
+      "vi": "assets/audio/words/835-no.mp3",
+      "zhTW": "assets/audio/words/835-no-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi còn nợ bạn một bữa ăn.",
+        "zhTW": "我還欠你一頓飯。",
+        "audio": {
+          "vi": "assets/audio/examples/835-1.mp3",
+          "zhTW": "assets/audio/examples/835-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy đã trả hết nợ.",
+        "zhTW": "他已經還清債務。",
+        "audio": {
+          "vi": "assets/audio/examples/835-2.mp3",
+          "zhTW": "assets/audio/examples/835-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Công ty đang có một khoản nợ lớn.",
+        "zhTW": "公司目前有一筆大額債務。",
+        "audio": {
+          "vi": "assets/audio/examples/835-3.mp3",
+          "zhTW": "assets/audio/examples/835-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:836-mo-ta",
+    "conceptId": "concept:836",
+    "vi": "mô tả",
+    "zhTW": "描述；說明",
+    "pos": "動詞／名詞",
+    "hanViet": "",
+    "rank": 836,
+    "audio": {
+      "vi": "assets/audio/words/836-mo-ta.mp3",
+      "zhTW": "assets/audio/words/836-mo-ta-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Bạn có thể mô tả người đó không?",
+        "zhTW": "你可以描述那個人嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/836-1.mp3",
+          "zhTW": "assets/audio/examples/836-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy mô tả căn phòng rất chi tiết.",
+        "zhTW": "她很詳細地描述那個房間。",
+        "audio": {
+          "vi": "assets/audio/examples/836-2.mp3",
+          "zhTW": "assets/audio/examples/836-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Phần mô tả sản phẩm chưa rõ ràng.",
+        "zhTW": "產品說明還不夠清楚。",
+        "audio": {
+          "vi": "assets/audio/examples/836-3.mp3",
+          "zhTW": "assets/audio/examples/836-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:837-truc-tuyen",
+    "conceptId": "concept:837",
+    "vi": "trực tuyến",
+    "zhTW": "線上的、在線",
+    "pos": "形容詞",
+    "hanViet": "",
+    "rank": 837,
+    "audio": {
+      "vi": "assets/audio/words/837-truc-tuyen.mp3",
+      "zhTW": "assets/audio/words/837-truc-tuyen-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi đang tham gia một khóa học trực tuyến.",
+        "zhTW": "我正在參加一門線上課程。",
+        "audio": {
+          "vi": "assets/audio/examples/837-1.mp3",
+          "zhTW": "assets/audio/examples/837-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể đặt vé trực tuyến.",
+        "zhTW": "你可以在線上訂票。",
+        "audio": {
+          "vi": "assets/audio/examples/837-2.mp3",
+          "zhTW": "assets/audio/examples/837-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cuộc họp trực tuyến bắt đầu lúc chín giờ.",
+        "zhTW": "線上會議九點開始。",
+        "audio": {
+          "vi": "assets/audio/examples/837-3.mp3",
+          "zhTW": "assets/audio/examples/837-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:838-qua-khu",
+    "conceptId": "concept:838",
+    "vi": "quá khứ",
+    "zhTW": "過去",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 838,
+    "audio": {
+      "vi": "assets/audio/words/838-qua-khu.mp3",
+      "zhTW": "assets/audio/words/838-qua-khu-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chuyện đó đã thuộc về quá khứ.",
+        "zhTW": "那件事已經成為過去。",
+        "audio": {
+          "vi": "assets/audio/examples/838-1.mp3",
+          "zhTW": "assets/audio/examples/838-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Đừng sống mãi trong quá khứ.",
+        "zhTW": "不要一直活在過去。",
+        "audio": {
+          "vi": "assets/audio/examples/838-2.mp3",
+          "zhTW": "assets/audio/examples/838-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bảo tàng giúp chúng ta hiểu về quá khứ.",
+        "zhTW": "博物館幫助我們了解過去。",
+        "audio": {
+          "vi": "assets/audio/examples/838-3.mp3",
+          "zhTW": "assets/audio/examples/838-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:839-nao",
+    "conceptId": "concept:839",
+    "vi": "não",
+    "zhTW": "大腦",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 839,
+    "audio": {
+      "vi": "assets/audio/words/839-nao.mp3",
+      "zhTW": "assets/audio/words/839-nao-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Não cần được nghỉ ngơi đầy đủ.",
+        "zhTW": "大腦需要充分休息。",
+        "audio": {
+          "vi": "assets/audio/examples/839-1.mp3",
+          "zhTW": "assets/audio/examples/839-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bác sĩ đang kiểm tra hoạt động của não.",
+        "zhTW": "醫師正在檢查大腦活動。",
+        "audio": {
+          "vi": "assets/audio/examples/839-2.mp3",
+          "zhTW": "assets/audio/examples/839-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Học ngôn ngữ giúp rèn luyện não.",
+        "zhTW": "學習語言有助於鍛鍊大腦。",
+        "audio": {
+          "vi": "assets/audio/examples/839-3.mp3",
+          "zhTW": "assets/audio/examples/839-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:840-van-hoa",
+    "conceptId": "concept:840",
+    "vi": "văn hóa",
+    "zhTW": "文化",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 840,
+    "audio": {
+      "vi": "assets/audio/words/840-van-hoa.mp3",
+      "zhTW": "assets/audio/words/840-van-hoa-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn tìm hiểu văn hóa Việt Nam.",
+        "zhTW": "我想了解越南文化。",
+        "audio": {
+          "vi": "assets/audio/examples/840-1.mp3",
+          "zhTW": "assets/audio/examples/840-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Ẩm thực là một phần của văn hóa.",
+        "zhTW": "飲食是文化的一部分。",
+        "audio": {
+          "vi": "assets/audio/examples/840-2.mp3",
+          "zhTW": "assets/audio/examples/840-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Mỗi vùng có nét văn hóa riêng.",
+        "zhTW": "每個地區都有自己的文化特色。",
+        "audio": {
+          "vi": "assets/audio/examples/840-3.mp3",
+          "zhTW": "assets/audio/examples/840-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:841-kip",
+    "conceptId": "concept:841",
+    "vi": "kịp",
+    "zhTW": "趕上、來得及",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 841,
+    "audio": {
+      "vi": "assets/audio/words/841-kip.mp3",
+      "zhTW": "assets/audio/words/841-kip-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Chúng ta vẫn kịp chuyến tàu cuối.",
+        "zhTW": "我們還趕得上末班車。",
+        "audio": {
+          "vi": "assets/audio/examples/841-1.mp3",
+          "zhTW": "assets/audio/examples/841-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi không kịp ăn sáng.",
+        "zhTW": "我來不及吃早餐。",
+        "audio": {
+          "vi": "assets/audio/examples/841-2.mp3",
+          "zhTW": "assets/audio/examples/841-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy đi ngay để kịp giờ hẹn.",
+        "zhTW": "馬上出發才來得及赴約。",
+        "audio": {
+          "vi": "assets/audio/examples/841-3.mp3",
+          "zhTW": "assets/audio/examples/841-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:842-vay",
+    "conceptId": "concept:842",
+    "vi": "vay",
+    "zhTW": "借款、借入",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 842,
+    "audio": {
+      "vi": "assets/audio/words/842-vay.mp3",
+      "zhTW": "assets/audio/words/842-vay-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi muốn vay tiền ngân hàng.",
+        "zhTW": "我想向銀行借款。",
+        "audio": {
+          "vi": "assets/audio/examples/842-1.mp3",
+          "zhTW": "assets/audio/examples/842-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy vay bạn một ít tiền.",
+        "zhTW": "他向朋友借了一點錢。",
+        "audio": {
+          "vi": "assets/audio/examples/842-2.mp3",
+          "zhTW": "assets/audio/examples/842-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn cần giấy tờ gì để vay vốn?",
+        "zhTW": "申請貸款需要什麼文件？",
+        "audio": {
+          "vi": "assets/audio/examples/842-3.mp3",
+          "zhTW": "assets/audio/examples/842-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:843-chung-minh",
+    "conceptId": "concept:843",
+    "vi": "chứng minh",
+    "zhTW": "證明",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 843,
+    "audio": {
+      "vi": "assets/audio/words/843-chung-minh.mp3",
+      "zhTW": "assets/audio/words/843-chung-minh-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Kết quả này chứng minh phương pháp có hiệu quả.",
+        "zhTW": "這個結果證明方法有效。",
+        "audio": {
+          "vi": "assets/audio/examples/843-1.mp3",
+          "zhTW": "assets/audio/examples/843-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn cần giấy tờ để chứng minh danh tính.",
+        "zhTW": "你需要文件來證明身分。",
+        "audio": {
+          "vi": "assets/audio/examples/843-2.mp3",
+          "zhTW": "assets/audio/examples/843-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cô ấy đã chứng minh khả năng của mình.",
+        "zhTW": "她已經證明了自己的能力。",
+        "audio": {
+          "vi": "assets/audio/examples/843-3.mp3",
+          "zhTW": "assets/audio/examples/843-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:844-dia-diem",
+    "conceptId": "concept:844",
+    "vi": "địa điểm",
+    "zhTW": "地點、場所",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 844,
+    "audio": {
+      "vi": "assets/audio/words/844-dia-diem.mp3",
+      "zhTW": "assets/audio/words/844-dia-diem-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Địa điểm gặp mặt ở đâu?",
+        "zhTW": "見面地點在哪裡？",
+        "audio": {
+          "vi": "assets/audio/examples/844-1.mp3",
+          "zhTW": "assets/audio/examples/844-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhà hàng này có địa điểm rất thuận tiện.",
+        "zhTW": "這家餐廳的位置很方便。",
+        "audio": {
+          "vi": "assets/audio/examples/844-2.mp3",
+          "zhTW": "assets/audio/examples/844-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chúng tôi đang tìm địa điểm tổ chức sự kiện.",
+        "zhTW": "我們正在找舉辦活動的場所。",
+        "audio": {
+          "vi": "assets/audio/examples/844-3.mp3",
+          "zhTW": "assets/audio/examples/844-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:845-truot",
+    "conceptId": "concept:845",
+    "vi": "trượt",
+    "zhTW": "滑倒、滑動；落榜",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 845,
+    "audio": {
+      "vi": "assets/audio/words/845-truot.mp3",
+      "zhTW": "assets/audio/words/845-truot-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Cẩn thận kẻo trượt trên sàn ướt.",
+        "zhTW": "小心別在濕地板上滑倒。",
+        "audio": {
+          "vi": "assets/audio/examples/845-1.mp3",
+          "zhTW": "assets/audio/examples/845-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc hộp trượt khỏi bàn.",
+        "zhTW": "盒子從桌上滑了下去。",
+        "audio": {
+          "vi": "assets/audio/examples/845-2.mp3",
+          "zhTW": "assets/audio/examples/845-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Anh ấy buồn vì trượt kỳ thi.",
+        "zhTW": "他因為考試落榜而難過。",
+        "audio": {
+          "vi": "assets/audio/examples/845-3.mp3",
+          "zhTW": "assets/audio/examples/845-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:846-y-te",
+    "conceptId": "concept:846",
+    "vi": "y tế",
+    "zhTW": "醫療；衛生的",
+    "pos": "名詞／形容詞",
+    "hanViet": "",
+    "rank": 846,
+    "audio": {
+      "vi": "assets/audio/words/846-y-te.mp3",
+      "zhTW": "assets/audio/words/846-y-te-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tôi cần hỗ trợ y tế ngay.",
+        "zhTW": "我需要立即獲得醫療協助。",
+        "audio": {
+          "vi": "assets/audio/examples/846-1.mp3",
+          "zhTW": "assets/audio/examples/846-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Nhân viên y tế đang chăm sóc bệnh nhân.",
+        "zhTW": "醫護人員正在照顧病人。",
+        "audio": {
+          "vi": "assets/audio/examples/846-2.mp3",
+          "zhTW": "assets/audio/examples/846-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Khu vực này có trung tâm y tế.",
+        "zhTW": "這個地區有一間醫療中心。",
+        "audio": {
+          "vi": "assets/audio/examples/846-3.mp3",
+          "zhTW": "assets/audio/examples/846-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:847-do",
+    "conceptId": "concept:847",
+    "vi": "đo",
+    "zhTW": "測量、量",
+    "pos": "動詞",
+    "hanViet": "",
+    "rank": 847,
+    "audio": {
+      "vi": "assets/audio/words/847-do.mp3",
+      "zhTW": "assets/audio/words/847-do-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Y tá đang đo nhiệt độ cho tôi.",
+        "zhTW": "護理師正在幫我量體溫。",
+        "audio": {
+          "vi": "assets/audio/examples/847-1.mp3",
+          "zhTW": "assets/audio/examples/847-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bạn có thể đo chiều dài chiếc bàn không?",
+        "zhTW": "你可以量一下桌子的長度嗎？",
+        "audio": {
+          "vi": "assets/audio/examples/847-2.mp3",
+          "zhTW": "assets/audio/examples/847-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Bác sĩ đo huyết áp của bệnh nhân.",
+        "zhTW": "醫師為病人量血壓。",
+        "audio": {
+          "vi": "assets/audio/examples/847-3.mp3",
+          "zhTW": "assets/audio/examples/847-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:848-tinh-than",
+    "conceptId": "concept:848",
+    "vi": "tinh thần",
+    "zhTW": "精神、心情",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 848,
+    "audio": {
+      "vi": "assets/audio/words/848-tinh-than.mp3",
+      "zhTW": "assets/audio/words/848-tinh-than-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Tinh thần của cô ấy đã tốt hơn.",
+        "zhTW": "她的精神狀況好多了。",
+        "audio": {
+          "vi": "assets/audio/examples/848-1.mp3",
+          "zhTW": "assets/audio/examples/848-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Cả đội có tinh thần hợp tác cao.",
+        "zhTW": "整個團隊很有合作精神。",
+        "audio": {
+          "vi": "assets/audio/examples/848-2.mp3",
+          "zhTW": "assets/audio/examples/848-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy giữ tinh thần thoải mái.",
+        "zhTW": "請保持輕鬆的心情。",
+        "audio": {
+          "vi": "assets/audio/examples/848-3.mp3",
+          "zhTW": "assets/audio/examples/848-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:849-chinh-sach",
+    "conceptId": "concept:849",
+    "vi": "chính sách",
+    "zhTW": "政策、方針",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 849,
+    "audio": {
+      "vi": "assets/audio/words/849-chinh-sach.mp3",
+      "zhTW": "assets/audio/words/849-chinh-sach-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Công ty vừa thay đổi chính sách nghỉ phép.",
+        "zhTW": "公司剛更改休假政策。",
+        "audio": {
+          "vi": "assets/audio/examples/849-1.mp3",
+          "zhTW": "assets/audio/examples/849-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Hãy đọc kỹ chính sách hoàn tiền.",
+        "zhTW": "請仔細閱讀退款政策。",
+        "audio": {
+          "vi": "assets/audio/examples/849-2.mp3",
+          "zhTW": "assets/audio/examples/849-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chính sách mới có hiệu lực từ tháng sau.",
+        "zhTW": "新政策從下個月開始生效。",
+        "audio": {
+          "vi": "assets/audio/examples/849-3.mp3",
+          "zhTW": "assets/audio/examples/849-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "id": "vi:850-dong-ho",
+    "conceptId": "concept:850",
+    "vi": "đồng hồ",
+    "zhTW": "時鐘、手錶",
+    "pos": "名詞",
+    "hanViet": "",
+    "rank": 850,
+    "audio": {
+      "vi": "assets/audio/words/850-dong-ho.mp3",
+      "zhTW": "assets/audio/words/850-dong-ho-zh.mp3"
+    },
+    "examples": [
+      {
+        "vi": "Đồng hồ trên tường chạy chậm năm phút.",
+        "zhTW": "牆上的時鐘慢了五分鐘。",
+        "audio": {
+          "vi": "assets/audio/examples/850-1.mp3",
+          "zhTW": "assets/audio/examples/850-1-zh.mp3"
+        }
+      },
+      {
+        "vi": "Tôi quên đeo đồng hồ hôm nay.",
+        "zhTW": "我今天忘了戴手錶。",
+        "audio": {
+          "vi": "assets/audio/examples/850-2.mp3",
+          "zhTW": "assets/audio/examples/850-2-zh.mp3"
+        }
+      },
+      {
+        "vi": "Chiếc đồng hồ này chống nước.",
+        "zhTW": "這支手錶可以防水。",
+        "audio": {
+          "vi": "assets/audio/examples/850-3.mp3",
+          "zhTW": "assets/audio/examples/850-3-zh.mp3"
+        }
+      }
+    ],
+    "quality": "reviewed"
   }
 ]

@@ -1,6 +1,6 @@
 # Lexa
 
-Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 700 詞以「校對中」只讀顯示；下一個內容目標是 Core 1000。
+Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 750 詞以「校對中」只讀顯示；下一個內容目標是 Core 1000。
 
 頁首可切換 `台灣人學越南語 / Người Việt học Hoa ngữ`。兩個方向共用概念資料但保存獨立進度；反向模式目前可使用雙語情境課、單字顯示與複習，缺少的繁中單字音檔與中文句型會明確停用，補齊內容前不視為正式發行。
 
@@ -34,7 +34,7 @@ node scripts/audit-vocabulary.js
 node scripts/test-core.mjs
 ```
 
-正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是目前 800 詞的查閱索引，只有 `verified` 詞能進入播放、狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會直接進入正式 UI。
+正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是目前 850 詞的查閱索引，只有 `verified` 詞能進入播放、狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會直接進入正式 UI。
 
 `rank` 是穩定的 Lexa 內容目錄位置，不是要求使用者依序背誦的解鎖順序。實際課程依口語頻率、情境必要性與個人弱點選詞。
 
@@ -57,6 +57,8 @@ Core `651–700` 再加入 50 個旅行活動、學習操作與安全提醒詞�
 Core `701–750` 再加入 50 個方法社會、資訊處理與自然環境詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
 
 Core `751–800` 再加入 50 個常見資訊、職場系統與健康狀態詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
+
+Core `801–850` 再加入 50 個學習服務、行政健康與常見動作詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
 
 七個 reviewed 情境候選包位於 `content/basics-30.source.json`、`content/core-context-39.source.json`、`content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`、`content/health-24.source.json`、`content/social-work-30.source.json`。候選包與正式食物課合計連結 Core 300 全部詞彙；執行對應的 `npm run build:*` 會生成課程、雙語音訊工作與 manifest 到 `content/review/`，不會寫入正式 `server/data/lessons.json` 或靜態部署。
 
@@ -161,7 +163,7 @@ npm run preview
 npm run build
 ```
 
-部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 800 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；其餘未發布音檔、候選 TTS 任務、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
+部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 850 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；其餘未發布音檔、候選 TTS 任務、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
 
 ## Browser Extension
 
