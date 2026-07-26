@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "health-001",
+    "category": "health",
+    "title": {
+      "vi": "Nhờ giúp đỡ",
+      "zhTW": "開口求助"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Bạn sao vậy",
+          "zhTW": "你怎麼了"
+        },
+        "zhTW": "你怎麼了？我可以幫忙嗎？",
+        "vi": "Bạn sao vậy? Tôi có thể giúp không?",
+        "wordIds": [
+          "vi:221-giup",
+          "vi:249-sao"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你怎麼了",
+            "vi": "bạn sao vậy"
+          },
+          {
+            "zhTW": "可以幫忙嗎",
+            "vi": "có thể giúp không"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "關心",
+            "vi": "Bạn sao vậy",
+            "zhTW": "你怎麼了"
+          },
+          {
+            "role": "提議",
+            "vi": "Tôi có thể giúp không",
+            "zhTW": "我可以幫忙嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-001-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-001-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Tôi cần",
+          "zhTW": "我需要"
+        },
+        "zhTW": "我需要一條乾淨的毛巾。",
+        "vi": "Tôi cần một chiếc khăn sạch.",
+        "wordIds": [
+          "vi:222-can"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我需要",
+            "vi": "tôi cần"
+          },
+          {
+            "zhTW": "一條乾淨的毛巾",
+            "vi": "một chiếc khăn sạch"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "需求",
+            "vi": "Tôi cần",
+            "zhTW": "我需要"
+          },
+          {
+            "role": "物品",
+            "vi": "một chiếc khăn sạch",
+            "zhTW": "一條乾淨的毛巾"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-001-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-001-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Đang tìm",
+          "zhTW": "正在尋找"
+        },
+        "zhTW": "我正在找洗手間。",
+        "vi": "Tôi đang tìm nhà vệ sinh.",
+        "wordIds": [
+          "vi:223-tim"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "正在找",
+            "vi": "đang tìm"
+          },
+          {
+            "zhTW": "洗手間",
+            "vi": "nhà vệ sinh"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Tôi đang tìm",
+            "zhTW": "我正在找"
+          },
+          {
+            "role": "地點",
+            "vi": "nhà vệ sinh",
+            "zhTW": "洗手間"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-001-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-001-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-002",
+    "category": "health",
+    "title": {
+      "vi": "Chờ và mang đồ",
+      "zhTW": "等候與攜帶"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Xin đợi",
+          "zhTW": "請稍等"
+        },
+        "zhTW": "請等我一下。",
+        "vi": "Xin đợi tôi một chút.",
+        "wordIds": [
+          "vi:224-doi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請等我",
+            "vi": "xin đợi tôi"
+          },
+          {
+            "zhTW": "一下",
+            "vi": "một chút"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin đợi tôi",
+            "zhTW": "請等我"
+          },
+          {
+            "role": "時間",
+            "vi": "một chút",
+            "zhTW": "一下"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-002-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-002-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Mang hộ chiếu",
+          "zhTW": "帶護照"
+        },
+        "zhTW": "記得帶護照。",
+        "vi": "Bạn nhớ mang theo hộ chiếu.",
+        "wordIds": [
+          "vi:225-mang"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "記得帶",
+            "vi": "nhớ mang theo"
+          },
+          {
+            "zhTW": "護照",
+            "vi": "hộ chiếu"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "提醒",
+            "vi": "Bạn nhớ mang theo",
+            "zhTW": "記得帶"
+          },
+          {
+            "role": "物品",
+            "vi": "hộ chiếu",
+            "zhTW": "護照"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-002-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-002-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Lấy hành lý",
+          "zhTW": "拿行李"
+        },
+        "zhTW": "我去拿行李。",
+        "vi": "Tôi đi lấy hành lý.",
+        "wordIds": [
+          "vi:226-lay"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我去拿",
+            "vi": "tôi đi lấy"
+          },
+          {
+            "zhTW": "行李",
+            "vi": "hành lý"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Tôi đi lấy",
+            "zhTW": "我去拿"
+          },
+          {
+            "role": "物品",
+            "vi": "hành lý",
+            "zhTW": "行李"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-002-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-002-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-003",
+    "category": "health",
+    "title": {
+      "vi": "Đưa, dùng và gọi",
+      "zhTW": "帶路、使用與叫車"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Đưa tôi đến đây",
+          "zhTW": "帶我到這裡"
+        },
+        "zhTW": "請帶我到這個地址。",
+        "vi": "Xin đưa tôi đến địa chỉ này.",
+        "wordIds": [
+          "vi:227-dua"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請帶我",
+            "vi": "xin đưa tôi"
+          },
+          {
+            "zhTW": "到這個地址",
+            "vi": "đến địa chỉ này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin đưa tôi",
+            "zhTW": "請帶我"
+          },
+          {
+            "role": "目的地",
+            "vi": "đến địa chỉ này",
+            "zhTW": "到這個地址"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-003-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-003-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Gặp vấn đề",
+          "zhTW": "遇到問題"
+        },
+        "zhTW": "我使用這台機器時遇到問題。",
+        "vi": "Tôi gặp vấn đề khi dùng máy này.",
+        "wordIds": [
+          "vi:228-dung",
+          "vi:250-van-de"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "遇到問題",
+            "vi": "gặp vấn đề"
+          },
+          {
+            "zhTW": "使用這台機器",
+            "vi": "dùng máy này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "問題",
+            "vi": "Tôi gặp vấn đề",
+            "zhTW": "我遇到問題"
+          },
+          {
+            "role": "情境",
+            "vi": "khi dùng máy này",
+            "zhTW": "使用這台機器時"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-003-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-003-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Gọi taxi",
+          "zhTW": "叫計程車"
+        },
+        "zhTW": "請幫我叫一輛計程車。",
+        "vi": "Xin gọi giúp tôi một chiếc taxi.",
+        "wordIds": [
+          "vi:221-giup",
+          "vi:229-goi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請幫我叫",
+            "vi": "xin gọi giúp tôi"
+          },
+          {
+            "zhTW": "一輛計程車",
+            "vi": "một chiếc taxi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin gọi giúp tôi",
+            "zhTW": "請幫我叫"
+          },
+          {
+            "role": "交通",
+            "vi": "một chiếc taxi",
+            "zhTW": "一輛計程車"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-003-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-003-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-004",
+    "category": "health",
+    "title": {
+      "vi": "Khi nghe không hiểu",
+      "zhTW": "聽不懂時"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Không hiểu",
+          "zhTW": "不明白"
+        },
+        "zhTW": "我不懂這句話。",
+        "vi": "Tôi không hiểu câu này.",
+        "wordIds": [
+          "vi:230-hieu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我不懂",
+            "vi": "tôi không hiểu"
+          },
+          {
+            "zhTW": "這句話",
+            "vi": "câu này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "狀態",
+            "vi": "Tôi không hiểu",
+            "zhTW": "我不懂"
+          },
+          {
+            "role": "內容",
+            "vi": "câu này",
+            "zhTW": "這句話"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-004-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-004-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Nghe không rõ",
+          "zhTW": "聽不清楚"
+        },
+        "zhTW": "我聽不清楚。",
+        "vi": "Tôi nghe không rõ.",
+        "wordIds": [
+          "vi:231-nghe"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我聽",
+            "vi": "tôi nghe"
+          },
+          {
+            "zhTW": "不清楚",
+            "vi": "không rõ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "感官",
+            "vi": "Tôi nghe",
+            "zhTW": "我聽"
+          },
+          {
+            "role": "狀態",
+            "vi": "không rõ",
+            "zhTW": "不清楚"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-004-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-004-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Nói lại",
+          "zhTW": "再說一次"
+        },
+        "zhTW": "請說慢一點，再說一次。",
+        "vi": "Xin nói chậm và lặp lại một lần nữa.",
+        "wordIds": [
+          "vi:232-noi-cham",
+          "vi:233-lap-lai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請說慢一點",
+            "vi": "xin nói chậm"
+          },
+          {
+            "zhTW": "再說一次",
+            "vi": "lặp lại một lần nữa"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "速度",
+            "vi": "Xin nói chậm",
+            "zhTW": "請說慢一點"
+          },
+          {
+            "role": "重複",
+            "vi": "lặp lại một lần nữa",
+            "zhTW": "再說一次"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-004-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-004-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-005",
+    "category": "health",
+    "title": {
+      "vi": "Tình huống nguy hiểm",
+      "zhTW": "危險情況"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Cứu tôi",
+          "zhTW": "救救我"
+        },
+        "zhTW": "救救我！",
+        "vi": "Cứu tôi với!",
+        "wordIds": [
+          "vi:234-cuu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "救我",
+            "vi": "cứu tôi"
+          },
+          {
+            "zhTW": "拜託",
+            "vi": "với"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "求救",
+            "vi": "Cứu tôi",
+            "zhTW": "救我"
+          },
+          {
+            "role": "語氣",
+            "vi": "với",
+            "zhTW": "拜託"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-005-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-005-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Rất nguy hiểm",
+          "zhTW": "非常危險"
+        },
+        "zhTW": "這個地區晚上很危險。",
+        "vi": "Khu vực này rất nguy hiểm vào ban đêm.",
+        "wordIds": [
+          "vi:235-nguy-hiem"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這個地區",
+            "vi": "khu vực này"
+          },
+          {
+            "zhTW": "晚上很危險",
+            "vi": "rất nguy hiểm vào ban đêm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Khu vực này",
+            "zhTW": "這個地區"
+          },
+          {
+            "role": "危險",
+            "vi": "rất nguy hiểm",
+            "zhTW": "很危險"
+          },
+          {
+            "role": "時間",
+            "vi": "vào ban đêm",
+            "zhTW": "晚上"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-005-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-005-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Gọi cảnh sát",
+          "zhTW": "報警"
+        },
+        "zhTW": "請幫我報警。",
+        "vi": "Xin gọi cảnh sát giúp tôi.",
+        "wordIds": [
+          "vi:221-giup",
+          "vi:229-goi",
+          "vi:236-canh-sat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "叫警察",
+            "vi": "gọi cảnh sát"
+          },
+          {
+            "zhTW": "幫我",
+            "vi": "giúp tôi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin gọi cảnh sát",
+            "zhTW": "請叫警察"
+          },
+          {
+            "role": "對象",
+            "vi": "giúp tôi",
+            "zhTW": "幫我"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-005-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-005-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-006",
+    "category": "health",
+    "title": {
+      "vi": "Đến bệnh viện",
+      "zhTW": "前往醫院"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Bệnh viện",
+          "zhTW": "醫院"
+        },
+        "zhTW": "請帶我去醫院。",
+        "vi": "Xin đưa tôi đến bệnh viện.",
+        "wordIds": [
+          "vi:227-dua",
+          "vi:237-benh-vien"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請帶我",
+            "vi": "xin đưa tôi"
+          },
+          {
+            "zhTW": "去醫院",
+            "vi": "đến bệnh viện"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin đưa tôi",
+            "zhTW": "請帶我"
+          },
+          {
+            "role": "目的地",
+            "vi": "đến bệnh viện",
+            "zhTW": "去醫院"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-006-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-006-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Gặp bác sĩ",
+          "zhTW": "看醫生"
+        },
+        "zhTW": "我需要看醫生。",
+        "vi": "Tôi cần gặp bác sĩ.",
+        "wordIds": [
+          "vi:222-can",
+          "vi:238-bac-si"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我需要",
+            "vi": "tôi cần"
+          },
+          {
+            "zhTW": "看醫生",
+            "vi": "gặp bác sĩ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "需求",
+            "vi": "Tôi cần",
+            "zhTW": "我需要"
+          },
+          {
+            "role": "對象",
+            "vi": "gặp bác sĩ",
+            "zhTW": "看醫生"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-006-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-006-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Xe cấp cứu",
+          "zhTW": "救護車"
+        },
+        "zhTW": "請立刻叫救護車。",
+        "vi": "Xin gọi xe cấp cứu ngay.",
+        "wordIds": [
+          "vi:229-goi",
+          "vi:245-cap-cuu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "叫救護車",
+            "vi": "gọi xe cấp cứu"
+          },
+          {
+            "zhTW": "立刻",
+            "vi": "ngay"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Xin gọi xe cấp cứu",
+            "zhTW": "請叫救護車"
+          },
+          {
+            "role": "時間",
+            "vi": "ngay",
+            "zhTW": "立刻"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-006-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-006-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-007",
+    "category": "health",
+    "title": {
+      "vi": "Mô tả triệu chứng",
+      "zhTW": "描述症狀"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Đau đầu",
+          "zhTW": "頭痛頭暈"
+        },
+        "zhTW": "我有點頭痛和頭暈。",
+        "vi": "Tôi hơi đau đầu và chóng mặt.",
+        "wordIds": [
+          "vi:239-dau-dau",
+          "vi:247-chong-mat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "有點頭痛",
+            "vi": "hơi đau đầu"
+          },
+          {
+            "zhTW": "頭暈",
+            "vi": "chóng mặt"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "症狀一",
+            "vi": "Tôi hơi đau đầu",
+            "zhTW": "我有點頭痛"
+          },
+          {
+            "role": "症狀二",
+            "vi": "chóng mặt",
+            "zhTW": "頭暈"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-007-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-007-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Đau bụng",
+          "zhTW": "肚子痛"
+        },
+        "zhTW": "我吃完東西後肚子痛。",
+        "vi": "Tôi bị đau bụng sau khi ăn.",
+        "wordIds": [
+          "vi:240-dau-bung",
+          "vi:248-bi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我肚子痛",
+            "vi": "tôi bị đau bụng"
+          },
+          {
+            "zhTW": "吃完東西後",
+            "vi": "sau khi ăn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "症狀",
+            "vi": "Tôi bị đau bụng",
+            "zhTW": "我肚子痛"
+          },
+          {
+            "role": "時間",
+            "vi": "sau khi ăn",
+            "zhTW": "吃完東西後"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-007-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-007-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Sốt và ho",
+          "zhTW": "發燒咳嗽"
+        },
+        "zhTW": "我從昨晚開始發燒和咳嗽。",
+        "vi": "Tôi bị sốt và ho từ tối qua.",
+        "wordIds": [
+          "vi:241-sot",
+          "vi:242-ho",
+          "vi:248-bi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "發燒和咳嗽",
+            "vi": "bị sốt và ho"
+          },
+          {
+            "zhTW": "從昨晚開始",
+            "vi": "từ tối qua"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "症狀",
+            "vi": "Tôi bị sốt và ho",
+            "zhTW": "我發燒和咳嗽"
+          },
+          {
+            "role": "開始時間",
+            "vi": "từ tối qua",
+            "zhTW": "從昨晚開始"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-007-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-007-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "health-008",
+    "category": "health",
+    "title": {
+      "vi": "Dị ứng và nhà thuốc",
+      "zhTW": "過敏與藥局"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Dị ứng",
+          "zhTW": "過敏"
+        },
+        "zhTW": "我對花生過敏。",
+        "vi": "Tôi bị dị ứng với đậu phộng.",
+        "wordIds": [
+          "vi:243-di-ung",
+          "vi:248-bi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我過敏",
+            "vi": "tôi bị dị ứng"
+          },
+          {
+            "zhTW": "對花生",
+            "vi": "với đậu phộng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "症狀",
+            "vi": "Tôi bị dị ứng",
+            "zhTW": "我過敏"
+          },
+          {
+            "role": "過敏原",
+            "vi": "với đậu phộng",
+            "zhTW": "對花生"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-008-1-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-008-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Khỏe hơn",
+          "zhTW": "好多了"
+        },
+        "zhTW": "我吃藥後已經好多了。",
+        "vi": "Tôi đã khỏe hơn sau khi uống thuốc.",
+        "wordIds": [
+          "vi:246-khoe"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "已經好多了",
+            "vi": "đã khỏe hơn"
+          },
+          {
+            "zhTW": "吃藥後",
+            "vi": "sau khi uống thuốc"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "狀態",
+            "vi": "Tôi đã khỏe hơn",
+            "zhTW": "我已經好多了"
+          },
+          {
+            "role": "原因",
+            "vi": "sau khi uống thuốc",
+            "zhTW": "吃藥後"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-008-2-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-008-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Nhà thuốc",
+          "zhTW": "藥局"
+        },
+        "zhTW": "最近的藥局在哪裡？",
+        "vi": "Nhà thuốc gần nhất ở đâu?",
+        "wordIds": [
+          "vi:244-nha-thuoc"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "最近的藥局",
+            "vi": "nhà thuốc gần nhất"
+          },
+          {
+            "zhTW": "在哪裡",
+            "vi": "ở đâu"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Nhà thuốc gần nhất",
+            "zhTW": "最近的藥局"
+          },
+          {
+            "role": "提問",
+            "vi": "ở đâu",
+            "zhTW": "在哪裡"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/health/health-008-3-zh.mp3",
+          "vi": "assets/audio/candidates/health/health-008-3-vi.mp3"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "lexa",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-data.js && node scripts/validate-data.js --strict-audio && node scripts/build-static.js",
+    "build:transport": "node scripts/build-reviewed-lessons.js content/transport-30.source.json && node scripts/validate-reviewed-lessons.js content/transport-30.source.json",
+    "build:lodging": "node scripts/build-reviewed-lessons.js content/lodging-24.source.json && node scripts/validate-reviewed-lessons.js content/lodging-24.source.json",
+    "build:shopping": "node scripts/build-reviewed-lessons.js content/shopping-24.source.json && node scripts/validate-reviewed-lessons.js content/shopping-24.source.json",
+    "build:health": "node scripts/build-reviewed-lessons.js content/health-24.source.json && node scripts/validate-reviewed-lessons.js content/health-24.source.json",
+    "build:social-work": "node scripts/build-reviewed-lessons.js content/social-work-30.source.json && node scripts/validate-reviewed-lessons.js content/social-work-30.source.json",
+    "build:basics": "node scripts/build-reviewed-lessons.js content/basics-30.source.json && node scripts/validate-reviewed-lessons.js content/basics-30.source.json",
+    "build:core-context": "node scripts/build-reviewed-lessons.js content/core-context-39.source.json && node scripts/validate-reviewed-lessons.js content/core-context-39.source.json",
+    "build:core-301-350": "node scripts/build-core-batch.js content/core-301-350.source.json",
+    "build:core-351-400": "node scripts/build-core-batch.js content/core-351-400.source.json",
+    "build:core-401-450": "node scripts/build-core-batch.js content/core-401-450.source.json",
+    "build:core-451-500": "node scripts/build-core-batch.js content/core-451-500.source.json",
+    "build:core-501-550": "node scripts/build-core-batch.js content/core-501-550.source.json",
+    "build:core-551-600": "node scripts/build-core-batch.js content/core-551-600.source.json",
+    "build:core-601-650": "node scripts/build-core-batch.js content/core-601-650.source.json",
+    "build:core-651-700": "node scripts/build-core-batch.js content/core-651-700.source.json",
+    "build:core-701-750": "node scripts/build-core-batch.js content/core-701-750.source.json",
+    "build:core-751-800": "node scripts/build-core-batch.js content/core-751-800.source.json",
+    "build:core-801-850": "node scripts/build-core-batch.js content/core-801-850.source.json",
+    "build:core-851-900": "node scripts/build-core-batch.js content/core-851-900.source.json",
+    "build:core-901-950": "node scripts/build-core-batch.js content/core-901-950.source.json",
+    "build:core-951-1000": "node scripts/build-core-batch.js content/core-951-1000.source.json",
+    "audit:vocabulary": "node scripts/audit-vocabulary.js",
+    "start": "npm --prefix server run start",
+    "dev": "npm --prefix server run start",
+    "test": "npm --prefix server run test"
+  }
+}

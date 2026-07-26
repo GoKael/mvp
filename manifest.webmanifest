@@ -1,0 +1,19 @@
+{
+  "name": "Lexa Vietnamese Field Notes",
+  "short_name": "Lexa",
+  "description": "30 秒學三句越南語，搭配 Core 100 與間隔複習。",
+  "start_url": "./index.html#/today",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4eddd",
+  "theme_color": "#b34b2f",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

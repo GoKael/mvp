@@ -1,0 +1,13 @@
+.DS_Store
+.agent/
+server/cache/
+node_modules/
+.venv/
+__pycache__/
+dist/
+studio/**/.thumbnails/
+studio/**/.waveform-cache/
+*.pyc
+server/data/core-*-*.review.json
+server/data/core-*-*-audio-jobs.json
+server/data/core-*-*-audio-manifest.json

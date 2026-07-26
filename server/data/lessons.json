@@ -1,0 +1,1671 @@
+[
+  {
+    "id": "food-001",
+    "category": "food",
+    "title": {
+      "vi": "Phở · Cà phê phin · Lẩu",
+      "zhTW": "牛肉河粉、滴漏咖啡、什錦火鍋"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Phở",
+          "zhTW": "牛肉河粉"
+        },
+        "zhTW": "我喜歡在早上吃熱牛肉河粉。",
+        "vi": "Tôi thích ăn phở bò nóng vào buổi sáng.",
+        "wordIds": [
+          "vi:023-vao",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "牛肉河粉",
+            "vi": "phở bò"
+          },
+          {
+            "zhTW": "熱",
+            "vi": "nóng"
+          },
+          {
+            "zhTW": "早上",
+            "vi": "buổi sáng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "動作",
+            "vi": "thích ăn",
+            "zhTW": "喜歡吃"
+          },
+          {
+            "role": "核心",
+            "vi": "phở bò nóng",
+            "zhTW": "熱牛肉河粉"
+          },
+          {
+            "role": "時間",
+            "vi": "vào buổi sáng",
+            "zhTW": "在早上"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-001-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-001-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Cà phê phin",
+          "zhTW": "滴漏咖啡"
+        },
+        "zhTW": "滴漏咖啡一滴一滴慢慢滴下來。",
+        "vi": "Cà phê phin nhỏ từng giọt một, rất chậm.",
+        "wordIds": [
+          "vi:007-mot",
+          "vi:086-nho"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "滴漏咖啡",
+            "vi": "cà phê phin"
+          },
+          {
+            "zhTW": "一滴一滴",
+            "vi": "từng giọt"
+          },
+          {
+            "zhTW": "很慢",
+            "vi": "rất chậm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Cà phê phin",
+            "zhTW": "滴漏咖啡"
+          },
+          {
+            "role": "動作",
+            "vi": "nhỏ",
+            "zhTW": "滴下來"
+          },
+          {
+            "role": "方式",
+            "vi": "từng giọt một",
+            "zhTW": "一滴一滴"
+          },
+          {
+            "role": "狀態",
+            "vi": "rất chậm",
+            "zhTW": "很慢"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-001-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-001-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Lẩu",
+          "zhTW": "什錦火鍋"
+        },
+        "zhTW": "我們在週末吃什錦火鍋。",
+        "vi": "Chúng ta ăn lẩu thập cẩm vào cuối tuần.",
+        "wordIds": [
+          "vi:023-vao",
+          "vi:074-an",
+          "vi:080-cuoi",
+          "vi:090-thap"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我們",
+            "vi": "chúng ta"
+          },
+          {
+            "zhTW": "什錦火鍋",
+            "vi": "lẩu thập cẩm"
+          },
+          {
+            "zhTW": "週末",
+            "vi": "cuối tuần"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Chúng ta",
+            "zhTW": "我們"
+          },
+          {
+            "role": "動作",
+            "vi": "ăn",
+            "zhTW": "吃"
+          },
+          {
+            "role": "核心",
+            "vi": "lẩu thập cẩm",
+            "zhTW": "什錦火鍋"
+          },
+          {
+            "role": "時間",
+            "vi": "vào cuối tuần",
+            "zhTW": "在週末"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-001-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-001-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-002",
+    "category": "food",
+    "title": {
+      "vi": "Bánh mì · Gỏi cuốn · Bún chả",
+      "zhTW": "越南法國麵包、生春捲、烤肉米線"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Bánh mì",
+          "zhTW": "越南法國麵包"
+        },
+        "zhTW": "這個法國麵包太脆太好吃了。",
+        "vi": "Bánh mì này giòn và ngon quá.",
+        "wordIds": [
+          "vi:002-va",
+          "vi:031-nay"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "法國麵包",
+            "vi": "bánh mì"
+          },
+          {
+            "zhTW": "酥脆",
+            "vi": "giòn"
+          },
+          {
+            "zhTW": "太好吃",
+            "vi": "ngon quá"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Bánh mì này",
+            "zhTW": "這個法國麵包"
+          },
+          {
+            "role": "描述",
+            "vi": "giòn",
+            "zhTW": "酥脆"
+          },
+          {
+            "role": "連接",
+            "vi": "và",
+            "zhTW": "而且"
+          },
+          {
+            "role": "感受",
+            "vi": "ngon quá",
+            "zhTW": "太好吃"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-002-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-002-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Gỏi cuốn",
+          "zhTW": "生春捲"
+        },
+        "zhTW": "生春捲有蝦、肉和很多蔬菜。",
+        "vi": "Gỏi cuốn có tôm, thịt và nhiều rau.",
+        "wordIds": [
+          "vi:002-va",
+          "vi:004-co"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "生春捲",
+            "vi": "gỏi cuốn"
+          },
+          {
+            "zhTW": "蝦",
+            "vi": "tôm"
+          },
+          {
+            "zhTW": "很多蔬菜",
+            "vi": "nhiều rau"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Gỏi cuốn",
+            "zhTW": "生春捲"
+          },
+          {
+            "role": "動作",
+            "vi": "có",
+            "zhTW": "有"
+          },
+          {
+            "role": "內容",
+            "vi": "tôm, thịt",
+            "zhTW": "蝦和肉"
+          },
+          {
+            "role": "內容",
+            "vi": "nhiều rau",
+            "zhTW": "很多蔬菜"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-002-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-002-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Bún chả",
+          "zhTW": "烤肉米線"
+        },
+        "zhTW": "烤肉米線的沾醬酸甜適中。",
+        "vi": "Nước chấm bún chả có vị chua ngọt vừa ăn.",
+        "wordIds": [
+          "vi:004-co",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "烤肉米線",
+            "vi": "bún chả"
+          },
+          {
+            "zhTW": "沾醬",
+            "vi": "nước chấm"
+          },
+          {
+            "zhTW": "酸甜",
+            "vi": "chua ngọt"
+          },
+          {
+            "zhTW": "適中",
+            "vi": "vừa ăn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Nước chấm bún chả",
+            "zhTW": "烤肉米線的沾醬"
+          },
+          {
+            "role": "動作",
+            "vi": "có vị",
+            "zhTW": "味道是"
+          },
+          {
+            "role": "核心",
+            "vi": "chua ngọt",
+            "zhTW": "酸甜"
+          },
+          {
+            "role": "狀態",
+            "vi": "vừa ăn",
+            "zhTW": "適中"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-002-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-002-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-003",
+    "category": "food",
+    "title": {
+      "vi": "Trà đá · Chè · Cơm tấm",
+      "zhTW": "冰茶、甜湯、碎米飯"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Trà đá",
+          "zhTW": "冰茶"
+        },
+        "zhTW": "給我一杯少糖的冰茶。",
+        "vi": "Cho tôi một ly trà đá ít đường.",
+        "wordIds": [
+          "vi:007-mot",
+          "vi:009-cho",
+          "vi:014-da",
+          "vi:068-cho"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "給我",
+            "vi": "cho tôi"
+          },
+          {
+            "zhTW": "一杯",
+            "vi": "một ly"
+          },
+          {
+            "zhTW": "冰茶",
+            "vi": "trà đá"
+          },
+          {
+            "zhTW": "少糖",
+            "vi": "ít đường"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Cho",
+            "zhTW": "給"
+          },
+          {
+            "role": "對象",
+            "vi": "tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "核心",
+            "vi": "một ly trà đá",
+            "zhTW": "一杯冰茶"
+          },
+          {
+            "role": "需求",
+            "vi": "ít đường",
+            "zhTW": "少糖"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-003-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-003-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Chè",
+          "zhTW": "甜湯"
+        },
+        "zhTW": "這個甜湯太甜了，我吃不下。",
+        "vi": "Món chè này ngọt quá, tôi không ăn được.",
+        "wordIds": [
+          "vi:005-khong",
+          "vi:010-duoc",
+          "vi:031-nay",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這道甜湯",
+            "vi": "món chè này"
+          },
+          {
+            "zhTW": "太甜",
+            "vi": "ngọt quá"
+          },
+          {
+            "zhTW": "吃不下",
+            "vi": "không ăn được"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Món chè này",
+            "zhTW": "這個甜湯"
+          },
+          {
+            "role": "狀態",
+            "vi": "ngọt quá",
+            "zhTW": "太甜"
+          },
+          {
+            "role": "主詞",
+            "vi": "tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "結果",
+            "vi": "không ăn được",
+            "zhTW": "吃不下"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-003-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-003-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Cơm tấm",
+          "zhTW": "碎米飯"
+        },
+        "zhTW": "烤排骨碎米飯是西貢的特色美食。",
+        "vi": "Cơm tấm sườn nướng là món ăn đặc trưng của Sài Gòn.",
+        "wordIds": [
+          "vi:001-la",
+          "vi:003-cua",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "烤排骨碎米飯",
+            "vi": "cơm tấm sườn nướng"
+          },
+          {
+            "zhTW": "特色美食",
+            "vi": "món ăn đặc trưng"
+          },
+          {
+            "zhTW": "西貢",
+            "vi": "Sài Gòn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Cơm tấm sườn nướng",
+            "zhTW": "烤排骨碎米飯"
+          },
+          {
+            "role": "判斷",
+            "vi": "là",
+            "zhTW": "是"
+          },
+          {
+            "role": "核心",
+            "vi": "món ăn đặc trưng",
+            "zhTW": "特色美食"
+          },
+          {
+            "role": "地點",
+            "vi": "Sài Gòn",
+            "zhTW": "西貢"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-003-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-003-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-004",
+    "category": "food",
+    "title": {
+      "vi": "Bún bò Huế · Nước mắm · Bánh chưng",
+      "zhTW": "順化牛肉麵、魚露、粽子"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Bún bò Huế",
+          "zhTW": "順化牛肉麵"
+        },
+        "zhTW": "順化牛肉麵有獨特的辛辣味。",
+        "vi": "Bún bò Huế có vị cay nồng đặc trưng.",
+        "wordIds": [
+          "vi:004-co"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "順化牛肉麵",
+            "vi": "bún bò Huế"
+          },
+          {
+            "zhTW": "辛辣",
+            "vi": "cay nồng"
+          },
+          {
+            "zhTW": "特色",
+            "vi": "đặc trưng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Bún bò Huế",
+            "zhTW": "順化牛肉麵"
+          },
+          {
+            "role": "動作",
+            "vi": "có vị",
+            "zhTW": "帶有味道"
+          },
+          {
+            "role": "核心",
+            "vi": "cay nồng",
+            "zhTW": "辛辣"
+          },
+          {
+            "role": "特色",
+            "vi": "đặc trưng",
+            "zhTW": "獨特"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-004-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-004-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Nước mắm",
+          "zhTW": "魚露"
+        },
+        "zhTW": "魚露是越南美食的靈魂。",
+        "vi": "Nước mắm là linh hồn của ẩm thực Việt Nam.",
+        "wordIds": [
+          "vi:001-la",
+          "vi:003-cua",
+          "vi:048-nam"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "魚露",
+            "vi": "nước mắm"
+          },
+          {
+            "zhTW": "靈魂",
+            "vi": "linh hồn"
+          },
+          {
+            "zhTW": "越南美食",
+            "vi": "ẩm thực Việt Nam"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Nước mắm",
+            "zhTW": "魚露"
+          },
+          {
+            "role": "判斷",
+            "vi": "là",
+            "zhTW": "是"
+          },
+          {
+            "role": "核心",
+            "vi": "linh hồn",
+            "zhTW": "靈魂"
+          },
+          {
+            "role": "範圍",
+            "vi": "ẩm thực Việt Nam",
+            "zhTW": "越南美食"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-004-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-004-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Bánh chưng",
+          "zhTW": "粽子"
+        },
+        "zhTW": "粽子是用冬葉包的。",
+        "vi": "Bánh chưng gói bằng lá dong.",
+        "wordIds": [
+          "vi:001-la"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "粽子",
+            "vi": "bánh chưng"
+          },
+          {
+            "zhTW": "包",
+            "vi": "gói"
+          },
+          {
+            "zhTW": "冬葉",
+            "vi": "lá dong"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Bánh chưng",
+            "zhTW": "粽子"
+          },
+          {
+            "role": "動作",
+            "vi": "gói",
+            "zhTW": "包"
+          },
+          {
+            "role": "方式",
+            "vi": "bằng",
+            "zhTW": "使用"
+          },
+          {
+            "role": "核心",
+            "vi": "lá dong",
+            "zhTW": "冬葉"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-004-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-004-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-005",
+    "category": "food",
+    "title": {
+      "vi": "Sinh tố · Rau muống xào tỏi · Hủ tiếu",
+      "zhTW": "果汁奶昔、大蒜炒空心菜、粿條"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Sinh tố",
+          "zhTW": "果汁奶昔"
+        },
+        "zhTW": "我想喝一杯酪梨奶昔。",
+        "vi": "Tôi muốn uống một ly sinh tố bơ.",
+        "wordIds": [
+          "vi:007-mot",
+          "vi:027-muon",
+          "vi:075-uong",
+          "vi:085-to"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想喝",
+            "vi": "muốn uống"
+          },
+          {
+            "zhTW": "一杯",
+            "vi": "một ly"
+          },
+          {
+            "zhTW": "酪梨奶昔",
+            "vi": "sinh tố bơ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "意願",
+            "vi": "muốn uống",
+            "zhTW": "想喝"
+          },
+          {
+            "role": "數量",
+            "vi": "một ly",
+            "zhTW": "一杯"
+          },
+          {
+            "role": "核心",
+            "vi": "sinh tố bơ",
+            "zhTW": "酪梨奶昔"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-005-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-005-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Rau muống xào tỏi",
+          "zhTW": "大蒜炒空心菜"
+        },
+        "zhTW": "大蒜炒空心菜香氣四溢。",
+        "vi": "Rau muống xào tỏi thơm phức.",
+        "wordIds": [],
+        "focusWords": [
+          {
+            "zhTW": "大蒜炒空心菜",
+            "vi": "rau muống xào tỏi"
+          },
+          {
+            "zhTW": "香氣四溢",
+            "vi": "thơm phức"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Rau muống xào tỏi",
+            "zhTW": "大蒜炒空心菜"
+          },
+          {
+            "role": "描述",
+            "vi": "thơm phức",
+            "zhTW": "香氣四溢"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-005-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-005-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Hủ tiếu",
+          "zhTW": "粿條"
+        },
+        "zhTW": "金邊粿條非常有名。",
+        "vi": "Hủ tiếu Nam Vang rất nổi tiếng.",
+        "wordIds": [
+          "vi:029-noi",
+          "vi:048-nam"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "金邊粿條",
+            "vi": "hủ tiếu Nam Vang"
+          },
+          {
+            "zhTW": "很有名",
+            "vi": "rất nổi tiếng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Hủ tiếu Nam Vang",
+            "zhTW": "金邊粿條"
+          },
+          {
+            "role": "狀態",
+            "vi": "rất nổi tiếng",
+            "zhTW": "非常有名"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-005-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-005-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-006",
+    "category": "food",
+    "title": {
+      "vi": "Bánh xèo · Cháo lòng · Bánh cuốn",
+      "zhTW": "越南煎餅、豬雜粥、粉卷"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Bánh xèo",
+          "zhTW": "越南煎餅"
+        },
+        "zhTW": "煎餅煎的時候發出滋滋的響聲。",
+        "vi": "Bánh xèo khi chiên có tiếng kêu xèo xèo.",
+        "wordIds": [
+          "vi:004-co",
+          "vi:020-khi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "越南煎餅",
+            "vi": "bánh xèo"
+          },
+          {
+            "zhTW": "煎的時候",
+            "vi": "khi chiên"
+          },
+          {
+            "zhTW": "滋滋聲",
+            "vi": "xèo xèo"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Bánh xèo",
+            "zhTW": "越南煎餅"
+          },
+          {
+            "role": "時間",
+            "vi": "khi chiên",
+            "zhTW": "煎的時候"
+          },
+          {
+            "role": "動作",
+            "vi": "có tiếng kêu",
+            "zhTW": "發出聲音"
+          },
+          {
+            "role": "聲音",
+            "vi": "xèo xèo",
+            "zhTW": "滋滋聲"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-006-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-006-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Cháo lòng",
+          "zhTW": "豬雜粥"
+        },
+        "zhTW": "在下雨天吃熱豬雜粥太棒了。",
+        "vi": "Ăn cháo lòng nóng vào ngày mưa rất tuyệt.",
+        "wordIds": [
+          "vi:023-vao",
+          "vi:047-ngay",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "熱豬雜粥",
+            "vi": "cháo lòng nóng"
+          },
+          {
+            "zhTW": "下雨天",
+            "vi": "ngày mưa"
+          },
+          {
+            "zhTW": "太棒了",
+            "vi": "rất tuyệt"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Ăn",
+            "zhTW": "吃"
+          },
+          {
+            "role": "核心",
+            "vi": "cháo lòng nóng",
+            "zhTW": "熱豬雜粥"
+          },
+          {
+            "role": "時間",
+            "vi": "vào ngày mưa",
+            "zhTW": "在下雨天"
+          },
+          {
+            "role": "感受",
+            "vi": "rất tuyệt",
+            "zhTW": "太棒了"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-006-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-006-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Bánh cuốn",
+          "zhTW": "粉卷"
+        },
+        "zhTW": "粉卷薄薄的，配著扎肉吃。",
+        "vi": "Bánh cuốn tráng mỏng ăn kèm chả lụa.",
+        "wordIds": [
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "粉卷",
+            "vi": "bánh cuốn"
+          },
+          {
+            "zhTW": "薄薄的",
+            "vi": "tráng mỏng"
+          },
+          {
+            "zhTW": "配著吃",
+            "vi": "ăn kèm"
+          },
+          {
+            "zhTW": "扎肉",
+            "vi": "chả lụa"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Bánh cuốn",
+            "zhTW": "粉卷"
+          },
+          {
+            "role": "描述",
+            "vi": "tráng mỏng",
+            "zhTW": "薄薄的"
+          },
+          {
+            "role": "動作",
+            "vi": "ăn kèm",
+            "zhTW": "配著吃"
+          },
+          {
+            "role": "核心",
+            "vi": "chả lụa",
+            "zhTW": "扎肉"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-006-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-006-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-007",
+    "category": "food",
+    "title": {
+      "vi": "Canh chua · Nem lụi · Chả cá Lã Vọng",
+      "zhTW": "酸湯、烤肉串、炙魚膾"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Canh chua",
+          "zhTW": "酸湯"
+        },
+        "zhTW": "鱧魚酸湯是用鳳梨和番茄煮的。",
+        "vi": "Canh chua cá lóc nấu với thơm và cà chua.",
+        "wordIds": [
+          "vi:002-va",
+          "vi:011-voi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "鱧魚酸湯",
+            "vi": "canh chua cá lóc"
+          },
+          {
+            "zhTW": "鳳梨",
+            "vi": "thơm"
+          },
+          {
+            "zhTW": "番茄",
+            "vi": "cà chua"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Canh chua cá lóc",
+            "zhTW": "鱧魚酸湯"
+          },
+          {
+            "role": "動作",
+            "vi": "nấu với",
+            "zhTW": "和…一起煮"
+          },
+          {
+            "role": "材料",
+            "vi": "thơm",
+            "zhTW": "鳳梨"
+          },
+          {
+            "role": "材料",
+            "vi": "cà chua",
+            "zhTW": "番茄"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-007-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-007-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Nem lụi",
+          "zhTW": "烤肉串"
+        },
+        "zhTW": "烤肉串在紅炭爐上烤。",
+        "vi": "Nem lụi nướng trên bếp than hồng.",
+        "wordIds": [
+          "vi:073-bep"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "烤肉串",
+            "vi": "nem lụi"
+          },
+          {
+            "zhTW": "烤",
+            "vi": "nướng"
+          },
+          {
+            "zhTW": "紅炭爐",
+            "vi": "bếp than hồng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Nem lụi",
+            "zhTW": "烤肉串"
+          },
+          {
+            "role": "動作",
+            "vi": "nướng",
+            "zhTW": "烤"
+          },
+          {
+            "role": "地點",
+            "vi": "trên bếp than hồng",
+            "zhTW": "在紅炭爐上"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-007-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-007-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Chả cá Lã Vọng",
+          "zhTW": "炙魚膾"
+        },
+        "zhTW": "炙魚膾配蒔蘿和蔥一起吃。",
+        "vi": "Chả cá Lã Vọng ăn kèm với thì là và hành lá.",
+        "wordIds": [
+          "vi:001-la",
+          "vi:002-va",
+          "vi:011-voi",
+          "vi:021-thi",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "炙魚膾",
+            "vi": "chả cá Lã Vọng"
+          },
+          {
+            "zhTW": "配著吃",
+            "vi": "ăn kèm"
+          },
+          {
+            "zhTW": "蒔蘿",
+            "vi": "thì là"
+          },
+          {
+            "zhTW": "青蔥",
+            "vi": "hành lá"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Chả cá Lã Vọng",
+            "zhTW": "炙魚膾"
+          },
+          {
+            "role": "動作",
+            "vi": "ăn kèm với",
+            "zhTW": "配著吃"
+          },
+          {
+            "role": "核心",
+            "vi": "thì là",
+            "zhTW": "蒔蘿"
+          },
+          {
+            "role": "核心",
+            "vi": "hành lá",
+            "zhTW": "青蔥"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-007-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-007-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-008",
+    "category": "food",
+    "title": {
+      "vi": "Nước dừa · Xôi · Bún riêu",
+      "zhTW": "椰子水、糯米飯、蟹膏米線"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Nước dừa",
+          "zhTW": "椰子水"
+        },
+        "zhTW": "椰子水自然清甜涼爽。",
+        "vi": "Nước dừa ngọt mát tự nhiên.",
+        "wordIds": [
+          "vi:053-mat",
+          "vi:054-mat",
+          "vi:093-tu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "椰子水",
+            "vi": "nước dừa"
+          },
+          {
+            "zhTW": "清甜涼爽",
+            "vi": "ngọt mát"
+          },
+          {
+            "zhTW": "自然",
+            "vi": "tự nhiên"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Nước dừa",
+            "zhTW": "椰子水"
+          },
+          {
+            "role": "描述",
+            "vi": "ngọt mát",
+            "zhTW": "清甜涼爽"
+          },
+          {
+            "role": "狀態",
+            "vi": "tự nhiên",
+            "zhTW": "自然"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-008-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-008-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Xôi",
+          "zhTW": "糯米飯"
+        },
+        "zhTW": "木鱉果糯米飯有很漂亮的紅色。",
+        "vi": "Xôi gấc có màu đỏ rất đẹp.",
+        "wordIds": [
+          "vi:004-co",
+          "vi:032-do",
+          "vi:082-dep"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "木鱉果糯米飯",
+            "vi": "xôi gấc"
+          },
+          {
+            "zhTW": "紅色",
+            "vi": "màu đỏ"
+          },
+          {
+            "zhTW": "很漂亮",
+            "vi": "rất đẹp"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Xôi gấc",
+            "zhTW": "木鱉果糯米飯"
+          },
+          {
+            "role": "動作",
+            "vi": "có",
+            "zhTW": "有"
+          },
+          {
+            "role": "核心",
+            "vi": "màu đỏ",
+            "zhTW": "紅色"
+          },
+          {
+            "role": "狀態",
+            "vi": "rất đẹp",
+            "zhTW": "很漂亮"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-008-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-008-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Bún riêu",
+          "zhTW": "蟹膏米線"
+        },
+        "zhTW": "蟹膏米線有來自蟹膏的清甜味。",
+        "vi": "Bún riêu cua có vị ngọt thanh từ gạch cua.",
+        "wordIds": [
+          "vi:003-cua",
+          "vi:004-co",
+          "vi:093-tu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "蟹膏米線",
+            "vi": "bún riêu cua"
+          },
+          {
+            "zhTW": "清甜",
+            "vi": "ngọt thanh"
+          },
+          {
+            "zhTW": "蟹膏",
+            "vi": "gạch cua"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Bún riêu cua",
+            "zhTW": "蟹膏米線"
+          },
+          {
+            "role": "動作",
+            "vi": "có vị",
+            "zhTW": "帶有味道"
+          },
+          {
+            "role": "核心",
+            "vi": "ngọt thanh",
+            "zhTW": "清甜"
+          },
+          {
+            "role": "來源",
+            "vi": "từ gạch cua",
+            "zhTW": "來自蟹膏"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-008-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-008-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-009",
+    "category": "food",
+    "title": {
+      "vi": "Thịt kho tộ · Bánh mì kẹp kem · Chè trôi nước",
+      "zhTW": "砂鍋燉肉、麵包夾冰淇淋、湯圓"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Thịt kho tộ",
+          "zhTW": "砂鍋燉肉"
+        },
+        "zhTW": "砂鍋燉肉是在土鍋裡燉的。",
+        "vi": "Thịt kho tộ được kho trong nồi đất.",
+        "wordIds": [
+          "vi:006-trong",
+          "vi:010-duoc",
+          "vi:029-noi",
+          "vi:085-to"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "砂鍋燉肉",
+            "vi": "thịt kho tộ"
+          },
+          {
+            "zhTW": "燉",
+            "vi": "kho"
+          },
+          {
+            "zhTW": "土鍋",
+            "vi": "nồi đất"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Thịt kho tộ",
+            "zhTW": "砂鍋燉肉"
+          },
+          {
+            "role": "動作",
+            "vi": "được kho",
+            "zhTW": "被燉煮"
+          },
+          {
+            "role": "地點",
+            "vi": "trong nồi đất",
+            "zhTW": "在土鍋裡"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-009-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-009-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Bánh mì kẹp kem",
+          "zhTW": "麵包夾冰淇淋"
+        },
+        "zhTW": "小孩子喜歡吃麵包夾冰淇淋。",
+        "vi": "Trẻ em thích ăn bánh mì kẹp kem.",
+        "wordIds": [
+          "vi:045-em",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "小孩子",
+            "vi": "trẻ em"
+          },
+          {
+            "zhTW": "喜歡吃",
+            "vi": "thích ăn"
+          },
+          {
+            "zhTW": "麵包夾冰淇淋",
+            "vi": "bánh mì kẹp kem"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Trẻ em",
+            "zhTW": "小孩子"
+          },
+          {
+            "role": "動作",
+            "vi": "thích ăn",
+            "zhTW": "喜歡吃"
+          },
+          {
+            "role": "核心",
+            "vi": "bánh mì kẹp kem",
+            "zhTW": "麵包夾冰淇淋"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-009-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-009-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Chè trôi nước",
+          "zhTW": "湯圓"
+        },
+        "zhTW": "湯圓配薑糖水吃。",
+        "vi": "Chè trôi nước ăn với nước đường gừng.",
+        "wordIds": [
+          "vi:011-voi",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "湯圓",
+            "vi": "chè trôi nước"
+          },
+          {
+            "zhTW": "配著吃",
+            "vi": "ăn với"
+          },
+          {
+            "zhTW": "薑糖水",
+            "vi": "nước đường gừng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Chè trôi nước",
+            "zhTW": "湯圓"
+          },
+          {
+            "role": "動作",
+            "vi": "ăn với",
+            "zhTW": "配著吃"
+          },
+          {
+            "role": "核心",
+            "vi": "nước đường gừng",
+            "zhTW": "薑糖水"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-009-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-009-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "food-010",
+    "category": "food",
+    "title": {
+      "vi": "Mì tôm · Gà nướng lu · Sữa chua nếp cẩm",
+      "zhTW": "泡麵、甕仔雞、黑糯米優格"
+    },
+    "durationSec": 30,
+    "status": "published",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Mì tôm",
+          "zhTW": "泡麵"
+        },
+        "zhTW": "泡麵是半夜救飢的美食。",
+        "vi": "Mì tôm là món ăn cứu đói lúc nửa đêm.",
+        "wordIds": [
+          "vi:001-la",
+          "vi:040-doi",
+          "vi:074-an"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "泡麵",
+            "vi": "mì tôm"
+          },
+          {
+            "zhTW": "救飢",
+            "vi": "cứu đói"
+          },
+          {
+            "zhTW": "半夜",
+            "vi": "nửa đêm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Mì tôm",
+            "zhTW": "泡麵"
+          },
+          {
+            "role": "判斷",
+            "vi": "là",
+            "zhTW": "是"
+          },
+          {
+            "role": "核心",
+            "vi": "món ăn cứu đói",
+            "zhTW": "救飢的美食"
+          },
+          {
+            "role": "時間",
+            "vi": "lúc nửa đêm",
+            "zhTW": "半夜"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-010-1-zh.mp3",
+          "vi": "assets/audio/lessons/food-010-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Gà nướng lu",
+          "zhTW": "甕仔雞"
+        },
+        "zhTW": "甕仔雞皮脆肉嫩。",
+        "vi": "Gà nướng lu có da giòn, thịt mềm.",
+        "wordIds": [
+          "vi:004-co",
+          "vi:014-da"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "甕仔雞",
+            "vi": "gà nướng lu"
+          },
+          {
+            "zhTW": "皮脆",
+            "vi": "da giòn"
+          },
+          {
+            "zhTW": "肉嫩",
+            "vi": "thịt mềm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Gà nướng lu",
+            "zhTW": "甕仔雞"
+          },
+          {
+            "role": "動作",
+            "vi": "có",
+            "zhTW": "有"
+          },
+          {
+            "role": "描述",
+            "vi": "da giòn",
+            "zhTW": "皮脆"
+          },
+          {
+            "role": "描述",
+            "vi": "thịt mềm",
+            "zhTW": "肉嫩"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-010-2-zh.mp3",
+          "vi": "assets/audio/lessons/food-010-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Sữa chua nếp cẩm",
+          "zhTW": "黑糯米優格"
+        },
+        "zhTW": "黑糯米優格又酸又甜。",
+        "vi": "Sữa chua nếp cẩm vừa chua vừa ngọt.",
+        "wordIds": [],
+        "focusWords": [
+          {
+            "zhTW": "黑糯米優格",
+            "vi": "sữa chua nếp cẩm"
+          },
+          {
+            "zhTW": "又酸又甜",
+            "vi": "vừa chua vừa ngọt"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Sữa chua nếp cẩm",
+            "zhTW": "黑糯米優格"
+          },
+          {
+            "role": "句型",
+            "vi": "vừa chua vừa ngọt",
+            "zhTW": "又酸又甜"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/lessons/food-010-3-zh.mp3",
+          "vi": "assets/audio/lessons/food-010-3-vi.mp3"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,430 @@
+{
+  "id": "shopping",
+  "category": "shopping",
+  "status": "reviewed",
+  "expectedLessons": 8,
+  "requiredCoreRange": [201, 220],
+  "title": {
+    "vi": "Mua sắm và thanh toán",
+    "zhTW": "購物與付款"
+  },
+  "lessons": [
+    {
+      "id": "shopping-001",
+      "title": { "vi": "Tìm nơi mua hàng", "zhTW": "尋找商店" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Mua nước", "zhTW": "買水" },
+          "zhTW": "我想買一瓶水。",
+          "vi": "Tôi muốn mua một chai nước.",
+          "wordRanks": [201, 206],
+          "focusWords": [
+            { "zhTW": "想買", "vi": "muốn mua" },
+            { "zhTW": "一瓶水", "vi": "một chai nước" }
+          ],
+          "breakdown": [
+            { "role": "意願", "vi": "Tôi muốn mua", "zhTW": "我想買" },
+            { "role": "數量", "vi": "một chai nước", "zhTW": "一瓶水" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Cửa hàng đặc sản", "zhTW": "特產店" },
+          "zhTW": "這家商店賣越南特產。",
+          "vi": "Cửa hàng này bán đặc sản Việt Nam.",
+          "wordRanks": [202, 203],
+          "focusWords": [
+            { "zhTW": "這家商店", "vi": "cửa hàng này" },
+            { "zhTW": "賣越南特產", "vi": "bán đặc sản Việt Nam" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Cửa hàng này", "zhTW": "這家商店" },
+            { "role": "商品", "vi": "bán đặc sản Việt Nam", "zhTW": "賣越南特產" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Siêu thị", "zhTW": "超市" },
+          "zhTW": "最近的超市在哪裡？",
+          "vi": "Siêu thị gần nhất ở đâu?",
+          "wordRanks": [204],
+          "focusWords": [
+            { "zhTW": "最近的超市", "vi": "siêu thị gần nhất" },
+            { "zhTW": "在哪裡", "vi": "ở đâu" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Siêu thị gần nhất", "zhTW": "最近的超市" },
+            { "role": "提問", "vi": "ở đâu", "zhTW": "在哪裡" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-002",
+      "title": { "vi": "Số lượng", "zhTW": "數量與單位" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Một ly cà phê", "zhTW": "一杯咖啡" },
+          "zhTW": "請給我一杯冰越南奶咖啡。",
+          "vi": "Cho tôi một ly cà phê sữa đá.",
+          "wordRanks": [207],
+          "focusWords": [
+            { "zhTW": "請給我", "vi": "cho tôi" },
+            { "zhTW": "一杯冰越南奶咖啡", "vi": "một ly cà phê sữa đá" }
+          ],
+          "breakdown": [
+            { "role": "請求", "vi": "Cho tôi", "zhTW": "請給我" },
+            { "role": "品項", "vi": "một ly cà phê sữa đá", "zhTW": "一杯冰越南奶咖啡" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Một ký xoài", "zhTW": "一公斤芒果" },
+          "zhTW": "我想買一公斤芒果。",
+          "vi": "Tôi muốn mua một ký xoài.",
+          "wordRanks": [201, 208],
+          "focusWords": [
+            { "zhTW": "想買", "vi": "muốn mua" },
+            { "zhTW": "一公斤芒果", "vi": "một ký xoài" }
+          ],
+          "breakdown": [
+            { "role": "意願", "vi": "Tôi muốn mua", "zhTW": "我想買" },
+            { "role": "重量", "vi": "một ký xoài", "zhTW": "一公斤芒果" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Cơm gà", "zhTW": "雞肉飯" },
+          "zhTW": "我想吃一盤雞肉飯。",
+          "vi": "Tôi muốn ăn một đĩa cơm gà.",
+          "wordRanks": [209],
+          "focusWords": [
+            { "zhTW": "想吃", "vi": "muốn ăn" },
+            { "zhTW": "一盤雞肉飯", "vi": "một đĩa cơm gà" }
+          ],
+          "breakdown": [
+            { "role": "意願", "vi": "Tôi muốn ăn", "zhTW": "我想吃" },
+            { "role": "餐點", "vi": "một đĩa cơm gà", "zhTW": "一盤雞肉飯" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-003",
+      "title": { "vi": "Màu sắc và thử đồ", "zhTW": "顏色與試穿" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Chọn màu", "zhTW": "選顏色" },
+          "zhTW": "你喜歡哪個顏色？",
+          "vi": "Bạn thích màu nào?",
+          "wordRanks": [210],
+          "focusWords": [
+            { "zhTW": "你喜歡", "vi": "bạn thích" },
+            { "zhTW": "哪個顏色", "vi": "màu nào" }
+          ],
+          "breakdown": [
+            { "role": "偏好", "vi": "Bạn thích", "zhTW": "你喜歡" },
+            { "role": "選項", "vi": "màu nào", "zhTW": "哪個顏色" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Thử áo", "zhTW": "試穿衣服" },
+          "zhTW": "我可以試穿這件衣服嗎？",
+          "vi": "Tôi có thể thử cái áo này không?",
+          "wordRanks": [211],
+          "focusWords": [
+            { "zhTW": "可以試穿嗎", "vi": "có thể thử" },
+            { "zhTW": "這件衣服", "vi": "cái áo này" }
+          ],
+          "breakdown": [
+            { "role": "許可", "vi": "Tôi có thể thử", "zhTW": "我可以試穿" },
+            { "role": "物品", "vi": "cái áo này", "zhTW": "這件衣服" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Chưa biết chọn", "zhTW": "還沒選好" },
+          "zhTW": "我還不知道要選哪個顏色。",
+          "vi": "Tôi chưa biết chọn màu nào.",
+          "wordRanks": [210, 212],
+          "focusWords": [
+            { "zhTW": "還不知道", "vi": "chưa biết" },
+            { "zhTW": "選哪個顏色", "vi": "chọn màu nào" }
+          ],
+          "breakdown": [
+            { "role": "狀態", "vi": "Tôi chưa biết", "zhTW": "我還不知道" },
+            { "role": "選擇", "vi": "chọn màu nào", "zhTW": "選哪個顏色" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-004",
+      "title": { "vi": "Chọn món", "zhTW": "選擇餐點" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Món cay", "zhTW": "辣的菜" },
+          "zhTW": "這道菜會辣嗎？",
+          "vi": "Món này có cay không?",
+          "wordRanks": [205],
+          "focusWords": [
+            { "zhTW": "這道菜", "vi": "món này" },
+            { "zhTW": "會辣嗎", "vi": "có cay không" }
+          ],
+          "breakdown": [
+            { "role": "餐點", "vi": "Món này", "zhTW": "這道菜" },
+            { "role": "提問", "vi": "có cay không", "zhTW": "會辣嗎" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Gọi thêm món", "zhTW": "加點一道菜" },
+          "zhTW": "我要再點一道菜。",
+          "vi": "Cho tôi gọi thêm một món nữa.",
+          "wordRanks": [205],
+          "focusWords": [
+            { "zhTW": "讓我再點", "vi": "cho tôi gọi thêm" },
+            { "zhTW": "一道菜", "vi": "một món nữa" }
+          ],
+          "breakdown": [
+            { "role": "請求", "vi": "Cho tôi gọi thêm", "zhTW": "讓我再點" },
+            { "role": "數量", "vi": "một món nữa", "zhTW": "一道菜" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Bạn chọn món nào", "zhTW": "你選哪道菜" },
+          "zhTW": "你選哪一道菜？",
+          "vi": "Bạn chọn món nào?",
+          "wordRanks": [205, 212],
+          "focusWords": [
+            { "zhTW": "你選", "vi": "bạn chọn" },
+            { "zhTW": "哪一道菜", "vi": "món nào" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Bạn chọn", "zhTW": "你選" },
+            { "role": "選項", "vi": "món nào", "zhTW": "哪一道菜" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-005",
+      "title": { "vi": "Cách thanh toán", "zhTW": "選擇付款方式" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Thanh toán", "zhTW": "結帳" },
+          "zhTW": "我想結帳。",
+          "vi": "Tôi muốn thanh toán.",
+          "wordRanks": [213],
+          "focusWords": [
+            { "zhTW": "我想", "vi": "tôi muốn" },
+            { "zhTW": "結帳", "vi": "thanh toán" }
+          ],
+          "breakdown": [
+            { "role": "意願", "vi": "Tôi muốn", "zhTW": "我想" },
+            { "role": "動作", "vi": "thanh toán", "zhTW": "結帳" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Tiền mặt", "zhTW": "現金" },
+          "zhTW": "我會付現金。",
+          "vi": "Tôi sẽ trả bằng tiền mặt.",
+          "wordRanks": [214],
+          "focusWords": [
+            { "zhTW": "我會付", "vi": "tôi sẽ trả" },
+            { "zhTW": "用現金", "vi": "bằng tiền mặt" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Tôi sẽ trả", "zhTW": "我會付" },
+            { "role": "方式", "vi": "bằng tiền mặt", "zhTW": "用現金" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Trả bằng thẻ", "zhTW": "刷卡" },
+          "zhTW": "我可以刷卡嗎？",
+          "vi": "Tôi có thể trả bằng thẻ không?",
+          "wordRanks": [215],
+          "focusWords": [
+            { "zhTW": "我可以付嗎", "vi": "tôi có thể trả" },
+            { "zhTW": "用卡片", "vi": "bằng thẻ" }
+          ],
+          "breakdown": [
+            { "role": "許可", "vi": "Tôi có thể trả", "zhTW": "我可以付" },
+            { "role": "方式", "vi": "bằng thẻ", "zhTW": "用卡片" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-006",
+      "title": { "vi": "Kiểm tra hóa đơn", "zhTW": "確認帳單" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Xin hóa đơn", "zhTW": "索取帳單" },
+          "zhTW": "請給我帳單。",
+          "vi": "Cho tôi xin hóa đơn.",
+          "wordRanks": [216],
+          "focusWords": [
+            { "zhTW": "請給我", "vi": "cho tôi xin" },
+            { "zhTW": "帳單", "vi": "hóa đơn" }
+          ],
+          "breakdown": [
+            { "role": "請求", "vi": "Cho tôi xin", "zhTW": "請給我" },
+            { "role": "物品", "vi": "hóa đơn", "zhTW": "帳單" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Kiểm tra lại", "zhTW": "重新確認" },
+          "zhTW": "請幫我再確認一次帳單。",
+          "vi": "Xin kiểm tra lại hóa đơn giúp tôi.",
+          "wordRanks": [216],
+          "focusWords": [
+            { "zhTW": "重新確認", "vi": "kiểm tra lại" },
+            { "zhTW": "幫我確認帳單", "vi": "hóa đơn giúp tôi" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Xin kiểm tra lại", "zhTW": "請重新確認" },
+            { "role": "內容", "vi": "hóa đơn", "zhTW": "帳單" },
+            { "role": "對象", "vi": "giúp tôi", "zhTW": "幫我" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Món không gọi", "zhTW": "沒點的菜" },
+          "zhTW": "這張帳單上有一道我沒點的菜。",
+          "vi": "Hóa đơn này có một món tôi không gọi.",
+          "wordRanks": [205, 216],
+          "focusWords": [
+            { "zhTW": "這張帳單", "vi": "hóa đơn này" },
+            { "zhTW": "一道菜", "vi": "một món" },
+            { "zhTW": "我沒點", "vi": "tôi không gọi" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Hóa đơn này", "zhTW": "這張帳單" },
+            { "role": "問題", "vi": "có một món tôi không gọi", "zhTW": "有一道我沒點的菜" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-007",
+      "title": { "vi": "Đổi và trả hàng", "zhTW": "換貨與退貨" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đổi hàng", "zhTW": "換貨" },
+          "zhTW": "我可以換這個嗎？",
+          "vi": "Tôi có thể đổi cái này không?",
+          "wordRanks": [217],
+          "focusWords": [
+            { "zhTW": "可以換嗎", "vi": "có thể đổi" },
+            { "zhTW": "這個", "vi": "cái này" }
+          ],
+          "breakdown": [
+            { "role": "許可", "vi": "Tôi có thể đổi", "zhTW": "我可以換" },
+            { "role": "物品", "vi": "cái này", "zhTW": "這個" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Trả lại hàng", "zhTW": "退貨" },
+          "zhTW": "我想退掉這件商品。",
+          "vi": "Tôi muốn trả lại món hàng này.",
+          "wordRanks": [205, 218],
+          "focusWords": [
+            { "zhTW": "想退貨", "vi": "muốn trả lại" },
+            { "zhTW": "這件商品", "vi": "món hàng này" }
+          ],
+          "breakdown": [
+            { "role": "意願", "vi": "Tôi muốn trả lại", "zhTW": "我想退掉" },
+            { "role": "物品", "vi": "món hàng này", "zhTW": "這件商品" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đổi tiền", "zhTW": "換錢" },
+          "zhTW": "哪裡可以換錢？",
+          "vi": "Ở đâu có thể đổi tiền?",
+          "wordRanks": [217],
+          "focusWords": [
+            { "zhTW": "哪裡", "vi": "ở đâu" },
+            { "zhTW": "可以換錢", "vi": "có thể đổi tiền" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Ở đâu", "zhTW": "哪裡" },
+            { "role": "動作", "vi": "có thể đổi tiền", "zhTW": "可以換錢" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping-008",
+      "title": { "vi": "Giờ mở cửa và đóng gói", "zhTW": "營業時間與打包" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Giờ mở cửa", "zhTW": "開門時間" },
+          "zhTW": "商店幾點開門？",
+          "vi": "Cửa hàng mở cửa lúc mấy giờ?",
+          "wordRanks": [203, 219],
+          "focusWords": [
+            { "zhTW": "商店開門", "vi": "cửa hàng mở cửa" },
+            { "zhTW": "幾點", "vi": "lúc mấy giờ" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Cửa hàng", "zhTW": "商店" },
+            { "role": "動作", "vi": "mở cửa", "zhTW": "開門" },
+            { "role": "時間", "vi": "lúc mấy giờ", "zhTW": "幾點" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Đã đóng cửa", "zhTW": "已經關門" },
+          "zhTW": "商店已經關門了。",
+          "vi": "Cửa hàng đã đóng rồi.",
+          "wordRanks": [203, 220],
+          "focusWords": [
+            { "zhTW": "商店", "vi": "cửa hàng" },
+            { "zhTW": "已經關門", "vi": "đã đóng rồi" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Cửa hàng", "zhTW": "商店" },
+            { "role": "狀態", "vi": "đã đóng rồi", "zhTW": "已經關門了" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đóng gói", "zhTW": "打包" },
+          "zhTW": "你可以幫我把這個包起來嗎？",
+          "vi": "Bạn có thể đóng gói món này giúp tôi không?",
+          "wordRanks": [205, 220],
+          "focusWords": [
+            { "zhTW": "可以打包嗎", "vi": "có thể đóng gói" },
+            { "zhTW": "這個", "vi": "món này" },
+            { "zhTW": "幫我", "vi": "giúp tôi" }
+          ],
+          "breakdown": [
+            { "role": "請求", "vi": "Bạn có thể đóng gói", "zhTW": "你可以打包" },
+            { "role": "物品", "vi": "món này", "zhTW": "這個" },
+            { "role": "對象", "vi": "giúp tôi", "zhTW": "幫我" },
+            { "role": "疑問", "vi": "không", "zhTW": "嗎" }
+          ]
+        }
+      ]
+    }
+  ]
+}

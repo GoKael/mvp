@@ -1,0 +1,391 @@
+{
+  "model": "gemini-2.5-pro-tts",
+  "status": "reviewed",
+  "expected": 48,
+  "assets": [
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你怎麼了？我可以幫忙嗎？",
+      "output": "assets/audio/candidates/health/health-001-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn sao vậy? Tôi có thể giúp không?",
+      "output": "assets/audio/candidates/health/health-001-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我需要一條乾淨的毛巾。",
+      "output": "assets/audio/candidates/health/health-001-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi cần một chiếc khăn sạch.",
+      "output": "assets/audio/candidates/health/health-001-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我正在找洗手間。",
+      "output": "assets/audio/candidates/health/health-001-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi đang tìm nhà vệ sinh.",
+      "output": "assets/audio/candidates/health/health-001-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請等我一下。",
+      "output": "assets/audio/candidates/health/health-002-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin đợi tôi một chút.",
+      "output": "assets/audio/candidates/health/health-002-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "記得帶護照。",
+      "output": "assets/audio/candidates/health/health-002-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn nhớ mang theo hộ chiếu.",
+      "output": "assets/audio/candidates/health/health-002-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我去拿行李。",
+      "output": "assets/audio/candidates/health/health-002-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi đi lấy hành lý.",
+      "output": "assets/audio/candidates/health/health-002-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請帶我到這個地址。",
+      "output": "assets/audio/candidates/health/health-003-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin đưa tôi đến địa chỉ này.",
+      "output": "assets/audio/candidates/health/health-003-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我使用這台機器時遇到問題。",
+      "output": "assets/audio/candidates/health/health-003-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi gặp vấn đề khi dùng máy này.",
+      "output": "assets/audio/candidates/health/health-003-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請幫我叫一輛計程車。",
+      "output": "assets/audio/candidates/health/health-003-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin gọi giúp tôi một chiếc taxi.",
+      "output": "assets/audio/candidates/health/health-003-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我不懂這句話。",
+      "output": "assets/audio/candidates/health/health-004-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi không hiểu câu này.",
+      "output": "assets/audio/candidates/health/health-004-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我聽不清楚。",
+      "output": "assets/audio/candidates/health/health-004-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi nghe không rõ.",
+      "output": "assets/audio/candidates/health/health-004-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請說慢一點，再說一次。",
+      "output": "assets/audio/candidates/health/health-004-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin nói chậm và lặp lại một lần nữa.",
+      "output": "assets/audio/candidates/health/health-004-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "救救我！",
+      "output": "assets/audio/candidates/health/health-005-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cứu tôi với!",
+      "output": "assets/audio/candidates/health/health-005-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這個地區晚上很危險。",
+      "output": "assets/audio/candidates/health/health-005-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Khu vực này rất nguy hiểm vào ban đêm.",
+      "output": "assets/audio/candidates/health/health-005-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請幫我報警。",
+      "output": "assets/audio/candidates/health/health-005-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin gọi cảnh sát giúp tôi.",
+      "output": "assets/audio/candidates/health/health-005-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請帶我去醫院。",
+      "output": "assets/audio/candidates/health/health-006-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin đưa tôi đến bệnh viện.",
+      "output": "assets/audio/candidates/health/health-006-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我需要看醫生。",
+      "output": "assets/audio/candidates/health/health-006-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi cần gặp bác sĩ.",
+      "output": "assets/audio/candidates/health/health-006-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請立刻叫救護車。",
+      "output": "assets/audio/candidates/health/health-006-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin gọi xe cấp cứu ngay.",
+      "output": "assets/audio/candidates/health/health-006-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我有點頭痛和頭暈。",
+      "output": "assets/audio/candidates/health/health-007-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi hơi đau đầu và chóng mặt.",
+      "output": "assets/audio/candidates/health/health-007-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我吃完東西後肚子痛。",
+      "output": "assets/audio/candidates/health/health-007-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi bị đau bụng sau khi ăn.",
+      "output": "assets/audio/candidates/health/health-007-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我從昨晚開始發燒和咳嗽。",
+      "output": "assets/audio/candidates/health/health-007-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi bị sốt và ho từ tối qua.",
+      "output": "assets/audio/candidates/health/health-007-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我對花生過敏。",
+      "output": "assets/audio/candidates/health/health-008-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi bị dị ứng với đậu phộng.",
+      "output": "assets/audio/candidates/health/health-008-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我吃藥後已經好多了。",
+      "output": "assets/audio/candidates/health/health-008-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi đã khỏe hơn sau khi uống thuốc.",
+      "output": "assets/audio/candidates/health/health-008-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "最近的藥局在哪裡？",
+      "output": "assets/audio/candidates/health/health-008-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Nhà thuốc gần nhất ở đâu?",
+      "output": "assets/audio/candidates/health/health-008-3-vi.mp3",
+      "generated": true
+    }
+  ]
+}

@@ -1,43 +1,38 @@
-let latestSubtitle = null;
-let lastSavedKey = '';
-let lastSavedAt = 0;
+const MENU_ID = 'lexa-add-selection';
+const STORAGE_KEY = 'lexaCapturedPhrases';
 
-chrome.action.onClicked.addListener(() => {
-  chrome.tabs.create({
-    url: 'dashboard/index.html'
+function openLexa(route = 'words') {
+  chrome.tabs.create({ url: chrome.runtime.getURL(`index.html#/${route}`) });
+}
+
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.contextMenus.removeAll(() => {
+    chrome.contextMenus.create({
+      id: MENU_ID,
+      title: '加入 Lexa 學習佇列：「%s」',
+      contexts: ['selection'],
+    });
   });
 });
 
-chrome.runtime.onMessage.addListener((message) => {
-  if (!message || message.type !== 'NEW_SUBTITLE' || !message.data) return;
+chrome.action.onClicked.addListener(() => openLexa('today'));
 
-  const text = (message.data.text || '').trim();
-  const title = (message.data.title || '').trim();
-  const url = (message.data.url || '').trim();
-
+chrome.contextMenus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId !== MENU_ID) return;
+  const text = String(info.selectionText || '').trim();
   if (!text) return;
 
-  latestSubtitle = {
-    text,
-    title,
-    url,
-    time: message.data.time || 0,
-    capturedAt: Date.now()
-  };
-
-  chrome.storage.local.set({ latestSubtitle });
-
-  const dedupeKey = `${title}__${text}`;
-  const now = Date.now();
-  if (dedupeKey === lastSavedKey && now - lastSavedAt < 2500) return;
-
-  lastSavedKey = dedupeKey;
-  lastSavedAt = now;
-
-  chrome.storage.local.get(['capturedWords'], result => {
-    const capturedWords = result.capturedWords || [];
-    const newWord = { text, title, url, capturedAt: Date.now() };
-    capturedWords.push(newWord);
-    chrome.storage.local.set({ capturedWords });
+  chrome.storage.local.get({ [STORAGE_KEY]: [] }, (result) => {
+    const entries = Array.isArray(result[STORAGE_KEY]) ? result[STORAGE_KEY] : [];
+    const capturedAt = Date.now();
+    const entry = {
+      id: `capture:${capturedAt}`,
+      text,
+      title: tab?.title || '',
+      url: tab?.url || '',
+      capturedAt,
+    };
+    const next = [entry, ...entries.filter((item) => item.text !== text || item.url !== entry.url)].slice(0, 100);
+    chrome.storage.local.set({ [STORAGE_KEY]: next }, () => openLexa('words'));
   });
 });

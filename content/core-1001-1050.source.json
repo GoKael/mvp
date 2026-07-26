@@ -1,0 +1,1052 @@
+[
+  {
+    "rank": 1001,
+    "vi": "những",
+    "zhTW": "這些；那些；一些",
+    "pos": "限定詞",
+    "examples": [
+      {
+        "vi": "Những cuốn sách này đều rất hay.",
+        "zhTW": "這些書都很好看。"
+      },
+      {
+        "vi": "Tôi đã trải qua những năm tháng khó khăn.",
+        "zhTW": "我經歷了那些艱困的歲月。"
+      },
+      {
+        "vi": "Anh ấy đã kể cho tôi nghe những câu chuyện thú vị.",
+        "zhTW": "他講了一些有趣的故事給我聽。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1002,
+    "vi": "cô",
+    "zhTW": "姑姑；小姐；老師（女）",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Cô tôi là giáo viên dạy tiếng Anh.",
+        "zhTW": "我姑姑是英文老師。"
+      },
+      {
+        "vi": "Cô ơi, cho tôi một ly cà phê sữa đá.",
+        "zhTW": "小姐，請給我一杯冰煉乳咖啡。"
+      },
+      {
+        "vi": "Thưa cô, em có câu hỏi ạ.",
+        "zhTW": "報告老師，我有問題。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1003,
+    "vi": "như",
+    "zhTW": "像；如同；例如",
+    "pos": "介系詞／連接詞",
+    "examples": [
+      {
+        "vi": "Anh ấy nhanh như một con báo.",
+        "zhTW": "他快得像一隻豹。"
+      },
+      {
+        "vi": "Cuộc sống không phải lúc nào cũng như chúng ta mong muốn.",
+        "zhTW": "生活不總是如我們所願。"
+      },
+      {
+        "vi": "Tôi thích các môn thể thao như bóng đá và bơi lội.",
+        "zhTW": "我喜歡足球和游泳之類的運動。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1004,
+    "vi": "điều",
+    "zhTW": "事情；事物；條款；調動",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Điều quan trọng nhất là sức khỏe.",
+        "zhTW": "最重要的事情是健康。"
+      },
+      {
+        "vi": "Công ty quyết định điều anh ấy sang chi nhánh mới.",
+        "zhTW": "公司決定將他調到新的分公司。"
+      },
+      {
+        "vi": "Bạn có điều gì muốn nói với tôi không?",
+        "zhTW": "你有什麼事想跟我說嗎？"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1005,
+    "vi": "thế",
+    "zhTW": "代替；替換；抵押；形勢",
+    "pos": "動詞／名詞",
+    "examples": [
+      {
+        "vi": "Không ai có thể thế được vị trí của bạn trong lòng tôi.",
+        "zhTW": "沒有人能代替你在我心中的位置。"
+      },
+      {
+        "vi": "Anh ấy phải thế chấp nhà để vay vốn làm ăn.",
+        "zhTW": "他必須抵押房子來貸款做生意。"
+      },
+      {
+        "vi": "Đội bóng của chúng ta đang ở trong một thế rất khó khăn.",
+        "zhTW": "我們的球隊正處於一個非常艱困的形勢。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1006,
+    "vi": "thứ",
+    "zhTW": "第；種；類；東西",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Hôm nay là thứ mấy?",
+        "zhTW": "今天是星期幾？"
+      },
+      {
+        "vi": "Đây là lần thứ ba tôi đến Hà Nội.",
+        "zhTW": "這是我第三次來河內。"
+      },
+      {
+        "vi": "Bạn thích ăn thứ quả gì nhất?",
+        "zhTW": "你最喜歡吃哪種水果？"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1007,
+    "vi": "mọi",
+    "zhTW": "每一個；所有的",
+    "pos": "限定詞",
+    "examples": [
+      {
+        "vi": "Mọi người đều có quyền tự do ngôn luận.",
+        "zhTW": "每個人都有言論自由的權利。"
+      },
+      {
+        "vi": "Tôi đã chuẩn bị mọi thứ cần thiết cho chuyến đi.",
+        "zhTW": "我已經準備好旅行所需的所有東西。"
+      },
+      {
+        "vi": "Chúc bạn mọi điều tốt đẹp nhất.",
+        "zhTW": "祝你萬事如意。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1008,
+    "vi": "thôi",
+    "zhTW": "停止；結束；算了；而已",
+    "pos": "動詞／感嘆詞",
+    "examples": [
+      {
+        "vi": "Trời đã thôi mưa, chúng ta đi chơi đi.",
+        "zhTW": "雨停了，我們出去玩吧。"
+      },
+      {
+        "vi": "Nếu bạn không muốn đi thì thôi vậy.",
+        "zhTW": "如果你不想去那就算了吧。"
+      },
+      {
+        "vi": "Tôi chỉ nói đùa thôi, đừng giận nhé.",
+        "zhTW": "我只是開個玩笑而已，別生氣喔。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1009,
+    "vi": "cách",
+    "zhTW": "方法；方式；距離；相隔",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Bạn có cách nào giải quyết vấn đề này không?",
+        "zhTW": "你有什麼方法可以解決這個問題嗎？"
+      },
+      {
+        "vi": "Nhà tôi cách trường học khoảng hai cây số.",
+        "zhTW": "我家距離學校大約兩公里。"
+      },
+      {
+        "vi": "Hai người họ đã chia tay cách đây một năm.",
+        "zhTW": "他們倆一年前就分手了。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1010,
+    "vi": "ừ",
+    "zhTW": "嗯；好啊",
+    "pos": "感嘆詞／動詞",
+    "examples": [
+      {
+        "vi": "- Tối nay đi ăn lẩu không? - Ừ, ý kiến hay đấy.",
+        "zhTW": "「今晚去吃火鍋嗎？」「嗯，好主意。」"
+      },
+      {
+        "vi": "Ừ, tôi hiểu rồi, cảm ơn bạn.",
+        "zhTW": "嗯，我明白了，謝謝你。"
+      },
+      {
+        "vi": "Ừ nhỉ, sao mình không nghĩ ra sớm hơn.",
+        "zhTW": "哦對了，我怎麼沒早點想到。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1011,
+    "vi": "việc",
+    "zhTW": "事；事情；工作",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Việc nhà lúc nào cũng không hết.",
+        "zhTW": "家事永遠都做不完。"
+      },
+      {
+        "vi": "Anh ấy đang tìm việc mới.",
+        "zhTW": "他正在找新工作。"
+      },
+      {
+        "vi": "Việc học hành của con cái là quan trọng nhất.",
+        "zhTW": "孩子的學習是最重要的事。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1012,
+    "vi": "tại",
+    "zhTW": "在；於；因為；由於",
+    "pos": "介系詞／連接詞",
+    "examples": [
+      {
+        "vi": "Cuộc họp sẽ diễn ra tại phòng họp số 1.",
+        "zhTW": "會議將在一號會議室舉行。"
+      },
+      {
+        "vi": "Tất cả là tại tôi, tôi xin lỗi.",
+        "zhTW": "全都是因為我，我道歉。"
+      },
+      {
+        "vi": "Trận đấu bị hủy tại thời tiết xấu.",
+        "zhTW": "比賽因天氣不佳而取消。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1013,
+    "vi": "xem",
+    "zhTW": "看；觀看；試試看；當作",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Tối nay bạn có muốn đi xem phim không?",
+        "zhTW": "今晚你想不想去看電影？"
+      },
+      {
+        "vi": "Bạn ăn thử xem món này có ngon không.",
+        "zhTW": "你吃吃看這道菜好不好吃。"
+      },
+      {
+        "vi": "Tôi xem anh ấy như anh trai của mình.",
+        "zhTW": "我把他當作自己的哥哥。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1014,
+    "vi": "cậu",
+    "zhTW": "舅舅；你（朋友間稱呼）；小男孩",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Cậu tôi sống ở nông thôn.",
+        "zhTW": "我舅舅住在鄉下。"
+      },
+      {
+        "vi": "Chào cậu, lâu rồi không gặp!",
+        "zhTW": "嗨，你啊，好久不見！"
+      },
+      {
+        "vi": "Cậu bé đó rất thông minh và lanh lợi.",
+        "zhTW": "那個小男孩非常聰明伶俐。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1015,
+    "vi": "chuyện",
+    "zhTW": "故事；事情；聊天",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Ông bà thường kể chuyện cổ tích cho cháu nghe.",
+        "zhTW": "爺爺奶奶常講童話故事給孫子聽。"
+      },
+      {
+        "vi": "Đó là chuyện riêng của tôi, bạn đừng hỏi nữa.",
+        "zhTW": "那是我自己的事，你別再問了。"
+      },
+      {
+        "vi": "Hai người họ ngồi chuyện với nhau rất lâu.",
+        "zhTW": "他們兩人坐在一起聊了很久。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1016,
+    "vi": "lần",
+    "zhTW": "次；回；遍",
+    "pos": "量詞／動詞",
+    "examples": [
+      {
+        "vi": "Đây là lần đầu tiên tôi đến Việt Nam.",
+        "zhTW": "這是我第一次來越南。"
+      },
+      {
+        "vi": "Tôi đã nói với bạn nhiều lần rồi.",
+        "zhTW": "我已經跟你說過很多次了。"
+      },
+      {
+        "vi": "Anh ấy lần trong túi tìm chìa khóa xe.",
+        "zhTW": "他在口袋裡摸索著找車鑰匙。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1017,
+    "vi": "nhau",
+    "zhTW": "互相；彼此；一起",
+    "pos": "副詞",
+    "examples": [
+      {
+        "vi": "Chúng ta nên giúp đỡ lẫn nhau.",
+        "zhTW": "我們應該互相幫助。"
+      },
+      {
+        "vi": "Hai người họ yêu nhau từ cái nhìn đầu tiên.",
+        "zhTW": "他們兩人一見鍾情。"
+      },
+      {
+        "vi": "Cả nhà cùng nhau dọn dẹp nhà cửa.",
+        "zhTW": "全家一起打掃房子。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1018,
+    "vi": "hay",
+    "zhTW": "好的；有趣的；或者；還是",
+    "pos": "形容詞／連接詞",
+    "examples": [
+      {
+        "vi": "Bộ phim này rất hay, bạn nên xem.",
+        "zhTW": "這部電影很好看，你應該看看。"
+      },
+      {
+        "vi": "Bạn muốn uống cà phê hay trà?",
+        "zhTW": "你想喝咖啡還是茶？"
+      },
+      {
+        "vi": "Cô ấy hát rất hay.",
+        "zhTW": "她歌唱得很好聽。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1019,
+    "vi": "bên",
+    "zhTW": "邊；旁邊；方；面",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Nhà tôi ở bên cạnh siêu thị.",
+        "zhTW": "我家在超市旁邊。"
+      },
+      {
+        "vi": "Anh ấy ngồi bên cửa sổ và đọc sách.",
+        "zhTW": "他坐在窗邊看書。"
+      },
+      {
+        "vi": "Hai bên đã đạt được thỏa thuận.",
+        "zhTW": "雙方已經達成協議。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1020,
+    "vi": "vì vậy",
+    "zhTW": "因此；所以",
+    "pos": "連接詞",
+    "examples": [
+      {
+        "vi": "Trời mưa to, vì vậy chúng tôi quyết định ở nhà.",
+        "zhTW": "雨下得很大，所以我們決定待在家裡。"
+      },
+      {
+        "vi": "Anh ấy đã học hành chăm chỉ, vì vậy đã đỗ kỳ thi.",
+        "zhTW": "他努力學習，因此通過了考試。"
+      },
+      {
+        "vi": "Cô ấy bị bệnh, vì vậy không thể đến dự tiệc.",
+        "zhTW": "她生病了，所以不能來參加派對。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1021,
+    "vi": "lúc",
+    "zhTW": "時候；時刻；片刻",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Lúc tôi về đến nhà thì trời đã tối.",
+        "zhTW": "我回到家的時候天已經黑了。"
+      },
+      {
+        "vi": "Lúc còn nhỏ, tôi thường chơi ở công viên này.",
+        "zhTW": "小時候，我常在這座公園玩。"
+      },
+      {
+        "vi": "Xin vui lòng đợi một lúc.",
+        "zhTW": "請稍等片刻。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1022,
+    "vi": "sự",
+    "zhTW": "事情；事件；(名詞化助詞)",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Sự cố gắng của bạn sẽ được đền đáp.",
+        "zhTW": "你的努力會得到回報的。"
+      },
+      {
+        "vi": "Sự an toàn của khách hàng là ưu tiên hàng đầu của chúng tôi.",
+        "zhTW": "顧客的安全是我們的第一優先。"
+      },
+      {
+        "vi": "Đó là một sự hiểu lầm đáng tiếc.",
+        "zhTW": "那是一件令人惋惜的誤會。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1023,
+    "vi": "à",
+    "zhTW": "啊；喔",
+    "pos": "感嘆詞",
+    "examples": [
+      {
+        "vi": "Anh đi bây giờ à?",
+        "zhTW": "你現在就要走啊？"
+      },
+      {
+        "vi": "À, tôi nhớ ra rồi!",
+        "zhTW": "啊，我想起來了！"
+      },
+      {
+        "vi": "Thế à? Tôi không biết chuyện đó.",
+        "zhTW": "是喔？我不知道那件事。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1024,
+    "vi": "rằng",
+    "zhTW": "說；認為",
+    "pos": "連接詞",
+    "examples": [
+      {
+        "vi": "Tôi tin rằng anh ấy sẽ thành công.",
+        "zhTW": "我相信他會成功。"
+      },
+      {
+        "vi": "Anh ấy nói rằng ngày mai sẽ đến.",
+        "zhTW": "他說明天會來。"
+      },
+      {
+        "vi": "Mọi người đều cho rằng đó là một ý kiến hay.",
+        "zhTW": "大家都認為那是一個好主意。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1025,
+    "vi": "sử dụng",
+    "zhTW": "使用；利用",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Bạn có biết cách sử dụng máy tính này không?",
+        "zhTW": "你會使用這台電腦嗎？"
+      },
+      {
+        "vi": "Chúng ta nên sử dụng tài nguyên một cách hợp lý.",
+        "zhTW": "我們應該合理地使用資源。"
+      },
+      {
+        "vi": "Anh ấy sử dụng tiếng Anh rất thành thạo.",
+        "zhTW": "他非常流利地使用英語。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1026,
+    "vi": "chứ",
+    "zhTW": "吧；嘛；才不",
+    "pos": "連接詞／感嘆詞",
+    "examples": [
+      {
+        "vi": "Anh sẽ đến chứ?",
+        "zhTW": "你會來吧？"
+      },
+      {
+        "vi": "Phải cố gắng lên chứ!",
+        "zhTW": "要加油才行啊！"
+      },
+      {
+        "vi": "Tôi thích táo chứ không phải cam.",
+        "zhTW": "我喜歡的是蘋果而不是橘子。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1027,
+    "vi": "tới",
+    "zhTW": "到；到達；下一個",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Khi nào tàu sẽ tới ga tiếp theo?",
+        "zhTW": "火車什麼時候會到下一站？"
+      },
+      {
+        "vi": "Chúng tôi đã làm việc từ sáng tới tối.",
+        "zhTW": "我們從早工作到晚。"
+      },
+      {
+        "vi": "Tuần tới chúng ta sẽ có một bài kiểm tra.",
+        "zhTW": "下個禮拜我們有一個考試。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1028,
+    "vi": "lớn",
+    "zhTW": "大的；長大；大聲的",
+    "pos": "形容詞",
+    "examples": [
+      {
+        "vi": "Đây là một thành phố rất lớn.",
+        "zhTW": "這是一座很大的城市。"
+      },
+      {
+        "vi": "Đừng nói chuyện quá lớn trong thư viện.",
+        "zhTW": "在圖書館裡不要太大聲說話。"
+      },
+      {
+        "vi": "Khi lớn lên, tôi muốn trở thành bác sĩ.",
+        "zhTW": "長大以後，我想當醫生。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1029,
+    "vi": "bởi",
+    "zhTW": "因為；由於；被",
+    "pos": "介系詞",
+    "examples": [
+      {
+        "vi": "Cô ấy nghỉ học bởi hoàn cảnh gia đình khó khăn.",
+        "zhTW": "她因為家庭經濟困難而休學。"
+      },
+      {
+        "vi": "Tác phẩm này được viết bởi một nhà văn trẻ.",
+        "zhTW": "這部作品是由一位年輕作家寫的。"
+      },
+      {
+        "vi": "Trận đấu bị hoãn lại bởi trời mưa to.",
+        "zhTW": "比賽因為下大雨而延期。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1030,
+    "vi": "nơi",
+    "zhTW": "地方；場所；在",
+    "pos": "名詞／介系詞",
+    "examples": [
+      {
+        "vi": "Đây là nơi tôi sinh ra và lớn lên.",
+        "zhTW": "這是我出生長大的地方。"
+      },
+      {
+        "vi": "Anh ấy đang tìm một nơi yên tĩnh để làm việc.",
+        "zhTW": "他正在找一個安靜的地方工作。"
+      },
+      {
+        "vi": "Tôi đặt niềm tin nơi bạn.",
+        "zhTW": "我把信任寄託在你身上。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1031,
+    "vi": "thời gian",
+    "zhTW": "時間；時光",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Bạn có thời gian rảnh vào cuối tuần không?",
+        "zhTW": "你週末有空閒時間嗎？"
+      },
+      {
+        "vi": "Thời gian trôi nhanh quá, mới đó đã cuối năm rồi.",
+        "zhTW": "時間過得真快，轉眼間就年底了。"
+      },
+      {
+        "vi": "Chúng ta cần quản lý thời gian hiệu quả hơn.",
+        "zhTW": "我們需要更有效地管理時間。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1032,
+    "vi": "loại",
+    "zhTW": "種類；類型；淘汰；排除",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Siêu thị này có rất nhiều loại trái cây nhập khẩu.",
+        "zhTW": "這家超市有很多種類的進口水果。"
+      },
+      {
+        "vi": "Anh ấy không phải loại người dễ dàng bỏ cuộc.",
+        "zhTW": "他不是那種輕易放棄的人。"
+      },
+      {
+        "vi": "Trong vòng phỏng vấn này, họ sẽ loại một nửa số ứng viên.",
+        "zhTW": "在這一輪面試中，他們會淘汰一半的應徵者。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1033,
+    "vi": "phần",
+    "zhTW": "部分；份",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Phần lớn học sinh trong lớp đều làm được bài tập này.",
+        "zhTW": "班上大部分的學生都會做這道習題。"
+      },
+      {
+        "vi": "Mỗi người sẽ nhận được một phần quà nhỏ.",
+        "zhTW": "每個人都會得到一份小禮物。"
+      },
+      {
+        "vi": "Phần đầu của bộ phim hơi nhàm chán.",
+        "zhTW": "電影的開頭部分有點無聊。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1034,
+    "vi": "nhé",
+    "zhTW": "喔；啊；吧（句末語氣詞）",
+    "pos": "感嘆詞",
+    "examples": [
+      {
+        "vi": "Mai đi chơi nhớ mặc đẹp nhé!",
+        "zhTW": "明天出去玩記得穿漂亮一點喔！"
+      },
+      {
+        "vi": "Lát nữa gọi lại cho mình nhé.",
+        "zhTW": "等一下再打給我吧。"
+      },
+      {
+        "vi": "Đừng quên lời hứa của bạn nhé!",
+        "zhTW": "別忘了你的承諾喔！"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1035,
+    "vi": "tạo",
+    "zhTW": "創造；製造；營造",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Công ty đang cố gắng tạo ra một môi trường làm việc tốt hơn.",
+        "zhTW": "公司正努力營造一個更好的工作環境。"
+      },
+      {
+        "vi": "Anh ấy đã tạo ra một tác phẩm nghệ thuật độc đáo.",
+        "zhTW": "他創造了一件獨特的藝術品。"
+      },
+      {
+        "vi": "Chính sách mới này nhằm tạo thêm nhiều cơ hội việc làm.",
+        "zhTW": "這項新政策旨在創造更多就業機會。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1036,
+    "vi": "nam",
+    "zhTW": "男性；男；南方；南",
+    "pos": "名詞／形容詞",
+    "examples": [
+      {
+        "vi": "Lớp chúng tôi có nhiều bạn nam hơn bạn nữ.",
+        "zhTW": "我們班男生比女生多。"
+      },
+      {
+        "vi": "Gió nam đang thổi, trời sắp có mưa.",
+        "zhTW": "南風正在吹，天快下雨了。"
+      },
+      {
+        "vi": "Anh ấy là một diễn viên nam nổi tiếng.",
+        "zhTW": "他是一位有名的男演員。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1037,
+    "vi": "chết",
+    "zhTW": "死亡；死；（機器）壞掉；（加強語氣）死了",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Xe của tôi bị chết máy giữa đường.",
+        "zhTW": "我的車在半路拋錨了。"
+      },
+      {
+        "vi": "Nóng chết đi được!",
+        "zhTW": "熱死了！"
+      },
+      {
+        "vi": "Cây hoa này không được tưới nước nên đã chết khô.",
+        "zhTW": "這棵花因為沒澆水所以枯死了。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1038,
+    "vi": "tiếng",
+    "zhTW": "聲音；語言；小時",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Tôi nghe thấy tiếng ai đó gọi tên mình.",
+        "zhTW": "我聽到有人叫我名字的聲音。"
+      },
+      {
+        "vi": "Anh ấy có thể nói được ba thứ tiếng.",
+        "zhTW": "他會說三種語言。"
+      },
+      {
+        "vi": "Chuyến bay sẽ khởi hành trong hai tiếng nữa.",
+        "zhTW": "班機將在兩小時後起飛。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1039,
+    "vi": "tin",
+    "zhTW": "消息；資訊；相信；信任",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Tôi nhận được tin tốt từ gia đình.",
+        "zhTW": "我收到了來自家裡的好消息。"
+      },
+      {
+        "vi": "Bạn có tin vào ma quỷ không?",
+        "zhTW": "你相信有鬼嗎？"
+      },
+      {
+        "vi": "Đừng tin tất cả những gì bạn đọc trên mạng.",
+        "zhTW": "別相信你在網路上讀到的一切。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1040,
+    "vi": "do",
+    "zhTW": "因為；由於；由",
+    "pos": "介系詞",
+    "examples": [
+      {
+        "vi": "Chuyến bay bị hủy do thời tiết xấu.",
+        "zhTW": "班機因為天氣惡劣而被取消了。"
+      },
+      {
+        "vi": "Sự kiện này do câu lạc bộ sinh viên tổ chức.",
+        "zhTW": "這個活動是由學生社團舉辦的。"
+      },
+      {
+        "vi": "Anh ấy bị cảm lạnh do đi dầm mưa.",
+        "zhTW": "他因為淋雨而感冒了。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1041,
+    "vi": "chính",
+    "zhTW": "主要的；正的；正是",
+    "pos": "形容詞／副詞",
+    "examples": [
+      {
+        "vi": "Nhiệm vụ chính của chúng ta là hoàn thành dự án này đúng hạn.",
+        "zhTW": "我們的主要任務是準時完成這個專案。"
+      },
+      {
+        "vi": "Chính anh ấy đã nói với tôi điều đó.",
+        "zhTW": "正是他告訴我那件事的。"
+      },
+      {
+        "vi": "Vui lòng đi vào bằng cổng chính.",
+        "zhTW": "請從正門進入。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1042,
+    "vi": "chút",
+    "zhTW": "一點；一些；一下",
+    "pos": "量詞",
+    "examples": [
+      {
+        "vi": "Xin vui lòng chờ một chút.",
+        "zhTW": "請稍等一下。"
+      },
+      {
+        "vi": "Tôi chỉ cần thêm một chút thời gian để hoàn thành công việc.",
+        "zhTW": "我只需要再多一點時間來完成工作。"
+      },
+      {
+        "vi": "Bạn có thể cho tôi một chút đường được không?",
+        "zhTW": "你可以給我一點糖嗎？"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1043,
+    "vi": "ạ",
+    "zhTW": "啊；呀（句末助詞，表尊敬）",
+    "pos": "感嘆詞",
+    "examples": [
+      {
+        "vi": "Cháu chào ông ạ!",
+        "zhTW": "我跟阿公問好！"
+      },
+      {
+        "vi": "Cảm ơn anh nhiều ạ.",
+        "zhTW": "非常謝謝您呀。"
+      },
+      {
+        "vi": "Mẹ ơi, con đi học về rồi ạ.",
+        "zhTW": "媽，我放學回來了呀。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1044,
+    "vi": "mất",
+    "zhTW": "弄丟；失去；花費；過世",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Tôi bị mất ví tiền trên xe buýt.",
+        "zhTW": "我的錢包在公車上弄丟了。"
+      },
+      {
+        "vi": "Tôi đã mất cả buổi sáng để dọn dẹp nhà cửa.",
+        "zhTW": "我花了整個早上來打掃家裡。"
+      },
+      {
+        "vi": "Ông của tôi đã mất cách đây ba năm.",
+        "zhTW": "我爺爺三年前過世了。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1045,
+    "vi": "cả",
+    "zhTW": "大的；整個；全部",
+    "pos": "形容詞／副詞／代名詞",
+    "examples": [
+      {
+        "vi": "Cả gia đình tôi sẽ đi du lịch vào mùa hè này.",
+        "zhTW": "我全家今年夏天要去旅行。"
+      },
+      {
+        "vi": "Chị cả của tôi là một bác sĩ.",
+        "zhTW": "我的大姐是一位醫生。"
+      },
+      {
+        "vi": "Hôm nay tôi bận cả ngày.",
+        "zhTW": "我今天忙了一整天。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1046,
+    "vi": "chiếc",
+    "zhTW": "個；輛；艘；架",
+    "pos": "量詞",
+    "examples": [
+      {
+        "vi": "Anh ấy mua một chiếc xe máy mới.",
+        "zhTW": "他買了一輛新機車。"
+      },
+      {
+        "vi": "Trên bàn có một chiếc đồng hồ rất đẹp.",
+        "zhTW": "桌上有一支很漂亮的手錶。"
+      },
+      {
+        "vi": "Tôi nhìn thấy một chiếc thuyền trên sông.",
+        "zhTW": "我看到河上有一艘船。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1047,
+    "vi": "cuộc",
+    "zhTW": "場；次；局",
+    "pos": "量詞／名詞",
+    "examples": [
+      {
+        "vi": "Cuộc họp hôm nay rất quan trọng.",
+        "zhTW": "今天的會議很重要。"
+      },
+      {
+        "vi": "Cuộc sống ở thành phố rất nhộn nhịp.",
+        "zhTW": "都市的生活很熱鬧。"
+      },
+      {
+        "vi": "Đây là một cuộc thi âm nhạc lớn.",
+        "zhTW": "這是一場大型音樂比賽。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1048,
+    "vi": "đặt",
+    "zhTW": "放；放置；預訂；提出",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Xin hãy đặt sách lên bàn.",
+        "zhTW": "請把書放在桌上。"
+      },
+      {
+        "vi": "Tôi muốn đặt một phòng cho tối nay.",
+        "zhTW": "我想要預訂今晚一個房間。"
+      },
+      {
+        "vi": "Học sinh đã đặt nhiều câu hỏi thú vị cho giáo viên.",
+        "zhTW": "學生向老師提出了很多有趣的問題。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1049,
+    "vi": "hàng",
+    "zhTW": "商品；貨物；排；行",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Siêu thị này có rất nhiều loại hàng hóa.",
+        "zhTW": "這家超市有很多種商品。"
+      },
+      {
+        "vi": "Mọi người vui lòng xếp thành một hàng.",
+        "zhTW": "請大家排成一排。"
+      },
+      {
+        "vi": "Cửa hàng này bán hàng nhập khẩu từ Nhật Bản.",
+        "zhTW": "這家店賣從日本進口的貨物。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1050,
+    "vi": "đầu tiên",
+    "zhTW": "首先；第一；最初的",
+    "pos": "副詞／形容詞",
+    "examples": [
+      {
+        "vi": "Đây là lần đầu tiên tôi đến Việt Nam.",
+        "zhTW": "這是我第一次來越南。"
+      },
+      {
+        "vi": "Đầu tiên, chúng ta cần phải thảo luận kế hoạch.",
+        "zhTW": "首先，我們需要討論計畫。"
+      },
+      {
+        "vi": "Anh ấy là người đầu tiên hoàn thành cuộc thi.",
+        "zhTW": "他是第一個完成比賽的人。"
+      }
+    ],
+    "quality": "reviewed"
+  }
+]

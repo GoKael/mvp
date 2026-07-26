@@ -1,0 +1,526 @@
+{
+  "id": "basics",
+  "category": "basics",
+  "status": "reviewed",
+  "expectedLessons": 10,
+  "requiredCoreRange": [101, 150],
+  "title": {
+    "vi": "Con người, thời gian và tiền bạc",
+    "zhTW": "人物、時間與金錢"
+  },
+  "lessons": [
+    {
+      "id": "basics-001",
+      "title": { "vi": "Đại từ", "zhTW": "稱呼彼此" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đi cùng nhau", "zhTW": "一起出發" },
+          "zhTW": "我和你一起去。",
+          "vi": "Tôi đi cùng bạn.",
+          "wordRanks": [101, 102],
+          "focusWords": [
+            { "zhTW": "我", "vi": "tôi" },
+            { "zhTW": "和你一起去", "vi": "đi cùng bạn" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Tôi", "zhTW": "我" },
+            { "role": "同行", "vi": "đi cùng bạn", "zhTW": "和你一起去" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Gặp họ", "zhTW": "和他們見面" },
+          "zhTW": "我們會和他們見面。",
+          "vi": "Chúng tôi sẽ gặp họ.",
+          "wordRanks": [103, 105],
+          "focusWords": [
+            { "zhTW": "我們", "vi": "chúng tôi" },
+            { "zhTW": "會和他們見面", "vi": "sẽ gặp họ" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Chúng tôi", "zhTW": "我們" },
+            { "role": "動作", "vi": "sẽ gặp họ", "zhTW": "會和他們見面" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Tự chuẩn bị", "zhTW": "自己準備" },
+          "zhTW": "我們一起為自己做準備。",
+          "vi": "Chúng ta cùng chuẩn bị cho mình.",
+          "wordRanks": [104, 106],
+          "focusWords": [
+            { "zhTW": "我們一起", "vi": "chúng ta cùng" },
+            { "zhTW": "為自己做準備", "vi": "chuẩn bị cho mình" }
+          ],
+          "breakdown": [
+            { "role": "共同", "vi": "Chúng ta cùng", "zhTW": "我們一起" },
+            { "role": "動作", "vi": "chuẩn bị cho mình", "zhTW": "為自己做準備" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-002",
+      "title": { "vi": "Gia đình và tên", "zhTW": "家人與姓名" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Tên của bố", "zhTW": "爸爸的名字" },
+          "zhTW": "我爸爸叫明。",
+          "vi": "Bố tôi tên là Minh.",
+          "wordRanks": [101, 107, 110],
+          "focusWords": [
+            { "zhTW": "我爸爸", "vi": "bố tôi" },
+            { "zhTW": "叫明", "vi": "tên là Minh" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Bố tôi", "zhTW": "我爸爸" },
+            { "role": "姓名", "vi": "tên là Minh", "zhTW": "叫明" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Mẹ và bạn bè", "zhTW": "媽媽和朋友" },
+          "zhTW": "我媽媽和朋友們一起去。",
+          "vi": "Mẹ tôi đi cùng bạn bè.",
+          "wordRanks": [101, 108, 109],
+          "focusWords": [
+            { "zhTW": "我媽媽", "vi": "mẹ tôi" },
+            { "zhTW": "和朋友們一起去", "vi": "đi cùng bạn bè" }
+          ],
+          "breakdown": [
+            { "role": "人物", "vi": "Mẹ tôi", "zhTW": "我媽媽" },
+            { "role": "同行", "vi": "đi cùng bạn bè", "zhTW": "和朋友們一起去" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Hỏi tên", "zhTW": "詢問姓名" },
+          "zhTW": "你叫什麼名字？",
+          "vi": "Bạn tên là gì?",
+          "wordRanks": [102, 110],
+          "focusWords": [
+            { "zhTW": "你", "vi": "bạn" },
+            { "zhTW": "叫什麼名字", "vi": "tên là gì" }
+          ],
+          "breakdown": [
+            { "role": "對象", "vi": "Bạn", "zhTW": "你" },
+            { "role": "提問", "vi": "tên là gì", "zhTW": "叫什麼名字" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-003",
+      "title": { "vi": "Câu hỏi", "zhTW": "常用問句" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Bao nhiêu tiền", "zhTW": "多少錢" },
+          "zhTW": "這個多少錢？",
+          "vi": "Cái này giá bao nhiêu?",
+          "wordRanks": [111, 147],
+          "focusWords": [
+            { "zhTW": "這個", "vi": "cái này" },
+            { "zhTW": "多少錢", "vi": "giá bao nhiêu" }
+          ],
+          "breakdown": [
+            { "role": "物品", "vi": "Cái này", "zhTW": "這個" },
+            { "role": "價格", "vi": "giá bao nhiêu", "zhTW": "多少錢" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Kế hoạch thay đổi", "zhTW": "計畫改變" },
+          "zhTW": "為什麼計畫改了？現在怎麼樣？",
+          "vi": "Tại sao kế hoạch thay đổi? Bây giờ thế nào?",
+          "wordRanks": [112, 113, 136],
+          "focusWords": [
+            { "zhTW": "為什麼計畫改了", "vi": "tại sao kế hoạch thay đổi" },
+            { "zhTW": "現在怎麼樣", "vi": "bây giờ thế nào" }
+          ],
+          "breakdown": [
+            { "role": "原因", "vi": "Tại sao kế hoạch thay đổi", "zhTW": "為什麼計畫改了" },
+            { "role": "現況", "vi": "Bây giờ thế nào", "zhTW": "現在怎麼樣" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Khi nào đi", "zhTW": "何時出發" },
+          "zhTW": "我們什麼時候去？幾點？",
+          "vi": "Bao giờ chúng ta đi? Lúc mấy giờ?",
+          "wordRanks": [104, 114, 115],
+          "focusWords": [
+            { "zhTW": "我們什麼時候去", "vi": "bao giờ chúng ta đi" },
+            { "zhTW": "幾點", "vi": "lúc mấy giờ" }
+          ],
+          "breakdown": [
+            { "role": "日期", "vi": "Bao giờ chúng ta đi", "zhTW": "我們什麼時候去" },
+            { "role": "時間", "vi": "Lúc mấy giờ", "zhTW": "幾點" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-004",
+      "title": { "vi": "Lịch sự", "zhTW": "禮貌用語" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Xin hỏi", "zhTW": "禮貌提問" },
+          "zhTW": "請讓我問一下。",
+          "vi": "Xin cho tôi hỏi một chút.",
+          "wordRanks": [101, 116],
+          "focusWords": [
+            { "zhTW": "請讓我", "vi": "xin cho tôi" },
+            { "zhTW": "問一下", "vi": "hỏi một chút" }
+          ],
+          "breakdown": [
+            { "role": "禮貌", "vi": "Xin cho tôi", "zhTW": "請讓我" },
+            { "role": "動作", "vi": "hỏi một chút", "zhTW": "問一下" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Cảm ơn và xin lỗi", "zhTW": "道謝與道歉" },
+          "zhTW": "謝謝你，也很抱歉打擾了。",
+          "vi": "Cảm ơn bạn và xin lỗi vì đã làm phiền.",
+          "wordRanks": [102, 117, 118],
+          "focusWords": [
+            { "zhTW": "謝謝你", "vi": "cảm ơn bạn" },
+            { "zhTW": "抱歉打擾了", "vi": "xin lỗi vì đã làm phiền" }
+          ],
+          "breakdown": [
+            { "role": "道謝", "vi": "Cảm ơn bạn", "zhTW": "謝謝你" },
+            { "role": "道歉", "vi": "xin lỗi vì đã làm phiền", "zhTW": "抱歉打擾了" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Vâng và dạ", "zhTW": "兩種禮貌回應" },
+          "zhTW": "北部常說 vâng，南部常說 dạ。",
+          "vi": "Người miền Bắc thường nói vâng, miền Nam thường nói dạ.",
+          "wordRanks": [119, 120],
+          "focusWords": [
+            { "zhTW": "北部常說 vâng", "vi": "miền Bắc thường nói vâng" },
+            { "zhTW": "南部常說 dạ", "vi": "miền Nam thường nói dạ" }
+          ],
+          "breakdown": [
+            { "role": "北部", "vi": "Người miền Bắc thường nói vâng", "zhTW": "北部常說 vâng" },
+            { "role": "南部", "vi": "miền Nam thường nói dạ", "zhTW": "南部常說 dạ" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-005",
+      "title": { "vi": "Số nhỏ", "zhTW": "常用小數字" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Hai vé, ba chai", "zhTW": "兩張票、三瓶水" },
+          "zhTW": "我需要兩張票和三瓶水。",
+          "vi": "Tôi cần hai vé và ba chai nước.",
+          "wordRanks": [101, 121, 122],
+          "focusWords": [
+            { "zhTW": "兩張票", "vi": "hai vé" },
+            { "zhTW": "三瓶水", "vi": "ba chai nước" }
+          ],
+          "breakdown": [
+            { "role": "需求", "vi": "Tôi cần", "zhTW": "我需要" },
+            { "role": "數量一", "vi": "hai vé", "zhTW": "兩張票" },
+            { "role": "數量二", "vi": "ba chai nước", "zhTW": "三瓶水" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Bốn ghế, sáu ly", "zhTW": "四張椅子、六個杯子" },
+          "zhTW": "這張桌子有四張椅子和六個杯子。",
+          "vi": "Bàn này có bốn ghế và sáu ly.",
+          "wordRanks": [123, 124],
+          "focusWords": [
+            { "zhTW": "有四張椅子", "vi": "có bốn ghế" },
+            { "zhTW": "六個杯子", "vi": "sáu ly" }
+          ],
+          "breakdown": [
+            { "role": "主題", "vi": "Bàn này", "zhTW": "這張桌子" },
+            { "role": "數量一", "vi": "có bốn ghế", "zhTW": "有四張椅子" },
+            { "role": "數量二", "vi": "sáu ly", "zhTW": "六個杯子" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Xe số bảy", "zhTW": "七號公車" },
+          "zhTW": "七號公車八點到。",
+          "vi": "Xe buýt số bảy đến lúc tám giờ.",
+          "wordRanks": [125, 126, 132],
+          "focusWords": [
+            { "zhTW": "七號公車", "vi": "xe buýt số bảy" },
+            { "zhTW": "八點到", "vi": "đến lúc tám giờ" }
+          ],
+          "breakdown": [
+            { "role": "車號", "vi": "Xe buýt số bảy", "zhTW": "七號公車" },
+            { "role": "時間", "vi": "đến lúc tám giờ", "zhTW": "八點到" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-006",
+      "title": { "vi": "Số lớn", "zhTW": "樓層、人數與金額" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Tầng chín", "zhTW": "九樓" },
+          "zhTW": "我的房間在九樓。",
+          "vi": "Phòng của tôi ở tầng chín.",
+          "wordRanks": [101, 127],
+          "focusWords": [
+            { "zhTW": "我的房間", "vi": "phòng của tôi" },
+            { "zhTW": "在九樓", "vi": "ở tầng chín" }
+          ],
+          "breakdown": [
+            { "role": "地點", "vi": "Phòng của tôi", "zhTW": "我的房間" },
+            { "role": "樓層", "vi": "ở tầng chín", "zhTW": "在九樓" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Mười người", "zhTW": "十個人" },
+          "zhTW": "我們這組有十個人。",
+          "vi": "Nhóm chúng ta có mười người.",
+          "wordRanks": [104, 128],
+          "focusWords": [
+            { "zhTW": "我們這組", "vi": "nhóm chúng ta" },
+            { "zhTW": "有十個人", "vi": "có mười người" }
+          ],
+          "breakdown": [
+            { "role": "團體", "vi": "Nhóm chúng ta", "zhTW": "我們這組" },
+            { "role": "人數", "vi": "có mười người", "zhTW": "有十個人" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Một trăm nghìn", "zhTW": "十萬越南盾" },
+          "zhTW": "這張票十萬越南盾。",
+          "vi": "Vé này giá một trăm nghìn đồng.",
+          "wordRanks": [129, 130, 147, 150],
+          "focusWords": [
+            { "zhTW": "這張票的價格", "vi": "vé này giá" },
+            { "zhTW": "十萬越南盾", "vi": "một trăm nghìn đồng" }
+          ],
+          "breakdown": [
+            { "role": "物品", "vi": "Vé này", "zhTW": "這張票" },
+            { "role": "價格", "vi": "giá một trăm nghìn đồng", "zhTW": "價格是十萬越南盾" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-007",
+      "title": { "vi": "Hôm qua, hôm nay, ngày mai", "zhTW": "昨天、今天、明天" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Hôm qua và hôm nay", "zhTW": "昨天和今天" },
+          "zhTW": "我昨天很忙，今天有空。",
+          "vi": "Hôm qua tôi bận, hôm nay tôi rảnh.",
+          "wordRanks": [101, 133, 135],
+          "focusWords": [
+            { "zhTW": "我昨天很忙", "vi": "hôm qua tôi bận" },
+            { "zhTW": "今天有空", "vi": "hôm nay tôi rảnh" }
+          ],
+          "breakdown": [
+            { "role": "過去", "vi": "Hôm qua tôi bận", "zhTW": "我昨天很忙" },
+            { "role": "現在", "vi": "hôm nay tôi rảnh", "zhTW": "今天有空" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Sáng mai", "zhTW": "明天早上" },
+          "zhTW": "我們明天早上去。",
+          "vi": "Ngày mai chúng ta đi vào buổi sáng.",
+          "wordRanks": [104, 134, 137],
+          "focusWords": [
+            { "zhTW": "明天我們去", "vi": "ngày mai chúng ta đi" },
+            { "zhTW": "在早上", "vi": "vào buổi sáng" }
+          ],
+          "breakdown": [
+            { "role": "日期", "vi": "Ngày mai", "zhTW": "明天" },
+            { "role": "人物動作", "vi": "chúng ta đi", "zhTW": "我們去" },
+            { "role": "時段", "vi": "vào buổi sáng", "zhTW": "在早上" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Mấy giờ", "zhTW": "現在幾點" },
+          "zhTW": "現在幾點？",
+          "vi": "Bây giờ là mấy giờ?",
+          "wordRanks": [115, 136],
+          "focusWords": [
+            { "zhTW": "現在", "vi": "bây giờ" },
+            { "zhTW": "幾點", "vi": "mấy giờ" }
+          ],
+          "breakdown": [
+            { "role": "現在", "vi": "Bây giờ", "zhTW": "現在" },
+            { "role": "時間", "vi": "là mấy giờ", "zhTW": "是幾點" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-008",
+      "title": { "vi": "Các buổi trong ngày", "zhTW": "一天的時段" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Nghỉ trưa", "zhTW": "中午休息" },
+          "zhTW": "我中午休息。",
+          "vi": "Tôi nghỉ vào buổi trưa.",
+          "wordRanks": [101, 138],
+          "focusWords": [
+            { "zhTW": "我休息", "vi": "tôi nghỉ" },
+            { "zhTW": "在中午", "vi": "vào buổi trưa" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Tôi nghỉ", "zhTW": "我休息" },
+            { "role": "時段", "vi": "vào buổi trưa", "zhTW": "在中午" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Làm buổi chiều", "zhTW": "下午工作" },
+          "zhTW": "我下午工作。",
+          "vi": "Tôi làm việc vào buổi chiều.",
+          "wordRanks": [101, 139],
+          "focusWords": [
+            { "zhTW": "我工作", "vi": "tôi làm việc" },
+            { "zhTW": "在下午", "vi": "vào buổi chiều" }
+          ],
+          "breakdown": [
+            { "role": "動作", "vi": "Tôi làm việc", "zhTW": "我工作" },
+            { "role": "時段", "vi": "vào buổi chiều", "zhTW": "在下午" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Về buổi tối", "zhTW": "晚上回家" },
+          "zhTW": "我們晚上回家。",
+          "vi": "Chúng tôi về nhà vào buổi tối.",
+          "wordRanks": [103, 140],
+          "focusWords": [
+            { "zhTW": "我們回家", "vi": "chúng tôi về nhà" },
+            { "zhTW": "在晚上", "vi": "vào buổi tối" }
+          ],
+          "breakdown": [
+            { "role": "人物動作", "vi": "Chúng tôi về nhà", "zhTW": "我們回家" },
+            { "role": "時段", "vi": "vào buổi tối", "zhTW": "在晚上" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-009",
+      "title": { "vi": "Lịch hẹn", "zhTW": "時間安排" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Đợi năm phút", "zhTW": "等五分鐘" },
+          "zhTW": "請等我五分鐘。",
+          "vi": "Xin đợi tôi năm phút.",
+          "wordRanks": [101, 116, 141],
+          "focusWords": [
+            { "zhTW": "請等我", "vi": "xin đợi tôi" },
+            { "zhTW": "五分鐘", "vi": "năm phút" }
+          ],
+          "breakdown": [
+            { "role": "請求", "vi": "Xin đợi tôi", "zhTW": "請等我" },
+            { "role": "時間", "vi": "năm phút", "zhTW": "五分鐘" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Tuần và cuối tuần", "zhTW": "平日與週末" },
+          "zhTW": "我這週工作，週末休息。",
+          "vi": "Tuần này tôi làm việc, cuối tuần tôi nghỉ.",
+          "wordRanks": [101, 142, 143],
+          "focusWords": [
+            { "zhTW": "我這週工作", "vi": "tuần này tôi làm việc" },
+            { "zhTW": "週末休息", "vi": "cuối tuần tôi nghỉ" }
+          ],
+          "breakdown": [
+            { "role": "平日", "vi": "Tuần này tôi làm việc", "zhTW": "我這週工作" },
+            { "role": "週末", "vi": "cuối tuần tôi nghỉ", "zhTW": "週末休息" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Sớm và muộn", "zhTW": "早到與晚到" },
+          "zhTW": "我早到，你晚到。",
+          "vi": "Tôi đến sớm, bạn đến muộn.",
+          "wordRanks": [101, 102, 144, 145],
+          "focusWords": [
+            { "zhTW": "我早到", "vi": "tôi đến sớm" },
+            { "zhTW": "你晚到", "vi": "bạn đến muộn" }
+          ],
+          "breakdown": [
+            { "role": "提早", "vi": "Tôi đến sớm", "zhTW": "我早到" },
+            { "role": "遲到", "vi": "bạn đến muộn", "zhTW": "你晚到" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basics-010",
+      "title": { "vi": "Giá tiền", "zhTW": "詢價與比較" },
+      "segments": [
+        {
+          "id": 1,
+          "topic": { "vi": "Không mang tiền", "zhTW": "沒有帶錢" },
+          "zhTW": "我沒有帶夠錢。",
+          "vi": "Tôi không mang đủ tiền.",
+          "wordRanks": [101, 146],
+          "focusWords": [
+            { "zhTW": "我沒有帶", "vi": "tôi không mang" },
+            { "zhTW": "足夠的錢", "vi": "đủ tiền" }
+          ],
+          "breakdown": [
+            { "role": "狀態", "vi": "Tôi không mang", "zhTW": "我沒有帶" },
+            { "role": "金額", "vi": "đủ tiền", "zhTW": "足夠的錢" }
+          ]
+        },
+        {
+          "id": 2,
+          "topic": { "vi": "Hai triệu đồng", "zhTW": "兩百萬越南盾" },
+          "zhTW": "這支手機兩百萬越南盾。",
+          "vi": "Điện thoại này giá hai triệu đồng.",
+          "wordRanks": [121, 131, 147, 150],
+          "focusWords": [
+            { "zhTW": "這支手機的價格", "vi": "điện thoại này giá" },
+            { "zhTW": "兩百萬越南盾", "vi": "hai triệu đồng" }
+          ],
+          "breakdown": [
+            { "role": "物品", "vi": "Điện thoại này", "zhTW": "這支手機" },
+            { "role": "價格", "vi": "giá hai triệu đồng", "zhTW": "價格是兩百萬越南盾" }
+          ]
+        },
+        {
+          "id": 3,
+          "topic": { "vi": "Đắt hay rẻ", "zhTW": "貴或便宜" },
+          "zhTW": "那個太貴，這個比較便宜。",
+          "vi": "Cái kia quá đắt, cái này rẻ hơn.",
+          "wordRanks": [148, 149],
+          "focusWords": [
+            { "zhTW": "那個太貴", "vi": "cái kia quá đắt" },
+            { "zhTW": "這個比較便宜", "vi": "cái này rẻ hơn" }
+          ],
+          "breakdown": [
+            { "role": "較貴", "vi": "Cái kia quá đắt", "zhTW": "那個太貴" },
+            { "role": "較便宜", "vi": "cái này rẻ hơn", "zhTW": "這個比較便宜" }
+          ]
+        }
+      ]
+    }
+  ]
+}

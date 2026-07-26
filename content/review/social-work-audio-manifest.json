@@ -1,0 +1,487 @@
+{
+  "model": "gemini-2.5-pro-tts",
+  "status": "reviewed",
+  "expected": 60,
+  "assets": [
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我家有四個人。",
+      "output": "assets/audio/candidates/social-work/social-work-001-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Gia đình tôi có bốn người.",
+      "output": "assets/audio/candidates/social-work/social-work-001-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我丈夫在這家公司工作。",
+      "output": "assets/audio/candidates/social-work/social-work-001-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chồng tôi làm việc ở công ty này.",
+      "output": "assets/audio/candidates/social-work/social-work-001-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我妻子常回去探望父母。",
+      "output": "assets/audio/candidates/social-work/social-work-001-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Vợ tôi thường về thăm cha mẹ.",
+      "output": "assets/audio/candidates/social-work/social-work-001-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的電話號碼有兩個零。",
+      "output": "assets/audio/candidates/social-work/social-work-002-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Số điện thoại của tôi có hai số không.",
+      "output": "assets/audio/candidates/social-work/social-work-002-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我需要洗衣服。",
+      "output": "assets/audio/candidates/social-work/social-work-002-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi cần giặt quần áo.",
+      "output": "assets/audio/candidates/social-work/social-work-002-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想買一些食物。",
+      "output": "assets/audio/candidates/social-work/social-work-002-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn mua một ít đồ ăn.",
+      "output": "assets/audio/candidates/social-work/social-work-002-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我來自台灣，正在學越南語。",
+      "output": "assets/audio/candidates/social-work/social-work-003-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi đến từ Đài Loan và đang học tiếng Việt.",
+      "output": "assets/audio/candidates/social-work/social-work-003-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我今年三十歲。",
+      "output": "assets/audio/candidates/social-work/social-work-003-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi năm nay ba mươi tuổi.",
+      "output": "assets/audio/candidates/social-work/social-work-003-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你的家鄉在哪個城市、哪個國家？",
+      "output": "assets/audio/candidates/social-work/social-work-003-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Quê bạn ở thành phố nào, thuộc nước nào?",
+      "output": "assets/audio/candidates/social-work/social-work-003-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你的工作是什麼？",
+      "output": "assets/audio/candidates/social-work/social-work-004-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Công việc của bạn là gì?",
+      "output": "assets/audio/candidates/social-work/social-work-004-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我的同事非常友善。",
+      "output": "assets/audio/candidates/social-work/social-work-004-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Đồng nghiệp của tôi rất thân thiện.",
+      "output": "assets/audio/candidates/social-work/social-work-004-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "主管正在會見客戶。",
+      "output": "assets/audio/candidates/social-work/social-work-004-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Sếp đang gặp khách hàng.",
+      "output": "assets/audio/candidates/social-work/social-work-004-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我妹妹是中學生。",
+      "output": "assets/audio/candidates/social-work/social-work-005-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Em gái tôi là học sinh trung học.",
+      "output": "assets/audio/candidates/social-work/social-work-005-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我姊姊是越南語老師。",
+      "output": "assets/audio/candidates/social-work/social-work-005-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chị tôi là giáo viên tiếng Việt.",
+      "output": "assets/audio/candidates/social-work/social-work-005-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這一課容易，但那一課很難。",
+      "output": "assets/audio/candidates/social-work/social-work-005-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bài này dễ, nhưng bài kia rất khó.",
+      "output": "assets/audio/candidates/social-work/social-work-005-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "會議九點開始。",
+      "output": "assets/audio/candidates/social-work/social-work-006-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cuộc họp bắt đầu lúc chín giờ.",
+      "output": "assets/audio/candidates/social-work/social-work-006-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我今天很忙，不能休息。",
+      "output": "assets/audio/candidates/social-work/social-work-006-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Hôm nay tôi bận nên không thể nghỉ.",
+      "output": "assets/audio/candidates/social-work/social-work-006-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你明天下午有空嗎？",
+      "output": "assets/audio/candidates/social-work/social-work-006-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chiều mai bạn có rảnh không?",
+      "output": "assets/audio/candidates/social-work/social-work-006-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我喜歡這份工作。",
+      "output": "assets/audio/candidates/social-work/social-work-007-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi thích công việc này.",
+      "output": "assets/audio/candidates/social-work/social-work-007-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我愛家人，但討厭離家太遠。",
+      "output": "assets/audio/candidates/social-work/social-work-007-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi yêu gia đình nhưng ghét sống xa nhà.",
+      "output": "assets/audio/candidates/social-work/social-work-007-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我今天很開心，不再難過了。",
+      "output": "assets/audio/candidates/social-work/social-work-007-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Hôm nay tôi vui, không còn buồn nữa.",
+      "output": "assets/audio/candidates/social-work/social-work-007-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你說得太快了。",
+      "output": "assets/audio/candidates/social-work/social-work-008-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn nói nhanh quá.",
+      "output": "assets/audio/candidates/social-work/social-work-008-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請說慢一點。",
+      "output": "assets/audio/candidates/social-work/social-work-008-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin nói chậm một chút.",
+      "output": "assets/audio/candidates/social-work/social-work-008-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我聽得懂很多，但還說得很少。",
+      "output": "assets/audio/candidates/social-work/social-work-008-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi hiểu nhiều nhưng vẫn nói ít.",
+      "output": "assets/audio/candidates/social-work/social-work-008-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "河粉還很熱，而且非常好吃。",
+      "output": "assets/audio/candidates/social-work/social-work-009-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Phở còn nóng và rất ngon.",
+      "output": "assets/audio/candidates/social-work/social-work-009-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這杯檸檬水很冰，還有點酸。",
+      "output": "assets/audio/candidates/social-work/social-work-009-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Nước chanh này lạnh và hơi chua.",
+      "output": "assets/audio/candidates/social-work/social-work-009-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這道菜又辣又甜，還有點鹹。",
+      "output": "assets/audio/candidates/social-work/social-work-009-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Món này cay, ngọt và hơi mặn.",
+      "output": "assets/audio/candidates/social-work/social-work-009-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我有很多事，但時間很少。",
+      "output": "assets/audio/candidates/social-work/social-work-010-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi có nhiều việc nhưng rất ít thời gian.",
+      "output": "assets/audio/candidates/social-work/social-work-010-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我們已經有足夠的食物。",
+      "output": "assets/audio/candidates/social-work/social-work-010-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Chúng ta đã có đủ đồ ăn.",
+      "output": "assets/audio/candidates/social-work/social-work-010-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我也總是早點回家。",
+      "output": "assets/audio/candidates/social-work/social-work-010-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi cũng luôn về nhà sớm.",
+      "output": "assets/audio/candidates/social-work/social-work-010-3-vi.mp3",
+      "generated": true
+    }
+  ]
+}

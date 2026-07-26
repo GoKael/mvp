@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "lodging-001",
+    "category": "lodging",
+    "title": {
+      "vi": "Đặt chỗ ở",
+      "zhTW": "預訂住宿"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Đặt phòng",
+          "zhTW": "訂房"
+        },
+        "zhTW": "我想訂兩晚的房間。",
+        "vi": "Tôi muốn đặt phòng cho hai đêm.",
+        "wordIds": [
+          "vi:187-dat-phong",
+          "vi:199-dem"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想訂房",
+            "vi": "muốn đặt phòng"
+          },
+          {
+            "zhTW": "兩晚",
+            "vi": "hai đêm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "意願",
+            "vi": "muốn đặt phòng",
+            "zhTW": "想訂房"
+          },
+          {
+            "role": "住宿時間",
+            "vi": "cho hai đêm",
+            "zhTW": "住兩晚"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-001-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-001-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Phòng trống",
+          "zhTW": "空房"
+        },
+        "zhTW": "飯店有空房嗎？",
+        "vi": "Khách sạn có phòng trống không?",
+        "wordIds": [
+          "vi:186-khach-san"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "飯店",
+            "vi": "khách sạn"
+          },
+          {
+            "zhTW": "有空房嗎",
+            "vi": "có phòng trống không"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Khách sạn",
+            "zhTW": "飯店"
+          },
+          {
+            "role": "詢問",
+            "vi": "có phòng trống không",
+            "zhTW": "有空房嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-001-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-001-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Ở lại",
+          "zhTW": "住宿日期"
+        },
+        "zhTW": "我會從星期一住到星期三。",
+        "vi": "Tôi sẽ ở lại từ thứ Hai đến thứ Tư.",
+        "wordIds": [
+          "vi:200-o-lai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "會住宿",
+            "vi": "sẽ ở lại"
+          },
+          {
+            "zhTW": "從星期一到星期三",
+            "vi": "từ thứ Hai đến thứ Tư"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "動作",
+            "vi": "sẽ ở lại",
+            "zhTW": "會住宿"
+          },
+          {
+            "role": "期間",
+            "vi": "từ thứ Hai đến thứ Tư",
+            "zhTW": "從星期一到星期三"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-001-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-001-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-002",
+    "category": "lodging",
+    "title": {
+      "vi": "Làm thủ tục nhận phòng",
+      "zhTW": "辦理入住"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Hộ chiếu",
+          "zhTW": "護照"
+        },
+        "zhTW": "這是我的護照。",
+        "vi": "Đây là hộ chiếu của tôi.",
+        "wordIds": [
+          "vi:188-ho-chieu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這是",
+            "vi": "đây là"
+          },
+          {
+            "zhTW": "我的護照",
+            "vi": "hộ chiếu của tôi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "指示",
+            "vi": "Đây là",
+            "zhTW": "這是"
+          },
+          {
+            "role": "證件",
+            "vi": "hộ chiếu",
+            "zhTW": "護照"
+          },
+          {
+            "role": "所有人",
+            "vi": "của tôi",
+            "zhTW": "我的"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-002-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-002-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Quên chìa khóa",
+          "zhTW": "忘帶鑰匙"
+        },
+        "zhTW": "我把鑰匙忘在房間裡了。",
+        "vi": "Tôi để quên chìa khóa trong phòng.",
+        "wordIds": [
+          "vi:190-chia-khoa"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "忘了鑰匙",
+            "vi": "để quên chìa khóa"
+          },
+          {
+            "zhTW": "在房間裡",
+            "vi": "trong phòng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "問題",
+            "vi": "để quên chìa khóa",
+            "zhTW": "忘了鑰匙"
+          },
+          {
+            "role": "地點",
+            "vi": "trong phòng",
+            "zhTW": "在房間裡"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-002-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-002-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Hành lý",
+          "zhTW": "行李"
+        },
+        "zhTW": "你可以幫我搬行李嗎？",
+        "vi": "Bạn có thể giúp tôi mang hành lý không?",
+        "wordIds": [
+          "vi:189-hanh-ly"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "可以幫我嗎",
+            "vi": "có thể giúp tôi"
+          },
+          {
+            "zhTW": "搬行李",
+            "vi": "mang hành lý"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "對象",
+            "vi": "Bạn",
+            "zhTW": "你"
+          },
+          {
+            "role": "請求",
+            "vi": "có thể giúp tôi",
+            "zhTW": "可以幫我"
+          },
+          {
+            "role": "動作",
+            "vi": "mang hành lý",
+            "zhTW": "搬行李"
+          },
+          {
+            "role": "疑問",
+            "vi": "không",
+            "zhTW": "嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-002-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-002-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-003",
+    "category": "lodging",
+    "title": {
+      "vi": "Tìm phòng",
+      "zhTW": "找到房間"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Tầng năm",
+          "zhTW": "五樓"
+        },
+        "zhTW": "我的房間在五樓。",
+        "vi": "Phòng của tôi ở tầng năm.",
+        "wordIds": [
+          "vi:192-tang"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我的房間",
+            "vi": "phòng của tôi"
+          },
+          {
+            "zhTW": "在五樓",
+            "vi": "ở tầng năm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Phòng của tôi",
+            "zhTW": "我的房間"
+          },
+          {
+            "role": "位置",
+            "vi": "ở tầng năm",
+            "zhTW": "在五樓"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-003-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-003-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Đóng cửa",
+          "zhTW": "關門"
+        },
+        "zhTW": "請幫我關門。",
+        "vi": "Xin đóng cửa giúp tôi.",
+        "wordIds": [
+          "vi:191-cua"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "關門",
+            "vi": "đóng cửa"
+          },
+          {
+            "zhTW": "幫我",
+            "vi": "giúp tôi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "禮貌",
+            "vi": "Xin",
+            "zhTW": "請"
+          },
+          {
+            "role": "動作",
+            "vi": "đóng cửa",
+            "zhTW": "關門"
+          },
+          {
+            "role": "對象",
+            "vi": "giúp tôi",
+            "zhTW": "幫我"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-003-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-003-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Nhà vệ sinh",
+          "zhTW": "洗手間"
+        },
+        "zhTW": "洗手間在走廊盡頭。",
+        "vi": "Nhà vệ sinh ở cuối hành lang.",
+        "wordIds": [
+          "vi:193-nha-ve-sinh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "洗手間",
+            "vi": "nhà vệ sinh"
+          },
+          {
+            "zhTW": "走廊盡頭",
+            "vi": "cuối hành lang"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Nhà vệ sinh",
+            "zhTW": "洗手間"
+          },
+          {
+            "role": "位置",
+            "vi": "ở cuối hành lang",
+            "zhTW": "在走廊盡頭"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-003-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-003-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-004",
+    "category": "lodging",
+    "title": {
+      "vi": "Phòng tắm và nước nóng",
+      "zhTW": "浴室與熱水"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Phòng tắm",
+          "zhTW": "浴室"
+        },
+        "zhTW": "浴室在右邊。",
+        "vi": "Phòng tắm ở bên phải.",
+        "wordIds": [
+          "vi:194-phong-tam"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "浴室",
+            "vi": "phòng tắm"
+          },
+          {
+            "zhTW": "在右邊",
+            "vi": "ở bên phải"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Phòng tắm",
+            "zhTW": "浴室"
+          },
+          {
+            "role": "方位",
+            "vi": "ở bên phải",
+            "zhTW": "在右邊"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-004-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-004-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Không có nước nóng",
+          "zhTW": "沒有熱水"
+        },
+        "zhTW": "這個房間沒有熱水。",
+        "vi": "Phòng này không có nước nóng.",
+        "wordIds": [
+          "vi:195-nuoc-nong"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這個房間",
+            "vi": "phòng này"
+          },
+          {
+            "zhTW": "沒有熱水",
+            "vi": "không có nước nóng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Phòng này",
+            "zhTW": "這個房間"
+          },
+          {
+            "role": "問題",
+            "vi": "không có nước nóng",
+            "zhTW": "沒有熱水"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-004-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-004-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Có lại nước nóng",
+          "zhTW": "恢復熱水"
+        },
+        "zhTW": "熱水會在十分鐘後恢復。",
+        "vi": "Nước nóng sẽ có lại sau mười phút.",
+        "wordIds": [
+          "vi:195-nuoc-nong"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "熱水",
+            "vi": "nước nóng"
+          },
+          {
+            "zhTW": "會恢復",
+            "vi": "sẽ có lại"
+          },
+          {
+            "zhTW": "十分鐘後",
+            "vi": "sau mười phút"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Nước nóng",
+            "zhTW": "熱水"
+          },
+          {
+            "role": "結果",
+            "vi": "sẽ có lại",
+            "zhTW": "會恢復"
+          },
+          {
+            "role": "時間",
+            "vi": "sau mười phút",
+            "zhTW": "十分鐘後"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-004-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-004-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-005",
+    "category": "lodging",
+    "title": {
+      "vi": "Máy lạnh",
+      "zhTW": "使用冷氣"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Không hoạt động",
+          "zhTW": "無法運作"
+        },
+        "zhTW": "房間裡的冷氣不能運作。",
+        "vi": "Máy lạnh trong phòng không hoạt động.",
+        "wordIds": [
+          "vi:196-may-lanh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "房間裡的冷氣",
+            "vi": "máy lạnh trong phòng"
+          },
+          {
+            "zhTW": "不能運作",
+            "vi": "không hoạt động"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "設備",
+            "vi": "Máy lạnh trong phòng",
+            "zhTW": "房間裡的冷氣"
+          },
+          {
+            "role": "問題",
+            "vi": "không hoạt động",
+            "zhTW": "不能運作"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-005-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-005-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Bật máy lạnh",
+          "zhTW": "開冷氣"
+        },
+        "zhTW": "你可以開冷氣嗎？",
+        "vi": "Bạn có thể bật máy lạnh không?",
+        "wordIds": [
+          "vi:196-may-lanh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你可以嗎",
+            "vi": "bạn có thể"
+          },
+          {
+            "zhTW": "開冷氣",
+            "vi": "bật máy lạnh"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "對象",
+            "vi": "Bạn",
+            "zhTW": "你"
+          },
+          {
+            "role": "能力",
+            "vi": "có thể",
+            "zhTW": "可以"
+          },
+          {
+            "role": "動作",
+            "vi": "bật máy lạnh",
+            "zhTW": "開冷氣"
+          },
+          {
+            "role": "疑問",
+            "vi": "không",
+            "zhTW": "嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-005-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-005-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Giảm nhiệt độ",
+          "zhTW": "調低溫度"
+        },
+        "zhTW": "請把冷氣溫度調低一點。",
+        "vi": "Xin giảm nhiệt độ máy lạnh xuống một chút.",
+        "wordIds": [
+          "vi:196-may-lanh"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "調低溫度",
+            "vi": "giảm nhiệt độ"
+          },
+          {
+            "zhTW": "冷氣",
+            "vi": "máy lạnh"
+          },
+          {
+            "zhTW": "一點",
+            "vi": "một chút"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "禮貌",
+            "vi": "Xin",
+            "zhTW": "請"
+          },
+          {
+            "role": "動作",
+            "vi": "giảm nhiệt độ máy lạnh",
+            "zhTW": "調低冷氣溫度"
+          },
+          {
+            "role": "程度",
+            "vi": "xuống một chút",
+            "zhTW": "調低一點"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-005-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-005-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-006",
+    "category": "lodging",
+    "title": {
+      "vi": "Mạng Wi-Fi",
+      "zhTW": "使用無線網路"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Mạng chậm",
+          "zhTW": "網路很慢"
+        },
+        "zhTW": "這裡的無線網路有點慢。",
+        "vi": "Mạng Wi-Fi ở đây hơi chậm.",
+        "wordIds": [
+          "vi:197-mang-wi-fi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "無線網路",
+            "vi": "mạng Wi-Fi"
+          },
+          {
+            "zhTW": "這裡",
+            "vi": "ở đây"
+          },
+          {
+            "zhTW": "有點慢",
+            "vi": "hơi chậm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Mạng Wi-Fi",
+            "zhTW": "無線網路"
+          },
+          {
+            "role": "地點",
+            "vi": "ở đây",
+            "zhTW": "這裡"
+          },
+          {
+            "role": "狀態",
+            "vi": "hơi chậm",
+            "zhTW": "有點慢"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-006-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-006-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Mật khẩu",
+          "zhTW": "網路密碼"
+        },
+        "zhTW": "無線網路密碼是什麼？",
+        "vi": "Mật khẩu mạng Wi-Fi là gì?",
+        "wordIds": [
+          "vi:197-mang-wi-fi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "無線網路密碼",
+            "vi": "mật khẩu mạng Wi-Fi"
+          },
+          {
+            "zhTW": "是什麼",
+            "vi": "là gì"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Mật khẩu mạng Wi-Fi",
+            "zhTW": "無線網路密碼"
+          },
+          {
+            "role": "提問",
+            "vi": "là gì",
+            "zhTW": "是什麼"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-006-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-006-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Không kết nối được",
+          "zhTW": "無法連線"
+        },
+        "zhTW": "我連不上無線網路。",
+        "vi": "Tôi không kết nối được với mạng Wi-Fi.",
+        "wordIds": [
+          "vi:197-mang-wi-fi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "連不上",
+            "vi": "không kết nối được"
+          },
+          {
+            "zhTW": "無線網路",
+            "vi": "mạng Wi-Fi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "問題",
+            "vi": "không kết nối được",
+            "zhTW": "連不上"
+          },
+          {
+            "role": "設備",
+            "vi": "với mạng Wi-Fi",
+            "zhTW": "無線網路"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-006-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-006-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-007",
+    "category": "lodging",
+    "title": {
+      "vi": "Thuê đồ và chỗ ở",
+      "zhTW": "租借物品與住處"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Thuê xe máy",
+          "zhTW": "租機車"
+        },
+        "zhTW": "我想租兩天機車。",
+        "vi": "Tôi muốn thuê xe máy trong hai ngày.",
+        "wordIds": [
+          "vi:198-thue"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想租機車",
+            "vi": "muốn thuê xe máy"
+          },
+          {
+            "zhTW": "兩天",
+            "vi": "trong hai ngày"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "意願",
+            "vi": "muốn thuê xe máy",
+            "zhTW": "想租機車"
+          },
+          {
+            "role": "期間",
+            "vi": "trong hai ngày",
+            "zhTW": "兩天"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-007-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-007-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Thuê căn hộ",
+          "zhTW": "租公寓"
+        },
+        "zhTW": "我們在公司附近租了一間公寓。",
+        "vi": "Chúng tôi thuê một căn hộ gần công ty.",
+        "wordIds": [
+          "vi:198-thue"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "租一間公寓",
+            "vi": "thuê một căn hộ"
+          },
+          {
+            "zhTW": "公司附近",
+            "vi": "gần công ty"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Chúng tôi",
+            "zhTW": "我們"
+          },
+          {
+            "role": "動作",
+            "vi": "thuê một căn hộ",
+            "zhTW": "租一間公寓"
+          },
+          {
+            "role": "位置",
+            "vi": "gần công ty",
+            "zhTW": "公司附近"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-007-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-007-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Giá thuê",
+          "zhTW": "租借價格"
+        },
+        "zhTW": "在這裡租車多少錢？",
+        "vi": "Thuê xe ở đây giá bao nhiêu?",
+        "wordIds": [
+          "vi:198-thue"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "租車",
+            "vi": "thuê xe"
+          },
+          {
+            "zhTW": "在這裡",
+            "vi": "ở đây"
+          },
+          {
+            "zhTW": "多少錢",
+            "vi": "giá bao nhiêu"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Thuê xe",
+            "zhTW": "租車"
+          },
+          {
+            "role": "地點",
+            "vi": "ở đây",
+            "zhTW": "在這裡"
+          },
+          {
+            "role": "提問",
+            "vi": "giá bao nhiêu",
+            "zhTW": "多少錢"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-007-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-007-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lodging-008",
+    "category": "lodging",
+    "title": {
+      "vi": "Ở thêm và trả phòng",
+      "zhTW": "續住與退房"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Ở hai đêm",
+          "zhTW": "住兩晚"
+        },
+        "zhTW": "我想住兩晚。",
+        "vi": "Tôi muốn ở lại hai đêm.",
+        "wordIds": [
+          "vi:199-dem",
+          "vi:200-o-lai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想住宿",
+            "vi": "muốn ở lại"
+          },
+          {
+            "zhTW": "兩晚",
+            "vi": "hai đêm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "意願",
+            "vi": "muốn ở lại",
+            "zhTW": "想住宿"
+          },
+          {
+            "role": "時間",
+            "vi": "hai đêm",
+            "zhTW": "兩晚"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-008-1-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-008-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Ở thêm",
+          "zhTW": "多住一晚"
+        },
+        "zhTW": "我們決定多住一晚。",
+        "vi": "Chúng tôi quyết định ở lại thêm một đêm.",
+        "wordIds": [
+          "vi:199-dem",
+          "vi:200-o-lai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "決定",
+            "vi": "quyết định"
+          },
+          {
+            "zhTW": "多住",
+            "vi": "ở lại thêm"
+          },
+          {
+            "zhTW": "一晚",
+            "vi": "một đêm"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Chúng tôi",
+            "zhTW": "我們"
+          },
+          {
+            "role": "決定",
+            "vi": "quyết định",
+            "zhTW": "決定"
+          },
+          {
+            "role": "動作",
+            "vi": "ở lại thêm",
+            "zhTW": "多住"
+          },
+          {
+            "role": "時間",
+            "vi": "một đêm",
+            "zhTW": "一晚"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-008-2-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-008-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Trả phòng",
+          "zhTW": "退房"
+        },
+        "zhTW": "退房時我會歸還鑰匙。",
+        "vi": "Tôi sẽ trả chìa khóa khi trả phòng.",
+        "wordIds": [
+          "vi:190-chia-khoa"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "歸還鑰匙",
+            "vi": "trả chìa khóa"
+          },
+          {
+            "zhTW": "退房時",
+            "vi": "khi trả phòng"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主詞",
+            "vi": "Tôi",
+            "zhTW": "我"
+          },
+          {
+            "role": "動作",
+            "vi": "sẽ trả chìa khóa",
+            "zhTW": "會歸還鑰匙"
+          },
+          {
+            "role": "時間",
+            "vi": "khi trả phòng",
+            "zhTW": "退房時"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/lodging/lodging-008-3-zh.mp3",
+          "vi": "assets/audio/candidates/lodging/lodging-008-3-vi.mp3"
+        }
+      }
+    ]
+  }
+]

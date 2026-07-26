@@ -1,0 +1,1052 @@
+[
+  {
+    "rank": 1151,
+    "vi": "hướng",
+    "zhTW": "方向；朝向；導向",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "La bàn giúp chúng ta xác định đúng hướng.",
+        "zhTW": "指南針幫助我們確定正確的方向。"
+      },
+      {
+        "vi": "Cửa sổ phòng tôi hướng ra biển.",
+        "zhTW": "我房間的窗戶朝向大海。"
+      },
+      {
+        "vi": "Mọi nỗ lực của chúng tôi đều hướng tới mục tiêu chung.",
+        "zhTW": "我們所有的努力都朝向共同的目標。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1152,
+    "vi": "gây",
+    "zhTW": "造成；引起；導致",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Tiếng ồn từ công trường xây dựng gây khó chịu cho người dân.",
+        "zhTW": "建築工地的噪音給居民帶來困擾。"
+      },
+      {
+        "vi": "Hút thuốc lá có thể gây ra nhiều bệnh nguy hiểm.",
+        "zhTW": "抽菸可能導致許多危險的疾病。"
+      },
+      {
+        "vi": "Hành động của anh ta đã gây hiểu lầm cho mọi người.",
+        "zhTW": "他的行為引起了大家的誤會。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1153,
+    "vi": "trở thành",
+    "zhTW": "成為；變成",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Sau nhiều năm nỗ lực, cô ấy đã trở thành một bác sĩ giỏi.",
+        "zhTW": "經過多年的努力，她成為了一位優秀的醫生。"
+      },
+      {
+        "vi": "Ước mơ của anh ấy là trở thành một phi công.",
+        "zhTW": "他的夢想是成為一名飛行員。"
+      },
+      {
+        "vi": "Hai công ty đã quyết định hợp nhất để trở thành một tập đoàn lớn hơn.",
+        "zhTW": "兩家公司決定合併，成為一個更大的集團。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1154,
+    "vi": "tăng",
+    "zhTW": "增加；上漲",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Giá xăng dầu gần đây liên tục tăng.",
+        "zhTW": "最近汽油價格不斷上漲。"
+      },
+      {
+        "vi": "Công ty quyết định tăng lương cho tất cả nhân viên.",
+        "zhTW": "公司決定為所有員工加薪。"
+      },
+      {
+        "vi": "Dân số thành phố này tăng nhanh trong những năm qua.",
+        "zhTW": "這座城市的人口在過去幾年快速增加。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1155,
+    "vi": "vòng",
+    "zhTW": "圈；環；輪",
+    "pos": "名詞／量詞",
+    "examples": [
+      {
+        "vi": "Cô ấy đeo một chiếc vòng cổ rất đẹp.",
+        "zhTW": "她戴著一條很漂亮的項鍊。"
+      },
+      {
+        "vi": "Chúng tôi đã đi một vòng quanh hồ.",
+        "zhTW": "我們繞著湖走了一圈。"
+      },
+      {
+        "vi": "Cuộc thi điền kinh này có ba vòng.",
+        "zhTW": "這場田徑賽有三輪。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1156,
+    "vi": "chú",
+    "zhTW": "叔叔；伯伯",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Chú tôi là một kỹ sư.",
+        "zhTW": "我叔叔是一位工程師。"
+      },
+      {
+        "vi": "Chú ơi, cho cháu hỏi đường đến bưu điện ạ?",
+        "zhTW": "叔叔，請問郵局怎麼走？"
+      },
+      {
+        "vi": "Mẹ tôi nhờ chú hàng xóm sửa giúp cái quạt.",
+        "zhTW": "我媽媽請鄰居叔叔幫忙修理電風扇。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1157,
+    "vi": "kiếm",
+    "zhTW": "賺；找；劍",
+    "pos": "動詞／名詞",
+    "examples": [
+      {
+        "vi": "Anh ấy làm việc chăm chỉ để kiếm tiền nuôi gia đình.",
+        "zhTW": "他努力工作賺錢養家。"
+      },
+      {
+        "vi": "Tôi đang kiếm chìa khóa xe, không biết để đâu rồi.",
+        "zhTW": "我在找車鑰匙，不知道放哪了。"
+      },
+      {
+        "vi": "Thật khó để kiếm được một công việc tốt trong thời điểm này.",
+        "zhTW": "在這個時期很難找到一份好工作。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1158,
+    "vi": "vị",
+    "zhTW": "味道；口味；位",
+    "pos": "名詞／量詞",
+    "examples": [
+      {
+        "vi": "Món này có vị rất đặc biệt.",
+        "zhTW": "這道菜的味道很特別。"
+      },
+      {
+        "vi": "Xin hỏi vị này muốn dùng gì ạ?",
+        "zhTW": "請問這位想用點什麼呢？"
+      },
+      {
+        "vi": "Tôi thích vị ngọt của trái cây.",
+        "zhTW": "我喜歡水果的甜味。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1159,
+    "vi": "thằng",
+    "zhTW": "傢伙；小子",
+    "pos": "代名詞／量詞",
+    "examples": [
+      {
+        "vi": "Thằng bé nhà bên rất nghịch ngợm.",
+        "zhTW": "隔壁那個小鬼頭很調皮。"
+      },
+      {
+        "vi": "Tôi không muốn nói chuyện với thằng đó.",
+        "zhTW": "我不想跟那傢伙說話。"
+      },
+      {
+        "vi": "Hai thằng đó là bạn thân từ nhỏ.",
+        "zhTW": "那兩個傢伙從小就是死黨。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1160,
+    "vi": "lớp",
+    "zhTW": "層；班級；課",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Bàn này được phủ một lớp sơn mới.",
+        "zhTW": "這張桌子塗了一層新油漆。"
+      },
+      {
+        "vi": "Con trai tôi năm nay học lớp 5.",
+        "zhTW": "我兒子今年讀五年級。"
+      },
+      {
+        "vi": "Tôi đã đăng ký một lớp học tiếng Anh.",
+        "zhTW": "我報名了一堂英語課。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1161,
+    "vi": "khả năng",
+    "zhTW": "能力；可能性",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Anh ấy có khả năng nói được nhiều thứ tiếng.",
+        "zhTW": "他有能力說多種語言。"
+      },
+      {
+        "vi": "Có khả năng trời sẽ mưa vào chiều nay.",
+        "zhTW": "今天下午有可能會下雨。"
+      },
+      {
+        "vi": "Chúng ta phải đánh giá đúng khả năng của đối thủ.",
+        "zhTW": "我們必須正確評估對手的能力。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1162,
+    "vi": "cuộc sống",
+    "zhTW": "生活；人生",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Cuộc sống ở thành phố rất nhộn nhịp và hiện đại.",
+        "zhTW": "都市的生活非常熱鬧和現代。"
+      },
+      {
+        "vi": "Cô ấy luôn tìm kiếm ý nghĩa của cuộc sống.",
+        "zhTW": "她總是在尋找人生的意義。"
+      },
+      {
+        "vi": "Ai cũng mong muốn có một cuộc sống hạnh phúc và ổn định.",
+        "zhTW": "誰都希望能有一個幸福安定的生活。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1163,
+    "vi": "buổi",
+    "zhTW": "(一天的)時段；場次",
+    "pos": "量詞／名詞",
+    "examples": [
+      {
+        "vi": "Buổi sáng tôi thường dậy sớm để tập thể dục.",
+        "zhTW": "早上我通常早起做運動。"
+      },
+      {
+        "vi": "Chúng ta có một buổi họp quan trọng vào ngày mai.",
+        "zhTW": "我們明天有一個重要的會議。"
+      },
+      {
+        "vi": "Buổi biểu diễn tối qua thật tuyệt vời.",
+        "zhTW": "昨晚的表演真是太棒了。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1164,
+    "vi": "phát triển",
+    "zhTW": "發展",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Kinh tế Việt Nam đang phát triển rất nhanh.",
+        "zhTW": "越南經濟正在快速發展。"
+      },
+      {
+        "vi": "Công ty cần một chiến lược mới để phát triển thị trường.",
+        "zhTW": "公司需要一個新策略來發展市場。"
+      },
+      {
+        "vi": "Đọc sách giúp trẻ em phát triển tư duy và trí tưởng tượng.",
+        "zhTW": "閱讀幫助孩童發展思維和想像力。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1165,
+    "vi": "báo",
+    "zhTW": "報紙；報告；通知",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Tôi đọc báo mỗi sáng để cập nhật tin tức.",
+        "zhTW": "我每天早上讀報紙來更新新聞。"
+      },
+      {
+        "vi": "Xin hãy báo cho tôi biết khi nào anh ấy đến.",
+        "zhTW": "他到的時候請通知我。"
+      },
+      {
+        "vi": "Chim én bay về báo hiệu mùa xuân đã đến.",
+        "zhTW": "燕子飛回來預告春天已經到來。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1166,
+    "vi": "đá",
+    "zhTW": "石頭；冰塊；踢",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Cho tôi một ly cà phê đá, ít đường.",
+        "zhTW": "給我一杯少糖的冰咖啡。"
+      },
+      {
+        "vi": "Bọn trẻ đang đá bóng ngoài sân.",
+        "zhTW": "孩子們正在院子裡踢足球。"
+      },
+      {
+        "vi": "Bức tường này được xây bằng đá.",
+        "zhTW": "這面牆是用石頭蓋的。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1167,
+    "vi": "đại",
+    "zhTW": "大的；隨便地；姑且",
+    "pos": "形容詞／副詞",
+    "examples": [
+      {
+        "vi": "Không biết trả lời thế nào, tôi nói đại một câu.",
+        "zhTW": "不知道怎麼回答，我就隨便說了一句。"
+      },
+      {
+        "vi": "Đây là chương trình khuyến mãi đại hạ giá.",
+        "zhTW": "這是大降價的促銷活動。"
+      },
+      {
+        "vi": "Cứ làm đại đi, sai thì sửa.",
+        "zhTW": "就先做做看吧，錯了再改。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1168,
+    "vi": "cố",
+    "zhTW": "盡力；設法",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Anh ấy đang cố học tiếng Việt.",
+        "zhTW": "他正在努力學越南語。"
+      },
+      {
+        "vi": "Tôi sẽ cố hoàn thành công việc trước cuối tuần.",
+        "zhTW": "我會盡力在週末前完成工作。"
+      },
+      {
+        "vi": "Dù mệt nhưng cô ấy vẫn cố mỉm cười.",
+        "zhTW": "雖然很累，但她還是努力擠出微笑。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1169,
+    "vi": "cố gắng",
+    "zhTW": "努力；盡力",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Tôi sẽ cố gắng hết sức để không làm bạn thất vọng.",
+        "zhTW": "我會盡力不讓你失望。"
+      },
+      {
+        "vi": "Chúng ta phải cố gắng hơn nữa trong học tập.",
+        "zhTW": "我們在學習上必須更加努力。"
+      },
+      {
+        "vi": "Anh ấy đã rất cố gắng nhưng vẫn không thành công.",
+        "zhTW": "他已經非常努力了，但還是沒有成功。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1170,
+    "vi": "bất kỳ",
+    "zhTW": "任何",
+    "pos": "限定詞",
+    "examples": [
+      {
+        "vi": "Bạn có thể gọi cho tôi vào bất kỳ lúc nào.",
+        "zhTW": "你可以在任何時候打電話給我。"
+      },
+      {
+        "vi": "Cửa hàng này mở cửa cho bất kỳ ai muốn vào.",
+        "zhTW": "這家店對任何想進來的人開放。"
+      },
+      {
+        "vi": "Anh ấy có thể giải quyết bất kỳ vấn đề khó khăn nào.",
+        "zhTW": "他能解決任何困難的問題。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1171,
+    "vi": "riêng",
+    "zhTW": "私人的；個別的；單獨地",
+    "pos": "形容詞／副詞",
+    "examples": [
+      {
+        "vi": "Mỗi người có một sở thích riêng.",
+        "zhTW": "每個人都有自己的喜好。"
+      },
+      {
+        "vi": "Tôi muốn nói chuyện riêng với bạn một lát.",
+        "zhTW": "我想跟你私下聊一下。"
+      },
+      {
+        "vi": "Riêng tiền ăn đã tốn rất nhiều rồi.",
+        "zhTW": "光是伙食費就花很多錢了。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1172,
+    "vi": "hát",
+    "zhTW": "唱；唱歌",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Cô ấy hát rất hay.",
+        "zhTW": "她唱歌唱得很好聽。"
+      },
+      {
+        "vi": "Bạn có thích đi hát karaoke không?",
+        "zhTW": "你喜歡去唱卡拉OK嗎？"
+      },
+      {
+        "vi": "Tối nay chúng ta hãy cùng nhau hát vài bài nhé.",
+        "zhTW": "今晚我們一起唱幾首歌吧。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1173,
+    "vi": "thương",
+    "zhTW": "疼愛；愛；同情",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Mẹ rất thương con cái của mình.",
+        "zhTW": "媽媽非常疼愛自己的孩子。"
+      },
+      {
+        "vi": "Tôi rất thương những người có hoàn cảnh khó khăn.",
+        "zhTW": "我很同情處境困難的人。"
+      },
+      {
+        "vi": "Anh ấy thương cô ấy thật lòng.",
+        "zhTW": "他真心愛著她。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1174,
+    "vi": "phẩm",
+    "zhTW": "染料；顏料",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Loại phẩm màu này rất an toàn cho sức khỏe.",
+        "zhTW": "這種食用色素對健康很安全。"
+      },
+      {
+        "vi": "Áo của tôi bị dính phẩm nhuộm.",
+        "zhTW": "我的衣服沾到染料了。"
+      },
+      {
+        "vi": "Nhà máy này chuyên sản xuất các loại phẩm công nghiệp.",
+        "zhTW": "這家工廠專門生產各類工業染料。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1175,
+    "vi": "xây dựng",
+    "zhTW": "建造；建設；建立",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Công ty chúng tôi đang xây dựng một tòa nhà văn phòng mới.",
+        "zhTW": "我們公司正在蓋一棟新的辦公大樓。"
+      },
+      {
+        "vi": "Chính phủ đang nỗ lực xây dựng đất nước ngày càng giàu mạnh.",
+        "zhTW": "政府正努力將國家建設得日益富強。"
+      },
+      {
+        "vi": "Chúng ta cần xây dựng một mối quan hệ tốt đẹp với đồng nghiệp.",
+        "zhTW": "我們需要和同事建立良好的關係。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1176,
+    "vi": "thiết",
+    "zhTW": "想要；想",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Sau khi cãi nhau, anh ấy chẳng thiết ăn uống gì cả.",
+        "zhTW": "吵架之後，他什麼也不想吃喝。"
+      },
+      {
+        "vi": "Cô ấy buồn đến mức không thiết làm gì.",
+        "zhTW": "她傷心到什麼事都不想做。"
+      },
+      {
+        "vi": "Tôi mệt quá, chẳng thiết đi đâu chơi.",
+        "zhTW": "我太累了，哪兒也不想去玩。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1177,
+    "vi": "đội",
+    "zhTW": "隊；戴（帽）；頂（在頭上）",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Ra ngoài trời nắng, bạn nhớ đội mũ vào nhé.",
+        "zhTW": "出門太陽大，記得要戴上帽子喔。"
+      },
+      {
+        "vi": "Đội tuyển bóng đá Việt Nam đã thi đấu rất xuất sắc.",
+        "zhTW": "越南國家足球隊表現得非常出色。"
+      },
+      {
+        "vi": "Người phụ nữ ấy đội một thúng hoa quả trên đầu.",
+        "zhTW": "那位婦女頭上頂著一籃水果。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1178,
+    "vi": "nhóm",
+    "zhTW": "組；群；生（火）",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Chúng ta hãy chia thành từng nhóm để thảo luận.",
+        "zhTW": "我們分成小組來討論吧。"
+      },
+      {
+        "vi": "Bà tôi đang nhóm bếp để chuẩn bị bữa tối.",
+        "zhTW": "我奶奶正在生火準備晚餐。"
+      },
+      {
+        "vi": "Một nhóm bạn trẻ đang tổ chức hoạt động tình nguyện.",
+        "zhTW": "一群年輕人正在組織志工活動。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1179,
+    "vi": "lo",
+    "zhTW": "擔心；操心；張羅",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Đừng lo, mọi chuyện rồi sẽ ổn thôi.",
+        "zhTW": "別擔心，一切都會沒事的。"
+      },
+      {
+        "vi": "Bố mẹ luôn lo cho tương lai của con cái.",
+        "zhTW": "父母總是為子女的未來操心。"
+      },
+      {
+        "vi": "Anh ấy đang phải lo liệu cho đám cưới của em gái.",
+        "zhTW": "他正在為妹妹的婚禮張羅。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1180,
+    "vi": "xong",
+    "zhTW": "完成；結束；完畢",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Làm xong bài tập về nhà rồi chúng ta đi chơi nhé.",
+        "zhTW": "做完功課後我們再去玩吧。"
+      },
+      {
+        "vi": "Tôi đã đọc xong cuốn sách này.",
+        "zhTW": "我已經讀完這本書了。"
+      },
+      {
+        "vi": "Ăn cơm xong nhớ rửa bát nhé.",
+        "zhTW": "吃完飯記得要洗碗喔。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1181,
+    "vi": "phim",
+    "zhTW": "電影；影片；底片",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Tối nay chúng ta đi xem phim nhé?",
+        "zhTW": "我們今晚去看電影好嗎？"
+      },
+      {
+        "vi": "Bộ phim này đã giành được nhiều giải thưởng quốc tế.",
+        "zhTW": "這部電影贏得了許多國際獎項。"
+      },
+      {
+        "vi": "Bác sĩ yêu cầu tôi đi chụp phim X-quang để kiểm tra phổi.",
+        "zhTW": "醫生要我去照X光片來檢查肺部。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1182,
+    "vi": "tao",
+    "zhTW": "我；老子",
+    "pos": "代名詞",
+    "examples": [
+      {
+        "vi": "Mày đi đâu đấy? Lại đây tao bảo.",
+        "zhTW": "你去哪？過來我跟你說。"
+      },
+      {
+        "vi": "Việc này để tao lo, mày không cần phải bận tâm.",
+        "zhTW": "這件事我來處理，你不用操心。"
+      },
+      {
+        "vi": "Tao đã nói với mày bao nhiêu lần rồi mà mày không nghe.",
+        "zhTW": "我已經跟你說過多少次了，你就是不聽。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1183,
+    "vi": "định",
+    "zhTW": "打算；預定；訂定",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Tôi định cuối tuần này về quê thăm bố mẹ.",
+        "zhTW": "我打算這週末回鄉下探望父母。"
+      },
+      {
+        "vi": "Họ định tổ chức đám cưới vào tháng sau.",
+        "zhTW": "他們預定下個月舉行婚禮。"
+      },
+      {
+        "vi": "Chính phủ đã định ra các chính sách mới để phát triển kinh tế.",
+        "zhTW": "政府已經訂定了新的政策來發展經濟。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1184,
+    "vi": "chương trình",
+    "zhTW": "節目；計畫；課程；程式",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Chương trình truyền hình tối nay có gì hay không?",
+        "zhTW": "今晚的電視節目有什麼好看的嗎？"
+      },
+      {
+        "vi": "Bạn đã cài đặt chương trình diệt virus cho máy tính chưa?",
+        "zhTW": "你安裝電腦的防毒程式了嗎？"
+      },
+      {
+        "vi": "Chương trình học của năm nay có một số thay đổi.",
+        "zhTW": "今年的課程有一些變動。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1185,
+    "vi": "dành",
+    "zhTW": "保留；留給；花費",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Mẹ luôn dành những điều tốt đẹp nhất cho con.",
+        "zhTW": "媽媽總是把最好的留給孩子。"
+      },
+      {
+        "vi": "Anh ấy dành tiền để mua một căn nhà mới.",
+        "zhTW": "他存錢來買一間新房子。"
+      },
+      {
+        "vi": "Tôi muốn dành thời gian cuối tuần để nghỉ ngơi.",
+        "zhTW": "我想要把週末的時間用來休息。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1186,
+    "vi": "quan tâm",
+    "zhTW": "關心；在意；關注",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Cảm ơn bạn đã quan tâm đến sức khỏe của tôi.",
+        "zhTW": "謝謝你關心我的健康。"
+      },
+      {
+        "vi": "Chính phủ rất quan tâm đến vấn đề bảo vệ môi trường.",
+        "zhTW": "政府非常關注環境保護的問題。"
+      },
+      {
+        "vi": "Anh ấy không hề quan tâm đến cảm xúc của người khác.",
+        "zhTW": "他一點也不在意別人的感受。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1187,
+    "vi": "cảnh",
+    "zhTW": "風景；景象；場景",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Phong cảnh ở đây thật là đẹp.",
+        "zhTW": "這裡的風景真是太美了。"
+      },
+      {
+        "vi": "Đây là một cảnh rất cảm động trong bộ phim.",
+        "zhTW": "這是電影中一個非常感人的場景。"
+      },
+      {
+        "vi": "Tôi không bao giờ quên được cảnh tượng hỗn loạn ngày hôm đó.",
+        "zhTW": "我永遠忘不了那天混亂的景象。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1188,
+    "vi": "gia",
+    "zhTW": "增加；加入",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Mẹ tôi thường gia thêm gừng vào món cá kho.",
+        "zhTW": "我媽媽常常在紅燒魚裡多加點薑。"
+      },
+      {
+        "vi": "Vui lòng gia thêm một chút nước mắm cho vừa ăn.",
+        "zhTW": "請再加一點魚露讓味道剛好。"
+      },
+      {
+        "vi": "Để tăng tốc độ, bạn cần gia thêm bộ nhớ cho máy tính.",
+        "zhTW": "為了提升速度，你需要為電腦增加記憶體。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1189,
+    "vi": "hệ thống",
+    "zhTW": "系統；體系",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Hệ thống máy tính của công ty vừa được nâng cấp.",
+        "zhTW": "公司的電腦系統剛升級了。"
+      },
+      {
+        "vi": "Chúng ta cần một hệ thống quản lý hiệu quả hơn.",
+        "zhTW": "我們需要一個更有效率的管理系統。"
+      },
+      {
+        "vi": "Hệ thống giao thông ở thành phố này rất phức tạp.",
+        "zhTW": "這個城市的交通系統非常複雜。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1190,
+    "vi": "diễn",
+    "zhTW": "表演；扮演；發生；進行",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Cô ấy diễn vai chính trong vở kịch này rất xuất sắc.",
+        "zhTW": "她在這齣話劇中扮演主角，演得非常出色。"
+      },
+      {
+        "vi": "Đừng có diễn nữa, tôi biết hết sự thật rồi.",
+        "zhTW": "別再演了，我已經知道所有真相了。"
+      },
+      {
+        "vi": "Cuộc họp sẽ diễn ra vào lúc 9 giờ sáng mai.",
+        "zhTW": "會議將在明天早上九點進行。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1191,
+    "vi": "so",
+    "zhTW": "比較；比對；校準",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Hai anh em đứng cạnh nhau để so xem ai cao hơn.",
+        "zhTW": "兄弟倆站在一起，比看看誰比較高。"
+      },
+      {
+        "vi": "Sau khi thi xong, tôi thường so bài làm với đáp án.",
+        "zhTW": "考完試後，我通常會把考卷跟答案對一下。"
+      },
+      {
+        "vi": "Trước khi biểu diễn, nghệ sĩ phải so lại dây đàn.",
+        "zhTW": "表演前，藝術家必須重新校準琴弦。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1192,
+    "vi": "mỹ",
+    "zhTW": "美國；美的",
+    "pos": "名詞／形容詞",
+    "examples": [
+      {
+        "vi": "Nền kinh tế Mỹ có ảnh hưởng lớn đến toàn cầu.",
+        "zhTW": "美國經濟對全球有著巨大的影響。"
+      },
+      {
+        "vi": "Nhiều người Việt Nam mơ ước được đi du học Mỹ.",
+        "zhTW": "許多越南人夢想去美國留學。"
+      },
+      {
+        "vi": "Phim Mỹ luôn được khán giả Việt Nam yêu thích.",
+        "zhTW": "美國電影一直很受越南觀眾的喜愛。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1193,
+    "vi": "sản",
+    "zhTW": "產科；生產",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Bệnh viện này có khoa sản rất nổi tiếng.",
+        "zhTW": "這家醫院的產科非常有名。"
+      },
+      {
+        "vi": "Bác sĩ sản khoa đang tư vấn cho một thai phụ.",
+        "zhTW": "產科醫生正在為一位孕婦提供諮詢。"
+      },
+      {
+        "vi": "Chăm sóc sức khỏe sau sản là vô cùng quan trọng.",
+        "zhTW": "產後健康照護極為重要。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1194,
+    "vi": "đơn",
+    "zhTW": "申請書；表格；疹子",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Tôi cần điền vào một lá đơn để xin nghỉ phép.",
+        "zhTW": "我需要填寫一張申請單來請假。"
+      },
+      {
+        "vi": "Anh ấy đã nộp đơn xin việc ở nhiều công ty khác nhau.",
+        "zhTW": "他已經向許多不同的公司投遞了求職申請書。"
+      },
+      {
+        "vi": "Do dị ứng thức ăn, trên người cô ấy nổi đầy đơn.",
+        "zhTW": "因為食物過敏，她身上長滿了疹子。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1195,
+    "vi": "tổ chức",
+    "zhTW": "組織；舉辦；安排",
+    "pos": "動詞／名詞",
+    "examples": [
+      {
+        "vi": "Công ty chúng tôi sẽ tổ chức một chuyến du lịch cho nhân viên vào cuối năm.",
+        "zhTW": "我們公司將在年底為員工舉辦一場旅遊。"
+      },
+      {
+        "vi": "Anh ấy là người chịu trách nhiệm tổ chức sự kiện này.",
+        "zhTW": "他是負責籌辦這次活動的人。"
+      },
+      {
+        "vi": "Liên Hợp Quốc là một tổ chức quốc tế quan trọng.",
+        "zhTW": "聯合國是一個重要的國際組織。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1196,
+    "vi": "bây",
+    "zhTW": "弄髒；塗抹",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Cẩn thận kẻo bây mực ra áo trắng nhé.",
+        "zhTW": "小心不要把墨水弄髒白襯衫喔。"
+      },
+      {
+        "vi": "Đứa bé nghịch ngợm đã bây sơn lên tường.",
+        "zhTW": "那個頑皮的小孩把油漆塗到牆上了。"
+      },
+      {
+        "vi": "Tay con dính đầy sô-cô-la, đừng bây lên quần áo.",
+        "zhTW": "你手上都是巧克力，不要把它抹到衣服上。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1197,
+    "vi": "chung",
+    "zhTW": "共同的；一起；共用",
+    "pos": "形容詞／動詞",
+    "examples": [
+      {
+        "vi": "Chúng tôi có nhiều sở thích chung.",
+        "zhTW": "我們有很多共同的嗜好。"
+      },
+      {
+        "vi": "Hai gia đình ở chung một căn nhà.",
+        "zhTW": "兩個家庭住在一起，在同一棟房子裡。"
+      },
+      {
+        "vi": "Mọi người hãy chung sức giải quyết vấn đề này.",
+        "zhTW": "大家一起合力解決這個問題吧。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1198,
+    "vi": "hội",
+    "zhTW": "節慶；協會；聚會",
+    "pos": "名詞／動詞",
+    "examples": [
+      {
+        "vi": "Làng tôi sắp mở hội, không khí rất náo nhiệt.",
+        "zhTW": "我的村莊即將舉辦節慶，氣氛非常熱鬧。"
+      },
+      {
+        "vi": "Anh ấy là thành viên của hội nhiếp ảnh.",
+        "zhTW": "他是攝影協會的成員。"
+      },
+      {
+        "vi": "Tối nay bạn bè tôi có hội ở nhà, bạn đến chơi nhé.",
+        "zhTW": "今晚我朋友在我家有個聚會，你一起來玩吧。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1199,
+    "vi": "coi",
+    "zhTW": "看；觀看；看管；視為",
+    "pos": "動詞",
+    "examples": [
+      {
+        "vi": "Tối nay bạn có muốn đi coi phim với tôi không?",
+        "zhTW": "今天晚上你想不想跟我去看電影？"
+      },
+      {
+        "vi": "Nhờ bạn coi giùm tôi cái vali một lát.",
+        "zhTW": "麻煩你幫我看一下行李箱。"
+      },
+      {
+        "vi": "Tôi coi anh ấy như anh trai của mình.",
+        "zhTW": "我把他當作自己的親哥哥。"
+      }
+    ],
+    "quality": "reviewed"
+  },
+  {
+    "rank": 1200,
+    "vi": "cạnh",
+    "zhTW": "旁邊；邊緣；邊",
+    "pos": "名詞",
+    "examples": [
+      {
+        "vi": "Nhà tôi ở ngay cạnh công viên.",
+        "zhTW": "我家就在公園旁邊。"
+      },
+      {
+        "vi": "Hãy cẩn thận đừng để va vào cạnh bàn.",
+        "zhTW": "小心不要撞到桌子的邊緣。"
+      },
+      {
+        "vi": "Hai người họ ngồi cạnh nhau trên ghế đá.",
+        "zhTW": "他們兩人並肩坐在石椅上。"
+      }
+    ],
+    "quality": "reviewed"
+  }
+]

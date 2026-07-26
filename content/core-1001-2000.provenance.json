@@ -1,0 +1,5007 @@
+{
+  "frequencySource": "server/data/archive/lr_3k.json",
+  "definitionSource": "https://github.com/vntk/dictionary (MIT)",
+  "model": "gemini-2.5-pro",
+  "items": [
+    {
+      "rank": 1001,
+      "archiveRank": 17,
+      "vi": "những"
+    },
+    {
+      "rank": 1002,
+      "archiveRank": 27,
+      "vi": "cô"
+    },
+    {
+      "rank": 1003,
+      "archiveRank": 28,
+      "vi": "như"
+    },
+    {
+      "rank": 1004,
+      "archiveRank": 35,
+      "vi": "điều"
+    },
+    {
+      "rank": 1005,
+      "archiveRank": 47,
+      "vi": "thế"
+    },
+    {
+      "rank": 1006,
+      "archiveRank": 53,
+      "vi": "thứ"
+    },
+    {
+      "rank": 1007,
+      "archiveRank": 54,
+      "vi": "mọi"
+    },
+    {
+      "rank": 1008,
+      "archiveRank": 60,
+      "vi": "thôi"
+    },
+    {
+      "rank": 1009,
+      "archiveRank": 62,
+      "vi": "cách"
+    },
+    {
+      "rank": 1010,
+      "archiveRank": 63,
+      "vi": "ừ"
+    },
+    {
+      "rank": 1011,
+      "archiveRank": 64,
+      "vi": "việc"
+    },
+    {
+      "rank": 1012,
+      "archiveRank": 65,
+      "vi": "tại"
+    },
+    {
+      "rank": 1013,
+      "archiveRank": 67,
+      "vi": "xem"
+    },
+    {
+      "rank": 1014,
+      "archiveRank": 68,
+      "vi": "cậu"
+    },
+    {
+      "rank": 1015,
+      "archiveRank": 69,
+      "vi": "chuyện"
+    },
+    {
+      "rank": 1016,
+      "archiveRank": 70,
+      "vi": "lần"
+    },
+    {
+      "rank": 1017,
+      "archiveRank": 71,
+      "vi": "nhau"
+    },
+    {
+      "rank": 1018,
+      "archiveRank": 72,
+      "vi": "hay"
+    },
+    {
+      "rank": 1019,
+      "archiveRank": 74,
+      "vi": "bên"
+    },
+    {
+      "rank": 1020,
+      "archiveRank": 77,
+      "vi": "vì vậy"
+    },
+    {
+      "rank": 1021,
+      "archiveRank": 86,
+      "vi": "lúc"
+    },
+    {
+      "rank": 1022,
+      "archiveRank": 90,
+      "vi": "sự"
+    },
+    {
+      "rank": 1023,
+      "archiveRank": 92,
+      "vi": "à"
+    },
+    {
+      "rank": 1024,
+      "archiveRank": 94,
+      "vi": "rằng"
+    },
+    {
+      "rank": 1025,
+      "archiveRank": 97,
+      "vi": "sử dụng"
+    },
+    {
+      "rank": 1026,
+      "archiveRank": 100,
+      "vi": "chứ"
+    },
+    {
+      "rank": 1027,
+      "archiveRank": 105,
+      "vi": "tới"
+    },
+    {
+      "rank": 1028,
+      "archiveRank": 106,
+      "vi": "lớn"
+    },
+    {
+      "rank": 1029,
+      "archiveRank": 114,
+      "vi": "bởi"
+    },
+    {
+      "rank": 1030,
+      "archiveRank": 118,
+      "vi": "nơi"
+    },
+    {
+      "rank": 1031,
+      "archiveRank": 121,
+      "vi": "thời gian"
+    },
+    {
+      "rank": 1032,
+      "archiveRank": 123,
+      "vi": "loại"
+    },
+    {
+      "rank": 1033,
+      "archiveRank": 126,
+      "vi": "phần"
+    },
+    {
+      "rank": 1034,
+      "archiveRank": 129,
+      "vi": "nhé"
+    },
+    {
+      "rank": 1035,
+      "archiveRank": 132,
+      "vi": "tạo"
+    },
+    {
+      "rank": 1036,
+      "archiveRank": 138,
+      "vi": "nam"
+    },
+    {
+      "rank": 1037,
+      "archiveRank": 139,
+      "vi": "chết"
+    },
+    {
+      "rank": 1038,
+      "archiveRank": 141,
+      "vi": "tiếng"
+    },
+    {
+      "rank": 1039,
+      "archiveRank": 142,
+      "vi": "tin"
+    },
+    {
+      "rank": 1040,
+      "archiveRank": 144,
+      "vi": "do"
+    },
+    {
+      "rank": 1041,
+      "archiveRank": 147,
+      "vi": "chính"
+    },
+    {
+      "rank": 1042,
+      "archiveRank": 148,
+      "vi": "chút"
+    },
+    {
+      "rank": 1043,
+      "archiveRank": 149,
+      "vi": "ạ"
+    },
+    {
+      "rank": 1044,
+      "archiveRank": 153,
+      "vi": "mất"
+    },
+    {
+      "rank": 1045,
+      "archiveRank": 154,
+      "vi": "cả"
+    },
+    {
+      "rank": 1046,
+      "archiveRank": 156,
+      "vi": "chiếc"
+    },
+    {
+      "rank": 1047,
+      "archiveRank": 159,
+      "vi": "cuộc"
+    },
+    {
+      "rank": 1048,
+      "archiveRank": 160,
+      "vi": "đặt"
+    },
+    {
+      "rank": 1049,
+      "archiveRank": 161,
+      "vi": "hàng"
+    },
+    {
+      "rank": 1050,
+      "archiveRank": 163,
+      "vi": "đầu tiên"
+    },
+    {
+      "rank": 1051,
+      "archiveRank": 164,
+      "vi": "bài"
+    },
+    {
+      "rank": 1052,
+      "archiveRank": 165,
+      "vi": "quay"
+    },
+    {
+      "rank": 1053,
+      "archiveRank": 166,
+      "vi": "thực"
+    },
+    {
+      "rank": 1054,
+      "archiveRank": 170,
+      "vi": "câu"
+    },
+    {
+      "rank": 1055,
+      "archiveRank": 173,
+      "vi": "đánh"
+    },
+    {
+      "rank": 1056,
+      "archiveRank": 175,
+      "vi": "bộ"
+    },
+    {
+      "rank": 1057,
+      "archiveRank": 178,
+      "vi": "cháu"
+    },
+    {
+      "rank": 1058,
+      "archiveRank": 179,
+      "vi": "thành"
+    },
+    {
+      "rank": 1059,
+      "archiveRank": 181,
+      "vi": "âm nhạc"
+    },
+    {
+      "rank": 1060,
+      "archiveRank": 182,
+      "vi": "ý"
+    },
+    {
+      "rank": 1061,
+      "archiveRank": 183,
+      "vi": "một số"
+    },
+    {
+      "rank": 1062,
+      "archiveRank": 187,
+      "vi": "đừng"
+    },
+    {
+      "rank": 1063,
+      "archiveRank": 188,
+      "vi": "kết"
+    },
+    {
+      "rank": 1064,
+      "archiveRank": 189,
+      "vi": "ơi"
+    },
+    {
+      "rank": 1065,
+      "archiveRank": 190,
+      "vi": "xảy"
+    },
+    {
+      "rank": 1066,
+      "archiveRank": 193,
+      "vi": "bé"
+    },
+    {
+      "rank": 1067,
+      "archiveRank": 194,
+      "vi": "lời"
+    },
+    {
+      "rank": 1068,
+      "archiveRank": 196,
+      "vi": "tất cả"
+    },
+    {
+      "rank": 1069,
+      "archiveRank": 198,
+      "vi": "tính"
+    },
+    {
+      "rank": 1070,
+      "archiveRank": 199,
+      "vi": "lỗi"
+    },
+    {
+      "rank": 1071,
+      "archiveRank": 202,
+      "vi": "độ"
+    },
+    {
+      "rank": 1072,
+      "archiveRank": 203,
+      "vi": "bọn"
+    },
+    {
+      "rank": 1073,
+      "archiveRank": 204,
+      "vi": "video"
+    },
+    {
+      "rank": 1074,
+      "archiveRank": 205,
+      "vi": "gái"
+    },
+    {
+      "rank": 1075,
+      "archiveRank": 206,
+      "vi": "trẻ"
+    },
+    {
+      "rank": 1076,
+      "archiveRank": 207,
+      "vi": "lòng"
+    },
+    {
+      "rank": 1077,
+      "archiveRank": 208,
+      "vi": "thực sự"
+    },
+    {
+      "rank": 1078,
+      "archiveRank": 211,
+      "vi": "thực hiện"
+    },
+    {
+      "rank": 1079,
+      "archiveRank": 212,
+      "vi": "khỏi"
+    },
+    {
+      "rank": 1080,
+      "archiveRank": 213,
+      "vi": "chắc"
+    },
+    {
+      "rank": 1081,
+      "archiveRank": 215,
+      "vi": "tớ"
+    },
+    {
+      "rank": 1082,
+      "archiveRank": 216,
+      "vi": "cây"
+    },
+    {
+      "rank": 1083,
+      "archiveRank": 218,
+      "vi": "rõ"
+    },
+    {
+      "rank": 1084,
+      "archiveRank": 219,
+      "vi": "điểm"
+    },
+    {
+      "rank": 1085,
+      "archiveRank": 220,
+      "vi": "phía"
+    },
+    {
+      "rank": 1086,
+      "archiveRank": 221,
+      "vi": "bắt"
+    },
+    {
+      "rank": 1087,
+      "archiveRank": 222,
+      "vi": "cấp"
+    },
+    {
+      "rank": 1088,
+      "archiveRank": 224,
+      "vi": "sinh"
+    },
+    {
+      "rank": 1089,
+      "archiveRank": 226,
+      "vi": "ta"
+    },
+    {
+      "rank": 1090,
+      "archiveRank": 227,
+      "vi": "đối với"
+    },
+    {
+      "rank": 1091,
+      "archiveRank": 228,
+      "vi": "khiến"
+    },
+    {
+      "rank": 1092,
+      "archiveRank": 231,
+      "vi": "nhạc"
+    },
+    {
+      "rank": 1093,
+      "archiveRank": 232,
+      "vi": "chỗ"
+    },
+    {
+      "rank": 1094,
+      "archiveRank": 234,
+      "vi": "hôm"
+    },
+    {
+      "rank": 1095,
+      "archiveRank": 237,
+      "vi": "kể"
+    },
+    {
+      "rank": 1096,
+      "archiveRank": 238,
+      "vi": "tập"
+    },
+    {
+      "rank": 1097,
+      "archiveRank": 243,
+      "vi": "đất"
+    },
+    {
+      "rank": 1098,
+      "archiveRank": 246,
+      "vi": "trái"
+    },
+    {
+      "rank": 1099,
+      "archiveRank": 247,
+      "vi": "chuyển"
+    },
+    {
+      "rank": 1100,
+      "archiveRank": 248,
+      "vi": "vài"
+    },
+    {
+      "rank": 1101,
+      "archiveRank": 250,
+      "vi": "trở"
+    },
+    {
+      "rank": 1102,
+      "archiveRank": 257,
+      "vi": "tuyệt vời"
+    },
+    {
+      "rank": 1103,
+      "archiveRank": 259,
+      "vi": "chắc chắn"
+    },
+    {
+      "rank": 1104,
+      "archiveRank": 260,
+      "vi": "hiện"
+    },
+    {
+      "rank": 1105,
+      "archiveRank": 261,
+      "vi": "bảo"
+    },
+    {
+      "rank": 1106,
+      "archiveRank": 262,
+      "vi": "hoạt động"
+    },
+    {
+      "rank": 1107,
+      "archiveRank": 263,
+      "vi": "âm"
+    },
+    {
+      "rank": 1108,
+      "archiveRank": 264,
+      "vi": "giới"
+    },
+    {
+      "rank": 1109,
+      "archiveRank": 265,
+      "vi": "kẻ"
+    },
+    {
+      "rank": 1110,
+      "archiveRank": 266,
+      "vi": "bóng"
+    },
+    {
+      "rank": 1111,
+      "archiveRank": 270,
+      "vi": "mày"
+    },
+    {
+      "rank": 1112,
+      "archiveRank": 271,
+      "vi": "biến"
+    },
+    {
+      "rank": 1113,
+      "archiveRank": 272,
+      "vi": "bao"
+    },
+    {
+      "rank": 1114,
+      "archiveRank": 273,
+      "vi": "sợ"
+    },
+    {
+      "rank": 1115,
+      "archiveRank": 274,
+      "vi": "trang"
+    },
+    {
+      "rank": 1116,
+      "archiveRank": 275,
+      "vi": "cuối cùng"
+    },
+    {
+      "rank": 1117,
+      "archiveRank": 276,
+      "vi": "Thông tin"
+    },
+    {
+      "rank": 1118,
+      "archiveRank": 277,
+      "vi": "ảnh"
+    },
+    {
+      "rank": 1119,
+      "archiveRank": 278,
+      "vi": "bước"
+    },
+    {
+      "rank": 1120,
+      "archiveRank": 280,
+      "vi": "đứa"
+    },
+    {
+      "rank": 1121,
+      "archiveRank": 281,
+      "vi": "dẫn"
+    },
+    {
+      "rank": 1122,
+      "archiveRank": 282,
+      "vi": "chào"
+    },
+    {
+      "rank": 1123,
+      "archiveRank": 283,
+      "vi": "cảm"
+    },
+    {
+      "rank": 1124,
+      "archiveRank": 284,
+      "vi": "đặc biệt"
+    },
+    {
+      "rank": 1125,
+      "archiveRank": 285,
+      "vi": "ồ"
+    },
+    {
+      "rank": 1126,
+      "archiveRank": 286,
+      "vi": "bản"
+    },
+    {
+      "rank": 1127,
+      "archiveRank": 287,
+      "vi": "bay"
+    },
+    {
+      "rank": 1128,
+      "archiveRank": 289,
+      "vi": "đáng"
+    },
+    {
+      "rank": 1129,
+      "archiveRank": 291,
+      "vi": "sang"
+    },
+    {
+      "rank": 1130,
+      "archiveRank": 292,
+      "vi": "nghĩa"
+    },
+    {
+      "rank": 1131,
+      "archiveRank": 294,
+      "vi": "hả"
+    },
+    {
+      "rank": 1132,
+      "archiveRank": 295,
+      "vi": "hoàn toàn"
+    },
+    {
+      "rank": 1133,
+      "archiveRank": 296,
+      "vi": "giết"
+    },
+    {
+      "rank": 1134,
+      "archiveRank": 297,
+      "vi": "chủ"
+    },
+    {
+      "rank": 1135,
+      "archiveRank": 298,
+      "vi": "quả"
+    },
+    {
+      "rank": 1136,
+      "archiveRank": 299,
+      "vi": "chịu"
+    },
+    {
+      "rank": 1137,
+      "archiveRank": 300,
+      "vi": "cuối"
+    },
+    {
+      "rank": 1138,
+      "archiveRank": 306,
+      "vi": "lâu"
+    },
+    {
+      "rank": 1139,
+      "archiveRank": 307,
+      "vi": "dân"
+    },
+    {
+      "rank": 1140,
+      "archiveRank": 308,
+      "vi": "hoa"
+    },
+    {
+      "rank": 1141,
+      "archiveRank": 311,
+      "vi": "thay đổi"
+    },
+    {
+      "rank": 1142,
+      "archiveRank": 312,
+      "vi": "nhỉ"
+    },
+    {
+      "rank": 1143,
+      "archiveRank": 315,
+      "vi": "tưởng"
+    },
+    {
+      "rank": 1144,
+      "archiveRank": 316,
+      "vi": "hãy"
+    },
+    {
+      "rank": 1145,
+      "archiveRank": 317,
+      "vi": "ổn"
+    },
+    {
+      "rank": 1146,
+      "archiveRank": 320,
+      "vi": "vụ"
+    },
+    {
+      "rank": 1147,
+      "archiveRank": 322,
+      "vi": "trai"
+    },
+    {
+      "rank": 1148,
+      "archiveRank": 323,
+      "vi": "mức"
+    },
+    {
+      "rank": 1149,
+      "archiveRank": 324,
+      "vi": "tiếp"
+    },
+    {
+      "rank": 1150,
+      "archiveRank": 325,
+      "vi": "khách"
+    },
+    {
+      "rank": 1151,
+      "archiveRank": 326,
+      "vi": "hướng"
+    },
+    {
+      "rank": 1152,
+      "archiveRank": 328,
+      "vi": "gây"
+    },
+    {
+      "rank": 1153,
+      "archiveRank": 329,
+      "vi": "trở thành"
+    },
+    {
+      "rank": 1154,
+      "archiveRank": 330,
+      "vi": "tăng"
+    },
+    {
+      "rank": 1155,
+      "archiveRank": 332,
+      "vi": "vòng"
+    },
+    {
+      "rank": 1156,
+      "archiveRank": 333,
+      "vi": "chú"
+    },
+    {
+      "rank": 1157,
+      "archiveRank": 334,
+      "vi": "kiếm"
+    },
+    {
+      "rank": 1158,
+      "archiveRank": 336,
+      "vi": "vị"
+    },
+    {
+      "rank": 1159,
+      "archiveRank": 337,
+      "vi": "thằng"
+    },
+    {
+      "rank": 1160,
+      "archiveRank": 340,
+      "vi": "lớp"
+    },
+    {
+      "rank": 1161,
+      "archiveRank": 341,
+      "vi": "khả năng"
+    },
+    {
+      "rank": 1162,
+      "archiveRank": 342,
+      "vi": "cuộc sống"
+    },
+    {
+      "rank": 1163,
+      "archiveRank": 344,
+      "vi": "buổi"
+    },
+    {
+      "rank": 1164,
+      "archiveRank": 346,
+      "vi": "phát triển"
+    },
+    {
+      "rank": 1165,
+      "archiveRank": 348,
+      "vi": "báo"
+    },
+    {
+      "rank": 1166,
+      "archiveRank": 351,
+      "vi": "đá"
+    },
+    {
+      "rank": 1167,
+      "archiveRank": 352,
+      "vi": "đại"
+    },
+    {
+      "rank": 1168,
+      "archiveRank": 353,
+      "vi": "cố"
+    },
+    {
+      "rank": 1169,
+      "archiveRank": 356,
+      "vi": "cố gắng"
+    },
+    {
+      "rank": 1170,
+      "archiveRank": 357,
+      "vi": "bất kỳ"
+    },
+    {
+      "rank": 1171,
+      "archiveRank": 359,
+      "vi": "riêng"
+    },
+    {
+      "rank": 1172,
+      "archiveRank": 361,
+      "vi": "hát"
+    },
+    {
+      "rank": 1173,
+      "archiveRank": 362,
+      "vi": "thương"
+    },
+    {
+      "rank": 1174,
+      "archiveRank": 364,
+      "vi": "phẩm"
+    },
+    {
+      "rank": 1175,
+      "archiveRank": 369,
+      "vi": "xây dựng"
+    },
+    {
+      "rank": 1176,
+      "archiveRank": 370,
+      "vi": "thiết"
+    },
+    {
+      "rank": 1177,
+      "archiveRank": 371,
+      "vi": "đội"
+    },
+    {
+      "rank": 1178,
+      "archiveRank": 372,
+      "vi": "nhóm"
+    },
+    {
+      "rank": 1179,
+      "archiveRank": 373,
+      "vi": "lo"
+    },
+    {
+      "rank": 1180,
+      "archiveRank": 374,
+      "vi": "xong"
+    },
+    {
+      "rank": 1181,
+      "archiveRank": 375,
+      "vi": "phim"
+    },
+    {
+      "rank": 1182,
+      "archiveRank": 376,
+      "vi": "tao"
+    },
+    {
+      "rank": 1183,
+      "archiveRank": 379,
+      "vi": "định"
+    },
+    {
+      "rank": 1184,
+      "archiveRank": 380,
+      "vi": "chương trình"
+    },
+    {
+      "rank": 1185,
+      "archiveRank": 381,
+      "vi": "dành"
+    },
+    {
+      "rank": 1186,
+      "archiveRank": 383,
+      "vi": "quan tâm"
+    },
+    {
+      "rank": 1187,
+      "archiveRank": 385,
+      "vi": "cảnh"
+    },
+    {
+      "rank": 1188,
+      "archiveRank": 387,
+      "vi": "gia"
+    },
+    {
+      "rank": 1189,
+      "archiveRank": 389,
+      "vi": "hệ thống"
+    },
+    {
+      "rank": 1190,
+      "archiveRank": 392,
+      "vi": "diễn"
+    },
+    {
+      "rank": 1191,
+      "archiveRank": 396,
+      "vi": "so"
+    },
+    {
+      "rank": 1192,
+      "archiveRank": 397,
+      "vi": "mỹ"
+    },
+    {
+      "rank": 1193,
+      "archiveRank": 398,
+      "vi": "sản"
+    },
+    {
+      "rank": 1194,
+      "archiveRank": 399,
+      "vi": "đơn"
+    },
+    {
+      "rank": 1195,
+      "archiveRank": 400,
+      "vi": "tổ chức"
+    },
+    {
+      "rank": 1196,
+      "archiveRank": 401,
+      "vi": "bây"
+    },
+    {
+      "rank": 1197,
+      "archiveRank": 402,
+      "vi": "chung"
+    },
+    {
+      "rank": 1198,
+      "archiveRank": 403,
+      "vi": "hội"
+    },
+    {
+      "rank": 1199,
+      "archiveRank": 404,
+      "vi": "coi"
+    },
+    {
+      "rank": 1200,
+      "archiveRank": 406,
+      "vi": "cạnh"
+    },
+    {
+      "rank": 1201,
+      "archiveRank": 407,
+      "vi": "động"
+    },
+    {
+      "rank": 1202,
+      "archiveRank": 408,
+      "vi": "yêu cầu"
+    },
+    {
+      "rank": 1203,
+      "archiveRank": 410,
+      "vi": "sản phẩm"
+    },
+    {
+      "rank": 1204,
+      "archiveRank": 411,
+      "vi": "thiết kế"
+    },
+    {
+      "rank": 1205,
+      "archiveRank": 412,
+      "vi": "tuy nhiên"
+    },
+    {
+      "rank": 1206,
+      "archiveRank": 413,
+      "vi": "chúa"
+    },
+    {
+      "rank": 1207,
+      "archiveRank": 415,
+      "vi": "cảm giác"
+    },
+    {
+      "rank": 1208,
+      "archiveRank": 417,
+      "vi": "mong"
+    },
+    {
+      "rank": 1209,
+      "archiveRank": 418,
+      "vi": "cha"
+    },
+    {
+      "rank": 1210,
+      "archiveRank": 420,
+      "vi": "mạng"
+    },
+    {
+      "rank": 1211,
+      "archiveRank": 421,
+      "vi": "liên quan"
+    },
+    {
+      "rank": 1212,
+      "archiveRank": 422,
+      "vi": "gian"
+    },
+    {
+      "rank": 1213,
+      "archiveRank": 423,
+      "vi": "đơn giản"
+    },
+    {
+      "rank": 1214,
+      "archiveRank": 425,
+      "vi": "người ta"
+    },
+    {
+      "rank": 1215,
+      "archiveRank": 426,
+      "vi": "tim"
+    },
+    {
+      "rank": 1216,
+      "archiveRank": 427,
+      "vi": "tỉnh"
+    },
+    {
+      "rank": 1217,
+      "archiveRank": 430,
+      "vi": "quý"
+    },
+    {
+      "rank": 1218,
+      "archiveRank": 431,
+      "vi": "thực tế"
+    },
+    {
+      "rank": 1219,
+      "archiveRank": 432,
+      "vi": "anh em"
+    },
+    {
+      "rank": 1220,
+      "archiveRank": 433,
+      "vi": "lựa chọn"
+    },
+    {
+      "rank": 1221,
+      "archiveRank": 434,
+      "vi": "dịch vụ"
+    },
+    {
+      "rank": 1222,
+      "archiveRank": 435,
+      "vi": "chà"
+    },
+    {
+      "rank": 1223,
+      "archiveRank": 436,
+      "vi": "tình yêu"
+    },
+    {
+      "rank": 1224,
+      "archiveRank": 437,
+      "vi": "bảo vệ"
+    },
+    {
+      "rank": 1225,
+      "archiveRank": 438,
+      "vi": "xuất hiện"
+    },
+    {
+      "rank": 1226,
+      "archiveRank": 439,
+      "vi": "bữa"
+    },
+    {
+      "rank": 1227,
+      "archiveRank": 440,
+      "vi": "chiều"
+    },
+    {
+      "rank": 1228,
+      "archiveRank": 441,
+      "vi": "da"
+    },
+    {
+      "rank": 1229,
+      "archiveRank": 442,
+      "vi": "tình"
+    },
+    {
+      "rank": 1230,
+      "archiveRank": 443,
+      "vi": "mẫu"
+    },
+    {
+      "rank": 1231,
+      "archiveRank": 444,
+      "vi": "hồi"
+    },
+    {
+      "rank": 1232,
+      "archiveRank": 445,
+      "vi": "dòng"
+    },
+    {
+      "rank": 1233,
+      "archiveRank": 448,
+      "vi": "giảm"
+    },
+    {
+      "rank": 1234,
+      "archiveRank": 451,
+      "vi": "cơ"
+    },
+    {
+      "rank": 1235,
+      "archiveRank": 453,
+      "vi": "tất nhiên"
+    },
+    {
+      "rank": 1236,
+      "archiveRank": 454,
+      "vi": "đàn ông"
+    },
+    {
+      "rank": 1237,
+      "archiveRank": 455,
+      "vi": "kiểu"
+    },
+    {
+      "rank": 1238,
+      "archiveRank": 456,
+      "vi": "trò"
+    },
+    {
+      "rank": 1239,
+      "archiveRank": 457,
+      "vi": "dễ dàng"
+    },
+    {
+      "rank": 1240,
+      "archiveRank": 459,
+      "vi": "ngôi"
+    },
+    {
+      "rank": 1241,
+      "archiveRank": 460,
+      "vi": "kim"
+    },
+    {
+      "rank": 1242,
+      "archiveRank": 461,
+      "vi": "chống"
+    },
+    {
+      "rank": 1243,
+      "archiveRank": 462,
+      "vi": "ví dụ"
+    },
+    {
+      "rank": 1244,
+      "archiveRank": 463,
+      "vi": "an toàn"
+    },
+    {
+      "rank": 1245,
+      "archiveRank": 465,
+      "vi": "lạ"
+    },
+    {
+      "rank": 1246,
+      "archiveRank": 466,
+      "vi": "trường hợp"
+    },
+    {
+      "rank": 1247,
+      "archiveRank": 467,
+      "vi": "mối"
+    },
+    {
+      "rank": 1248,
+      "archiveRank": 469,
+      "vi": "câu chuyện"
+    },
+    {
+      "rank": 1249,
+      "archiveRank": 470,
+      "vi": "tuyệt"
+    },
+    {
+      "rank": 1250,
+      "archiveRank": 473,
+      "vi": "chất lượng"
+    },
+    {
+      "rank": 1251,
+      "archiveRank": 475,
+      "vi": "tham gia"
+    },
+    {
+      "rank": 1252,
+      "archiveRank": 476,
+      "vi": "phụ nữ"
+    },
+    {
+      "rank": 1253,
+      "archiveRank": 478,
+      "vi": "đông"
+    },
+    {
+      "rank": 1254,
+      "archiveRank": 479,
+      "vi": "vượt"
+    },
+    {
+      "rank": 1255,
+      "archiveRank": 481,
+      "vi": "đoán"
+    },
+    {
+      "rank": 1256,
+      "archiveRank": 482,
+      "vi": "chia sẻ"
+    },
+    {
+      "rank": 1257,
+      "archiveRank": 484,
+      "vi": "la"
+    },
+    {
+      "rank": 1258,
+      "archiveRank": 485,
+      "vi": "thầy"
+    },
+    {
+      "rank": 1259,
+      "archiveRank": 486,
+      "vi": "gồm"
+    },
+    {
+      "rank": 1260,
+      "archiveRank": 487,
+      "vi": "phù hợp"
+    },
+    {
+      "rank": 1261,
+      "archiveRank": 488,
+      "vi": "suy nghĩ"
+    },
+    {
+      "rank": 1262,
+      "archiveRank": 490,
+      "vi": "sở"
+    },
+    {
+      "rank": 1263,
+      "archiveRank": 491,
+      "vi": "chế"
+    },
+    {
+      "rank": 1264,
+      "archiveRank": 492,
+      "vi": "thư"
+    },
+    {
+      "rank": 1265,
+      "archiveRank": 493,
+      "vi": "vẻ"
+    },
+    {
+      "rank": 1266,
+      "archiveRank": 494,
+      "vi": "ngài"
+    },
+    {
+      "rank": 1267,
+      "archiveRank": 495,
+      "vi": "đảm bảo"
+    },
+    {
+      "rank": 1268,
+      "archiveRank": 496,
+      "vi": "sản xuất"
+    },
+    {
+      "rank": 1269,
+      "archiveRank": 497,
+      "vi": "quân"
+    },
+    {
+      "rank": 1270,
+      "archiveRank": 498,
+      "vi": "cơ thể"
+    },
+    {
+      "rank": 1271,
+      "archiveRank": 499,
+      "vi": "nhảy"
+    },
+    {
+      "rank": 1272,
+      "archiveRank": 500,
+      "vi": "bình thường"
+    },
+    {
+      "rank": 1273,
+      "archiveRank": 502,
+      "vi": "phong"
+    },
+    {
+      "rank": 1274,
+      "archiveRank": 504,
+      "vi": "giả"
+    },
+    {
+      "rank": 1275,
+      "archiveRank": 505,
+      "vi": "nội"
+    },
+    {
+      "rank": 1276,
+      "archiveRank": 506,
+      "vi": "chí"
+    },
+    {
+      "rank": 1277,
+      "archiveRank": 510,
+      "vi": "phát"
+    },
+    {
+      "rank": 1278,
+      "archiveRank": 518,
+      "vi": "căn"
+    },
+    {
+      "rank": 1279,
+      "archiveRank": 519,
+      "vi": "hợp"
+    },
+    {
+      "rank": 1280,
+      "archiveRank": 521,
+      "vi": "lý"
+    },
+    {
+      "rank": 1281,
+      "archiveRank": 522,
+      "vi": "nền"
+    },
+    {
+      "rank": 1282,
+      "archiveRank": 531,
+      "vi": "sức"
+    },
+    {
+      "rank": 1283,
+      "archiveRank": 533,
+      "vi": "hình"
+    },
+    {
+      "rank": 1284,
+      "archiveRank": 535,
+      "vi": "chi"
+    },
+    {
+      "rank": 1285,
+      "archiveRank": 537,
+      "vi": "vai"
+    },
+    {
+      "rank": 1286,
+      "archiveRank": 539,
+      "vi": "thắng"
+    },
+    {
+      "rank": 1287,
+      "archiveRank": 541,
+      "vi": "thân"
+    },
+    {
+      "rank": 1288,
+      "archiveRank": 545,
+      "vi": "phép"
+    },
+    {
+      "rank": 1289,
+      "archiveRank": 546,
+      "vi": "sắc"
+    },
+    {
+      "rank": 1290,
+      "archiveRank": 549,
+      "vi": "trị"
+    },
+    {
+      "rank": 1291,
+      "archiveRank": 553,
+      "vi": "đô"
+    },
+    {
+      "rank": 1292,
+      "archiveRank": 563,
+      "vi": "thanh"
+    },
+    {
+      "rank": 1293,
+      "archiveRank": 568,
+      "vi": "công"
+    },
+    {
+      "rank": 1294,
+      "archiveRank": 570,
+      "vi": "rượu"
+    },
+    {
+      "rank": 1295,
+      "archiveRank": 571,
+      "vi": "cộng"
+    },
+    {
+      "rank": 1296,
+      "archiveRank": 572,
+      "vi": "quyền"
+    },
+    {
+      "rank": 1297,
+      "archiveRank": 581,
+      "vi": "đức"
+    },
+    {
+      "rank": 1298,
+      "archiveRank": 582,
+      "vi": "khu"
+    },
+    {
+      "rank": 1299,
+      "archiveRank": 585,
+      "vi": "e"
+    },
+    {
+      "rank": 1300,
+      "archiveRank": 586,
+      "vi": "kỳ"
+    },
+    {
+      "rank": 1301,
+      "archiveRank": 587,
+      "vi": "nỗi"
+    },
+    {
+      "rank": 1302,
+      "archiveRank": 590,
+      "vi": "thần"
+    },
+    {
+      "rank": 1303,
+      "archiveRank": 592,
+      "vi": "xã"
+    },
+    {
+      "rank": 1304,
+      "archiveRank": 593,
+      "vi": "lạc"
+    },
+    {
+      "rank": 1305,
+      "archiveRank": 594,
+      "vi": "thời"
+    },
+    {
+      "rank": 1306,
+      "archiveRank": 595,
+      "vi": "cổ"
+    },
+    {
+      "rank": 1307,
+      "archiveRank": 597,
+      "vi": "trung"
+    },
+    {
+      "rank": 1308,
+      "archiveRank": 598,
+      "vi": "liên"
+    },
+    {
+      "rank": 1309,
+      "archiveRank": 603,
+      "vi": "thức"
+    },
+    {
+      "rank": 1310,
+      "archiveRank": 606,
+      "vi": "vũ"
+    },
+    {
+      "rank": 1311,
+      "archiveRank": 609,
+      "vi": "dạng"
+    },
+    {
+      "rank": 1312,
+      "archiveRank": 611,
+      "vi": "chữa"
+    },
+    {
+      "rank": 1313,
+      "archiveRank": 616,
+      "vi": "lái"
+    },
+    {
+      "rank": 1314,
+      "archiveRank": 617,
+      "vi": "cung"
+    },
+    {
+      "rank": 1315,
+      "archiveRank": 621,
+      "vi": "trận"
+    },
+    {
+      "rank": 1316,
+      "archiveRank": 625,
+      "vi": "năng"
+    },
+    {
+      "rank": 1317,
+      "archiveRank": 629,
+      "vi": "biệt"
+    },
+    {
+      "rank": 1318,
+      "archiveRank": 630,
+      "vi": "tây"
+    },
+    {
+      "rank": 1319,
+      "archiveRank": 631,
+      "vi": "nâng"
+    },
+    {
+      "rank": 1320,
+      "archiveRank": 635,
+      "vi": "bình"
+    },
+    {
+      "rank": 1321,
+      "archiveRank": 639,
+      "vi": "mai"
+    },
+    {
+      "rank": 1322,
+      "archiveRank": 642,
+      "vi": "kìa"
+    },
+    {
+      "rank": 1323,
+      "archiveRank": 643,
+      "vi": "tội"
+    },
+    {
+      "rank": 1324,
+      "archiveRank": 652,
+      "vi": "hiệu"
+    },
+    {
+      "rank": 1325,
+      "archiveRank": 653,
+      "vi": "giải quyết"
+    },
+    {
+      "rank": 1326,
+      "archiveRank": 658,
+      "vi": "tài"
+    },
+    {
+      "rank": 1327,
+      "archiveRank": 659,
+      "vi": "thưa"
+    },
+    {
+      "rank": 1328,
+      "archiveRank": 660,
+      "vi": "khoản"
+    },
+    {
+      "rank": 1329,
+      "archiveRank": 661,
+      "vi": "ư"
+    },
+    {
+      "rank": 1330,
+      "archiveRank": 665,
+      "vi": "hoàng"
+    },
+    {
+      "rank": 1331,
+      "archiveRank": 675,
+      "vi": "ôi"
+    },
+    {
+      "rank": 1332,
+      "archiveRank": 684,
+      "vi": "cánh"
+    },
+    {
+      "rank": 1333,
+      "archiveRank": 689,
+      "vi": "tấn công"
+    },
+    {
+      "rank": 1334,
+      "archiveRank": 691,
+      "vi": "đa"
+    },
+    {
+      "rank": 1335,
+      "archiveRank": 693,
+      "vi": "bắn"
+    },
+    {
+      "rank": 1336,
+      "archiveRank": 695,
+      "vi": "á"
+    },
+    {
+      "rank": 1337,
+      "archiveRank": 697,
+      "vi": "vậy"
+    },
+    {
+      "rank": 1338,
+      "archiveRank": 700,
+      "vi": "đấy"
+    },
+    {
+      "rank": 1339,
+      "archiveRank": 701,
+      "vi": "kênh"
+    },
+    {
+      "rank": 1340,
+      "archiveRank": 702,
+      "vi": "tác"
+    },
+    {
+      "rank": 1341,
+      "archiveRank": 705,
+      "vi": "vấn"
+    },
+    {
+      "rank": 1342,
+      "archiveRank": 706,
+      "vi": "chuyến"
+    },
+    {
+      "rank": 1343,
+      "archiveRank": 711,
+      "vi": "thị"
+    },
+    {
+      "rank": 1344,
+      "archiveRank": 715,
+      "vi": "đào"
+    },
+    {
+      "rank": 1345,
+      "archiveRank": 716,
+      "vi": "tượng"
+    },
+    {
+      "rank": 1346,
+      "archiveRank": 722,
+      "vi": "thúc"
+    },
+    {
+      "rank": 1347,
+      "archiveRank": 723,
+      "vi": "phụ"
+    },
+    {
+      "rank": 1348,
+      "archiveRank": 727,
+      "vi": "thu"
+    },
+    {
+      "rank": 1349,
+      "archiveRank": 733,
+      "vi": "ban"
+    },
+    {
+      "rank": 1350,
+      "archiveRank": 734,
+      "vi": "ơn"
+    },
+    {
+      "rank": 1351,
+      "archiveRank": 735,
+      "vi": "nhân"
+    },
+    {
+      "rank": 1352,
+      "archiveRank": 736,
+      "vi": "điên"
+    },
+    {
+      "rank": 1353,
+      "archiveRank": 737,
+      "vi": "ma"
+    },
+    {
+      "rank": 1354,
+      "archiveRank": 738,
+      "vi": "rối"
+    },
+    {
+      "rank": 1355,
+      "archiveRank": 741,
+      "vi": "mục"
+    },
+    {
+      "rank": 1356,
+      "archiveRank": 744,
+      "vi": "hôn"
+    },
+    {
+      "rank": 1357,
+      "archiveRank": 748,
+      "vi": "lập"
+    },
+    {
+      "rank": 1358,
+      "archiveRank": 749,
+      "vi": "vi"
+    },
+    {
+      "rank": 1359,
+      "archiveRank": 750,
+      "vi": "vật"
+    },
+    {
+      "rank": 1360,
+      "archiveRank": 751,
+      "vi": "ô"
+    },
+    {
+      "rank": 1361,
+      "archiveRank": 753,
+      "vi": "viên"
+    },
+    {
+      "rank": 1362,
+      "archiveRank": 754,
+      "vi": "ràng"
+    },
+    {
+      "rank": 1363,
+      "archiveRank": 755,
+      "vi": "lắm"
+    },
+    {
+      "rank": 1364,
+      "archiveRank": 758,
+      "vi": "toàn"
+    },
+    {
+      "rank": 1365,
+      "archiveRank": 760,
+      "vi": "nhập"
+    },
+    {
+      "rank": 1366,
+      "archiveRank": 765,
+      "vi": "niềm"
+    },
+    {
+      "rank": 1367,
+      "archiveRank": 767,
+      "vi": "liệu"
+    },
+    {
+      "rank": 1368,
+      "archiveRank": 772,
+      "vi": "web"
+    },
+    {
+      "rank": 1369,
+      "archiveRank": 774,
+      "vi": "chiến"
+    },
+    {
+      "rank": 1370,
+      "archiveRank": 775,
+      "vi": "tiên"
+    },
+    {
+      "rank": 1371,
+      "archiveRank": 778,
+      "vi": "chất"
+    },
+    {
+      "rank": 1372,
+      "archiveRank": 779,
+      "vi": "bức"
+    },
+    {
+      "rank": 1373,
+      "archiveRank": 780,
+      "vi": "ngành"
+    },
+    {
+      "rank": 1374,
+      "archiveRank": 781,
+      "vi": "kích"
+    },
+    {
+      "rank": 1375,
+      "archiveRank": 782,
+      "vi": "dựa"
+    },
+    {
+      "rank": 1376,
+      "archiveRank": 786,
+      "vi": "may"
+    },
+    {
+      "rank": 1377,
+      "archiveRank": 790,
+      "vi": "trốn"
+    },
+    {
+      "rank": 1378,
+      "archiveRank": 793,
+      "vi": "hạ"
+    },
+    {
+      "rank": 1379,
+      "archiveRank": 794,
+      "vi": "tinh"
+    },
+    {
+      "rank": 1380,
+      "archiveRank": 797,
+      "vi": "đấu"
+    },
+    {
+      "rank": 1381,
+      "archiveRank": 800,
+      "vi": "long"
+    },
+    {
+      "rank": 1382,
+      "archiveRank": 807,
+      "vi": "quái"
+    },
+    {
+      "rank": 1383,
+      "archiveRank": 812,
+      "vi": "dối"
+    },
+    {
+      "rank": 1384,
+      "archiveRank": 814,
+      "vi": "mơ"
+    },
+    {
+      "rank": 1385,
+      "archiveRank": 817,
+      "vi": "đề"
+    },
+    {
+      "rank": 1386,
+      "archiveRank": 819,
+      "vi": "ấm"
+    },
+    {
+      "rank": 1387,
+      "archiveRank": 822,
+      "vi": "dậy"
+    },
+    {
+      "rank": 1388,
+      "archiveRank": 824,
+      "vi": "vỗ"
+    },
+    {
+      "rank": 1389,
+      "archiveRank": 826,
+      "vi": "vốn"
+    },
+    {
+      "rank": 1390,
+      "archiveRank": 827,
+      "vi": "in"
+    },
+    {
+      "rank": 1391,
+      "archiveRank": 828,
+      "vi": "cơ sở"
+    },
+    {
+      "rank": 1392,
+      "archiveRank": 829,
+      "vi": "cơn"
+    },
+    {
+      "rank": 1393,
+      "archiveRank": 831,
+      "vi": "hút"
+    },
+    {
+      "rank": 1394,
+      "archiveRank": 832,
+      "vi": "húng"
+    },
+    {
+      "rank": 1395,
+      "archiveRank": 833,
+      "vi": "gói"
+    },
+    {
+      "rank": 1396,
+      "archiveRank": 835,
+      "vi": "chuyên"
+    },
+    {
+      "rank": 1397,
+      "archiveRank": 836,
+      "vi": "dám"
+    },
+    {
+      "rank": 1398,
+      "archiveRank": 837,
+      "vi": "chạm"
+    },
+    {
+      "rank": 1399,
+      "archiveRank": 839,
+      "vi": "nghiền"
+    },
+    {
+      "rank": 1400,
+      "archiveRank": 840,
+      "vi": "nhá"
+    },
+    {
+      "rank": 1401,
+      "archiveRank": 842,
+      "vi": "thể"
+    },
+    {
+      "rank": 1402,
+      "archiveRank": 843,
+      "vi": "lửa"
+    },
+    {
+      "rank": 1403,
+      "archiveRank": 844,
+      "vi": "lắp"
+    },
+    {
+      "rank": 1404,
+      "archiveRank": 845,
+      "vi": "tiết"
+    },
+    {
+      "rank": 1405,
+      "archiveRank": 846,
+      "vi": "súng"
+    },
+    {
+      "rank": 1406,
+      "archiveRank": 848,
+      "vi": "chả"
+    },
+    {
+      "rank": 1407,
+      "archiveRank": 849,
+      "vi": "hữu"
+    },
+    {
+      "rank": 1408,
+      "archiveRank": 851,
+      "vi": "đăng"
+    },
+    {
+      "rank": 1409,
+      "archiveRank": 852,
+      "vi": "nút"
+    },
+    {
+      "rank": 1410,
+      "archiveRank": 853,
+      "vi": "ngược"
+    },
+    {
+      "rank": 1411,
+      "archiveRank": 856,
+      "vi": "băng"
+    },
+    {
+      "rank": 1412,
+      "archiveRank": 858,
+      "vi": "lượng"
+    },
+    {
+      "rank": 1413,
+      "archiveRank": 859,
+      "vi": "mau"
+    },
+    {
+      "rank": 1414,
+      "archiveRank": 861,
+      "vi": "tắm"
+    },
+    {
+      "rank": 1415,
+      "archiveRank": 863,
+      "vi": "tâm"
+    },
+    {
+      "rank": 1416,
+      "archiveRank": 872,
+      "vi": "quan"
+    },
+    {
+      "rank": 1417,
+      "archiveRank": 874,
+      "vi": "ngoài ra"
+    },
+    {
+      "rank": 1418,
+      "archiveRank": 878,
+      "vi": "lầm"
+    },
+    {
+      "rank": 1419,
+      "archiveRank": 879,
+      "vi": "lan"
+    },
+    {
+      "rank": 1420,
+      "archiveRank": 880,
+      "vi": "nè"
+    },
+    {
+      "rank": 1421,
+      "archiveRank": 881,
+      "vi": "gã"
+    },
+    {
+      "rank": 1422,
+      "archiveRank": 883,
+      "vi": "buộc"
+    },
+    {
+      "rank": 1423,
+      "archiveRank": 885,
+      "vi": "giao"
+    },
+    {
+      "rank": 1424,
+      "archiveRank": 886,
+      "vi": "khổ"
+    },
+    {
+      "rank": 1425,
+      "archiveRank": 887,
+      "vi": "góc"
+    },
+    {
+      "rank": 1426,
+      "archiveRank": 888,
+      "vi": "khoan"
+    },
+    {
+      "rank": 1427,
+      "archiveRank": 889,
+      "vi": "thước"
+    },
+    {
+      "rank": 1428,
+      "archiveRank": 891,
+      "vi": "gấp"
+    },
+    {
+      "rank": 1429,
+      "archiveRank": 892,
+      "vi": "phi"
+    },
+    {
+      "rank": 1430,
+      "archiveRank": 893,
+      "vi": "tạm"
+    },
+    {
+      "rank": 1431,
+      "archiveRank": 895,
+      "vi": "chặt"
+    },
+    {
+      "rank": 1432,
+      "archiveRank": 897,
+      "vi": "khắp"
+    },
+    {
+      "rank": 1433,
+      "archiveRank": 898,
+      "vi": "siêu"
+    },
+    {
+      "rank": 1434,
+      "archiveRank": 899,
+      "vi": "miếng"
+    },
+    {
+      "rank": 1435,
+      "archiveRank": 900,
+      "vi": "thua"
+    },
+    {
+      "rank": 1436,
+      "archiveRank": 902,
+      "vi": "hẳn"
+    },
+    {
+      "rank": 1437,
+      "archiveRank": 903,
+      "vi": "tiểu"
+    },
+    {
+      "rank": 1438,
+      "archiveRank": 906,
+      "vi": "đùa"
+    },
+    {
+      "rank": 1439,
+      "archiveRank": 908,
+      "vi": "sát"
+    },
+    {
+      "rank": 1440,
+      "archiveRank": 909,
+      "vi": "sóng"
+    },
+    {
+      "rank": 1441,
+      "archiveRank": 914,
+      "vi": "ngờ"
+    },
+    {
+      "rank": 1442,
+      "archiveRank": 916,
+      "vi": "ha"
+    },
+    {
+      "rank": 1443,
+      "archiveRank": 917,
+      "vi": "đám"
+    },
+    {
+      "rank": 1444,
+      "archiveRank": 918,
+      "vi": "viện"
+    },
+    {
+      "rank": 1445,
+      "archiveRank": 921,
+      "vi": "tất"
+    },
+    {
+      "rank": 1446,
+      "archiveRank": 926,
+      "vi": "làm ơn"
+    },
+    {
+      "rank": 1447,
+      "archiveRank": 927,
+      "vi": "xét"
+    },
+    {
+      "rank": 1448,
+      "archiveRank": 928,
+      "vi": "gốc"
+    },
+    {
+      "rank": 1449,
+      "archiveRank": 930,
+      "vi": "thất"
+    },
+    {
+      "rank": 1450,
+      "archiveRank": 940,
+      "vi": "nguyên"
+    },
+    {
+      "rank": 1451,
+      "archiveRank": 946,
+      "vi": "đột"
+    },
+    {
+      "rank": 1452,
+      "archiveRank": 947,
+      "vi": "hề"
+    },
+    {
+      "rank": 1453,
+      "archiveRank": 948,
+      "vi": "chết tiệt"
+    },
+    {
+      "rank": 1454,
+      "archiveRank": 950,
+      "vi": "lừa"
+    },
+    {
+      "rank": 1455,
+      "archiveRank": 960,
+      "vi": "ấn"
+    },
+    {
+      "rank": 1456,
+      "archiveRank": 965,
+      "vi": "tấm"
+    },
+    {
+      "rank": 1457,
+      "archiveRank": 966,
+      "vi": "cuộc đời"
+    },
+    {
+      "rank": 1458,
+      "archiveRank": 968,
+      "vi": "website"
+    },
+    {
+      "rank": 1459,
+      "archiveRank": 969,
+      "vi": "đạo"
+    },
+    {
+      "rank": 1460,
+      "archiveRank": 970,
+      "vi": "ném"
+    },
+    {
+      "rank": 1461,
+      "archiveRank": 972,
+      "vi": "khoa"
+    },
+    {
+      "rank": 1462,
+      "archiveRank": 979,
+      "vi": "chiến thắng"
+    },
+    {
+      "rank": 1463,
+      "archiveRank": 983,
+      "vi": "lệnh"
+    },
+    {
+      "rank": 1464,
+      "archiveRank": 984,
+      "vi": "sự thật"
+    },
+    {
+      "rank": 1465,
+      "archiveRank": 985,
+      "vi": "quảng cáo"
+    },
+    {
+      "rank": 1466,
+      "archiveRank": 986,
+      "vi": "song"
+    },
+    {
+      "rank": 1467,
+      "archiveRank": 989,
+      "vi": "thuật"
+    },
+    {
+      "rank": 1468,
+      "archiveRank": 994,
+      "vi": "lợi"
+    },
+    {
+      "rank": 1469,
+      "archiveRank": 995,
+      "vi": "giáo"
+    },
+    {
+      "rank": 1470,
+      "archiveRank": 996,
+      "vi": "bột"
+    },
+    {
+      "rank": 1471,
+      "archiveRank": 998,
+      "vi": "trôi"
+    },
+    {
+      "rank": 1472,
+      "archiveRank": 1000,
+      "vi": "trừ"
+    },
+    {
+      "rank": 1473,
+      "archiveRank": 1001,
+      "vi": "hài"
+    },
+    {
+      "rank": 1474,
+      "archiveRank": 1002,
+      "vi": "xưa"
+    },
+    {
+      "rank": 1475,
+      "archiveRank": 1006,
+      "vi": "thủ"
+    },
+    {
+      "rank": 1476,
+      "archiveRank": 1007,
+      "vi": "xác"
+    },
+    {
+      "rank": 1477,
+      "archiveRank": 1008,
+      "vi": "nhấn"
+    },
+    {
+      "rank": 1478,
+      "archiveRank": 1013,
+      "vi": "suất"
+    },
+    {
+      "rank": 1479,
+      "archiveRank": 1015,
+      "vi": "xuất"
+    },
+    {
+      "rank": 1480,
+      "archiveRank": 1016,
+      "vi": "trải"
+    },
+    {
+      "rank": 1481,
+      "archiveRank": 1017,
+      "vi": "hãng"
+    },
+    {
+      "rank": 1482,
+      "archiveRank": 1019,
+      "vi": "cặp"
+    },
+    {
+      "rank": 1483,
+      "archiveRank": 1020,
+      "vi": "một cách"
+    },
+    {
+      "rank": 1484,
+      "archiveRank": 1021,
+      "vi": "tết"
+    },
+    {
+      "rank": 1485,
+      "archiveRank": 1022,
+      "vi": "hệ"
+    },
+    {
+      "rank": 1486,
+      "archiveRank": 1025,
+      "vi": "bố mẹ"
+    },
+    {
+      "rank": 1487,
+      "archiveRank": 1027,
+      "vi": "hạn"
+    },
+    {
+      "rank": 1488,
+      "archiveRank": 1030,
+      "vi": "ước"
+    },
+    {
+      "rank": 1489,
+      "archiveRank": 1032,
+      "vi": "phản"
+    },
+    {
+      "rank": 1490,
+      "archiveRank": 1033,
+      "vi": "cục"
+    },
+    {
+      "rank": 1491,
+      "archiveRank": 1035,
+      "vi": "hại"
+    },
+    {
+      "rank": 1492,
+      "archiveRank": 1036,
+      "vi": "lỗ"
+    },
+    {
+      "rank": 1493,
+      "archiveRank": 1040,
+      "vi": "ống"
+    },
+    {
+      "rank": 1494,
+      "archiveRank": 1041,
+      "vi": "nhằm"
+    },
+    {
+      "rank": 1495,
+      "archiveRank": 1043,
+      "vi": "chàng"
+    },
+    {
+      "rank": 1496,
+      "archiveRank": 1045,
+      "vi": "kèm"
+    },
+    {
+      "rank": 1497,
+      "archiveRank": 1047,
+      "vi": "trùng"
+    },
+    {
+      "rank": 1498,
+      "archiveRank": 1048,
+      "vi": "nàng"
+    },
+    {
+      "rank": 1499,
+      "archiveRank": 1050,
+      "vi": "kính"
+    },
+    {
+      "rank": 1500,
+      "archiveRank": 1052,
+      "vi": "chiến đấu"
+    },
+    {
+      "rank": 1501,
+      "archiveRank": 1053,
+      "vi": "vùng"
+    },
+    {
+      "rank": 1502,
+      "archiveRank": 1054,
+      "vi": "châu"
+    },
+    {
+      "rank": 1503,
+      "archiveRank": 1055,
+      "vi": "đặc"
+    },
+    {
+      "rank": 1504,
+      "archiveRank": 1056,
+      "vi": "vỡ"
+    },
+    {
+      "rank": 1505,
+      "archiveRank": 1057,
+      "vi": "hạt"
+    },
+    {
+      "rank": 1506,
+      "archiveRank": 1066,
+      "vi": "đằng"
+    },
+    {
+      "rank": 1507,
+      "archiveRank": 1068,
+      "vi": "linh"
+    },
+    {
+      "rank": 1508,
+      "archiveRank": 1069,
+      "vi": "kém"
+    },
+    {
+      "rank": 1509,
+      "archiveRank": 1071,
+      "vi": "quanh"
+    },
+    {
+      "rank": 1510,
+      "archiveRank": 1074,
+      "vi": "tạm biệt"
+    },
+    {
+      "rank": 1511,
+      "archiveRank": 1079,
+      "vi": "ép"
+    },
+    {
+      "rank": 1512,
+      "archiveRank": 1080,
+      "vi": "điều tra"
+    },
+    {
+      "rank": 1513,
+      "archiveRank": 1082,
+      "vi": "đảng"
+    },
+    {
+      "rank": 1514,
+      "archiveRank": 1084,
+      "vi": "đuổi"
+    },
+    {
+      "rank": 1515,
+      "archiveRank": 1085,
+      "vi": "hạnh"
+    },
+    {
+      "rank": 1516,
+      "archiveRank": 1087,
+      "vi": "dự"
+    },
+    {
+      "rank": 1517,
+      "archiveRank": 1089,
+      "vi": "ngữ"
+    },
+    {
+      "rank": 1518,
+      "archiveRank": 1090,
+      "vi": "phí"
+    },
+    {
+      "rank": 1519,
+      "archiveRank": 1091,
+      "vi": "tầm"
+    },
+    {
+      "rank": 1520,
+      "archiveRank": 1093,
+      "vi": "kêu"
+    },
+    {
+      "rank": 1521,
+      "archiveRank": 1094,
+      "vi": "trông"
+    },
+    {
+      "rank": 1522,
+      "archiveRank": 1095,
+      "vi": "tô"
+    },
+    {
+      "rank": 1523,
+      "archiveRank": 1096,
+      "vi": "tròn"
+    },
+    {
+      "rank": 1524,
+      "archiveRank": 1098,
+      "vi": "xuyên"
+    },
+    {
+      "rank": 1525,
+      "archiveRank": 1099,
+      "vi": "chủ tịch"
+    },
+    {
+      "rank": 1526,
+      "archiveRank": 1100,
+      "vi": "xoay"
+    },
+    {
+      "rank": 1527,
+      "archiveRank": 1105,
+      "vi": "trưa"
+    },
+    {
+      "rank": 1528,
+      "archiveRank": 1107,
+      "vi": "biểu"
+    },
+    {
+      "rank": 1529,
+      "archiveRank": 1109,
+      "vi": "độc"
+    },
+    {
+      "rank": 1530,
+      "archiveRank": 1111,
+      "vi": "mắc"
+    },
+    {
+      "rank": 1531,
+      "archiveRank": 1115,
+      "vi": "trì"
+    },
+    {
+      "rank": 1532,
+      "archiveRank": 1121,
+      "vi": "bại"
+    },
+    {
+      "rank": 1533,
+      "archiveRank": 1124,
+      "vi": "tích"
+    },
+    {
+      "rank": 1534,
+      "archiveRank": 1125,
+      "vi": "cưới"
+    },
+    {
+      "rank": 1535,
+      "archiveRank": 1126,
+      "vi": "lối"
+    },
+    {
+      "rank": 1536,
+      "archiveRank": 1129,
+      "vi": "họp"
+    },
+    {
+      "rank": 1537,
+      "archiveRank": 1130,
+      "vi": "che"
+    },
+    {
+      "rank": 1538,
+      "archiveRank": 1131,
+      "vi": "đỉnh"
+    },
+    {
+      "rank": 1539,
+      "archiveRank": 1132,
+      "vi": "cực kỳ"
+    },
+    {
+      "rank": 1540,
+      "archiveRank": 1136,
+      "vi": "vệ"
+    },
+    {
+      "rank": 1541,
+      "archiveRank": 1137,
+      "vi": "nạn"
+    },
+    {
+      "rank": 1542,
+      "archiveRank": 1138,
+      "vi": "trần"
+    },
+    {
+      "rank": 1543,
+      "archiveRank": 1140,
+      "vi": "lỡ"
+    },
+    {
+      "rank": 1544,
+      "archiveRank": 1145,
+      "vi": "vua"
+    },
+    {
+      "rank": 1545,
+      "archiveRank": 1146,
+      "vi": "mô hình"
+    },
+    {
+      "rank": 1546,
+      "archiveRank": 1147,
+      "vi": "tự động"
+    },
+    {
+      "rank": 1547,
+      "archiveRank": 1149,
+      "vi": "tham"
+    },
+    {
+      "rank": 1548,
+      "archiveRank": 1153,
+      "vi": "kì"
+    },
+    {
+      "rank": 1549,
+      "archiveRank": 1155,
+      "vi": "vương"
+    },
+    {
+      "rank": 1550,
+      "archiveRank": 1156,
+      "vi": "hưởng"
+    },
+    {
+      "rank": 1551,
+      "archiveRank": 1157,
+      "vi": "trọng"
+    },
+    {
+      "rank": 1552,
+      "archiveRank": 1162,
+      "vi": "đỡ"
+    },
+    {
+      "rank": 1553,
+      "archiveRank": 1164,
+      "vi": "đài"
+    },
+    {
+      "rank": 1554,
+      "archiveRank": 1166,
+      "vi": "tận"
+    },
+    {
+      "rank": 1555,
+      "archiveRank": 1172,
+      "vi": "hộ"
+    },
+    {
+      "rank": 1556,
+      "archiveRank": 1173,
+      "vi": "phương"
+    },
+    {
+      "rank": 1557,
+      "archiveRank": 1174,
+      "vi": "giành"
+    },
+    {
+      "rank": 1558,
+      "archiveRank": 1175,
+      "vi": "hầu"
+    },
+    {
+      "rank": 1559,
+      "archiveRank": 1177,
+      "vi": "nổ"
+    },
+    {
+      "rank": 1560,
+      "archiveRank": 1178,
+      "vi": "nhấp"
+    },
+    {
+      "rank": 1561,
+      "archiveRank": 1181,
+      "vi": "cú"
+    },
+    {
+      "rank": 1562,
+      "archiveRank": 1182,
+      "vi": "bấm"
+    },
+    {
+      "rank": 1563,
+      "archiveRank": 1188,
+      "vi": "tốc"
+    },
+    {
+      "rank": 1564,
+      "archiveRank": 1189,
+      "vi": "loạt"
+    },
+    {
+      "rank": 1565,
+      "archiveRank": 1190,
+      "vi": "chứng"
+    },
+    {
+      "rank": 1566,
+      "archiveRank": 1194,
+      "vi": "tử"
+    },
+    {
+      "rank": 1567,
+      "archiveRank": 1196,
+      "vi": "hắn"
+    },
+    {
+      "rank": 1568,
+      "archiveRank": 1199,
+      "vi": "ánh"
+    },
+    {
+      "rank": 1569,
+      "archiveRank": 1200,
+      "vi": "đập"
+    },
+    {
+      "rank": 1570,
+      "archiveRank": 1201,
+      "vi": "kế"
+    },
+    {
+      "rank": 1571,
+      "archiveRank": 1202,
+      "vi": "khắc"
+    },
+    {
+      "rank": 1572,
+      "archiveRank": 1203,
+      "vi": "nét"
+    },
+    {
+      "rank": 1573,
+      "archiveRank": 1206,
+      "vi": "tổng thống"
+    },
+    {
+      "rank": 1574,
+      "archiveRank": 1212,
+      "vi": "thả"
+    },
+    {
+      "rank": 1575,
+      "archiveRank": 1214,
+      "vi": "nãy"
+    },
+    {
+      "rank": 1576,
+      "archiveRank": 1216,
+      "vi": "tụi"
+    },
+    {
+      "rank": 1577,
+      "archiveRank": 1217,
+      "vi": "tư"
+    },
+    {
+      "rank": 1578,
+      "archiveRank": 1222,
+      "vi": "sư"
+    },
+    {
+      "rank": 1579,
+      "archiveRank": 1223,
+      "vi": "ngón"
+    },
+    {
+      "rank": 1580,
+      "archiveRank": 1227,
+      "vi": "chúng"
+    },
+    {
+      "rank": 1581,
+      "archiveRank": 1230,
+      "vi": "đối"
+    },
+    {
+      "rank": 1582,
+      "archiveRank": 1231,
+      "vi": "xuân"
+    },
+    {
+      "rank": 1583,
+      "archiveRank": 1232,
+      "vi": "thái"
+    },
+    {
+      "rank": 1584,
+      "archiveRank": 1233,
+      "vi": "khá"
+    },
+    {
+      "rank": 1585,
+      "archiveRank": 1235,
+      "vi": "hãi"
+    },
+    {
+      "rank": 1586,
+      "archiveRank": 1236,
+      "vi": "trại"
+    },
+    {
+      "rank": 1587,
+      "archiveRank": 1239,
+      "vi": "tí"
+    },
+    {
+      "rank": 1588,
+      "archiveRank": 1240,
+      "vi": "mái"
+    },
+    {
+      "rank": 1589,
+      "archiveRank": 1246,
+      "vi": "phúc"
+    },
+    {
+      "rank": 1590,
+      "archiveRank": 1250,
+      "vi": "vội"
+    },
+    {
+      "rank": 1591,
+      "archiveRank": 1252,
+      "vi": "lắng"
+    },
+    {
+      "rank": 1592,
+      "archiveRank": 1253,
+      "vi": "cáo"
+    },
+    {
+      "rank": 1593,
+      "archiveRank": 1254,
+      "vi": "treo"
+    },
+    {
+      "rank": 1594,
+      "archiveRank": 1255,
+      "vi": "loạn"
+    },
+    {
+      "rank": 1595,
+      "archiveRank": 1256,
+      "vi": "thiên"
+    },
+    {
+      "rank": 1596,
+      "archiveRank": 1260,
+      "vi": "sơn"
+    },
+    {
+      "rank": 1597,
+      "archiveRank": 1264,
+      "vi": "nhiệt"
+    },
+    {
+      "rank": 1598,
+      "archiveRank": 1266,
+      "vi": "tướng"
+    },
+    {
+      "rank": 1599,
+      "archiveRank": 1268,
+      "vi": "vỏ"
+    },
+    {
+      "rank": 1600,
+      "archiveRank": 1270,
+      "vi": "mảnh"
+    },
+    {
+      "rank": 1601,
+      "archiveRank": 1271,
+      "vi": "bầu"
+    },
+    {
+      "rank": 1602,
+      "archiveRank": 1273,
+      "vi": "huyện"
+    },
+    {
+      "rank": 1603,
+      "archiveRank": 1274,
+      "vi": "vân"
+    },
+    {
+      "rank": 1604,
+      "archiveRank": 1277,
+      "vi": "dày"
+    },
+    {
+      "rank": 1605,
+      "archiveRank": 1279,
+      "vi": "camera"
+    },
+    {
+      "rank": 1606,
+      "archiveRank": 1283,
+      "vi": "cốc"
+    },
+    {
+      "rank": 1607,
+      "archiveRank": 1284,
+      "vi": "thượng"
+    },
+    {
+      "rank": 1608,
+      "archiveRank": 1286,
+      "vi": "chuột"
+    },
+    {
+      "rank": 1609,
+      "archiveRank": 1287,
+      "vi": "tức"
+    },
+    {
+      "rank": 1610,
+      "archiveRank": 1288,
+      "vi": "bông"
+    },
+    {
+      "rank": 1611,
+      "archiveRank": 1289,
+      "vi": "phục"
+    },
+    {
+      "rank": 1612,
+      "archiveRank": 1290,
+      "vi": "mát"
+    },
+    {
+      "rank": 1613,
+      "archiveRank": 1293,
+      "vi": "duy"
+    },
+    {
+      "rank": 1614,
+      "archiveRank": 1294,
+      "vi": "tạp"
+    },
+    {
+      "rank": 1615,
+      "archiveRank": 1295,
+      "vi": "áp"
+    },
+    {
+      "rank": 1616,
+      "archiveRank": 1296,
+      "vi": "mi"
+    },
+    {
+      "rank": 1617,
+      "archiveRank": 1300,
+      "vi": "chối"
+    },
+    {
+      "rank": 1618,
+      "archiveRank": 1306,
+      "vi": "sắt"
+    },
+    {
+      "rank": 1619,
+      "archiveRank": 1307,
+      "vi": "thống"
+    },
+    {
+      "rank": 1620,
+      "archiveRank": 1312,
+      "vi": "dưỡng"
+    },
+    {
+      "rank": 1621,
+      "archiveRank": 1315,
+      "vi": "cải"
+    },
+    {
+      "rank": 1622,
+      "archiveRank": 1317,
+      "vi": "giấu"
+    },
+    {
+      "rank": 1623,
+      "archiveRank": 1318,
+      "vi": "cưng"
+    },
+    {
+      "rank": 1624,
+      "archiveRank": 1325,
+      "vi": "truyền"
+    },
+    {
+      "rank": 1625,
+      "archiveRank": 1326,
+      "vi": "trạng"
+    },
+    {
+      "rank": 1626,
+      "archiveRank": 1329,
+      "vi": "trình"
+    },
+    {
+      "rank": 1627,
+      "archiveRank": 1332,
+      "vi": "mươi"
+    },
+    {
+      "rank": 1628,
+      "archiveRank": 1333,
+      "vi": "xinh đẹp"
+    },
+    {
+      "rank": 1629,
+      "archiveRank": 1340,
+      "vi": "cứng"
+    },
+    {
+      "rank": 1630,
+      "archiveRank": 1341,
+      "vi": "hàn"
+    },
+    {
+      "rank": 1631,
+      "archiveRank": 1342,
+      "vi": "top"
+    },
+    {
+      "rank": 1632,
+      "archiveRank": 1344,
+      "vi": "cập"
+    },
+    {
+      "rank": 1633,
+      "archiveRank": 1349,
+      "vi": "đua"
+    },
+    {
+      "rank": 1634,
+      "archiveRank": 1350,
+      "vi": "diễn viên"
+    },
+    {
+      "rank": 1635,
+      "archiveRank": 1353,
+      "vi": "vô"
+    },
+    {
+      "rank": 1636,
+      "archiveRank": 1355,
+      "vi": "lặp"
+    },
+    {
+      "rank": 1637,
+      "archiveRank": 1356,
+      "vi": "cực"
+    },
+    {
+      "rank": 1638,
+      "archiveRank": 1357,
+      "vi": "vũ khí"
+    },
+    {
+      "rank": 1639,
+      "archiveRank": 1359,
+      "vi": "sợi"
+    },
+    {
+      "rank": 1640,
+      "archiveRank": 1360,
+      "vi": "trụ"
+    },
+    {
+      "rank": 1641,
+      "archiveRank": 1361,
+      "vi": "hùng"
+    },
+    {
+      "rank": 1642,
+      "archiveRank": 1365,
+      "vi": "ê"
+    },
+    {
+      "rank": 1643,
+      "archiveRank": 1370,
+      "vi": "kiến"
+    },
+    {
+      "rank": 1644,
+      "archiveRank": 1372,
+      "vi": "rắc"
+    },
+    {
+      "rank": 1645,
+      "archiveRank": 1379,
+      "vi": "ấy"
+    },
+    {
+      "rank": 1646,
+      "archiveRank": 1381,
+      "vi": "ngang"
+    },
+    {
+      "rank": 1647,
+      "archiveRank": 1383,
+      "vi": "thờ"
+    },
+    {
+      "rank": 1648,
+      "archiveRank": 1384,
+      "vi": "ứng"
+    },
+    {
+      "rank": 1649,
+      "archiveRank": 1386,
+      "vi": "hà"
+    },
+    {
+      "rank": 1650,
+      "archiveRank": 1388,
+      "vi": "dán"
+    },
+    {
+      "rank": 1651,
+      "archiveRank": 1392,
+      "vi": "trí"
+    },
+    {
+      "rank": 1652,
+      "archiveRank": 1394,
+      "vi": "cắm"
+    },
+    {
+      "rank": 1653,
+      "archiveRank": 1395,
+      "vi": "tồn"
+    },
+    {
+      "rank": 1654,
+      "archiveRank": 1398,
+      "vi": "bờ"
+    },
+    {
+      "rank": 1655,
+      "archiveRank": 1399,
+      "vi": "tôn"
+    },
+    {
+      "rank": 1656,
+      "archiveRank": 1400,
+      "vi": "khốn"
+    },
+    {
+      "rank": 1657,
+      "archiveRank": 1402,
+      "vi": "hồ"
+    },
+    {
+      "rank": 1658,
+      "archiveRank": 1405,
+      "vi": "chiếu"
+    },
+    {
+      "rank": 1659,
+      "archiveRank": 1406,
+      "vi": "yên"
+    },
+    {
+      "rank": 1660,
+      "archiveRank": 1407,
+      "vi": "môi"
+    },
+    {
+      "rank": 1661,
+      "archiveRank": 1409,
+      "vi": "tảng"
+    },
+    {
+      "rank": 1662,
+      "archiveRank": 1410,
+      "vi": "cà"
+    },
+    {
+      "rank": 1663,
+      "archiveRank": 1411,
+      "vi": "tồi"
+    },
+    {
+      "rank": 1664,
+      "archiveRank": 1413,
+      "vi": "con gái"
+    },
+    {
+      "rank": 1665,
+      "archiveRank": 1414,
+      "vi": "hạng"
+    },
+    {
+      "rank": 1666,
+      "archiveRank": 1418,
+      "vi": "thùng"
+    },
+    {
+      "rank": 1667,
+      "archiveRank": 1425,
+      "vi": "cát"
+    },
+    {
+      "rank": 1668,
+      "archiveRank": 1426,
+      "vi": "khoảnh"
+    },
+    {
+      "rank": 1669,
+      "archiveRank": 1429,
+      "vi": "mê"
+    },
+    {
+      "rank": 1670,
+      "archiveRank": 1432,
+      "vi": "kiện"
+    },
+    {
+      "rank": 1671,
+      "archiveRank": 1434,
+      "vi": "lão"
+    },
+    {
+      "rank": 1672,
+      "archiveRank": 1436,
+      "vi": "trưng"
+    },
+    {
+      "rank": 1673,
+      "archiveRank": 1441,
+      "vi": "bang"
+    },
+    {
+      "rank": 1674,
+      "archiveRank": 1445,
+      "vi": "tương"
+    },
+    {
+      "rank": 1675,
+      "archiveRank": 1448,
+      "vi": "cử"
+    },
+    {
+      "rank": 1676,
+      "archiveRank": 1451,
+      "vi": "chuông"
+    },
+    {
+      "rank": 1677,
+      "archiveRank": 1453,
+      "vi": "đàn"
+    },
+    {
+      "rank": 1678,
+      "archiveRank": 1455,
+      "vi": "cướp"
+    },
+    {
+      "rank": 1679,
+      "archiveRank": 1467,
+      "vi": "công chúa"
+    },
+    {
+      "rank": 1680,
+      "archiveRank": 1468,
+      "vi": "tp"
+    },
+    {
+      "rank": 1681,
+      "archiveRank": 1472,
+      "vi": "nhà nước"
+    },
+    {
+      "rank": 1682,
+      "archiveRank": 1473,
+      "vi": "chuẩn"
+    },
+    {
+      "rank": 1683,
+      "archiveRank": 1474,
+      "vi": "chiến tranh"
+    },
+    {
+      "rank": 1684,
+      "archiveRank": 1479,
+      "vi": "ngọn"
+    },
+    {
+      "rank": 1685,
+      "archiveRank": 1486,
+      "vi": "khoai"
+    },
+    {
+      "rank": 1686,
+      "archiveRank": 1490,
+      "vi": "tổng"
+    },
+    {
+      "rank": 1687,
+      "archiveRank": 1491,
+      "vi": "khung"
+    },
+    {
+      "rank": 1688,
+      "archiveRank": 1494,
+      "vi": "truy"
+    },
+    {
+      "rank": 1689,
+      "archiveRank": 1502,
+      "vi": "thợ"
+    },
+    {
+      "rank": 1690,
+      "archiveRank": 1503,
+      "vi": "cài"
+    },
+    {
+      "rank": 1691,
+      "archiveRank": 1504,
+      "vi": "chẳng"
+    },
+    {
+      "rank": 1692,
+      "archiveRank": 1505,
+      "vi": "gắn"
+    },
+    {
+      "rank": 1693,
+      "archiveRank": 1506,
+      "vi": "lành"
+    },
+    {
+      "rank": 1694,
+      "archiveRank": 1509,
+      "vi": "lực lượng"
+    },
+    {
+      "rank": 1695,
+      "archiveRank": 1513,
+      "vi": "màn"
+    },
+    {
+      "rank": 1696,
+      "archiveRank": 1514,
+      "vi": "hậu"
+    },
+    {
+      "rank": 1697,
+      "archiveRank": 1515,
+      "vi": "gối"
+    },
+    {
+      "rank": 1698,
+      "archiveRank": 1516,
+      "vi": "thưởng"
+    },
+    {
+      "rank": 1699,
+      "archiveRank": 1517,
+      "vi": "lát"
+    },
+    {
+      "rank": 1700,
+      "archiveRank": 1518,
+      "vi": "gắng"
+    },
+    {
+      "rank": 1701,
+      "archiveRank": 1523,
+      "vi": "trấn"
+    },
+    {
+      "rank": 1702,
+      "archiveRank": 1524,
+      "vi": "đẳng"
+    },
+    {
+      "rank": 1703,
+      "archiveRank": 1529,
+      "vi": "ghê"
+    },
+    {
+      "rank": 1704,
+      "archiveRank": 1531,
+      "vi": "diện"
+    },
+    {
+      "rank": 1705,
+      "archiveRank": 1534,
+      "vi": "trộm"
+    },
+    {
+      "rank": 1706,
+      "archiveRank": 1537,
+      "vi": "nghi"
+    },
+    {
+      "rank": 1707,
+      "archiveRank": 1540,
+      "vi": "tra"
+    },
+    {
+      "rank": 1708,
+      "archiveRank": 1543,
+      "vi": "nụ"
+    },
+    {
+      "rank": 1709,
+      "archiveRank": 1544,
+      "vi": "phiên"
+    },
+    {
+      "rank": 1710,
+      "archiveRank": 1545,
+      "vi": "hổ"
+    },
+    {
+      "rank": 1711,
+      "archiveRank": 1547,
+      "vi": "làn"
+    },
+    {
+      "rank": 1712,
+      "archiveRank": 1548,
+      "vi": "thép"
+    },
+    {
+      "rank": 1713,
+      "archiveRank": 1549,
+      "vi": "ngốc"
+    },
+    {
+      "rank": 1714,
+      "archiveRank": 1553,
+      "vi": "thù"
+    },
+    {
+      "rank": 1715,
+      "archiveRank": 1555,
+      "vi": "ngàn"
+    },
+    {
+      "rank": 1716,
+      "archiveRank": 1561,
+      "vi": "nhi"
+    },
+    {
+      "rank": 1717,
+      "archiveRank": 1562,
+      "vi": "mật"
+    },
+    {
+      "rank": 1718,
+      "archiveRank": 1563,
+      "vi": "góp"
+    },
+    {
+      "rank": 1719,
+      "archiveRank": 1565,
+      "vi": "tuyến"
+    },
+    {
+      "rank": 1720,
+      "archiveRank": 1566,
+      "vi": "phóng"
+    },
+    {
+      "rank": 1721,
+      "archiveRank": 1567,
+      "vi": "xử"
+    },
+    {
+      "rank": 1722,
+      "archiveRank": 1568,
+      "vi": "trực"
+    },
+    {
+      "rank": 1723,
+      "archiveRank": 1569,
+      "vi": "chức"
+    },
+    {
+      "rank": 1724,
+      "archiveRank": 1572,
+      "vi": "bất"
+    },
+    {
+      "rank": 1725,
+      "archiveRank": 1573,
+      "vi": "vô cùng"
+    },
+    {
+      "rank": 1726,
+      "archiveRank": 1577,
+      "vi": "dì"
+    },
+    {
+      "rank": 1727,
+      "archiveRank": 1578,
+      "vi": "tín"
+    },
+    {
+      "rank": 1728,
+      "archiveRank": 1579,
+      "vi": "ờ"
+    },
+    {
+      "rank": 1729,
+      "archiveRank": 1581,
+      "vi": "quang"
+    },
+    {
+      "rank": 1730,
+      "archiveRank": 1582,
+      "vi": "nhóc"
+    },
+    {
+      "rank": 1731,
+      "archiveRank": 1584,
+      "vi": "sung"
+    },
+    {
+      "rank": 1732,
+      "archiveRank": 1585,
+      "vi": "bi"
+    },
+    {
+      "rank": 1733,
+      "archiveRank": 1586,
+      "vi": "bãi"
+    },
+    {
+      "rank": 1734,
+      "archiveRank": 1587,
+      "vi": "khai"
+    },
+    {
+      "rank": 1735,
+      "archiveRank": 1590,
+      "vi": "chim"
+    },
+    {
+      "rank": 1736,
+      "archiveRank": 1591,
+      "vi": "bát"
+    },
+    {
+      "rank": 1737,
+      "archiveRank": 1592,
+      "vi": "lính"
+    },
+    {
+      "rank": 1738,
+      "archiveRank": 1594,
+      "vi": "sót"
+    },
+    {
+      "rank": 1739,
+      "archiveRank": 1595,
+      "vi": "tư cách"
+    },
+    {
+      "rank": 1740,
+      "archiveRank": 1596,
+      "vi": "hâm mộ"
+    },
+    {
+      "rank": 1741,
+      "archiveRank": 1599,
+      "vi": "cụ"
+    },
+    {
+      "rank": 1742,
+      "archiveRank": 1600,
+      "vi": "vời"
+    },
+    {
+      "rank": 1743,
+      "archiveRank": 1601,
+      "vi": "nhẹ"
+    },
+    {
+      "rank": 1744,
+      "archiveRank": 1604,
+      "vi": "ngại"
+    },
+    {
+      "rank": 1745,
+      "archiveRank": 1606,
+      "vi": "xây"
+    },
+    {
+      "rank": 1746,
+      "archiveRank": 1607,
+      "vi": "sổ"
+    },
+    {
+      "rank": 1747,
+      "archiveRank": 1608,
+      "vi": "quy"
+    },
+    {
+      "rank": 1748,
+      "archiveRank": 1609,
+      "vi": "cột"
+    },
+    {
+      "rank": 1749,
+      "archiveRank": 1610,
+      "vi": "gọn"
+    },
+    {
+      "rank": 1750,
+      "archiveRank": 1611,
+      "vi": "nồi"
+    },
+    {
+      "rank": 1751,
+      "archiveRank": 1612,
+      "vi": "bắc"
+    },
+    {
+      "rank": 1752,
+      "archiveRank": 1613,
+      "vi": "lượt"
+    },
+    {
+      "rank": 1753,
+      "archiveRank": 1614,
+      "vi": "thuyền"
+    },
+    {
+      "rank": 1754,
+      "archiveRank": 1616,
+      "vi": "muội"
+    },
+    {
+      "rank": 1755,
+      "archiveRank": 1618,
+      "vi": "dâu"
+    },
+    {
+      "rank": 1756,
+      "archiveRank": 1619,
+      "vi": "tù"
+    },
+    {
+      "rank": 1757,
+      "archiveRank": 1620,
+      "vi": "thông"
+    },
+    {
+      "rank": 1758,
+      "archiveRank": 1621,
+      "vi": "ví"
+    },
+    {
+      "rank": 1759,
+      "archiveRank": 1623,
+      "vi": "võ"
+    },
+    {
+      "rank": 1760,
+      "archiveRank": 1624,
+      "vi": "quý vị"
+    },
+    {
+      "rank": 1761,
+      "archiveRank": 1627,
+      "vi": "bất động"
+    },
+    {
+      "rank": 1762,
+      "archiveRank": 1633,
+      "vi": "hương"
+    },
+    {
+      "rank": 1763,
+      "archiveRank": 1634,
+      "vi": "lọc"
+    },
+    {
+      "rank": 1764,
+      "archiveRank": 1635,
+      "vi": "ghép"
+    },
+    {
+      "rank": 1765,
+      "archiveRank": 1641,
+      "vi": "lò"
+    },
+    {
+      "rank": 1766,
+      "archiveRank": 1643,
+      "vi": "suy"
+    },
+    {
+      "rank": 1767,
+      "archiveRank": 1645,
+      "vi": "ngăn"
+    },
+    {
+      "rank": 1768,
+      "archiveRank": 1649,
+      "vi": "ngu ngốc"
+    },
+    {
+      "rank": 1769,
+      "archiveRank": 1655,
+      "vi": "khẩu"
+    },
+    {
+      "rank": 1770,
+      "archiveRank": 1657,
+      "vi": "bậc"
+    },
+    {
+      "rank": 1771,
+      "archiveRank": 1658,
+      "vi": "lũ"
+    },
+    {
+      "rank": 1772,
+      "archiveRank": 1659,
+      "vi": "tình dục"
+    },
+    {
+      "rank": 1773,
+      "archiveRank": 1660,
+      "vi": "xếp"
+    },
+    {
+      "rank": 1774,
+      "archiveRank": 1662,
+      "vi": "hàm"
+    },
+    {
+      "rank": 1775,
+      "archiveRank": 1663,
+      "vi": "phạm"
+    },
+    {
+      "rank": 1776,
+      "archiveRank": 1665,
+      "vi": "bụi"
+    },
+    {
+      "rank": 1777,
+      "archiveRank": 1666,
+      "vi": "miễn"
+    },
+    {
+      "rank": 1778,
+      "archiveRank": 1667,
+      "vi": "tức giận"
+    },
+    {
+      "rank": 1779,
+      "archiveRank": 1668,
+      "vi": "bí"
+    },
+    {
+      "rank": 1780,
+      "archiveRank": 1669,
+      "vi": "thử thách"
+    },
+    {
+      "rank": 1781,
+      "archiveRank": 1670,
+      "vi": "truyền hình"
+    },
+    {
+      "rank": 1782,
+      "archiveRank": 1673,
+      "vi": "nguyên liệu"
+    },
+    {
+      "rank": 1783,
+      "archiveRank": 1674,
+      "vi": "đáp"
+    },
+    {
+      "rank": 1784,
+      "archiveRank": 1675,
+      "vi": "sa"
+    },
+    {
+      "rank": 1785,
+      "archiveRank": 1676,
+      "vi": "hét"
+    },
+    {
+      "rank": 1786,
+      "archiveRank": 1677,
+      "vi": "bàn tay"
+    },
+    {
+      "rank": 1787,
+      "archiveRank": 1678,
+      "vi": "thiện"
+    },
+    {
+      "rank": 1788,
+      "archiveRank": 1679,
+      "vi": "ngựa"
+    },
+    {
+      "rank": 1789,
+      "archiveRank": 1680,
+      "vi": "lực"
+    },
+    {
+      "rank": 1790,
+      "archiveRank": 1681,
+      "vi": "cắn"
+    },
+    {
+      "rank": 1791,
+      "archiveRank": 1682,
+      "vi": "chuỗi"
+    },
+    {
+      "rank": 1792,
+      "archiveRank": 1685,
+      "vi": "tự hào"
+    },
+    {
+      "rank": 1793,
+      "archiveRank": 1686,
+      "vi": "lai"
+    },
+    {
+      "rank": 1794,
+      "archiveRank": 1687,
+      "vi": "thành thật"
+    },
+    {
+      "rank": 1795,
+      "archiveRank": 1689,
+      "vi": "hỏng"
+    },
+    {
+      "rank": 1796,
+      "archiveRank": 1690,
+      "vi": "nộp"
+    },
+    {
+      "rank": 1797,
+      "archiveRank": 1692,
+      "vi": "cong"
+    },
+    {
+      "rank": 1798,
+      "archiveRank": 1693,
+      "vi": "tiệt"
+    },
+    {
+      "rank": 1799,
+      "archiveRank": 1694,
+      "vi": "nghèo"
+    },
+    {
+      "rank": 1800,
+      "archiveRank": 1695,
+      "vi": "mạch"
+    },
+    {
+      "rank": 1801,
+      "archiveRank": 1696,
+      "vi": "lưới"
+    },
+    {
+      "rank": 1802,
+      "archiveRank": 1697,
+      "vi": "nhân dân"
+    },
+    {
+      "rank": 1803,
+      "archiveRank": 1698,
+      "vi": "cuộn"
+    },
+    {
+      "rank": 1804,
+      "archiveRank": 1700,
+      "vi": "tiến hành"
+    },
+    {
+      "rank": 1805,
+      "archiveRank": 1701,
+      "vi": "thảo luận"
+    },
+    {
+      "rank": 1806,
+      "archiveRank": 1703,
+      "vi": "thảo"
+    },
+    {
+      "rank": 1807,
+      "archiveRank": 1704,
+      "vi": "tự"
+    },
+    {
+      "rank": 1808,
+      "archiveRank": 1705,
+      "vi": "phường"
+    },
+    {
+      "rank": 1809,
+      "archiveRank": 1706,
+      "vi": "hiện nay"
+    },
+    {
+      "rank": 1810,
+      "archiveRank": 1707,
+      "vi": "dịch"
+    },
+    {
+      "rank": 1811,
+      "archiveRank": 1708,
+      "vi": "mệt mỏi"
+    },
+    {
+      "rank": 1812,
+      "archiveRank": 1709,
+      "vi": "thiết lập"
+    },
+    {
+      "rank": 1813,
+      "archiveRank": 1710,
+      "vi": "năng lực"
+    },
+    {
+      "rank": 1814,
+      "archiveRank": 1711,
+      "vi": "phát hành"
+    },
+    {
+      "rank": 1815,
+      "archiveRank": 1712,
+      "vi": "giai"
+    },
+    {
+      "rank": 1816,
+      "archiveRank": 1713,
+      "vi": "lương"
+    },
+    {
+      "rank": 1817,
+      "archiveRank": 1714,
+      "vi": "mượn"
+    },
+    {
+      "rank": 1818,
+      "archiveRank": 1716,
+      "vi": "phủ"
+    },
+    {
+      "rank": 1819,
+      "archiveRank": 1717,
+      "vi": "đốt"
+    },
+    {
+      "rank": 1820,
+      "archiveRank": 1718,
+      "vi": "ghé"
+    },
+    {
+      "rank": 1821,
+      "archiveRank": 1720,
+      "vi": "dạo"
+    },
+    {
+      "rank": 1822,
+      "archiveRank": 1722,
+      "vi": "nó"
+    },
+    {
+      "rank": 1823,
+      "archiveRank": 1726,
+      "vi": "trưởng"
+    },
+    {
+      "rank": 1824,
+      "archiveRank": 1728,
+      "vi": "hấp dẫn"
+    },
+    {
+      "rank": 1825,
+      "archiveRank": 1729,
+      "vi": "đâm"
+    },
+    {
+      "rank": 1826,
+      "archiveRank": 1731,
+      "vi": "phạt"
+    },
+    {
+      "rank": 1827,
+      "archiveRank": 1732,
+      "vi": "tổ"
+    },
+    {
+      "rank": 1828,
+      "archiveRank": 1733,
+      "vi": "bổ"
+    },
+    {
+      "rank": 1829,
+      "archiveRank": 1737,
+      "vi": "tôn trọng"
+    },
+    {
+      "rank": 1830,
+      "archiveRank": 1739,
+      "vi": "bom"
+    },
+    {
+      "rank": 1831,
+      "archiveRank": 1740,
+      "vi": "hiếm"
+    },
+    {
+      "rank": 1832,
+      "archiveRank": 1741,
+      "vi": "giai đoạn"
+    },
+    {
+      "rank": 1833,
+      "archiveRank": 1742,
+      "vi": "xứng đáng"
+    },
+    {
+      "rank": 1834,
+      "archiveRank": 1743,
+      "vi": "dung"
+    },
+    {
+      "rank": 1835,
+      "archiveRank": 1744,
+      "vi": "phân biệt"
+    },
+    {
+      "rank": 1836,
+      "archiveRank": 1746,
+      "vi": "nạn nhân"
+    },
+    {
+      "rank": 1837,
+      "archiveRank": 1747,
+      "vi": "đòi"
+    },
+    {
+      "rank": 1838,
+      "archiveRank": 1748,
+      "vi": "thánh"
+    },
+    {
+      "rank": 1839,
+      "archiveRank": 1749,
+      "vi": "mô"
+    },
+    {
+      "rank": 1840,
+      "archiveRank": 1750,
+      "vi": "thuận"
+    },
+    {
+      "rank": 1841,
+      "archiveRank": 1751,
+      "vi": "im lặng"
+    },
+    {
+      "rank": 1842,
+      "archiveRank": 1752,
+      "vi": "tâm lý"
+    },
+    {
+      "rank": 1843,
+      "archiveRank": 1753,
+      "vi": "nhắm"
+    },
+    {
+      "rank": 1844,
+      "archiveRank": 1755,
+      "vi": "tiết lộ"
+    },
+    {
+      "rank": 1845,
+      "archiveRank": 1756,
+      "vi": "phân phối"
+    },
+    {
+      "rank": 1846,
+      "archiveRank": 1758,
+      "vi": "dọn"
+    },
+    {
+      "rank": 1847,
+      "archiveRank": 1759,
+      "vi": "chị em"
+    },
+    {
+      "rank": 1848,
+      "archiveRank": 1761,
+      "vi": "tố"
+    },
+    {
+      "rank": 1849,
+      "archiveRank": 1762,
+      "vi": "hi vọng"
+    },
+    {
+      "rank": 1850,
+      "archiveRank": 1763,
+      "vi": "cờ"
+    },
+    {
+      "rank": 1851,
+      "archiveRank": 1764,
+      "vi": "hành vi"
+    },
+    {
+      "rank": 1852,
+      "archiveRank": 1765,
+      "vi": "mẽ"
+    },
+    {
+      "rank": 1853,
+      "archiveRank": 1766,
+      "vi": "tuyển"
+    },
+    {
+      "rank": 1854,
+      "archiveRank": 1767,
+      "vi": "chuyển động"
+    },
+    {
+      "rank": 1855,
+      "archiveRank": 1768,
+      "vi": "hiện đại"
+    },
+    {
+      "rank": 1856,
+      "archiveRank": 1769,
+      "vi": "xuất sắc"
+    },
+    {
+      "rank": 1857,
+      "archiveRank": 1771,
+      "vi": "đống"
+    },
+    {
+      "rank": 1858,
+      "archiveRank": 1772,
+      "vi": "kiếp"
+    },
+    {
+      "rank": 1859,
+      "archiveRank": 1773,
+      "vi": "tờ"
+    },
+    {
+      "rank": 1860,
+      "archiveRank": 1774,
+      "vi": "nước mắt"
+    },
+    {
+      "rank": 1861,
+      "archiveRank": 1775,
+      "vi": "thao"
+    },
+    {
+      "rank": 1862,
+      "archiveRank": 1776,
+      "vi": "chăm chỉ"
+    },
+    {
+      "rank": 1863,
+      "archiveRank": 1777,
+      "vi": "tách"
+    },
+    {
+      "rank": 1864,
+      "archiveRank": 1778,
+      "vi": "phiên bản"
+    },
+    {
+      "rank": 1865,
+      "archiveRank": 1779,
+      "vi": "nghiệm"
+    },
+    {
+      "rank": 1866,
+      "archiveRank": 1780,
+      "vi": "công viên"
+    },
+    {
+      "rank": 1867,
+      "archiveRank": 1781,
+      "vi": "con trai"
+    },
+    {
+      "rank": 1868,
+      "archiveRank": 1782,
+      "vi": "phụ thuộc"
+    },
+    {
+      "rank": 1869,
+      "archiveRank": 1783,
+      "vi": "thu hút"
+    },
+    {
+      "rank": 1870,
+      "archiveRank": 1786,
+      "vi": "gạo"
+    },
+    {
+      "rank": 1871,
+      "archiveRank": 1787,
+      "vi": "cuộc chiến"
+    },
+    {
+      "rank": 1872,
+      "archiveRank": 1788,
+      "vi": "kết hôn"
+    },
+    {
+      "rank": 1873,
+      "archiveRank": 1789,
+      "vi": "thai"
+    },
+    {
+      "rank": 1874,
+      "archiveRank": 1790,
+      "vi": "lịch"
+    },
+    {
+      "rank": 1875,
+      "archiveRank": 1791,
+      "vi": "thắc mắc"
+    },
+    {
+      "rank": 1876,
+      "archiveRank": 1793,
+      "vi": "khúc"
+    },
+    {
+      "rank": 1877,
+      "archiveRank": 1795,
+      "vi": "đối thủ"
+    },
+    {
+      "rank": 1878,
+      "archiveRank": 1796,
+      "vi": "cất"
+    },
+    {
+      "rank": 1879,
+      "archiveRank": 1797,
+      "vi": "mông"
+    },
+    {
+      "rank": 1880,
+      "archiveRank": 1798,
+      "vi": "Phật"
+    },
+    {
+      "rank": 1881,
+      "archiveRank": 1800,
+      "vi": "chóng"
+    },
+    {
+      "rank": 1882,
+      "archiveRank": 1804,
+      "vi": "im"
+    },
+    {
+      "rank": 1883,
+      "archiveRank": 1805,
+      "vi": "quản"
+    },
+    {
+      "rank": 1884,
+      "archiveRank": 1806,
+      "vi": "lưu trữ"
+    },
+    {
+      "rank": 1885,
+      "archiveRank": 1809,
+      "vi": "chở"
+    },
+    {
+      "rank": 1886,
+      "archiveRank": 1810,
+      "vi": "chương"
+    },
+    {
+      "rank": 1887,
+      "archiveRank": 1812,
+      "vi": "thề"
+    },
+    {
+      "rank": 1888,
+      "archiveRank": 1813,
+      "vi": "giải trí"
+    },
+    {
+      "rank": 1889,
+      "archiveRank": 1815,
+      "vi": "cổ phiếu"
+    },
+    {
+      "rank": 1890,
+      "archiveRank": 1816,
+      "vi": "ruột"
+    },
+    {
+      "rank": 1891,
+      "archiveRank": 1817,
+      "vi": "vải"
+    },
+    {
+      "rank": 1892,
+      "archiveRank": 1818,
+      "vi": "ngoại"
+    },
+    {
+      "rank": 1893,
+      "archiveRank": 1819,
+      "vi": "ong"
+    },
+    {
+      "rank": 1894,
+      "archiveRank": 1822,
+      "vi": "tiện"
+    },
+    {
+      "rank": 1895,
+      "archiveRank": 1823,
+      "vi": "thói"
+    },
+    {
+      "rank": 1896,
+      "archiveRank": 1825,
+      "vi": "giám sát"
+    },
+    {
+      "rank": 1897,
+      "archiveRank": 1826,
+      "vi": "du"
+    },
+    {
+      "rank": 1898,
+      "archiveRank": 1828,
+      "vi": "loài"
+    },
+    {
+      "rank": 1899,
+      "archiveRank": 1829,
+      "vi": "khẳng định"
+    },
+    {
+      "rank": 1900,
+      "archiveRank": 1830,
+      "vi": "dính"
+    },
+    {
+      "rank": 1901,
+      "archiveRank": 1832,
+      "vi": "nhẫn"
+    },
+    {
+      "rank": 1902,
+      "archiveRank": 1833,
+      "vi": "sam"
+    },
+    {
+      "rank": 1903,
+      "archiveRank": 1834,
+      "vi": "thu nhập"
+    },
+    {
+      "rank": 1904,
+      "archiveRank": 1835,
+      "vi": "tuyệt đối"
+    },
+    {
+      "rank": 1905,
+      "archiveRank": 1836,
+      "vi": "hội đồng"
+    },
+    {
+      "rank": 1906,
+      "archiveRank": 1837,
+      "vi": "ẩm"
+    },
+    {
+      "rank": 1907,
+      "archiveRank": 1838,
+      "vi": "ngô"
+    },
+    {
+      "rank": 1908,
+      "archiveRank": 1839,
+      "vi": "xinh"
+    },
+    {
+      "rank": 1909,
+      "archiveRank": 1840,
+      "vi": "ích"
+    },
+    {
+      "rank": 1910,
+      "archiveRank": 1841,
+      "vi": "chấm"
+    },
+    {
+      "rank": 1911,
+      "archiveRank": 1843,
+      "vi": "hít"
+    },
+    {
+      "rank": 1912,
+      "archiveRank": 1844,
+      "vi": "giấc"
+    },
+    {
+      "rank": 1913,
+      "archiveRank": 1845,
+      "vi": "buông"
+    },
+    {
+      "rank": 1914,
+      "archiveRank": 1847,
+      "vi": "rũ"
+    },
+    {
+      "rank": 1915,
+      "archiveRank": 1848,
+      "vi": "sắm"
+    },
+    {
+      "rank": 1916,
+      "archiveRank": 1849,
+      "vi": "trạm"
+    },
+    {
+      "rank": 1917,
+      "archiveRank": 1850,
+      "vi": "điệu"
+    },
+    {
+      "rank": 1918,
+      "archiveRank": 1851,
+      "vi": "tác động"
+    },
+    {
+      "rank": 1919,
+      "archiveRank": 1852,
+      "vi": "lộn"
+    },
+    {
+      "rank": 1920,
+      "archiveRank": 1853,
+      "vi": "nguy"
+    },
+    {
+      "rank": 1921,
+      "archiveRank": 1854,
+      "vi": "non"
+    },
+    {
+      "rank": 1922,
+      "archiveRank": 1855,
+      "vi": "vận động"
+    },
+    {
+      "rank": 1923,
+      "archiveRank": 1856,
+      "vi": "chủ nghĩa"
+    },
+    {
+      "rank": 1924,
+      "archiveRank": 1857,
+      "vi": "khớp"
+    },
+    {
+      "rank": 1925,
+      "archiveRank": 1858,
+      "vi": "bối"
+    },
+    {
+      "rank": 1926,
+      "archiveRank": 1859,
+      "vi": "vệ sinh"
+    },
+    {
+      "rank": 1927,
+      "archiveRank": 1860,
+      "vi": "sự nghiệp"
+    },
+    {
+      "rank": 1928,
+      "archiveRank": 1861,
+      "vi": "tiến sĩ"
+    },
+    {
+      "rank": 1929,
+      "archiveRank": 1862,
+      "vi": "cầu nguyện"
+    },
+    {
+      "rank": 1930,
+      "archiveRank": 1863,
+      "vi": "nghi ngờ"
+    },
+    {
+      "rank": 1931,
+      "archiveRank": 1865,
+      "vi": "khởi động"
+    },
+    {
+      "rank": 1932,
+      "archiveRank": 1866,
+      "vi": "tồi tệ"
+    },
+    {
+      "rank": 1933,
+      "archiveRank": 1867,
+      "vi": "tha"
+    },
+    {
+      "rank": 1934,
+      "archiveRank": 1868,
+      "vi": "má"
+    },
+    {
+      "rank": 1935,
+      "archiveRank": 1869,
+      "vi": "fan"
+    },
+    {
+      "rank": 1936,
+      "archiveRank": 1870,
+      "vi": "lấp"
+    },
+    {
+      "rank": 1937,
+      "archiveRank": 1871,
+      "vi": "đôi"
+    },
+    {
+      "rank": 1938,
+      "archiveRank": 1872,
+      "vi": "tò mò"
+    },
+    {
+      "rank": 1939,
+      "archiveRank": 1873,
+      "vi": "ảo"
+    },
+    {
+      "rank": 1940,
+      "archiveRank": 1874,
+      "vi": "vợ chồng"
+    },
+    {
+      "rank": 1941,
+      "archiveRank": 1875,
+      "vi": "dĩ nhiên"
+    },
+    {
+      "rank": 1942,
+      "archiveRank": 1877,
+      "vi": "tín hiệu"
+    },
+    {
+      "rank": 1943,
+      "archiveRank": 1878,
+      "vi": "biên dịch"
+    },
+    {
+      "rank": 1944,
+      "archiveRank": 1879,
+      "vi": "na"
+    },
+    {
+      "rank": 1945,
+      "archiveRank": 1880,
+      "vi": "khoác"
+    },
+    {
+      "rank": 1946,
+      "archiveRank": 1881,
+      "vi": "giáng"
+    },
+    {
+      "rank": 1947,
+      "archiveRank": 1883,
+      "vi": "tóm"
+    },
+    {
+      "rank": 1948,
+      "archiveRank": 1884,
+      "vi": "đối tác"
+    },
+    {
+      "rank": 1949,
+      "archiveRank": 1885,
+      "vi": "dữ"
+    },
+    {
+      "rank": 1950,
+      "archiveRank": 1886,
+      "vi": "bày"
+    },
+    {
+      "rank": 1951,
+      "archiveRank": 1887,
+      "vi": "khích"
+    },
+    {
+      "rank": 1952,
+      "archiveRank": 1888,
+      "vi": "lưỡi"
+    },
+    {
+      "rank": 1953,
+      "archiveRank": 1889,
+      "vi": "ác"
+    },
+    {
+      "rank": 1954,
+      "archiveRank": 1890,
+      "vi": "bám"
+    },
+    {
+      "rank": 1955,
+      "archiveRank": 1891,
+      "vi": "chuyền"
+    },
+    {
+      "rank": 1956,
+      "archiveRank": 1894,
+      "vi": "cầu thủ"
+    },
+    {
+      "rank": 1957,
+      "archiveRank": 1895,
+      "vi": "hiện tại"
+    },
+    {
+      "rank": 1958,
+      "archiveRank": 1896,
+      "vi": "kinh"
+    },
+    {
+      "rank": 1959,
+      "archiveRank": 1897,
+      "vi": "khói"
+    },
+    {
+      "rank": 1960,
+      "archiveRank": 1898,
+      "vi": "ca sĩ"
+    },
+    {
+      "rank": 1961,
+      "archiveRank": 1899,
+      "vi": "hình dạng"
+    },
+    {
+      "rank": 1962,
+      "archiveRank": 1900,
+      "vi": "tội phạm"
+    },
+    {
+      "rank": 1963,
+      "archiveRank": 1901,
+      "vi": "luận"
+    },
+    {
+      "rank": 1964,
+      "archiveRank": 1902,
+      "vi": "rồng"
+    },
+    {
+      "rank": 1965,
+      "archiveRank": 1903,
+      "vi": "nhân tiện"
+    },
+    {
+      "rank": 1966,
+      "archiveRank": 1904,
+      "vi": "đền"
+    },
+    {
+      "rank": 1967,
+      "archiveRank": 1905,
+      "vi": "tốt đẹp"
+    },
+    {
+      "rank": 1968,
+      "archiveRank": 1906,
+      "vi": "lùi"
+    },
+    {
+      "rank": 1969,
+      "archiveRank": 1907,
+      "vi": "thí nghiệm"
+    },
+    {
+      "rank": 1970,
+      "archiveRank": 1908,
+      "vi": "biện pháp"
+    },
+    {
+      "rank": 1971,
+      "archiveRank": 1909,
+      "vi": "thừa nhận"
+    },
+    {
+      "rank": 1972,
+      "archiveRank": 1910,
+      "vi": "dương"
+    },
+    {
+      "rank": 1973,
+      "archiveRank": 1911,
+      "vi": "công bằng"
+    },
+    {
+      "rank": 1974,
+      "archiveRank": 1912,
+      "vi": "trao"
+    },
+    {
+      "rank": 1975,
+      "archiveRank": 1913,
+      "vi": "chừng"
+    },
+    {
+      "rank": 1976,
+      "archiveRank": 1914,
+      "vi": "lau"
+    },
+    {
+      "rank": 1977,
+      "archiveRank": 1916,
+      "vi": "thuyết phục"
+    },
+    {
+      "rank": 1978,
+      "archiveRank": 1918,
+      "vi": "tốt nghiệp"
+    },
+    {
+      "rank": 1979,
+      "archiveRank": 1920,
+      "vi": "thủ tướng"
+    },
+    {
+      "rank": 1980,
+      "archiveRank": 1921,
+      "vi": "thu thập"
+    },
+    {
+      "rank": 1981,
+      "archiveRank": 1924,
+      "vi": "đuôi"
+    },
+    {
+      "rank": 1982,
+      "archiveRank": 1925,
+      "vi": "xưởng"
+    },
+    {
+      "rank": 1983,
+      "archiveRank": 1926,
+      "vi": "cỡ"
+    },
+    {
+      "rank": 1984,
+      "archiveRank": 1928,
+      "vi": "trích"
+    },
+    {
+      "rank": 1985,
+      "archiveRank": 1929,
+      "vi": "di"
+    },
+    {
+      "rank": 1986,
+      "archiveRank": 1930,
+      "vi": "bảo hành"
+    },
+    {
+      "rank": 1987,
+      "archiveRank": 1933,
+      "vi": "sánh"
+    },
+    {
+      "rank": 1988,
+      "archiveRank": 1934,
+      "vi": "phỏng"
+    },
+    {
+      "rank": 1989,
+      "archiveRank": 1935,
+      "vi": "vang"
+    },
+    {
+      "rank": 1990,
+      "archiveRank": 1936,
+      "vi": "ngoái"
+    },
+    {
+      "rank": 1991,
+      "archiveRank": 1938,
+      "vi": "nguyên tắc"
+    },
+    {
+      "rank": 1992,
+      "archiveRank": 1939,
+      "vi": "tài năng"
+    },
+    {
+      "rank": 1993,
+      "archiveRank": 1940,
+      "vi": "ngu"
+    },
+    {
+      "rank": 1994,
+      "archiveRank": 1941,
+      "vi": "vỗ tay"
+    },
+    {
+      "rank": 1995,
+      "archiveRank": 1942,
+      "vi": "khen"
+    },
+    {
+      "rank": 1996,
+      "archiveRank": 1944,
+      "vi": "săn"
+    },
+    {
+      "rank": 1997,
+      "archiveRank": 1945,
+      "vi": "chắn"
+    },
+    {
+      "rank": 1998,
+      "archiveRank": 1946,
+      "vi": "kệ"
+    },
+    {
+      "rank": 1999,
+      "archiveRank": 1947,
+      "vi": "quyền lực"
+    },
+    {
+      "rank": 2000,
+      "archiveRank": 1948,
+      "vi": "thổi"
+    }
+  ]
+}

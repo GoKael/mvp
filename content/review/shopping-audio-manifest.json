@@ -1,0 +1,391 @@
+{
+  "model": "gemini-2.5-pro-tts",
+  "status": "reviewed",
+  "expected": 48,
+  "assets": [
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想買一瓶水。",
+      "output": "assets/audio/candidates/shopping/shopping-001-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn mua một chai nước.",
+      "output": "assets/audio/candidates/shopping/shopping-001-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這家商店賣越南特產。",
+      "output": "assets/audio/candidates/shopping/shopping-001-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cửa hàng này bán đặc sản Việt Nam.",
+      "output": "assets/audio/candidates/shopping/shopping-001-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "最近的超市在哪裡？",
+      "output": "assets/audio/candidates/shopping/shopping-001-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Siêu thị gần nhất ở đâu?",
+      "output": "assets/audio/candidates/shopping/shopping-001-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請給我一杯冰越南奶咖啡。",
+      "output": "assets/audio/candidates/shopping/shopping-002-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cho tôi một ly cà phê sữa đá.",
+      "output": "assets/audio/candidates/shopping/shopping-002-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想買一公斤芒果。",
+      "output": "assets/audio/candidates/shopping/shopping-002-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn mua một ký xoài.",
+      "output": "assets/audio/candidates/shopping/shopping-002-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想吃一盤雞肉飯。",
+      "output": "assets/audio/candidates/shopping/shopping-002-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn ăn một đĩa cơm gà.",
+      "output": "assets/audio/candidates/shopping/shopping-002-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你喜歡哪個顏色？",
+      "output": "assets/audio/candidates/shopping/shopping-003-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn thích màu nào?",
+      "output": "assets/audio/candidates/shopping/shopping-003-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我可以試穿這件衣服嗎？",
+      "output": "assets/audio/candidates/shopping/shopping-003-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi có thể thử cái áo này không?",
+      "output": "assets/audio/candidates/shopping/shopping-003-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我還不知道要選哪個顏色。",
+      "output": "assets/audio/candidates/shopping/shopping-003-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi chưa biết chọn màu nào.",
+      "output": "assets/audio/candidates/shopping/shopping-003-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這道菜會辣嗎？",
+      "output": "assets/audio/candidates/shopping/shopping-004-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Món này có cay không?",
+      "output": "assets/audio/candidates/shopping/shopping-004-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我要再點一道菜。",
+      "output": "assets/audio/candidates/shopping/shopping-004-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cho tôi gọi thêm một món nữa.",
+      "output": "assets/audio/candidates/shopping/shopping-004-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你選哪一道菜？",
+      "output": "assets/audio/candidates/shopping/shopping-004-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn chọn món nào?",
+      "output": "assets/audio/candidates/shopping/shopping-004-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想結帳。",
+      "output": "assets/audio/candidates/shopping/shopping-005-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn thanh toán.",
+      "output": "assets/audio/candidates/shopping/shopping-005-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我會付現金。",
+      "output": "assets/audio/candidates/shopping/shopping-005-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi sẽ trả bằng tiền mặt.",
+      "output": "assets/audio/candidates/shopping/shopping-005-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我可以刷卡嗎？",
+      "output": "assets/audio/candidates/shopping/shopping-005-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi có thể trả bằng thẻ không?",
+      "output": "assets/audio/candidates/shopping/shopping-005-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請給我帳單。",
+      "output": "assets/audio/candidates/shopping/shopping-006-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cho tôi xin hóa đơn.",
+      "output": "assets/audio/candidates/shopping/shopping-006-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "請幫我再確認一次帳單。",
+      "output": "assets/audio/candidates/shopping/shopping-006-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Xin kiểm tra lại hóa đơn giúp tôi.",
+      "output": "assets/audio/candidates/shopping/shopping-006-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "這張帳單上有一道我沒點的菜。",
+      "output": "assets/audio/candidates/shopping/shopping-006-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Hóa đơn này có một món tôi không gọi.",
+      "output": "assets/audio/candidates/shopping/shopping-006-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我可以換這個嗎？",
+      "output": "assets/audio/candidates/shopping/shopping-007-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi có thể đổi cái này không?",
+      "output": "assets/audio/candidates/shopping/shopping-007-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "我想退掉這件商品。",
+      "output": "assets/audio/candidates/shopping/shopping-007-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Tôi muốn trả lại món hàng này.",
+      "output": "assets/audio/candidates/shopping/shopping-007-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "哪裡可以換錢？",
+      "output": "assets/audio/candidates/shopping/shopping-007-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Ở đâu có thể đổi tiền?",
+      "output": "assets/audio/candidates/shopping/shopping-007-3-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "商店幾點開門？",
+      "output": "assets/audio/candidates/shopping/shopping-008-1-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cửa hàng mở cửa lúc mấy giờ?",
+      "output": "assets/audio/candidates/shopping/shopping-008-1-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "商店已經關門了。",
+      "output": "assets/audio/candidates/shopping/shopping-008-2-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Cửa hàng đã đóng rồi.",
+      "output": "assets/audio/candidates/shopping/shopping-008-2-vi.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "cmn-TW",
+      "voice": "Zephyr",
+      "text": "你可以幫我把這個包起來嗎？",
+      "output": "assets/audio/candidates/shopping/shopping-008-3-zh.mp3",
+      "generated": true
+    },
+    {
+      "kind": "lesson",
+      "languageCode": "vi-VN",
+      "voice": "Zephyr",
+      "text": "Bạn có thể đóng gói món này giúp tôi không?",
+      "output": "assets/audio/candidates/shopping/shopping-008-3-vi.mp3",
+      "generated": true
+    }
+  ]
+}

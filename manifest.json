@@ -1,37 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Lexa — Vietnamese Trilingual Mastery",
-  "version": "1.1",
-  "description": "Capture YouTube subtitles and master Vietnamese through high-frequency drills.",
+  "name": "Lexa 學習收件匣",
+  "version": "2.0.0",
+  "description": "將網頁上選取的越南語加入 Lexa 學習收件匣。",
   "permissions": [
     "storage",
-    "activeTab",
-    "tabs",
-    "tts"
+    "contextMenus"
   ],
-  "action": {},
+  "action": {
+    "default_title": "開啟 Lexa"
+  },
   "background": {
     "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["*://*.youtube.com/*"],
-      "js": ["extension/content.js"]
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "index.html",
-        "memory.html",
-        "styles.css",
-        "memory.js",
-        "vault.js",
-        "server/data/lr_1k.json",
-        "server/data/lr_8k.json",
-        "lib/force-graph.min.js"
-      ],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  }
 }

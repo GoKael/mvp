@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "shopping-001",
+    "category": "shopping",
+    "title": {
+      "vi": "Tìm nơi mua hàng",
+      "zhTW": "尋找商店"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Mua nước",
+          "zhTW": "買水"
+        },
+        "zhTW": "我想買一瓶水。",
+        "vi": "Tôi muốn mua một chai nước.",
+        "wordIds": [
+          "vi:201-mua",
+          "vi:206-chai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想買",
+            "vi": "muốn mua"
+          },
+          {
+            "zhTW": "一瓶水",
+            "vi": "một chai nước"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "意願",
+            "vi": "Tôi muốn mua",
+            "zhTW": "我想買"
+          },
+          {
+            "role": "數量",
+            "vi": "một chai nước",
+            "zhTW": "一瓶水"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-001-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-001-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Cửa hàng đặc sản",
+          "zhTW": "特產店"
+        },
+        "zhTW": "這家商店賣越南特產。",
+        "vi": "Cửa hàng này bán đặc sản Việt Nam.",
+        "wordIds": [
+          "vi:202-ban",
+          "vi:203-cua-hang"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這家商店",
+            "vi": "cửa hàng này"
+          },
+          {
+            "zhTW": "賣越南特產",
+            "vi": "bán đặc sản Việt Nam"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Cửa hàng này",
+            "zhTW": "這家商店"
+          },
+          {
+            "role": "商品",
+            "vi": "bán đặc sản Việt Nam",
+            "zhTW": "賣越南特產"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-001-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-001-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Siêu thị",
+          "zhTW": "超市"
+        },
+        "zhTW": "最近的超市在哪裡？",
+        "vi": "Siêu thị gần nhất ở đâu?",
+        "wordIds": [
+          "vi:204-sieu-thi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "最近的超市",
+            "vi": "siêu thị gần nhất"
+          },
+          {
+            "zhTW": "在哪裡",
+            "vi": "ở đâu"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Siêu thị gần nhất",
+            "zhTW": "最近的超市"
+          },
+          {
+            "role": "提問",
+            "vi": "ở đâu",
+            "zhTW": "在哪裡"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-001-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-001-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-002",
+    "category": "shopping",
+    "title": {
+      "vi": "Số lượng",
+      "zhTW": "數量與單位"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Một ly cà phê",
+          "zhTW": "一杯咖啡"
+        },
+        "zhTW": "請給我一杯冰越南奶咖啡。",
+        "vi": "Cho tôi một ly cà phê sữa đá.",
+        "wordIds": [
+          "vi:207-ly"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請給我",
+            "vi": "cho tôi"
+          },
+          {
+            "zhTW": "一杯冰越南奶咖啡",
+            "vi": "một ly cà phê sữa đá"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Cho tôi",
+            "zhTW": "請給我"
+          },
+          {
+            "role": "品項",
+            "vi": "một ly cà phê sữa đá",
+            "zhTW": "一杯冰越南奶咖啡"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-002-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-002-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Một ký xoài",
+          "zhTW": "一公斤芒果"
+        },
+        "zhTW": "我想買一公斤芒果。",
+        "vi": "Tôi muốn mua một ký xoài.",
+        "wordIds": [
+          "vi:201-mua",
+          "vi:208-ky"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想買",
+            "vi": "muốn mua"
+          },
+          {
+            "zhTW": "一公斤芒果",
+            "vi": "một ký xoài"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "意願",
+            "vi": "Tôi muốn mua",
+            "zhTW": "我想買"
+          },
+          {
+            "role": "重量",
+            "vi": "một ký xoài",
+            "zhTW": "一公斤芒果"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-002-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-002-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Cơm gà",
+          "zhTW": "雞肉飯"
+        },
+        "zhTW": "我想吃一盤雞肉飯。",
+        "vi": "Tôi muốn ăn một đĩa cơm gà.",
+        "wordIds": [
+          "vi:209-com"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想吃",
+            "vi": "muốn ăn"
+          },
+          {
+            "zhTW": "一盤雞肉飯",
+            "vi": "một đĩa cơm gà"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "意願",
+            "vi": "Tôi muốn ăn",
+            "zhTW": "我想吃"
+          },
+          {
+            "role": "餐點",
+            "vi": "một đĩa cơm gà",
+            "zhTW": "一盤雞肉飯"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-002-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-002-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-003",
+    "category": "shopping",
+    "title": {
+      "vi": "Màu sắc và thử đồ",
+      "zhTW": "顏色與試穿"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Chọn màu",
+          "zhTW": "選顏色"
+        },
+        "zhTW": "你喜歡哪個顏色？",
+        "vi": "Bạn thích màu nào?",
+        "wordIds": [
+          "vi:210-mau"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你喜歡",
+            "vi": "bạn thích"
+          },
+          {
+            "zhTW": "哪個顏色",
+            "vi": "màu nào"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "偏好",
+            "vi": "Bạn thích",
+            "zhTW": "你喜歡"
+          },
+          {
+            "role": "選項",
+            "vi": "màu nào",
+            "zhTW": "哪個顏色"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-003-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-003-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Thử áo",
+          "zhTW": "試穿衣服"
+        },
+        "zhTW": "我可以試穿這件衣服嗎？",
+        "vi": "Tôi có thể thử cái áo này không?",
+        "wordIds": [
+          "vi:211-thu"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "可以試穿嗎",
+            "vi": "có thể thử"
+          },
+          {
+            "zhTW": "這件衣服",
+            "vi": "cái áo này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "許可",
+            "vi": "Tôi có thể thử",
+            "zhTW": "我可以試穿"
+          },
+          {
+            "role": "物品",
+            "vi": "cái áo này",
+            "zhTW": "這件衣服"
+          },
+          {
+            "role": "疑問",
+            "vi": "không",
+            "zhTW": "嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-003-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-003-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Chưa biết chọn",
+          "zhTW": "還沒選好"
+        },
+        "zhTW": "我還不知道要選哪個顏色。",
+        "vi": "Tôi chưa biết chọn màu nào.",
+        "wordIds": [
+          "vi:210-mau",
+          "vi:212-chon"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "還不知道",
+            "vi": "chưa biết"
+          },
+          {
+            "zhTW": "選哪個顏色",
+            "vi": "chọn màu nào"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "狀態",
+            "vi": "Tôi chưa biết",
+            "zhTW": "我還不知道"
+          },
+          {
+            "role": "選擇",
+            "vi": "chọn màu nào",
+            "zhTW": "選哪個顏色"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-003-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-003-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-004",
+    "category": "shopping",
+    "title": {
+      "vi": "Chọn món",
+      "zhTW": "選擇餐點"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Món cay",
+          "zhTW": "辣的菜"
+        },
+        "zhTW": "這道菜會辣嗎？",
+        "vi": "Món này có cay không?",
+        "wordIds": [
+          "vi:205-mon"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這道菜",
+            "vi": "món này"
+          },
+          {
+            "zhTW": "會辣嗎",
+            "vi": "có cay không"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "餐點",
+            "vi": "Món này",
+            "zhTW": "這道菜"
+          },
+          {
+            "role": "提問",
+            "vi": "có cay không",
+            "zhTW": "會辣嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-004-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-004-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Gọi thêm món",
+          "zhTW": "加點一道菜"
+        },
+        "zhTW": "我要再點一道菜。",
+        "vi": "Cho tôi gọi thêm một món nữa.",
+        "wordIds": [
+          "vi:205-mon"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "讓我再點",
+            "vi": "cho tôi gọi thêm"
+          },
+          {
+            "zhTW": "一道菜",
+            "vi": "một món nữa"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Cho tôi gọi thêm",
+            "zhTW": "讓我再點"
+          },
+          {
+            "role": "數量",
+            "vi": "một món nữa",
+            "zhTW": "一道菜"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-004-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-004-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Bạn chọn món nào",
+          "zhTW": "你選哪道菜"
+        },
+        "zhTW": "你選哪一道菜？",
+        "vi": "Bạn chọn món nào?",
+        "wordIds": [
+          "vi:205-mon",
+          "vi:212-chon"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "你選",
+            "vi": "bạn chọn"
+          },
+          {
+            "zhTW": "哪一道菜",
+            "vi": "món nào"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Bạn chọn",
+            "zhTW": "你選"
+          },
+          {
+            "role": "選項",
+            "vi": "món nào",
+            "zhTW": "哪一道菜"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-004-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-004-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-005",
+    "category": "shopping",
+    "title": {
+      "vi": "Cách thanh toán",
+      "zhTW": "選擇付款方式"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Thanh toán",
+          "zhTW": "結帳"
+        },
+        "zhTW": "我想結帳。",
+        "vi": "Tôi muốn thanh toán.",
+        "wordIds": [
+          "vi:213-thanh-toan"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我想",
+            "vi": "tôi muốn"
+          },
+          {
+            "zhTW": "結帳",
+            "vi": "thanh toán"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "意願",
+            "vi": "Tôi muốn",
+            "zhTW": "我想"
+          },
+          {
+            "role": "動作",
+            "vi": "thanh toán",
+            "zhTW": "結帳"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-005-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-005-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Tiền mặt",
+          "zhTW": "現金"
+        },
+        "zhTW": "我會付現金。",
+        "vi": "Tôi sẽ trả bằng tiền mặt.",
+        "wordIds": [
+          "vi:214-tien-mat"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我會付",
+            "vi": "tôi sẽ trả"
+          },
+          {
+            "zhTW": "用現金",
+            "vi": "bằng tiền mặt"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Tôi sẽ trả",
+            "zhTW": "我會付"
+          },
+          {
+            "role": "方式",
+            "vi": "bằng tiền mặt",
+            "zhTW": "用現金"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-005-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-005-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Trả bằng thẻ",
+          "zhTW": "刷卡"
+        },
+        "zhTW": "我可以刷卡嗎？",
+        "vi": "Tôi có thể trả bằng thẻ không?",
+        "wordIds": [
+          "vi:215-the"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "我可以付嗎",
+            "vi": "tôi có thể trả"
+          },
+          {
+            "zhTW": "用卡片",
+            "vi": "bằng thẻ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "許可",
+            "vi": "Tôi có thể trả",
+            "zhTW": "我可以付"
+          },
+          {
+            "role": "方式",
+            "vi": "bằng thẻ",
+            "zhTW": "用卡片"
+          },
+          {
+            "role": "疑問",
+            "vi": "không",
+            "zhTW": "嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-005-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-005-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-006",
+    "category": "shopping",
+    "title": {
+      "vi": "Kiểm tra hóa đơn",
+      "zhTW": "確認帳單"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Xin hóa đơn",
+          "zhTW": "索取帳單"
+        },
+        "zhTW": "請給我帳單。",
+        "vi": "Cho tôi xin hóa đơn.",
+        "wordIds": [
+          "vi:216-hoa-don"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "請給我",
+            "vi": "cho tôi xin"
+          },
+          {
+            "zhTW": "帳單",
+            "vi": "hóa đơn"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Cho tôi xin",
+            "zhTW": "請給我"
+          },
+          {
+            "role": "物品",
+            "vi": "hóa đơn",
+            "zhTW": "帳單"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-006-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-006-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Kiểm tra lại",
+          "zhTW": "重新確認"
+        },
+        "zhTW": "請幫我再確認一次帳單。",
+        "vi": "Xin kiểm tra lại hóa đơn giúp tôi.",
+        "wordIds": [
+          "vi:216-hoa-don"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "重新確認",
+            "vi": "kiểm tra lại"
+          },
+          {
+            "zhTW": "幫我確認帳單",
+            "vi": "hóa đơn giúp tôi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "動作",
+            "vi": "Xin kiểm tra lại",
+            "zhTW": "請重新確認"
+          },
+          {
+            "role": "內容",
+            "vi": "hóa đơn",
+            "zhTW": "帳單"
+          },
+          {
+            "role": "對象",
+            "vi": "giúp tôi",
+            "zhTW": "幫我"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-006-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-006-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Món không gọi",
+          "zhTW": "沒點的菜"
+        },
+        "zhTW": "這張帳單上有一道我沒點的菜。",
+        "vi": "Hóa đơn này có một món tôi không gọi.",
+        "wordIds": [
+          "vi:205-mon",
+          "vi:216-hoa-don"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "這張帳單",
+            "vi": "hóa đơn này"
+          },
+          {
+            "zhTW": "一道菜",
+            "vi": "một món"
+          },
+          {
+            "zhTW": "我沒點",
+            "vi": "tôi không gọi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "主題",
+            "vi": "Hóa đơn này",
+            "zhTW": "這張帳單"
+          },
+          {
+            "role": "問題",
+            "vi": "có một món tôi không gọi",
+            "zhTW": "有一道我沒點的菜"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-006-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-006-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-007",
+    "category": "shopping",
+    "title": {
+      "vi": "Đổi và trả hàng",
+      "zhTW": "換貨與退貨"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Đổi hàng",
+          "zhTW": "換貨"
+        },
+        "zhTW": "我可以換這個嗎？",
+        "vi": "Tôi có thể đổi cái này không?",
+        "wordIds": [
+          "vi:217-doi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "可以換嗎",
+            "vi": "có thể đổi"
+          },
+          {
+            "zhTW": "這個",
+            "vi": "cái này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "許可",
+            "vi": "Tôi có thể đổi",
+            "zhTW": "我可以換"
+          },
+          {
+            "role": "物品",
+            "vi": "cái này",
+            "zhTW": "這個"
+          },
+          {
+            "role": "疑問",
+            "vi": "không",
+            "zhTW": "嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-007-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-007-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Trả lại hàng",
+          "zhTW": "退貨"
+        },
+        "zhTW": "我想退掉這件商品。",
+        "vi": "Tôi muốn trả lại món hàng này.",
+        "wordIds": [
+          "vi:205-mon",
+          "vi:218-tra-lai"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "想退貨",
+            "vi": "muốn trả lại"
+          },
+          {
+            "zhTW": "這件商品",
+            "vi": "món hàng này"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "意願",
+            "vi": "Tôi muốn trả lại",
+            "zhTW": "我想退掉"
+          },
+          {
+            "role": "物品",
+            "vi": "món hàng này",
+            "zhTW": "這件商品"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-007-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-007-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Đổi tiền",
+          "zhTW": "換錢"
+        },
+        "zhTW": "哪裡可以換錢？",
+        "vi": "Ở đâu có thể đổi tiền?",
+        "wordIds": [
+          "vi:217-doi"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "哪裡",
+            "vi": "ở đâu"
+          },
+          {
+            "zhTW": "可以換錢",
+            "vi": "có thể đổi tiền"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Ở đâu",
+            "zhTW": "哪裡"
+          },
+          {
+            "role": "動作",
+            "vi": "có thể đổi tiền",
+            "zhTW": "可以換錢"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-007-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-007-3-vi.mp3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "shopping-008",
+    "category": "shopping",
+    "title": {
+      "vi": "Giờ mở cửa và đóng gói",
+      "zhTW": "營業時間與打包"
+    },
+    "durationSec": 30,
+    "status": "reviewed",
+    "segments": [
+      {
+        "id": 1,
+        "topic": {
+          "vi": "Giờ mở cửa",
+          "zhTW": "開門時間"
+        },
+        "zhTW": "商店幾點開門？",
+        "vi": "Cửa hàng mở cửa lúc mấy giờ?",
+        "wordIds": [
+          "vi:203-cua-hang",
+          "vi:219-mo"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "商店開門",
+            "vi": "cửa hàng mở cửa"
+          },
+          {
+            "zhTW": "幾點",
+            "vi": "lúc mấy giờ"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Cửa hàng",
+            "zhTW": "商店"
+          },
+          {
+            "role": "動作",
+            "vi": "mở cửa",
+            "zhTW": "開門"
+          },
+          {
+            "role": "時間",
+            "vi": "lúc mấy giờ",
+            "zhTW": "幾點"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-008-1-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-008-1-vi.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "topic": {
+          "vi": "Đã đóng cửa",
+          "zhTW": "已經關門"
+        },
+        "zhTW": "商店已經關門了。",
+        "vi": "Cửa hàng đã đóng rồi.",
+        "wordIds": [
+          "vi:203-cua-hang",
+          "vi:220-dong"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "商店",
+            "vi": "cửa hàng"
+          },
+          {
+            "zhTW": "已經關門",
+            "vi": "đã đóng rồi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "地點",
+            "vi": "Cửa hàng",
+            "zhTW": "商店"
+          },
+          {
+            "role": "狀態",
+            "vi": "đã đóng rồi",
+            "zhTW": "已經關門了"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-008-2-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-008-2-vi.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "topic": {
+          "vi": "Đóng gói",
+          "zhTW": "打包"
+        },
+        "zhTW": "你可以幫我把這個包起來嗎？",
+        "vi": "Bạn có thể đóng gói món này giúp tôi không?",
+        "wordIds": [
+          "vi:205-mon",
+          "vi:220-dong"
+        ],
+        "focusWords": [
+          {
+            "zhTW": "可以打包嗎",
+            "vi": "có thể đóng gói"
+          },
+          {
+            "zhTW": "這個",
+            "vi": "món này"
+          },
+          {
+            "zhTW": "幫我",
+            "vi": "giúp tôi"
+          }
+        ],
+        "breakdown": [
+          {
+            "role": "請求",
+            "vi": "Bạn có thể đóng gói",
+            "zhTW": "你可以打包"
+          },
+          {
+            "role": "物品",
+            "vi": "món này",
+            "zhTW": "這個"
+          },
+          {
+            "role": "對象",
+            "vi": "giúp tôi",
+            "zhTW": "幫我"
+          },
+          {
+            "role": "疑問",
+            "vi": "không",
+            "zhTW": "嗎"
+          }
+        ],
+        "audio": {
+          "zhTW": "assets/audio/candidates/shopping/shopping-008-3-zh.mp3",
+          "vi": "assets/audio/candidates/shopping/shopping-008-3-vi.mp3"
+        }
+      }
+    ]
+  }
+]

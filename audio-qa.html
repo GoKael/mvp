@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lexa 發音抽聽</title>
+  <style>
+    :root { color-scheme: light; --paper: #f2ead8; --card: #fffaf0; --ink: #28251f; --muted: #786f61; --line: #d8cdb8; --rust: #b84f2f; --moss: #44624b; --amber: #e5a719; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(circle at 8% 0%, #fff7df, transparent 35%), var(--paper); color: var(--ink); font-family: ui-sans-serif, sans-serif; }
+    button, select { font: inherit; }
+    header { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 16px clamp(18px, 4vw, 48px); border-bottom: 1px solid var(--line); background: rgba(242,234,216,.94); backdrop-filter: blur(12px); }
+    header strong { margin-right: auto; letter-spacing: .06em; }
+    select, button { min-height: 42px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); cursor: pointer; }
+    select, header button { padding: 0 14px; }
+    main { width: min(900px, calc(100% - 28px)); margin: 28px auto 60px; }
+    .progress { height: 7px; overflow: hidden; border-radius: 999px; background: #ded4c3; }
+    .progress span { display: block; width: 0; height: 100%; background: var(--moss); transition: width .2s ease; }
+    .summary { display: flex; justify-content: space-between; margin: 10px 2px 20px; color: var(--muted); font-size: 13px; }
+    .shortcuts { margin: -10px 2px 18px; color: var(--muted); font-size: 11px; }
+    .shortcuts kbd { padding: 2px 6px; border: 1px solid var(--line); border-radius: 5px; background: var(--card); color: var(--ink); font-family: inherit; }
+    .card { padding: clamp(22px, 5vw, 48px); border: 1px solid var(--line); border-radius: 28px 12px 28px 12px; background: var(--card); box-shadow: 0 20px 50px rgba(73,57,34,.1); }
+    .rank { color: var(--rust); font-size: 12px; font-weight: 900; letter-spacing: .16em; }
+    h1 { margin: 8px 0 2px; font-family: Georgia, serif; font-size: clamp(54px, 10vw, 92px); font-weight: 500; line-height: 1; }
+    .meaning { margin: 0 0 30px; color: var(--muted); font-size: 20px; }
+    .clips { display: grid; gap: 10px; }
+    .clip { display: grid; grid-template-columns: 48px 1fr auto; align-items: center; gap: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: #faf4e8; }
+    .clip.current { border-color: var(--amber); }
+    .clip.required { border-left: 5px solid var(--rust); }
+    .clip.playing { border-color: var(--amber); box-shadow: 0 0 0 2px rgba(229,167,25,.18); }
+    .play { width: 46px; padding: 0; border-radius: 50%; font-size: 18px; }
+    .clip-text strong { display: block; font-size: 17px; line-height: 1.4; }
+    .clip-text span { display: block; margin-top: 3px; color: var(--muted); font-size: 13px; }
+    .decision { display: flex; gap: 6px; }
+    .decision button { min-height: 36px; padding: 0 11px; font-size: 12px; font-weight: 800; }
+    .decision .active-pass { border-color: var(--moss); background: var(--moss); color: white; }
+    .decision .active-redo { border-color: var(--rust); background: var(--rust); color: white; }
+    .nav { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 9px; margin-top: 18px; }
+    .nav button { padding: 0 14px; font-weight: 800; }
+    .nav .next-pending { border-color: var(--amber); background: var(--amber); }
+    .error { padding: 26px; border: 1px solid #c98676; border-radius: 16px; background: #fff0eb; line-height: 1.7; }
+    @media (max-width: 680px) {
+      header strong { width: 100%; }
+      .clip { grid-template-columns: 42px 1fr; }
+      .decision { grid-column: 1 / -1; }
+      .decision button { flex: 1; }
+      .nav { grid-template-columns: 1fr 1fr; }
+      .nav .next-pending { grid-column: 1 / -1; grid-row: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Lexa 發音抽聽</strong>
+    <label>批次 <select id="range"><option>101-150</option><option>151-200</option><option>201-250</option><option>251-300</option></select></label>
+    <button id="export" type="button">匯出結果</button>
+  </header>
+  <main>
+    <div class="progress"><span id="progress-bar"></span></div>
+    <div class="summary"><span id="position"></span><span id="counts"></span></div>
+    <p class="shortcuts">第一次按空白播放；之後標記時會自動播放下一個未檢查單字。例句可抽聽。<br><kbd>空白</kbd> 播放　<kbd>1</kbd> 通過　<kbd>2</kbd> 需重生　<kbd>↑↓</kbd> 切換音檔　<kbd>←→</kbd> 換詞</p>
+    <section id="content" class="card" aria-live="polite"></section>
+    <nav class="nav" aria-label="抽聽導覽">
+      <button id="previous" type="button">← 上一詞</button>
+      <button id="next-pending" class="next-pending" type="button">下一個未檢查</button>
+      <button id="next" type="button">下一詞 →</button>
+    </nav>
+  </main>
+  <script type="module">
+    const ranges = ['101-150', '151-200', '201-250', '251-300'];
+    const rangeSelect = document.querySelector('#range');
+    const content = document.querySelector('#content');
+    const position = document.querySelector('#position');
+    const counts = document.querySelector('#counts');
+    const progressBar = document.querySelector('#progress-bar');
+    const params = new URLSearchParams(location.search);
+    let range = ranges.includes(params.get('range')) ? params.get('range') : ranges[0];
+    let words = [];
+    let index = 0;
+    let clipIndex = 0;
+    let activeAudio = null;
+    let results = {};
+
+    rangeSelect.value = range;
+
+    const storageKey = () => `lexa:audio-qa:${range}`;
+    const save = () => localStorage.setItem(storageKey(), JSON.stringify(results));
+    const clipsFor = (word) => [{ label: '單字 · 發布必檢', required: true, vi: word.vi, zhTW: word.zhTW, audio: word.audio }, ...word.examples.map((example, exampleIndex) => ({ label: `例句 ${exampleIndex + 1}`, required: false, ...example }))];
+
+    function stopAudio() {
+      if (activeAudio) activeAudio.pause();
+      activeAudio = null;
+      document.querySelectorAll('.clip.playing').forEach((clip) => clip.classList.remove('playing'));
+    }
+
+    function statusFor(path, text) {
+      const result = results[path];
+      return result?.text === text ? result.status : 'pending';
+    }
+
+    function updateSummary() {
+      const clips = words.flatMap((word) => clipsFor(word));
+      const required = clips.filter((clip) => clip.required);
+      const passed = required.filter((clip) => statusFor(clip.audio, clip.vi) === 'pass').length;
+      const examplesChecked = clips.filter((clip) => !clip.required && statusFor(clip.audio, clip.vi) !== 'pending').length;
+      const redo = clips.filter((clip) => statusFor(clip.audio, clip.vi) === 'redo').length;
+      position.textContent = words.length ? `第 ${index + 1} / ${words.length} 詞` : '';
+      counts.textContent = `必檢單字 ${passed}/${required.length} · 例句選檢 ${examplesChecked}/${clips.length - required.length} · 重生 ${redo}`;
+      progressBar.style.width = `${required.length ? passed / required.length * 100 : 0}%`;
+    }
+
+    function advanceClip() {
+      if (clipIndex < 3) clipIndex += 1;
+      else {
+        index = (index + 1) % words.length;
+        clipIndex = 0;
+      }
+    }
+
+    function pendingWordIndex(afterIndex = -1) {
+      const next = words.findIndex((word, wordIndex) => wordIndex > afterIndex && statusFor(word.audio, word.vi) === 'pending');
+      return next >= 0 ? next : words.findIndex((word) => statusFor(word.audio, word.vi) === 'pending');
+    }
+
+    function decisionButton(path, text, value, label, required) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = label;
+      const active = statusFor(path, text) === value;
+      button.setAttribute('aria-pressed', String(active));
+      if (active) button.className = `active-${value}`;
+      button.addEventListener('click', () => {
+        let autoPlayNext = false;
+        if (statusFor(path, text) === value) delete results[path];
+        else {
+          results[path] = { status: value, text };
+          if (required) {
+            const next = pendingWordIndex(index);
+            if (next >= 0) {
+              index = next;
+              autoPlayNext = true;
+            }
+            clipIndex = 0;
+          } else advanceClip();
+        }
+        save();
+        render();
+        if (autoPlayNext) content.querySelector('.clip.current .play')?.click();
+      });
+      return button;
+    }
+
+    function render() {
+      stopAudio();
+      content.replaceChildren();
+      const word = words[index];
+      if (!word) return;
+
+      const rank = document.createElement('div');
+      rank.className = 'rank';
+      rank.textContent = `CORE ${String(word.rank).padStart(3, '0')} · ${word.pos}`;
+      const title = document.createElement('h1');
+      title.textContent = word.vi;
+      const meaning = document.createElement('p');
+      meaning.className = 'meaning';
+      meaning.textContent = word.zhTW;
+      const list = document.createElement('div');
+      list.className = 'clips';
+
+      clipsFor(word).forEach((clip, currentIndex) => {
+        const row = document.createElement('article');
+        row.className = `clip${clip.required ? ' required' : ''}${currentIndex === clipIndex ? ' current' : ''}`;
+        const play = document.createElement('button');
+        play.type = 'button';
+        play.className = 'play';
+        play.textContent = '▶';
+        play.setAttribute('aria-label', `播放${clip.label}`);
+        play.addEventListener('click', async () => {
+          clipIndex = currentIndex;
+          stopAudio();
+          row.classList.add('playing');
+          activeAudio = new Audio(clip.audio);
+          activeAudio.addEventListener('ended', stopAudio, { once: true });
+          activeAudio.addEventListener('error', stopAudio, { once: true });
+          try { await activeAudio.play(); } catch { row.classList.remove('playing'); }
+        });
+        const text = document.createElement('div');
+        text.className = 'clip-text';
+        const vi = document.createElement('strong');
+        vi.textContent = clip.vi;
+        const zh = document.createElement('span');
+        zh.textContent = `${clip.label} · ${clip.zhTW}`;
+        text.append(vi, zh);
+        const decision = document.createElement('div');
+        decision.className = 'decision';
+        decision.append(decisionButton(clip.audio, clip.vi, 'pass', '通過', clip.required), decisionButton(clip.audio, clip.vi, 'redo', '需重生', clip.required));
+        row.append(play, text, decision);
+        list.append(row);
+      });
+
+      content.append(rank, title, meaning, list);
+      updateSummary();
+    }
+
+    async function load(nextRange = range) {
+      stopAudio();
+      range = nextRange;
+      index = 0;
+      clipIndex = 0;
+      rangeSelect.value = range;
+      history.replaceState(null, '', `?range=${range}`);
+      try {
+        const response = await fetch(`server/data/core-${range}.review.json`, { cache: 'no-store' });
+        if (!response.ok) throw new Error();
+        words = await response.json();
+        results = JSON.parse(localStorage.getItem(storageKey()) || '{}');
+        render();
+      } catch {
+        words = [];
+        content.innerHTML = '<div class="error"><strong>這個批次尚未建立。</strong><br>先建立該批次的抽聽資料，再重新載入此頁。</div>';
+        updateSummary();
+      }
+    }
+
+    function move(offset) {
+      if (!words.length) return;
+      index = (index + offset + words.length) % words.length;
+      clipIndex = 0;
+      render();
+    }
+
+    document.querySelector('#previous').addEventListener('click', () => move(-1));
+    document.querySelector('#next').addEventListener('click', () => move(1));
+    document.querySelector('#next-pending').addEventListener('click', () => {
+      const wrapped = pendingWordIndex(index);
+      if (wrapped >= 0) { index = wrapped; clipIndex = 0; render(); }
+    });
+    rangeSelect.addEventListener('change', () => load(rangeSelect.value));
+    document.querySelector('#export').addEventListener('click', () => {
+      const failed = Object.entries(results).filter(([, value]) => value.status === 'redo').map(([output]) => output);
+      const blob = new Blob([JSON.stringify({ range, exportedAt: new Date().toISOString(), results, regenerate: failed }, null, 2)], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `core-${range}-audio-qa.json`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.metaKey || event.ctrlKey || event.altKey || ['SELECT', 'INPUT', 'TEXTAREA'].includes(event.target.tagName)) return;
+      const clips = content.querySelectorAll('.clip');
+      if (event.key === ' ') {
+        event.preventDefault();
+        clips[clipIndex]?.querySelector('.play')?.click();
+      }
+      if (event.key === '1' || event.key === '2') {
+        event.preventDefault();
+        clips[clipIndex]?.querySelectorAll('.decision button')[event.key === '1' ? 0 : 1]?.click();
+      }
+      if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        event.preventDefault();
+        clipIndex = Math.max(0, Math.min(3, clipIndex + (event.key === 'ArrowDown' ? 1 : -1)));
+        render();
+      }
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        move(event.key === 'ArrowRight' ? 1 : -1);
+      }
+    });
+
+    load();
+  </script>
+</body>
+</html>
