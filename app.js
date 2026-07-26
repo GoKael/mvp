@@ -31,10 +31,10 @@ import { createLexicon, lexemeKey, splitLatinWords, splitLexemes } from './lib/l
 
 const DATA_PATHS = {
   words: 'server/data/core.json?v=4',
-  lexicon: 'server/data/lexicon.json?v=5',
+  lexicon: 'server/data/lexicon.json?v=6',
   lessons: 'server/data/lessons.json?v=4',
   patterns: 'server/data/patterns.json?v=4',
-  audio: 'server/data/audio-manifest.json?v=5',
+  audio: 'server/data/audio-manifest.json?v=6',
 };
 
 const app = document.getElementById('app');
@@ -1111,7 +1111,7 @@ async function init() {
         reloadingForWorker = true;
         location.reload();
       });
-      navigator.serviceWorker.register('./sw.js?v=32', { updateViaCache: 'none' })
+      navigator.serviceWorker.register('./sw.js?v=33', { updateViaCache: 'none' })
         .then((registration) => registration.update())
         .catch(() => {});
     }

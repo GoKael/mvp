@@ -1,8 +1,8 @@
 # Lexa
 
-Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 900 詞以「校對中」只讀顯示，Core 1000 內容索引已完成。
+Lexa 是給台灣使用者的越南語學習 PWA：每課 30 秒、三句中越對照，搭配 Core 詞典、主動回憶與本地間隔複習。目前 100 詞已發布，另有 1900 詞以「校對中」顯示，Core 2000 內容索引已完成。
 
-頁首可切換 `台灣人學越南語 / Người Việt học Hoa ngữ`。兩個方向共用概念資料但保存獨立進度；反向模式目前可使用雙語情境課、單字顯示與複習，缺少的繁中單字音檔與中文句型會明確停用，補齊內容前不視為正式發行。
+頁首可切換 `台灣人學越南語 / Người Việt học Hoa ngữ`。兩個方向共用概念資料但保存獨立進度；反向模式目前可使用雙語情境課、繁中詞義與例句音檔，未通過人工校驗的詞仍維持只讀，補齊內容前不視為正式發行。
 
 ## 本地啟動
 
@@ -34,37 +34,11 @@ node scripts/audit-vocabulary.js
 node scripts/test-core.mjs
 ```
 
-正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是目前 1000 詞的查閱索引，只有 `verified` 詞能進入播放、狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會直接進入正式 UI。
+正式學習資料位於 `server/data/core.json`、`lessons.json`、`patterns.json` 與 `audio-manifest.json`；`lexicon.json` 是目前 2000 詞的查閱索引。`reviewed` 詞可播放已完成的繁中音檔，但只有 `verified` 詞能進入狀態與複習。`core-100.json` 保留為不可變的首發種子。歷史詞表只保留在 `server/data/archive/`，不會直接進入正式 UI。
 
 `rank` 是穩定的 Lexa 內容目錄位置，不是要求使用者依序背誦的解鎖順序。實際課程依口語頻率、情境必要性與個人弱點選詞。
 
-Core `101–300` 已分成四個 50 詞的 `reviewed` 編輯來源；每詞都有繁中詞義、詞性、三個雙語例句與四個 Gemini MP3。四批共 800 個音檔已通過解碼、時長、`MP3 / 24kHz / mono`、音量、削波、無效樣本、前後留白、靜音占比與錯文重複音檔檢查。人工抽聽前只會進入只讀詞典，不會開放播放、學習狀態或複習。
-
-Core `301–400` 已完成兩個 50 詞的人工編輯來源，共 100 詞、300 個雙語例句。每詞已建立中越詞頭與三例句雙語的 8 個音訊任務，共 800 個候選任務；目前沒有免費 Gemini API key，因此尚未送出 TTS 請求，也不會進入正式發布 manifest。
-
-Core `401–450` 再加入 50 個食物烹調、機場通關與聯絡詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `451–500` 再加入 50 個租屋、居家用品、服飾與顏色詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `501–550` 再加入 50 個餐飲服務、消費付款與天氣詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `551–600` 再加入 50 個溝通、工作計畫與抽象日常詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `601–650` 再加入 50 個工作協作、科技與生活互動詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `651–700` 再加入 50 個旅行活動、學習操作與安全提醒詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `701–750` 再加入 50 個方法社會、資訊處理與自然環境詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `751–800` 再加入 50 個常見資訊、職場系統與健康狀態詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `801–850` 再加入 50 個學習服務、行政健康與常見動作詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `851–900` 再加入 50 個學習工作、文化資訊與情境理解詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `901–950` 再加入 50 個安全提示、數位操作與公共生活詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
-
-Core `951–1000` 再加入 50 個健康程序、數位服務與社會概念詞彙、150 個雙語例句及 400 個雙語音訊任務；同樣維持 `reviewed`，不呼叫付費 TTS。
+Core `101–2000` 以 50 詞為一批保存 `reviewed` 編輯來源；每詞都有繁中詞義、詞性與三個雙語例句。Core `1001–2000` 的詞頻順序來自封存的 3000 詞表，定義證據來自 MIT 授權的 `vntk/dictionary`，來源對照保存在 `content/core-1001-2000.provenance.json`。未完成雙語人工抽聽前不會升為 `verified`。
 
 七個 reviewed 情境候選包位於 `content/basics-30.source.json`、`content/core-context-39.source.json`、`content/transport-30.source.json`、`content/lodging-24.source.json`、`content/shopping-24.source.json`、`content/health-24.source.json`、`content/social-work-30.source.json`。候選包與正式食物課合計連結 Core 300 全部詞彙；執行對應的 `npm run build:*` 會生成課程、雙語音訊工作與 manifest 到 `content/review/`，不會寫入正式 `server/data/lessons.json` 或靜態部署。
 
@@ -169,7 +143,7 @@ npm run preview
 npm run build
 ```
 
-部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 1000 只讀詞典、10 課、8 句型與 manifest 內 500 個正式音檔；其餘未發布音檔、候選 TTS 任務、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
+部署 Cloudflare Pages 時，Build command 使用 `npm run build`，輸出目錄使用 `dist`。建置發布正式 Core 100、Core 2000 詞典、10 課、8 句型與 manifest 內已完成的靜態音檔；候選 TTS 任務、QA 與製作來源不會公開。完整策略見 [`DEPLOYMENT_PLAN.md`](DEPLOYMENT_PLAN.md)。
 
 ## Browser Extension
 

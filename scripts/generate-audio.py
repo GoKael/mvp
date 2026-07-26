@@ -32,6 +32,11 @@ def prompt_for(job: dict) -> str:
             "This is a language-learning example: articulate tones clearly, keep a calm conversational pace, "
             "and do not add any words."
         )
+    if job["kind"] == "word":
+        return (
+            "使用自然清楚的台灣華語女性聲音，以精簡、稍快但清楚的字典節奏朗讀詞義一次，"
+            "不要解釋、重複或加入原文以外的文字。"
+        )
     return (
         "使用自然清楚的台灣華語女性聲音朗讀。語氣溫暖、速度平穩，適合語言學習者跟讀，"
         "不要加入原句以外的文字。"

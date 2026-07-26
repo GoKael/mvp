@@ -24,7 +24,7 @@ const strictAudio = process.argv.includes('--strict-audio');
 const strictLessons = process.argv.includes('--strict-lessons');
 
 assert.ok(words.length >= 100 && words.length <= 1000 && words.length % 50 === 0, 'Published Core must contain 100–1000 words in 50-word batches');
-assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Dictionary index must grow in 50-word batches');
+assert.ok(lexicon.length >= 300 && lexicon.length <= 2000 && lexicon.length % 50 === 0, 'Dictionary index must grow in 50-word batches');
 assert.deepStrictEqual(lexicon.map((word) => word.rank), Array.from({ length: lexicon.length }, (_, index) => index + 1));
 assert.strictEqual(new Set(lexicon.map((word) => word.id)).size, lexicon.length, 'Dictionary ids must be unique');
 lexicon.forEach((word) => {

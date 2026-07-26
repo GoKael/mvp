@@ -40,8 +40,11 @@ const domains = [
   { range: [901, 950], name: '安全提示、數位操作與公共生活', required: ['dấu hiệu', 'âm thanh', 'xác nhận', 'tìm kiếm', 'tài khoản', 'sắp xếp'] },
   { range: [951, 1000], name: '健康程序、數位服務與社會概念', required: ['phương tiện', 'phẫu thuật', 'bảo hiểm', 'thủ tục', 'đất nước', 'hành trình'] },
 ];
+for (let start = 1001; start <= 2000; start += 50) {
+  domains.push({ range: [start, start + 49], name: `進階高頻詞 ${Math.ceil((start - 1000) / 50)}`, required: [] });
+}
 
-assert.ok(lexicon.length >= 300 && lexicon.length <= 1000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');
+assert.ok(lexicon.length >= 300 && lexicon.length <= 2000 && lexicon.length % 50 === 0, 'Vocabulary roadmap must grow in 50-word batches');
 assert.strictEqual(lexicon.filter((word) => word.quality === 'verified').length, 100, 'Expected 100 published words');
 assert.strictEqual(lexicon.filter((word) => word.quality === 'reviewed').length, lexicon.length - 100, 'Unexpected reviewed word count');
 assert.strictEqual(new Set(lexicon.map((word) => normalize(word.vi))).size, lexicon.length, 'Vocabulary roadmap contains duplicate lexical units');

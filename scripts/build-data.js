@@ -366,7 +366,7 @@ function buildCoreWords() {
     if (!match) throw new Error(`Invalid Core release range: ${range}`);
     const start = Number(match[1]);
     const end = Number(match[2]);
-    if (start !== expectedStart || end !== start + 49 || end > 1000) throw new Error(`Core releases must be contiguous 50-word batches: ${range}`);
+    if (start !== expectedStart || end !== start + 49 || end > 2000) throw new Error(`Core releases must be contiguous 50-word batches: ${range}`);
     words.push(...buildReleasedWords(range));
     expectedStart = end + 1;
   });
